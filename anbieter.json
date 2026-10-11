@@ -5,7 +5,7 @@
     "datenstand": "2026-10-11",
     "max_einzahlung_mit_pk": 7258,
     "max_einzahlung_quelle": "https://finpension.ch/de/saeule-3a-investieren/",
-    "zeige_affiliate_platzhalter": true,
+    "zeige_affiliate_platzhalter": false,
     "steuerjahre": {
       "2026": {
         "mit_pk": 7258,

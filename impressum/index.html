@@ -5,6 +5,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Impressum | Vermögensrechner</title>
 <meta name="description" content="Angaben zum Betreiber der Seite.">
+<link rel="canonical" href="https://vermoegensrechner-five.vercel.app/impressum/">
+<meta property="og:url" content="https://vermoegensrechner-five.vercel.app/impressum/">
 <meta property="og:title" content="Impressum | Vermögensrechner">
 <meta property="og:description" content="Angaben zum Betreiber der Seite.">
 <meta property="og:type" content="website">
@@ -256,6 +258,7 @@ tr.cur td { background: var(--wash); }
 .vg td.pname { min-width: 190px; }
 .vg td:nth-child(3) { min-width: 220px; }
 .vg td .sub { max-width: 260px; white-space: normal; }
+.vg .vg-ind { margin: 20px 0 4px; font-size: 1rem; }
 .vg .sub { display: block; overflow-wrap: anywhere; font-size: 0.78rem; font-weight: 400; margin-top: 2px; }
 .vg .tag { display: inline-block; font-size: 0.7rem; font-weight: 700; border-radius: 6px; padding: 2px 7px; margin-top: 4px; }
 .vg .tag.v { background: var(--wash); color: var(--up); }
@@ -1349,7 +1352,7 @@ function needed(sim, p, mit3a, target) {
   function xlab(ms, key) {
     const d = new Date(ms);
     if (key === '1T') return d.toLocaleTimeString('de-CH', { hour: '2-digit', minute: '2-digit' });
-    if (key === '1J' || key === '2J' || key === '5J' || key === '10J') return d.toLocaleDateString('de-CH', { month: 'short', year: '2-digit' });
+    if (key === '1J' || key === '2J' || key === '5J' || key === '10J') return d.toLocaleDateString('de-CH', { month: 'short', year: 'numeric' });
     return d.toLocaleDateString('de-CH', { day: 'numeric', month: 'short' });
   }
   function spct(x) { const a = Math.abs(x * 100); return (x >= 0 ? '+' : '-') + (a >= 1000 ? fmt(a) : a.toFixed(1)) + ' %'; }
@@ -1411,7 +1414,7 @@ function needed(sim, p, mit3a, target) {
     let lo = Infinity, hi = -Infinity;
     rows.forEach(r => { if (r.c < lo) lo = r.c; if (r.c > hi) hi = r.c; });
     const pad = (hi - lo) * 0.08 || hi * 0.01;
-    lo -= pad; hi += pad;
+    lo = Math.max(0, lo - pad); hi += pad;
     const st = niceStep((hi - lo) / 5);
     const y0 = Math.floor(lo / st) * st, y1 = Math.ceil(hi / st) * st;
     const X = i => m.l + iw * i / (n - 1), Y = v => m.t + ih * (1 - (v - y0) / (y1 - y0));
@@ -1795,15 +1798,24 @@ function needed(sim, p, mit3a, target) {
       var ref = calc(dep, yrs, q === 0 ? 0 : ret, 0, 0);
       g('c-note').textContent = 'Eingezahlt: CHF ' + chf(dep * yrs) + '. ' + (q === 0 ? 'Konten: Zins laut Anbieter, ' : 'Alle Wertschriften-Strategien mit derselben Bruttorendite von ' + (ret * 100).toFixed(1) + ' %, ') +
         'Einzahlung jeweils am Jahresanfang, Gebühr auf dem Vermögen, einmalige Kosten (Ausgabekommission, Kauf/Verkauf) soweit erfasst eingerechnet. Ohne Gebühren: CHF ' + chf(q === 0 ? dep * yrs : ref.end) + '.';
-      var h = '<table style="min-width:720px"><thead><tr><th>Anbieter</th><th>Strategie</th><th>Kosten p. a.</th><th>Gesamtkosten (laufend + einmalig)</th><th>Endkapital</th></tr></thead><tbody>';
-      if (!res.length) h += '<tr><td colspan="5" class="empty">Für diese Aktienquote liegen keine belegten Daten vor.</td></tr>';
-      res.forEach(function (r, i) {
-        var near = r.s.aktienquote > 0 && r.s.aktienquote !== q ? '<span class="sub">' + r.s.aktienquote + ' % Aktien (nächste Quote)</span>' : '';
-        h += '<tr' + (i === 0 && order === 'end' ? ' class="best"' : '') + '><td class="name">' + esc(r.a.name) + (r.ind ? '<span class="sub">indikativ mit den pauschal genannten Kosten</span>' : '') + alterHTML(r.a) + '</td><td>' + esc(r.s.name) + near + '</td><td class="num">' + pct(r.k) +
-          (r.konto ? '<span class="sub">Zins ' + pct(r.s.zins_pa) + '</span>' : '') + '</td><td class="num">CHF ' + chf(r.c.fees + r.c.once) +
-          (r.c.once > 0.5 ? '<span class="sub">davon einmalig CHF ' + chf(r.c.once) + '</span>' : '') + '</td><td class="num"><strong>CHF ' + chf(r.c.end) + '</strong></td></tr>';
-      });
-      h += '</tbody></table>';
+      var head = '<table style="min-width:720px"><thead><tr><th>Anbieter</th><th>Strategie</th><th>Kosten p. a.</th><th>Gesamtkosten (laufend + einmalig)</th><th>Endkapital</th></tr></thead><tbody>';
+      function rowsHTML(list, best) {
+        var o = '';
+        list.forEach(function (r, i) {
+          var near = r.s.aktienquote > 0 && r.s.aktienquote !== q ? '<span class="sub">' + r.s.aktienquote + ' % Aktien (nächste Quote)</span>' : '';
+          o += '<tr' + (best && i === 0 && order === 'end' ? ' class="best"' : '') + '><td class="name">' + esc(r.a.name) + (r.ind ? '<span class="sub">indikativ mit den pauschal genannten Kosten</span>' : '') + alterHTML(r.a) + '</td><td>' + esc(r.s.name) + near + '</td><td class="num">' + pct(r.k) +
+            (r.konto ? '<span class="sub">Zins ' + pct(r.s.zins_pa) + '</span>' : '') + '</td><td class="num">CHF ' + chf(r.c.fees + r.c.once) +
+            (r.c.once > 0.5 ? '<span class="sub">davon einmalig CHF ' + chf(r.c.once) + '</span>' : '') + '</td><td class="num"><strong>CHF ' + chf(r.c.end) + '</strong></td></tr>';
+        });
+        return o;
+      }
+      var ver = res.filter(function (r) { return !r.ind; }), indik = res.filter(function (r) { return r.ind; });
+      var h = head;
+      if (!ver.length) h += '<tr><td colspan="5" class="empty">Für diese Aktienquote liegen keine belegten Strategien vor.</td></tr>';
+      h += rowsHTML(ver, true) + '</tbody></table>';
+      if (indik.length) {
+        h += '<h4 class="vg-ind">Nur indikativ, nicht direkt vergleichbar</h4><p class="small">Für diese Anbieter ist keine Strategie mit der gewählten Aktienquote belegt. Gerechnet wird mit den pauschal genannten Kosten; sie stehen deshalb nicht im Ranking oben.</p>' + head + rowsHTML(indik, false) + '</tbody></table>';
+      }
       var hints = res.filter(function (r) { return r.a.rechenhinweis; }).map(function (r) { return '<li><b>' + esc(r.a.name) + ':</b> ' + esc(r.a.rechenhinweis) + '</li>'; });
       if (hints.length) h += '<ul class="small">' + hints.join('') + '</ul>';
       if (skip.length) h += '<p class="small">Ohne Ergebnis (keine belegten Daten für diese Quote): ' + skip.map(function (a) { return esc(a.name); }).join(', ') + '.</p>';
@@ -1812,6 +1824,13 @@ function needed(sim, p, mit3a, target) {
 
     function init(d) {
       DATA = d;
+      try {
+        if (typeof S === 'object' && S) {
+          if (S.max3a > 0) g('c-dep').value = Math.round(S.max3a);
+          if (S.bis3a >= 1) g('c-years').value = Math.round(S.bis3a);
+          if (typeof S.rendite === 'number') g('c-ret').value = +(S.rendite > 1 ? S.rendite : S.rendite * 100).toFixed(2);
+        }
+      } catch (e) {}
       g('stand').textContent = 'Stand: ' + datum(d.meta.datenstand);
       renderTable(); renderCalc();
       ['vg-f-typ', 'vg-f-quote', 'vg-f-fee', 'vg-f-min', 'vg-f-ver'].forEach(function (id) { var el = document.getElementById(id); el.addEventListener('input', renderTable); el.addEventListener('change', renderTable); });
