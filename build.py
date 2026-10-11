@@ -1,4 +1,4 @@
-import json, os, re, shutil
+import json, os, re, shutil, sys, html as _html
 BASE = os.path.dirname(os.path.abspath(__file__))
 OUT = BASE  # Ausgabe direkt im Repo-Root
 old = open(os.path.join(BASE, 'src', 'model.js'), encoding='utf-8').read()
@@ -20,13 +20,25 @@ META = {
           'Lohnt sich die Säule 3a? Vergleich mit dem freien Depot nach Steuern, Szenarien, Break-even sowie Gebühren und Konditionen der 3a-Anbieter in der Schweiz.'),
  'btc': ('Bitcoin-Kurs in CHF mit Kurshistorie bis 10 Jahre | Vermögensrechner',
          'Aktueller Bitcoin-Kurs in Schweizer Franken und Kursverlauf von einem Tag bis zehn Jahre.'),
- 'etf': ('ETF-Tracker: 24 beliebte ETFs mit Kursverlauf | Vermögensrechner',
-         'Kurse und Kursverlauf von 24 beliebten ETFs, darunter VTI, VOO, QQQ, GLD sowie Schweizer und europäische Fonds.'),
+ 'etf': ('ETF-Tracker: 26 beliebte ETFs mit Kursverlauf | Vermögensrechner',
+         'Kurse und Kursverlauf von 26 beliebten ETFs, darunter VTI, VOO, QQQ, GLD sowie Schweizer und europäische Fonds.'),
  'methodik': ('Methodik und Annahmen | Vermögensrechner',
               'Wie die Rechner arbeiten: Annahmen, Steuerlogik der Säule 3a, Datenquellen und Grenzen des Anbieter-Vergleichs.'),
  'datenschutz': ('Datenschutz | Vermögensrechner', 'Welche Daten bei der Nutzung anfallen und wohin sie gehen.'),
  'impressum': ('Impressum | Vermögensrechner', 'Angaben zum Betreiber der Seite.'),
 }
+# zentrale Angaben für Impressum und Datenschutz (config.json)
+CFG = json.load(open(os.path.join(BASE, 'config.json'), encoding='utf-8'))
+MISSING = []
+CFG_LABELS = {'name': 'Vor- und Nachname bzw. Firma', 'strasse': 'Strasse und Nummer', 'plzort': 'PLZ Ort', 'email': 'E-Mail-Adresse', 'datenschutz_stand': 'Datum (Stand der Datenschutzerklärung)'}
+def cfg_sub(m):
+    k = m.group(1)
+    v = (CFG.get(k) or '').strip()
+    if not v or v.startswith('['):
+        if k not in MISSING: MISSING.append(k)
+        return '<span class="todo">[%s eintragen]</span>' % CFG_LABELS.get(k, k)
+    return _html.escape(v)
+tpl = re.sub(r'\{\{(\w+)\}\}', cfg_sub, tpl)
 full = tpl.replace('// MODEL-PLACEHOLDER', model)
 full = full.replace('/*META-JSON*/{}', json.dumps({k: {'title': v[0], 'description': v[1]} for k, v in META.items()}, ensure_ascii=False))
 cut = full.index('<header class="site">')
@@ -116,3 +128,9 @@ open(os.path.join(OUT, 'robots.txt'), 'w').write('User-agent: *\nAllow: /\n\nSit
 open(os.path.join(OUT, 'sitemap.xml'), 'w').write('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' +
     ''.join('  <url><loc>%s%s</loc></url>\n' % (SITE, v) for v in PATHS.values()) + '</urlset>\n')
 print('gebaut', {k: len(page(k)) for k in PATHS})
+
+if MISSING:
+    msg = 'ACHTUNG: In config.json fehlen Angaben für Impressum und Datenschutz: ' + ', '.join(CFG_LABELS.get(k, k) for k in MISSING)
+    print('\n' + '!' * 70 + '\n' + msg + '\nDie Seiten zeigen dort noch rote Platzhalter. Vor der Veröffentlichung ausfüllen.\n' + '!' * 70)
+    if '--strict' in sys.argv:
+        sys.exit(1)

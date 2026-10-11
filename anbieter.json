@@ -228,7 +228,7 @@
       "name": "PostFinance",
       "kosten": null,
       "einmalig": {
-        "text": "Wohneigentumsbezug: CHF 200 pro Bezug",
+        "text": "Wohneigentumsbezug: CHF 200 pro Bezug; keine Rücknahmekommission (laut PostFinance-Blog vom 07.11.2025); Ausgabekommission und Fondskosten nicht belegt",
         "wohneigentum_chf": 200
       },
       "zins_stand": "2025-08-01",
@@ -309,7 +309,7 @@
           "kosten_pa": null
         }
       ],
-      "hinweise": "Konditionen ab 01.02.2026. Konto: Zins 0.20 %, Führung kostenlos, 2 % bei Nichteinhalten der 31-tägigen Kündigungsfrist. Fonds: einmalige Ausgabekommission 0.75 % auf die ersten CHF 100'000, 0.15 % darüber. Fonds-Sparplan ab CHF 100 pro Einzahlung. Quoten sind ca.-Werte.",
+      "hinweise": "Konditionen ab 01.02.2026. Konto: Zins 0.20 %, Führung kostenlos, 2 % bei Nichteinhalten der 31-tägigen Kündigungsfrist. Fonds: einmalige Ausgabekommission 0.75 % auf die ersten CHF 100'000, 0.15 % darüber. Fonds-Sparplan ab CHF 100 pro Einzahlung. Quoten sind ca.-Werte. Verwaltungskommission und Fondskosten der Futura-Vorsorgefonds stehen in der «Vorsorge – Konditionenübersicht ab 01.02.2026» und den Fonds-Merkblättern; sie konnten nicht ausgelesen werden.",
       "nicht_verifiziert": [
         "laufende Fondskosten (TER)",
         "Mindesteinlage (ausser Sparplan CHF 100)",
@@ -358,13 +358,22 @@
       "stand": "2026-10-11",
       "quelle": "https://www.ubs.com/ch/de/services/pension/pillar-3/pillar-3a.html",
       "quellen_weitere": [
-        "https://www.ubs.com/ch/de/services/accounts-and-cards/interest-rates-privates.html"
+        "https://www.ubs.com/ch/de/services/accounts-and-cards/interest-rates-privates.html",
+        "https://www.ubs.com/ch/de/services/pension/vitainvest-optimization.html"
       ],
       "affiliate_url": "",
       "id": "ubs",
       "name": "UBS",
-      "kosten": null,
-      "zins_stand": "2026-06-24"
+      "kosten": {
+        "min": null,
+        "max": null,
+        "art": "teilweise",
+        "hinweis": "Bei den Vitainvest-Fonds keine Ausgabe-/Rücknahmekommission und keine Depotgebühr (laut UBS). Fondskosten (TER) stehen nur in den Fonds-Merkblättern und sind hier nicht erfasst."
+      },
+      "zins_stand": "2026-06-24",
+      "einmalig": {
+        "text": "keine Ausgabe- oder Rücknahmekommission, keine Depotgebühr bei Vitainvest (laut UBS)"
+      }
     },
     {
       "typ": "Wertschriften und Konto",
@@ -642,7 +651,13 @@
     {
       "typ": "Wertschriften und Konto",
       "status": "teilweise verifiziert",
-      "kosten": null,
+      "kosten": {
+        "min": null,
+        "max": null,
+        "mindestens": 0.3,
+        "art": "teilweise",
+        "hinweis": "Anlagetarif 0.30 % p. a. (AKB-Portfoliofonds und ausgewählte Drittprodukte) bzw. 0.68 % p. a. (übrige Fonds), zuzüglich Fondskosten. Fondskosten (TER) sind auf der Seite nicht angegeben."
+      },
       "freibetrag_chf": null,
       "mindesteinlage_chf": null,
       "eroeffnung_chf": null,
@@ -657,18 +672,24 @@
       ],
       "hinweise": "Konto: Zins 0.05 %, Eröffnung, Führung und Auszüge kostenlos. Vorsorge-Wertschriftensparen wird angeboten; Kosten und Strategien stehen laut Seite im Stiftungsreglement bzw. beim Vorsorge-Coach. Sondergebühren (z. B. Wohneigentumsbezug) nach separatem Gebührentarif.",
       "nicht_verifiziert": [
+        "Datum der Angaben",
+        "Aktienquoten der Portfoliofonds",
         "Wertschriftensparen (alle Zahlen)",
-        "Mindesteinlage",
-        "Datum der Angaben"
+        "Fondskosten (TER)",
+        "Einheit der Börsenkommission",
+        "Mindesteinlage"
       ],
       "stand": "2026-10-11",
-      "quelle": "https://www.akb.ch/private/vorsorge/vorsorgeprodukte/vorsorgekonto-sparen-3",
+      "quelle": "https://www.akb.ch/private/anlegen-handeln/wertschriftensparen",
       "quellen_weitere": [
         "https://www.akb.ch/private/vorsorgen/saeule-3-a"
       ],
       "affiliate_url": "",
       "id": "akb",
-      "name": "Aargauische Kantonalbank (AKB)"
+      "name": "Aargauische Kantonalbank (AKB)",
+      "einmalig": {
+        "text": "Börsenkommission «0.55» bei Fondskäufen bis CHF 50'000 (Einheit auf der Seite nicht genannt); keine Börsenkommission bei AKB-Produkten und ausgewählten Drittprodukten"
+      }
     },
     {
       "typ": "Bankkonto",
@@ -686,7 +707,7 @@
           "kosten_pa": 0
         }
       ],
-      "hinweise": "Auf der Produktseite steht ein Zins von 0.70 % ohne Datum; die Seite nennt Steuerabzugsgrenzen «für 2023» und ist möglicherweise veraltet. Bitte vor Verwendung beim Anbieter prüfen. Wertschriftenlösung (Portfolio 3) nicht ausgewertet.",
+      "hinweise": "Auf der Produktseite steht ein Zins von 0.70 % ohne Datum; die Seite nennt Steuerabzugsgrenzen «für 2023» und ist möglicherweise veraltet. Bitte vor Verwendung beim Anbieter prüfen. Wertschriftenlösung (Portfolio 3) nicht ausgewertet. Kontozins 0.70 % am 11.10.2026 erneut auf der Anbieterseite bestätigt; die Seite nennt kein Gültigkeitsdatum.",
       "nicht_verifiziert": [
         "Zins (undatiert, evtl. veraltet)",
         "Kontogebühren",

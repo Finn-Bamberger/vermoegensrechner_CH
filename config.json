@@ -1,0 +1,8 @@
+{
+  "_hinweis": "Hier einmal die Angaben für Impressum und Datenschutz eintragen, dann 'python3 build.py' ausführen. Leer lassen = roter Platzhalter auf der Seite und Warnung beim Bauen ('python3 build.py --strict' bricht ab).",
+  "name": "",
+  "strasse": "",
+  "plzort": "",
+  "email": "",
+  "datenschutz_stand": ""
+}

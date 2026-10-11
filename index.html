@@ -266,6 +266,8 @@ tr.cur td { background: var(--wash); }
 .vg td.pname { min-width: 190px; }
 .vg td:nth-child(3) { min-width: 220px; }
 .vg td .sub { max-width: 260px; white-space: normal; }
+.vg .vg-nv { margin-top: 14px; }
+.vg .vg-nv > summary { font-size: 0.9rem; }
 .vg .vg-ind { margin: 20px 0 4px; font-size: 1rem; }
 .vg .sub { display: block; overflow-wrap: anywhere; font-size: 0.78rem; font-weight: 400; margin-top: 2px; }
 .vg .tag { display: inline-block; font-size: 0.7rem; font-weight: 700; border-radius: 6px; padding: 2px 7px; margin-top: 4px; }
@@ -398,6 +400,16 @@ ul.breaks { margin: 0; padding-left: 1.2em; display: flex; flex-direction: colum
         <a class="more" href="/zinseszins/" data-go="zins">Ausführlicher Rechner mit Tabelle</a>
       </section>
 
+      <section id="st-teaser" aria-labelledby="teaser-title">
+        <div class="sec-head">
+          <h2 id="teaser-title">Lohnt sich die Säule 3a?</h2>
+          <p>Ein Beispiel mit Standardwerten, die drei wichtigsten Ergebnisse.</p>
+        </div>
+        <div class="stats" id="st-teaser-grid"></div>
+        <p class="cap" id="st-teaser-cap"></p>
+        <a class="more" href="/saeule-3a/" data-go="drei">Eigene Werte in der Säule-3a-Rechnung eingeben</a>
+      </section>
+
       <section>
         <div class="sec-head">
           <h2>Kennzahlen zu deinem Beispiel</h2>
@@ -439,7 +451,7 @@ ul.breaks { margin: 0; padding-left: 1.2em; display: flex; flex-direction: colum
           <a class="card" href="/etf/" data-go="etf">
             <svg viewBox="0 0 34 34" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="6" width="24" height="22" rx="3"/><path d="M10 22v-4M15 22v-8M20 22v-5M25 22v-10"/></svg>
             <h3>ETF-Tracker</h3>
-            <p>24 beliebte ETFs mit aktuellen Kursen und Kursverlauf.</p>
+            <p>26 beliebte ETFs mit aktuellen Kursen und Kursverlauf.</p>
             <span class="go">Öffnen</span>
           </a>
         </div>
@@ -742,7 +754,32 @@ function needed(sim, p, mit3a, target) {
     return '<article class="stat"><p class="stat-l">' + label + '</p><p class="stat-v">' + value + '</p><p class="stat-s">' + sub + '</p></article>';
   }
 
+  // Teaser: 3a-Kennzahlen mit den Standardwerten (nicht mit den Eingaben der Seite), einmal berechnet
+  let teaserDone = false;
+  function renderTeaser() {
+    if (teaserDone || !document.getElementById('st-teaser')) return;
+    teaserDone = true;
+    setTimeout(() => {
+      const D = {};
+      Object.keys(DEFS).forEach(k => { D[k] = DEFS[k].def; });
+      D.indexiert = true;
+      const p = mcParams(D);
+      const zz = makeNormals(p.jahre * 12 * N, 42);
+      const sim = simulate(p, zz), s0 = p.sparrate;
+      const sf = stats(sim, p, s0, false), s3 = stats(sim, p, s0, true);
+      const tgB = breakEven(sim, p, s0, sf.med, 'tg', 0, 0.6, true);
+      const tax = Math.min(s0 * 12, p.max3a) * p.tg;
+      const be = tgB.edge === 'low' ? '0 %' : tgB.edge === 'high' ? 'über 60 %' : (tgB.v * 100).toFixed(1) + ' %';
+      $('st-teaser-grid').innerHTML =
+        stat('Steuerersparnis pro Jahr', 'CHF ' + fmt(tax), 'Bei ' + (p.tg * 100).toFixed(0) + ' % Grenzsteuersatz und CHF ' + fmt(Math.min(s0 * 12, p.max3a)) + ' Einzahlung in die Säule 3a.') +
+        stat('Break-even Grenzsteuersatz', be, 'Ab diesem Grenzsteuersatz liegt die Säule 3a im Median vor dem freien Depot.') +
+        stat('Chance auf das Ziel', pct1(s3.p) + ' statt ' + pct1(sf.p), 'Mit Säule 3a statt nur im freien Depot, Ziel CHF ' + fmt(p.ziel) + ' in ' + p.jahre + ' Jahren.');
+      $('st-teaser-cap').textContent = 'Berechnet mit den Standardwerten der Säule-3a-Seite (' + fmt(s0) + ' CHF pro Monat, ' + (p.rendite * 100).toFixed(0) + ' % Rendite, ' + p.jahre + ' Jahre), nicht mit deinen Eingaben oben. Modellrechnung, keine Beratung.';
+    }, 50);
+  }
+
   function renderStart() {
+    renderTeaser();
     const r = compound(S.z_start, S.z_monat, S.z_zins, S.z_jahre);
     $('st-years').textContent = S.z_jahre;
     $('st-end').textContent = 'CHF ' + fmt(r.end);
@@ -790,16 +827,18 @@ function needed(sim, p, mit3a, target) {
     2027: { pk: 7373, ohne: 36864, quote: 0.2 }
   };
   // abgeleitete Werte: 3a-Höchstbetrag aus Steuerjahr, Pensionskasse und Einkommen; Steuerlast im freien Depot
-  function derive() {
-    const st = STEUER[S.jahr3a] || STEUER[2026];
-    S.max3a = S.pk === 1 ? Math.min(st.ohne, Math.floor(S.einkommen * st.quote)) : st.pk;
-    S.drag = S.divRend * S.tg / 100 + S.vst;
+  function derive(X) {
+    X = X || S;
+    const st = STEUER[X.jahr3a] || STEUER[2026];
+    X.max3a = X.pk === 1 ? Math.min(st.ohne, Math.floor(X.einkommen * st.quote)) : st.pk;
+    X.drag = X.divRend * X.tg / 100 + X.vst;
   }
-  function mcParams() {
-    derive();
-    const p = { nSim: N, indexiert: S.indexiert };
-    MCKEYS.forEach(k => { p[k] = DEFS[k].pct ? S[k] / 100 : S[k]; });
-    p.bezug = (S.staffel === 1 ? S.bezug2 : S.bezug) / 100;
+  function mcParams(X) {
+    X = X || S;
+    derive(X);
+    const p = { nSim: N, indexiert: X.indexiert };
+    MCKEYS.forEach(k => { p[k] = DEFS[k].pct ? X[k] / 100 : X[k]; });
+    p.bezug = (X.staffel === 1 ? X.bezug2 : X.bezug) / 100;
     return p;
   }
   function medianOf(sim, p, s, mit) {
@@ -850,8 +889,8 @@ function needed(sim, p, mit3a, target) {
       (with3a ? '<section class="chartbox"><h2>Szenarien nach Steuern</h2><div class="tablewrap" style="max-height:none"><table id="' + pid + '-scen"></table></div><p class="cap">Vermögen nach Ablauf des Horizonts, nach Steuern und in heutigen Franken. Pessimistisch: nur 1 von 10 Verläufen ist schlechter. Optimistisch: nur 1 von 10 ist besser.</p></section>' +
       '<section class="chartbox"><h2>Ab wann schlägt das Depot die Säule 3a?</h2><ul class="breaks" id="' + pid + '-break"></ul><p class="cap">Vergleich anhand des Medians, bei sonst gleichen Annahmen. Die Steuerlast im Depot bleibt dabei unverändert. Die Säule 3a ist bis zum Bezug gesperrt, das Depot nicht.</p></section>' : '') +
       '<section class="chartbox"><h2>Vergleich verschiedener Sparraten</h2><div class="tablewrap"><table id="' + pid + '-tbl"></table></div></section>' +
-      '<details class="notes"><summary>Annahmen und Grenzen</summary><ul>' +
-      '<li>10\'000 simulierte Börsenverläufe, monatlich, mit konstanter Rendite und Schwankung (Normalverteilung). Echte Märkte haben mehr Extremereignisse.</li>' +
+      '<details class="notes" open><summary>Annahmen und Grenzen</summary><ul>' +
+      '<li>10\'000 simulierte Börsenverläufe, monatlich, mit konstanter Rendite und Schwankung (normalverteilte Monatsrenditen, die Kurse sind damit log-normalverteilt). Die Zufallszahlen sind fest vorgegeben. Echte Märkte haben mehr Extremereignisse.</li>' +
       '<li>Die Rendite ist ein Durchschnitt, keine Prognose. Das tatsächliche Zinseszins-Wachstum liegt wegen der Schwankung etwa um die halbe Varianz tiefer (bei 15 % rund 1.1 Prozentpunkte).</li>' +
       '<li>Kursgewinne sind für Privatanleger in der Schweiz steuerfrei. Die Steuerlast im freien Depot ergibt sich aus Dividendenrendite mal Grenzsteuersatz plus Vermögenssteuer; die Verrechnungssteuer wird als zurückgefordert angenommen. Kurs- und Währungsrisiken stecken in der Schwankung, der Rechner arbeitet in Franken.</li>' +
       (with3a ? '<li>Das Startkapital liegt im freien Depot. In die Säule 3a fliesst die Sparrate bis zum Höchstbetrag des gewählten Steuerjahres, der Rest ins freie Depot. Die Steuerersparnis wird jeweils am Jahresende im freien Depot angelegt. Die Sätze für Grenzsteuer und Bezugssteuer gibst du selbst ein; sie hängen von Kanton, Gemeinde, Einkommen, Zivilstand und Konfession ab. Nicht modelliert sind Wohneigentumsbezug, Pensionskassen-Einkäufe und die Rückforderung der Verrechnungssteuer.</li>' : '') +
@@ -907,7 +946,7 @@ function needed(sim, p, mit3a, target) {
       $(pid + '-break').innerHTML = li.map(x => '<li>' + x + '</li>').join('');
       const st = STEUER[S.jahr3a];
       $('dr-limit').innerHTML = 'Steuerjahr ' + S.jahr3a + ': Höchstbetrag mit Pensionskasse CHF ' + fmt(st.pk) + ', ohne Pensionskasse 20 % des Netto-Erwerbseinkommens, höchstens CHF ' + fmt(st.ohne) +
-        '. <b>Dein Höchstbetrag: CHF ' + fmt(S.max3a) + ' pro Jahr.</b> Quellen: <a href="https://finpension.ch/de/saeule-3a-investieren/" target="_blank" rel="noopener">2026 (finpension)</a>, <a href="https://www.bkb.ch/de/privatkunden/vorsorge/vorsorgekonten/sparen-3-konto" target="_blank" rel="noopener">2027 (BKB)</a>. Die Beträge ändern sich jährlich.' +
+        '. <b>Dein Höchstbetrag: CHF ' + fmt(S.max3a) + ' pro Jahr.</b> Quellen: <a href="https://finpension.ch/de/saeule-3a-investieren/" target="_blank" rel="noopener">2026 (finpension)</a>, <a href="https://www.admin.ch/de/newnsb/6ck3kzVxBNQ4" target="_blank" rel="noopener">2027 (Bund, Mitteilung vom 5.10.2026)</a>. Die Beträge ändern sich jährlich.' +
         ' Grenzsteuersatz und Bezugssteuer für deinen Kanton und deine Gemeinde ermittelst du im <a href="https://swisstaxcalculator.estv.admin.ch/" target="_blank" rel="noopener">Steuerrechner der ESTV</a>.';
       $('dr-einkommen').closest('.field').hidden = S.pk !== 1;
       $('dr-bezug2').closest('.field').hidden = S.staffel !== 1;
@@ -1292,34 +1331,36 @@ function needed(sim, p, mit3a, target) {
   })();
 
   // ---------- ETF-Tracker (Diagramm und Kurstabelle als Widgets von TradingView) ----------
-  const ETF_GROUPS = ['USA', 'Welt und Schwellenländer', 'Anleihen', 'Gold', 'Schweiz und Europa'];
+  const ETF_GROUPS = ['In der Schweiz handelbar (SIX, in Franken oder Dollar)', 'USA (für Schweizer Privatkunden oft nicht kaufbar)', 'Welt und Schwellenländer (US-Fonds)', 'Anleihen (US-Fonds)', 'Gold (US-Fonds)', 'Europa (Xetra)'];
   const ETFS = [
-    { g: 0, t: 'VTI',   tv: 'AMEX:VTI',   n: 'Vanguard Total Stock Market',         ex: 'NYSE Arca', cur: 'USD' },
-    { g: 0, t: 'VOO',   tv: 'AMEX:VOO',   n: 'Vanguard S&P 500',                    ex: 'NYSE Arca', cur: 'USD' },
-    { g: 0, t: 'SPY',   tv: 'AMEX:SPY',   n: 'SPDR S&P 500',                        ex: 'NYSE Arca', cur: 'USD' },
-    { g: 0, t: 'IVV',   tv: 'AMEX:IVV',   n: 'iShares Core S&P 500',                ex: 'NYSE Arca', cur: 'USD' },
-    { g: 0, t: 'QQQ',   tv: 'NASDAQ:QQQ', n: 'Invesco QQQ (Nasdaq 100)',            ex: 'Nasdaq',    cur: 'USD' },
-    { g: 0, t: 'VTV',   tv: 'AMEX:VTV',   n: 'Vanguard Value',                      ex: 'NYSE Arca', cur: 'USD' },
-    { g: 0, t: 'VUG',   tv: 'AMEX:VUG',   n: 'Vanguard Growth',                     ex: 'NYSE Arca', cur: 'USD' },
-    { g: 0, t: 'VIG',   tv: 'AMEX:VIG',   n: 'Vanguard Dividend Appreciation',      ex: 'NYSE Arca', cur: 'USD' },
-    { g: 0, t: 'IWF',   tv: 'AMEX:IWF',   n: 'iShares Russell 1000 Growth',         ex: 'NYSE Arca', cur: 'USD' },
-    { g: 0, t: 'IWM',   tv: 'AMEX:IWM',   n: 'iShares Russell 2000',                ex: 'NYSE Arca', cur: 'USD' },
-    { g: 0, t: 'VO',    tv: 'AMEX:VO',    n: 'Vanguard Mid-Cap',                    ex: 'NYSE Arca', cur: 'USD' },
-    { g: 1, t: 'VXUS',  tv: 'NASDAQ:VXUS', n: 'Vanguard Total International Stock', ex: 'Nasdaq',    cur: 'USD' },
-    { g: 1, t: 'IEFA',  tv: 'AMEX:IEFA',  n: 'iShares Core MSCI EAFE',              ex: 'NYSE Arca', cur: 'USD' },
-    { g: 1, t: 'VEA',   tv: 'AMEX:VEA',   n: 'Vanguard FTSE Developed Markets',     ex: 'NYSE Arca', cur: 'USD' },
-    { g: 1, t: 'IEMG',  tv: 'AMEX:IEMG',  n: 'iShares Core MSCI Emerging Markets',  ex: 'NYSE Arca', cur: 'USD' },
-    { g: 1, t: 'VWO',   tv: 'AMEX:VWO',   n: 'Vanguard FTSE Emerging Markets',      ex: 'NYSE Arca', cur: 'USD' },
-    { g: 2, t: 'AGG',   tv: 'AMEX:AGG',   n: 'iShares Core US Aggregate Bond',      ex: 'NYSE Arca', cur: 'USD' },
-    { g: 2, t: 'BND',   tv: 'NASDAQ:BND', n: 'Vanguard Total Bond Market',          ex: 'Nasdaq',    cur: 'USD' },
-    { g: 3, t: 'GLD',   tv: 'AMEX:GLD',   n: 'SPDR Gold Shares',                    ex: 'NYSE Arca', cur: 'USD' },
-    { g: 3, t: 'IAU',   tv: 'AMEX:IAU',   n: 'iShares Gold Trust',                  ex: 'NYSE Arca', cur: 'USD' },
-    { g: 4, t: 'CHSPI', tv: 'SIX:CHSPI',  n: 'iShares Core SPI ETF (CH)',           ex: 'SIX Swiss Exchange', cur: 'CHF' },
-    { g: 4, t: 'CHDVD', tv: 'SIX:CHDVD',  n: 'iShares Swiss Dividend ETF (CH)',     ex: 'SIX Swiss Exchange', cur: 'CHF' },
-    { g: 4, t: 'IMEU',  tv: 'SIX:IMEU',   n: 'iShares Core MSCI Europe UCITS ETF',  ex: 'SIX Swiss Exchange', cur: 'CHF' },
-    { g: 4, t: 'EXS1',  tv: 'XETR:EXS1',  n: 'iShares Core DAX UCITS ETF (DE)',     ex: 'Xetra',     cur: 'EUR' }
+    { g: 1, t: 'VTI',   tv: 'AMEX:VTI',   n: 'Vanguard Total Stock Market',         ex: 'NYSE Arca', cur: 'USD' },
+    { g: 1, t: 'VOO',   tv: 'AMEX:VOO',   n: 'Vanguard S&P 500',                    ex: 'NYSE Arca', cur: 'USD' },
+    { g: 1, t: 'SPY',   tv: 'AMEX:SPY',   n: 'SPDR S&P 500',                        ex: 'NYSE Arca', cur: 'USD' },
+    { g: 1, t: 'IVV',   tv: 'AMEX:IVV',   n: 'iShares Core S&P 500',                ex: 'NYSE Arca', cur: 'USD' },
+    { g: 1, t: 'QQQ',   tv: 'NASDAQ:QQQ', n: 'Invesco QQQ (Nasdaq 100)',            ex: 'Nasdaq',    cur: 'USD' },
+    { g: 1, t: 'VTV',   tv: 'AMEX:VTV',   n: 'Vanguard Value',                      ex: 'NYSE Arca', cur: 'USD' },
+    { g: 1, t: 'VUG',   tv: 'AMEX:VUG',   n: 'Vanguard Growth',                     ex: 'NYSE Arca', cur: 'USD' },
+    { g: 1, t: 'VIG',   tv: 'AMEX:VIG',   n: 'Vanguard Dividend Appreciation',      ex: 'NYSE Arca', cur: 'USD' },
+    { g: 1, t: 'IWF',   tv: 'AMEX:IWF',   n: 'iShares Russell 1000 Growth',         ex: 'NYSE Arca', cur: 'USD' },
+    { g: 1, t: 'IWM',   tv: 'AMEX:IWM',   n: 'iShares Russell 2000',                ex: 'NYSE Arca', cur: 'USD' },
+    { g: 1, t: 'VO',    tv: 'AMEX:VO',    n: 'Vanguard Mid-Cap',                    ex: 'NYSE Arca', cur: 'USD' },
+    { g: 2, t: 'VXUS',  tv: 'NASDAQ:VXUS', n: 'Vanguard Total International Stock', ex: 'Nasdaq',    cur: 'USD' },
+    { g: 2, t: 'IEFA',  tv: 'AMEX:IEFA',  n: 'iShares Core MSCI EAFE',              ex: 'NYSE Arca', cur: 'USD' },
+    { g: 2, t: 'VEA',   tv: 'AMEX:VEA',   n: 'Vanguard FTSE Developed Markets',     ex: 'NYSE Arca', cur: 'USD' },
+    { g: 2, t: 'IEMG',  tv: 'AMEX:IEMG',  n: 'iShares Core MSCI Emerging Markets',  ex: 'NYSE Arca', cur: 'USD' },
+    { g: 2, t: 'VWO',   tv: 'AMEX:VWO',   n: 'Vanguard FTSE Emerging Markets',      ex: 'NYSE Arca', cur: 'USD' },
+    { g: 3, t: 'AGG',   tv: 'AMEX:AGG',   n: 'iShares Core US Aggregate Bond',      ex: 'NYSE Arca', cur: 'USD' },
+    { g: 3, t: 'BND',   tv: 'NASDAQ:BND', n: 'Vanguard Total Bond Market',          ex: 'Nasdaq',    cur: 'USD' },
+    { g: 4, t: 'GLD',   tv: 'AMEX:GLD',   n: 'SPDR Gold Shares',                    ex: 'NYSE Arca', cur: 'USD' },
+    { g: 4, t: 'IAU',   tv: 'AMEX:IAU',   n: 'iShares Gold Trust',                  ex: 'NYSE Arca', cur: 'USD' },
+    { g: 0, t: 'CHSPI', tv: 'SIX:CHSPI',  n: 'iShares Core SPI ETF (CH)',           ex: 'SIX Swiss Exchange', cur: 'CHF' },
+    { g: 0, t: 'CHDVD', tv: 'SIX:CHDVD',  n: 'iShares Swiss Dividend ETF (CH)',     ex: 'SIX Swiss Exchange', cur: 'CHF' },
+    { g: 0, t: 'IMEU',  tv: 'SIX:IMEU',   n: 'iShares Core MSCI Europe UCITS ETF',  ex: 'SIX Swiss Exchange', cur: 'CHF' },
+    { g: 0, t: 'CSSPX', tv: 'SIX:CSSPX',  n: 'iShares Core S&P 500 UCITS ETF (Acc)', ex: 'SIX Swiss Exchange', cur: 'USD' },
+    { g: 0, t: 'CSSMI', tv: 'SIX:CSSMI',  n: 'iShares SMI ETF (CH)',                ex: 'SIX Swiss Exchange', cur: 'CHF' },
+    { g: 5, t: 'EXS1',  tv: 'XETR:EXS1',  n: 'iShares Core DAX UCITS ETF (DE)',     ex: 'Xetra',     cur: 'EUR' }
   ];
-  const ETFSTATE = { sel: 'VTI', theme: null, built: false, range: '10J' };
+  const ETFSTATE = { sel: 'CHSPI', theme: null, built: false, range: '10J' };
   const ETF_RANGES = {
     '1J':  { label: '1 Jahr',   range: '12M',  interval: 'D' },
     '5J':  { label: '5 Jahre',  range: '60M',  interval: 'W' },
@@ -1553,7 +1594,8 @@ function needed(sim, p, mit3a, target) {
         return '<th scope="col" aria-sort="' + s + '"><button type="button" data-sort="' + c[0] + '">' + c[1] + '</button></th>';
       }).join('') + '<th scope="col">Stand / Quelle</th></tr></thead><tbody>';
       if (!rows.length) h += '<tr><td colspan="8" class="empty">Kein Anbieter passt zu diesen Filtern.</td></tr>';
-      rows.forEach(function (a) {
+      function rowHTML(a) {
+        var h = '';
         var qs = quotes(a), z = (a.strategien || []).filter(function (s) { return s.zins_pa != null; });
         var tag = a.status === 'verifiziert' ? '<span class="tag v">belegt</span>' : a.status === 'teilweise verifiziert' ? '<span class="tag t">teilweise belegt</span>' : '<span class="tag n">nicht verifiziert</span>';
         var nv = (a.nicht_verifiziert && a.nicht_verifiziert.length && a.status !== 'nicht verifiziert') ? '<span class="sub">Nicht belegt: ' + esc(a.nicht_verifiziert.join(', ')) + '</span>' : '';
@@ -1565,8 +1607,19 @@ function needed(sim, p, mit3a, target) {
           '<td class="num">' + (z.length ? pct(z[0].zins_pa) + (a.zins_stand ? '<span class="sub">Stand ' + datum(a.zins_stand) + '</span>' : '') : NV) + '</td>' +
           '<td>' + (a.einmalig && a.einmalig.text ? esc(a.einmalig.text) : NV) + '</td>' +
           '<td>' + datum(a.stand) + '<br>' + aff(a) + '</td></tr>';
-      });
-      g('tw').innerHTML = h + '</tbody></table>';
+      return h;
+      }
+      var okRows = rows.filter(verif), nvRows = rows.filter(function (a) { return !verif(a); });
+      okRows.forEach(function (a) { h += rowHTML(a); });
+      var head = h.slice(0, h.indexOf('<tbody>') + 7);
+      h += '</tbody></table>';
+      if (nvRows.length) {
+        h += '<details class="vg-nv"><summary>Nicht verifizierte Anbieter (' + nvRows.length + ')</summary>' +
+          '<p class="small">Zu diesen Anbietern liegen keine belegten Zahlen vor. Sie stehen nicht im Vergleich.</p>' +
+          head + nvRows.map(rowHTML).join('') + '</tbody></table></details>';
+      }
+      g('tw').innerHTML = h;
+
     }
 
     function renderCalc() {
@@ -1643,7 +1696,7 @@ function needed(sim, p, mit3a, target) {
   // ---------- Seiten und Menü ----------
   const PAGES = ['start', 'zins', 'sparplan', 'drei', 'btc', 'etf', 'methodik', 'datenschutz', 'impressum'];
   const PATHS = { start: '/', zins: '/zinseszins/', sparplan: '/sparplan/', drei: '/saeule-3a/', btc: '/bitcoin/', etf: '/etf/', methodik: '/methodik/', datenschutz: '/datenschutz/', impressum: '/impressum/' };
-  const META = {"start": {"title": "Vermögensrechner: Zinseszins, Sparplan, Säule 3a, Bitcoin und ETFs", "description": "Gratis-Rechner für die Schweiz: Zinseszins, Sparplan-Simulation, Säule 3a mit Steuern und Anbieter-Vergleich, Bitcoin-Kurs und ETF-Tracker."}, "zins": {"title": "Zinseszins-Rechner mit Teuerung und Kaufkraft | Vermögensrechner", "description": "Zinseszins rechnen: Endkapital, Zinsanteil und Kaufkraft nach Teuerung, mit Jahrestabelle. Gratis für die Schweiz."}, "sparplan": {"title": "Sparplan-Simulation mit Monte-Carlo | Vermögensrechner", "description": "Wie wahrscheinlich erreichst du dein Sparziel? 10'000 simulierte Börsenverläufe, nach Gebühren und Teuerung, in heutigen Franken."}, "drei": {"title": "Säule 3a: Steuern, Break-even und Anbieter-Vergleich | Vermögensrechner", "description": "Lohnt sich die Säule 3a? Vergleich mit dem freien Depot nach Steuern, Szenarien, Break-even sowie Gebühren und Konditionen der 3a-Anbieter in der Schweiz."}, "btc": {"title": "Bitcoin-Kurs in CHF mit Kurshistorie bis 10 Jahre | Vermögensrechner", "description": "Aktueller Bitcoin-Kurs in Schweizer Franken und Kursverlauf von einem Tag bis zehn Jahre."}, "etf": {"title": "ETF-Tracker: 24 beliebte ETFs mit Kursverlauf | Vermögensrechner", "description": "Kurse und Kursverlauf von 24 beliebten ETFs, darunter VTI, VOO, QQQ, GLD sowie Schweizer und europäische Fonds."}, "methodik": {"title": "Methodik und Annahmen | Vermögensrechner", "description": "Wie die Rechner arbeiten: Annahmen, Steuerlogik der Säule 3a, Datenquellen und Grenzen des Anbieter-Vergleichs."}, "datenschutz": {"title": "Datenschutz | Vermögensrechner", "description": "Welche Daten bei der Nutzung anfallen und wohin sie gehen."}, "impressum": {"title": "Impressum | Vermögensrechner", "description": "Angaben zum Betreiber der Seite."}};
+  const META = {"start": {"title": "Vermögensrechner: Zinseszins, Sparplan, Säule 3a, Bitcoin und ETFs", "description": "Gratis-Rechner für die Schweiz: Zinseszins, Sparplan-Simulation, Säule 3a mit Steuern und Anbieter-Vergleich, Bitcoin-Kurs und ETF-Tracker."}, "zins": {"title": "Zinseszins-Rechner mit Teuerung und Kaufkraft | Vermögensrechner", "description": "Zinseszins rechnen: Endkapital, Zinsanteil und Kaufkraft nach Teuerung, mit Jahrestabelle. Gratis für die Schweiz."}, "sparplan": {"title": "Sparplan-Simulation mit Monte-Carlo | Vermögensrechner", "description": "Wie wahrscheinlich erreichst du dein Sparziel? 10'000 simulierte Börsenverläufe, nach Gebühren und Teuerung, in heutigen Franken."}, "drei": {"title": "Säule 3a: Steuern, Break-even und Anbieter-Vergleich | Vermögensrechner", "description": "Lohnt sich die Säule 3a? Vergleich mit dem freien Depot nach Steuern, Szenarien, Break-even sowie Gebühren und Konditionen der 3a-Anbieter in der Schweiz."}, "btc": {"title": "Bitcoin-Kurs in CHF mit Kurshistorie bis 10 Jahre | Vermögensrechner", "description": "Aktueller Bitcoin-Kurs in Schweizer Franken und Kursverlauf von einem Tag bis zehn Jahre."}, "etf": {"title": "ETF-Tracker: 26 beliebte ETFs mit Kursverlauf | Vermögensrechner", "description": "Kurse und Kursverlauf von 26 beliebten ETFs, darunter VTI, VOO, QQQ, GLD sowie Schweizer und europäische Fonds."}, "methodik": {"title": "Methodik und Annahmen | Vermögensrechner", "description": "Wie die Rechner arbeiten: Annahmen, Steuerlogik der Säule 3a, Datenquellen und Grenzen des Anbieter-Vergleichs."}, "datenschutz": {"title": "Datenschutz | Vermögensrechner", "description": "Welche Daten bei der Nutzung anfallen und wohin sie gehen."}, "impressum": {"title": "Impressum | Vermögensrechner", "description": "Angaben zum Betreiber der Seite."}};
   function pageFromPath(path) {
     path = String(path || '/').replace(/index\.html$/, '');
     if (path.slice(-1) !== '/') path += '/';
