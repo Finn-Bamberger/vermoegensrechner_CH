@@ -18,14 +18,14 @@
 <meta name="twitter:image" content="https://vermoegensrechner-five.vercel.app/og.png">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <meta name="theme-color" content="#0B5D5A">
-<link rel="preload" href="/fonts/instrument-sans-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="/fonts/bricolage-grotesque-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/instrument-sans-latin-wght-normal-v2.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/bricolage-grotesque-latin-wght-normal-v2.woff2" as="font" type="font/woff2" crossorigin>
 <style>html{color-scheme:light}body{margin:0}img{max-width:100%}[hidden]{display:none!important}</style>
 <style>
-@font-face { font-family: "Bricolage Grotesque"; font-style: normal; font-weight: 200 800; font-display: swap; src: url(/fonts/bricolage-grotesque-latin-wght-normal.woff2) format("woff2"); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
-@font-face { font-family: "Instrument Sans"; font-style: normal; font-weight: 400 700; font-display: swap; src: url(/fonts/instrument-sans-latin-wght-normal.woff2) format("woff2"); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
-@font-face { font-family: "IBM Plex Mono"; font-style: normal; font-weight: 400; font-display: swap; src: url(/fonts/ibm-plex-mono-latin-400-normal.woff2) format("woff2"); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
-@font-face { font-family: "IBM Plex Mono"; font-style: normal; font-weight: 500; font-display: swap; src: url(/fonts/ibm-plex-mono-latin-500-normal.woff2) format("woff2"); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family: "Bricolage Grotesque"; font-style: normal; font-weight: 200 800; font-display: swap; src: url(/fonts/bricolage-grotesque-latin-wght-normal-v2.woff2) format("woff2"); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family: "Instrument Sans"; font-style: normal; font-weight: 400 700; font-display: swap; src: url(/fonts/instrument-sans-latin-wght-normal-v2.woff2) format("woff2"); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family: "IBM Plex Mono"; font-style: normal; font-weight: 400; font-display: swap; src: url(/fonts/ibm-plex-mono-latin-400-normal-v2.woff2) format("woff2"); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family: "IBM Plex Mono"; font-style: normal; font-weight: 500; font-display: swap; src: url(/fonts/ibm-plex-mono-latin-500-normal-v2.woff2) format("woff2"); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
 /* Konzept: Schweizer Finanzseite. Tiefes Petrol als Markenfarbe, Safran als einziger Akzent,
    Blau und Bernstein nur als Datenfarben (frei / 3a). Dunkles Hero-Band, helle Arbeitsflächen.
    Schrift: Bricolage Grotesque für Titel und grosse Zahlen, Instrument Sans für Text, IBM Plex Mono für Tabellen. */
@@ -650,6 +650,16 @@ function needed(sim, p, mit3a, target) {
   const TXTI = 'font-family:var(--f-num);font-size:11px;fill:var(--ink)';
   function yearStep(n, compact) { return compact ? (n <= 10 ? 2 : n <= 20 ? 5 : n <= 40 ? 10 : 20) : (n <= 10 ? 1 : n <= 20 ? 2 : n <= 40 ? 5 : 10); }
 
+  // Barrierefreiheit: Das SVG selbst bekommt role="img" und einen Text; der Container trägt keine doppelte Beschriftung.
+  function a11yChart(el, label, focusName) {
+    const sv = el.querySelector('svg');
+    if (!sv) return;
+    sv.setAttribute('role', 'img');
+    sv.setAttribute('aria-label', label);
+    if (focusName) { el.setAttribute('role', 'group'); el.setAttribute('aria-label', focusName); }
+    else { el.removeAttribute('role'); el.removeAttribute('aria-label'); }
+  }
+
   function drawStack(el, r, infl, compact) {
     const W = Math.max(260, Math.floor(el.clientWidth - (compact ? 0 : 12))), H = compact ? 200 : (W < 480 ? 240 : 300);
     const m = { l: compact ? 46 : 56, r: 10, t: 10, b: 26 };
@@ -676,6 +686,7 @@ function needed(sim, p, mit3a, target) {
     for (let k = 0; k <= n; k++) d += (k ? 'L' : 'M') + X(k).toFixed(1) + ' ' + Y(r.bal[k] / Math.pow(1 + infl / 100, k)).toFixed(1);
     s += '<path d="' + d + '" fill="none" style="stroke:var(--ink)" stroke-width="1.6" stroke-dasharray="5 4"/>';
     el.innerHTML = s + '</svg>';
+    a11yChart(el, 'Säulendiagramm: Entwicklung von Einzahlungen und Zinsen über ' + n + ' Jahre, am Ende CHF ' + fmt(r.end) + ' (davon Einzahlungen CHF ' + fmt(r.paid) + ', Zinsen CHF ' + fmt(r.interest) + '). Die Werte stehen auch als Text bei den Kennzahlen.');
   }
 
   function stat(label, value, sub) {
@@ -908,7 +919,8 @@ function needed(sim, p, mit3a, target) {
       curve.frei.push([s, pZiel(sim, s, false, p)]);
       if (with3a) curve.drei.push([s, pZiel(sim, s, true, p)]);
     }
-    $(pid + '-fan').setAttribute('aria-label', 'Vermögen nach ' + p.jahre + ' Jahren in heutigen Franken, Median: ' + (with3a ? 'nur freies Depot CHF ' + fmt(sf.med) + ', mit Säule 3a CHF ' + fmt(s3.med) + '. Bereich 10 bis 90 Prozent: frei CHF ' + fmt(sf.lo) + ' bis ' + fmt(sf.hi) + ', 3a CHF ' + fmt(s3.lo) + ' bis ' + fmt(s3.hi) : 'CHF ' + fmt(sf.med) + '. Bereich 10 bis 90 Prozent: CHF ' + fmt(sf.lo) + ' bis ' + fmt(sf.hi)));
+    $(pid + '-fan').dataset.label = ('Vermögen nach ' + p.jahre + ' Jahren in heutigen Franken, Median: ' + (with3a ? 'nur freies Depot CHF ' + fmt(sf.med) + ', mit Säule 3a CHF ' + fmt(s3.med) + '. Bereich 10 bis 90 Prozent: frei CHF ' + fmt(sf.lo) + ' bis ' + fmt(sf.hi) + ', 3a CHF ' + fmt(s3.lo) + ' bis ' + fmt(s3.hi) : 'CHF ' + fmt(sf.med) + '. Bereich 10 bis 90 Prozent: CHF ' + fmt(sf.lo) + ' bis ' + fmt(sf.hi)));
+    $(pid + '-curve').dataset.label = 'Chance auf das Ziel von CHF ' + fmt(p.ziel) + ' in ' + p.jahre + ' Jahren je monatlicher Sparrate; bei CHF ' + fmt(s0) + ' pro Monat: ' + pct1(sf.p) + (with3a ? ' nur im freien Depot, ' + pct1(s3.p) + ' mit Säule 3a.' : '.');
     LAST[pid] = { p: p, s0: s0, with3a: with3a, curve: curve, ser: { frei: serF, drei: serD } };
     drawMC(pid);
   }
@@ -945,6 +957,7 @@ function needed(sim, p, mit3a, target) {
     s += '<line x1="' + m.l + '" x2="' + (W - m.r) + '" y1="' + Y(p.ziel) + '" y2="' + Y(p.ziel) + '" style="stroke:var(--ink)" stroke-width="1.2" stroke-dasharray="5 4"/>';
     s += '<text x="' + (m.l + 6) + '" y="' + (Y(p.ziel) - 6) + '" style="' + TXTI + '">Ziel CHF ' + fmt(p.ziel) + '</text>';
     el.innerHTML = s + '</svg>';
+    a11yChart(el, 'Liniendiagramm: ' + (el.dataset.label || 'Vermögensverlauf nach Steuern in heutigen Franken') + ' Die wichtigsten Werte stehen als Text in den Kacheln und in den Tabellen darunter.');
   }
 
   function drawCurve(el, L) {
@@ -977,6 +990,7 @@ function needed(sim, p, mit3a, target) {
       s += '<circle cx="' + X(p3[0]) + '" cy="' + Y(p3[1]) + '" r="4.5" style="fill:var(--drei);stroke:var(--surface)" stroke-width="1.5"/>';
     }
     el.innerHTML = s + '</svg>';
+    a11yChart(el, 'Liniendiagramm: ' + (el.dataset.label || 'Chance, das Ziel zu erreichen, je monatlicher Sparrate') + ' Die Werte stehen auch in der Tabelle «Vergleich verschiedener Sparraten».');
   }
 
   function drawMC(pid) {
@@ -1192,7 +1206,8 @@ function needed(sim, p, mit3a, target) {
     }
     el.innerHTML = s + '</svg>';
     const first = rows[0], last = rows[n - 1];
-    el.setAttribute('aria-label', 'Kursverlauf von Bitcoin in Franken, ' + R.label + ': von CHF ' + fmt(first.c) + ' auf CHF ' + fmt(last.c) + ', Tiefstkurs CHF ' + fmt(Math.min.apply(null, rows.map(r => r.c))) + ', Höchstkurs CHF ' + fmt(Math.max.apply(null, rows.map(r => r.c))) + '. Mit den Pfeiltasten kannst du einzelne Kurse ansehen.');
+    el.dataset.label = ('Kursverlauf von Bitcoin in Franken, ' + R.label + ': von CHF ' + fmt(first.c) + ' auf CHF ' + fmt(last.c) + ', Tiefstkurs CHF ' + fmt(Math.min.apply(null, rows.map(r => r.c))) + ', Höchstkurs CHF ' + fmt(Math.max.apply(null, rows.map(r => r.c))) + '. Mit den Pfeiltasten kannst du einzelne Kurse ansehen.');
+    a11yChart(el, 'Liniendiagramm: ' + (el.dataset.label || 'Kursverlauf von Bitcoin in Franken') + ' Die wichtigsten Kennzahlen stehen als Text unter dem Diagramm.', 'Bitcoin-Diagramm, mit den Pfeiltasten kannst du einzelne Kurse ansehen');
     if (BTC.hover >= 0 && BTC.hover < n) $('btc-sr').textContent = dstr(rows[BTC.hover].t, R.interval < 1440) + ': CHF ' + fmt(rows[BTC.hover].c);
   }
 

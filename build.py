@@ -60,7 +60,8 @@ def jsonld(key):
     import json as _j
     objs = []
     if key == 'start':
-        objs.append({'@context': 'https://schema.org', '@type': 'WebSite', 'name': 'Vermögensrechner', 'url': SITE + '/', 'inLanguage': 'de-CH'})
+        objs.append({'@context': 'https://schema.org', '@type': 'WebSite', 'name': 'Vermögensrechner', 'url': SITE + '/', 'inLanguage': 'de-CH'}
+                    | ({'publisher': {'@type': 'Person' if not CFG.get('firma') else 'Organization', 'name': CFG['name'].strip()}} if (CFG.get('name') or '').strip() and not CFG['name'].strip().startswith('[') else {}))
     if key in FAQ:
         objs.append({'@context': 'https://schema.org', '@type': 'FAQPage', 'mainEntity': [
             {'@type': 'Question', 'name': q, 'acceptedAnswer': {'@type': 'Answer', 'text': a}} for q, a in FAQ[key]]})
@@ -96,7 +97,7 @@ def page(key):
     b = b.replace('<!--FAQ-' + key + '-->', faq_html(key))
     b = strip_inactive(b, key)
     pre = ''.join('<link rel="preload" href="/fonts/%s" as="font" type="font/woff2" crossorigin>\n' % f for f in
-                  ('instrument-sans-latin-wght-normal.woff2', 'bricolage-grotesque-latin-wght-normal.woff2'))
+                  ('instrument-sans-latin-wght-normal-v2.woff2', 'bricolage-grotesque-latin-wght-normal-v2.woff2'))
     url = SITE + PATHS[key]
     head_tags = (
         '<meta charset="utf-8">\n<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">\n'
