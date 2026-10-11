@@ -541,6 +541,7 @@ ul.breaks { margin: 0; padding-left: 1.2em; display: flex; flex-direction: colum
           <dl class="legend2" id="btc-day"></dl>
         </div>
         <div class="rng-row" id="btc-ranges" role="group" aria-label="Zeitraum wählen"></div>
+        <div class="rng-row" id="btc-scale" role="group" aria-label="Skala wählen"><button type="button" class="rng" data-scale="lin" aria-pressed="true">Linear</button><button type="button" class="rng" data-scale="log" aria-pressed="false">Logarithmisch</button></div>
         <div class="chart" id="btc-chart" role="img" tabindex="0" aria-label="Kursverlauf von Bitcoin in Schweizer Franken. Mit den Pfeiltasten kannst du einzelne Kurse ansehen."></div>
         <p class="sr-only" id="btc-sr" role="status" aria-live="polite"></p>
         <p class="cap" id="btc-cap"></p>
@@ -549,11 +550,15 @@ ul.breaks { margin: 0; padding-left: 1.2em; display: flex; flex-direction: colum
           <summary>Hinweise zu den Daten</summary>
           <ul>
             <li>Die Kurse stammen vom Handelspaar XBT/CHF der Börse Kraken und können bei anderen Anbietern leicht abweichen.</li>
-            <li>Bis zu 2 Jahren zeigt der Verlauf Schlusskurse von Kraken, in Kerzen von 15 Minuten bis 1 Tag. Für 5 und 10 Jahre stammen die Daten von Blockchain.info (Tagesdurchschnitt in US-Dollar, ein Wert alle zwei Tage). Sie werden mit den Devisenkursen der EZB (über Frankfurter) in Franken umgerechnet und weichen deshalb leicht von echten Börsenkursen in Franken ab.</li>
-            <li>Dein Browser ruft die Kurse direkt bei Kraken ab, für 5 und 10 Jahre zusätzlich bei Blockchain.info und Frankfurter. Diese Anbieter sehen dabei deine IP-Adresse.</li>
+            <li>Bis zu 2 Jahren zeigt der Verlauf Schlusskurse von Kraken, in Kerzen von 15 Minuten bis 1 Tag. Für 5 Jahre, 10 Jahre und «Max» stammen die Daten von Blockchain.info (Tagesdurchschnitt in US-Dollar, in Abständen von mehreren Tagen). Sie werden mit den Devisenkursen der EZB (über Frankfurter) in Franken umgerechnet und weichen deshalb leicht von echten Börsenkursen in Franken ab.</li>
+            <li>Dein Browser ruft die Kurse direkt bei Kraken ab, für 5 Jahre, 10 Jahre und «Max» zusätzlich bei Blockchain.info und Frankfurter. Diese Anbieter sehen dabei deine IP-Adresse.</li>
             <li>Bitcoin kann sehr stark schwanken, ein Totalverlust ist möglich. Frühere Kurse sagen nichts über künftige aus. Dies ist keine Anlageberatung.</li>
           </ul>
         </details>
+      </div>
+      <div class="doc">
+<!--FAQ-btc-->
+        <p class="small">Quelle: <a href="https://www.estv.admin.ch/de/kryptowaehrungen-besteuerung" target="_blank" rel="noopener">Eidgenössische Steuerverwaltung ESTV, Kryptowährungen</a>. Allgemeine Information, keine Steuerberatung.</p>
       </div>
     </div>
   </section>
@@ -718,7 +723,8 @@ ul.breaks { margin: 0; padding-left: 1.2em; display: flex; flex-direction: colum
 (function () {
   const N = 10000;
   const KEY = 'vermoegensrechner-v2';
-  const $ = id => document.getElementById(id);
+  // Jede Seite enthält nur ihren eigenen Inhalt; fehlende Elemente anderer Seiten werden durch ein unsichtbares Ersatzelement abgefangen.
+  const $ = id => document.getElementById(id) || document.createElement('div');
 
   // ---------- Felder und Zustand ----------
   const DEFS = {
@@ -1157,7 +1163,7 @@ ul.breaks { margin: 0; padding-left: 1.2em; display: flex; flex-direction: colum
   }
 
   // ---------- Bitcoin (Kurse direkt von der Kraken-Schnittstelle) ----------
-  const BTC = { range: '30T', data: {}, ticker: null, err: null, hover: -1, loading: false };
+  const BTC = { range: '30T', data: {}, ticker: null, err: null, hover: -1, loading: false, log: false, stale: false };
   const RANGES = {
     '1T':  { label: '24 Std.', long: 'in den letzten 24 Stunden', step: '15 Minuten', interval: 15,   take: 96 },
     '7T':  { label: '7 Tage',  long: 'in den letzten 7 Tagen',    step: '1 Stunde',   interval: 60,   take: 168 },
@@ -1165,7 +1171,8 @@ ul.breaks { margin: 0; padding-left: 1.2em; display: flex; flex-direction: colum
     '1J':  { label: '1 Jahr',  long: 'im letzten Jahr',           step: '1 Tag',      interval: 1440, take: 365 },
     '2J':  { label: '2 Jahre', long: 'in den letzten 2 Jahren',   step: '1 Tag',      interval: 1440, take: 720 },
     '5J':  { label: '5 Jahre', long: 'in den letzten 5 Jahren',   step: '2 Tage',     interval: 2880, years: 5 },
-    '10J': { label: '10 Jahre', long: 'in den letzten 10 Jahren', step: '2 Tage',     interval: 2880, years: 10 }
+    '10J': { label: '10 Jahre', long: 'in den letzten 10 Jahren', step: '2 Tage',     interval: 2880, years: 10 },
+    'MAX': { label: 'Max',      long: 'seit dem ersten Handelskurs', step: 'mehreren Tagen', interval: 2880, years: 40, all: true }
   };
   const KRAKEN = 'https://api.kraken.com/0/public/';
 
@@ -1187,12 +1194,14 @@ ul.breaks { margin: 0; padding-left: 1.2em; display: flex; flex-direction: colum
   async function loadTicker() {
     const t = firstResult(await getJSON(KRAKEN + 'Ticker?pair=XBTCHF'));
     BTC.ticker = { price: parseFloat(t.c[0]), hi: parseFloat(t.h[1]), lo: parseFloat(t.l[1]), at: Date.now() };
+    BTC.stale = false;
+    try { localStorage.setItem('btc-last', JSON.stringify(BTC.ticker)); } catch (e) { /* ignorieren */ }
   }
   // Lange Zeiträume: Blockchain.info (USD, Tagesdurchschnitt) mal Devisenkurs USD/CHF der EZB (Frankfurter)
-  async function loadLong() {
-    const startIso = new Date(Date.now() - 3660 * 86400000).toISOString().slice(0, 10);
+  async function loadLong(all) {
+    const startIso = new Date(Date.now() - (all ? 6000 : 3660) * 86400000).toISOString().slice(0, 10);
     const res = await Promise.all([
-      getJSON('https://api.blockchain.info/charts/market-price?timespan=10years&format=json&cors=true'),
+      getJSON('https://api.blockchain.info/charts/market-price?timespan=' + (all ? 'all' : '10years') + '&format=json&cors=true'),
       getJSON('https://api.frankfurter.dev/v1/' + startIso + '..?base=USD&symbols=CHF')
     ]);
     const bc = res[0], fx = res[1];
@@ -1204,18 +1213,20 @@ ul.breaks { margin: 0; padding-left: 1.2em; display: flex; flex-direction: colum
       const ms = v.x * 1000, ds = new Date(ms).toISOString().slice(0, 10);
       while (j + 1 < fxDates.length && fxDates[j + 1] <= ds) j++;
       const c = v.y * fxVals[j];
-      if (v.y > 0 && isFinite(c)) rows.push({ t: ms, h: c, l: c, c: c });
+      // vor dem ersten Handelskurs liefert die Quelle Nullen; ausserdem nur Tage ab den ersten verfügbaren Devisenkursen
+      if (v.y > 0 && isFinite(c) && fxDates.length && ds >= fxDates[0]) rows.push({ t: ms, h: c, l: c, c: c });
     });
     if (rows.length < 50) throw new Error('Zu wenige Kursdaten erhalten');
-    BTC.long = { rows: rows, at: Date.now() };
+    BTC[all ? 'longAll' : 'long'] = { rows: rows, at: Date.now() };
   }
   async function loadRange(key) {
     const R = RANGES[key];
     let rows;
     if (R.years) {
-      if (!BTC.long || Date.now() - BTC.long.at > 6 * 3600000) await loadLong();
+      const src = R.all ? 'longAll' : 'long';
+      if (!BTC[src] || Date.now() - BTC[src].at > 6 * 3600000) await loadLong(R.all);
       const cutoff = Date.now() - R.years * 365.25 * 86400000;
-      rows = BTC.long.rows.filter(r => r.t >= cutoff);
+      rows = BTC[src].rows.filter(r => r.t >= cutoff);
     } else {
       rows = firstResult(await getJSON(KRAKEN + 'OHLC?pair=XBTCHF&interval=' + R.interval))
         .slice(-R.take).map(c => ({ t: c[0] * 1000, h: parseFloat(c[2]), l: parseFloat(c[3]), c: parseFloat(c[4]) }));
@@ -1246,7 +1257,7 @@ ul.breaks { margin: 0; padding-left: 1.2em; display: flex; flex-direction: colum
   function xlab(ms, key) {
     const d = new Date(ms);
     if (key === '1T') return d.toLocaleTimeString('de-CH', { hour: '2-digit', minute: '2-digit' });
-    if (key === '1J' || key === '2J' || key === '5J' || key === '10J') return d.toLocaleDateString('de-CH', { month: 'short', year: 'numeric' });
+    if (key === '1J' || key === '2J' || key === '5J' || key === '10J' || key === 'MAX') return d.toLocaleDateString('de-CH', { month: 'short', year: 'numeric' });
     return d.toLocaleDateString('de-CH', { day: 'numeric', month: 'short' });
   }
   function spct(x) { const a = Math.abs(x * 100); return (x >= 0 ? '+' : '-') + (a >= 1000 ? fmt(a) : a.toFixed(1)) + ' %'; }
@@ -1263,7 +1274,7 @@ ul.breaks { margin: 0; padding-left: 1.2em; display: flex; flex-direction: colum
 
     if (T) {
       $('btc-price').textContent = 'CHF ' + fmt(T.price);
-      $('btc-time').textContent = 'Stand ' + hms(T.at) + ' Uhr';
+      $('btc-time').textContent = (BTC.err || BTC.stale ? 'Letzter bekannter Kurs vom ' + dstr(T.at, true) + ' Uhr, nicht aktuell' : 'Stand ' + hms(T.at) + ' Uhr');
       $('btc-day').innerHTML = '<div><dt>24 Std. Tief</dt><dd>CHF ' + fmt(T.lo) + '</dd></div><div><dt>24 Std. Hoch</dt><dd>CHF ' + fmt(T.hi) + '</dd></div>';
     } else {
       $('btc-price').textContent = '…';
@@ -1309,14 +1320,30 @@ ul.breaks { margin: 0; padding-left: 1.2em; display: flex; flex-direction: colum
     rows.forEach(r => { if (r.c < lo) lo = r.c; if (r.c > hi) hi = r.c; });
     const pad = (hi - lo) * 0.08 || hi * 0.01;
     lo = Math.max(0, lo - pad); hi += pad;
-    const st = niceStep((hi - lo) / 5);
-    const y0 = Math.floor(lo / st) * st, y1 = Math.ceil(hi / st) * st;
-    const X = i => m.l + iw * i / (n - 1), Y = v => m.t + ih * (1 - (v - y0) / (y1 - y0));
+    const LOG = BTC.log && rows.every(r => r.c > 0);
+    let st, y0, y1, ticks = [];
+    let Y;
+    const X = i => m.l + iw * i / (n - 1);
+    if (LOG) {
+      // logarithmische Skala: Gitterlinien bei 1, 2 und 5 mal Zehnerpotenz
+      lo = Math.max(Math.min(...rows.map(r => r.c)) * 0.9, 0.01); hi = Math.max(...rows.map(r => r.c)) * 1.1;
+      const e0 = Math.floor(Math.log10(lo)), e1 = Math.ceil(Math.log10(hi));
+      for (let e = e0; e <= e1; e++) [1, 2, 5].forEach(k => { const v = k * Math.pow(10, e); if (v >= lo / 1.0001 && v <= hi * 1.0001) ticks.push(v); });
+      if (ticks.length < 2) ticks = [lo, hi];
+      y0 = Math.log(lo); y1 = Math.log(hi);
+      Y = v => m.t + ih * (1 - (Math.log(Math.max(v, lo)) - y0) / (y1 - y0));
+    } else {
+      st = niceStep((hi - lo) / 5);
+      y0 = Math.floor(lo / st) * st; y1 = Math.ceil(hi / st) * st;
+      y0 = Math.max(0, y0);
+      for (let v = y0; v <= y1 + 1e-9; v += st) ticks.push(v);
+      Y = v => m.t + ih * (1 - (v - y0) / (y1 - y0));
+    }
     let s = '<svg viewBox="0 0 ' + W + ' ' + H + '" width="' + W + '" height="' + H + '" xmlns="http://www.w3.org/2000/svg">';
-    for (let v = y0; v <= y1 + 1e-9; v += st) {
+    ticks.forEach(v => {
       s += '<line x1="' + m.l + '" x2="' + (W - m.r) + '" y1="' + Y(v).toFixed(1) + '" y2="' + Y(v).toFixed(1) + '" style="stroke:var(--line)" stroke-width="1"/>';
       s += '<text x="' + (m.l - 6) + '" y="' + (Y(v) + 4).toFixed(1) + '" text-anchor="end" style="' + TXT + '">' + axisChf(v) + '</text>';
-    }
+    });
     const k = W < 480 ? 4 : 6;
     for (let j = 0; j < k; j++) {
       const i = Math.round(j * (n - 1) / (k - 1));
@@ -1324,7 +1351,7 @@ ul.breaks { margin: 0; padding-left: 1.2em; display: flex; flex-direction: colum
     }
     let line = '';
     for (let i = 0; i < n; i++) line += (i ? 'L' : 'M') + X(i).toFixed(1) + ' ' + Y(rows[i].c).toFixed(1);
-    s += '<path d="' + line + 'L' + X(n - 1).toFixed(1) + ' ' + Y(y0).toFixed(1) + 'L' + X(0).toFixed(1) + ' ' + Y(y0).toFixed(1) + 'Z" style="fill:var(--brand)" fill-opacity="0.12"/>';
+    s += '<path d="' + line + 'L' + X(n - 1).toFixed(1) + ' ' + (m.t + ih) + 'L' + X(0).toFixed(1) + ' ' + (m.t + ih) + 'Z" style="fill:var(--brand)" fill-opacity="0.12"/>';
     s += '<path d="' + line + '" fill="none" style="stroke:var(--brand)" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>';
     s += '<circle cx="' + X(n - 1).toFixed(1) + '" cy="' + Y(rows[n - 1].c).toFixed(1) + '" r="4" style="fill:var(--brand);stroke:var(--surface)" stroke-width="1.5"/>';
     if (BTC.hover >= 0 && BTC.hover < n) {
@@ -1351,6 +1378,10 @@ ul.breaks { margin: 0; padding-left: 1.2em; display: flex; flex-direction: colum
   }
 
   (function setupBtc() {
+    try {
+      const last = JSON.parse(localStorage.getItem('btc-last') || 'null');
+      if (last && isFinite(last.price)) { BTC.ticker = last; BTC.stale = true; }
+    } catch (e) { /* ignorieren */ }
     $('btc-ranges').innerHTML = Object.keys(RANGES).map(k =>
       '<button type="button" class="rng" data-range="' + k + '" aria-pressed="' + (k === BTC.range) + '">' + RANGES[k].label + '</button>').join('');
     const bc = $('btc-chart');
@@ -1384,6 +1415,13 @@ ul.breaks { margin: 0; padding-left: 1.2em; display: flex; flex-direction: colum
     document.addEventListener('click', e => {
       const t = e.target;
       const rb = t.closest ? t.closest('[data-range]') : null;
+      const sb = t.closest ? t.closest('[data-scale]') : null;
+      if (sb) {
+        BTC.log = sb.dataset.scale === 'log';
+        document.querySelectorAll('[data-scale]').forEach(b => b.setAttribute('aria-pressed', (b.dataset.scale === 'log') === BTC.log ? 'true' : 'false'));
+        drawBtc();
+        return;
+      }
       if (rb && RANGES[rb.dataset.range]) {
         BTC.range = rb.dataset.range; BTC.hover = -1; BTC.err = null;
         paintBtc(); refreshBtc(false);
@@ -1824,9 +1862,8 @@ ul.breaks { margin: 0; padding-left: 1.2em; display: flex; flex-direction: colum
   document.addEventListener('click', e => {
     const a = e.target.closest ? e.target.closest('[data-go]') : null;
     if (a) {
-      if (e.metaKey || e.ctrlKey || e.shiftKey || e.altKey || e.button > 0) return;
-      e.preventDefault();
-      go(a.dataset.go, 'push');
+      // normaler Seitenwechsel über den Link (jede Seite wird einzeln ausgeliefert); Eingaben sind im lokalen Speicher
+      try { save(); } catch (err) { /* ignorieren */ }
       return;
     }
     const sh = e.target.closest ? e.target.closest('[data-share]') : null;
@@ -1850,7 +1887,6 @@ ul.breaks { margin: 0; padding-left: 1.2em; display: flex; flex-direction: colum
       render();
     }
   });
-  window.addEventListener('popstate', () => { go(pageFromPath(location.pathname)); });
   let rt = null;
   window.addEventListener('resize', () => {
     clearTimeout(rt);
@@ -1867,7 +1903,7 @@ ul.breaks { margin: 0; padding-left: 1.2em; display: flex; flex-direction: colum
   let startHist = null;
   const legacy = { zins: 'zins', sparplan: 'sparplan', drei: 'drei', btc: 'btc', etf: 'etf', anbieter: 'drei' };
   const lh = location.hash.slice(1);
-  if (startPage === 'start' && legacy[lh]) { startPage = legacy[lh]; startHist = 'replace'; }
+  if (startPage === 'start' && legacy[lh]) { location.replace(PATHS[legacy[lh]] + location.search); }
   go(startPage, startHist);
 })();
 </script>

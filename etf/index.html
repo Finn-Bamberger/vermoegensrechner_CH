@@ -10,6 +10,13 @@
 <meta property="og:title" content="ETF-Tracker: 24 beliebte ETFs mit Kursverlauf | Vermögensrechner">
 <meta property="og:description" content="Kurse und Kursverlauf von 24 beliebten ETFs, darunter VTI, VOO, QQQ, GLD sowie Schweizer und europäische Fonds.">
 <meta property="og:type" content="website">
+<meta property="og:image" content="https://vermoegensrechner-five.vercel.app/og.png">
+<meta property="og:locale" content="de_CH">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="ETF-Tracker: 24 beliebte ETFs mit Kursverlauf | Vermögensrechner">
+<meta name="twitter:description" content="Kurse und Kursverlauf von 24 beliebten ETFs, darunter VTI, VOO, QQQ, GLD sowie Schweizer und europäische Fonds.">
+<meta name="twitter:image" content="https://vermoegensrechner-five.vercel.app/og.png">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <meta name="theme-color" content="#0B5D5A">
 <link rel="preload" href="/fonts/instrument-sans-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/fonts/bricolage-grotesque-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
@@ -347,233 +354,18 @@ ul.breaks { margin: 0; padding-left: 1.2em; display: flex; flex-direction: colum
 <main>
   <div class="printonly wrap" id="printhead" aria-hidden="true"></div>
   <!-- START -->
-  <section id="p-start" hidden>
-    <div class="hero">
-      <svg class="deco" viewBox="0 0 600 360" preserveAspectRatio="xMaxYMax slice" aria-hidden="true">
-        <g fill="none" style="stroke:var(--hero-muted)" stroke-opacity="0.35" stroke-width="1.5">
-          <path d="M0 336 C170 332 330 300 600 120"/>
-          <path d="M0 346 C200 346 380 334 600 214"/>
-          <path d="M0 326 C140 318 300 270 600 70"/>
-        </g>
-        <path d="M0 318 C150 306 310 250 600 22" fill="none" style="stroke:var(--sun)" stroke-width="3" stroke-linecap="round"/>
-      </svg>
-      <div class="wrap hero-in">
-        <p class="eyebrow">Gratis-Rechner für die Schweiz</p>
-        <h1>Was wird aus deinem Geld?</h1>
-        <p class="lede">Rechne Zinseszins, Sparplan und Säule 3a durch. Nach Gebühren und Steuern, in heutigen Franken.</p>
-        <div class="cta">
-          <a class="btn primary" href="/sparplan/" data-go="sparplan">Sparplan simulieren</a>
-          <a class="btn ghost" href="/saeule-3a/" data-go="drei">Säule 3a vergleichen</a>
-        </div>
-      </div>
-    </div>
-
-    <div class="wrap pull">
-      <section class="calc" aria-labelledby="calc-title">
-        <div class="calc-head">
-          <h2 id="calc-title">Zinseszins-Rechner</h2>
-          <span class="tag">Beispielwerte, bitte anpassen</span>
-        </div>
-        <div class="calc-grid">
-          <div class="fields stack" id="st-fields"></div>
-          <div class="calc-out">
-            <p class="kicker">Endkapital nach <span id="st-years"></span> Jahren</p>
-            <p class="end" id="st-end"></p>
-            <div class="split" aria-hidden="true"><div class="seg paid" id="st-seg-paid"></div><div class="seg int" id="st-seg-int"></div></div>
-            <dl class="legend2">
-              <div><dt><i class="sw frei"></i>Einzahlungen</dt><dd id="st-paid"></dd></div>
-              <div><dt><i class="sw drei"></i>Zinsen</dt><dd id="st-int"></dd></div>
-            </dl>
-            <div class="chart" id="st-chart" role="img" aria-label="Entwicklung von Einzahlungen und Zinsen über die Laufzeit"></div>
-          </div>
-        </div>
-        <a class="more" href="/zinseszins/" data-go="zins">Ausführlicher Rechner mit Tabelle</a>
-      </section>
-
-      <section>
-        <div class="sec-head">
-          <h2>Kennzahlen zu deinem Beispiel</h2>
-          <p>Sie ändern sich mit den Werten im Rechner oben.</p>
-        </div>
-        <div class="stats" id="st-stats"></div>
-      </section>
-
-      <section>
-        <div class="sec-head">
-          <h2>Alle Werkzeuge</h2>
-          <p>Rechner für deine Vermögensplanung, dazu Bitcoin-Kurs und ETF-Tracker.</p>
-        </div>
-        <div class="cards">
-          <a class="card" href="/zinseszins/" data-go="zins">
-            <svg viewBox="0 0 34 34" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 28h26"/><path d="M6 24c8 0 14-3 22-16"/><path d="M22 8h6v6"/></svg>
-            <h3>Zinseszins-Rechner</h3>
-            <p>Wie wächst dein Geld bei festem Zins? Mit Jahrestabelle und Kaufkraft.</p>
-            <span class="go">Öffnen</span>
-          </a>
-          <a class="card" href="/sparplan/" data-go="sparplan">
-            <svg viewBox="0 0 34 34" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 28h26"/><path d="M5 22l6-7 5 4 6-9 7 5"/></svg>
-            <h3>Sparplan-Simulation</h3>
-            <p>Mit welcher Wahrscheinlichkeit erreichst du dein Sparziel, wenn die Börse schwankt?</p>
-            <span class="go">Öffnen</span>
-          </a>
-          <a class="card" href="/saeule-3a/" data-go="drei">
-            <svg viewBox="0 0 34 34" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="9" width="24" height="17" rx="3"/><path d="M5 15h24"/><path d="M11 21h5"/></svg>
-            <h3>Säule 3a und Steuern</h3>
-            <p>Lohnt sich die Säule 3a? Vergleich mit dem freien Depot, nach Steuern.</p>
-            <span class="go">Öffnen</span>
-          </a>
-          <a class="card" href="/bitcoin/" data-go="btc">
-            <svg viewBox="0 0 34 34" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="17" cy="17" r="12"/><path d="M13 11v12M13 11h5a3 3 0 0 1 0 6h-5M13 17h6a3 3 0 0 1 0 6h-6"/></svg>
-            <h3>Bitcoin-Kurs</h3>
-            <p>Aktueller Kurs in Franken und Kursverlauf bis zu zehn Jahre zurück.</p>
-            <span class="go">Öffnen</span>
-          </a>
-          <a class="card" href="/etf/" data-go="etf">
-            <svg viewBox="0 0 34 34" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="6" width="24" height="22" rx="3"/><path d="M10 22v-4M15 22v-8M20 22v-5M25 22v-10"/></svg>
-            <h3>ETF-Tracker</h3>
-            <p>24 beliebte ETFs mit aktuellen Kursen und Kursverlauf.</p>
-            <span class="go">Öffnen</span>
-          </a>
-        </div>
-        <p class="soon"><b>In Planung:</b> Pensionskassen-Einkauf, Miete oder Eigenheim, Wohneigentumsbezug der Säule 3a.</p>
-      </section>
-    </div>
-  </section>
+  
 
   <!-- ZINSESZINS -->
-  <section id="p-zins" hidden>
-    <div class="wrap">
-      <div class="pagehead">
-        <p class="eyebrow">Rechner</p>
-        <h1>Zinseszins-Rechner</h1>
-        <p class="lede">Zeigt, wie aus Einzahlungen und Zinsen über die Jahre Kapital wird. Die Verzinsung läuft monatlich auf Basis des effektiven Jahreszinses, die Einzahlungen erfolgen zu Monatsbeginn.</p>
-      </div>
-      <div class="layout">
-        <form class="inputs" id="zi-form" autocomplete="off"></form>
-        <div class="results">
-          <div class="tiles" id="zi-tiles"></div>
-          <p class="delta" id="zi-real"></p>
-          <section class="chartbox">
-            <div class="charthead">
-              <h2>Kapital über die Zeit</h2>
-              <div class="legend">
-                <span><i class="sw frei"></i>Einzahlungen</span>
-                <span><i class="sw drei"></i>Zinsen</span>
-                <span>Gestrichelt: Kaufkraft in heutigen Franken</span>
-              </div>
-            </div>
-            <div class="chart" id="zi-chart" role="img" aria-label="Kapitalentwicklung mit Einzahlungen und Zinsen"></div>
-          </section>
-          <section class="chartbox">
-            <h2>Jahr für Jahr</h2>
-            <div class="tablewrap"><table id="zi-tbl"></table></div>
-          </section>
-        </div>
-      </div>
-    </div>
-  </section>
+  
 
   <!-- SPARPLAN -->
-  <section id="p-sparplan" hidden>
-    <div class="wrap">
-      <div class="pagehead">
-        <p class="eyebrow">Rechner</p>
-        <h1>Sparplan-Simulation</h1>
-        <p class="lede">Mit welcher Wahrscheinlichkeit erreichst du dein Sparziel? Die Simulation spielt 10'000 mögliche Börsenverläufe durch, nach Gebühren und Steuern, in heutigen Franken.</p>
-      </div>
-      <div class="layout">
-        <form class="inputs" id="sp-form" autocomplete="off"></form>
-        <div class="results" id="sp-results"></div>
-      </div>
-    </div>
-  </section>
+  
 
   <!-- SÄULE 3A -->
-  <section id="p-drei" hidden>
-    <div class="wrap">
-      <div class="pagehead">
-        <p class="eyebrow">Rechner</p>
-        <h1>Säule 3a und Steuern</h1>
-        <p class="lede">Lohnt sich die Säule 3a für dich? Vergleich zwischen freiem Depot und 3a bei gleichem Sparbetrag, nach Steuern und in heutigen Franken.</p>
-      </div>
-      <div class="layout">
-        <form class="inputs" id="dr-form" autocomplete="off"></form>
-        <div class="results" id="dr-results"></div>
-      </div>
-      <div class="vg" id="anbieter" style="margin-top:56px">
-        <div class="pagehead" style="padding-block:0 20px">
-          <p class="eyebrow">Vergleich</p>
-          <h2 style="font-size:clamp(1.5rem,3.4vw,2.2rem);line-height:1.1">Säule-3a-Anbieter im Vergleich</h2>
-          <p class="lede">Gebühren, Aktienquoten und Mindesteinlagen der Schweizer Säule-3a-Anbieter nebeneinander. Alle Zahlen stammen von den offiziellen Anbieter-Seiten. Was sich nicht belegen liess, ist als «nicht verifiziert» markiert. <b id="vg-stand">Stand: …</b></p>
-        </div>
-
-      <div class="results">
-        <section class="vg-card" aria-labelledby="vg-h-tab">
-          <h2 id="vg-h-tab">Anbieter-Tabelle</h2>
-          <div class="vg-grid">
-            <label>Typ<select id="vg-f-typ"><option value="">Alle</option><option value="wertschriften">Wertschriften</option><option value="konto">Konto / Bank</option><option value="versicherung">Versicherung</option></select></label>
-            <label>Aktienquote (± 10 Punkte)<select id="vg-f-quote"><option value="">Beliebig</option><option value="0">0 % (Konto)</option><option value="20">20 %</option><option value="40">40 %</option><option value="60">60 %</option><option value="80">80 %</option><option value="100">100 %</option></select></label>
-            <label>Max. Gesamtkosten p. a. (%)<input id="vg-f-fee" type="number" min="0" step="0.01" inputmode="decimal" placeholder="z. B. 0.40"></label>
-            <label>Max. Mindesteinlage (CHF)<input id="vg-f-min" type="number" min="0" step="1" inputmode="numeric" placeholder="z. B. 1000"></label>
-            <label class="vg-chk"><input id="vg-f-ver" type="checkbox"> Nur Anbieter mit belegten Zahlen</label>
-          </div>
-          <div class="tablewrap" id="vg-tw" role="region" aria-label="Anbieter-Tabelle" tabindex="0" style="max-height:none"></div>
-          <p class="small">Gesamtkosten = Verwaltungs- und Produktkosten zusammen, in % des Vermögens pro Jahr. Eine Spanne bedeutet: je nach Strategie. «Keine Daten» heisst: nicht belegt. Solche Anbieter stehen bei der Sortierung immer am Schluss und werden nicht mit 0 % gerechnet. Die Tabelle ist standardmässig nach den tiefsten Gesamtkosten sortiert, der Rechner nach dem höchsten Endkapital. Beides ist umstellbar und hängt nicht von Affiliate-Links ab.</p>
-        </section>
-        <section class="vg-card" aria-labelledby="vg-h-calc">
-          <h2 id="vg-h-calc">Gebührenrechner</h2>
-          <div class="vg-grid">
-            <label>Einzahlung pro Jahr (CHF)<input id="vg-c-dep" type="number" min="0" step="100" value="7258" inputmode="numeric"></label>
-            <label>Laufzeit (Jahre)<input id="vg-c-years" type="number" min="1" max="60" step="1" value="20" inputmode="numeric"></label>
-            <label>Erwartete Rendite brutto (% p. a.)<input id="vg-c-ret" type="number" step="0.1" value="5" inputmode="decimal"></label>
-            <label>Aktienquote<select id="vg-c-quote"><option value="0">0 % (Konto, Zins des Anbieters)</option><option value="20">20 %</option><option value="40">40 %</option><option value="60" selected>60 %</option><option value="80">80 %</option><option value="100">100 %</option></select></label>
-            <label>Sortieren nach<select id="vg-c-sort"><option value="end">Endkapital (höchstes zuerst)</option><option value="kosten">Gesamtkosten (tiefste zuerst)</option><option value="name">Name</option></select></label>
-            <label class="vg-chk"><input id="vg-c-free" type="checkbox"> Freibeträge berücksichtigen</label>
-          </div>
-          <p class="small" id="vg-c-note"></p>
-          <div class="tablewrap" id="vg-c-out" style="max-height:none"></div>
-        </section>
-        <div class="vg-disc disc"><strong>Wichtig:</strong> Der Vergleich dient nur der Information und ist keine Anlageberatung. Angaben ohne Gewähr. Bitte das Stand-Datum beachten und die Konditionen vor einem Entscheid beim Anbieter prüfen. Kursverluste sind möglich; die Rendite der Vergangenheit sagt nichts über die Zukunft. Links mit «Werbung» sind Affiliate-Links: Bei einem Abschluss kann eine Provision an den Betreiber dieser Seite fliessen. Das ändert weder die Daten noch die Sortierung. Zinsen und Gebühren ändern sich laufend; Angaben mit dem Hinweis «älter als 90 Tage» bitte besonders prüfen.</div>
-        </div>
-      </div>
-    </div>
-  </section>
+  
   <!-- BITCOIN -->
-  <section id="p-btc" hidden>
-    <div class="wrap">
-      <div class="pagehead">
-        <p class="eyebrow">Markt</p>
-        <h1>Bitcoin-Kurs</h1>
-        <p class="lede">Aktueller Kurs in Schweizer Franken mit Kursverlauf bis zu zehn Jahre zurück. Der aktuelle Kurs stammt von der Kryptobörse Kraken und aktualisiert sich jede Minute.</p>
-      </div>
-      <div class="results btc">
-        <div class="notice" id="btc-notice" hidden></div>
-        <div class="btc-top">
-          <div>
-            <p class="kicker">Bitcoin (BTC) in CHF</p>
-            <p class="end" id="btc-price">…</p>
-            <p class="btc-chg" id="btc-chg"></p>
-            <p class="kicker" id="btc-time"></p>
-          </div>
-          <dl class="legend2" id="btc-day"></dl>
-        </div>
-        <div class="rng-row" id="btc-ranges" role="group" aria-label="Zeitraum wählen"></div>
-        <div class="chart" id="btc-chart" role="img" tabindex="0" aria-label="Kursverlauf von Bitcoin in Schweizer Franken. Mit den Pfeiltasten kannst du einzelne Kurse ansehen."></div>
-        <p class="sr-only" id="btc-sr" role="status" aria-live="polite"></p>
-        <p class="cap" id="btc-cap"></p>
-        <div class="stats" id="btc-stats"></div>
-        <details class="notes">
-          <summary>Hinweise zu den Daten</summary>
-          <ul>
-            <li>Die Kurse stammen vom Handelspaar XBT/CHF der Börse Kraken und können bei anderen Anbietern leicht abweichen.</li>
-            <li>Bis zu 2 Jahren zeigt der Verlauf Schlusskurse von Kraken, in Kerzen von 15 Minuten bis 1 Tag. Für 5 und 10 Jahre stammen die Daten von Blockchain.info (Tagesdurchschnitt in US-Dollar, ein Wert alle zwei Tage). Sie werden mit den Devisenkursen der EZB (über Frankfurter) in Franken umgerechnet und weichen deshalb leicht von echten Börsenkursen in Franken ab.</li>
-            <li>Dein Browser ruft die Kurse direkt bei Kraken ab, für 5 und 10 Jahre zusätzlich bei Blockchain.info und Frankfurter. Diese Anbieter sehen dabei deine IP-Adresse.</li>
-            <li>Bitcoin kann sehr stark schwanken, ein Totalverlust ist möglich. Frühere Kurse sagen nichts über künftige aus. Dies ist keine Anlageberatung.</li>
-          </ul>
-        </details>
-      </div>
-    </div>
-  </section>
+  
   <!-- ETFS -->
   <section id="p-etf">
     <div class="wrap">
@@ -610,109 +402,13 @@ ul.breaks { margin: 0; padding-left: 1.2em; display: flex; flex-direction: colum
   </section>
 
   <!-- METHODIK -->
-  <section id="p-methodik" hidden>
-    <div class="wrap">
-      <div class="pagehead">
-        <p class="eyebrow">Transparenz</p>
-        <h1>Methodik und Annahmen</h1>
-        <p class="lede">So rechnen die Rechner, welche Annahmen drinstecken und was sie nicht können.</p>
-      </div>
-      <div class="doc">
-        <h2>Zinseszins</h2>
-        <p>Der Zinseszins-Rechner verzinst Startkapital und monatliche Einzahlungen mit dem eingegebenen effektiven Jahreszins, umgerechnet auf einen Monatszins. Die Teuerung dient nur der Umrechnung in heutige Kaufkraft.</p>
-        <h2>Sparplan-Simulation (Monte-Carlo)</h2>
-        <ul>
-          <li>Es werden 10'000 zufällige Börsenverläufe simuliert, Schritt für Schritt pro Monat (geometrische Brownsche Bewegung mit konstanter Rendite und Schwankung). Die Zufallszahlen sind fest vorgegeben, damit dieselben Eingaben dieselben Ergebnisse liefern.</li>
-          <li>Die eingegebene Rendite ist ein Durchschnitt vor Gebühren, keine Prognose. Echte Märkte haben mehr Extremereignisse, als diese Annahme abbildet.</li>
-          <li>Alle Ergebnisse gelten in heutigen Franken: Das Endvermögen wird mit der Teuerung abgezinst. Die Sparrate steigt auf Wunsch jährlich mit der Teuerung.</li>
-          <li>«Pessimistisch» heisst 10-%-Quantil (nur 1 von 10 Verläufen ist schlechter), «Optimistisch» 90-%-Quantil, «Mittel» der Median.</li>
-        </ul>
-        <h2>Freies Depot und Steuern</h2>
-        <ul>
-          <li>Kursgewinne sind für Privatanleger in der Schweiz in der Regel steuerfrei. Steuerlast entsteht durch Dividenden (Einkommenssteuer) und die Vermögenssteuer.</li>
-          <li>Die jährliche Steuerlast wird als <i>Dividendenrendite × Grenzsteuersatz + Vermögenssteuersatz</i> von der Rendite abgezogen. Die Verrechnungssteuer wird als zurückgefordert angenommen.</li>
-          <li>Kurs- und Währungsrisiken stecken in der Schwankung; der Rechner arbeitet in Franken.</li>
-        </ul>
-        <h2>Säule 3a</h2>
-        <ul>
-          <li>Die Sparrate fliesst bis zum Höchstbetrag in die Säule 3a, der Rest ins freie Depot. Das Startkapital bleibt im freien Depot.</li>
-          <li>Höchstbeträge: Steuerjahr 2026 CHF 7'258 mit Pensionskasse, ohne Pensionskasse 20 % des Netto-Erwerbseinkommens, höchstens CHF 36'288. Steuerjahr 2027: CHF 7'373 bzw. CHF 36'864. Die Beträge werden jährlich angepasst; die Quellen stehen direkt beim Rechner.</li>
-          <li>Die Steuerersparnis (Einzahlung × Grenzsteuersatz) wird am Jahresende im freien Depot angelegt.</li>
-          <li>Beim Bezug wird die Kapitalleistungssteuer abgezogen. Du gibst zwei Sätze ein: bei Bezug in einem Jahr und bei gestaffeltem Bezug über mehrere Konten und Jahre. Beide Sätze hängen von Kanton, Gemeinde, Zivilstand und Konfession ab und lassen sich im Steuerrechner der Eidgenössischen Steuerverwaltung ermitteln. Die Seite hinterlegt bewusst keine eigenen Steuertabellen, damit keine veralteten Sätze auftauchen.</li>
-          <li>Der Break-even zeigt, ab welchem Grenzsteuersatz beziehungsweise bis zu welcher Bezugssteuer die Säule 3a im Median vorn liegt. Die Steuerlast im Depot bleibt dabei unverändert.</li>
-          <li>Nicht modelliert: Wohneigentumsbezug, Pensionskassen-Einkäufe, Nachzahlungen für Beitragslücken, vorzeitiger Bezug und Steuerprogression über mehrere Jahre.</li>
-        </ul>
-        <h2>Anbieter-Vergleich</h2>
-        <ul>
-          <li>Alle Zahlen stammen von den offiziellen Websites oder Factsheets der Anbieter. Pro Anbieter stehen Quelle und Abrufdatum in der Tabelle. Seiten ohne eigenes Datum gelten mit dem Abrufdatum.</li>
-          <li>«Belegt», «teilweise belegt» und «nicht verifiziert» zeigen, wie vollständig die Angaben sind. Fehlende Werte heissen «keine Daten» und werden nie als 0 % gerechnet.</li>
-          <li>Gesamtkosten sind in einem Feld als Spanne (tiefster und höchster Wert) erfasst. «Indikativ» bedeutet: pauschal genannte Kosten, die Aktienquote ist nicht belegt.</li>
-          <li>Einmalige Kosten (zum Beispiel Ausgabekommission oder Kauf-/Verkaufsgebühr) fliessen in die Rechnung ein, soweit sie erfasst sind.</li>
-          <li>Angaben, die älter als 90 Tage sind, werden markiert. Zinsen und Gebühren ändern sich laufend.</li>
-          <li>Sortierung: Die Tabelle ist standardmässig nach den tiefsten Gesamtkosten sortiert, der Rechner nach dem höchsten Endkapital. Beides ist umstellbar. Affiliate-Links ändern weder Daten noch Sortierung.</li>
-          <li>Der Gebührenrechner vergleicht Strategien mit ähnlicher Aktienquote (± 10 Prozentpunkte) und gleicher Bruttorendite. Er zeigt Kostenunterschiede, keine Prognose der Rendite einzelner Produkte.</li>
-        </ul>
-        <h2>Bitcoin und ETFs</h2>
-        <p>Bitcoin-Kurse kommen von Kraken, lange Zeiträume aus Tagesdurchschnittspreisen von Blockchain.info, umgerechnet mit Devisenkursen der EZB über Frankfurter. Die ETF-Diagramme und -Kurse stammen von TradingView und werden erst nach deinem Klick geladen. Frühere Kursentwicklung sagt nichts über die Zukunft.</p>
-        <h2>Fehler melden</h2>
-        <p>Hast du einen Fehler oder eine veraltete Zahl entdeckt? Schreib uns über die Kontaktangaben im <a href="/impressum/" data-go="impressum">Impressum</a>.</p>
-      </div>
-    </div>
-  </section>
+  
 
   <!-- DATENSCHUTZ -->
-  <section id="p-datenschutz" hidden>
-    <div class="wrap">
-      <div class="pagehead">
-        <p class="eyebrow">Recht</p>
-        <h1>Datenschutz</h1>
-        <p class="lede">Welche Daten bei der Nutzung dieser Seite anfallen und wohin sie gehen. Stand: <span class="todo">[Datum eintragen]</span></p>
-      </div>
-      <div class="doc">
-        <h2>Verantwortlich</h2>
-        <p><span class="todo">[Name / Firma, Adresse, E-Mail eintragen]</span> (siehe <a href="/impressum/" data-go="impressum">Impressum</a>).</p>
-        <h2>Was wir nicht tun</h2>
-        <p>Wir setzen keine Analyse- oder Werbe-Cookies ein und binden keine Tracking-Dienste ein. Deine Eingaben in den Rechnern werden nicht an uns oder an Dritte übertragen.</p>
-        <h2>Lokale Speicherung im Browser</h2>
-        <p>Deine Eingaben werden im lokalen Speicher deines Browsers abgelegt (Schlüssel «vermoegensrechner-v2»), damit sie beim nächsten Besuch wieder da sind. Die Daten verlassen dein Gerät nicht. Du kannst sie über die Browser-Einstellungen löschen. Wenn du den Link zu einer Berechnung teilst, stehen die Eingaben in der Adresse; wer den Link kennt, sieht diese Zahlen.</p>
-        <h2>Hosting</h2>
-        <p>Die Seite wird bei Vercel Inc. (USA) gehostet. Beim Aufruf verarbeitet der Hoster technisch notwendige Daten, insbesondere die IP-Adresse, Datum und Uhrzeit, aufgerufene Adresse und Browserangaben, in Server-Protokollen. Die Daten können in die USA übermittelt werden. Rechtsgrundlage ist unser Interesse an einem sicheren und stabilen Betrieb.</p>
-        <h2>Schriften</h2>
-        <p>Die Schriften werden von dieser Seite selbst ausgeliefert. Es gibt keine Verbindung zu Google Fonts.</p>
-        <h2>Bitcoin-Seite</h2>
-        <p>Wenn du die Seite «Bitcoin» öffnest, ruft dein Browser Kurse direkt bei folgenden Diensten ab, wodurch diese deine IP-Adresse sehen: Kraken (api.kraken.com), Blockchain.info (api.blockchain.info) und Frankfurter (api.frankfurter.dev). Es werden keine persönlichen Daten von dir übermittelt ausser denen, die dein Browser technisch bei jedem Abruf mitsendet.</p>
-        <h2>ETF-Seite (TradingView)</h2>
-        <p>Die Diagramme und Kurstabellen stammen von TradingView Inc. Sie werden erst geladen, nachdem du auf der ETF-Seite ausdrücklich zugestimmt hast. Danach verbindet sich dein Browser mit TradingView; TradingView sieht deine IP-Adresse und kann Cookies setzen. Es gelten die Datenschutzbestimmungen von TradingView.</p>
-        <h2>Links zu Anbietern und Affiliate-Links</h2>
-        <p>Der Anbieter-Vergleich verlinkt auf die Websites der Anbieter. Links mit dem Hinweis «Werbung» sind Affiliate-Links: Wenn du darüber einen Vertrag abschliesst, kann eine Provision an den Betreiber dieser Seite fliessen. Auf den Seiten der Anbieter gelten deren Datenschutzbestimmungen.</p>
-        <h2>Deine Rechte</h2>
-        <p>Du kannst Auskunft über die zu deiner Person bearbeiteten Daten verlangen sowie deren Berichtigung oder Löschung. Wende dich dazu an die oben genannte Stelle. Du kannst dich ausserdem an den Eidgenössischen Datenschutz- und Öffentlichkeitsbeauftragten (EDÖB) wenden.</p>
-        <p class="small">Diese Erklärung ist eine Vorlage auf Basis der tatsächlich eingebundenen Dienste. Sie ersetzt keine Rechtsberatung; bitte vor Veröffentlichung prüfen und die markierten Felder ausfüllen.</p>
-      </div>
-    </div>
-  </section>
+  
 
   <!-- IMPRESSUM -->
-  <section id="p-impressum" hidden>
-    <div class="wrap">
-      <div class="pagehead">
-        <p class="eyebrow">Recht</p>
-        <h1>Impressum</h1>
-        <p class="lede">Angaben zum Betreiber dieser Seite.</p>
-      </div>
-      <div class="doc">
-        <h2>Betreiber</h2>
-        <p><span class="todo">[Vor- und Nachname bzw. Firma]</span><br><span class="todo">[Strasse und Nummer]</span><br><span class="todo">[PLZ Ort], Schweiz</span></p>
-        <h2>Kontakt</h2>
-        <p>E-Mail: <span class="todo">[E-Mail-Adresse]</span></p>
-        <h2>Haftungsausschluss</h2>
-        <p>Die Inhalte dieser Seite dienen nur der Information und stellen keine Anlage-, Steuer- oder Rechtsberatung dar. Trotz sorgfältiger Prüfung übernehmen wir keine Gewähr für Richtigkeit, Vollständigkeit und Aktualität, insbesondere nicht für die Angaben der Anbieter im Vergleich. Für Entscheide, die auf diesen Angaben beruhen, wird keine Haftung übernommen. Für Inhalte verlinkter Seiten sind allein deren Betreiber verantwortlich.</p>
-        <h2>Werbung</h2>
-        <p>Einzelne Links im Anbieter-Vergleich sind Affiliate-Links und als «Werbung» gekennzeichnet.</p>
-        <p class="small">Die markierten Felder müssen vor der Veröffentlichung ausgefüllt werden. Wer in der Schweiz ein Online-Angebot betreibt, muss seine Identität und Kontaktangaben deutlich angeben. Bitte bei Unsicherheit rechtlich prüfen lassen.</p>
-      </div>
-    </div>
-  </section>
+  
 </main>
 
 <footer class="foot">
@@ -824,7 +520,8 @@ function needed(sim, p, mit3a, target) {
 (function () {
   const N = 10000;
   const KEY = 'vermoegensrechner-v2';
-  const $ = id => document.getElementById(id);
+  // Jede Seite enthält nur ihren eigenen Inhalt; fehlende Elemente anderer Seiten werden durch ein unsichtbares Ersatzelement abgefangen.
+  const $ = id => document.getElementById(id) || document.createElement('div');
 
   // ---------- Felder und Zustand ----------
   const DEFS = {
@@ -1263,7 +960,7 @@ function needed(sim, p, mit3a, target) {
   }
 
   // ---------- Bitcoin (Kurse direkt von der Kraken-Schnittstelle) ----------
-  const BTC = { range: '30T', data: {}, ticker: null, err: null, hover: -1, loading: false };
+  const BTC = { range: '30T', data: {}, ticker: null, err: null, hover: -1, loading: false, log: false, stale: false };
   const RANGES = {
     '1T':  { label: '24 Std.', long: 'in den letzten 24 Stunden', step: '15 Minuten', interval: 15,   take: 96 },
     '7T':  { label: '7 Tage',  long: 'in den letzten 7 Tagen',    step: '1 Stunde',   interval: 60,   take: 168 },
@@ -1271,7 +968,8 @@ function needed(sim, p, mit3a, target) {
     '1J':  { label: '1 Jahr',  long: 'im letzten Jahr',           step: '1 Tag',      interval: 1440, take: 365 },
     '2J':  { label: '2 Jahre', long: 'in den letzten 2 Jahren',   step: '1 Tag',      interval: 1440, take: 720 },
     '5J':  { label: '5 Jahre', long: 'in den letzten 5 Jahren',   step: '2 Tage',     interval: 2880, years: 5 },
-    '10J': { label: '10 Jahre', long: 'in den letzten 10 Jahren', step: '2 Tage',     interval: 2880, years: 10 }
+    '10J': { label: '10 Jahre', long: 'in den letzten 10 Jahren', step: '2 Tage',     interval: 2880, years: 10 },
+    'MAX': { label: 'Max',      long: 'seit dem ersten Handelskurs', step: 'mehreren Tagen', interval: 2880, years: 40, all: true }
   };
   const KRAKEN = 'https://api.kraken.com/0/public/';
 
@@ -1293,12 +991,14 @@ function needed(sim, p, mit3a, target) {
   async function loadTicker() {
     const t = firstResult(await getJSON(KRAKEN + 'Ticker?pair=XBTCHF'));
     BTC.ticker = { price: parseFloat(t.c[0]), hi: parseFloat(t.h[1]), lo: parseFloat(t.l[1]), at: Date.now() };
+    BTC.stale = false;
+    try { localStorage.setItem('btc-last', JSON.stringify(BTC.ticker)); } catch (e) { /* ignorieren */ }
   }
   // Lange Zeiträume: Blockchain.info (USD, Tagesdurchschnitt) mal Devisenkurs USD/CHF der EZB (Frankfurter)
-  async function loadLong() {
-    const startIso = new Date(Date.now() - 3660 * 86400000).toISOString().slice(0, 10);
+  async function loadLong(all) {
+    const startIso = new Date(Date.now() - (all ? 6000 : 3660) * 86400000).toISOString().slice(0, 10);
     const res = await Promise.all([
-      getJSON('https://api.blockchain.info/charts/market-price?timespan=10years&format=json&cors=true'),
+      getJSON('https://api.blockchain.info/charts/market-price?timespan=' + (all ? 'all' : '10years') + '&format=json&cors=true'),
       getJSON('https://api.frankfurter.dev/v1/' + startIso + '..?base=USD&symbols=CHF')
     ]);
     const bc = res[0], fx = res[1];
@@ -1310,18 +1010,20 @@ function needed(sim, p, mit3a, target) {
       const ms = v.x * 1000, ds = new Date(ms).toISOString().slice(0, 10);
       while (j + 1 < fxDates.length && fxDates[j + 1] <= ds) j++;
       const c = v.y * fxVals[j];
-      if (v.y > 0 && isFinite(c)) rows.push({ t: ms, h: c, l: c, c: c });
+      // vor dem ersten Handelskurs liefert die Quelle Nullen; ausserdem nur Tage ab den ersten verfügbaren Devisenkursen
+      if (v.y > 0 && isFinite(c) && fxDates.length && ds >= fxDates[0]) rows.push({ t: ms, h: c, l: c, c: c });
     });
     if (rows.length < 50) throw new Error('Zu wenige Kursdaten erhalten');
-    BTC.long = { rows: rows, at: Date.now() };
+    BTC[all ? 'longAll' : 'long'] = { rows: rows, at: Date.now() };
   }
   async function loadRange(key) {
     const R = RANGES[key];
     let rows;
     if (R.years) {
-      if (!BTC.long || Date.now() - BTC.long.at > 6 * 3600000) await loadLong();
+      const src = R.all ? 'longAll' : 'long';
+      if (!BTC[src] || Date.now() - BTC[src].at > 6 * 3600000) await loadLong(R.all);
       const cutoff = Date.now() - R.years * 365.25 * 86400000;
-      rows = BTC.long.rows.filter(r => r.t >= cutoff);
+      rows = BTC[src].rows.filter(r => r.t >= cutoff);
     } else {
       rows = firstResult(await getJSON(KRAKEN + 'OHLC?pair=XBTCHF&interval=' + R.interval))
         .slice(-R.take).map(c => ({ t: c[0] * 1000, h: parseFloat(c[2]), l: parseFloat(c[3]), c: parseFloat(c[4]) }));
@@ -1352,7 +1054,7 @@ function needed(sim, p, mit3a, target) {
   function xlab(ms, key) {
     const d = new Date(ms);
     if (key === '1T') return d.toLocaleTimeString('de-CH', { hour: '2-digit', minute: '2-digit' });
-    if (key === '1J' || key === '2J' || key === '5J' || key === '10J') return d.toLocaleDateString('de-CH', { month: 'short', year: 'numeric' });
+    if (key === '1J' || key === '2J' || key === '5J' || key === '10J' || key === 'MAX') return d.toLocaleDateString('de-CH', { month: 'short', year: 'numeric' });
     return d.toLocaleDateString('de-CH', { day: 'numeric', month: 'short' });
   }
   function spct(x) { const a = Math.abs(x * 100); return (x >= 0 ? '+' : '-') + (a >= 1000 ? fmt(a) : a.toFixed(1)) + ' %'; }
@@ -1369,7 +1071,7 @@ function needed(sim, p, mit3a, target) {
 
     if (T) {
       $('btc-price').textContent = 'CHF ' + fmt(T.price);
-      $('btc-time').textContent = 'Stand ' + hms(T.at) + ' Uhr';
+      $('btc-time').textContent = (BTC.err || BTC.stale ? 'Letzter bekannter Kurs vom ' + dstr(T.at, true) + ' Uhr, nicht aktuell' : 'Stand ' + hms(T.at) + ' Uhr');
       $('btc-day').innerHTML = '<div><dt>24 Std. Tief</dt><dd>CHF ' + fmt(T.lo) + '</dd></div><div><dt>24 Std. Hoch</dt><dd>CHF ' + fmt(T.hi) + '</dd></div>';
     } else {
       $('btc-price').textContent = '…';
@@ -1415,14 +1117,30 @@ function needed(sim, p, mit3a, target) {
     rows.forEach(r => { if (r.c < lo) lo = r.c; if (r.c > hi) hi = r.c; });
     const pad = (hi - lo) * 0.08 || hi * 0.01;
     lo = Math.max(0, lo - pad); hi += pad;
-    const st = niceStep((hi - lo) / 5);
-    const y0 = Math.floor(lo / st) * st, y1 = Math.ceil(hi / st) * st;
-    const X = i => m.l + iw * i / (n - 1), Y = v => m.t + ih * (1 - (v - y0) / (y1 - y0));
+    const LOG = BTC.log && rows.every(r => r.c > 0);
+    let st, y0, y1, ticks = [];
+    let Y;
+    const X = i => m.l + iw * i / (n - 1);
+    if (LOG) {
+      // logarithmische Skala: Gitterlinien bei 1, 2 und 5 mal Zehnerpotenz
+      lo = Math.max(Math.min(...rows.map(r => r.c)) * 0.9, 0.01); hi = Math.max(...rows.map(r => r.c)) * 1.1;
+      const e0 = Math.floor(Math.log10(lo)), e1 = Math.ceil(Math.log10(hi));
+      for (let e = e0; e <= e1; e++) [1, 2, 5].forEach(k => { const v = k * Math.pow(10, e); if (v >= lo / 1.0001 && v <= hi * 1.0001) ticks.push(v); });
+      if (ticks.length < 2) ticks = [lo, hi];
+      y0 = Math.log(lo); y1 = Math.log(hi);
+      Y = v => m.t + ih * (1 - (Math.log(Math.max(v, lo)) - y0) / (y1 - y0));
+    } else {
+      st = niceStep((hi - lo) / 5);
+      y0 = Math.floor(lo / st) * st; y1 = Math.ceil(hi / st) * st;
+      y0 = Math.max(0, y0);
+      for (let v = y0; v <= y1 + 1e-9; v += st) ticks.push(v);
+      Y = v => m.t + ih * (1 - (v - y0) / (y1 - y0));
+    }
     let s = '<svg viewBox="0 0 ' + W + ' ' + H + '" width="' + W + '" height="' + H + '" xmlns="http://www.w3.org/2000/svg">';
-    for (let v = y0; v <= y1 + 1e-9; v += st) {
+    ticks.forEach(v => {
       s += '<line x1="' + m.l + '" x2="' + (W - m.r) + '" y1="' + Y(v).toFixed(1) + '" y2="' + Y(v).toFixed(1) + '" style="stroke:var(--line)" stroke-width="1"/>';
       s += '<text x="' + (m.l - 6) + '" y="' + (Y(v) + 4).toFixed(1) + '" text-anchor="end" style="' + TXT + '">' + axisChf(v) + '</text>';
-    }
+    });
     const k = W < 480 ? 4 : 6;
     for (let j = 0; j < k; j++) {
       const i = Math.round(j * (n - 1) / (k - 1));
@@ -1430,7 +1148,7 @@ function needed(sim, p, mit3a, target) {
     }
     let line = '';
     for (let i = 0; i < n; i++) line += (i ? 'L' : 'M') + X(i).toFixed(1) + ' ' + Y(rows[i].c).toFixed(1);
-    s += '<path d="' + line + 'L' + X(n - 1).toFixed(1) + ' ' + Y(y0).toFixed(1) + 'L' + X(0).toFixed(1) + ' ' + Y(y0).toFixed(1) + 'Z" style="fill:var(--brand)" fill-opacity="0.12"/>';
+    s += '<path d="' + line + 'L' + X(n - 1).toFixed(1) + ' ' + (m.t + ih) + 'L' + X(0).toFixed(1) + ' ' + (m.t + ih) + 'Z" style="fill:var(--brand)" fill-opacity="0.12"/>';
     s += '<path d="' + line + '" fill="none" style="stroke:var(--brand)" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>';
     s += '<circle cx="' + X(n - 1).toFixed(1) + '" cy="' + Y(rows[n - 1].c).toFixed(1) + '" r="4" style="fill:var(--brand);stroke:var(--surface)" stroke-width="1.5"/>';
     if (BTC.hover >= 0 && BTC.hover < n) {
@@ -1457,6 +1175,10 @@ function needed(sim, p, mit3a, target) {
   }
 
   (function setupBtc() {
+    try {
+      const last = JSON.parse(localStorage.getItem('btc-last') || 'null');
+      if (last && isFinite(last.price)) { BTC.ticker = last; BTC.stale = true; }
+    } catch (e) { /* ignorieren */ }
     $('btc-ranges').innerHTML = Object.keys(RANGES).map(k =>
       '<button type="button" class="rng" data-range="' + k + '" aria-pressed="' + (k === BTC.range) + '">' + RANGES[k].label + '</button>').join('');
     const bc = $('btc-chart');
@@ -1490,6 +1212,13 @@ function needed(sim, p, mit3a, target) {
     document.addEventListener('click', e => {
       const t = e.target;
       const rb = t.closest ? t.closest('[data-range]') : null;
+      const sb = t.closest ? t.closest('[data-scale]') : null;
+      if (sb) {
+        BTC.log = sb.dataset.scale === 'log';
+        document.querySelectorAll('[data-scale]').forEach(b => b.setAttribute('aria-pressed', (b.dataset.scale === 'log') === BTC.log ? 'true' : 'false'));
+        drawBtc();
+        return;
+      }
       if (rb && RANGES[rb.dataset.range]) {
         BTC.range = rb.dataset.range; BTC.hover = -1; BTC.err = null;
         paintBtc(); refreshBtc(false);
@@ -1930,9 +1659,8 @@ function needed(sim, p, mit3a, target) {
   document.addEventListener('click', e => {
     const a = e.target.closest ? e.target.closest('[data-go]') : null;
     if (a) {
-      if (e.metaKey || e.ctrlKey || e.shiftKey || e.altKey || e.button > 0) return;
-      e.preventDefault();
-      go(a.dataset.go, 'push');
+      // normaler Seitenwechsel über den Link (jede Seite wird einzeln ausgeliefert); Eingaben sind im lokalen Speicher
+      try { save(); } catch (err) { /* ignorieren */ }
       return;
     }
     const sh = e.target.closest ? e.target.closest('[data-share]') : null;
@@ -1956,7 +1684,6 @@ function needed(sim, p, mit3a, target) {
       render();
     }
   });
-  window.addEventListener('popstate', () => { go(pageFromPath(location.pathname)); });
   let rt = null;
   window.addEventListener('resize', () => {
     clearTimeout(rt);
@@ -1973,7 +1700,7 @@ function needed(sim, p, mit3a, target) {
   let startHist = null;
   const legacy = { zins: 'zins', sparplan: 'sparplan', drei: 'drei', btc: 'btc', etf: 'etf', anbieter: 'drei' };
   const lh = location.hash.slice(1);
-  if (startPage === 'start' && legacy[lh]) { startPage = legacy[lh]; startHist = 'replace'; }
+  if (startPage === 'start' && legacy[lh]) { location.replace(PATHS[legacy[lh]] + location.search); }
   go(startPage, startHist);
 })();
 </script>

@@ -33,19 +33,70 @@ cut = full.index('<header class="site">')
 head, body = full[:cut], full[cut:]
 head = re.sub(r'<title>.*?</title>\n', '', head, count=1)
 
+FAQ = {
+ 'btc': [
+  ('Wie wird der Kurs berechnet?', 'Der aktuelle Kurs und der Verlauf bis zwei Jahre stammen von der Börse Kraken (Bitcoin in Franken). Für fünf und zehn Jahre sowie «Max» werden Tagesdurchschnittspreise in US-Dollar von Blockchain.info mit den EZB-Devisenkursen der Frankfurter-Schnittstelle in Franken umgerechnet. Die Werte können deshalb von dem Kurs abweichen, den dir ein Anbieter anzeigt.'),
+  ('Bitcoin in der Schweiz: Wie wird er besteuert?', 'Bitcoin zählt in der Schweiz in der Regel zum steuerbaren Vermögen und wird mit dem Kurs am Jahresende in der Steuererklärung deklariert. Private Kursgewinne sind für Privatanleger in der Regel steuerfrei; ob jemand als gewerbsmässiger Händler gilt, entscheidet die Steuerbehörde im Einzelfall. Massgebend sind das Recht deines Kantons und dein Einzelfall. Die Eidgenössische Steuerverwaltung veröffentlicht dazu jährlich eine Kursliste mit Jahresendkursen für Kryptowährungen.'),
+ ],
+}
+
+def faq_html(key):
+    if key not in FAQ: return ''
+    return ''.join('<h2>%s</h2>\n<p>%s</p>\n' % (q, a) for q, a in FAQ[key])
+
+def jsonld(key):
+    import json as _j
+    objs = []
+    if key == 'start':
+        objs.append({'@context': 'https://schema.org', '@type': 'WebSite', 'name': 'Vermögensrechner', 'url': SITE + '/', 'inLanguage': 'de-CH'})
+    if key in FAQ:
+        objs.append({'@context': 'https://schema.org', '@type': 'FAQPage', 'mainEntity': [
+            {'@type': 'Question', 'name': q, 'acceptedAnswer': {'@type': 'Answer', 'text': a}} for q, a in FAQ[key]]})
+    return ''.join('<script type="application/ld+json">%s</script>\n' % _j.dumps(o, ensure_ascii=False) for o in objs)
+
+def strip_inactive(html, key):
+    # entfernt alle <section id="p-xxx"> ausser der aktiven (mit Tiefenzählung, da Sektionen verschachtelt sein können)
+    out, i = [], 0
+    pat = re.compile(r'<section id="p-(\w+)"[^>]*>')
+    while True:
+        m = pat.search(html, i)
+        if not m:
+            out.append(html[i:]); break
+        out.append(html[i:m.start()])
+        depth, j = 1, m.end()
+        tok = re.compile(r'<section\b|</section>')
+        while depth:
+            t = tok.search(html, j)
+            depth += 1 if t.group() != '</section>' else -1
+            j = t.end()
+        if m.group(1) == KEY[0]:
+            out.append(html[m.start():j].replace(m.group(0), '<section id="p-%s">' % m.group(1), 1))
+        i = j
+    return ''.join(out)
+KEY = [None]
+
 def page(key):
     title, desc = META[key]
     b = body
     def sec(m):
         return '<section id="p-%s"%s>' % (m.group(1), '' if m.group(1) == key else ' hidden')
-    b = re.sub(r'<section id="p-(\w+)"(?: hidden)?>', sec, b)
+    KEY[0] = key
+    b = b.replace('<!--FAQ-' + key + '-->', faq_html(key))
+    b = strip_inactive(b, key)
     pre = ''.join('<link rel="preload" href="/fonts/%s" as="font" type="font/woff2" crossorigin>\n' % f for f in
                   ('instrument-sans-latin-wght-normal.woff2', 'bricolage-grotesque-latin-wght-normal.woff2'))
-    return ('<!doctype html>\n<html lang="de-CH">\n<head>\n<meta charset="utf-8">\n'
-            '<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">\n'
-            '<title>%s</title>\n<meta name="description" content="%s">\n'
-            '<link rel="canonical" href="%s">\n<meta property="og:url" content="%s">\n<meta property="og:title" content="%s">\n<meta property="og:description" content="%s">\n<meta property="og:type" content="website">\n'
-            '<meta name="theme-color" content="#0B5D5A">\n' % (title, desc, SITE + PATHS[key], SITE + PATHS[key], title, desc) + pre +
+    url = SITE + PATHS[key]
+    head_tags = (
+        '<meta charset="utf-8">\n<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">\n'
+        '<title>%(t)s</title>\n<meta name="description" content="%(d)s">\n'
+        '<link rel="canonical" href="%(u)s">\n<meta property="og:url" content="%(u)s">\n'
+        '<meta property="og:title" content="%(t)s">\n<meta property="og:description" content="%(d)s">\n<meta property="og:type" content="website">\n'
+        '<meta property="og:image" content="%(s)s/og.png">\n<meta property="og:locale" content="de_CH">\n'
+        '<meta name="twitter:card" content="summary_large_image">\n<meta name="twitter:title" content="%(t)s">\n'
+        '<meta name="twitter:description" content="%(d)s">\n<meta name="twitter:image" content="%(s)s/og.png">\n'
+        '<link rel="icon" href="/favicon.svg" type="image/svg+xml">\n<meta name="theme-color" content="#0B5D5A">\n'
+    ) % {'t': title, 'd': desc, 'u': url, 's': SITE}
+    return ('<!doctype html>\n<html lang="de-CH">\n<head>\n' + head_tags + jsonld(key) + pre +
             '<style>html{color-scheme:light}body{margin:0}img{max-width:100%}[hidden]{display:none!important}</style>\n'
             + head + '</head>\n<body data-page="%s">\n' % key + b.rstrip() +
             '\n<noscript><p style="padding:16px">Für die Rechner wird JavaScript benötigt.</p></noscript>\n</body>\n</html>\n')
