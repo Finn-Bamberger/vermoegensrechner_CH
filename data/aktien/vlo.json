@@ -6,7 +6,7 @@
  "rank": 88,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-10-16T12:59:20Z",
+ "updated_at": "2026-10-16T16:14:39Z",
  "periodic_accs": [
   "0001035002-13-000008",
   "0001035002-13-000037",
@@ -1586,6 +1586,18 @@
    "ad": "D",
    "plan_10b5_1": false,
    "url": "https://www.sec.gov/Archives/edgar/data/1035002/000162828025053855/"
+  },
+  {
+   "acc": "0001628280-25-050267",
+   "date": "2025-11-06",
+   "name": "Fisher Eric A",
+   "role": "SVP",
+   "code": "G",
+   "shares": 1750.0,
+   "price": 0.0,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1035002/000162828025050267/"
   }
  ]
 }

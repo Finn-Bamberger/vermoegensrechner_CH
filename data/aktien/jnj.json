@@ -6,7 +6,7 @@
  "rank": 18,
  "source": "SEC EDGAR",
  "fiscal_year_end": "0103",
- "updated_at": "2026-10-16T12:12:36Z",
+ "updated_at": "2026-10-16T16:00:16Z",
  "periodic_accs": [
   "0000200406-18-000041",
   "0000200406-18-000055",
@@ -1152,6 +1152,18 @@
    "url": "https://www.sec.gov/Archives/edgar/data/200406/000020040626000036/"
   },
   {
+   "acc": "0000200406-26-000034",
+   "date": "2026-02-17",
+   "name": "Broadhurst Vanessa",
+   "role": "EVP, Global Corp Affairs",
+   "code": "S",
+   "shares": 6197.0,
+   "price": 243.39,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/200406/000020040626000034/"
+  },
+  {
    "acc": "0000200406-26-000044",
    "date": "2026-02-17",
    "name": "Swanson James D.",
@@ -1318,6 +1330,54 @@
    "ad": "D",
    "plan_10b5_1": false,
    "url": "https://www.sec.gov/Archives/edgar/data/200406/000020040626000039/"
+  },
+  {
+   "acc": "0000200406-26-000034",
+   "date": "2026-02-15",
+   "name": "Broadhurst Vanessa",
+   "role": "EVP, Global Corp Affairs",
+   "code": "M",
+   "shares": 492.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/200406/000020040626000034/"
+  },
+  {
+   "acc": "0000200406-26-000034",
+   "date": "2026-02-15",
+   "name": "Broadhurst Vanessa",
+   "role": "EVP, Global Corp Affairs",
+   "code": "F",
+   "shares": 252.0,
+   "price": 243.45,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/200406/000020040626000034/"
+  },
+  {
+   "acc": "0000200406-26-000034",
+   "date": "2026-02-15",
+   "name": "Broadhurst Vanessa",
+   "role": "EVP, Global Corp Affairs",
+   "code": "M",
+   "shares": 526.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/200406/000020040626000034/"
+  },
+  {
+   "acc": "0000200406-26-000034",
+   "date": "2026-02-15",
+   "name": "Broadhurst Vanessa",
+   "role": "EVP, Global Corp Affairs",
+   "code": "F",
+   "shares": 270.0,
+   "price": 243.45,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/200406/000020040626000034/"
   },
   {
    "acc": "0000200406-26-000044",
@@ -1800,6 +1860,54 @@
    "url": "https://www.sec.gov/Archives/edgar/data/200406/000020040626000035/"
   },
   {
+   "acc": "0000200406-26-000034",
+   "date": "2026-02-13",
+   "name": "Broadhurst Vanessa",
+   "role": "EVP, Global Corp Affairs",
+   "code": "M",
+   "shares": 408.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/200406/000020040626000034/"
+  },
+  {
+   "acc": "0000200406-26-000034",
+   "date": "2026-02-13",
+   "name": "Broadhurst Vanessa",
+   "role": "EVP, Global Corp Affairs",
+   "code": "F",
+   "shares": 144.0,
+   "price": 244.55,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/200406/000020040626000034/"
+  },
+  {
+   "acc": "0000200406-26-000034",
+   "date": "2026-02-13",
+   "name": "Broadhurst Vanessa",
+   "role": "EVP, Global Corp Affairs",
+   "code": "M",
+   "shares": 8594.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/200406/000020040626000034/"
+  },
+  {
+   "acc": "0000200406-26-000034",
+   "date": "2026-02-13",
+   "name": "Broadhurst Vanessa",
+   "role": "EVP, Global Corp Affairs",
+   "code": "F",
+   "shares": 3748.0,
+   "price": 244.55,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/200406/000020040626000034/"
+  },
+  {
    "acc": "0000200406-26-000044",
    "date": "2026-02-13",
    "name": "Swanson James D.",
@@ -2278,6 +2386,138 @@
    "ad": "D",
    "plan_10b5_1": false,
    "url": "https://www.sec.gov/Archives/edgar/data/200406/000020040626000035/"
+  },
+  {
+   "acc": "0001998491-26-000002",
+   "date": "2026-02-06",
+   "name": "Schmid Timothy",
+   "role": "EVP, WW Chair, MedTech",
+   "code": "M",
+   "shares": 15571.0,
+   "price": 101.87,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/200406/000199849126000002/"
+  },
+  {
+   "acc": "0001998491-26-000002",
+   "date": "2026-02-06",
+   "name": "Schmid Timothy",
+   "role": "EVP, WW Chair, MedTech",
+   "code": "F",
+   "shares": 10335.0,
+   "price": 239.99,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/200406/000199849126000002/"
+  },
+  {
+   "acc": "0000200406-26-000010",
+   "date": "2026-02-06",
+   "name": "Mulholland Kristen",
+   "role": "EVP, Chief HR Officer",
+   "code": "M",
+   "shares": 5625.0,
+   "price": 101.87,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/200406/000020040626000010/"
+  },
+  {
+   "acc": "0000200406-26-000010",
+   "date": "2026-02-06",
+   "name": "Mulholland Kristen",
+   "role": "EVP, Chief HR Officer",
+   "code": "F",
+   "shares": 3335.0,
+   "price": 239.99,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/200406/000020040626000010/"
+  },
+  {
+   "acc": "0000200406-26-000008",
+   "date": "2026-02-06",
+   "name": "Wengel Kathryn E",
+   "role": "EVP, Chief TO and Risk Officer",
+   "code": "M",
+   "shares": 38945.0,
+   "price": 101.87,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/200406/000020040626000008/"
+  },
+  {
+   "acc": "0000200406-26-000008",
+   "date": "2026-02-06",
+   "name": "Wengel Kathryn E",
+   "role": "EVP, Chief TO and Risk Officer",
+   "code": "F",
+   "shares": 27270.0,
+   "price": 239.99,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/200406/000020040626000008/"
+  },
+  {
+   "acc": "0001950802-26-000002",
+   "date": "2026-02-05",
+   "name": "Forminard Elizabeth",
+   "role": "EVP, Chief Legal Officer",
+   "code": "M",
+   "shares": 8921.0,
+   "price": 129.51,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/200406/000195080226000002/"
+  },
+  {
+   "acc": "0001950802-26-000002",
+   "date": "2026-02-05",
+   "name": "Forminard Elizabeth",
+   "role": "EVP, Chief Legal Officer",
+   "code": "F",
+   "shares": 6226.0,
+   "price": 237.9,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/200406/000195080226000002/"
+  },
+  {
+   "acc": "0000200406-26-000004",
+   "date": "2026-01-26",
+   "name": "Duato Joaquin",
+   "role": "CEO and Chairman of the Board",
+   "code": "S",
+   "shares": 51218.0,
+   "price": 220.986,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/200406/000020040626000004/"
+  },
+  {
+   "acc": "0000200406-26-000004",
+   "date": "2026-01-26",
+   "name": "Duato Joaquin",
+   "role": "CEO and Chairman of the Board",
+   "code": "S",
+   "shares": 48782.0,
+   "price": 221.484,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/200406/000020040626000004/"
+  },
+  {
+   "acc": "0000200406-25-000211",
+   "date": "2025-11-26",
+   "name": "MORIKIS JOHN G",
+   "role": "Director",
+   "code": "P",
+   "shares": 1250.0,
+   "price": 206.15,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/200406/000020040625000211/"
   }
  ]
 }

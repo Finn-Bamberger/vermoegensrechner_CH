@@ -6,7 +6,7 @@
  "rank": 54,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-10-16T12:20:08Z",
+ "updated_at": "2026-10-16T16:07:22Z",
  "periodic_accs": [
   "0000004962-20-000030",
   "0000004962-20-000054",
@@ -780,6 +780,90 @@
    "ad": "D",
    "plan_10b5_1": false,
    "url": "https://www.sec.gov/Archives/edgar/data/4962/000000496226000273/"
+  },
+  {
+   "acc": "0000004962-26-000116",
+   "date": "2026-03-13",
+   "name": "Joabar Raymond",
+   "role": "Grp. Pres., Global Comm. Serv.",
+   "code": "S",
+   "shares": 16.0,
+   "price": 301.27,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/4962/000000496226000116/"
+  },
+  {
+   "acc": "0000004962-26-000114",
+   "date": "2026-03-06",
+   "name": "Lieberman Quinn Jessica",
+   "role": "EVP - Controller",
+   "code": "S",
+   "shares": 3032.0,
+   "price": 300.02,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/4962/000000496226000114/"
+  },
+  {
+   "acc": "0000004962-26-000116",
+   "date": "2026-03-02",
+   "name": "Joabar Raymond",
+   "role": "Grp. Pres., Global Comm. Serv.",
+   "code": "S",
+   "shares": 24.0,
+   "price": 309.85,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/4962/000000496226000116/"
+  },
+  {
+   "acc": "0000004962-26-000104",
+   "date": "2026-02-19",
+   "name": "Joabar Raymond",
+   "role": "Grp. Pres., Global Comm. Serv.",
+   "code": "S",
+   "shares": 2835.0,
+   "price": 338.98,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/4962/000000496226000104/"
+  },
+  {
+   "acc": "0000004962-26-000104",
+   "date": "2026-02-19",
+   "name": "Joabar Raymond",
+   "role": "Grp. Pres., Global Comm. Serv.",
+   "code": "S",
+   "shares": 2840.0,
+   "price": 340.03,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/4962/000000496226000104/"
+  },
+  {
+   "acc": "0000004962-26-000104",
+   "date": "2026-02-19",
+   "name": "Joabar Raymond",
+   "role": "Grp. Pres., Global Comm. Serv.",
+   "code": "S",
+   "shares": 4977.0,
+   "price": 341.14,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/4962/000000496226000104/"
+  },
+  {
+   "acc": "0000004962-26-000104",
+   "date": "2026-02-19",
+   "name": "Joabar Raymond",
+   "role": "Grp. Pres., Global Comm. Serv.",
+   "code": "S",
+   "shares": 3348.0,
+   "price": 341.95,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/4962/000000496226000104/"
   }
  ]
 }

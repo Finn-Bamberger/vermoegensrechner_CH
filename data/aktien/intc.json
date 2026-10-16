@@ -6,7 +6,7 @@
  "rank": 20,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1227",
- "updated_at": "2026-10-16T12:13:03Z",
+ "updated_at": "2026-10-16T16:00:38Z",
  "periodic_accs": [
   "0000050863-19-000013",
   "0000050863-19-000023",
@@ -1380,6 +1380,78 @@
    "ad": "A",
    "plan_10b5_1": false,
    "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000032/"
+  },
+  {
+   "acc": "0000050863-25-000200",
+   "date": "2025-12-01",
+   "name": "GAWEL SCOTT",
+   "role": "CVP, Chief Accounting Officer",
+   "code": "M",
+   "shares": 2418.0,
+   "price": null,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086325000200/"
+  },
+  {
+   "acc": "0000050863-25-000200",
+   "date": "2025-12-01",
+   "name": "GAWEL SCOTT",
+   "role": "CVP, Chief Accounting Officer",
+   "code": "F",
+   "shares": 1199.0,
+   "price": 39.99,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086325000200/"
+  },
+  {
+   "acc": "0000050863-25-000200",
+   "date": "2025-12-01",
+   "name": "GAWEL SCOTT",
+   "role": "CVP, Chief Accounting Officer",
+   "code": "M",
+   "shares": 7860.0,
+   "price": null,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086325000200/"
+  },
+  {
+   "acc": "0000050863-25-000200",
+   "date": "2025-12-01",
+   "name": "GAWEL SCOTT",
+   "role": "CVP, Chief Accounting Officer",
+   "code": "F",
+   "shares": 3897.0,
+   "price": 39.99,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086325000200/"
+  },
+  {
+   "acc": "0000050863-25-000200",
+   "date": "2025-12-01",
+   "name": "GAWEL SCOTT",
+   "role": "CVP, Chief Accounting Officer",
+   "code": "M",
+   "shares": 2024.0,
+   "price": null,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086325000200/"
+  },
+  {
+   "acc": "0000050863-25-000200",
+   "date": "2025-12-01",
+   "name": "GAWEL SCOTT",
+   "role": "CVP, Chief Accounting Officer",
+   "code": "F",
+   "shares": 1004.0,
+   "price": 39.99,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086325000200/"
   }
  ]
 }

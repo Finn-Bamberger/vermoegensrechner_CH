@@ -6,7 +6,7 @@
  "rank": 4,
  "source": "SEC EDGAR",
  "fiscal_year_end": "0630",
- "updated_at": "2026-10-16T12:10:06Z",
+ "updated_at": "2026-10-16T15:58:03Z",
  "periodic_accs": [
   "0000950170-23-014423",
   "0000950170-23-035122",
@@ -1188,6 +1188,30 @@
    "url": "https://www.sec.gov/Archives/edgar/data/789019/000078901926000161/"
   },
   {
+   "acc": "0000789019-26-000153",
+   "date": "2026-08-31",
+   "name": "Althoff Judson",
+   "role": "EVP, Chief Commercial Officer",
+   "code": "A",
+   "shares": 29724.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000078901926000153/"
+  },
+  {
+   "acc": "0000789019-26-000153",
+   "date": "2026-08-31",
+   "name": "Althoff Judson",
+   "role": "EVP, Chief Commercial Officer",
+   "code": "F",
+   "shares": 18080.548,
+   "price": 513.53,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000078901926000153/"
+  },
+  {
    "acc": "0000789019-26-000159",
    "date": "2026-08-31",
    "name": "SMITH BRADFORD L",
@@ -1318,6 +1342,102 @@
    "ad": "D",
    "plan_10b5_1": false,
    "url": "https://www.sec.gov/Archives/edgar/data/789019/000078901926000154/"
+  },
+  {
+   "acc": "0000789019-26-000145",
+   "date": "2026-08-17",
+   "name": "Coleman Amy",
+   "role": "EVP, Chief Human Resources Off",
+   "code": "F",
+   "shares": 89.044,
+   "price": 495.4,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000078901926000145/"
+  },
+  {
+   "acc": "0000789019-26-000143",
+   "date": "2026-08-05",
+   "name": "Althoff Judson",
+   "role": "CEO Microsoft Commercial",
+   "code": "S",
+   "shares": 10000.0,
+   "price": 487.893,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000078901926000143/"
+  },
+  {
+   "acc": "0000789019-26-000141",
+   "date": "2026-08-04",
+   "name": "Numoto Takeshi",
+   "role": "EVP, Chief Marketing Officer",
+   "code": "S",
+   "shares": 4810.353,
+   "price": 496.48,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000078901926000141/"
+  },
+  {
+   "acc": "0000789019-26-000139",
+   "date": "2026-07-15",
+   "name": "Coleman Amy",
+   "role": "EVP, Chief Human Resources Off",
+   "code": "F",
+   "shares": 32.344,
+   "price": 384.93,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000078901926000139/"
+  },
+  {
+   "acc": "0000789019-26-000135",
+   "date": "2026-06-15",
+   "name": "Jolla Alice L.",
+   "role": "Chief Accounting Officer",
+   "code": "A",
+   "shares": 5004.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000078901926000135/"
+  },
+  {
+   "acc": "0000789019-26-000133",
+   "date": "2026-06-15",
+   "name": "Coleman Amy",
+   "role": "EVP, Chief Human Resources Off",
+   "code": "F",
+   "shares": 35.944,
+   "price": 390.74,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000078901926000133/"
+  },
+  {
+   "acc": "0000789019-26-000121",
+   "date": "2026-06-10",
+   "name": "Numoto Takeshi",
+   "role": "EVP, Chief Marketing Officer",
+   "code": "S",
+   "shares": 4500.0,
+   "price": 402.84,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000078901926000121/"
+  },
+  {
+   "acc": "0000789019-26-000109",
+   "date": "2026-06-08",
+   "name": "Numoto Takeshi",
+   "role": "EVP, Chief Marketing Officer",
+   "code": "S",
+   "shares": 2500.0,
+   "price": 412.45,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000078901926000109/"
   }
  ]
 }

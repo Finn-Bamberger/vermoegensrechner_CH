@@ -6,7 +6,7 @@
  "rank": 25,
  "source": "SEC EDGAR",
  "fiscal_year_end": "0830",
- "updated_at": "2026-10-16T12:13:57Z",
+ "updated_at": "2026-10-16T16:01:18Z",
  "periodic_accs": [
   "0000909832-16-000040",
   "0000909832-17-000004",
@@ -1259,6 +1259,66 @@
    "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000126/"
   },
   {
+   "acc": "0000909832-25-000118",
+   "date": "2025-10-22",
+   "name": "JEWELL SARAH MR SALLY",
+   "role": "Director",
+   "code": "A",
+   "shares": 286.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000118/"
+  },
+  {
+   "acc": "0000909832-25-000116",
+   "date": "2025-10-22",
+   "name": "JAMES HAMILTON E",
+   "role": "Director",
+   "code": "A",
+   "shares": 286.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000116/"
+  },
+  {
+   "acc": "0000909832-25-000114",
+   "date": "2025-10-22",
+   "name": "Foulkes Helena",
+   "role": "Director",
+   "code": "A",
+   "shares": 286.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000114/"
+  },
+  {
+   "acc": "0000909832-25-000111",
+   "date": "2025-10-22",
+   "name": "DENMAN KENNETH D",
+   "role": "Director",
+   "code": "A",
+   "shares": 286.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000111/"
+  },
+  {
+   "acc": "0000909832-25-000109",
+   "date": "2025-10-22",
+   "name": "DECKER SUSAN L",
+   "role": "Director",
+   "code": "A",
+   "shares": 286.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000109/"
+  },
+  {
    "acc": "0000909832-25-000144",
    "date": "2025-10-22",
    "name": "Barbre Tiffany Marie",
@@ -1797,6 +1857,54 @@
    "ad": "A",
    "plan_10b5_1": false,
    "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000120/"
+  },
+  {
+   "acc": "0000909832-25-000097",
+   "date": "2025-09-29",
+   "name": "Miller Russell D",
+   "role": "Sr. Executive Vice President",
+   "code": "S",
+   "shares": 3381.0,
+   "price": 915.0,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000097/"
+  },
+  {
+   "acc": "0000909832-25-000095",
+   "date": "2025-09-29",
+   "name": "Frates Caton",
+   "role": "Executive Vice President",
+   "code": "S",
+   "shares": 1540.0,
+   "price": 910.02,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000095/"
+  },
+  {
+   "acc": "0000909832-25-000090",
+   "date": "2025-09-23",
+   "name": "Miller Russell D",
+   "role": "Sr. Executive Vice President",
+   "code": "G",
+   "shares": 2918.0,
+   "price": 0.0,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000090/"
+  },
+  {
+   "acc": "0000909832-25-000090",
+   "date": "2025-09-23",
+   "name": "Miller Russell D",
+   "role": "Sr. Executive Vice President",
+   "code": "G",
+   "shares": 2918.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000090/"
   }
  ]
 }
