@@ -6,7 +6,7 @@
  "rank": 4,
  "source": "SEC EDGAR",
  "fiscal_year_end": "0630",
- "updated_at": "2026-10-16T19:24:16Z",
+ "updated_at": "2026-10-16T22:09:56Z",
  "periodic_accs": [
   "0000950170-23-014423",
   "0000950170-23-035122",
@@ -834,8 +834,8 @@
   "filed": "2026-07-29"
  },
  "quote": {
-  "price": 539.44,
-  "date": "2026-10-15",
+  "price": 529.05,
+  "date": "2026-10-16",
   "source": "Yahoo Finance"
  },
  "insiders": [
@@ -1440,6 +1440,18 @@
    "url": "https://www.sec.gov/Archives/edgar/data/789019/000078901926000109/"
   },
   {
+   "acc": "0000789019-26-000096",
+   "date": "2026-06-05",
+   "name": "Di Sibio Carmine",
+   "role": "Director",
+   "code": "A",
+   "shares": 15.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000078901926000096/"
+  },
+  {
    "acc": "0000789019-26-000104",
    "date": "2026-06-05",
    "name": "SCHARF CHARLES W",
@@ -1474,6 +1486,18 @@
    "ad": "A",
    "plan_10b5_1": false,
    "url": "https://www.sec.gov/Archives/edgar/data/789019/000078901926000100/"
+  },
+  {
+   "acc": "0000789019-26-000083",
+   "date": "2026-06-01",
+   "name": "Althoff Judson",
+   "role": "CEO Microsoft Commercial",
+   "code": "S",
+   "shares": 15500.0,
+   "price": 460.988,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000078901926000083/"
   }
  ]
 }

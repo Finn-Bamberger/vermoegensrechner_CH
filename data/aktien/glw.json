@@ -6,7 +6,7 @@
  "rank": 95,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-10-16T19:35:20Z",
+ "updated_at": "2026-10-16T22:56:52Z",
  "periodic_accs": [
   "0000024741-25-000121",
   "0000024741-26-000124",
@@ -710,8 +710,8 @@
   "filed": "2026-07-29"
  },
  "quote": {
-  "price": 138.43,
-  "date": "2026-10-15",
+  "price": 132.0,
+  "date": "2026-10-16",
   "source": "Yahoo Finance"
  },
  "insiders": [
@@ -1556,6 +1556,78 @@
    "url": "https://www.sec.gov/Archives/edgar/data/24741/000002474126000099/"
   },
   {
+   "acc": "0000024741-26-000092",
+   "date": "2026-02-09",
+   "name": "Becker Stefan",
+   "role": "SVP, Finance & Corp Controller",
+   "code": "M",
+   "shares": 2110.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/24741/000002474126000092/"
+  },
+  {
+   "acc": "0000024741-26-000092",
+   "date": "2026-02-09",
+   "name": "Becker Stefan",
+   "role": "SVP, Finance & Corp Controller",
+   "code": "F",
+   "shares": 815.0,
+   "price": 131.39,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/24741/000002474126000092/"
+  },
+  {
+   "acc": "0000024741-26-000091",
+   "date": "2026-02-09",
+   "name": "Amin Jaymin",
+   "role": "SVP and Chief Tech. Officer",
+   "code": "M",
+   "shares": 2641.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/24741/000002474126000091/"
+  },
+  {
+   "acc": "0000024741-26-000091",
+   "date": "2026-02-09",
+   "name": "Amin Jaymin",
+   "role": "SVP and Chief Tech. Officer",
+   "code": "F",
+   "shares": 953.0,
+   "price": 131.39,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/24741/000002474126000091/"
+  },
+  {
+   "acc": "0000024741-26-000078",
+   "date": "2026-02-09",
+   "name": "Kammerud Jordana Daryl",
+   "role": "SVP",
+   "code": "S",
+   "shares": 30000.0,
+   "price": 127.6673,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/24741/000002474126000078/"
+  },
+  {
+   "acc": "0000024741-26-000077",
+   "date": "2026-02-09",
+   "name": "Musser Eric S",
+   "role": "",
+   "code": "S",
+   "shares": 15000.0,
+   "price": 130.2474,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/24741/000002474126000077/"
+  },
+  {
    "acc": "0000024741-26-000099",
    "date": "2026-02-09",
    "name": "STEVERSON LEWIS A",
@@ -1830,6 +1902,54 @@
    "ad": "D",
    "plan_10b5_1": false,
    "url": "https://www.sec.gov/Archives/edgar/data/24741/000002474126000100/"
+  },
+  {
+   "acc": "0000024741-26-000074",
+   "date": "2026-02-04",
+   "name": "Verkleeren Ronald L",
+   "role": "SVP Emerging Innovations Group",
+   "code": "M",
+   "shares": 300.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/24741/000002474126000074/"
+  },
+  {
+   "acc": "0000024741-26-000074",
+   "date": "2026-02-04",
+   "name": "Verkleeren Ronald L",
+   "role": "SVP Emerging Innovations Group",
+   "code": "M",
+   "shares": 395.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/24741/000002474126000074/"
+  },
+  {
+   "acc": "0000024741-26-000074",
+   "date": "2026-02-04",
+   "name": "Verkleeren Ronald L",
+   "role": "SVP Emerging Innovations Group",
+   "code": "M",
+   "shares": 591.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/24741/000002474126000074/"
+  },
+  {
+   "acc": "0000024741-26-000074",
+   "date": "2026-02-04",
+   "name": "Verkleeren Ronald L",
+   "role": "SVP Emerging Innovations Group",
+   "code": "F",
+   "shares": 1286.0,
+   "price": 109.69,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/24741/000002474126000074/"
   }
  ]
 }

@@ -6,7 +6,7 @@
  "rank": 92,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-10-16T16:15:22Z",
+ "updated_at": "2026-10-16T22:53:32Z",
  "periodic_accs": [
   "0001075531-15-000007",
   "0001075531-15-000055",
@@ -750,11 +750,23 @@
   "filed": "2026-08-04"
  },
  "quote": {
-  "price": 165.8,
-  "date": "2026-10-15",
+  "price": 163.45,
+  "date": "2026-10-16",
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0001875741-26-000010",
+   "date": "2026-10-15",
+   "name": "Pisano Paulo",
+   "role": "CHIEF HUMAN RESOURCES OFFICER",
+   "code": "S",
+   "shares": 1500.0,
+   "price": 163.06,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1075531/000187574126000010/"
+  },
   {
    "acc": "0001875741-26-000008",
    "date": "2026-09-15",

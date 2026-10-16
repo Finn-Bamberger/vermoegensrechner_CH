@@ -6,7 +6,7 @@
  "rank": 91,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-10-16T19:34:49Z",
+ "updated_at": "2026-10-16T22:52:25Z",
  "periodic_accs": [
   "0000875320-20-000030",
   "0000875320-20-000043",
@@ -768,8 +768,8 @@
   "filed": "2026-08-04"
  },
  "quote": {
-  "price": 508.75,
-  "date": "2026-10-15",
+  "price": 499.74,
+  "date": "2026-10-16",
   "source": "Yahoo Finance"
  },
  "insiders": [
@@ -2932,6 +2932,150 @@
    "ad": "D",
    "plan_10b5_1": true,
    "url": "https://www.sec.gov/Archives/edgar/data/875320/000087532025000240/"
+  },
+  {
+   "acc": "0000875320-25-000238",
+   "date": "2025-11-19",
+   "name": "CARNEY LLOYD",
+   "role": "Director",
+   "code": "G",
+   "shares": 800.0,
+   "price": 0.0,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/875320/000087532025000238/"
+  },
+  {
+   "acc": "0000875320-25-000236",
+   "date": "2025-11-17",
+   "name": "Atkinson Edward Morrow III",
+   "role": "EVP, Chief Technical Ops. Off.",
+   "code": "S",
+   "shares": 2500.0,
+   "price": 434.58,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/875320/000087532025000236/"
+  },
+  {
+   "acc": "0000875320-25-000234",
+   "date": "2025-11-14",
+   "name": "LEIDEN JEFFREY M",
+   "role": "Executive Chairman",
+   "code": "M",
+   "shares": 13835.0,
+   "price": 91.05,
+   "ad": "A",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/875320/000087532025000234/"
+  },
+  {
+   "acc": "0000875320-25-000234",
+   "date": "2025-11-14",
+   "name": "LEIDEN JEFFREY M",
+   "role": "Executive Chairman",
+   "code": "M",
+   "shares": 39769.0,
+   "price": 86.52,
+   "ad": "A",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/875320/000087532025000234/"
+  },
+  {
+   "acc": "0000875320-25-000234",
+   "date": "2025-11-14",
+   "name": "LEIDEN JEFFREY M",
+   "role": "Executive Chairman",
+   "code": "S",
+   "shares": 32234.0,
+   "price": 440.3,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/875320/000087532025000234/"
+  },
+  {
+   "acc": "0000875320-25-000234",
+   "date": "2025-11-14",
+   "name": "LEIDEN JEFFREY M",
+   "role": "Executive Chairman",
+   "code": "S",
+   "shares": 21330.0,
+   "price": 441.35,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/875320/000087532025000234/"
+  },
+  {
+   "acc": "0000875320-25-000234",
+   "date": "2025-11-14",
+   "name": "LEIDEN JEFFREY M",
+   "role": "Executive Chairman",
+   "code": "S",
+   "shares": 40.0,
+   "price": 442.0,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/875320/000087532025000234/"
+  },
+  {
+   "acc": "0000875320-25-000234",
+   "date": "2025-11-13",
+   "name": "LEIDEN JEFFREY M",
+   "role": "Executive Chairman",
+   "code": "M",
+   "shares": 19688.0,
+   "price": 91.05,
+   "ad": "A",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/875320/000087532025000234/"
+  },
+  {
+   "acc": "0000875320-25-000234",
+   "date": "2025-11-13",
+   "name": "LEIDEN JEFFREY M",
+   "role": "Executive Chairman",
+   "code": "S",
+   "shares": 18528.0,
+   "price": 440.22,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/875320/000087532025000234/"
+  },
+  {
+   "acc": "0000875320-25-000234",
+   "date": "2025-11-13",
+   "name": "LEIDEN JEFFREY M",
+   "role": "Executive Chairman",
+   "code": "S",
+   "shares": 1160.0,
+   "price": 441.05,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/875320/000087532025000234/"
+  },
+  {
+   "acc": "0000875320-25-000224",
+   "date": "2025-10-02",
+   "name": "Biller Jonathan",
+   "role": "EVP and Chief Legal Officer",
+   "code": "S",
+   "shares": 694.0,
+   "price": 404.21,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/875320/000087532025000224/"
+  },
+  {
+   "acc": "0000875320-25-000224",
+   "date": "2025-10-01",
+   "name": "Biller Jonathan",
+   "role": "EVP and Chief Legal Officer",
+   "code": "F",
+   "shares": 1259.0,
+   "price": 400.0,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/875320/000087532025000224/"
   }
  ]
 }

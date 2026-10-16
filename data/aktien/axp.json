@@ -6,7 +6,7 @@
  "rank": 54,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-10-16T19:30:09Z",
+ "updated_at": "2026-10-16T22:15:36Z",
  "periodic_accs": [
   "0000004962-20-000030",
   "0000004962-20-000054",
@@ -740,8 +740,8 @@
   "filed": "2026-07-24"
  },
  "quote": {
-  "price": 313.87,
-  "date": "2026-10-15",
+  "price": 313.59,
+  "date": "2026-10-16",
   "source": "Yahoo Finance"
  },
  "insiders": [
@@ -912,6 +912,78 @@
    "ad": "D",
    "plan_10b5_1": false,
    "url": "https://www.sec.gov/Archives/edgar/data/4962/000000496226000095/"
+  },
+  {
+   "acc": "0000004962-26-000087",
+   "date": "2026-02-05",
+   "name": "Pickett Denise",
+   "role": "Pres., Enterprise Shared Serv.",
+   "code": "M",
+   "shares": 12660.0,
+   "price": 173.61,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/4962/000000496226000087/"
+  },
+  {
+   "acc": "0000004962-26-000087",
+   "date": "2026-02-05",
+   "name": "Pickett Denise",
+   "role": "Pres., Enterprise Shared Serv.",
+   "code": "S",
+   "shares": 23385.0,
+   "price": 356.91,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/4962/000000496226000087/"
+  },
+  {
+   "acc": "0000004962-26-000086",
+   "date": "2026-02-05",
+   "name": "Marrs Anna",
+   "role": "Group Pres., GMNS",
+   "code": "M",
+   "shares": 14992.0,
+   "price": 173.61,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/4962/000000496226000086/"
+  },
+  {
+   "acc": "0000004962-26-000086",
+   "date": "2026-02-05",
+   "name": "Marrs Anna",
+   "role": "Group Pres., GMNS",
+   "code": "S",
+   "shares": 27425.0,
+   "price": 350.01,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/4962/000000496226000086/"
+  },
+  {
+   "acc": "0000004962-26-000071",
+   "date": "2026-02-01",
+   "name": "Tabish Douglas",
+   "role": "Chief Risk Officer",
+   "code": "A",
+   "shares": 9504.0,
+   "price": null,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/4962/000000496226000071/"
+  },
+  {
+   "acc": "0000004962-26-000071",
+   "date": "2026-02-01",
+   "name": "Tabish Douglas",
+   "role": "Chief Risk Officer",
+   "code": "F",
+   "shares": 4425.0,
+   "price": 352.17,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/4962/000000496226000071/"
   }
  ]
 }

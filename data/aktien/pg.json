@@ -6,7 +6,7 @@
  "rank": 28,
  "source": "SEC EDGAR",
  "fiscal_year_end": "0630",
- "updated_at": "2026-10-16T19:26:46Z",
+ "updated_at": "2026-10-16T22:12:06Z",
  "periodic_accs": [
   "0000080424-22-000064",
   "0000080424-22-000102",
@@ -27,6 +27,14 @@
   "0000080424-26-000103"
  ],
  "filings": [
+  {
+   "form": "8-K",
+   "date": "2026-10-16",
+   "report_date": "2026-10-16",
+   "items": "5.07",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/80424/000008042426000245/pg-20261016.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/80424/000008042426000245/0000080424-26-000245-index.htm"
+  },
   {
    "form": "8-K",
    "date": "2026-10-13",
@@ -338,14 +346,6 @@
    "items": "7.01,9.01",
    "doc_url": "https://www.sec.gov/Archives/edgar/data/80424/000008042425000003/january2025dividend.htm",
    "index_url": "https://www.sec.gov/Archives/edgar/data/80424/000008042425000003/0000080424-25-000003-index.htm"
-  },
-  {
-   "form": "8-K",
-   "date": "2024-10-24",
-   "report_date": "2024-10-24",
-   "items": "8.01,9.01",
-   "doc_url": "https://www.sec.gov/Archives/edgar/data/80424/000119312524242887/d849483d8k.htm",
-   "index_url": "https://www.sec.gov/Archives/edgar/data/80424/000119312524242887/0001193125-24-242887-index.htm"
   }
  ],
  "quarters": [
@@ -729,8 +729,8 @@
   "filed": "2026-08-04"
  },
  "quote": {
-  "price": 157.08,
-  "date": "2026-10-15",
+  "price": 159.35,
+  "date": "2026-10-16",
   "source": "Yahoo Finance"
  },
  "insiders": [
@@ -1599,6 +1599,78 @@
    "url": "https://www.sec.gov/Archives/edgar/data/80424/000008042426000023/"
   },
   {
+   "acc": "0000080424-26-000021",
+   "date": "2026-02-12",
+   "name": "Moeller Jon R",
+   "role": "Exec. Chairman of the Board",
+   "code": "M",
+   "shares": 162232.0,
+   "price": 113.23,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/80424/000008042426000021/"
+  },
+  {
+   "acc": "0000080424-26-000021",
+   "date": "2026-02-12",
+   "name": "Moeller Jon R",
+   "role": "Exec. Chairman of the Board",
+   "code": "S",
+   "shares": 162232.0,
+   "price": 162.4486,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/80424/000008042426000021/"
+  },
+  {
+   "acc": "0000080424-26-000020",
+   "date": "2026-02-12",
+   "name": "Coombe Gary A",
+   "role": "CEO - Grooming",
+   "code": "M",
+   "shares": 36093.0,
+   "price": 78.52,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/80424/000008042426000020/"
+  },
+  {
+   "acc": "0000080424-26-000020",
+   "date": "2026-02-12",
+   "name": "Coombe Gary A",
+   "role": "CEO - Grooming",
+   "code": "S",
+   "shares": 36093.0,
+   "price": 162.3307,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/80424/000008042426000020/"
+  },
+  {
+   "acc": "0000080424-26-000021",
+   "date": "2026-02-11",
+   "name": "Moeller Jon R",
+   "role": "Exec. Chairman of the Board",
+   "code": "M",
+   "shares": 11036.0,
+   "price": 113.23,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/80424/000008042426000021/"
+  },
+  {
+   "acc": "0000080424-26-000021",
+   "date": "2026-02-11",
+   "name": "Moeller Jon R",
+   "role": "Exec. Chairman of the Board",
+   "code": "S",
+   "shares": 11036.0,
+   "price": 160.0,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/80424/000008042426000021/"
+  },
+  {
    "acc": "0000080424-26-000022",
    "date": "2026-02-11",
    "name": "Purushothaman Balaji",
@@ -1621,6 +1693,330 @@
    "ad": "D",
    "plan_10b5_1": false,
    "url": "https://www.sec.gov/Archives/edgar/data/80424/000008042426000022/"
+  },
+  {
+   "acc": "0000080424-26-000015",
+   "date": "2026-02-04",
+   "name": "Francisco Ma. Fatima",
+   "role": "CEO - Baby, Fem & Family Care",
+   "code": "S",
+   "shares": 8000.0,
+   "price": 158.0,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/80424/000008042426000015/"
+  },
+  {
+   "acc": "0000080424-26-000012",
+   "date": "2026-01-23",
+   "name": "Pritchard Marc S.",
+   "role": "Chief Brand Officer",
+   "code": "M",
+   "shares": 95903.0,
+   "price": 80.29,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/80424/000008042426000012/"
+  },
+  {
+   "acc": "0000080424-26-000012",
+   "date": "2026-01-23",
+   "name": "Pritchard Marc S.",
+   "role": "Chief Brand Officer",
+   "code": "S",
+   "shares": 95903.0,
+   "price": 151.1495,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/80424/000008042426000012/"
+  },
+  {
+   "acc": "0000080424-25-000284",
+   "date": "2025-12-09",
+   "name": "Portman Robert Jones",
+   "role": "Director",
+   "code": "A",
+   "shares": 54.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/80424/000008042425000284/"
+  },
+  {
+   "acc": "0000080424-25-000283",
+   "date": "2025-12-09",
+   "name": "McEvoy Ashley",
+   "role": "Director",
+   "code": "A",
+   "shares": 215.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/80424/000008042425000283/"
+  },
+  {
+   "acc": "0000080424-25-000282",
+   "date": "2025-12-09",
+   "name": "McCarthy Christine M",
+   "role": "Director",
+   "code": "A",
+   "shares": 269.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/80424/000008042425000282/"
+  },
+  {
+   "acc": "0000080424-25-000281",
+   "date": "2025-12-09",
+   "name": "Kempczinski Christopher J",
+   "role": "Director",
+   "code": "A",
+   "shares": 260.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/80424/000008042425000281/"
+  },
+  {
+   "acc": "0000080424-25-000280",
+   "date": "2025-12-09",
+   "name": "JIMENEZ JOSEPH",
+   "role": "Director",
+   "code": "A",
+   "shares": 341.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/80424/000008042425000280/"
+  },
+  {
+   "acc": "0000080424-25-000279",
+   "date": "2025-12-09",
+   "name": "ARNOLD CRAIG",
+   "role": "Director",
+   "code": "A",
+   "shares": 215.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/80424/000008042425000279/"
+  },
+  {
+   "acc": "0000080424-25-000278",
+   "date": "2025-12-03",
+   "name": "Moeller Jon R",
+   "role": "Chairman, President and CEO",
+   "code": "F",
+   "shares": 719.07,
+   "price": 144.35,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/80424/000008042425000278/"
+  },
+  {
+   "acc": "0000080424-25-000278",
+   "date": "2025-12-03",
+   "name": "Moeller Jon R",
+   "role": "Chairman, President and CEO",
+   "code": "M",
+   "shares": 159.14,
+   "price": 144.35,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/80424/000008042425000278/"
+  },
+  {
+   "acc": "0000080424-25-000278",
+   "date": "2025-12-03",
+   "name": "Moeller Jon R",
+   "role": "Chairman, President and CEO",
+   "code": "F",
+   "shares": 159.14,
+   "price": 144.35,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/80424/000008042425000278/"
+  },
+  {
+   "acc": "0000080424-25-000278",
+   "date": "2025-12-03",
+   "name": "Moeller Jon R",
+   "role": "Chairman, President and CEO",
+   "code": "F",
+   "shares": 151.08,
+   "price": 144.35,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/80424/000008042425000278/"
+  },
+  {
+   "acc": "0000080424-25-000277",
+   "date": "2025-12-03",
+   "name": "Whaley Susan Street",
+   "role": "Chief Legal Officer & Secy",
+   "code": "M",
+   "shares": 54.39,
+   "price": 144.35,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/80424/000008042425000277/"
+  },
+  {
+   "acc": "0000080424-25-000277",
+   "date": "2025-12-03",
+   "name": "Whaley Susan Street",
+   "role": "Chief Legal Officer & Secy",
+   "code": "F",
+   "shares": 54.39,
+   "price": 144.35,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/80424/000008042425000277/"
+  },
+  {
+   "acc": "0000080424-25-000276",
+   "date": "2025-12-03",
+   "name": "Schulten Andre",
+   "role": "Chief Financial Officer",
+   "code": "F",
+   "shares": 715.5,
+   "price": 144.35,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/80424/000008042425000276/"
+  },
+  {
+   "acc": "0000080424-25-000276",
+   "date": "2025-12-03",
+   "name": "Schulten Andre",
+   "role": "Chief Financial Officer",
+   "code": "M",
+   "shares": 88.63,
+   "price": 144.35,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/80424/000008042425000276/"
+  },
+  {
+   "acc": "0000080424-25-000276",
+   "date": "2025-12-03",
+   "name": "Schulten Andre",
+   "role": "Chief Financial Officer",
+   "code": "F",
+   "shares": 88.63,
+   "price": 144.35,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/80424/000008042425000276/"
+  },
+  {
+   "acc": "0000080424-25-000276",
+   "date": "2025-12-03",
+   "name": "Schulten Andre",
+   "role": "Chief Financial Officer",
+   "code": "F",
+   "shares": 68.49,
+   "price": 144.35,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/80424/000008042425000276/"
+  },
+  {
+   "acc": "0000080424-25-000275",
+   "date": "2025-12-03",
+   "name": "Raman Sundar G.",
+   "role": "CEO-Fabric & Home Care",
+   "code": "F",
+   "shares": 59.43,
+   "price": 144.35,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/80424/000008042425000275/"
+  },
+  {
+   "acc": "0000080424-25-000275",
+   "date": "2025-12-03",
+   "name": "Raman Sundar G.",
+   "role": "CEO-Fabric & Home Care",
+   "code": "M",
+   "shares": 59.43,
+   "price": 144.35,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/80424/000008042425000275/"
+  },
+  {
+   "acc": "0000080424-25-000274",
+   "date": "2025-12-03",
+   "name": "Purushothaman Balaji",
+   "role": "Chief Human Resources Officer",
+   "code": "M",
+   "shares": 38.27,
+   "price": 144.35,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/80424/000008042425000274/"
+  },
+  {
+   "acc": "0000080424-25-000274",
+   "date": "2025-12-03",
+   "name": "Purushothaman Balaji",
+   "role": "Chief Human Resources Officer",
+   "code": "F",
+   "shares": 38.27,
+   "price": 144.35,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/80424/000008042425000274/"
+  },
+  {
+   "acc": "0000080424-25-000273",
+   "date": "2025-12-03",
+   "name": "Pritchard Marc S.",
+   "role": "Chief Brand Officer",
+   "code": "M",
+   "shares": 94.68,
+   "price": 144.35,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/80424/000008042425000273/"
+  },
+  {
+   "acc": "0000080424-25-000273",
+   "date": "2025-12-03",
+   "name": "Pritchard Marc S.",
+   "role": "Chief Brand Officer",
+   "code": "F",
+   "shares": 94.68,
+   "price": 144.35,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/80424/000008042425000273/"
+  },
+  {
+   "acc": "0000080424-25-000272",
+   "date": "2025-12-03",
+   "name": "Bharucha Freddy P.",
+   "role": "CEO - Beauty",
+   "code": "M",
+   "shares": 45.32,
+   "price": 144.35,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/80424/000008042425000272/"
+  },
+  {
+   "acc": "0000080424-25-000272",
+   "date": "2025-12-03",
+   "name": "Bharucha Freddy P.",
+   "role": "CEO - Beauty",
+   "code": "F",
+   "shares": 45.32,
+   "price": 144.35,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/80424/000008042425000272/"
   }
  ]
 }

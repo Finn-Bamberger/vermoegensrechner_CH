@@ -6,7 +6,7 @@
  "rank": 60,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-10-16T19:30:54Z",
+ "updated_at": "2026-10-16T22:17:15Z",
  "periodic_accs": [
   "0000882095-18-000015",
   "0000882095-18-000022",
@@ -783,11 +783,35 @@
   "filed": "2026-08-06"
  },
  "quote": {
-  "price": 157.37,
-  "date": "2026-10-15",
+  "price": 156.19,
+  "date": "2026-10-16",
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0001782135-26-000035",
+   "date": "2026-10-15",
+   "name": "Mercier Johanna",
+   "role": "Chief Comm & Corp Aff Officer",
+   "code": "S",
+   "shares": 3000.0,
+   "price": 156.22,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/882095/000178213526000035/"
+  },
+  {
+   "acc": "0001310204-26-000031",
+   "date": "2026-10-15",
+   "name": "Dickinson Andrew D",
+   "role": "Chief Financial Officer",
+   "code": "S",
+   "shares": 3000.0,
+   "price": 156.22,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/882095/000131020426000031/"
+  },
   {
    "acc": "0001638643-26-000035",
    "date": "2026-10-01",

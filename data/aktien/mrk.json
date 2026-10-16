@@ -6,7 +6,7 @@
  "rank": 29,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-10-16T19:26:59Z",
+ "updated_at": "2026-10-16T22:12:19Z",
  "periodic_accs": [
   "0000310158-18-000034",
   "0000310158-18-000039",
@@ -749,8 +749,8 @@
   "filed": "2026-08-07"
  },
  "quote": {
-  "price": 145.19,
-  "date": "2026-10-15",
+  "price": 145.95,
+  "date": "2026-10-16",
   "source": "Yahoo Finance"
  },
  "insiders": [
@@ -1523,6 +1523,18 @@
    "url": "https://www.sec.gov/Archives/edgar/data/310158/000031015826000046/"
   },
   {
+   "acc": "0000310158-26-000032",
+   "date": "2026-02-06",
+   "name": "DeLuca Richard R.",
+   "role": "EVP&Pres, Merck Animal Heallth",
+   "code": "S",
+   "shares": 37685.0,
+   "price": 120.9241,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/310158/000031015826000032/"
+  },
+  {
    "acc": "0000310158-26-000044",
    "date": "2026-02-06",
    "name": "Williams David Michael",
@@ -1559,6 +1571,90 @@
    "url": "https://www.sec.gov/Archives/edgar/data/310158/000031015826000040/"
   },
   {
+   "acc": "0000310158-26-000034",
+   "date": "2026-02-05",
+   "name": "Guindo Chirfi",
+   "role": "Chief Marketing Officer",
+   "code": "S",
+   "shares": 20000.0,
+   "price": 121.8838,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/310158/000031015826000034/"
+  },
+  {
+   "acc": "0000310158-26-000038",
+   "date": "2026-02-04",
+   "name": "Litchfield Caroline",
+   "role": "EVP & CFO",
+   "code": "M",
+   "shares": 41997.0,
+   "price": 53.06,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/310158/000031015826000038/"
+  },
+  {
+   "acc": "0000310158-26-000038",
+   "date": "2026-02-04",
+   "name": "Litchfield Caroline",
+   "role": "EVP & CFO",
+   "code": "S",
+   "shares": 41997.0,
+   "price": 119.6112,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/310158/000031015826000038/"
+  },
+  {
+   "acc": "0000310158-26-000036",
+   "date": "2026-02-04",
+   "name": "Li Dean Y",
+   "role": "Executive VP & President, MRL",
+   "code": "M",
+   "shares": 15087.0,
+   "price": 56.04,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/310158/000031015826000036/"
+  },
+  {
+   "acc": "0000310158-26-000036",
+   "date": "2026-02-04",
+   "name": "Li Dean Y",
+   "role": "Executive VP & President, MRL",
+   "code": "S",
+   "shares": 15087.0,
+   "price": 118.7661,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/310158/000031015826000036/"
+  },
+  {
+   "acc": "0000310158-26-000030",
+   "date": "2026-02-04",
+   "name": "Davis Robert M",
+   "role": "Chairman, CEO & President",
+   "code": "S",
+   "shares": 14972.0,
+   "price": 117.3796,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/310158/000031015826000030/"
+  },
+  {
+   "acc": "0000310158-26-000030",
+   "date": "2026-02-04",
+   "name": "Davis Robert M",
+   "role": "Chairman, CEO & President",
+   "code": "S",
+   "shares": 32462.0,
+   "price": 118.3513,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/310158/000031015826000030/"
+  },
+  {
    "acc": "0000310158-26-000042",
    "date": "2026-02-04",
    "name": "Smart Dalton E. III",
@@ -1593,6 +1689,30 @@
    "ad": "D",
    "plan_10b5_1": false,
    "url": "https://www.sec.gov/Archives/edgar/data/310158/000031015826000042/"
+  },
+  {
+   "acc": "0000310158-26-000028",
+   "date": "2026-01-26",
+   "name": "Zachary Jennifer",
+   "role": "EVP, General Counsel",
+   "code": "A",
+   "shares": 11583.0,
+   "price": 107.4,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/310158/000031015826000028/"
+  },
+  {
+   "acc": "0000310158-26-000026",
+   "date": "2026-01-26",
+   "name": "Williams David Michael",
+   "role": "EVP,Chief Info&Digital Officer",
+   "code": "A",
+   "shares": 6112.0,
+   "price": 107.4,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/310158/000031015826000026/"
   }
  ]
 }

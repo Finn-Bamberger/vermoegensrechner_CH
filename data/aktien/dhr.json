@@ -6,7 +6,7 @@
  "rank": 77,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-10-16T19:32:53Z",
+ "updated_at": "2026-10-16T22:36:11Z",
  "periodic_accs": [
   "0000313616-20-000093",
   "0000313616-20-000120",
@@ -773,8 +773,8 @@
   "filed": "2026-07-21"
  },
  "quote": {
-  "price": 231.5,
-  "date": "2026-10-15",
+  "price": 229.04,
+  "date": "2026-10-16",
   "source": "Yahoo Finance"
  },
  "insiders": [
@@ -1569,6 +1569,114 @@
    "ad": "D",
    "plan_10b5_1": false,
    "url": "https://www.sec.gov/Archives/edgar/data/313616/000031361626000030/"
+  },
+  {
+   "acc": "0001193125-25-300646",
+   "date": "2025-11-25",
+   "name": "RALES MITCHELL P",
+   "role": "Chairman of Exec. Committee",
+   "code": "S",
+   "shares": 35899.0,
+   "price": 230.27,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/313616/000119312525300646/"
+  },
+  {
+   "acc": "0001193125-25-300646",
+   "date": "2025-11-25",
+   "name": "RALES MITCHELL P",
+   "role": "Chairman of Exec. Committee",
+   "code": "S",
+   "shares": 4726.0,
+   "price": 231.19,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/313616/000119312525300646/"
+  },
+  {
+   "acc": "0001193125-25-297318",
+   "date": "2025-11-25",
+   "name": "RALES MITCHELL P",
+   "role": "Chairman of Exec. Committee",
+   "code": "G",
+   "shares": 22029.0,
+   "price": 0.0,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/313616/000119312525297318/"
+  },
+  {
+   "acc": "0000313616-25-000214",
+   "date": "2025-11-18",
+   "name": "List Teri",
+   "role": "Director",
+   "code": "M",
+   "shares": 3298.0,
+   "price": 71.88,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/313616/000031361625000214/"
+  },
+  {
+   "acc": "0000313616-25-000214",
+   "date": "2025-11-18",
+   "name": "List Teri",
+   "role": "Director",
+   "code": "S",
+   "shares": 3298.0,
+   "price": 226.5,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/313616/000031361625000214/"
+  },
+  {
+   "acc": "0000313616-25-000212",
+   "date": "2025-11-15",
+   "name": "GRAY R BRADLEY",
+   "role": "SVP Strategic Development",
+   "code": "F",
+   "shares": 1402.0,
+   "price": 221.21,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/313616/000031361625000212/"
+  },
+  {
+   "acc": "0000313616-25-000211",
+   "date": "2025-11-15",
+   "name": "Leiken Jonathan",
+   "role": "SVP- General Counsel",
+   "code": "A",
+   "shares": 10172.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/313616/000031361625000211/"
+  },
+  {
+   "acc": "0000313616-25-000210",
+   "date": "2025-11-15",
+   "name": "Milosevich Gregory M",
+   "role": "Executive Vice President",
+   "code": "F",
+   "shares": 35.0,
+   "price": 221.21,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/313616/000031361625000210/"
+  },
+  {
+   "acc": "0000313616-25-000209",
+   "date": "2025-11-15",
+   "name": "Sawyer Montgomery Julie A",
+   "role": "Executive Vice President",
+   "code": "F",
+   "shares": 265.0,
+   "price": 221.21,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/313616/000031361625000209/"
   }
  ]
 }

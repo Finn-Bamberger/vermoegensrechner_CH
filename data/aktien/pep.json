@@ -6,7 +6,7 @@
  "rank": 65,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1226",
- "updated_at": "2026-10-16T16:10:07Z",
+ "updated_at": "2026-10-16T22:22:51Z",
  "periodic_accs": [
   "0000077476-15-000021",
   "0000077476-15-000036",
@@ -57,6 +57,14 @@
   "0000077476-26-000048"
  ],
  "filings": [
+  {
+   "form": "8-K",
+   "date": "2026-10-16",
+   "report_date": "2026-10-16",
+   "items": "8.01,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/77476/000110465926116626/tm2627433d2_8k.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/77476/000110465926116626/0001104659-26-116626-index.htm"
+  },
   {
    "form": "8-K",
    "date": "2026-10-08",
@@ -368,14 +376,6 @@
    "items": "",
    "doc_url": "https://www.sec.gov/Archives/edgar/data/77476/000007747624000017/pep-20240323.htm",
    "index_url": "https://www.sec.gov/Archives/edgar/data/77476/000007747624000017/0000077476-24-000017-index.htm"
-  },
-  {
-   "form": "8-K",
-   "date": "2024-02-16",
-   "report_date": "2024-02-16",
-   "items": "8.01,9.01",
-   "doc_url": "https://www.sec.gov/Archives/edgar/data/77476/000110465924024927/tm244508d6_8k.htm",
-   "index_url": "https://www.sec.gov/Archives/edgar/data/77476/000110465924024927/0001104659-24-024927-index.htm"
   }
  ],
  "quarters": [
@@ -796,11 +796,59 @@
   "filed": "2026-10-08"
  },
  "quote": {
-  "price": 128.38,
-  "date": "2026-10-15",
+  "price": 131.49,
+  "date": "2026-10-16",
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0001061272-26-000004",
+   "date": "2026-10-14",
+   "name": "POHLAD ROBERT C",
+   "role": "Director",
+   "code": "P",
+   "shares": 84507.0,
+   "price": 128.28,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/77476/000106127226000004/"
+  },
+  {
+   "acc": "0001061272-26-000004",
+   "date": "2026-10-14",
+   "name": "POHLAD ROBERT C",
+   "role": "Director",
+   "code": "P",
+   "shares": 45075.0,
+   "price": 128.28,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/77476/000106127226000004/"
+  },
+  {
+   "acc": "0001061272-26-000004",
+   "date": "2026-10-14",
+   "name": "POHLAD ROBERT C",
+   "role": "Director",
+   "code": "P",
+   "shares": 45075.0,
+   "price": 128.28,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/77476/000106127226000004/"
+  },
+  {
+   "acc": "0001061272-26-000004",
+   "date": "2026-10-14",
+   "name": "POHLAD ROBERT C",
+   "role": "Director",
+   "code": "P",
+   "shares": 9989.0,
+   "price": 128.28,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/77476/000106127226000004/"
+  },
   {
    "acc": "0001628280-26-064906",
    "date": "2026-10-01",

@@ -6,7 +6,7 @@
  "rank": 81,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-10-16T19:33:29Z",
+ "updated_at": "2026-10-16T22:40:43Z",
  "periodic_accs": [
   "0000012927-19-000030",
   "0000012927-19-000063",
@@ -838,8 +838,8 @@
   "filed": "2026-07-28"
  },
  "quote": {
-  "price": 188.73,
-  "date": "2026-10-15",
+  "price": 190.21,
+  "date": "2026-10-16",
   "source": "Yahoo Finance"
  },
  "insiders": [
@@ -1526,6 +1526,30 @@
    "ad": "D",
    "plan_10b5_1": false,
    "url": "https://www.sec.gov/Archives/edgar/data/12927/000122520825009632/"
+  },
+  {
+   "acc": "0001225208-25-009455",
+   "date": "2025-11-24",
+   "name": "DEASY DANA S",
+   "role": "CIDO, SVP IDT&S",
+   "code": "P",
+   "shares": 554.0,
+   "price": 178.885,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/12927/000122520825009455/"
+  },
+  {
+   "acc": "0001225208-25-009064",
+   "date": "2025-11-06",
+   "name": "Amuluru Uma M",
+   "role": "EVP and Chief HR Officer",
+   "code": "S",
+   "shares": 1366.0,
+   "price": 197.664,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/12927/000122520825009064/"
   }
  ]
 }

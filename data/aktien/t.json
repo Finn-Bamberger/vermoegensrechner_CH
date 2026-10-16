@@ -6,7 +6,7 @@
  "rank": 78,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-10-16T19:33:07Z",
+ "updated_at": "2026-10-16T22:37:24Z",
  "periodic_accs": [
   "0000732717-22-000093",
   "0000732717-22-000102",
@@ -27,6 +27,14 @@
   "0000732717-26-000297"
  ],
  "filings": [
+  {
+   "form": "8-K",
+   "date": "2026-10-16",
+   "report_date": "2026-10-14",
+   "items": "5.02,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/732717/000119312526424057/d905556d8k.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/732717/000119312526424057/0001193125-26-424057-index.htm"
+  },
   {
    "form": "8-K",
    "date": "2026-09-09",
@@ -338,14 +346,6 @@
    "items": "2.02,9.01",
    "doc_url": "https://www.sec.gov/Archives/edgar/data/732717/000073271724000056/t-20241023.htm",
    "index_url": "https://www.sec.gov/Archives/edgar/data/732717/000073271724000056/0000732717-24-000056-index.htm"
-  },
-  {
-   "form": "8-K",
-   "date": "2024-09-30",
-   "report_date": "2024-09-29",
-   "items": "1.01,7.01,9.01",
-   "doc_url": "https://www.sec.gov/Archives/edgar/data/732717/000119312524228321/d35594d8k.htm",
-   "index_url": "https://www.sec.gov/Archives/edgar/data/732717/000119312524228321/0001193125-24-228321-index.htm"
   }
  ],
  "quarters": [
@@ -703,8 +703,8 @@
   "filed": "2026-07-22"
  },
  "quote": {
-  "price": 23.5,
-  "date": "2026-10-15",
+  "price": 23.44,
+  "date": "2026-10-16",
   "source": "Yahoo Finance"
  },
  "insiders": [
@@ -1177,6 +1177,18 @@
    "url": "https://www.sec.gov/Archives/edgar/data/732717/000073271726000184/"
   },
   {
+   "acc": "0000732717-26-000176",
+   "date": "2026-02-28",
+   "name": "Desroches Pascal",
+   "role": "Sr. Exec VP and CFO",
+   "code": "A",
+   "shares": 1442.936,
+   "price": 28.01,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/732717/000073271726000176/"
+  },
+  {
    "acc": "0000732717-26-000179",
    "date": "2026-02-28",
    "name": "Sabrina Sanders S",
@@ -1211,6 +1223,174 @@
    "ad": "A",
    "plan_10b5_1": false,
    "url": "https://www.sec.gov/Archives/edgar/data/732717/000073271726000177/"
+  },
+  {
+   "acc": "0000732717-26-000171",
+   "date": "2026-02-25",
+   "name": "Desroches Pascal",
+   "role": "Sr. Exec VP and CFO",
+   "code": "G",
+   "shares": 352000.0,
+   "price": 0.0,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/732717/000073271726000171/"
+  },
+  {
+   "acc": "0000732717-26-000171",
+   "date": "2026-02-25",
+   "name": "Desroches Pascal",
+   "role": "Sr. Exec VP and CFO",
+   "code": "G",
+   "shares": 352000.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/732717/000073271726000171/"
+  },
+  {
+   "acc": "0000732717-26-000168",
+   "date": "2026-02-18",
+   "name": "STANKEY JOHN T",
+   "role": "CEO & President",
+   "code": "G",
+   "shares": 199244.0,
+   "price": 0.0,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/732717/000073271726000168/"
+  },
+  {
+   "acc": "0000732717-26-000168",
+   "date": "2026-02-18",
+   "name": "STANKEY JOHN T",
+   "role": "CEO & President",
+   "code": "G",
+   "shares": 199244.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/732717/000073271726000168/"
+  },
+  {
+   "acc": "0000732717-26-000167",
+   "date": "2026-02-18",
+   "name": "McAtee David R II",
+   "role": "Sr. Exec. VP and Gen. Counsel",
+   "code": "G",
+   "shares": 126479.0,
+   "price": 0.0,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/732717/000073271726000167/"
+  },
+  {
+   "acc": "0000732717-26-000167",
+   "date": "2026-02-18",
+   "name": "McAtee David R II",
+   "role": "Sr. Exec. VP and Gen. Counsel",
+   "code": "G",
+   "shares": 126479.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/732717/000073271726000167/"
+  },
+  {
+   "acc": "0000732717-26-000166",
+   "date": "2026-02-18",
+   "name": "Lee Lori M",
+   "role": "Global Mktg Ofr & SEVP Intl",
+   "code": "G",
+   "shares": 60924.0,
+   "price": 0.0,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/732717/000073271726000166/"
+  },
+  {
+   "acc": "0000732717-26-000166",
+   "date": "2026-02-18",
+   "name": "Lee Lori M",
+   "role": "Global Mktg Ofr & SEVP Intl",
+   "code": "G",
+   "shares": 60924.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/732717/000073271726000166/"
+  },
+  {
+   "acc": "0000732717-26-000143",
+   "date": "2026-02-13",
+   "name": "STANKEY JOHN T",
+   "role": "CEO & President",
+   "code": "M",
+   "shares": 65128.0,
+   "price": null,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/732717/000073271726000143/"
+  },
+  {
+   "acc": "0000732717-26-000143",
+   "date": "2026-02-13",
+   "name": "STANKEY JOHN T",
+   "role": "CEO & President",
+   "code": "F",
+   "shares": 24098.0,
+   "price": 28.8,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/732717/000073271726000143/"
+  },
+  {
+   "acc": "0000732717-26-000142",
+   "date": "2026-02-13",
+   "name": "Sabrina Sanders S",
+   "role": "SVP-ChiefActngOfcr&Controller",
+   "code": "M",
+   "shares": 7632.0,
+   "price": null,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/732717/000073271726000142/"
+  },
+  {
+   "acc": "0000732717-26-000142",
+   "date": "2026-02-13",
+   "name": "Sabrina Sanders S",
+   "role": "SVP-ChiefActngOfcr&Controller",
+   "code": "F",
+   "shares": 2999.0,
+   "price": 28.8,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/732717/000073271726000142/"
+  },
+  {
+   "acc": "0000732717-26-000141",
+   "date": "2026-02-13",
+   "name": "McElfresh Jeffery S.",
+   "role": "Chief Operating Officer",
+   "code": "M",
+   "shares": 30059.0,
+   "price": null,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/732717/000073271726000141/"
+  },
+  {
+   "acc": "0000732717-26-000141",
+   "date": "2026-02-13",
+   "name": "McElfresh Jeffery S.",
+   "role": "Chief Operating Officer",
+   "code": "F",
+   "shares": 11122.0,
+   "price": 28.8,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/732717/000073271726000141/"
   }
  ]
 }
