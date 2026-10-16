@@ -1,10 +1,460 @@
 {
-  "company": "Palantir Technologies Inc.",
-  "cik": "0001321655",
-  "ticker": "PLTR",
-  "source": "SEC EDGAR",
-  "updated_at": null,
-  "filings": [],
-  "quarters": [],
-  "annual": []
+ "company": "Palantir Technologies Inc.",
+ "cik": "0001321655",
+ "ticker": "PLTR",
+ "source": "SEC EDGAR",
+ "fiscal_year_end": "1231",
+ "updated_at": "2026-10-16T11:43:03Z",
+ "filings": [
+  {
+   "form": "10-Q",
+   "date": "2026-08-04",
+   "report_date": "2026-06-30",
+   "items": "",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000041/pltr-20260630.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000041/0001321655-26-000041-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2026-08-03",
+   "report_date": "2026-08-03",
+   "items": "2.02,7.01,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000039/pltr-20260803.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000039/0001321655-26-000039-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2026-06-09",
+   "report_date": "2026-06-03",
+   "items": "5.07",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000033/pltr-20260603.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000033/0001321655-26-000033-index.htm"
+  },
+  {
+   "form": "10-Q",
+   "date": "2026-05-05",
+   "report_date": "2026-03-31",
+   "items": "",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000028/pltr-20260331.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000028/0001321655-26-000028-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2026-05-04",
+   "report_date": "2026-05-04",
+   "items": "2.02,7.01,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000026/pltr-20260504.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000026/0001321655-26-000026-index.htm"
+  },
+  {
+   "form": "10-K",
+   "date": "2026-02-17",
+   "report_date": "2025-12-31",
+   "items": "",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000011/pltr-20251231.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000011/0001321655-26-000011-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2026-02-02",
+   "report_date": "2026-02-02",
+   "items": "2.02,7.01,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000004/pltr-20260202.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000004/0001321655-26-000004-index.htm"
+  },
+  {
+   "form": "10-Q",
+   "date": "2025-11-04",
+   "report_date": "2025-09-30",
+   "items": "",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165525000131/pltr-20250930.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165525000131/0001321655-25-000131-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2025-11-03",
+   "report_date": "2025-11-03",
+   "items": "2.02,7.01,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165525000130/pltr-20251103.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165525000130/0001321655-25-000130-index.htm"
+  },
+  {
+   "form": "10-Q",
+   "date": "2025-08-05",
+   "report_date": "2025-06-30",
+   "items": "",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165525000106/pltr-20250630.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165525000106/0001321655-25-000106-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2025-08-04",
+   "report_date": "2025-08-04",
+   "items": "2.02,7.01,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165525000105/pltr-20250804.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165525000105/0001321655-25-000105-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2025-06-09",
+   "report_date": "2025-06-05",
+   "items": "5.07",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165525000084/pltr-20250605.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165525000084/0001321655-25-000084-index.htm"
+  },
+  {
+   "form": "10-Q",
+   "date": "2025-05-06",
+   "report_date": "2025-03-31",
+   "items": "",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165525000066/pltr-20250331.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165525000066/0001321655-25-000066-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2025-05-05",
+   "report_date": "2025-05-05",
+   "items": "2.02,7.01,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165525000063/pltr-20250505.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165525000063/0001321655-25-000063-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2025-02-28",
+   "report_date": "2025-02-27",
+   "items": "5.02",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165525000033/pltr-20250227.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165525000033/0001321655-25-000033-index.htm"
+  },
+  {
+   "form": "10-K",
+   "date": "2025-02-18",
+   "report_date": "2024-12-31",
+   "items": "",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165525000022/pltr-20241231.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165525000022/0001321655-25-000022-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2025-02-03",
+   "report_date": "2025-02-03",
+   "items": "2.02,7.01,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165525000007/pltr-20250203.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165525000007/0001321655-25-000007-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2024-11-14",
+   "report_date": "2024-11-14",
+   "items": "3.01,7.01,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165524000219/pltr-20241114.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165524000219/0001321655-24-000219-index.htm"
+  },
+  {
+   "form": "10-Q",
+   "date": "2024-11-05",
+   "report_date": "2024-09-30",
+   "items": "",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165524000209/pltr-20240930.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165524000209/0001321655-24-000209-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2024-11-04",
+   "report_date": "2024-11-04",
+   "items": "2.02,7.01,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165524000207/pltr-20241104.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165524000207/0001321655-24-000207-index.htm"
+  },
+  {
+   "form": "10-Q",
+   "date": "2024-08-06",
+   "report_date": "2024-06-30",
+   "items": "",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165524000135/pltr-20240630.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165524000135/0001321655-24-000135-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2024-08-05",
+   "report_date": "2024-08-05",
+   "items": "2.02,7.01,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165524000133/pltr-20240805.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165524000133/0001321655-24-000133-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2024-06-10",
+   "report_date": "2024-06-05",
+   "items": "5.07",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165524000088/pltr-20240605.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165524000088/0001321655-24-000088-index.htm"
+  },
+  {
+   "form": "10-Q",
+   "date": "2024-05-07",
+   "report_date": "2024-03-31",
+   "items": "",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165524000071/pltr-20240331.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165524000071/0001321655-24-000071-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2024-05-06",
+   "report_date": "2024-05-06",
+   "items": "2.02,7.01,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165524000069/pltr-20240506.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165524000069/0001321655-24-000069-index.htm"
+  },
+  {
+   "form": "10-K",
+   "date": "2024-02-20",
+   "report_date": "2023-12-31",
+   "items": "",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165524000022/pltr-20231231.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165524000022/0001321655-24-000022-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2024-02-05",
+   "report_date": "2024-02-05",
+   "items": "2.02,7.01,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165524000010/pltr-20240205.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165524000010/0001321655-24-000010-index.htm"
+  },
+  {
+   "form": "10-Q",
+   "date": "2023-11-03",
+   "report_date": "2023-09-30",
+   "items": "",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165523000118/pltr-20230930.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165523000118/0001321655-23-000118-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2023-11-02",
+   "report_date": "2023-11-02",
+   "items": "2.02,7.01,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165523000115/pltr-20231102.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165523000115/0001321655-23-000115-index.htm"
+  },
+  {
+   "form": "10-Q",
+   "date": "2023-08-08",
+   "report_date": "2023-06-30",
+   "items": "",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165523000090/pltr-20230630.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165523000090/0001321655-23-000090-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2023-08-07",
+   "report_date": "2023-08-07",
+   "items": "2.02,7.01,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165523000086/pltr-20230807.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165523000086/0001321655-23-000086-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2023-06-09",
+   "report_date": "2023-06-06",
+   "items": "5.07",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165523000061/pltr-20230606.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165523000061/0001321655-23-000061-index.htm"
+  },
+  {
+   "form": "10-Q",
+   "date": "2023-05-09",
+   "report_date": "2023-03-31",
+   "items": "",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165523000044/pltr-20230331.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165523000044/0001321655-23-000044-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2023-05-08",
+   "report_date": "2023-05-08",
+   "items": "2.02,7.01,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165523000042/pltr-20230508.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165523000042/0001321655-23-000042-index.htm"
+  },
+  {
+   "form": "10-K",
+   "date": "2023-02-21",
+   "report_date": "2022-12-31",
+   "items": "",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165523000011/pltr-20221231.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165523000011/0001321655-23-000011-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2023-02-13",
+   "report_date": "2023-02-13",
+   "items": "2.02,7.01,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165523000005/pltr-20230213.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165523000005/0001321655-23-000005-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2023-02-02",
+   "report_date": "2023-01-29",
+   "items": "5.02",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1321655/000119312523022771/d461787d8k.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1321655/000119312523022771/0001193125-23-022771-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2022-12-28",
+   "report_date": "2022-12-22",
+   "items": "3.03,5.03,5.07,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1321655/000119312522313008/d398605d8k.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1321655/000119312522313008/0001193125-22-313008-index.htm"
+  },
+  {
+   "form": "10-Q",
+   "date": "2022-11-07",
+   "report_date": "2022-09-30",
+   "items": "",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165522000032/pltr-20220930.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165522000032/0001321655-22-000032-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2022-11-07",
+   "report_date": "2022-11-07",
+   "items": "2.02,7.01,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165522000029/pltr-20221107.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165522000029/0001321655-22-000029-index.htm"
+  }
+ ],
+ "quarters": [
+  {
+   "end": "2023-09-30",
+   "revenue": 558159000,
+   "operating_income": 39983000,
+   "net_income": 71505000,
+   "op_cash_flow": 133443000
+  },
+  {
+   "end": "2023-12-31",
+   "revenue": 608350000,
+   "operating_income": 65794000,
+   "net_income": 93391000,
+   "op_cash_flow": 301172000
+  },
+  {
+   "end": "2024-03-31",
+   "revenue": 634338000,
+   "operating_income": 80881000,
+   "net_income": 105530000,
+   "op_cash_flow": 129579000
+  },
+  {
+   "end": "2024-06-30",
+   "revenue": 678134000,
+   "operating_income": 105339000,
+   "net_income": 134126000,
+   "op_cash_flow": 144187000
+  },
+  {
+   "end": "2024-09-30",
+   "revenue": 725516000,
+   "operating_income": 113140000,
+   "net_income": 143525000,
+   "op_cash_flow": 419772000
+  },
+  {
+   "end": "2024-12-31",
+   "revenue": 827519000,
+   "operating_income": 11043000,
+   "net_income": 79009000,
+   "op_cash_flow": 460327000
+  },
+  {
+   "end": "2025-03-31",
+   "revenue": 883855000,
+   "operating_income": 176048000,
+   "net_income": 214031000,
+   "op_cash_flow": 310263000
+  },
+  {
+   "end": "2025-06-30",
+   "revenue": 1003697000,
+   "operating_income": 269317000,
+   "net_income": 326727000,
+   "op_cash_flow": 539251000
+  },
+  {
+   "end": "2025-09-30",
+   "revenue": 1181092000,
+   "operating_income": 393256000,
+   "net_income": 475599000,
+   "op_cash_flow": 507664000
+  },
+  {
+   "end": "2025-12-31",
+   "revenue": 1406802000,
+   "operating_income": 575394000,
+   "net_income": 608676000,
+   "op_cash_flow": 777295000
+  },
+  {
+   "end": "2026-03-31",
+   "revenue": 1632583000,
+   "operating_income": 753998000,
+   "net_income": 870527000,
+   "op_cash_flow": 899165000
+  },
+  {
+   "end": "2026-06-30",
+   "revenue": 1935464000,
+   "operating_income": 912004000,
+   "net_income": 1061890000,
+   "op_cash_flow": 1216167000
+  }
+ ],
+ "annual": [
+  {
+   "end": "2020-12-31",
+   "revenue": 1092673000,
+   "operating_income": -1173679000,
+   "net_income": -1166391000,
+   "op_cash_flow": -296608000
+  },
+  {
+   "end": "2021-12-31",
+   "revenue": 1541889000,
+   "operating_income": -411046000,
+   "net_income": -520379000,
+   "op_cash_flow": 333851000
+  },
+  {
+   "end": "2022-12-31",
+   "revenue": 1905871000,
+   "operating_income": -161201000,
+   "net_income": -373705000,
+   "op_cash_flow": 223737000
+  },
+  {
+   "end": "2023-12-31",
+   "revenue": 2225012000,
+   "operating_income": 119966000,
+   "net_income": 209825000,
+   "op_cash_flow": 712183000
+  },
+  {
+   "end": "2024-12-31",
+   "revenue": 2865507000,
+   "operating_income": 310403000,
+   "net_income": 462190000,
+   "op_cash_flow": 1153865000
+  },
+  {
+   "end": "2025-12-31",
+   "revenue": 4475446000,
+   "operating_income": 1414015000,
+   "net_income": 1625033000,
+   "op_cash_flow": 2134473000
+  }
+ ]
 }
