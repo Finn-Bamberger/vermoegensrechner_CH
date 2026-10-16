@@ -1,0 +1,1673 @@
+{
+ "company": "BERKSHIRE HATHAWAY INC",
+ "cik": "0001067983",
+ "ticker": "BRK-B",
+ "tv": "NYSE:BRK.B",
+ "rank": 10,
+ "source": "SEC EDGAR",
+ "fiscal_year_end": "1231",
+ "updated_at": "2026-10-16T12:11:08Z",
+ "periodic_accs": [
+  "0000950123-19-009995",
+  "0000950170-22-022287",
+  "0000950170-23-004451",
+  "0000950170-23-018438",
+  "0000950170-23-038705",
+  "0000950170-23-058993",
+  "0000950170-24-019719",
+  "0000950170-24-053185",
+  "0000950170-24-090305",
+  "0000950170-24-120241",
+  "0000950170-25-025210",
+  "0000950170-25-063112",
+  "0000950170-25-101578",
+  "0001193125-17-056969",
+  "0001193125-17-160889",
+  "0001193125-17-248832",
+  "0001193125-17-332829",
+  "0001193125-18-057033",
+  "0001193125-18-153460",
+  "0001193125-18-238892",
+  "0001193125-18-317734",
+  "0001193125-19-048926",
+  "0001193125-19-137433",
+  "0001193125-25-261548",
+  "0001193125-26-083899",
+  "0001193125-26-202243",
+  "0001193125-26-341032",
+  "0001564590-19-028491",
+  "0001564590-20-005874",
+  "0001564590-20-020599",
+  "0001564590-20-038544",
+  "0001564590-20-052144",
+  "0001564590-21-009611",
+  "0001564590-21-022703",
+  "0001564590-21-042312",
+  "0001564590-21-055032",
+  "0001564590-22-007322",
+  "0001564590-22-016907",
+  "0001564590-22-028282"
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "date": "2026-08-11",
+   "report_date": "2026-08-08",
+   "items": "2.02,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526344495/d159922d8k.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526344495/0001193125-26-344495-index.htm"
+  },
+  {
+   "form": "10-Q",
+   "date": "2026-08-10",
+   "report_date": "2026-06-30",
+   "items": "",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526341032/brka-20260630.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526341032/0001193125-26-341032-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2026-05-07",
+   "report_date": "2026-05-02",
+   "items": "2.02,5.02,5.03,5.07,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526212148/d74313d8k.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526212148/0001193125-26-212148-index.htm"
+  },
+  {
+   "form": "10-Q",
+   "date": "2026-05-04",
+   "report_date": "2026-03-31",
+   "items": "",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526202243/brka-20260331.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526202243/0001193125-26-202243-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2026-04-16",
+   "report_date": "2026-04-16",
+   "items": "8.01,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526159326/d903301d8k.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526159326/0001193125-26-159326-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2026-03-05",
+   "report_date": "2026-03-04",
+   "items": "8.01,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526092557/d82599d8k.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526092557/0001193125-26-092557-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2026-03-02",
+   "report_date": "2026-02-28",
+   "items": "2.02,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526085801/d117283d8k.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526085801/0001193125-26-085801-index.htm"
+  },
+  {
+   "form": "10-K",
+   "date": "2026-03-02",
+   "report_date": "2025-12-31",
+   "items": "",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526083899/brka-20251231.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526083899/0001193125-26-083899-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2025-12-11",
+   "report_date": "2025-12-08",
+   "items": "5.02,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312525314935/d10933d8k.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312525314935/0001193125-25-314935-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2025-11-21",
+   "report_date": "2025-11-20",
+   "items": "8.01,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312525290864/d45429d8k.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312525290864/0001193125-25-290864-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2025-11-03",
+   "report_date": "2025-11-01",
+   "items": "2.02,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312525262260/d22917d8k.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312525262260/0001193125-25-262260-index.htm"
+  },
+  {
+   "form": "10-Q",
+   "date": "2025-11-03",
+   "report_date": "2025-09-30",
+   "items": "",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312525261548/brka-20250930.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312525261548/0001193125-25-261548-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2025-10-03",
+   "report_date": "2025-09-30",
+   "items": "5.03,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312525229405/d84825d8k.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312525229405/0001193125-25-229405-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2025-08-04",
+   "report_date": "2025-08-02",
+   "items": "2.02,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312525172579/d940849d8k.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312525172579/0001193125-25-172579-index.htm"
+  },
+  {
+   "form": "10-Q",
+   "date": "2025-08-04",
+   "report_date": "2025-06-30",
+   "items": "",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1067983/000095017025101578/brka-20250630.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1067983/000095017025101578/0000950170-25-101578-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2025-05-08",
+   "report_date": "2025-05-03",
+   "items": "5.02,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312525115695/d28310d8k.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312525115695/0001193125-25-115695-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2025-05-06",
+   "report_date": "2025-05-03",
+   "items": "2.02,5.07,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312525113900/d910967d8k.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312525113900/0001193125-25-113900-index.htm"
+  },
+  {
+   "form": "10-Q",
+   "date": "2025-05-05",
+   "report_date": "2025-03-31",
+   "items": "",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1067983/000095017025063112/brka-20250331.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1067983/000095017025063112/0000950170-25-063112-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2025-04-17",
+   "report_date": "2025-04-17",
+   "items": "8.01,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312525084458/d934563d8k.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312525084458/0001193125-25-084458-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2025-02-24",
+   "report_date": "2025-02-22",
+   "items": "2.02,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312525033393/d935582d8k.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312525033393/0001193125-25-033393-index.htm"
+  },
+  {
+   "form": "10-K",
+   "date": "2025-02-24",
+   "report_date": "2024-12-31",
+   "items": "",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1067983/000095017025025210/brka-20241231.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1067983/000095017025025210/0000950170-25-025210-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2024-11-04",
+   "report_date": "2024-11-02",
+   "items": "2.02,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312524250195/d900981d8k.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312524250195/0001193125-24-250195-index.htm"
+  },
+  {
+   "form": "10-Q",
+   "date": "2024-11-04",
+   "report_date": "2024-09-30",
+   "items": "",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1067983/000095017024120241/brka-20240930.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1067983/000095017024120241/0000950170-24-120241-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2024-10-23",
+   "report_date": "2024-10-23",
+   "items": "8.01,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312524241941/d840653d8k.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312524241941/0001193125-24-241941-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2024-08-05",
+   "report_date": "2024-08-03",
+   "items": "2.02,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312524193776/d876927d8k.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312524193776/0001193125-24-193776-index.htm"
+  },
+  {
+   "form": "10-Q",
+   "date": "2024-08-05",
+   "report_date": "2024-06-30",
+   "items": "",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1067983/000095017024090305/brka-20240630.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1067983/000095017024090305/0000950170-24-090305-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2024-05-07",
+   "report_date": "2024-05-04",
+   "items": "2.02,5.07,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312524133049/d759664d8k.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312524133049/0001193125-24-133049-index.htm"
+  },
+  {
+   "form": "10-Q",
+   "date": "2024-05-06",
+   "report_date": "2024-03-31",
+   "items": "",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1067983/000095017024053185/brka-20240331.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1067983/000095017024053185/0000950170-24-053185-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2024-04-26",
+   "report_date": "2024-04-25",
+   "items": "8.01,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312524116833/d818397d8k.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312524116833/0001193125-24-116833-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2024-02-26",
+   "report_date": "2024-02-24",
+   "items": "2.02,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312524045977/d795719d8k.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312524045977/0001193125-24-045977-index.htm"
+  },
+  {
+   "form": "10-K",
+   "date": "2024-02-26",
+   "report_date": "2023-12-31",
+   "items": "",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1067983/000095017024019719/brka-20231231.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1067983/000095017024019719/0000950170-24-019719-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2024-01-10",
+   "report_date": "2024-01-06",
+   "items": "8.01,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312524005943/d93457d8k.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312524005943/0001193125-24-005943-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2023-12-01",
+   "report_date": "2023-11-28",
+   "items": "8.01,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312523286867/d551397d8k.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312523286867/0001193125-23-286867-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2023-11-29",
+   "report_date": "2023-11-29",
+   "items": "8.01,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312523285240/d907061d8k.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312523285240/0001193125-23-285240-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2023-11-07",
+   "report_date": "2023-11-04",
+   "items": "2.02,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312523272204/d564412d8k.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312523272204/0001193125-23-272204-index.htm"
+  },
+  {
+   "form": "10-Q",
+   "date": "2023-11-06",
+   "report_date": "2023-09-30",
+   "items": "",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1067983/000095017023058993/brka-20230930.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1067983/000095017023058993/0000950170-23-058993-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2023-08-07",
+   "report_date": "2023-08-05",
+   "items": "2.02,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312523204791/d531572d8k.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312523204791/0001193125-23-204791-index.htm"
+  },
+  {
+   "form": "10-Q",
+   "date": "2023-08-07",
+   "report_date": "2023-06-30",
+   "items": "",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1067983/000095017023038705/brka-20230630.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1067983/000095017023038705/0000950170-23-038705-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2023-05-10",
+   "report_date": "2023-05-06",
+   "items": "2.02,5.03,5.07,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312523140854/d501487d8k.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312523140854/0001193125-23-140854-index.htm"
+  },
+  {
+   "form": "10-Q",
+   "date": "2023-05-08",
+   "report_date": "2023-03-31",
+   "items": "",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1067983/000095017023018438/brka-20230331.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1067983/000095017023018438/0000950170-23-018438-index.htm"
+  }
+ ],
+ "quarters": [
+  {
+   "end": "2020-09-30",
+   "revenue": 63024000000,
+   "net_income": 30137000000,
+   "op_cash_flow": 11761000000,
+   "capex": 3329000000
+  },
+  {
+   "end": "2020-12-31",
+   "revenue": 64381000000,
+   "net_income": 35835000000,
+   "op_cash_flow": 10546000000,
+   "capex": 3496000000
+  },
+  {
+   "end": "2021-03-31",
+   "revenue": 64599000000,
+   "net_income": 11711000000,
+   "op_cash_flow": 9306000000,
+   "capex": 2519000000
+  },
+  {
+   "end": "2021-06-30",
+   "revenue": 69114000000,
+   "net_income": 28094000000,
+   "op_cash_flow": 10253000000,
+   "capex": 3144000000
+  },
+  {
+   "end": "2021-09-30",
+   "revenue": 70583000000,
+   "net_income": 10344000000,
+   "op_cash_flow": 12067000000,
+   "capex": 3581000000
+  },
+  {
+   "end": "2021-12-31",
+   "revenue": 71889000000,
+   "net_income": 39788000000,
+   "op_cash_flow": 7801000000,
+   "capex": 4032000000
+  },
+  {
+   "end": "2022-03-31",
+   "revenue": 70843000000,
+   "net_income": 5580000000,
+   "op_cash_flow": 6826000000,
+   "capex": 3090000000
+  },
+  {
+   "end": "2022-06-30",
+   "revenue": 76201000000,
+   "net_income": -43621000000,
+   "op_cash_flow": 8531000000,
+   "capex": 3743000000
+  },
+  {
+   "end": "2022-09-30",
+   "revenue": 76904000000,
+   "net_income": -2798000000,
+   "op_cash_flow": 11682000000,
+   "capex": 4074000000
+  },
+  {
+   "end": "2022-12-31",
+   "revenue": 78072000000,
+   "net_income": 18080000000,
+   "op_cash_flow": 10311000000,
+   "capex": 4557000000
+  },
+  {
+   "end": "2023-03-31",
+   "revenue": 85393000000,
+   "net_income": 35504000000,
+   "op_cash_flow": 8693000000,
+   "capex": 3713000000
+  },
+  {
+   "end": "2023-06-30",
+   "revenue": 92503000000,
+   "net_income": 35912000000,
+   "op_cash_flow": 12434000000,
+   "capex": 4685000000
+  },
+  {
+   "end": "2023-09-30",
+   "revenue": 93210000000,
+   "net_income": -12767000000,
+   "op_cash_flow": 13669000000,
+   "capex": 5303000000
+  },
+  {
+   "end": "2023-12-31",
+   "revenue": 93376000000,
+   "net_income": 37574000000,
+   "op_cash_flow": 14400000000,
+   "capex": 5708000000
+  },
+  {
+   "end": "2024-03-31",
+   "revenue": 89869000000,
+   "net_income": 12702000000,
+   "op_cash_flow": 10566000000,
+   "capex": 4393000000
+  },
+  {
+   "end": "2024-06-30",
+   "revenue": 93653000000,
+   "net_income": 30348000000,
+   "op_cash_flow": 13602000000,
+   "capex": 4535000000
+  },
+  {
+   "end": "2024-09-30",
+   "revenue": 92995000000,
+   "net_income": 26251000000,
+   "op_cash_flow": 1803000000,
+   "capex": 4701000000
+  },
+  {
+   "end": "2024-12-31",
+   "revenue": 94916000000,
+   "net_income": 19694000000,
+   "op_cash_flow": 4621000000,
+   "capex": 5347000000
+  },
+  {
+   "end": "2025-03-31",
+   "revenue": 89725000000,
+   "net_income": 4603000000,
+   "op_cash_flow": 10903000000,
+   "capex": 4281000000
+  },
+  {
+   "end": "2025-06-30",
+   "revenue": 92515000000,
+   "net_income": 12370000000,
+   "op_cash_flow": 10085000000,
+   "capex": 4858000000
+  },
+  {
+   "end": "2025-09-30",
+   "revenue": 94972000000,
+   "net_income": 30796000000,
+   "op_cash_flow": 13789000000,
+   "capex": 5586000000
+  },
+  {
+   "end": "2025-12-31",
+   "revenue": 94232000000,
+   "net_income": 19199000000,
+   "op_cash_flow": 11192000000,
+   "capex": 6202000000
+  },
+  {
+   "end": "2026-03-31",
+   "revenue": 93675000000,
+   "net_income": 10106000000,
+   "op_cash_flow": 10438000000,
+   "capex": 4986000000
+  },
+  {
+   "end": "2026-06-30",
+   "revenue": 101808000000,
+   "net_income": 25667000000,
+   "op_cash_flow": 11215000000,
+   "capex": 5645000000
+  }
+ ],
+ "annual": [
+  {
+   "end": "2016-12-31",
+   "revenue": 215114000000,
+   "net_income": 24074000000,
+   "op_cash_flow": 32647000000,
+   "capex": 12954000000,
+   "cash": 28048000000
+  },
+  {
+   "end": "2017-12-31",
+   "revenue": 239933000000,
+   "net_income": 44940000000,
+   "op_cash_flow": 45728000000,
+   "capex": 11708000000,
+   "cash": 31583000000
+  },
+  {
+   "end": "2018-12-31",
+   "revenue": 247837000000,
+   "net_income": 4021000000,
+   "op_cash_flow": 37400000000,
+   "capex": 14537000000
+  },
+  {
+   "end": "2019-12-31",
+   "revenue": 254616000000,
+   "net_income": 81417000000,
+   "op_cash_flow": 38687000000,
+   "capex": 15979000000
+  },
+  {
+   "end": "2020-12-31",
+   "revenue": 245579000000,
+   "net_income": 42521000000,
+   "op_cash_flow": 39773000000,
+   "capex": 13012000000
+  },
+  {
+   "end": "2021-12-31",
+   "revenue": 276185000000,
+   "net_income": 89937000000,
+   "op_cash_flow": 39427000000,
+   "capex": 13276000000
+  },
+  {
+   "end": "2022-12-31",
+   "revenue": 302020000000,
+   "net_income": -22759000000,
+   "op_cash_flow": 37350000000,
+   "capex": 15464000000
+  },
+  {
+   "end": "2023-12-31",
+   "revenue": 364482000000,
+   "net_income": 96223000000,
+   "op_cash_flow": 49196000000,
+   "capex": 19409000000
+  },
+  {
+   "end": "2024-12-31",
+   "revenue": 371433000000,
+   "net_income": 88995000000,
+   "op_cash_flow": 30592000000,
+   "capex": 18976000000
+  },
+  {
+   "end": "2025-12-31",
+   "revenue": 371444000000,
+   "net_income": 66968000000,
+   "op_cash_flow": 45969000000,
+   "capex": 20927000000
+  }
+ ],
+ "shares_outstanding": {
+  "shares": 941481,
+  "as_of": "2011-04-29",
+  "filed": "2011-05-06"
+ },
+ "quote": {
+  "price": 525.68,
+  "date": "2026-10-15",
+  "source": "Yahoo Finance"
+ },
+ "insiders": [
+  {
+   "acc": "0001193125-26-414744",
+   "date": "2026-10-02",
+   "name": "BERKSHIRE HATHAWAY INC",
+   "role": "10%-Aktionär",
+   "code": "P",
+   "shares": 448113.0,
+   "price": 78.37,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526414744/"
+  },
+  {
+   "acc": "0001193125-26-414744",
+   "date": "2026-10-02",
+   "name": "BERKSHIRE HATHAWAY INC",
+   "role": "10%-Aktionär",
+   "code": "P",
+   "shares": 342553.0,
+   "price": 79.03,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526414744/"
+  },
+  {
+   "acc": "0001193125-26-414744",
+   "date": "2026-10-02",
+   "name": "BERKSHIRE HATHAWAY INC",
+   "role": "10%-Aktionär",
+   "code": "P",
+   "shares": 842753.0,
+   "price": 80.04,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526414744/"
+  },
+  {
+   "acc": "0001193125-26-414744",
+   "date": "2026-10-02",
+   "name": "BERKSHIRE HATHAWAY INC",
+   "role": "10%-Aktionär",
+   "code": "P",
+   "shares": 44300.0,
+   "price": 81.14,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526414744/"
+  },
+  {
+   "acc": "0001193125-26-414744",
+   "date": "2026-10-02",
+   "name": "BERKSHIRE HATHAWAY INC",
+   "role": "10%-Aktionär",
+   "code": "P",
+   "shares": 20200.0,
+   "price": 81.9,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526414744/"
+  },
+  {
+   "acc": "0001193125-26-414744",
+   "date": "2026-10-02",
+   "name": "BERKSHIRE HATHAWAY INC",
+   "role": "10%-Aktionär",
+   "code": "P",
+   "shares": 2290.0,
+   "price": 77.12,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526414744/"
+  },
+  {
+   "acc": "0001193125-26-414744",
+   "date": "2026-10-02",
+   "name": "BERKSHIRE HATHAWAY INC",
+   "role": "10%-Aktionär",
+   "code": "P",
+   "shares": 2452.0,
+   "price": 77.93,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526414744/"
+  },
+  {
+   "acc": "0001193125-26-414744",
+   "date": "2026-10-02",
+   "name": "BERKSHIRE HATHAWAY INC",
+   "role": "10%-Aktionär",
+   "code": "P",
+   "shares": 5135.0,
+   "price": 78.77,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526414744/"
+  },
+  {
+   "acc": "0001193125-26-414744",
+   "date": "2026-10-02",
+   "name": "BERKSHIRE HATHAWAY INC",
+   "role": "10%-Aktionär",
+   "code": "P",
+   "shares": 299.0,
+   "price": 79.74,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526414744/"
+  },
+  {
+   "acc": "0001193125-26-414744",
+   "date": "2026-10-01",
+   "name": "BERKSHIRE HATHAWAY INC",
+   "role": "10%-Aktionär",
+   "code": "P",
+   "shares": 425869.0,
+   "price": 79.49,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526414744/"
+  },
+  {
+   "acc": "0001193125-26-414744",
+   "date": "2026-10-01",
+   "name": "BERKSHIRE HATHAWAY INC",
+   "role": "10%-Aktionär",
+   "code": "P",
+   "shares": 92830.0,
+   "price": 80.57,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526414744/"
+  },
+  {
+   "acc": "0001193125-26-414744",
+   "date": "2026-10-01",
+   "name": "BERKSHIRE HATHAWAY INC",
+   "role": "10%-Aktionär",
+   "code": "P",
+   "shares": 186991.0,
+   "price": 81.46,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526414744/"
+  },
+  {
+   "acc": "0001193125-26-414744",
+   "date": "2026-10-01",
+   "name": "BERKSHIRE HATHAWAY INC",
+   "role": "10%-Aktionär",
+   "code": "P",
+   "shares": 3802.0,
+   "price": 78.26,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526414744/"
+  },
+  {
+   "acc": "0001193125-26-414744",
+   "date": "2026-10-01",
+   "name": "BERKSHIRE HATHAWAY INC",
+   "role": "10%-Aktionär",
+   "code": "P",
+   "shares": 950.0,
+   "price": 79.51,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526414744/"
+  },
+  {
+   "acc": "0001193125-26-414744",
+   "date": "2026-10-01",
+   "name": "BERKSHIRE HATHAWAY INC",
+   "role": "10%-Aktionär",
+   "code": "P",
+   "shares": 100.0,
+   "price": 80.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526414744/"
+  },
+  {
+   "acc": "0001193125-26-409451",
+   "date": "2026-09-30",
+   "name": "BERKSHIRE HATHAWAY INC",
+   "role": "10%-Aktionär",
+   "code": "P",
+   "shares": 638813.0,
+   "price": 81.59,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526409451/"
+  },
+  {
+   "acc": "0001193125-26-409451",
+   "date": "2026-09-30",
+   "name": "BERKSHIRE HATHAWAY INC",
+   "role": "10%-Aktionär",
+   "code": "P",
+   "shares": 4008.0,
+   "price": 79.98,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526409451/"
+  },
+  {
+   "acc": "0001193125-26-409451",
+   "date": "2026-09-29",
+   "name": "BERKSHIRE HATHAWAY INC",
+   "role": "10%-Aktionär",
+   "code": "P",
+   "shares": 12289.0,
+   "price": 81.95,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526409451/"
+  },
+  {
+   "acc": "0001193125-26-409451",
+   "date": "2026-09-29",
+   "name": "BERKSHIRE HATHAWAY INC",
+   "role": "10%-Aktionär",
+   "code": "P",
+   "shares": 100.0,
+   "price": 80.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526409451/"
+  },
+  {
+   "acc": "0001193125-26-409451",
+   "date": "2026-09-28",
+   "name": "BERKSHIRE HATHAWAY INC",
+   "role": "10%-Aktionär",
+   "code": "P",
+   "shares": 5200.0,
+   "price": 81.96,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526409451/"
+  },
+  {
+   "acc": "0001728451-26-000004",
+   "date": "2026-09-28",
+   "name": "Jain Ajit",
+   "role": "Vice Chairman",
+   "code": "S",
+   "shares": 39700.0,
+   "price": 503.0926,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1067983/000172845126000004/"
+  },
+  {
+   "acc": "0001193125-26-403089",
+   "date": "2026-09-25",
+   "name": "BERKSHIRE HATHAWAY INC",
+   "role": "10%-Aktionär",
+   "code": "P",
+   "shares": 313379.0,
+   "price": 80.9,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526403089/"
+  },
+  {
+   "acc": "0001193125-26-403089",
+   "date": "2026-09-25",
+   "name": "BERKSHIRE HATHAWAY INC",
+   "role": "10%-Aktionär",
+   "code": "P",
+   "shares": 171723.0,
+   "price": 81.6,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526403089/"
+  },
+  {
+   "acc": "0001193125-26-403089",
+   "date": "2026-09-25",
+   "name": "BERKSHIRE HATHAWAY INC",
+   "role": "10%-Aktionär",
+   "code": "P",
+   "shares": 7022.0,
+   "price": 79.53,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526403089/"
+  },
+  {
+   "acc": "0001193125-26-403089",
+   "date": "2026-09-24",
+   "name": "BERKSHIRE HATHAWAY INC",
+   "role": "10%-Aktionär",
+   "code": "P",
+   "shares": 399238.0,
+   "price": 80.58,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526403089/"
+  },
+  {
+   "acc": "0001193125-26-403089",
+   "date": "2026-09-24",
+   "name": "BERKSHIRE HATHAWAY INC",
+   "role": "10%-Aktionär",
+   "code": "P",
+   "shares": 241692.0,
+   "price": 81.44,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526403089/"
+  },
+  {
+   "acc": "0001193125-26-403089",
+   "date": "2026-09-24",
+   "name": "BERKSHIRE HATHAWAY INC",
+   "role": "10%-Aktionär",
+   "code": "P",
+   "shares": 9415.0,
+   "price": 79.42,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526403089/"
+  },
+  {
+   "acc": "0001193125-26-403089",
+   "date": "2026-09-24",
+   "name": "BERKSHIRE HATHAWAY INC",
+   "role": "10%-Aktionär",
+   "code": "P",
+   "shares": 2975.0,
+   "price": 79.91,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526403089/"
+  },
+  {
+   "acc": "0001193125-26-403089",
+   "date": "2026-09-23",
+   "name": "BERKSHIRE HATHAWAY INC",
+   "role": "10%-Aktionär",
+   "code": "P",
+   "shares": 532993.0,
+   "price": 81.65,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526403089/"
+  },
+  {
+   "acc": "0001193125-26-403089",
+   "date": "2026-09-23",
+   "name": "BERKSHIRE HATHAWAY INC",
+   "role": "10%-Aktionär",
+   "code": "P",
+   "shares": 1263.0,
+   "price": 79.99,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526403089/"
+  },
+  {
+   "acc": "0001193125-26-397059",
+   "date": "2026-09-21",
+   "name": "BERKSHIRE HATHAWAY INC",
+   "role": "10%-Aktionär",
+   "code": "P",
+   "shares": 160275.0,
+   "price": 77.23,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526397059/"
+  },
+  {
+   "acc": "0001193125-26-397059",
+   "date": "2026-09-21",
+   "name": "BERKSHIRE HATHAWAY INC",
+   "role": "10%-Aktionär",
+   "code": "P",
+   "shares": 483809.0,
+   "price": 77.97,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526397059/"
+  },
+  {
+   "acc": "0001193125-26-397059",
+   "date": "2026-09-21",
+   "name": "BERKSHIRE HATHAWAY INC",
+   "role": "10%-Aktionär",
+   "code": "P",
+   "shares": 4888.0,
+   "price": 75.76,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526397059/"
+  },
+  {
+   "acc": "0001193125-26-397059",
+   "date": "2026-09-21",
+   "name": "BERKSHIRE HATHAWAY INC",
+   "role": "10%-Aktionär",
+   "code": "P",
+   "shares": 18146.0,
+   "price": 76.62,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526397059/"
+  },
+  {
+   "acc": "0001193125-26-397059",
+   "date": "2026-09-18",
+   "name": "BERKSHIRE HATHAWAY INC",
+   "role": "10%-Aktionär",
+   "code": "P",
+   "shares": 1218429.0,
+   "price": 76.39,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526397059/"
+  },
+  {
+   "acc": "0001193125-26-397059",
+   "date": "2026-09-18",
+   "name": "BERKSHIRE HATHAWAY INC",
+   "role": "10%-Aktionär",
+   "code": "P",
+   "shares": 51586.0,
+   "price": 77.06,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526397059/"
+  },
+  {
+   "acc": "0001193125-26-397059",
+   "date": "2026-09-18",
+   "name": "BERKSHIRE HATHAWAY INC",
+   "role": "10%-Aktionär",
+   "code": "P",
+   "shares": 68760.0,
+   "price": 78.09,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526397059/"
+  },
+  {
+   "acc": "0001193125-26-397059",
+   "date": "2026-09-18",
+   "name": "BERKSHIRE HATHAWAY INC",
+   "role": "10%-Aktionär",
+   "code": "P",
+   "shares": 7900.0,
+   "price": 78.88,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526397059/"
+  },
+  {
+   "acc": "0001193125-26-397059",
+   "date": "2026-09-18",
+   "name": "BERKSHIRE HATHAWAY INC",
+   "role": "10%-Aktionär",
+   "code": "P",
+   "shares": 33122.0,
+   "price": 74.8,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526397059/"
+  },
+  {
+   "acc": "0001193125-26-397059",
+   "date": "2026-09-18",
+   "name": "BERKSHIRE HATHAWAY INC",
+   "role": "10%-Aktionär",
+   "code": "P",
+   "shares": 390.0,
+   "price": 75.76,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526397059/"
+  },
+  {
+   "acc": "0001193125-26-397059",
+   "date": "2026-09-18",
+   "name": "BERKSHIRE HATHAWAY INC",
+   "role": "10%-Aktionär",
+   "code": "P",
+   "shares": 710.0,
+   "price": 76.98,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526397059/"
+  },
+  {
+   "acc": "0001193125-26-397059",
+   "date": "2026-09-18",
+   "name": "BERKSHIRE HATHAWAY INC",
+   "role": "10%-Aktionär",
+   "code": "P",
+   "shares": 500.0,
+   "price": 78.38,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526397059/"
+  },
+  {
+   "acc": "0001193125-26-397059",
+   "date": "2026-09-17",
+   "name": "BERKSHIRE HATHAWAY INC",
+   "role": "10%-Aktionär",
+   "code": "P",
+   "shares": 267585.0,
+   "price": 78.41,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526397059/"
+  },
+  {
+   "acc": "0001193125-26-397059",
+   "date": "2026-09-17",
+   "name": "BERKSHIRE HATHAWAY INC",
+   "role": "10%-Aktionär",
+   "code": "P",
+   "shares": 410164.0,
+   "price": 79.41,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526397059/"
+  },
+  {
+   "acc": "0001193125-26-397059",
+   "date": "2026-09-17",
+   "name": "BERKSHIRE HATHAWAY INC",
+   "role": "10%-Aktionär",
+   "code": "P",
+   "shares": 8959.0,
+   "price": 76.96,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526397059/"
+  },
+  {
+   "acc": "0001193125-26-397059",
+   "date": "2026-09-17",
+   "name": "BERKSHIRE HATHAWAY INC",
+   "role": "10%-Aktionär",
+   "code": "P",
+   "shares": 8306.0,
+   "price": 77.94,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526397059/"
+  },
+  {
+   "acc": "0001728451-26-000003",
+   "date": "2026-09-03",
+   "name": "Jain Ajit",
+   "role": "Vice Chairman",
+   "code": "G",
+   "shares": 10.0,
+   "price": null,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1067983/000172845126000003/"
+  },
+  {
+   "acc": "0001193125-26-349574",
+   "date": "2026-08-12",
+   "name": "O'Sullivan Michael J.",
+   "role": "See Remarks",
+   "code": "P",
+   "shares": 45.0,
+   "price": 510.64,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526349574/"
+  },
+  {
+   "acc": "0001193125-26-349574",
+   "date": "2026-08-12",
+   "name": "O'Sullivan Michael J.",
+   "role": "See Remarks",
+   "code": "P",
+   "shares": 400.0,
+   "price": 512.52,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526349574/"
+  },
+  {
+   "acc": "0001193125-26-349574",
+   "date": "2026-08-12",
+   "name": "O'Sullivan Michael J.",
+   "role": "See Remarks",
+   "code": "P",
+   "shares": 43.0,
+   "price": 513.61,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526349574/"
+  },
+  {
+   "acc": "0001193125-26-333151",
+   "date": "2026-07-31",
+   "name": "BERKSHIRE HATHAWAY INC",
+   "role": "10%-Aktionär",
+   "code": "S",
+   "shares": 182980.0,
+   "price": 199.548,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526333151/"
+  },
+  {
+   "acc": "0001193125-26-304843",
+   "date": "2026-07-14",
+   "name": "BUFFETT WARREN E",
+   "role": "Director",
+   "code": "C",
+   "shares": 12000000.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526304843/"
+  },
+  {
+   "acc": "0001193125-26-304843",
+   "date": "2026-07-14",
+   "name": "BUFFETT WARREN E",
+   "role": "Director",
+   "code": "G",
+   "shares": 9000000.0,
+   "price": 0.0,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526304843/"
+  },
+  {
+   "acc": "0001193125-26-304843",
+   "date": "2026-07-14",
+   "name": "BUFFETT WARREN E",
+   "role": "Director",
+   "code": "G",
+   "shares": 1000000.0,
+   "price": 0.0,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526304843/"
+  },
+  {
+   "acc": "0001193125-26-304843",
+   "date": "2026-07-14",
+   "name": "BUFFETT WARREN E",
+   "role": "Director",
+   "code": "G",
+   "shares": 1000000.0,
+   "price": 0.0,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526304843/"
+  },
+  {
+   "acc": "0001193125-26-304843",
+   "date": "2026-07-14",
+   "name": "BUFFETT WARREN E",
+   "role": "Director",
+   "code": "G",
+   "shares": 1000000.0,
+   "price": 0.0,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526304843/"
+  },
+  {
+   "acc": "0001728451-26-000002",
+   "date": "2026-07-01",
+   "name": "Jain Ajit",
+   "role": "Vice Chairman",
+   "code": "G",
+   "shares": 3.0,
+   "price": null,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1067983/000172845126000002/"
+  },
+  {
+   "acc": "0001193125-26-239886",
+   "date": "2026-05-22",
+   "name": "BUFFETT WARREN E",
+   "role": "Director",
+   "code": "G",
+   "shares": 160.0,
+   "price": 0.0,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526239886/"
+  },
+  {
+   "acc": "0001193125-26-232543",
+   "date": "2026-05-18",
+   "name": "BUFFETT WARREN E",
+   "role": "Director",
+   "code": "C",
+   "shares": 37500.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526232543/"
+  },
+  {
+   "acc": "0001193125-26-232543",
+   "date": "2026-05-18",
+   "name": "BUFFETT WARREN E",
+   "role": "Director",
+   "code": "G",
+   "shares": 18646.0,
+   "price": 0.0,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526232543/"
+  },
+  {
+   "acc": "0001193125-26-232543",
+   "date": "2026-05-18",
+   "name": "BUFFETT WARREN E",
+   "role": "Director",
+   "code": "G",
+   "shares": 18646.0,
+   "price": 0.0,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526232543/"
+  },
+  {
+   "acc": "0001193125-26-229218",
+   "date": "2026-05-14",
+   "name": "GUYMAN CHARLOTTE",
+   "role": "Director",
+   "code": "G",
+   "shares": 574.0,
+   "price": 0.0,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526229218/"
+  },
+  {
+   "acc": "0001193125-26-209661",
+   "date": "2026-05-06",
+   "name": "O'Sullivan Michael J.",
+   "role": "See Remarks",
+   "code": "P",
+   "shares": 483.0,
+   "price": 467.13,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526209661/"
+  },
+  {
+   "acc": "0001193125-26-209661",
+   "date": "2026-05-06",
+   "name": "O'Sullivan Michael J.",
+   "role": "See Remarks",
+   "code": "P",
+   "shares": 53.0,
+   "price": 470.22,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526209661/"
+  },
+  {
+   "acc": "0001193125-26-207021",
+   "date": "2026-05-01",
+   "name": "BERKSHIRE HATHAWAY INC",
+   "role": "10%-Aktionär",
+   "code": "S",
+   "shares": 1220376.0,
+   "price": 149.8429,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526207021/"
+  },
+  {
+   "acc": "0001728451-26-000001",
+   "date": "2026-03-27",
+   "name": "Jain Ajit",
+   "role": "Vice Chairman",
+   "code": "G",
+   "shares": 22.0,
+   "price": null,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1067983/000172845126000001/"
+  },
+  {
+   "acc": "0001193125-26-033900",
+   "date": "2026-01-29",
+   "name": "BERKSHIRE HATHAWAY INC",
+   "role": "10%-Aktionär",
+   "code": "S",
+   "shares": 1658480.0,
+   "price": 120.5561,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526033900/"
+  },
+  {
+   "acc": "0001193125-26-054947",
+   "date": "2026-01-16",
+   "name": "BERKSHIRE HATHAWAY INC",
+   "role": "10%-Aktionär",
+   "code": "S",
+   "shares": 7685.0,
+   "price": 83.7221,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526054947/"
+  },
+  {
+   "acc": "0001193125-26-054947",
+   "date": "2026-01-15",
+   "name": "BERKSHIRE HATHAWAY INC",
+   "role": "10%-Aktionär",
+   "code": "S",
+   "shares": 18125.0,
+   "price": 84.0387,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526054947/"
+  },
+  {
+   "acc": "0001193125-26-054947",
+   "date": "2026-01-14",
+   "name": "BERKSHIRE HATHAWAY INC",
+   "role": "10%-Aktionär",
+   "code": "S",
+   "shares": 59411.0,
+   "price": 83.7909,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526054947/"
+  },
+  {
+   "acc": "0001193125-26-054947",
+   "date": "2026-01-13",
+   "name": "BERKSHIRE HATHAWAY INC",
+   "role": "10%-Aktionär",
+   "code": "S",
+   "shares": 30643.0,
+   "price": 82.7759,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526054947/"
+  },
+  {
+   "acc": "0001193125-26-054947",
+   "date": "2026-01-12",
+   "name": "BERKSHIRE HATHAWAY INC",
+   "role": "10%-Aktionär",
+   "code": "S",
+   "shares": 66568.0,
+   "price": 83.2746,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526054947/"
+  },
+  {
+   "acc": "0001193125-26-054947",
+   "date": "2026-01-09",
+   "name": "BERKSHIRE HATHAWAY INC",
+   "role": "10%-Aktionär",
+   "code": "S",
+   "shares": 18689.0,
+   "price": 82.3952,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526054947/"
+  },
+  {
+   "acc": "0001193125-26-054947",
+   "date": "2026-01-08",
+   "name": "BERKSHIRE HATHAWAY INC",
+   "role": "10%-Aktionär",
+   "code": "S",
+   "shares": 65071.0,
+   "price": 82.2489,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526054947/"
+  },
+  {
+   "acc": "0001193125-26-054947",
+   "date": "2026-01-07",
+   "name": "BERKSHIRE HATHAWAY INC",
+   "role": "10%-Aktionär",
+   "code": "S",
+   "shares": 44100.0,
+   "price": 81.2234,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526054947/"
+  },
+  {
+   "acc": "0001193125-26-054947",
+   "date": "2026-01-06",
+   "name": "BERKSHIRE HATHAWAY INC",
+   "role": "10%-Aktionär",
+   "code": "S",
+   "shares": 20226.0,
+   "price": 83.4817,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526054947/"
+  },
+  {
+   "acc": "0001193125-25-277658",
+   "date": "2025-11-10",
+   "name": "BUFFETT WARREN E",
+   "role": "Chairman and CEO",
+   "code": "C",
+   "shares": 2700000.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312525277658/"
+  },
+  {
+   "acc": "0001193125-25-277658",
+   "date": "2025-11-10",
+   "name": "BUFFETT WARREN E",
+   "role": "Chairman and CEO",
+   "code": "G",
+   "shares": 1500000.0,
+   "price": 0.0,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312525277658/"
+  },
+  {
+   "acc": "0001193125-25-277658",
+   "date": "2025-11-10",
+   "name": "BUFFETT WARREN E",
+   "role": "Chairman and CEO",
+   "code": "G",
+   "shares": 400000.0,
+   "price": 0.0,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312525277658/"
+  },
+  {
+   "acc": "0001193125-25-277658",
+   "date": "2025-11-10",
+   "name": "BUFFETT WARREN E",
+   "role": "Chairman and CEO",
+   "code": "G",
+   "shares": 400000.0,
+   "price": 0.0,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312525277658/"
+  },
+  {
+   "acc": "0001193125-25-277658",
+   "date": "2025-11-10",
+   "name": "BUFFETT WARREN E",
+   "role": "Chairman and CEO",
+   "code": "G",
+   "shares": 400000.0,
+   "price": 0.0,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312525277658/"
+  },
+  {
+   "acc": "0001193125-25-267252",
+   "date": "2025-11-03",
+   "name": "GUYMAN CHARLOTTE",
+   "role": "Director",
+   "code": "C",
+   "shares": 1500.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312525267252/"
+  },
+  {
+   "acc": "0001193125-25-267252",
+   "date": "2025-11-03",
+   "name": "GUYMAN CHARLOTTE",
+   "role": "Director",
+   "code": "G",
+   "shares": 410.0,
+   "price": 0.0,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312525267252/"
+  },
+  {
+   "acc": "0001193125-25-256858",
+   "date": "2025-10-27",
+   "name": "BERKSHIRE HATHAWAY INC",
+   "role": "10%-Aktionär",
+   "code": "S",
+   "shares": 401514.0,
+   "price": 135.3558,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312525256858/"
+  },
+  {
+   "acc": "0001728451-25-000009",
+   "date": "2025-10-22",
+   "name": "Jain Ajit",
+   "role": "Vice Chairman",
+   "code": "G",
+   "shares": 32.0,
+   "price": null,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1067983/000172845125000009/"
+  },
+  {
+   "acc": "0001728451-25-000008",
+   "date": "2025-09-26",
+   "name": "Jain Ajit",
+   "role": "Vice Chairman",
+   "code": "S",
+   "shares": 15000.0,
+   "price": null,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1067983/000172845125000008/"
+  },
+  {
+   "acc": "0001728451-25-000007",
+   "date": "2025-09-24",
+   "name": "Jain Ajit",
+   "role": "Vice Chairman",
+   "code": "G",
+   "shares": 32.0,
+   "price": null,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1067983/000172845125000007/"
+  }
+ ]
+}

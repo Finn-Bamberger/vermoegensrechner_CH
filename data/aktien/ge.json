@@ -1,0 +1,1422 @@
+{
+ "company": "GENERAL ELECTRIC CO",
+ "cik": "0000040545",
+ "ticker": "GE",
+ "tv": "NYSE:GE",
+ "rank": 37,
+ "source": "SEC EDGAR",
+ "fiscal_year_end": "1231",
+ "updated_at": "2026-10-16T12:16:29Z",
+ "periodic_accs": [
+  "0000040545-19-000014",
+  "0000040545-19-000024",
+  "0000040545-19-000053",
+  "0000040545-19-000069",
+  "0000040545-20-000009",
+  "0000040545-20-000021",
+  "0000040545-20-000046",
+  "0000040545-20-000058",
+  "0000040545-21-000011",
+  "0000040545-21-000026",
+  "0000040545-21-000052",
+  "0000040545-21-000064",
+  "0000040545-22-000008",
+  "0000040545-22-000027",
+  "0000040545-22-000050",
+  "0000040545-22-000060",
+  "0000040545-23-000023",
+  "0000040545-23-000136",
+  "0000040545-23-000198",
+  "0000040545-23-000238",
+  "0000040545-24-000027",
+  "0000040545-24-000113",
+  "0000040545-24-000176",
+  "0000040545-24-000200",
+  "0000040545-25-000015",
+  "0000040545-25-000062",
+  "0000040545-25-000111",
+  "0000040545-25-000132",
+  "0000040545-26-000008",
+  "0000040545-26-000027",
+  "0000040545-26-000049"
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "date": "2026-09-22",
+   "report_date": "2026-09-21",
+   "items": "5.02,8.01,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/40545/000004054526000059/ge-20260921.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/40545/000004054526000059/0000040545-26-000059-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2026-09-08",
+   "report_date": "2026-09-08",
+   "items": "7.01,8.01,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/40545/000095014226002501/eh260827362_8k.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/40545/000095014226002501/0000950142-26-002501-index.htm"
+  },
+  {
+   "form": "10-Q",
+   "date": "2026-07-16",
+   "report_date": "2026-06-30",
+   "items": "",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/40545/000004054526000049/ge-20260630.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/40545/000004054526000049/0000040545-26-000049-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2026-07-16",
+   "report_date": "2026-07-16",
+   "items": "2.02,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/40545/000004054526000047/ge-20260716.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/40545/000004054526000047/0000040545-26-000047-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2026-06-25",
+   "report_date": "2026-06-25",
+   "items": "5.03,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/40545/000004054526000042/ge-20260625.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/40545/000004054526000042/0000040545-26-000042-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2026-06-11",
+   "report_date": "2026-06-08",
+   "items": "5.02,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/40545/000004054526000039/ge-20260608.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/40545/000004054526000039/0000040545-26-000039-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2026-05-07",
+   "report_date": "2026-05-05",
+   "items": "5.02,5.07",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/40545/000004054526000032/ge-20260505.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/40545/000004054526000032/0000040545-26-000032-index.htm"
+  },
+  {
+   "form": "10-Q",
+   "date": "2026-04-21",
+   "report_date": "2026-03-31",
+   "items": "",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/40545/000004054526000027/ge-20260331.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/40545/000004054526000027/0000040545-26-000027-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2026-04-21",
+   "report_date": "2026-04-21",
+   "items": "2.02,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/40545/000004054526000026/ge-20260421.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/40545/000004054526000026/0000040545-26-000026-index.htm"
+  },
+  {
+   "form": "10-K",
+   "date": "2026-01-29",
+   "report_date": "2025-12-31",
+   "items": "",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/40545/000004054526000008/ge-20251231.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/40545/000004054526000008/0000040545-26-000008-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2026-01-22",
+   "report_date": "2026-01-22",
+   "items": "2.02,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/40545/000004054526000005/ge-20260122.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/40545/000004054526000005/0000040545-26-000005-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2026-01-15",
+   "report_date": "2026-01-15",
+   "items": "5.02,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/40545/000004054526000002/ge-20260115.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/40545/000004054526000002/0000040545-26-000002-index.htm"
+  },
+  {
+   "form": "10-Q",
+   "date": "2025-10-21",
+   "report_date": "2025-09-30",
+   "items": "",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/40545/000004054525000132/ge-20250930.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/40545/000004054525000132/0000040545-25-000132-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2025-10-21",
+   "report_date": "2025-10-21",
+   "items": "2.02,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/40545/000004054525000131/ge-20251021.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/40545/000004054525000131/0000040545-25-000131-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2025-10-01",
+   "report_date": "2025-09-29",
+   "items": "5.02,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/40545/000004054525000126/ge-20250929.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/40545/000004054525000126/0000040545-25-000126-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2025-07-29",
+   "report_date": "2025-07-29",
+   "items": "8.01,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/40545/000093041325002289/c113534_8k-ixbrl.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/40545/000093041325002289/0000930413-25-002289-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2025-07-24",
+   "report_date": "2025-07-22",
+   "items": "8.01,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/40545/000093041325002225/c113456_8k-ixbrl.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/40545/000093041325002225/0000930413-25-002225-index.htm"
+  },
+  {
+   "form": "10-Q",
+   "date": "2025-07-21",
+   "report_date": "2025-06-30",
+   "items": "",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/40545/000004054525000111/ge-20250630.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/40545/000004054525000111/0000040545-25-000111-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2025-07-17",
+   "report_date": "2025-07-17",
+   "items": "2.02,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/40545/000004054525000108/ge-20250717.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/40545/000004054525000108/0000040545-25-000108-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2025-05-09",
+   "report_date": "2025-05-06",
+   "items": "5.07",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/40545/000004054525000091/ge-20250506.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/40545/000004054525000091/0000040545-25-000091-index.htm"
+  },
+  {
+   "form": "10-Q",
+   "date": "2025-04-22",
+   "report_date": "2025-03-31",
+   "items": "",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/40545/000004054525000062/ge-20250331.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/40545/000004054525000062/0000040545-25-000062-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2025-04-22",
+   "report_date": "2025-04-22",
+   "items": "2.02,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/40545/000004054525000061/ge-20250422.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/40545/000004054525000061/0000040545-25-000061-index.htm"
+  },
+  {
+   "form": "10-K",
+   "date": "2025-02-03",
+   "report_date": "2024-12-31",
+   "items": "",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/40545/000004054525000015/ge-20241231.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/40545/000004054525000015/0000040545-25-000015-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2025-01-23",
+   "report_date": "2025-01-23",
+   "items": "2.02,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/40545/000004054525000009/ge-20250123.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/40545/000004054525000009/0000040545-25-000009-index.htm"
+  },
+  {
+   "form": "10-Q",
+   "date": "2024-10-22",
+   "report_date": "2024-09-30",
+   "items": "",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/40545/000004054524000200/ge-20240930.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/40545/000004054524000200/0000040545-24-000200-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2024-10-22",
+   "report_date": "2024-10-22",
+   "items": "2.02,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/40545/000004054524000199/ge-20241022.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/40545/000004054524000199/0000040545-24-000199-index.htm"
+  },
+  {
+   "form": "10-Q",
+   "date": "2024-07-23",
+   "report_date": "2024-06-30",
+   "items": "",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/40545/000004054524000176/ge-20240630.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/40545/000004054524000176/0000040545-24-000176-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2024-07-23",
+   "report_date": "2024-07-23",
+   "items": "2.02,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/40545/000004054524000174/ge-20240723.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/40545/000004054524000174/0000040545-24-000174-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2024-07-01",
+   "report_date": "2024-06-30",
+   "items": "5.02,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/40545/000095014224001825/eh240502380_8k.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/40545/000095014224001825/0000950142-24-001825-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2024-06-21",
+   "report_date": "2024-06-21",
+   "items": "7.01,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/40545/000004054524000166/ge-20240621.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/40545/000004054524000166/0000040545-24-000166-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2024-05-10",
+   "report_date": "2024-05-07",
+   "items": "5.07",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/40545/000004054524000147/ge-20240507.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/40545/000004054524000147/0000040545-24-000147-index.htm"
+  },
+  {
+   "form": "10-Q",
+   "date": "2024-04-23",
+   "report_date": "2024-03-31",
+   "items": "",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/40545/000004054524000113/ge-20240331.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/40545/000004054524000113/0000040545-24-000113-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2024-04-23",
+   "report_date": "2024-04-23",
+   "items": "2.02,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/40545/000004054524000112/ge-20240423.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/40545/000004054524000112/0000040545-24-000112-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2024-04-11",
+   "report_date": "2024-04-11",
+   "items": "7.01,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/40545/000004054524000097/ge-20240411.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/40545/000004054524000097/0000040545-24-000097-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2024-04-08",
+   "report_date": "2024-04-05",
+   "items": "5.02",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/40545/000004054524000089/ge-20240405.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/40545/000004054524000089/0000040545-24-000089-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2024-04-02",
+   "report_date": "2024-04-01",
+   "items": "1.01,1.02,2.01,2.03,5.03,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/40545/000119312524084038/d792336d8k.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/40545/000119312524084038/0001193125-24-084038-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2024-03-07",
+   "report_date": "2024-03-07",
+   "items": "8.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/40545/000004054524000056/ge-20240307.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/40545/000004054524000056/0000040545-24-000056-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2024-02-29",
+   "report_date": "2024-02-26",
+   "items": "5.04,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/40545/000004054524000041/ge-20240226.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/40545/000004054524000041/0000040545-24-000041-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2024-02-29",
+   "report_date": "2024-02-29",
+   "items": "8.01,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/40545/000004054524000040/ge-20240229.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/40545/000004054524000040/0000040545-24-000040-index.htm"
+  },
+  {
+   "form": "10-K",
+   "date": "2024-02-02",
+   "report_date": "2023-12-31",
+   "items": "",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/40545/000004054524000027/ge-20231231.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/40545/000004054524000027/0000040545-24-000027-index.htm"
+  }
+ ],
+ "quarters": [
+  {
+   "end": "2020-09-30",
+   "revenue": 18609000000,
+   "net_income": -1144000000,
+   "op_cash_flow": 1335000000,
+   "diluted_shares": 1095000000
+  },
+  {
+   "end": "2020-12-31",
+   "revenue": 21033000000,
+   "net_income": 2636000000,
+   "op_cash_flow": 3628000000
+  },
+  {
+   "end": "2021-03-31",
+   "revenue": 17071000000,
+   "net_income": -2802000000,
+   "op_cash_flow": -1959000000,
+   "diluted_shares": 1101000000
+  },
+  {
+   "end": "2021-06-30",
+   "revenue": 18253000000,
+   "net_income": -1131000000,
+   "op_cash_flow": 518000000,
+   "diluted_shares": 1097000000
+  },
+  {
+   "end": "2021-09-30",
+   "revenue": 18569000000,
+   "net_income": 1257000000,
+   "op_cash_flow": 2341000000,
+   "diluted_shares": 1105000000
+  },
+  {
+   "end": "2021-12-31",
+   "revenue": 20303000000,
+   "net_income": -3843000000,
+   "op_cash_flow": 2581000000
+  },
+  {
+   "end": "2022-03-31",
+   "revenue": 12675000000,
+   "net_income": -1136000000,
+   "op_cash_flow": -556000000,
+   "diluted_shares": 1100000000
+  },
+  {
+   "end": "2022-06-30",
+   "revenue": 14127000000,
+   "net_income": -882000000,
+   "op_cash_flow": 550000000,
+   "diluted_shares": 1099000000
+  },
+  {
+   "end": "2022-09-30",
+   "revenue": 14470000000,
+   "net_income": 161000000,
+   "op_cash_flow": 1423000000,
+   "capex": 252000000,
+   "diluted_shares": 1095000000
+  },
+  {
+   "end": "2022-12-31",
+   "revenue": 16828000000,
+   "net_income": 2197000000,
+   "op_cash_flow": 4500000000,
+   "capex": -139000000
+  },
+  {
+   "end": "2023-03-31",
+   "revenue": 7836000000,
+   "net_income": 7508000000,
+   "op_cash_flow": -259000000,
+   "capex": 298000000,
+   "diluted_shares": 1097000000
+  },
+  {
+   "end": "2023-06-30",
+   "revenue": 8755000000,
+   "net_income": 33000000,
+   "op_cash_flow": 485000000,
+   "capex": 92000000,
+   "diluted_shares": 1098000000
+  },
+  {
+   "end": "2023-09-30",
+   "revenue": 9302000000,
+   "net_income": 352000000,
+   "op_cash_flow": 1823000000,
+   "capex": 222000000,
+   "diluted_shares": 1099000000
+  },
+  {
+   "end": "2023-12-31",
+   "revenue": 9456000000,
+   "net_income": 1589000000,
+   "op_cash_flow": 3140000000,
+   "capex": 250000000,
+   "debt": 20862000000
+  },
+  {
+   "end": "2024-03-31",
+   "revenue": 8955000000,
+   "net_income": 1539000000,
+   "op_cash_flow": 994000000,
+   "capex": 204000000,
+   "diluted_shares": 1103000000
+  },
+  {
+   "end": "2024-06-30",
+   "revenue": 9094000000,
+   "net_income": 1266000000,
+   "op_cash_flow": 911000000,
+   "capex": 295000000,
+   "diluted_shares": 1100000000
+  },
+  {
+   "end": "2024-09-30",
+   "revenue": 9842000000,
+   "net_income": 1852000000,
+   "op_cash_flow": 1508000000,
+   "capex": 266000000,
+   "diluted_shares": 1093000000
+  },
+  {
+   "end": "2024-12-31",
+   "revenue": 10812000000,
+   "net_income": 1899000000,
+   "op_cash_flow": 1297000000,
+   "capex": 267000000,
+   "debt": 19273000000
+  },
+  {
+   "end": "2025-03-31",
+   "revenue": 9935000000,
+   "net_income": 1978000000,
+   "op_cash_flow": 1509000000,
+   "capex": 208000000,
+   "diluted_shares": 1078000000
+  },
+  {
+   "end": "2025-06-30",
+   "revenue": 11023000000,
+   "net_income": 2028000000,
+   "op_cash_flow": 2246000000,
+   "capex": 327000000,
+   "diluted_shares": 1071000000
+  },
+  {
+   "end": "2025-09-30",
+   "revenue": 12181000000,
+   "net_income": 2157000000,
+   "op_cash_flow": 2501000000,
+   "capex": 307000000,
+   "diluted_shares": 1065000000
+  },
+  {
+   "end": "2025-12-31",
+   "revenue": 12717000000,
+   "net_income": 2541000000,
+   "op_cash_flow": 2281000000,
+   "capex": 431000000,
+   "debt": 20469000000
+  },
+  {
+   "end": "2026-03-31",
+   "revenue": 12392000000,
+   "net_income": 1904000000,
+   "op_cash_flow": 1823000000,
+   "capex": 331000000,
+   "diluted_shares": 1054000000
+  },
+  {
+   "end": "2026-06-30",
+   "revenue": 13349000000,
+   "net_income": 2370000000,
+   "op_cash_flow": 3195000000,
+   "capex": 335000000,
+   "diluted_shares": 1047000000
+  }
+ ],
+ "annual": [
+  {
+   "end": "2016-12-31",
+   "revenue": 119469000000,
+   "net_income": 7500000000,
+   "op_cash_flow": 1160000000,
+   "diluted_shares": 9130000000,
+   "cash": 48129000000
+  },
+  {
+   "end": "2017-12-31",
+   "revenue": 99279000000,
+   "net_income": -8484000000,
+   "op_cash_flow": 6554000000,
+   "diluted_shares": 8687000000,
+   "cash": 43299000000
+  },
+  {
+   "end": "2018-12-31",
+   "revenue": 97012000000,
+   "net_income": -22355000000,
+   "op_cash_flow": 4978000000,
+   "diluted_shares": 8691000000
+  },
+  {
+   "end": "2019-12-31",
+   "revenue": 90221000000,
+   "net_income": -4979000000,
+   "op_cash_flow": 8734000000,
+   "diluted_shares": 1091000000
+  },
+  {
+   "end": "2020-12-31",
+   "revenue": 75833000000,
+   "net_income": 5704000000,
+   "op_cash_flow": 3568000000,
+   "diluted_shares": 1095000000
+  },
+  {
+   "end": "2021-12-31",
+   "revenue": 56469000000,
+   "net_income": -6337000000,
+   "op_cash_flow": 3481000000,
+   "capex": 1113000000,
+   "diluted_shares": 1098000000
+  },
+  {
+   "end": "2022-12-31",
+   "revenue": 29139000000,
+   "net_income": 336000000,
+   "op_cash_flow": 5917000000,
+   "capex": 662000000,
+   "diluted_shares": 1101000000
+  },
+  {
+   "end": "2023-12-31",
+   "revenue": 35348000000,
+   "net_income": 9482000000,
+   "op_cash_flow": 5189000000,
+   "capex": 862000000,
+   "diluted_shares": 1099000000,
+   "debt": 20862000000
+  },
+  {
+   "end": "2024-12-31",
+   "revenue": 38702000000,
+   "net_income": 6556000000,
+   "op_cash_flow": 4710000000,
+   "capex": 1032000000,
+   "diluted_shares": 1094000000,
+   "debt": 19273000000
+  },
+  {
+   "end": "2025-12-31",
+   "revenue": 45855000000,
+   "net_income": 8704000000,
+   "op_cash_flow": 8537000000,
+   "capex": 1273000000,
+   "diluted_shares": 1068000000,
+   "debt": 20469000000
+  }
+ ],
+ "shares_outstanding": {
+  "shares": 1037562513,
+  "as_of": "2026-06-30",
+  "filed": "2026-07-16"
+ },
+ "quote": {
+  "price": 312.0,
+  "date": "2026-10-15",
+  "source": "Yahoo Finance"
+ },
+ "insiders": [
+  {
+   "acc": "0001953063-26-000009",
+   "date": "2026-08-11",
+   "name": "Giglietti Robert M.",
+   "role": "Vice President",
+   "code": "M",
+   "shares": 10242.0,
+   "price": 36.65,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/40545/000195306326000009/"
+  },
+  {
+   "acc": "0001953063-26-000009",
+   "date": "2026-08-11",
+   "name": "Giglietti Robert M.",
+   "role": "Vice President",
+   "code": "S",
+   "shares": 5344.0,
+   "price": 369.88,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/40545/000195306326000009/"
+  },
+  {
+   "acc": "0001953063-26-000009",
+   "date": "2026-08-11",
+   "name": "Giglietti Robert M.",
+   "role": "Vice President",
+   "code": "S",
+   "shares": 4898.0,
+   "price": 369.97,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/40545/000195306326000009/"
+  },
+  {
+   "acc": "0002052951-26-000007",
+   "date": "2026-07-24",
+   "name": "Ali Mohamed",
+   "role": "Senior Vice President",
+   "code": "M",
+   "shares": 3035.0,
+   "price": 90.01,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/40545/000205295126000007/"
+  },
+  {
+   "acc": "0002052951-26-000007",
+   "date": "2026-07-24",
+   "name": "Ali Mohamed",
+   "role": "Senior Vice President",
+   "code": "S",
+   "shares": 1769.0,
+   "price": 353.75,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/40545/000205295126000007/"
+  },
+  {
+   "acc": "0002052951-26-000007",
+   "date": "2026-07-24",
+   "name": "Ali Mohamed",
+   "role": "Senior Vice President",
+   "code": "S",
+   "shares": 1266.0,
+   "price": 353.74,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/40545/000205295126000007/"
+  },
+  {
+   "acc": "0002052951-26-000007",
+   "date": "2026-07-24",
+   "name": "Ali Mohamed",
+   "role": "Senior Vice President",
+   "code": "M",
+   "shares": 5061.0,
+   "price": 69.55,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/40545/000205295126000007/"
+  },
+  {
+   "acc": "0002052951-26-000007",
+   "date": "2026-07-24",
+   "name": "Ali Mohamed",
+   "role": "Senior Vice President",
+   "code": "S",
+   "shares": 2782.0,
+   "price": 353.72,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/40545/000205295126000007/"
+  },
+  {
+   "acc": "0002052951-26-000007",
+   "date": "2026-07-24",
+   "name": "Ali Mohamed",
+   "role": "Senior Vice President",
+   "code": "S",
+   "shares": 2279.0,
+   "price": 353.64,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/40545/000205295126000007/"
+  },
+  {
+   "acc": "0002015929-26-000007",
+   "date": "2026-07-23",
+   "name": "Procacci Riccardo",
+   "role": "Senior Vice President",
+   "code": "M",
+   "shares": 1517.0,
+   "price": 146.33,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/40545/000201592926000007/"
+  },
+  {
+   "acc": "0002015929-26-000007",
+   "date": "2026-07-23",
+   "name": "Procacci Riccardo",
+   "role": "Senior Vice President",
+   "code": "S",
+   "shares": 1026.0,
+   "price": 347.93,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/40545/000201592926000007/"
+  },
+  {
+   "acc": "0002015929-26-000007",
+   "date": "2026-07-23",
+   "name": "Procacci Riccardo",
+   "role": "Senior Vice President",
+   "code": "S",
+   "shares": 491.0,
+   "price": 347.9,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/40545/000201592926000007/"
+  },
+  {
+   "acc": "0001868758-26-000010",
+   "date": "2026-06-24",
+   "name": "Althoff Judson",
+   "role": "Director",
+   "code": "A",
+   "shares": 517.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/40545/000186875826000010/"
+  },
+  {
+   "acc": "0001787479-26-000004",
+   "date": "2026-05-05",
+   "name": "McDew Darren W",
+   "role": "Director",
+   "code": "A",
+   "shares": 678.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/40545/000178747926000004/"
+  },
+  {
+   "acc": "0001256992-26-000002",
+   "date": "2026-05-05",
+   "name": "LESJAK CATHERINE A",
+   "role": "Director",
+   "code": "A",
+   "shares": 678.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/40545/000125699226000002/"
+  },
+  {
+   "acc": "0001175928-26-000002",
+   "date": "2026-05-05",
+   "name": "HORTON THOMAS W",
+   "role": "Director",
+   "code": "A",
+   "shares": 678.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/40545/000117592826000002/"
+  },
+  {
+   "acc": "0001497483-26-000002",
+   "date": "2026-05-05",
+   "name": "Goren Isabella D",
+   "role": "Director",
+   "code": "A",
+   "shares": 678.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/40545/000149748326000002/"
+  },
+  {
+   "acc": "0001757262-26-000004",
+   "date": "2026-05-05",
+   "name": "Enders Thomas",
+   "role": "Director",
+   "code": "A",
+   "shares": 678.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/40545/000175726226000004/"
+  },
+  {
+   "acc": "0001216503-26-000007",
+   "date": "2026-05-05",
+   "name": "BUSH WESLEY G",
+   "role": "Director",
+   "code": "A",
+   "shares": 678.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/40545/000121650326000007/"
+  },
+  {
+   "acc": "0001378185-26-000002",
+   "date": "2026-05-05",
+   "name": "Billson Margaret S",
+   "role": "Director",
+   "code": "A",
+   "shares": 678.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/40545/000137818526000002/"
+  },
+  {
+   "acc": "0001671730-26-000005",
+   "date": "2026-05-05",
+   "name": "Bazin Sebastien",
+   "role": "Director",
+   "code": "A",
+   "shares": 678.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/40545/000167173026000005/"
+  },
+  {
+   "acc": "0002015929-26-000006",
+   "date": "2026-05-01",
+   "name": "Procacci Riccardo",
+   "role": "Senior Vice President",
+   "code": "M",
+   "shares": 966.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/40545/000201592926000006/"
+  },
+  {
+   "acc": "0002015929-26-000006",
+   "date": "2026-05-01",
+   "name": "Procacci Riccardo",
+   "role": "Senior Vice President",
+   "code": "F",
+   "shares": 416.0,
+   "price": 286.51,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/40545/000201592926000006/"
+  },
+  {
+   "acc": "0002015720-26-000003",
+   "date": "2026-05-01",
+   "name": "Phillips John R, III",
+   "role": "Senior Vice President",
+   "code": "M",
+   "shares": 2255.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/40545/000201572026000003/"
+  },
+  {
+   "acc": "0002015720-26-000003",
+   "date": "2026-05-01",
+   "name": "Phillips John R, III",
+   "role": "Senior Vice President",
+   "code": "F",
+   "shares": 1109.0,
+   "price": 286.51,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/40545/000201572026000003/"
+  },
+  {
+   "acc": "0002015707-26-000003",
+   "date": "2026-05-01",
+   "name": "Meisner Christian",
+   "role": "Senior Vice President",
+   "code": "M",
+   "shares": 2255.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/40545/000201570726000003/"
+  },
+  {
+   "acc": "0002015707-26-000003",
+   "date": "2026-05-01",
+   "name": "Meisner Christian",
+   "role": "Senior Vice President",
+   "code": "F",
+   "shares": 1045.0,
+   "price": 286.51,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/40545/000201570726000003/"
+  },
+  {
+   "acc": "0001810148-26-000007",
+   "date": "2026-05-01",
+   "name": "Gowder Amy L",
+   "role": "Senior Vice President",
+   "code": "M",
+   "shares": 966.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/40545/000181014826000007/"
+  },
+  {
+   "acc": "0001810148-26-000007",
+   "date": "2026-05-01",
+   "name": "Gowder Amy L",
+   "role": "Senior Vice President",
+   "code": "F",
+   "shares": 426.0,
+   "price": 286.51,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/40545/000181014826000007/"
+  },
+  {
+   "acc": "0001953063-26-000007",
+   "date": "2026-05-01",
+   "name": "Giglietti Robert M.",
+   "role": "Vice President",
+   "code": "M",
+   "shares": 773.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/40545/000195306326000007/"
+  },
+  {
+   "acc": "0001953063-26-000007",
+   "date": "2026-05-01",
+   "name": "Giglietti Robert M.",
+   "role": "Vice President",
+   "code": "F",
+   "shares": 359.0,
+   "price": 286.51,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/40545/000195306326000007/"
+  },
+  {
+   "acc": "0001953063-26-000007",
+   "date": "2026-05-01",
+   "name": "Giglietti Robert M.",
+   "role": "Vice President",
+   "code": "M",
+   "shares": 2416.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/40545/000195306326000007/"
+  },
+  {
+   "acc": "0001953063-26-000007",
+   "date": "2026-05-01",
+   "name": "Giglietti Robert M.",
+   "role": "Vice President",
+   "code": "F",
+   "shares": 1120.0,
+   "price": 286.51,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/40545/000195306326000007/"
+  },
+  {
+   "acc": "0001666090-26-000005",
+   "date": "2026-05-01",
+   "name": "GHAI RAHUL",
+   "role": "Senior Vice President",
+   "code": "M",
+   "shares": 3067.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/40545/000166609026000005/"
+  },
+  {
+   "acc": "0001666090-26-000005",
+   "date": "2026-05-01",
+   "name": "GHAI RAHUL",
+   "role": "Senior Vice President",
+   "code": "F",
+   "shares": 1422.0,
+   "price": 286.51,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/40545/000166609026000005/"
+  },
+  {
+   "acc": "0002052951-26-000005",
+   "date": "2026-05-01",
+   "name": "Ali Mohamed",
+   "role": "Senior Vice President",
+   "code": "M",
+   "shares": 1288.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/40545/000205295126000005/"
+  },
+  {
+   "acc": "0002052951-26-000005",
+   "date": "2026-05-01",
+   "name": "Ali Mohamed",
+   "role": "Senior Vice President",
+   "code": "F",
+   "shares": 558.0,
+   "price": 286.51,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/40545/000205295126000005/"
+  },
+  {
+   "acc": "0001205247-26-000004",
+   "date": "2026-03-03",
+   "name": "CULP H LAWRENCE JR",
+   "role": "Chairman and CEO",
+   "code": "M",
+   "shares": 14872.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/40545/000120524726000004/"
+  },
+  {
+   "acc": "0001205247-26-000004",
+   "date": "2026-03-03",
+   "name": "CULP H LAWRENCE JR",
+   "role": "Chairman and CEO",
+   "code": "F",
+   "shares": 6234.0,
+   "price": 334.14,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/40545/000120524726000004/"
+  },
+  {
+   "acc": "0002015929-26-000003",
+   "date": "2026-03-01",
+   "name": "Procacci Riccardo",
+   "role": "Senior Vice President",
+   "code": "A",
+   "shares": 9051.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/40545/000201592926000003/"
+  },
+  {
+   "acc": "0002015929-26-000003",
+   "date": "2026-03-01",
+   "name": "Procacci Riccardo",
+   "role": "Senior Vice President",
+   "code": "F",
+   "shares": 3894.0,
+   "price": 342.26,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/40545/000201592926000003/"
+  },
+  {
+   "acc": "0002015929-26-000003",
+   "date": "2026-03-01",
+   "name": "Procacci Riccardo",
+   "role": "Senior Vice President",
+   "code": "M",
+   "shares": 15345.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/40545/000201592926000003/"
+  },
+  {
+   "acc": "0002015929-26-000003",
+   "date": "2026-03-01",
+   "name": "Procacci Riccardo",
+   "role": "Senior Vice President",
+   "code": "F",
+   "shares": 6599.0,
+   "price": 342.26,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/40545/000201592926000003/"
+  },
+  {
+   "acc": "0002015929-26-000003",
+   "date": "2026-03-01",
+   "name": "Procacci Riccardo",
+   "role": "Senior Vice President",
+   "code": "M",
+   "shares": 2877.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/40545/000201592926000003/"
+  },
+  {
+   "acc": "0002015929-26-000003",
+   "date": "2026-03-01",
+   "name": "Procacci Riccardo",
+   "role": "Senior Vice President",
+   "code": "F",
+   "shares": 1238.0,
+   "price": 342.26,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/40545/000201592926000003/"
+  },
+  {
+   "acc": "0001810148-26-000004",
+   "date": "2026-03-01",
+   "name": "Gowder Amy L",
+   "role": "Senior Vice President",
+   "code": "A",
+   "shares": 9051.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/40545/000181014826000004/"
+  },
+  {
+   "acc": "0001810148-26-000004",
+   "date": "2026-03-01",
+   "name": "Gowder Amy L",
+   "role": "Senior Vice President",
+   "code": "F",
+   "shares": 3987.0,
+   "price": 342.26,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/40545/000181014826000004/"
+  },
+  {
+   "acc": "0001810148-26-000004",
+   "date": "2026-03-01",
+   "name": "Gowder Amy L",
+   "role": "Senior Vice President",
+   "code": "M",
+   "shares": 19181.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/40545/000181014826000004/"
+  },
+  {
+   "acc": "0001810148-26-000004",
+   "date": "2026-03-01",
+   "name": "Gowder Amy L",
+   "role": "Senior Vice President",
+   "code": "F",
+   "shares": 8011.0,
+   "price": 342.26,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/40545/000181014826000004/"
+  },
+  {
+   "acc": "0001810148-26-000004",
+   "date": "2026-03-01",
+   "name": "Gowder Amy L",
+   "role": "Senior Vice President",
+   "code": "M",
+   "shares": 2877.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/40545/000181014826000004/"
+  },
+  {
+   "acc": "0001810148-26-000004",
+   "date": "2026-03-01",
+   "name": "Gowder Amy L",
+   "role": "Senior Vice President",
+   "code": "F",
+   "shares": 1268.0,
+   "price": 342.26,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/40545/000181014826000004/"
+  },
+  {
+   "acc": "0001953063-26-000004",
+   "date": "2026-03-01",
+   "name": "Giglietti Robert M.",
+   "role": "Vice President",
+   "code": "A",
+   "shares": 10865.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/40545/000195306326000004/"
+  },
+  {
+   "acc": "0001953063-26-000004",
+   "date": "2026-03-01",
+   "name": "Giglietti Robert M.",
+   "role": "Vice President",
+   "code": "F",
+   "shares": 4809.0,
+   "price": 342.26,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/40545/000195306326000004/"
+  },
+  {
+   "acc": "0001953063-26-000004",
+   "date": "2026-03-01",
+   "name": "Giglietti Robert M.",
+   "role": "Vice President",
+   "code": "M",
+   "shares": 3453.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/40545/000195306326000004/"
+  },
+  {
+   "acc": "0001953063-26-000004",
+   "date": "2026-03-01",
+   "name": "Giglietti Robert M.",
+   "role": "Vice President",
+   "code": "F",
+   "shares": 1601.0,
+   "price": 342.26,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/40545/000195306326000004/"
+  },
+  {
+   "acc": "0001666090-26-000002",
+   "date": "2026-03-01",
+   "name": "GHAI RAHUL",
+   "role": "Senior Vice President",
+   "code": "A",
+   "shares": 45255.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/40545/000166609026000002/"
+  },
+  {
+   "acc": "0001666090-26-000002",
+   "date": "2026-03-01",
+   "name": "GHAI RAHUL",
+   "role": "Senior Vice President",
+   "code": "F",
+   "shares": 20536.0,
+   "price": 342.26,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/40545/000166609026000002/"
+  },
+  {
+   "acc": "0001666090-26-000002",
+   "date": "2026-03-01",
+   "name": "GHAI RAHUL",
+   "role": "Senior Vice President",
+   "code": "M",
+   "shares": 14386.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/40545/000166609026000002/"
+  },
+  {
+   "acc": "0001666090-26-000002",
+   "date": "2026-03-01",
+   "name": "GHAI RAHUL",
+   "role": "Senior Vice President",
+   "code": "F",
+   "shares": 6667.0,
+   "price": 342.26,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/40545/000166609026000002/"
+  },
+  {
+   "acc": "0001205247-26-000002",
+   "date": "2026-03-01",
+   "name": "CULP H LAWRENCE JR",
+   "role": "Chairman and CEO",
+   "code": "A",
+   "shares": 401646.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/40545/000120524726000002/"
+  },
+  {
+   "acc": "0001205247-26-000002",
+   "date": "2026-03-01",
+   "name": "CULP H LAWRENCE JR",
+   "role": "Chairman and CEO",
+   "code": "F",
+   "shares": 169539.0,
+   "price": 342.26,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/40545/000120524726000002/"
+  },
+  {
+   "acc": "0002052951-26-000002",
+   "date": "2026-03-01",
+   "name": "Ali Mohamed",
+   "role": "Senior Vice President",
+   "code": "A",
+   "shares": 15090.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/40545/000205295126000002/"
+  },
+  {
+   "acc": "0002052951-26-000002",
+   "date": "2026-03-01",
+   "name": "Ali Mohamed",
+   "role": "Senior Vice President",
+   "code": "F",
+   "shares": 6221.0,
+   "price": 342.26,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/40545/000205295126000002/"
+  },
+  {
+   "acc": "0002052951-26-000002",
+   "date": "2026-03-01",
+   "name": "Ali Mohamed",
+   "role": "Senior Vice President",
+   "code": "M",
+   "shares": 4796.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/40545/000205295126000002/"
+  },
+  {
+   "acc": "0002052951-26-000002",
+   "date": "2026-03-01",
+   "name": "Ali Mohamed",
+   "role": "Senior Vice President",
+   "code": "F",
+   "shares": 2113.0,
+   "price": 342.26,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/40545/000205295126000002/"
+  }
+ ]
+}

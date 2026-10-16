@@ -1,0 +1,1209 @@
+{
+ "company": "CONOCOPHILLIPS",
+ "cik": "0001163165",
+ "ticker": "COP",
+ "tv": "NYSE:COP",
+ "rank": 68,
+ "source": "SEC EDGAR",
+ "fiscal_year_end": "1231",
+ "updated_at": "2026-10-16T12:35:05Z",
+ "periodic_accs": [
+  "0001163165-22-000006",
+  "0001163165-22-000013",
+  "0001163165-22-000017",
+  "0001163165-23-000006",
+  "0001163165-23-000011",
+  "0001163165-23-000023",
+  "0001163165-23-000031",
+  "0001163165-24-000010",
+  "0001163165-24-000023",
+  "0001163165-24-000037",
+  "0001163165-24-000052",
+  "0001163165-25-000012",
+  "0001163165-25-000025",
+  "0001163165-25-000042",
+  "0001163165-25-000058",
+  "0001163165-26-000009",
+  "0001163165-26-000018",
+  "0001163165-26-000032",
+  "0001193125-18-311600",
+  "0001193125-19-043841",
+  "0001193125-19-134334",
+  "0001193125-19-210077",
+  "0001193125-19-279997",
+  "0001193125-20-039954",
+  "0001562762-20-000162",
+  "0001562762-20-000267",
+  "0001562762-20-000367",
+  "0001562762-21-000027",
+  "0001562762-21-000193",
+  "0001562762-21-000304",
+  "0001562762-21-000409",
+  "0001562762-22-000031"
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "date": "2026-08-11",
+   "report_date": "2026-08-06",
+   "items": "5.02,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1163165/000110465926094062/tm2622739d1_8k.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1163165/000110465926094062/0001104659-26-094062-index.htm"
+  },
+  {
+   "form": "10-Q",
+   "date": "2026-08-06",
+   "report_date": "2026-06-30",
+   "items": "",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1163165/000116316526000032/cop-20260630.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1163165/000116316526000032/0001163165-26-000032-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2026-08-06",
+   "report_date": "2026-08-06",
+   "items": "2.02,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1163165/000116316526000030/cop-20260806.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1163165/000116316526000030/0001163165-26-000030-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2026-06-23",
+   "report_date": "2026-06-23",
+   "items": "5.02",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1163165/000110465926076836/tm2618585d1_8k.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1163165/000110465926076836/0001104659-26-076836-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2026-05-14",
+   "report_date": "2026-05-12",
+   "items": "5.07",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1163165/000110465926061130/tm2614551d1_8k.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1163165/000110465926061130/0001104659-26-061130-index.htm"
+  },
+  {
+   "form": "10-Q",
+   "date": "2026-04-30",
+   "report_date": "2026-03-31",
+   "items": "",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1163165/000116316526000018/cop-20260331.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1163165/000116316526000018/0001163165-26-000018-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2026-04-30",
+   "report_date": "2026-04-30",
+   "items": "2.02,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1163165/000116316526000016/cop-20260430.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1163165/000116316526000016/0001163165-26-000016-index.htm"
+  },
+  {
+   "form": "10-K",
+   "date": "2026-02-17",
+   "report_date": "2025-12-31",
+   "items": "",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1163165/000116316526000009/cop-20251231.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1163165/000116316526000009/0001163165-26-000009-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2026-02-05",
+   "report_date": "2026-02-05",
+   "items": "2.02,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1163165/000116316526000005/cop-20260205.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1163165/000116316526000005/0001163165-26-000005-index.htm"
+  },
+  {
+   "form": "10-Q",
+   "date": "2025-11-06",
+   "report_date": "2025-09-30",
+   "items": "",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1163165/000116316525000058/cop-20250930.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1163165/000116316525000058/0001163165-25-000058-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2025-11-06",
+   "report_date": "2025-11-06",
+   "items": "2.02,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1163165/000116316525000056/cop-20251106.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1163165/000116316525000056/0001163165-25-000056-index.htm"
+  },
+  {
+   "form": "10-Q",
+   "date": "2025-08-07",
+   "report_date": "2025-06-30",
+   "items": "",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1163165/000116316525000042/cop-20250630.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1163165/000116316525000042/0001163165-25-000042-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2025-08-07",
+   "report_date": "2025-08-07",
+   "items": "2.02,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1163165/000116316525000040/cop-20250807.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1163165/000116316525000040/0001163165-25-000040-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2025-07-01",
+   "report_date": "2025-07-01",
+   "items": "5.02,7.01,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1163165/000110465925064439/tm2519450d1_8k.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1163165/000110465925064439/0001104659-25-064439-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2025-05-15",
+   "report_date": "2025-05-13",
+   "items": "5.07",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1163165/000110465925049593/tm2515299d1_8k.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1163165/000110465925049593/0001104659-25-049593-index.htm"
+  },
+  {
+   "form": "10-Q",
+   "date": "2025-05-08",
+   "report_date": "2025-03-31",
+   "items": "",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1163165/000116316525000025/cop-20250331.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1163165/000116316525000025/0001163165-25-000025-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2025-05-08",
+   "report_date": "2025-05-02",
+   "items": "2.02,5.02,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1163165/000116316525000023/cop-20250502.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1163165/000116316525000023/0001163165-25-000023-index.htm"
+  },
+  {
+   "form": "10-K",
+   "date": "2025-02-18",
+   "report_date": "2024-12-31",
+   "items": "",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1163165/000116316525000012/cop-20241231.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1163165/000116316525000012/0001163165-25-000012-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2025-02-06",
+   "report_date": "2025-02-06",
+   "items": "2.02,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1163165/000116316525000006/cop-20250206.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1163165/000116316525000006/0001163165-25-000006-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2025-01-28",
+   "report_date": "2025-01-27",
+   "items": "5.02",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1163165/000110465925006571/tm254540d1_8k.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1163165/000110465925006571/0001104659-25-006571-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2024-12-30",
+   "report_date": "2024-12-30",
+   "items": "8.01,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1163165/000110465924132514/tm2432174d1_8k.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1163165/000110465924132514/0001104659-24-132514-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2024-12-10",
+   "report_date": "2024-12-10",
+   "items": "8.01,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1163165/000110465924127232/tm2430610d1_8k.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1163165/000110465924127232/0001104659-24-127232-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2024-12-05",
+   "report_date": "2024-12-05",
+   "items": "8.01,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1163165/000110465924125909/tm2430231d1_8k.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1163165/000110465924125909/0001104659-24-125909-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2024-11-25",
+   "report_date": "2024-11-25",
+   "items": "8.01,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1163165/000110465924122398/tm2429192d2_8k.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1163165/000110465924122398/0001104659-24-122398-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2024-11-22",
+   "report_date": "2024-11-20",
+   "items": "2.01,7.01,8.01,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1163165/000110465924122112/tm2428935d2_8k.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1163165/000110465924122112/0001104659-24-122112-index.htm"
+  },
+  {
+   "form": "10-Q",
+   "date": "2024-10-31",
+   "report_date": "2024-09-30",
+   "items": "",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1163165/000116316524000052/cop-20240930.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1163165/000116316524000052/0001163165-24-000052-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2024-10-31",
+   "report_date": "2024-10-31",
+   "items": "2.02,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1163165/000116316524000049/cop-20241031.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1163165/000116316524000049/0001163165-24-000049-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2024-09-03",
+   "report_date": "2024-09-03",
+   "items": "5.02,7.01,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1163165/000110465924096032/tm2423050d1_8k.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1163165/000110465924096032/0001104659-24-096032-index.htm"
+  },
+  {
+   "form": "10-Q",
+   "date": "2024-08-01",
+   "report_date": "2024-06-30",
+   "items": "",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1163165/000116316524000037/cop-20240630.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1163165/000116316524000037/0001163165-24-000037-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2024-08-01",
+   "report_date": "2024-08-01",
+   "items": "2.02,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1163165/000116316524000034/cop-20240801.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1163165/000116316524000034/0001163165-24-000034-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2024-07-12",
+   "report_date": "2024-07-11",
+   "items": "8.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1163165/000110465924079373/tm2415645d9_8k.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1163165/000110465924079373/0001104659-24-079373-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2024-07-02",
+   "report_date": "2024-06-26",
+   "items": "5.02",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1163165/000110465924077344/tm2418682d1_8k.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1163165/000110465924077344/0001104659-24-077344-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2024-05-29",
+   "report_date": "2024-05-28",
+   "items": "1.01,7.01,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1163165/000110465924065814/tm2415645d1_8k.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1163165/000110465924065814/0001104659-24-065814-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2024-05-16",
+   "report_date": "2024-05-14",
+   "items": "5.07",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1163165/000110465924062520/tm2414733d1_8k.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1163165/000110465924062520/0001104659-24-062520-index.htm"
+  },
+  {
+   "form": "10-Q",
+   "date": "2024-05-02",
+   "report_date": "2024-03-31",
+   "items": "",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1163165/000116316524000023/cop-20240331.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1163165/000116316524000023/0001163165-24-000023-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2024-05-02",
+   "report_date": "2024-05-02",
+   "items": "2.02,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1163165/000116316524000018/cop-20240502.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1163165/000116316524000018/0001163165-24-000018-index.htm"
+  },
+  {
+   "form": "10-K",
+   "date": "2024-02-15",
+   "report_date": "2023-12-31",
+   "items": "",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1163165/000116316524000010/cop-20231231.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1163165/000116316524000010/0001163165-24-000010-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2024-02-15",
+   "report_date": "2024-02-09",
+   "items": "5.02,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1163165/000110465924024352/tm246130d1_8k.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1163165/000110465924024352/0001104659-24-024352-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2024-02-08",
+   "report_date": "2024-02-08",
+   "items": "2.02,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1163165/000116316524000004/cop-20240208.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1163165/000116316524000004/0001163165-24-000004-index.htm"
+  },
+  {
+   "form": "10-Q",
+   "date": "2023-11-02",
+   "report_date": "2023-09-30",
+   "items": "",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1163165/000116316523000031/cop-20230930.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1163165/000116316523000031/0001163165-23-000031-index.htm"
+  }
+ ],
+ "quarters": [
+  {
+   "end": "2020-09-30",
+   "revenue": 4380000000,
+   "net_income": -450000000,
+   "op_cash_flow": 868000000,
+   "capex": 1132000000,
+   "diluted_shares": 1077377000,
+   "cash": 2490000000,
+   "debt": 18827000000
+  },
+  {
+   "end": "2020-12-31",
+   "revenue": 5577000000,
+   "net_income": -772000000,
+   "op_cash_flow": 1672000000,
+   "capex": 1058000000,
+   "cash": 2991000000,
+   "securities": 3609000000,
+   "debt": 19106000000
+  },
+  {
+   "end": "2021-03-31",
+   "revenue": 9826000000,
+   "net_income": 982000000,
+   "op_cash_flow": 2080000000,
+   "capex": 1200000000,
+   "diluted_shares": 1302691000,
+   "cash": 2831000000,
+   "debt": 22578000000
+  },
+  {
+   "end": "2021-06-30",
+   "revenue": 9556000000,
+   "net_income": 2091000000,
+   "op_cash_flow": 4251000000,
+   "capex": 1265000000,
+   "diluted_shares": 1353201000,
+   "cash": 6608000000,
+   "debt": 23376000000
+  },
+  {
+   "end": "2021-09-30",
+   "revenue": 11326000000,
+   "net_income": 2379000000,
+   "op_cash_flow": 4797000000,
+   "capex": 1302000000,
+   "diluted_shares": 1336379000,
+   "cash": 9833000000,
+   "debt": 22797000000
+  },
+  {
+   "end": "2021-12-31",
+   "revenue": 15120000000,
+   "net_income": 2627000000,
+   "op_cash_flow": 5868000000,
+   "capex": 1557000000,
+   "cash": 5028000000
+  },
+  {
+   "end": "2022-03-31",
+   "revenue": 17762000000,
+   "net_income": 5759000000,
+   "op_cash_flow": 5068000000,
+   "diluted_shares": 1307404000,
+   "cash": 6414000000
+  },
+  {
+   "end": "2022-06-30",
+   "revenue": 21161000000,
+   "net_income": 5145000000,
+   "op_cash_flow": 7914000000,
+   "diluted_shares": 1295844000,
+   "cash": 6909000000
+  },
+  {
+   "end": "2022-09-30",
+   "revenue": 21013000000,
+   "net_income": 4527000000,
+   "op_cash_flow": 8740000000,
+   "diluted_shares": 1269321000,
+   "cash": 8010000000
+  },
+  {
+   "end": "2022-12-31",
+   "revenue": 18558000000,
+   "net_income": 3249000000,
+   "op_cash_flow": 6592000000,
+   "cash": 6458000000,
+   "securities": 2785000000
+  },
+  {
+   "end": "2023-03-31",
+   "revenue": 14811000000,
+   "net_income": 2920000000,
+   "op_cash_flow": 5403000000,
+   "diluted_shares": 1223355000,
+   "cash": 6974000000
+  },
+  {
+   "end": "2023-06-30",
+   "revenue": 12351000000,
+   "net_income": 2232000000,
+   "op_cash_flow": 3854000000,
+   "diluted_shares": 1210342000,
+   "cash": 5735000000
+  },
+  {
+   "end": "2023-09-30",
+   "revenue": 14250000000,
+   "net_income": 2798000000,
+   "op_cash_flow": 5445000000,
+   "diluted_shares": 1199746000,
+   "cash": 8830000000,
+   "securities": 616000000
+  },
+  {
+   "end": "2023-12-31",
+   "revenue": 14729000000,
+   "net_income": 3007000000,
+   "op_cash_flow": 5263000000,
+   "cash": 5635000000,
+   "securities": 971000000
+  },
+  {
+   "end": "2024-03-31",
+   "revenue": 13848000000,
+   "net_income": 2551000000,
+   "op_cash_flow": 4985000000,
+   "diluted_shares": 1180320000,
+   "cash": 5574000000,
+   "securities": 487000000
+  },
+  {
+   "end": "2024-06-30",
+   "revenue": 13620000000,
+   "net_income": 2329000000,
+   "op_cash_flow": 4919000000,
+   "diluted_shares": 1170299000,
+   "cash": 4294000000,
+   "securities": 1723000000
+  },
+  {
+   "end": "2024-09-30",
+   "revenue": 13041000000,
+   "net_income": 2059000000,
+   "op_cash_flow": 5763000000,
+   "diluted_shares": 1163227000,
+   "cash": 5221000000,
+   "securities": 1571000000
+  },
+  {
+   "end": "2024-12-31",
+   "revenue": 14236000000,
+   "net_income": 2306000000,
+   "op_cash_flow": 4457000000,
+   "cash": 5607000000,
+   "securities": 507000000
+  },
+  {
+   "end": "2025-03-31",
+   "revenue": 16517000000,
+   "net_income": 2849000000,
+   "op_cash_flow": 6115000000,
+   "diluted_shares": 1274879000,
+   "cash": 6309000000,
+   "securities": 926000000
+  },
+  {
+   "end": "2025-06-30",
+   "revenue": 14004000000,
+   "net_income": 1971000000,
+   "op_cash_flow": 3485000000,
+   "diluted_shares": 1258998000,
+   "cash": 4901000000,
+   "securities": 439000000
+  },
+  {
+   "end": "2025-09-30",
+   "revenue": 15031000000,
+   "net_income": 1726000000,
+   "op_cash_flow": 5878000000,
+   "diluted_shares": 1246854000,
+   "cash": 5260000000,
+   "securities": 996000000
+  },
+  {
+   "end": "2025-12-31",
+   "revenue": 13392000000,
+   "net_income": 1442000000,
+   "op_cash_flow": 4318000000,
+   "cash": 6497000000,
+   "securities": 484000000
+  },
+  {
+   "end": "2026-03-31",
+   "revenue": 15761000000,
+   "net_income": 2183000000,
+   "op_cash_flow": 4295000000,
+   "diluted_shares": 1224960000,
+   "cash": 5877000000,
+   "securities": 486000000
+  },
+  {
+   "end": "2026-06-30",
+   "revenue": 19161000000,
+   "net_income": 3931000000,
+   "op_cash_flow": 7434000000,
+   "diluted_shares": 1214255000,
+   "cash": 6574000000,
+   "securities": 1118000000
+  }
+ ],
+ "annual": [
+  {
+   "end": "2016-12-31",
+   "revenue": 24360000000,
+   "net_income": -3615000000,
+   "op_cash_flow": 4403000000,
+   "capex": 4869000000,
+   "diluted_shares": 1245440,
+   "cash": 3610000000,
+   "securities": 50000000
+  },
+  {
+   "end": "2017-12-31",
+   "revenue": 32584000000,
+   "net_income": -855000000,
+   "op_cash_flow": 7077000000,
+   "capex": 4591000000,
+   "diluted_shares": 1221038,
+   "cash": 6325000000,
+   "securities": 1873000000,
+   "debt": 22435000000
+  },
+  {
+   "end": "2018-12-31",
+   "revenue": 38727000000,
+   "net_income": 6257000000,
+   "op_cash_flow": 12934000000,
+   "capex": 6750000000,
+   "diluted_shares": 1175538,
+   "cash": 5915000000,
+   "securities": 248000000,
+   "debt": 16147000000
+  },
+  {
+   "end": "2019-12-31",
+   "revenue": 36670000000,
+   "net_income": 7189000000,
+   "op_cash_flow": 11104000000,
+   "capex": 6636000000,
+   "diluted_shares": 1123536,
+   "cash": 5088000000,
+   "securities": 3028000000,
+   "debt": 18108000000
+  },
+  {
+   "end": "2020-12-31",
+   "revenue": 18784000000,
+   "net_income": -2701000000,
+   "op_cash_flow": 4802000000,
+   "capex": 4715000000,
+   "diluted_shares": 1078030000,
+   "cash": 2991000000,
+   "securities": 3609000000,
+   "debt": 19106000000
+  },
+  {
+   "end": "2021-12-31",
+   "revenue": 45828000000,
+   "net_income": 8079000000,
+   "op_cash_flow": 16996000000,
+   "capex": 5324000000,
+   "diluted_shares": 1328151000,
+   "cash": 5028000000
+  },
+  {
+   "end": "2022-12-31",
+   "revenue": 78494000000,
+   "net_income": 18680000000,
+   "op_cash_flow": 28314000000,
+   "capex": 10159000000,
+   "diluted_shares": 1278163000,
+   "cash": 6458000000,
+   "securities": 2785000000
+  },
+  {
+   "end": "2023-12-31",
+   "revenue": 56141000000,
+   "net_income": 10957000000,
+   "op_cash_flow": 19965000000,
+   "diluted_shares": 1205675000,
+   "cash": 5635000000,
+   "securities": 971000000
+  },
+  {
+   "end": "2024-12-31",
+   "revenue": 54745000000,
+   "net_income": 9245000000,
+   "op_cash_flow": 20124000000,
+   "diluted_shares": 1180871000,
+   "cash": 5607000000,
+   "securities": 507000000
+  },
+  {
+   "end": "2025-12-31",
+   "revenue": 58944000000,
+   "net_income": 7988000000,
+   "op_cash_flow": 19796000000,
+   "diluted_shares": 1253446000,
+   "cash": 6497000000,
+   "securities": 484000000
+  }
+ ],
+ "shares_outstanding": {
+  "shares": 1201337479,
+  "as_of": "2026-06-30",
+  "filed": "2026-08-06"
+ },
+ "quote": {
+  "price": 141.73,
+  "date": "2026-10-15",
+  "source": "Yahoo Finance"
+ },
+ "insiders": [
+  {
+   "acc": "0001193125-26-362752",
+   "date": "2026-08-21",
+   "name": "LUNDQUIST ANDREW D",
+   "role": "Senior Vice President",
+   "code": "S",
+   "shares": 9487.0,
+   "price": 135.15,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1163165/000119312526362752/"
+  },
+  {
+   "acc": "0001193125-26-361073",
+   "date": "2026-08-20",
+   "name": "Rose Kelly Brunetti",
+   "role": "SVP & General Counsel",
+   "code": "S",
+   "shares": 15000.0,
+   "price": 134.515,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1163165/000119312526361073/"
+  },
+  {
+   "acc": "0001193125-26-265785",
+   "date": "2026-06-10",
+   "name": "Mulligan Sharmila",
+   "role": "Director",
+   "code": "S",
+   "shares": 1974.0,
+   "price": 119.0,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1163165/000119312526265785/"
+  },
+  {
+   "acc": "0001193125-26-255388",
+   "date": "2026-06-01",
+   "name": "LUNDQUIST ANDREW D",
+   "role": "Senior Vice President",
+   "code": "M",
+   "shares": 2936.0,
+   "price": null,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1163165/000119312526255388/"
+  },
+  {
+   "acc": "0001193125-26-255388",
+   "date": "2026-06-01",
+   "name": "LUNDQUIST ANDREW D",
+   "role": "Senior Vice President",
+   "code": "F",
+   "shares": 1325.0,
+   "price": 116.46,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1163165/000119312526255388/"
+  },
+  {
+   "acc": "0001193125-26-161476",
+   "date": "2026-04-15",
+   "name": "LEACH TIMOTHY A",
+   "role": "Director",
+   "code": "M",
+   "shares": 2230.0,
+   "price": null,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1163165/000119312526161476/"
+  },
+  {
+   "acc": "0001193125-26-161472",
+   "date": "2026-04-15",
+   "name": "McRaven William H.",
+   "role": "Director",
+   "code": "M",
+   "shares": 2230.0,
+   "price": null,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1163165/000119312526161472/"
+  },
+  {
+   "acc": "0001193125-26-134713",
+   "date": "2026-03-31",
+   "name": "Lance Ryan Michael",
+   "role": "Chairman and CEO",
+   "code": "S",
+   "shares": 113221.0,
+   "price": 132.7085,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1163165/000119312526134713/"
+  },
+  {
+   "acc": "0001193125-26-134453",
+   "date": "2026-03-31",
+   "name": "Olds Nicholas G",
+   "role": "Executive Vice President",
+   "code": "G",
+   "shares": 1903.0,
+   "price": 0.0,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1163165/000119312526134453/"
+  },
+  {
+   "acc": "0001193125-26-124053",
+   "date": "2026-03-24",
+   "name": "Rose Kelly Brunetti",
+   "role": "SVP & General Counsel",
+   "code": "S",
+   "shares": 7700.0,
+   "price": 130.0275,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1163165/000119312526124053/"
+  },
+  {
+   "acc": "0001193125-26-120089",
+   "date": "2026-03-23",
+   "name": "Olds Nicholas G",
+   "role": "Executive Vice President",
+   "code": "S",
+   "shares": 6994.0,
+   "price": 127.059,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1163165/000119312526120089/"
+  },
+  {
+   "acc": "0001193125-26-119690",
+   "date": "2026-03-20",
+   "name": "Lance Ryan Michael",
+   "role": "Chairman and CEO",
+   "code": "M",
+   "shares": 506800.0,
+   "price": 49.755,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1163165/000119312526119690/"
+  },
+  {
+   "acc": "0001193125-26-119690",
+   "date": "2026-03-20",
+   "name": "Lance Ryan Michael",
+   "role": "Chairman and CEO",
+   "code": "S",
+   "shares": 506800.0,
+   "price": 127.2565,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1163165/000119312526119690/"
+  },
+  {
+   "acc": "0001193125-26-108304",
+   "date": "2026-03-13",
+   "name": "Hrap Heather G.",
+   "role": "Senior Vice President",
+   "code": "S",
+   "shares": 2654.0,
+   "price": 119.68,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1163165/000119312526108304/"
+  },
+  {
+   "acc": "0001193125-26-108299",
+   "date": "2026-03-13",
+   "name": "LUNDQUIST ANDREW D",
+   "role": "Senior Vice President",
+   "code": "M",
+   "shares": 34500.0,
+   "price": 49.755,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1163165/000119312526108299/"
+  },
+  {
+   "acc": "0001193125-26-108299",
+   "date": "2026-03-13",
+   "name": "LUNDQUIST ANDREW D",
+   "role": "Senior Vice President",
+   "code": "S",
+   "shares": 34500.0,
+   "price": 119.68,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1163165/000119312526108299/"
+  },
+  {
+   "acc": "0001193125-26-108294",
+   "date": "2026-03-12",
+   "name": "Olds Nicholas G",
+   "role": "Executive Vice President",
+   "code": "S",
+   "shares": 14522.0,
+   "price": 119.3621,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1163165/000119312526108294/"
+  },
+  {
+   "acc": "0001193125-26-106204",
+   "date": "2026-03-12",
+   "name": "HAYNES WELSH KONTESSA S",
+   "role": "VP & Controller",
+   "code": "S",
+   "shares": 10339.0,
+   "price": 120.0702,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1163165/000119312526106204/"
+  },
+  {
+   "acc": "0001193125-26-104133",
+   "date": "2026-03-11",
+   "name": "Olds Nicholas G",
+   "role": "Executive Vice President",
+   "code": "M",
+   "shares": 12150.0,
+   "price": 49.755,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1163165/000119312526104133/"
+  },
+  {
+   "acc": "0001193125-26-104133",
+   "date": "2026-03-11",
+   "name": "Olds Nicholas G",
+   "role": "Executive Vice President",
+   "code": "S",
+   "shares": 12150.0,
+   "price": 116.365,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1163165/000119312526104133/"
+  },
+  {
+   "acc": "0001193125-26-100112",
+   "date": "2026-03-09",
+   "name": "Rose Kelly Brunetti",
+   "role": "SVP & General Counsel",
+   "code": "S",
+   "shares": 8500.0,
+   "price": 118.0406,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1163165/000119312526100112/"
+  },
+  {
+   "acc": "0001193125-26-098606",
+   "date": "2026-03-06",
+   "name": "LEACH TIMOTHY A",
+   "role": "Director",
+   "code": "S",
+   "shares": 40000.0,
+   "price": 118.7921,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1163165/000119312526098606/"
+  },
+  {
+   "acc": "0001193125-26-094265",
+   "date": "2026-03-04",
+   "name": "LEACH TIMOTHY A",
+   "role": "Director",
+   "code": "M",
+   "shares": 7390.0,
+   "price": null,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1163165/000119312526094265/"
+  },
+  {
+   "acc": "0001193125-26-094265",
+   "date": "2026-03-04",
+   "name": "LEACH TIMOTHY A",
+   "role": "Director",
+   "code": "M",
+   "shares": 8474.0,
+   "price": null,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1163165/000119312526094265/"
+  },
+  {
+   "acc": "0001193125-26-094265",
+   "date": "2026-03-04",
+   "name": "LEACH TIMOTHY A",
+   "role": "Director",
+   "code": "F",
+   "shares": 5871.0,
+   "price": 115.935,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1163165/000119312526094265/"
+  },
+  {
+   "acc": "0001193125-26-057631",
+   "date": "2026-02-14",
+   "name": "HAYNES WELSH KONTESSA S",
+   "role": "VP & Controller",
+   "code": "M",
+   "shares": 2000.0,
+   "price": null,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1163165/000119312526057631/"
+  },
+  {
+   "acc": "0001193125-26-057631",
+   "date": "2026-02-14",
+   "name": "HAYNES WELSH KONTESSA S",
+   "role": "VP & Controller",
+   "code": "F",
+   "shares": 487.0,
+   "price": 111.23,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1163165/000119312526057631/"
+  },
+  {
+   "acc": "0001193125-26-057629",
+   "date": "2026-02-14",
+   "name": "O'BRIEN ANDREW M.",
+   "role": "Executive Vice President & CFO",
+   "code": "M",
+   "shares": 4009.0,
+   "price": null,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1163165/000119312526057629/"
+  },
+  {
+   "acc": "0001193125-26-057629",
+   "date": "2026-02-14",
+   "name": "O'BRIEN ANDREW M.",
+   "role": "Executive Vice President & CFO",
+   "code": "F",
+   "shares": 1578.0,
+   "price": 111.23,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1163165/000119312526057629/"
+  },
+  {
+   "acc": "0001193125-26-057628",
+   "date": "2026-02-14",
+   "name": "JOHNSON KIRK L.",
+   "role": "Executive Vice President",
+   "code": "M",
+   "shares": 4103.0,
+   "price": null,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1163165/000119312526057628/"
+  },
+  {
+   "acc": "0001193125-26-057628",
+   "date": "2026-02-14",
+   "name": "JOHNSON KIRK L.",
+   "role": "Executive Vice President",
+   "code": "F",
+   "shares": 1615.0,
+   "price": 111.23,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1163165/000119312526057628/"
+  },
+  {
+   "acc": "0001193125-26-057624",
+   "date": "2026-02-14",
+   "name": "Rose Kelly Brunetti",
+   "role": "SVP & General Counsel",
+   "code": "M",
+   "shares": 10050.0,
+   "price": null,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1163165/000119312526057624/"
+  },
+  {
+   "acc": "0001193125-26-057624",
+   "date": "2026-02-14",
+   "name": "Rose Kelly Brunetti",
+   "role": "SVP & General Counsel",
+   "code": "F",
+   "shares": 3719.0,
+   "price": 111.23,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1163165/000119312526057624/"
+  },
+  {
+   "acc": "0001193125-26-057623",
+   "date": "2026-02-14",
+   "name": "LEACH TIMOTHY A",
+   "role": "Director",
+   "code": "M",
+   "shares": 7251.0,
+   "price": null,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1163165/000119312526057623/"
+  },
+  {
+   "acc": "0001193125-26-057623",
+   "date": "2026-02-14",
+   "name": "LEACH TIMOTHY A",
+   "role": "Director",
+   "code": "F",
+   "shares": 2683.0,
+   "price": 111.23,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1163165/000119312526057623/"
+  },
+  {
+   "acc": "0001193125-26-057620",
+   "date": "2026-02-14",
+   "name": "LUNDQUIST ANDREW D",
+   "role": "Senior Vice President",
+   "code": "M",
+   "shares": 3693.0,
+   "price": null,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1163165/000119312526057620/"
+  },
+  {
+   "acc": "0001193125-26-057620",
+   "date": "2026-02-14",
+   "name": "LUNDQUIST ANDREW D",
+   "role": "Senior Vice President",
+   "code": "F",
+   "shares": 1438.0,
+   "price": 111.23,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1163165/000119312526057620/"
+  },
+  {
+   "acc": "0001193125-26-057617",
+   "date": "2026-02-14",
+   "name": "Hrap Heather G.",
+   "role": "Senior Vice President",
+   "code": "M",
+   "shares": 4260.0,
+   "price": null,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1163165/000119312526057617/"
+  },
+  {
+   "acc": "0001193125-26-057617",
+   "date": "2026-02-14",
+   "name": "Hrap Heather G.",
+   "role": "Senior Vice President",
+   "code": "F",
+   "shares": 1481.0,
+   "price": 111.23,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1163165/000119312526057617/"
+  },
+  {
+   "acc": "0001193125-26-057613",
+   "date": "2026-02-14",
+   "name": "Olds Nicholas G",
+   "role": "Executive Vice President",
+   "code": "M",
+   "shares": 8564.0,
+   "price": null,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1163165/000119312526057613/"
+  },
+  {
+   "acc": "0001193125-26-057613",
+   "date": "2026-02-14",
+   "name": "Olds Nicholas G",
+   "role": "Executive Vice President",
+   "code": "F",
+   "shares": 3169.0,
+   "price": 111.23,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1163165/000119312526057613/"
+  },
+  {
+   "acc": "0001193125-26-057609",
+   "date": "2026-02-14",
+   "name": "Lance Ryan Michael",
+   "role": "Chairman and CEO",
+   "code": "M",
+   "shares": 48990.0,
+   "price": null,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1163165/000119312526057609/"
+  },
+  {
+   "acc": "0001193125-26-057609",
+   "date": "2026-02-14",
+   "name": "Lance Ryan Michael",
+   "role": "Chairman and CEO",
+   "code": "F",
+   "shares": 18127.0,
+   "price": 111.23,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1163165/000119312526057609/"
+  }
+ ]
+}

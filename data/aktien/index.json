@@ -1,506 +1,606 @@
 {
  "stand": "2026-10-16",
- "quelle": "companiesmarketcap.com",
+ "quelle": "SEC EDGAR; Firmenliste: companiesmarketcap.com",
  "companies": [
   {
    "rank": 1,
    "t": "NVDA",
-   "n": "NVIDIA"
+   "n": "Nvidia Corp",
+   "tv": "NASDAQ:NVDA"
   },
   {
    "rank": 2,
    "t": "AAPL",
-   "n": "Apple"
+   "n": "Apple Inc.",
+   "tv": "NASDAQ:AAPL"
   },
   {
    "rank": 3,
    "t": "GOOG",
-   "n": "Alphabet (Google)"
+   "n": "Alphabet Inc.",
+   "tv": "NASDAQ:GOOG"
   },
   {
    "rank": 4,
    "t": "MSFT",
-   "n": "Microsoft"
+   "n": "Microsoft Corp",
+   "tv": "NASDAQ:MSFT"
   },
   {
    "rank": 5,
    "t": "AMZN",
-   "n": "Amazon"
+   "n": "Amazon Com Inc",
+   "tv": "NASDAQ:AMZN"
   },
   {
    "rank": 6,
    "t": "SPCX",
-   "n": "SpaceX"
+   "n": "Space Exploration Technologies Corp",
+   "tv": "NASDAQ:SPCX"
   },
   {
    "rank": 7,
    "t": "META",
-   "n": "Meta Platforms (Facebook)"
+   "n": "Meta Platforms, Inc.",
+   "tv": "NASDAQ:META"
   },
   {
    "rank": 8,
    "t": "AVGO",
-   "n": "Broadcom"
+   "n": "Broadcom Inc.",
+   "tv": "NASDAQ:AVGO"
   },
   {
    "rank": 9,
    "t": "TSLA",
-   "n": "Tesla"
+   "n": "Tesla, Inc.",
+   "tv": "NASDAQ:TSLA"
   },
   {
    "rank": 10,
    "t": "BRK-B",
-   "n": "Berkshire Hathaway"
+   "n": "Berkshire Hathaway Inc",
+   "tv": "NYSE:BRK.B"
   },
   {
    "rank": 11,
    "t": "LLY",
-   "n": "Eli Lilly"
+   "n": "ELI LILLY & Co",
+   "tv": "NYSE:LLY"
   },
   {
    "rank": 12,
    "t": "MU",
-   "n": "Micron Technology"
+   "n": "Micron Technology Inc",
+   "tv": "NASDAQ:MU"
   },
   {
    "rank": 13,
    "t": "AMD",
-   "n": "AMD"
+   "n": "Advanced Micro Devices Inc",
+   "tv": "NASDAQ:AMD"
   },
   {
    "rank": 14,
    "t": "WMT",
-   "n": "Walmart"
+   "n": "Walmart Inc.",
+   "tv": "NASDAQ:WMT"
   },
   {
    "rank": 15,
    "t": "JPM",
-   "n": "JPMorgan Chase"
+   "n": "Jpmorgan Chase & Co",
+   "tv": "NYSE:JPM"
   },
   {
    "rank": 16,
    "t": "V",
-   "n": "Visa"
+   "n": "Visa Inc.",
+   "tv": "NYSE:V"
   },
   {
    "rank": 17,
    "t": "XOM",
-   "n": "Exxon Mobil"
+   "n": "ExxonMobil Holdings Corp",
+   "tv": "NYSE:XOM"
   },
   {
    "rank": 18,
    "t": "JNJ",
-   "n": "Johnson & Johnson"
+   "n": "Johnson & Johnson",
+   "tv": "NYSE:JNJ"
   },
   {
    "rank": 19,
    "t": "MA",
-   "n": "Mastercard"
+   "n": "Mastercard Inc",
+   "tv": "NYSE:MA"
   },
   {
    "rank": 20,
    "t": "INTC",
-   "n": "Intel"
+   "n": "Intel Corp",
+   "tv": "NASDAQ:INTC"
   },
   {
    "rank": 21,
    "t": "ABBV",
-   "n": "AbbVie"
+   "n": "AbbVie Inc.",
+   "tv": "NYSE:ABBV"
   },
   {
    "rank": 22,
    "t": "PLTR",
-   "n": "Palantir"
+   "n": "Palantir Technologies Inc.",
+   "tv": "NASDAQ:PLTR"
   },
   {
    "rank": 23,
    "t": "CSCO",
-   "n": "Cisco"
+   "n": "Cisco Systems, Inc.",
+   "tv": "NASDAQ:CSCO"
   },
   {
    "rank": 24,
    "t": "CVX",
-   "n": "Chevron"
+   "n": "Chevron Corp",
+   "tv": "NYSE:CVX"
   },
   {
    "rank": 25,
    "t": "COST",
-   "n": "Costco"
+   "n": "Costco Wholesale Corp /New",
+   "tv": "NASDAQ:COST"
   },
   {
    "rank": 26,
    "t": "ORCL",
-   "n": "Oracle"
+   "n": "Oracle Corp",
+   "tv": "NYSE:ORCL"
   },
   {
    "rank": 27,
    "t": "KO",
-   "n": "Coca-Cola"
+   "n": "Coca Cola Co",
+   "tv": "NYSE:KO"
   },
   {
    "rank": 28,
    "t": "PG",
-   "n": "Procter & Gamble"
+   "n": "PROCTER & GAMBLE Co",
+   "tv": "NYSE:PG"
   },
   {
    "rank": 29,
    "t": "MRK",
-   "n": "Merck"
+   "n": "Merck & Co., Inc.",
+   "tv": "NYSE:MRK"
   },
   {
    "rank": 30,
    "t": "BAC",
-   "n": "Bank of America"
+   "n": "Bank Of America Corp /De/",
+   "tv": "NYSE:BAC"
   },
   {
    "rank": 31,
    "t": "LRCX",
-   "n": "Lam Research"
+   "n": "Lam Research Corp",
+   "tv": "NASDAQ:LRCX"
   },
   {
    "rank": 32,
    "t": "UNH",
-   "n": "UnitedHealth"
+   "n": "Unitedhealth Group Inc",
+   "tv": "NYSE:UNH"
   },
   {
    "rank": 33,
    "t": "AMAT",
-   "n": "Applied Materials"
+   "n": "Applied Materials Inc /De",
+   "tv": "NASDAQ:AMAT"
   },
   {
    "rank": 34,
    "t": "CAT",
-   "n": "Caterpillar"
+   "n": "Caterpillar Inc",
+   "tv": "NYSE:CAT"
   },
   {
    "rank": 35,
    "t": "DELL",
-   "n": "Dell"
+   "n": "Dell Technologies Inc.",
+   "tv": "NYSE:DELL"
   },
   {
    "rank": 36,
    "t": "PM",
-   "n": "Philip Morris International"
+   "n": "Philip Morris International Inc.",
+   "tv": "NYSE:PM"
   },
   {
    "rank": 37,
    "t": "GE",
-   "n": "General Electric"
+   "n": "General Electric Co",
+   "tv": "NYSE:GE"
   },
   {
    "rank": 38,
    "t": "PANW",
-   "n": "Palo Alto Networks"
+   "n": "Palo Alto Networks Inc",
+   "tv": "NASDAQ:PANW"
   },
   {
    "rank": 39,
    "t": "HD",
-   "n": "Home Depot"
+   "n": "Home Depot, Inc.",
+   "tv": "NYSE:HD"
   },
   {
    "rank": 40,
    "t": "NFLX",
-   "n": "Netflix"
+   "n": "Netflix Inc",
+   "tv": "NASDAQ:NFLX"
   },
   {
    "rank": 41,
    "t": "MS",
-   "n": "Morgan Stanley"
+   "n": "Morgan Stanley",
+   "tv": "NYSE:MS"
   },
   {
    "rank": 42,
    "t": "TXN",
-   "n": "Texas Instruments"
+   "n": "Texas Instruments Inc",
+   "tv": "NASDAQ:TXN"
   },
   {
    "rank": 43,
    "t": "GS",
-   "n": "Goldman Sachs"
+   "n": "Goldman Sachs Group Inc",
+   "tv": "NYSE:GS"
   },
   {
    "rank": 44,
    "t": "CRWD",
-   "n": "CrowdStrike"
+   "n": "CrowdStrike Holdings, Inc.",
+   "tv": "NASDAQ:CRWD"
   },
   {
    "rank": 45,
    "t": "RTX",
-   "n": "RTX"
+   "n": "RTX Corp",
+   "tv": "NYSE:RTX"
   },
   {
    "rank": 46,
    "t": "GEV",
-   "n": "GE Vernova"
+   "n": "GE Vernova Inc.",
+   "tv": "NYSE:GEV"
   },
   {
    "rank": 47,
    "t": "TMO",
-   "n": "Thermo Fisher Scientific"
+   "n": "Thermo Fisher Scientific Inc.",
+   "tv": "NYSE:TMO"
   },
   {
    "rank": 48,
    "t": "ANET",
-   "n": "Arista Networks"
+   "n": "Arista Networks, Inc.",
+   "tv": "NYSE:ANET"
   },
   {
    "rank": 49,
    "t": "WFC",
-   "n": "Wells Fargo"
+   "n": "Wells Fargo & Company/Mn",
+   "tv": "NYSE:WFC"
   },
   {
    "rank": 50,
    "t": "KLAC",
-   "n": "KLA"
+   "n": "Kla Corp",
+   "tv": "NASDAQ:KLAC"
   },
   {
    "rank": 51,
    "t": "AMGN",
-   "n": "Amgen"
+   "n": "Amgen Inc",
+   "tv": "NASDAQ:AMGN"
   },
   {
    "rank": 52,
    "t": "MRVL",
-   "n": "Marvell Technology"
+   "n": "Marvell Technology, Inc.",
+   "tv": "NASDAQ:MRVL"
   },
   {
    "rank": 53,
    "t": "IBM",
-   "n": "IBM"
+   "n": "International Business Machines Corp",
+   "tv": "NYSE:IBM"
   },
   {
    "rank": 54,
    "t": "AXP",
-   "n": "American Express"
+   "n": "American Express Co",
+   "tv": "NYSE:AXP"
   },
   {
    "rank": 55,
    "t": "C",
-   "n": "Citigroup"
+   "n": "Citigroup Inc",
+   "tv": "NYSE:C"
   },
   {
    "rank": 56,
    "t": "APH",
-   "n": "Amphenol"
+   "n": "Amphenol Corp /De/",
+   "tv": "NYSE:APH"
   },
   {
    "rank": 57,
    "t": "SNDK",
-   "n": "Sandisk"
+   "n": "Sandisk Corp",
+   "tv": "NASDAQ:SNDK"
   },
   {
    "rank": 58,
    "t": "ADI",
-   "n": "Analog Devices"
+   "n": "Analog Devices Inc",
+   "tv": "NASDAQ:ADI"
   },
   {
    "rank": 59,
    "t": "CRM",
-   "n": "Salesforce"
+   "n": "Salesforce, Inc.",
+   "tv": "NYSE:CRM"
   },
   {
    "rank": 60,
    "t": "GILD",
-   "n": "Gilead Sciences"
+   "n": "Gilead Sciences, Inc.",
+   "tv": "NASDAQ:GILD"
   },
   {
    "rank": 61,
    "t": "DIS",
-   "n": "Walt Disney"
+   "n": "Walt Disney Co",
+   "tv": "NYSE:DIS"
   },
   {
    "rank": 62,
    "t": "VZ",
-   "n": "Verizon"
+   "n": "Verizon Communications Inc",
+   "tv": "NYSE:VZ"
   },
   {
    "rank": 63,
    "t": "QCOM",
-   "n": "QUALCOMM"
+   "n": "Qualcomm Inc/De",
+   "tv": "NASDAQ:QCOM"
   },
   {
    "rank": 64,
    "t": "ABT",
-   "n": "Abbott Laboratories"
+   "n": "Abbott Laboratories",
+   "tv": "NYSE:ABT"
   },
   {
    "rank": 65,
    "t": "PEP",
-   "n": "PepsiCo"
+   "n": "Pepsico Inc",
+   "tv": "NASDAQ:PEP"
   },
   {
    "rank": 66,
    "t": "DE",
-   "n": "Deere & Company"
+   "n": "Deere & Co",
+   "tv": "NYSE:DE"
   },
   {
    "rank": 67,
    "t": "BLK",
-   "n": "BlackRock"
+   "n": "BlackRock, Inc.",
+   "tv": "NYSE:BLK"
   },
   {
    "rank": 68,
    "t": "COP",
-   "n": "ConocoPhillips"
+   "n": "Conocophillips",
+   "tv": "NYSE:COP"
   },
   {
    "rank": 69,
    "t": "UNP",
-   "n": "Union Pacific"
+   "n": "Union Pacific Corp",
+   "tv": "NYSE:UNP"
   },
   {
    "rank": 70,
    "t": "SCCO",
-   "n": "Southern Copper"
+   "n": "Southern Copper Corp/",
+   "tv": "NYSE:SCCO"
   },
   {
    "rank": 71,
    "t": "TMUS",
-   "n": "T-Mobile US"
+   "n": "T-Mobile US, Inc.",
+   "tv": "NASDAQ:TMUS"
   },
   {
    "rank": 72,
    "t": "MCD",
-   "n": "McDonald's"
+   "n": "Mcdonalds Corp",
+   "tv": "NYSE:MCD"
   },
   {
    "rank": 73,
    "t": "SCHW",
-   "n": "Charles Schwab"
+   "n": "Schwab Charles Corp",
+   "tv": "NYSE:SCHW"
   },
   {
    "rank": 74,
    "t": "WELL",
-   "n": "Welltower"
+   "n": "Welltower Inc.",
+   "tv": "NYSE:WELL"
   },
   {
    "rank": 75,
    "t": "PFE",
-   "n": "Pfizer"
+   "n": "Pfizer Inc",
+   "tv": "NYSE:PFE"
   },
   {
    "rank": 76,
    "t": "NEE",
-   "n": "NextEra Energy"
+   "n": "Nextera Energy Inc",
+   "tv": "NYSE:NEE"
   },
   {
    "rank": 77,
    "t": "DHR",
-   "n": "Danaher"
+   "n": "Danaher Corp /De/",
+   "tv": "NYSE:DHR"
   },
   {
    "rank": 78,
    "t": "T",
-   "n": "AT&T"
+   "n": "At&T Inc.",
+   "tv": "NYSE:T"
   },
   {
    "rank": 79,
    "t": "TJX",
-   "n": "TJX Companies"
+   "n": "Tjx Companies Inc /De/",
+   "tv": "NYSE:TJX"
   },
   {
    "rank": 80,
    "t": "ISRG",
-   "n": "Intuitive Surgical"
+   "n": "Intuitive Surgical Inc",
+   "tv": "NASDAQ:ISRG"
   },
   {
    "rank": 81,
    "t": "BA",
-   "n": "Boeing"
+   "n": "Boeing Co",
+   "tv": "NYSE:BA"
   },
   {
    "rank": 82,
    "t": "NOW",
-   "n": "ServiceNow"
+   "n": "ServiceNow, Inc.",
+   "tv": "NYSE:NOW"
   },
   {
    "rank": 83,
    "t": "IBKR",
-   "n": "Interactive Brokers"
+   "n": "Interactive Brokers Group, Inc.",
+   "tv": "NASDAQ:IBKR"
   },
   {
    "rank": 84,
    "t": "MPC",
-   "n": "Marathon Petroleum"
+   "n": "Marathon Petroleum Corp",
+   "tv": "NYSE:MPC"
   },
   {
    "rank": 85,
    "t": "UBER",
-   "n": "Uber"
+   "n": "Uber Technologies, Inc",
+   "tv": "NYSE:UBER"
   },
   {
    "rank": 86,
    "t": "WDC",
-   "n": "Western Digital"
+   "n": "Western Digital Corp",
+   "tv": "NASDAQ:WDC"
   },
   {
    "rank": 87,
    "t": "FTNT",
-   "n": "Fortinet"
+   "n": "Fortinet, Inc.",
+   "tv": "NASDAQ:FTNT"
   },
   {
    "rank": 88,
    "t": "VLO",
-   "n": "Valero Energy"
+   "n": "Valero Energy Corp/Tx",
+   "tv": "NYSE:VLO"
   },
   {
    "rank": 89,
    "t": "BX",
-   "n": "Blackstone"
+   "n": "Blackstone Inc.",
+   "tv": "NYSE:BX"
   },
   {
    "rank": 90,
    "t": "PLD",
-   "n": "Prologis"
+   "n": "Prologis, Inc.",
+   "tv": "NYSE:PLD"
   },
   {
    "rank": 91,
    "t": "VRTX",
-   "n": "Vertex Pharmaceuticals"
+   "n": "Vertex Pharmaceuticals Inc / Ma",
+   "tv": "NASDAQ:VRTX"
   },
   {
    "rank": 92,
    "t": "BKNG",
-   "n": "Booking Holdings"
+   "n": "Booking Holdings Inc.",
+   "tv": "NASDAQ:BKNG"
   },
   {
    "rank": 93,
    "t": "PGR",
-   "n": "Progressive"
+   "n": "Progressive Corp/Oh/",
+   "tv": "NYSE:PGR"
   },
   {
    "rank": 94,
    "t": "MO",
-   "n": "Altria Group"
+   "n": "Altria Group, Inc.",
+   "tv": "NYSE:MO"
   },
   {
    "rank": 95,
    "t": "GLW",
-   "n": "Corning"
+   "n": "Corning Inc /Ny",
+   "tv": "NYSE:GLW"
   },
   {
    "rank": 96,
    "t": "BMY",
-   "n": "Bristol-Myers Squibb"
+   "n": "Bristol Myers Squibb Co",
+   "tv": "NYSE:BMY"
   },
   {
    "rank": 97,
    "t": "PH",
-   "n": "Parker-Hannifin"
+   "n": "Parker-Hannifin Corp",
+   "tv": "NYSE:PH"
   },
   {
    "rank": 98,
    "t": "LMT",
-   "n": "Lockheed Martin"
+   "n": "Lockheed Martin Corp",
+   "tv": "NYSE:LMT"
   },
   {
    "rank": 99,
    "t": "SPGI",
-   "n": "S&P Global"
+   "n": "S&P Global Inc.",
+   "tv": "NYSE:SPGI"
   },
   {
    "rank": 100,
    "t": "COF",
-   "n": "Capital One"
+   "n": "Capital One Financial Corp",
+   "tv": "NYSE:COF"
   }
  ]
 }

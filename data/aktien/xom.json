@@ -1,0 +1,88 @@
+{
+ "company": "ExxonMobil Holdings Corp",
+ "cik": "0002115436",
+ "ticker": "XOM",
+ "tv": "NYSE:XOM",
+ "rank": 17,
+ "source": "SEC EDGAR",
+ "fiscal_year_end": "1231",
+ "updated_at": "2026-10-16T12:12:35Z",
+ "periodic_accs": [
+  "0000034088-26-000093"
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "date": "2026-10-16",
+   "report_date": "2026-10-16",
+   "items": "7.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/2115436/000211543626000013/xom-20261016.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/2115436/000211543626000013/0002115436-26-000013-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2026-09-25",
+   "report_date": "2026-09-25",
+   "items": "8.01,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/2115436/000119312526402986/d15072d8k.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/2115436/000119312526402986/0001193125-26-402986-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2026-08-28",
+   "report_date": "2026-08-28",
+   "items": "8.01,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/2115436/000119312526373026/d82162d8k.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/2115436/000119312526373026/0001193125-26-373026-index.htm"
+  },
+  {
+   "form": "10-Q",
+   "date": "2026-08-03",
+   "report_date": "2026-06-30",
+   "items": "",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/2115436/000003408826000093/xom-20260630.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/2115436/000003408826000093/0000034088-26-000093-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2026-07-31",
+   "report_date": "2026-07-31",
+   "items": "2.02,7.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/2115436/000211543626000006/xom-20260731.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/2115436/000211543626000006/0002115436-26-000006-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2026-07-07",
+   "report_date": "2026-07-07",
+   "items": "7.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/2115436/000211543626000003/xom-20260707.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/2115436/000211543626000003/0002115436-26-000003-index.htm"
+  }
+ ],
+ "quarters": [
+  {
+   "end": "2025-06-30",
+   "revenue": 81506000000,
+   "net_income": 7082000000
+  },
+  {
+   "end": "2026-06-30",
+   "revenue": 116017000000,
+   "net_income": 14525000000,
+   "cash": 10588000000
+  }
+ ],
+ "annual": [],
+ "shares_outstanding": {
+  "shares": 4111911960,
+  "as_of": "2026-06-30",
+  "filed": "2026-08-03"
+ },
+ "quote": {
+  "price": 174.68,
+  "date": "2026-10-15",
+  "source": "Yahoo Finance"
+ },
+ "insiders": []
+}

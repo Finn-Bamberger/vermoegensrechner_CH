@@ -1,0 +1,880 @@
+{
+ "company": "Prologis, Inc.",
+ "cik": "0001045609",
+ "ticker": "PLD",
+ "tv": "NYSE:PLD",
+ "rank": 90,
+ "source": "SEC EDGAR",
+ "fiscal_year_end": "1231",
+ "updated_at": "2026-10-16T13:01:46Z",
+ "periodic_accs": [
+  "0000950170-23-015979",
+  "0000950170-23-034768",
+  "0000950170-23-055980",
+  "0000950170-24-014539",
+  "0000950170-24-048421",
+  "0000950170-24-086882",
+  "0000950170-24-117407",
+  "0000950170-25-021272",
+  "0000950170-25-060107",
+  "0000950170-25-099770",
+  "0001193125-25-253512",
+  "0001193125-26-051453",
+  "0001193125-26-197850",
+  "0001193125-26-323746",
+  "0001564590-19-012377",
+  "0001564590-19-025364",
+  "0001564590-19-037228",
+  "0001564590-20-004096",
+  "0001564590-20-020301",
+  "0001564590-20-033912",
+  "0001564590-20-048084",
+  "0001564590-21-005312",
+  "0001564590-21-020897",
+  "0001564590-21-038308",
+  "0001564590-21-052041",
+  "0001564590-22-004436",
+  "0001564590-22-015684",
+  "0001564590-22-028453",
+  "0001564590-22-035526",
+  "0001564590-23-001902"
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "date": "2026-10-15",
+   "report_date": "2026-10-15",
+   "items": "2.02,7.01,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1045609/000119312526422375/pld-20261015.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1045609/000119312526422375/0001193125-26-422375-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2026-08-06",
+   "report_date": "2026-08-05",
+   "items": "8.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1045609/000110465926092072/tm2621154d3_8k.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1045609/000110465926092072/0001104659-26-092072-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2026-08-05",
+   "report_date": "2026-08-04",
+   "items": "8.01,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1045609/000110465926090724/tm2621155d5_8k.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1045609/000110465926090724/0001104659-26-090724-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2026-08-04",
+   "report_date": "2026-08-04",
+   "items": "1.01,2.03,3.02,8.01,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1045609/000110465926089980/tm2621154d2_8k.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1045609/000110465926089980/0001104659-26-089980-index.htm"
+  },
+  {
+   "form": "10-Q",
+   "date": "2026-07-29",
+   "report_date": "2026-06-30",
+   "items": "",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1045609/000119312526323746/pld-20260630.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1045609/000119312526323746/0001193125-26-323746-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2026-07-16",
+   "report_date": "2026-07-16",
+   "items": "2.02,7.01,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1045609/000119312526305416/pld-20260716.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1045609/000119312526305416/0001193125-26-305416-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2026-07-01",
+   "report_date": "2026-06-29",
+   "items": "5.02,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1045609/000119312526291634/d145916d8k.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1045609/000119312526291634/0001193125-26-291634-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2026-06-24",
+   "report_date": "2026-06-16",
+   "items": "8.01,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1045609/000119312526280195/d138357d8k.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1045609/000119312526280195/0001193125-26-280195-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2026-06-11",
+   "report_date": "2026-06-04",
+   "items": "2.03,8.01,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1045609/000110465926072516/tm2617407d1_8k.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1045609/000110465926072516/0001104659-26-072516-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2026-04-30",
+   "report_date": "2026-04-28",
+   "items": "5.07,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1045609/000119312526197916/d112032d8k.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1045609/000119312526197916/0001193125-26-197916-index.htm"
+  },
+  {
+   "form": "10-Q",
+   "date": "2026-04-30",
+   "report_date": "2026-03-31",
+   "items": "",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1045609/000119312526197850/pld-20260331.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1045609/000119312526197850/0001193125-26-197850-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2026-04-27",
+   "report_date": "2026-04-20",
+   "items": "2.03,8.01,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1045609/000110465926049048/tm2611977d8_8k.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1045609/000110465926049048/0001104659-26-049048-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2026-04-23",
+   "report_date": "2026-04-20",
+   "items": "2.03,8.01,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1045609/000110465926047277/tm2611977d7_8k.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1045609/000110465926047277/0001104659-26-047277-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2026-04-16",
+   "report_date": "2026-04-16",
+   "items": "2.02,7.01,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1045609/000119312526157977/pld-20260416.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1045609/000119312526157977/0001193125-26-157977-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2026-03-31",
+   "report_date": "2026-03-26",
+   "items": "1.01,2.03,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1045609/000119312526132661/d141690d8k.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1045609/000119312526132661/0001193125-26-132661-index.htm"
+  },
+  {
+   "form": "10-K",
+   "date": "2026-02-13",
+   "report_date": "2025-12-31",
+   "items": "",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1045609/000119312526051453/pld-20251231.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1045609/000119312526051453/0001193125-26-051453-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2026-01-21",
+   "report_date": "2026-01-21",
+   "items": "2.02,7.01,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1045609/000119312526017256/pld-20260121.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1045609/000119312526017256/0001193125-26-017256-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2025-12-05",
+   "report_date": "2025-12-03",
+   "items": "5.02,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1045609/000119312525309628/d28351d8k.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1045609/000119312525309628/0001193125-25-309628-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2025-11-24",
+   "report_date": "2025-11-24",
+   "items": "5.02,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1045609/000119312525292260/d847395d8k.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1045609/000119312525292260/0001193125-25-292260-index.htm"
+  },
+  {
+   "form": "10-Q",
+   "date": "2025-10-28",
+   "report_date": "2025-09-30",
+   "items": "",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1045609/000119312525253512/pld-20250930.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1045609/000119312525253512/0001193125-25-253512-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2025-10-27",
+   "report_date": "2025-10-27",
+   "items": "2.03,8.01,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1045609/000110465925102272/tm2528964d4_8k.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1045609/000110465925102272/0001104659-25-102272-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2025-10-15",
+   "report_date": "2025-10-15",
+   "items": "2.02,7.01,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1045609/000119312525239551/pld-20251015.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1045609/000119312525239551/0001193125-25-239551-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2025-09-22",
+   "report_date": "2025-09-22",
+   "items": "2.03,8.01,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1045609/000110465925091816/tm2526447d1_8k.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1045609/000110465925091816/0001104659-25-091816-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2025-09-18",
+   "report_date": "2025-09-16",
+   "items": "5.02,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1045609/000119312525206920/d903365d8k.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1045609/000119312525206920/0001193125-25-206920-index.htm"
+  },
+  {
+   "form": "10-Q",
+   "date": "2025-07-30",
+   "report_date": "2025-06-30",
+   "items": "",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1045609/000095017025099770/pld-20250630.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1045609/000095017025099770/0000950170-25-099770-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2025-07-16",
+   "report_date": "2025-07-16",
+   "items": "2.02,7.01,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1045609/000095017025096077/pld-20250716.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1045609/000095017025096077/0000950170-25-096077-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2025-06-17",
+   "report_date": "2025-06-17",
+   "items": "5.02,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1045609/000119312525141808/d777551d8k.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1045609/000119312525141808/0001193125-25-141808-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2025-05-23",
+   "report_date": "2025-05-22",
+   "items": "1.01,2.03,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1045609/000119312525125882/d214675d8k.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1045609/000119312525125882/0001193125-25-125882-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2025-05-13",
+   "report_date": "2025-05-08",
+   "items": "5.07,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1045609/000119312525118803/d795261d8k.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1045609/000119312525118803/0001193125-25-118803-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2025-05-07",
+   "report_date": "2025-05-05",
+   "items": "2.03,8.01,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1045609/000110465925045539/tm2513852d6_8k.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1045609/000110465925045539/0001104659-25-045539-index.htm"
+  },
+  {
+   "form": "10-Q",
+   "date": "2025-04-29",
+   "report_date": "2025-03-31",
+   "items": "",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1045609/000095017025060107/pld-20250331.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1045609/000095017025060107/0000950170-25-060107-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2025-04-16",
+   "report_date": "2025-04-16",
+   "items": "2.02,7.01,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1045609/000095017025054485/pld-20250416.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1045609/000095017025054485/0000950170-25-054485-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2025-02-21",
+   "report_date": "2025-02-20",
+   "items": "5.03,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1045609/000119312525031985/d852247d8k.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1045609/000119312525031985/0001193125-25-031985-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2025-02-19",
+   "report_date": "2025-02-19",
+   "items": "5.02,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1045609/000119312525029178/d874222d8k.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1045609/000119312525029178/0001193125-25-029178-index.htm"
+  },
+  {
+   "form": "10-K",
+   "date": "2025-02-14",
+   "report_date": "2024-12-31",
+   "items": "",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1045609/000095017025021272/pld-20241231.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1045609/000095017025021272/0000950170-25-021272-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2025-02-04",
+   "report_date": "2025-02-04",
+   "items": "2.03,8.01,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1045609/000110465925008890/tm255152d1_8k.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1045609/000110465925008890/0001104659-25-008890-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2025-01-21",
+   "report_date": "2025-01-21",
+   "items": "2.02,7.01,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1045609/000095017025006999/pld-20250121.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1045609/000095017025006999/0000950170-25-006999-index.htm"
+  },
+  {
+   "form": "10-Q",
+   "date": "2024-10-25",
+   "report_date": "2024-09-30",
+   "items": "",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1045609/000095017024117407/pld-20240930.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1045609/000095017024117407/0000950170-24-117407-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2024-10-16",
+   "report_date": "2024-10-16",
+   "items": "2.02,7.01,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1045609/000095017024114848/pld-20241016.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1045609/000095017024114848/0000950170-24-114848-index.htm"
+  },
+  {
+   "form": "10-Q",
+   "date": "2024-07-26",
+   "report_date": "2024-06-30",
+   "items": "",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1045609/000095017024086882/pld-20240630.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1045609/000095017024086882/0000950170-24-086882-index.htm"
+  }
+ ],
+ "quarters": [
+  {
+   "end": "2020-06-30",
+   "revenue": 1266124000,
+   "operating_income": 611987000,
+   "net_income": 406173000,
+   "op_cash_flow": 676256000,
+   "sbc": 27998000,
+   "diluted_shares": 765830000,
+   "cash": 549129000,
+   "debt": 15666872000
+  },
+  {
+   "end": "2020-09-30",
+   "revenue": 1082773000,
+   "operating_income": 556520000,
+   "net_income": 302694000,
+   "op_cash_flow": 977986000,
+   "sbc": 26554000,
+   "diluted_shares": 764619000,
+   "cash": 940193000,
+   "debt": 16518126000
+  },
+  {
+   "end": "2020-12-31",
+   "revenue": 1111597000,
+   "operating_income": 482380000,
+   "net_income": 281894000,
+   "op_cash_flow": 603670000,
+   "sbc": 23471000,
+   "cash": 598000000,
+   "debt": 16849076000
+  },
+  {
+   "end": "2021-03-31",
+   "revenue": 1148316000,
+   "operating_income": 532197000,
+   "net_income": 367347000,
+   "op_cash_flow": 816694000,
+   "sbc": 34575000,
+   "diluted_shares": 764958000,
+   "cash": 676074000,
+   "debt": 16503458000
+  },
+  {
+   "end": "2021-06-30",
+   "revenue": 1150842000,
+   "operating_income": 700866000,
+   "net_income": 600176000,
+   "op_cash_flow": 649209000,
+   "sbc": 23946000,
+   "diluted_shares": 764652000,
+   "cash": 601446000,
+   "debt": 16985305000
+  },
+  {
+   "end": "2021-09-30",
+   "revenue": 1183049000,
+   "operating_income": 765660000,
+   "net_income": 723538000,
+   "op_cash_flow": 814073000,
+   "sbc": 25895000,
+   "diluted_shares": 764945000,
+   "cash": 585071000,
+   "debt": 17135668000
+  },
+  {
+   "end": "2021-12-31",
+   "revenue": 1277233000,
+   "operating_income": 1208273000,
+   "net_income": 1248662000,
+   "op_cash_flow": 716066000,
+   "sbc": 28612000,
+   "cash": 556000000,
+   "debt": 215300000
+  },
+  {
+   "end": "2022-03-31",
+   "revenue": 1219128000,
+   "operating_income": 1205802000,
+   "net_income": 1150785000,
+   "op_cash_flow": 841527000,
+   "sbc": 41429000,
+   "diluted_shares": 765517000,
+   "cash": 1912750000,
+   "debt": 18368538000
+  },
+  {
+   "end": "2022-06-30",
+   "revenue": 1252080000,
+   "operating_income": 533317000,
+   "net_income": 611393000,
+   "op_cash_flow": 803950000,
+   "sbc": 36923000,
+   "diluted_shares": 766074000,
+   "cash": 437515000,
+   "debt": 18040832000
+  },
+  {
+   "end": "2022-09-30",
+   "revenue": 1750892000,
+   "operating_income": 914970000,
+   "net_income": 1015464000,
+   "op_cash_flow": 1203336000,
+   "sbc": 61670000,
+   "diluted_shares": 766372000,
+   "cash": 636282000,
+   "debt": 18139299000
+  },
+  {
+   "end": "2022-12-31",
+   "revenue": 1751592000,
+   "operating_income": 813449000,
+   "net_income": 587214000,
+   "op_cash_flow": 1277617000,
+   "sbc": 35334000,
+   "cash": 278000000,
+   "debt": 23875961000
+  },
+  {
+   "end": "2023-03-31",
+   "revenue": 1768587000,
+   "operating_income": 579043000,
+   "net_income": 464623000,
+   "op_cash_flow": 1114297000,
+   "sbc": 62906000,
+   "diluted_shares": 951624000,
+   "cash": 522501000,
+   "debt": 25153342000
+  },
+  {
+   "end": "2023-06-30",
+   "revenue": 2450971000,
+   "operating_income": 1411790000,
+   "net_income": 1216028000,
+   "op_cash_flow": 1215138000,
+   "sbc": 89868000,
+   "diluted_shares": 951706000,
+   "cash": 531110000,
+   "debt": 28129473000
+  },
+  {
+   "end": "2023-09-30",
+   "revenue": 1914664000,
+   "operating_income": 882108000,
+   "net_income": 747627000,
+   "op_cash_flow": 1969201000,
+   "sbc": 57248000,
+   "diluted_shares": 951908000,
+   "cash": 740841000,
+   "debt": 27578197000
+  },
+  {
+   "end": "2023-12-31",
+   "revenue": 1889247000,
+   "operating_income": 834851000,
+   "net_income": 630936000,
+   "op_cash_flow": 1074422000,
+   "sbc": 57626000,
+   "cash": 530000000,
+   "debt": 29000501000
+  },
+  {
+   "end": "2024-03-31",
+   "revenue": 1956621000,
+   "operating_income": 720355000,
+   "net_income": 585715000,
+   "op_cash_flow": 1055460000,
+   "sbc": 67237000,
+   "diluted_shares": 953912000,
+   "cash": 500589000,
+   "debt": 29557667000
+  },
+  {
+   "end": "2024-06-30",
+   "revenue": 2007954000,
+   "operating_income": 1023338000,
+   "net_income": 861348000,
+   "op_cash_flow": 1086453000,
+   "sbc": 54545000,
+   "diluted_shares": 953200000,
+   "cash": 598347000,
+   "debt": 29904620000
+  },
+  {
+   "end": "2024-09-30",
+   "revenue": 2036389000,
+   "operating_income": 1250971000,
+   "net_income": 1005719000,
+   "op_cash_flow": 1434845000,
+   "sbc": 42520000,
+   "diluted_shares": 953813000,
+   "cash": 780871000,
+   "debt": 32289832000
+  },
+  {
+   "end": "2024-12-31",
+   "revenue": 2200646000,
+   "operating_income": 1421256000,
+   "net_income": 1278853000,
+   "op_cash_flow": 1335451000,
+   "sbc": 67445000,
+   "cash": 1318591000,
+   "debt": 30879263000
+  },
+  {
+   "end": "2025-03-31",
+   "revenue": 2139665000,
+   "operating_income": 878413000,
+   "net_income": 592953000,
+   "op_cash_flow": 1160753000,
+   "sbc": 53161000,
+   "diluted_shares": 956080000,
+   "cash": 671117000,
+   "debt": 32262055000
+  },
+  {
+   "end": "2025-06-30",
+   "revenue": 2183869000,
+   "operating_income": 912712000,
+   "net_income": 571229000,
+   "op_cash_flow": 1241717000,
+   "sbc": 43984000,
+   "diluted_shares": 955882000,
+   "cash": 1066081000,
+   "debt": 34666551000
+  },
+  {
+   "end": "2025-09-30",
+   "revenue": 2213881000,
+   "operating_income": 940261000,
+   "net_income": 764266000,
+   "op_cash_flow": 1447728000,
+   "sbc": 44509000,
+   "diluted_shares": 956603000,
+   "cash": 1186022000,
+   "debt": 35302901000
+  },
+  {
+   "end": "2025-12-31",
+   "revenue": 2252712000,
+   "operating_income": 1626478000,
+   "net_income": 1399783000,
+   "op_cash_flow": 1158236000,
+   "sbc": 43812000,
+   "cash": 1145647000,
+   "debt": 35037073000
+  },
+  {
+   "end": "2026-03-31",
+   "revenue": 2297723000,
+   "operating_income": 1211055000,
+   "net_income": 981976000,
+   "op_cash_flow": 1288136000,
+   "sbc": 60632000,
+   "diluted_shares": 957561000,
+   "cash": 861144000,
+   "debt": 34669592000
+  }
+ ],
+ "annual": [
+  {
+   "end": "2016-12-31",
+   "revenue": 2533135000,
+   "operating_income": 668378000,
+   "net_income": 1209932000,
+   "op_cash_flow": 1417005000,
+   "sbc": 60341000,
+   "diluted_shares": 546666000,
+   "cash": 807316000,
+   "debt": 10608294000
+  },
+  {
+   "end": "2017-12-31",
+   "revenue": 2618134000,
+   "operating_income": 1954031000,
+   "net_income": 1652325000,
+   "op_cash_flow": 1687246000,
+   "sbc": 76640000,
+   "diluted_shares": 552300000,
+   "cash": 447046000,
+   "debt": 9412631000
+  },
+  {
+   "end": "2018-12-31",
+   "revenue": 2804449000,
+   "operating_income": 1687998000,
+   "net_income": 1649361000,
+   "op_cash_flow": 1803559000,
+   "sbc": 76093000,
+   "diluted_shares": 590239000,
+   "cash": 343856000,
+   "debt": 11089815000
+  },
+  {
+   "end": "2019-12-31",
+   "revenue": 3330621000,
+   "operating_income": 1849766000,
+   "net_income": 1572959000,
+   "op_cash_flow": 2264034000,
+   "sbc": 97557000,
+   "diluted_shares": 654903000,
+   "cash": 1088855000,
+   "debt": 11905877000
+  },
+  {
+   "end": "2020-12-31",
+   "revenue": 4438735000,
+   "operating_income": 2118944000,
+   "net_income": 1481814000,
+   "op_cash_flow": 2937005000,
+   "sbc": 109831000,
+   "diluted_shares": 754414000,
+   "cash": 598000000,
+   "debt": 16849076000
+  },
+  {
+   "end": "2021-12-31",
+   "revenue": 4759440000,
+   "operating_income": 3206996000,
+   "net_income": 2939723000,
+   "op_cash_flow": 2996042000,
+   "sbc": 113028000,
+   "diluted_shares": 764762000,
+   "cash": 556000000,
+   "debt": 215300000
+  },
+  {
+   "end": "2022-12-31",
+   "revenue": 5973692000,
+   "operating_income": 3467538000,
+   "net_income": 3364856000,
+   "op_cash_flow": 4126430000,
+   "sbc": 175356000,
+   "diluted_shares": 811608000,
+   "cash": 278000000,
+   "debt": 23875961000
+  },
+  {
+   "end": "2023-12-31",
+   "revenue": 8023469000,
+   "operating_income": 3707792000,
+   "net_income": 3059214000,
+   "op_cash_flow": 5373058000,
+   "sbc": 267648000,
+   "diluted_shares": 951791000,
+   "cash": 530000000,
+   "debt": 29000501000
+  },
+  {
+   "end": "2024-12-31",
+   "revenue": 8201610000,
+   "operating_income": 4415920000,
+   "net_income": 3731635000,
+   "op_cash_flow": 4912209000,
+   "sbc": 231747000,
+   "diluted_shares": 953590000,
+   "cash": 1318591000,
+   "debt": 30879263000
+  },
+  {
+   "end": "2025-12-31",
+   "revenue": 8790127000,
+   "operating_income": 4357864000,
+   "net_income": 3328231000,
+   "op_cash_flow": 5008434000,
+   "sbc": 185466000,
+   "diluted_shares": 956832000,
+   "cash": 1145647000,
+   "debt": 35037073000
+  }
+ ],
+ "shares_outstanding": {
+  "shares": 932338000,
+  "as_of": "2026-04-28",
+  "filed": "2026-04-30"
+ },
+ "quote": {
+  "price": 126.94,
+  "date": "2026-10-15",
+  "source": "Yahoo Finance"
+ },
+ "insiders": [
+  {
+   "acc": "0001193125-26-396712",
+   "date": "2026-09-17",
+   "name": "BITA CRISTINA GABRIELA",
+   "role": "Director",
+   "code": "M",
+   "shares": 1687.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1045609/000119312526396712/"
+  },
+  {
+   "acc": "0001193125-26-396712",
+   "date": "2026-09-17",
+   "name": "BITA CRISTINA GABRIELA",
+   "role": "Director",
+   "code": "M",
+   "shares": 1128.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1045609/000119312526396712/"
+  },
+  {
+   "acc": "0001193125-26-396710",
+   "date": "2026-09-17",
+   "name": "FOTIADES GEORGE L",
+   "role": "Director",
+   "code": "M",
+   "shares": 1687.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1045609/000119312526396710/"
+  },
+  {
+   "acc": "0001193125-26-309058",
+   "date": "2026-07-16",
+   "name": "Moghadam Hamid",
+   "role": "Director",
+   "code": "S",
+   "shares": 50000.0,
+   "price": 149.91,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1045609/000119312526309058/"
+  },
+  {
+   "acc": "0001193125-26-274470",
+   "date": "2026-06-15",
+   "name": "Arndt Timothy D",
+   "role": "Chief Financial Officer",
+   "code": "S",
+   "shares": 3597.0,
+   "price": 150.0,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1045609/000119312526274470/"
+  },
+  {
+   "acc": "0001193125-26-198303",
+   "date": "2026-04-28",
+   "name": "LYONS IRVING F III",
+   "role": "Director",
+   "code": "C",
+   "shares": 43825.0,
+   "price": 141.53,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1045609/000119312526198303/"
+  },
+  {
+   "acc": "0001193125-26-198300",
+   "date": "2026-04-28",
+   "name": "Modjtabai Avid",
+   "role": "Director",
+   "code": "M",
+   "shares": 1984.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1045609/000119312526198300/"
+  },
+  {
+   "acc": "0001193125-26-198298",
+   "date": "2026-04-28",
+   "name": "Connor James B.",
+   "role": "Director",
+   "code": "M",
+   "shares": 1984.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1045609/000119312526198298/"
+  },
+  {
+   "acc": "0001193125-26-198297",
+   "date": "2026-04-28",
+   "name": "Piani Olivier",
+   "role": "Director",
+   "code": "A",
+   "shares": 1984.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1045609/000119312526198297/"
+  },
+  {
+   "acc": "0001193125-26-198297",
+   "date": "2026-04-28",
+   "name": "Piani Olivier",
+   "role": "Director",
+   "code": "F",
+   "shares": 595.0,
+   "price": 141.53,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1045609/000119312526198297/"
+  },
+  {
+   "acc": "0001193125-26-198295",
+   "date": "2026-04-28",
+   "name": "KENNARD LYDIA H",
+   "role": "Director",
+   "code": "M",
+   "shares": 1984.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1045609/000119312526198295/"
+  }
+ ]
+}

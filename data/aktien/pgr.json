@@ -1,0 +1,1067 @@
+{
+ "company": "PROGRESSIVE CORP/OH/",
+ "cik": "0000080661",
+ "ticker": "PGR",
+ "tv": "NYSE:PGR",
+ "rank": 93,
+ "source": "SEC EDGAR",
+ "fiscal_year_end": "1231",
+ "updated_at": "2026-10-16T13:05:25Z",
+ "periodic_accs": [
+  "0000080661-22-000071",
+  "0000080661-22-000080",
+  "0000080661-23-000006",
+  "0000080661-23-000023",
+  "0000080661-23-000037",
+  "0000080661-23-000049",
+  "0000080661-24-000007",
+  "0000080661-24-000018",
+  "0000080661-24-000031",
+  "0000080661-24-000045",
+  "0000080661-25-000007",
+  "0000080661-25-000023",
+  "0000080661-25-000051",
+  "0000080661-25-000129",
+  "0000080661-26-000086",
+  "0000080661-26-000177",
+  "0000080661-26-000308"
+ ],
+ "filings": [
+  {
+   "form": "8-K",
+   "date": "2026-10-14",
+   "report_date": "2026-10-14",
+   "items": "2.02,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/80661/000008066126000367/pgr-20261014.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/80661/000008066126000367/0000080661-26-000367-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2026-09-18",
+   "report_date": "2026-09-18",
+   "items": "7.01,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/80661/000008066126000322/pgr-20260918.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/80661/000008066126000322/0000080661-26-000322-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2026-08-19",
+   "report_date": "2026-08-19",
+   "items": "7.01,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/80661/000008066126000315/pgr-20260819.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/80661/000008066126000315/0000080661-26-000315-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2026-08-10",
+   "report_date": "2026-08-07",
+   "items": "7.01,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/80661/000008066126000310/pgr-20260807.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/80661/000008066126000310/0000080661-26-000310-index.htm"
+  },
+  {
+   "form": "10-Q",
+   "date": "2026-08-03",
+   "report_date": "2026-06-30",
+   "items": "",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/80661/000008066126000308/pgr-20260630.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/80661/000008066126000308/0000080661-26-000308-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2026-07-15",
+   "report_date": "2026-07-15",
+   "items": "2.02,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/80661/000008066126000262/pgr-20260715.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/80661/000008066126000262/0000080661-26-000262-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2026-06-17",
+   "report_date": "2026-06-11",
+   "items": "5.02,7.01,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/80661/000008066126000210/pgr-20260611.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/80661/000008066126000210/0000080661-26-000210-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2026-05-20",
+   "report_date": "2026-05-20",
+   "items": "7.01,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/80661/000008066126000204/pgr-20260520.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/80661/000008066126000204/0000080661-26-000204-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2026-05-12",
+   "report_date": "2026-05-08",
+   "items": "5.02,5.07,7.01,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/80661/000008066126000200/pgr-20260508.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/80661/000008066126000200/0000080661-26-000200-index.htm"
+  },
+  {
+   "form": "10-Q",
+   "date": "2026-05-04",
+   "report_date": "2026-03-31",
+   "items": "",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/80661/000008066126000177/pgr-20260331.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/80661/000008066126000177/0000080661-26-000177-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2026-04-15",
+   "report_date": "2026-04-15",
+   "items": "2.02,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/80661/000008066126000173/pgr-20260415.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/80661/000008066126000173/0000080661-26-000173-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2026-03-26",
+   "report_date": "2026-03-23",
+   "items": "8.01,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/80661/000119312526125238/d47915d8k.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/80661/000119312526125238/0001193125-26-125238-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2026-03-18",
+   "report_date": "2026-03-18",
+   "items": "7.01,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/80661/000008066126000096/pgr-20260318.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/80661/000008066126000096/0000080661-26-000096-index.htm"
+  },
+  {
+   "form": "10-K",
+   "date": "2026-03-02",
+   "report_date": "2025-12-31",
+   "items": "",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/80661/000008066126000086/pgr-20251231.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/80661/000008066126000086/0000080661-26-000086-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2026-02-18",
+   "report_date": "2026-02-18",
+   "items": "7.01,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/80661/000008066126000075/pgr-20260218.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/80661/000008066126000075/0000080661-26-000075-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2026-01-28",
+   "report_date": "2026-01-26",
+   "items": "2.02,5.02,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/80661/000008066126000071/pgr-20260126.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/80661/000008066126000071/0000080661-26-000071-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2025-12-17",
+   "report_date": "2025-12-17",
+   "items": "7.01,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/80661/000008066125000142/pgr-20251217.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/80661/000008066125000142/0000080661-25-000142-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2025-11-19",
+   "report_date": "2025-11-19",
+   "items": "7.01,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/80661/000008066125000134/pgr-20251119.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/80661/000008066125000134/0000080661-25-000134-index.htm"
+  },
+  {
+   "form": "10-Q",
+   "date": "2025-11-03",
+   "report_date": "2025-09-30",
+   "items": "",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/80661/000008066125000129/pgr-20250930.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/80661/000008066125000129/0000080661-25-000129-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2025-10-15",
+   "report_date": "2025-10-15",
+   "items": "2.02,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/80661/000008066125000126/pgr-20251015.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/80661/000008066125000126/0000080661-25-000126-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2025-09-17",
+   "report_date": "2025-09-17",
+   "items": "7.01,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/80661/000008066125000079/pgr-20250917.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/80661/000008066125000079/0000080661-25-000079-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2025-08-20",
+   "report_date": "2025-08-20",
+   "items": "7.01,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/80661/000008066125000056/pgr-20250820.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/80661/000008066125000056/0000080661-25-000056-index.htm"
+  },
+  {
+   "form": "10-Q",
+   "date": "2025-08-04",
+   "report_date": "2025-06-30",
+   "items": "",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/80661/000008066125000051/pgr-20250630.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/80661/000008066125000051/0000080661-25-000051-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2025-07-16",
+   "report_date": "2025-07-16",
+   "items": "2.02,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/80661/000008066125000038/pgr-20250716.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/80661/000008066125000038/0000080661-25-000038-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2025-06-18",
+   "report_date": "2025-06-18",
+   "items": "7.01,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/80661/000008066125000032/pgr-20250618.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/80661/000008066125000032/0000080661-25-000032-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2025-05-21",
+   "report_date": "2025-05-21",
+   "items": "7.01,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/80661/000008066125000030/pgr-20250521.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/80661/000008066125000030/0000080661-25-000030-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2025-05-13",
+   "report_date": "2025-05-09",
+   "items": "5.07,7.01,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/80661/000008066125000025/pgr-20250509.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/80661/000008066125000025/0000080661-25-000025-index.htm"
+  },
+  {
+   "form": "10-Q",
+   "date": "2025-05-05",
+   "report_date": "2025-03-31",
+   "items": "",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/80661/000008066125000023/pgr-20250331.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/80661/000008066125000023/0000080661-25-000023-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2025-04-16",
+   "report_date": "2025-04-16",
+   "items": "2.02,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/80661/000008066125000020/pgr-20250416.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/80661/000008066125000020/0000080661-25-000020-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2025-03-19",
+   "report_date": "2025-03-19",
+   "items": "7.01,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/80661/000008066125000015/pgr-20250319.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/80661/000008066125000015/0000080661-25-000015-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2025-03-10",
+   "report_date": "2025-03-07",
+   "items": "5.02,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/80661/000008066125000010/pgr-20250307.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/80661/000008066125000010/0000080661-25-000010-index.htm"
+  },
+  {
+   "form": "10-K",
+   "date": "2025-03-03",
+   "report_date": "2024-12-31",
+   "items": "",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/80661/000008066125000007/pgr-20241231.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/80661/000008066125000007/0000080661-25-000007-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2025-02-19",
+   "report_date": "2025-02-19",
+   "items": "7.01,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/80661/000008066125000004/pgr-20250219.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/80661/000008066125000004/0000080661-25-000004-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2025-01-29",
+   "report_date": "2025-01-29",
+   "items": "2.02,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/80661/000008066125000002/pgr-20250129.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/80661/000008066125000002/0000080661-25-000002-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2024-12-13",
+   "report_date": "2024-12-13",
+   "items": "7.01,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/80661/000008066124000049/pgr-20241213.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/80661/000008066124000049/0000080661-24-000049-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2024-11-15",
+   "report_date": "2024-11-15",
+   "items": "7.01,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/80661/000008066124000047/pgr-20241115.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/80661/000008066124000047/0000080661-24-000047-index.htm"
+  },
+  {
+   "form": "10-Q",
+   "date": "2024-11-04",
+   "report_date": "2024-09-30",
+   "items": "",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/80661/000008066124000045/pgr-20240930.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/80661/000008066124000045/0000080661-24-000045-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2024-10-15",
+   "report_date": "2024-09-25",
+   "items": "2.02,5.03,7.01,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/80661/000008066124000042/pgr-20240925.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/80661/000008066124000042/0000080661-24-000042-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2024-09-13",
+   "report_date": "2024-09-13",
+   "items": "7.01,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/80661/000008066124000039/pgr-20240913.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/80661/000008066124000039/0000080661-24-000039-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2024-08-30",
+   "report_date": "2024-08-28",
+   "items": "5.02,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/80661/000008066124000037/pgr-20240828.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/80661/000008066124000037/0000080661-24-000037-index.htm"
+  }
+ ],
+ "quarters": [
+  {
+   "end": "2020-09-30",
+   "revenue": 10947200000,
+   "net_income": 1530800000,
+   "op_cash_flow": 1479700000,
+   "capex": 65700000,
+   "diluted_shares": 587800000,
+   "securities": 4667800000
+  },
+  {
+   "end": "2020-12-31",
+   "revenue": 11415800000,
+   "net_income": 1684300000,
+   "op_cash_flow": 1547300000,
+   "capex": 47100000,
+   "securities": 5218500000,
+   "debt": 5450000000
+  },
+  {
+   "end": "2021-03-31",
+   "revenue": 11445200000,
+   "net_income": 1480000000,
+   "op_cash_flow": 2614500000,
+   "capex": 50500000,
+   "diluted_shares": 586900000,
+   "securities": 2243100000
+  },
+  {
+   "end": "2021-06-30",
+   "revenue": 11905500000,
+   "net_income": 790100000,
+   "op_cash_flow": 2323900000,
+   "capex": 48000000,
+   "diluted_shares": 586800000,
+   "securities": 1710600000
+  },
+  {
+   "end": "2021-09-30",
+   "revenue": 11859200000,
+   "net_income": 118500000,
+   "op_cash_flow": 2371200000,
+   "capex": 89800000,
+   "diluted_shares": 587100000,
+   "securities": 1088700000
+  },
+  {
+   "end": "2021-12-31",
+   "revenue": 12492100000,
+   "net_income": 962300000,
+   "op_cash_flow": 452100000,
+   "capex": 55200000,
+   "securities": 942600000,
+   "debt": 4950000000
+  },
+  {
+   "end": "2022-03-31",
+   "revenue": 11841500000,
+   "net_income": 313900000,
+   "op_cash_flow": 2502300000,
+   "capex": 73000000,
+   "diluted_shares": 586300000,
+   "securities": 529900000
+  },
+  {
+   "end": "2022-06-30",
+   "revenue": 11519200000,
+   "net_income": -542900000,
+   "op_cash_flow": 1389600000,
+   "capex": 63700000,
+   "diluted_shares": 586500000,
+   "securities": 4611800000
+  },
+  {
+   "end": "2022-09-30",
+   "revenue": 12780200000,
+   "net_income": 124100000,
+   "op_cash_flow": 2027300000,
+   "capex": 108300000,
+   "diluted_shares": 587100000,
+   "securities": 4237600000
+  },
+  {
+   "end": "2022-12-31",
+   "revenue": 13470100000,
+   "net_income": 826900000,
+   "op_cash_flow": 929800000,
+   "capex": 47000000,
+   "securities": 2861700000,
+   "debt": 6450000000
+  },
+  {
+   "end": "2023-03-31",
+   "revenue": 14303200000,
+   "net_income": 447900000,
+   "op_cash_flow": 2449500000,
+   "capex": 43200000,
+   "diluted_shares": 587000000,
+   "securities": 2524100000
+  },
+  {
+   "end": "2023-06-30",
+   "revenue": 15353500000,
+   "net_income": 345400000,
+   "op_cash_flow": 2337000000,
+   "capex": 90400000,
+   "diluted_shares": 587000000,
+   "securities": 1494300000
+  },
+  {
+   "end": "2023-09-30",
+   "revenue": 15560600000,
+   "net_income": 1121300000,
+   "op_cash_flow": 3419500000,
+   "capex": 36300000,
+   "diluted_shares": 587500000,
+   "securities": 1795200000
+  },
+  {
+   "end": "2023-12-31",
+   "revenue": 16891700000,
+   "net_income": 1988400000,
+   "op_cash_flow": 2437000000,
+   "capex": 82100000,
+   "securities": 1790000000,
+   "debt": 6950000000
+  },
+  {
+   "end": "2024-03-31",
+   "revenue": 17243000000,
+   "net_income": 2331000000,
+   "op_cash_flow": 4235000000,
+   "capex": 50000000,
+   "diluted_shares": 587300000,
+   "securities": 1327000000
+  },
+  {
+   "end": "2024-06-30",
+   "revenue": 18134000000,
+   "net_income": 1459000000,
+   "op_cash_flow": 3267000000,
+   "capex": 68000000,
+   "diluted_shares": 587400000,
+   "securities": 733000000
+  },
+  {
+   "end": "2024-09-30",
+   "revenue": 19719000000,
+   "net_income": 2334000000,
+   "op_cash_flow": 4609000000,
+   "capex": 57000000,
+   "diluted_shares": 587600000,
+   "securities": 757000000
+  },
+  {
+   "end": "2024-12-31",
+   "revenue": 20276000000,
+   "net_income": 2356000000,
+   "op_cash_flow": 3008000000,
+   "capex": 110000000,
+   "securities": 615000000,
+   "debt": 6950000000
+  },
+  {
+   "end": "2025-03-31",
+   "revenue": 20409000000,
+   "net_income": 2567000000,
+   "op_cash_flow": 5143000000,
+   "capex": 59000000,
+   "diluted_shares": 587700000,
+   "securities": 2595000000
+  },
+  {
+   "end": "2025-06-30",
+   "revenue": 22004000000,
+   "net_income": 3175000000,
+   "op_cash_flow": 4040000000,
+   "capex": 102000000,
+   "diluted_shares": 587800000,
+   "securities": 2103000000
+  },
+  {
+   "end": "2025-09-30",
+   "revenue": 22512000000,
+   "net_income": 2615000000,
+   "op_cash_flow": 5195000000,
+   "capex": 66000000,
+   "diluted_shares": 588200000,
+   "securities": 1515000000
+  },
+  {
+   "end": "2025-12-31",
+   "revenue": 22746000000,
+   "net_income": 2951000000,
+   "op_cash_flow": 3170000000,
+   "capex": 121000000,
+   "securities": 10005000000,
+   "debt": 6950000000
+  },
+  {
+   "end": "2026-03-31",
+   "revenue": 22188000000,
+   "net_income": 2818000000,
+   "op_cash_flow": 4367000000,
+   "capex": 63000000,
+   "diluted_shares": 586900000,
+   "securities": 2126000000
+  },
+  {
+   "end": "2026-06-30",
+   "revenue": 23609000000,
+   "net_income": 3311000000,
+   "op_cash_flow": 3607000000,
+   "capex": 138000000,
+   "diluted_shares": 584200000,
+   "securities": 1978000000
+  }
+ ],
+ "annual": [
+  {
+   "end": "2016-12-31",
+   "revenue": 23441400000,
+   "net_income": 1031000000,
+   "op_cash_flow": 2732700000,
+   "capex": 215000000,
+   "diluted_shares": 585000000,
+   "securities": 3572900000,
+   "debt": 3171900000
+  },
+  {
+   "end": "2017-12-31",
+   "revenue": 26839000000,
+   "net_income": 1592200000,
+   "op_cash_flow": 3756800000,
+   "capex": 155700000,
+   "diluted_shares": 585700000,
+   "securities": 2869400000,
+   "debt": 3337100000
+  },
+  {
+   "end": "2018-12-31",
+   "revenue": 31979000000,
+   "net_income": 2615300000,
+   "op_cash_flow": 6284800000,
+   "capex": 266000000,
+   "diluted_shares": 586700000,
+   "securities": 1795900000,
+   "debt": 4450000000
+  },
+  {
+   "end": "2019-12-31",
+   "revenue": 39022300000,
+   "net_income": 3970300000,
+   "op_cash_flow": 6261600000,
+   "capex": 363500000,
+   "diluted_shares": 587200000,
+   "securities": 1798800000,
+   "debt": 4450000000
+  },
+  {
+   "end": "2020-12-31",
+   "revenue": 42658100000,
+   "net_income": 5704600000,
+   "op_cash_flow": 6905600000,
+   "capex": 223500000,
+   "diluted_shares": 587600000,
+   "securities": 5218500000,
+   "debt": 5450000000
+  },
+  {
+   "end": "2021-12-31",
+   "revenue": 47702000000,
+   "net_income": 3350900000,
+   "op_cash_flow": 7761700000,
+   "capex": 243500000,
+   "diluted_shares": 587100000,
+   "securities": 942600000,
+   "debt": 4950000000
+  },
+  {
+   "end": "2022-12-31",
+   "revenue": 49611000000,
+   "net_income": 722000000,
+   "op_cash_flow": 6849000000,
+   "capex": 292000000,
+   "diluted_shares": 587100000,
+   "securities": 2861700000,
+   "debt": 6450000000
+  },
+  {
+   "end": "2023-12-31",
+   "revenue": 62109000000,
+   "net_income": 3903000000,
+   "op_cash_flow": 10643000000,
+   "capex": 252000000,
+   "diluted_shares": 587500000,
+   "securities": 1790000000,
+   "debt": 6950000000
+  },
+  {
+   "end": "2024-12-31",
+   "revenue": 75372000000,
+   "net_income": 8480000000,
+   "op_cash_flow": 15119000000,
+   "capex": 285000000,
+   "diluted_shares": 587700000,
+   "securities": 615000000,
+   "debt": 6950000000
+  },
+  {
+   "end": "2025-12-31",
+   "revenue": 87671000000,
+   "net_income": 11308000000,
+   "op_cash_flow": 17548000000,
+   "capex": 348000000,
+   "diluted_shares": 588100000,
+   "securities": 10005000000,
+   "debt": 6950000000
+  }
+ ],
+ "shares_outstanding": {
+  "shares": 581371770,
+  "as_of": "2026-07-02",
+  "filed": "2026-08-03"
+ },
+ "quote": {
+  "price": 213.75,
+  "date": "2026-10-15",
+  "source": "Yahoo Finance"
+ },
+ "insiders": [
+  {
+   "acc": "0000080661-26-000324",
+   "date": "2026-09-24",
+   "name": "Broz Steven",
+   "role": "Chief Information Officer",
+   "code": "S",
+   "shares": 1225.0,
+   "price": 204.29,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/80661/000008066126000324/"
+  },
+  {
+   "acc": "0000080661-26-000319",
+   "date": "2026-09-01",
+   "name": "Griffith Susan Patricia",
+   "role": "President and CEO",
+   "code": "S",
+   "shares": 37338.0,
+   "price": 219.5,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/80661/000008066126000319/"
+  },
+  {
+   "acc": "0000080661-26-000319",
+   "date": "2026-09-01",
+   "name": "Griffith Susan Patricia",
+   "role": "President and CEO",
+   "code": "G",
+   "shares": 1598.0,
+   "price": 0.0,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/80661/000008066126000319/"
+  },
+  {
+   "acc": "0000080661-26-000317",
+   "date": "2026-08-20",
+   "name": "Broz Steven",
+   "role": "Chief Information Officer",
+   "code": "S",
+   "shares": 1225.0,
+   "price": 219.4,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/80661/000008066126000317/"
+  },
+  {
+   "acc": "0000080661-26-000312",
+   "date": "2026-08-13",
+   "name": "Niederst Lori A",
+   "role": "Chief Personal Lines Officer",
+   "code": "S",
+   "shares": 7339.0,
+   "price": 209.29,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/80661/000008066126000312/"
+  },
+  {
+   "acc": "0000080661-26-000306",
+   "date": "2026-07-28",
+   "name": "Quigg Andrew J",
+   "role": "VP and Chief Financial Officer",
+   "code": "S",
+   "shares": 3499.0,
+   "price": 220.0,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/80661/000008066126000306/"
+  },
+  {
+   "acc": "0000080661-26-000304",
+   "date": "2026-07-27",
+   "name": "Murphy John Jo",
+   "role": "Claims President",
+   "code": "S",
+   "shares": 8124.0,
+   "price": 212.7,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/80661/000008066126000304/"
+  },
+  {
+   "acc": "0000080661-26-000302",
+   "date": "2026-07-27",
+   "name": "Griffith Susan Patricia",
+   "role": "President and CEO",
+   "code": "S",
+   "shares": 37338.0,
+   "price": 212.71,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/80661/000008066126000302/"
+  },
+  {
+   "acc": "0000080661-26-000300",
+   "date": "2026-07-27",
+   "name": "Bauer Jonathan S.",
+   "role": "Chief Investment Officer",
+   "code": "S",
+   "shares": 2242.0,
+   "price": 212.71,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/80661/000008066126000300/"
+  },
+  {
+   "acc": "0000080661-26-000298",
+   "date": "2026-07-27",
+   "name": "Bailo Karen",
+   "role": "Commercial Lines President",
+   "code": "S",
+   "shares": 8452.0,
+   "price": 212.71,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/80661/000008066126000298/"
+  },
+  {
+   "acc": "0000080661-26-000296",
+   "date": "2026-07-24",
+   "name": "WITALEC DANIEL J",
+   "role": "Chief Strategy Officer",
+   "code": "A",
+   "shares": 2422.24,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/80661/000008066126000296/"
+  },
+  {
+   "acc": "0000080661-26-000296",
+   "date": "2026-07-24",
+   "name": "WITALEC DANIEL J",
+   "role": "Chief Strategy Officer",
+   "code": "F",
+   "shares": 706.0,
+   "price": 211.9,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/80661/000008066126000296/"
+  },
+  {
+   "acc": "0000080661-26-000294",
+   "date": "2026-07-24",
+   "name": "Stringer David M",
+   "role": "Vice Pres, Secretary and CLO",
+   "code": "A",
+   "shares": 529.502,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/80661/000008066126000294/"
+  },
+  {
+   "acc": "0000080661-26-000294",
+   "date": "2026-07-24",
+   "name": "Stringer David M",
+   "role": "Vice Pres, Secretary and CLO",
+   "code": "F",
+   "shares": 235.0,
+   "price": 211.9,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/80661/000008066126000294/"
+  },
+  {
+   "acc": "0000080661-26-000292",
+   "date": "2026-07-24",
+   "name": "Quigg Andrew J",
+   "role": "VP and Chief Financial Officer",
+   "code": "A",
+   "shares": 12524.606,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/80661/000008066126000292/"
+  },
+  {
+   "acc": "0000080661-26-000292",
+   "date": "2026-07-24",
+   "name": "Quigg Andrew J",
+   "role": "VP and Chief Financial Officer",
+   "code": "F",
+   "shares": 5526.0,
+   "price": 211.9,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/80661/000008066126000292/"
+  },
+  {
+   "acc": "0000080661-26-000290",
+   "date": "2026-07-24",
+   "name": "Niederst Lori A",
+   "role": "Chief Personal Lines Officer",
+   "code": "A",
+   "shares": 13151.651,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/80661/000008066126000290/"
+  },
+  {
+   "acc": "0000080661-26-000290",
+   "date": "2026-07-24",
+   "name": "Niederst Lori A",
+   "role": "Chief Personal Lines Officer",
+   "code": "F",
+   "shares": 5812.0,
+   "price": 211.9,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/80661/000008066126000290/"
+  },
+  {
+   "acc": "0000080661-26-000288",
+   "date": "2026-07-24",
+   "name": "Murphy John Jo",
+   "role": "Claims President",
+   "code": "A",
+   "shares": 14528.824,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/80661/000008066126000288/"
+  },
+  {
+   "acc": "0000080661-26-000288",
+   "date": "2026-07-24",
+   "name": "Murphy John Jo",
+   "role": "Claims President",
+   "code": "F",
+   "shares": 6404.0,
+   "price": 211.9,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/80661/000008066126000288/"
+  },
+  {
+   "acc": "0000080661-26-000286",
+   "date": "2026-07-24",
+   "name": "Griffith Susan Patricia",
+   "role": "President and CEO",
+   "code": "A",
+   "shares": 133595.025,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/80661/000008066126000286/"
+  },
+  {
+   "acc": "0000080661-26-000286",
+   "date": "2026-07-24",
+   "name": "Griffith Susan Patricia",
+   "role": "President and CEO",
+   "code": "F",
+   "shares": 58919.0,
+   "price": 211.9,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/80661/000008066126000286/"
+  },
+  {
+   "acc": "0000080661-26-000284",
+   "date": "2026-07-24",
+   "name": "DAY HEATHER E",
+   "role": "CRM President",
+   "code": "A",
+   "shares": 2087.816,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/80661/000008066126000284/"
+  },
+  {
+   "acc": "0000080661-26-000284",
+   "date": "2026-07-24",
+   "name": "DAY HEATHER E",
+   "role": "CRM President",
+   "code": "F",
+   "shares": 613.0,
+   "price": 211.9,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/80661/000008066126000284/"
+  },
+  {
+   "acc": "0000080661-26-000282",
+   "date": "2026-07-24",
+   "name": "Clawson William L. II",
+   "role": "Chief Human Resources Officer",
+   "code": "A",
+   "shares": 9603.053,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/80661/000008066126000282/"
+  },
+  {
+   "acc": "0000080661-26-000282",
+   "date": "2026-07-24",
+   "name": "Clawson William L. II",
+   "role": "Chief Human Resources Officer",
+   "code": "F",
+   "shares": 4136.0,
+   "price": 211.9,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/80661/000008066126000282/"
+  },
+  {
+   "acc": "0000080661-26-000280",
+   "date": "2026-07-24",
+   "name": "Callahan Patrick K",
+   "role": "Personal Lines President",
+   "code": "A",
+   "shares": 29851.9,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/80661/000008066126000280/"
+  },
+  {
+   "acc": "0000080661-26-000280",
+   "date": "2026-07-24",
+   "name": "Callahan Patrick K",
+   "role": "Personal Lines President",
+   "code": "F",
+   "shares": 12578.0,
+   "price": 211.9,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/80661/000008066126000280/"
+  },
+  {
+   "acc": "0000080661-26-000278",
+   "date": "2026-07-24",
+   "name": "Broz Steven",
+   "role": "Chief Information Officer",
+   "code": "A",
+   "shares": 10959.319,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/80661/000008066126000278/"
+  },
+  {
+   "acc": "0000080661-26-000278",
+   "date": "2026-07-24",
+   "name": "Broz Steven",
+   "role": "Chief Information Officer",
+   "code": "F",
+   "shares": 4832.0,
+   "price": 211.9,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/80661/000008066126000278/"
+  },
+  {
+   "acc": "0000080661-26-000276",
+   "date": "2026-07-24",
+   "name": "Bauer Jonathan S.",
+   "role": "Chief Investment Officer",
+   "code": "A",
+   "shares": 4175.647,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/80661/000008066126000276/"
+  },
+  {
+   "acc": "0000080661-26-000276",
+   "date": "2026-07-24",
+   "name": "Bauer Jonathan S.",
+   "role": "Chief Investment Officer",
+   "code": "F",
+   "shares": 1933.0,
+   "price": 211.9,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/80661/000008066126000276/"
+  }
+ ]
+}
