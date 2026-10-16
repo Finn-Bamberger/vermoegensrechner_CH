@@ -1502,7 +1502,7 @@ function needed(sim, p, mit3a, target) {
   const STOCKS = [
     { id: 'palantir', t: 'PLTR', n: 'Palantir Technologies', tv: 'NASDAQ:PLTR', ir: 'https://investors.palantir.com/', data: '/data/palantir.json' }
   ];
-  const AKSTATE = { sel: 'palantir', built: false, cache: {} };
+  const AKSTATE = { sel: 'palantir', built: false, cache: {}, mode: 'q', dev: null };
   const FORM_DE = { '10-K': 'Geschäftsbericht (10-K)', '10-K/A': 'Geschäftsbericht, Nachtrag (10-K/A)', '10-Q': 'Quartalsbericht (10-Q)', '10-Q/A': 'Quartalsbericht, Nachtrag (10-Q/A)', '8-K': 'Meldung (8-K)' };
   function akDate(s) { const m = /^(\d{4})-(\d{2})-(\d{2})/.exec(s || ''); return m ? m[3] + '.' + m[2] + '.' + m[1] : '–'; }
   function akMio(v) { return v == null ? '–' : (v < 0 ? '−' : '') + fmt(Math.abs(v) / 1e6); }
@@ -1562,17 +1562,24 @@ function needed(sim, p, mit3a, target) {
         stat('Reingewinn', 'USD ' + akMio(lastQ.net_income) + ' Mio.', akQ(lastQ.end)) +
         stat('Freier Cashflow', akFcf(lastQ) == null ? '–' : 'USD ' + akMio(akFcf(lastQ)) + ' Mio.', 'operativer Cashflow minus Investitionen, ' + akQ(lastQ.end)) + '</div>';
     }
-    // 2 Wachstum und Profitabilität (Geschäftsjahre)
-    if (a.length) {
-      const rows = a.map((x, i) => {
-        const p = a[i - 1];
-        const gr = p && p.revenue ? x.revenue / p.revenue - 1 : null;
-        const fcf = akFcf(x);
-        const dil = p && p.diluted_shares && x.diluted_shares ? x.diluted_shares / p.diluted_shares - 1 : null;
-        return '<tr><th scope="row">' + x.end.slice(0, 4) + '</th><td>' + akMio(x.revenue) + '</td><td>' + akPct(gr) + '</td><td>' + akPct(akDiv(x.gross_profit, x.revenue)) + '</td><td>' + akPct(akDiv(x.operating_income, x.revenue)) + '</td><td>' + akMio(x.net_income) + '</td><td>' + akMio(fcf) + '</td><td>' + akPct(akDiv(fcf, x.revenue)) + '</td><td>' + akPct(akDiv(x.sbc, x.revenue)) + '</td><td>' + (x.diluted_shares ? fmt(x.diluted_shares / 1e6) : '–') + '</td><td>' + akPct(dil) + '</td></tr>';
-      }).reverse().join('');
-      h += '<section class="chartbox"><h2>Geschäftsentwicklung</h2><div class="tablewrap"><table><thead><tr><th scope="col">Jahr</th><th scope="col">Umsatz</th><th scope="col">Wachstum</th><th scope="col">Bruttomarge</th><th scope="col">Betriebsmarge</th><th scope="col">Reingewinn</th><th scope="col">Freier Cashflow</th><th scope="col">FCF-Marge</th><th scope="col">Aktienvergütung / Umsatz</th><th scope="col">Aktien (verwässert, Mio.)</th><th scope="col">Veränderung Aktien</th></tr></thead><tbody>' + rows + '</tbody></table></div>' +
-        '<p class="cap">Beträge in Millionen US-Dollar. Freier Cashflow = operativer Cashflow minus Investitionen in Sachanlagen. Aktienvergütung = Löhne, die in Aktien bezahlt werden: Sie sind kein Bargeld-Aufwand, verwässern aber die bestehenden Aktionäre (Spalte «Veränderung Aktien»). Strich = vom Unternehmen nicht ausgewiesen.</p></section>';
+    // 2 Geschäftsentwicklung (Jahre oder Quartale)
+    if (a.length || q.length) {
+      const devRows = mode => {
+        const arr = mode === 'q' ? q : a;
+        return arr.map((x, i) => {
+          const p = mode === 'q' ? arr.filter(y => y.end.slice(5) === x.end.slice(5) && +y.end.slice(0, 4) === +x.end.slice(0, 4) - 1)[0] : arr[i - 1];
+          const gr = p && p.revenue ? x.revenue / p.revenue - 1 : null;
+          const fcf = akFcf(x);
+          const dil = p && p.diluted_shares && x.diluted_shares ? x.diluted_shares / p.diluted_shares - 1 : null;
+          return '<tr><th scope="row">' + (mode === 'q' ? akQ(x.end) : x.end.slice(0, 4)) + '</th><td>' + akMio(x.revenue) + '</td><td>' + akPct(gr) + '</td><td>' + akPct(akDiv(x.gross_profit, x.revenue)) + '</td><td>' + akPct(akDiv(x.operating_income, x.revenue)) + '</td><td>' + akMio(x.net_income) + '</td><td>' + akMio(fcf) + '</td><td>' + akPct(akDiv(fcf, x.revenue)) + '</td><td>' + akPct(akDiv(x.sbc, x.revenue)) + '</td><td>' + (x.diluted_shares ? fmt(x.diluted_shares / 1e6) : '–') + '</td><td>' + akPct(dil) + '</td></tr>';
+        }).reverse().join('');
+      };
+      const dev = mode => '<div class="tablewrap"><table><thead><tr><th scope="col">' + (mode === 'q' ? 'Quartal' : 'Jahr') + '</th><th scope="col">Umsatz</th><th scope="col">Wachstum' + (mode === 'q' ? ' zum Vorjahresquartal' : '') + '</th><th scope="col">Bruttomarge</th><th scope="col">Betriebsmarge</th><th scope="col">Reingewinn</th><th scope="col">Freier Cashflow</th><th scope="col">FCF-Marge</th><th scope="col">Aktienvergütung / Umsatz</th><th scope="col">Aktien (verwässert, Mio.)</th><th scope="col">Veränderung Aktien</th></tr></thead><tbody>' + devRows(mode) + '</tbody></table></div>';
+      h += '<section class="chartbox"><div class="etf-head"><h2>Geschäftsentwicklung</h2><div class="rng-row" id="ak-mode" role="group" aria-label="Zeitraum">' +
+        '<button type="button" class="rng" data-akmode="q" aria-pressed="' + (AKSTATE.mode === 'q') + '">Quartale</button><button type="button" class="rng" data-akmode="a" aria-pressed="' + (AKSTATE.mode !== 'q') + '">Geschäftsjahre</button></div></div>' +
+        '<div id="ak-dev">' + dev(AKSTATE.mode) + '</div>' +
+        '<p class="cap">Beträge in Millionen US-Dollar. Freier Cashflow = operativer Cashflow minus Investitionen in Sachanlagen. Aktienvergütung = Löhne, die in Aktien bezahlt werden: Sie sind kein Bargeld-Aufwand, verwässern aber die bestehenden Aktionäre (Spalte «Veränderung Aktien»). Das vierte Quartal ist aus den Jahreswerten abgeleitet; die Aktienzahl wird dafür nicht ausgewiesen. Strich = vom Unternehmen nicht ausgewiesen.</p></section>';
+      AKSTATE.dev = dev;
     }
     // 3 Bilanz
     if (bsq) {
@@ -1627,6 +1634,14 @@ function needed(sim, p, mit3a, target) {
     h += '<p class="cap">Quelle: SEC EDGAR. Zuletzt geprüft: ' + akDate(d.updated_at) + '. Berichte sind auf Englisch. <a class="more" href="' + esc(s.ir) + '" target="_blank" rel="noopener">Investor Relations von ' + esc(s.n) + '</a> · <a class="more" href="https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;CIK=' + esc(d.cik || s.t) + '&amp;type=&amp;dateb=&amp;owner=include&amp;count=40" target="_blank" rel="noopener">Alle Einreichungen</a></p></section>';
     h += '<div class="notice">Reine Information aus öffentlichen Quellen, <b>keine Anlageberatung und keine Empfehlung</b>. Berechnungen können Fehler enthalten; massgeblich sind die Originalberichte.</div>';
     body.innerHTML = h;
+    const mb = $('ak-mode');
+    if (mb) mb.addEventListener('click', ev => {
+      const b = ev.target.closest ? ev.target.closest('[data-akmode]') : null;
+      if (!b) return;
+      AKSTATE.mode = b.dataset.akmode;
+      $('ak-dev').innerHTML = AKSTATE.dev(AKSTATE.mode);
+      mb.querySelectorAll('[data-akmode]').forEach(x => x.setAttribute('aria-pressed', x.dataset.akmode === AKSTATE.mode ? 'true' : 'false'));
+    });
   }
   function selectStock(id) {
     const s = STOCKS.filter(x => x.id === id)[0];
