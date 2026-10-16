@@ -1,0 +1,28 @@
+name: Aktiendaten aktualisieren
+on:
+  schedule:
+    - cron: '*/30 * * * *'
+  workflow_dispatch: {}
+permissions:
+  contents: write
+concurrency:
+  group: aktien
+  cancel-in-progress: false
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Daten von der SEC holen
+        env:
+          SEC_USER_AGENT: ${{ secrets.SEC_USER_AGENT }}
+        run: python3 scripts/update_aktien.py
+      - name: Änderungen speichern
+        run: |
+          if [ -n "$(git status --porcelain data)" ]; then
+            git config user.name "github-actions"
+            git config user.email "actions@users.noreply.github.com"
+            git add data
+            git commit -m "Aktiendaten aktualisiert"
+            git push
+          fi

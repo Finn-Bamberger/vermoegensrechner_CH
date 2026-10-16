@@ -291,6 +291,10 @@ ul.breaks { margin: 0; padding-left: 1.2em; display: flex; flex-direction: colum
 .chip { display: flex; flex-direction: column; align-items: flex-start; gap: 2px; text-align: left; font: inherit; color: var(--ink); background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 8px 12px; cursor: pointer; max-width: 100%; }
 .chip b { font: 600 0.92rem var(--f-num); }
 .chip span { font-size: 0.75rem; color: var(--muted); }
+.fl { list-style: none; margin: 0 0 8px; padding: 0; }
+.fl li { padding: 8px 0; border-bottom: 1px solid var(--line); }
+.fl-d { display: inline-block; min-width: 6.2em; color: var(--muted); font-family: var(--f-num); font-size: 0.88rem; }
+.fl-s { color: var(--muted); font-size: 0.82rem; margin-left: 6px; }
 .chip:hover { background: var(--wash); }
 .chip[aria-pressed="true"] { border-color: var(--brand); box-shadow: inset 0 0 0 1px var(--brand); background: var(--wash); }
 .etf-head { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 6px 20px; }
@@ -350,6 +354,7 @@ ul.breaks { margin: 0; padding-left: 1.2em; display: flex; flex-direction: colum
       <a href="/saeule-3a/" data-go="drei">Säule 3a</a>
       <a href="/bitcoin/" data-go="btc">Bitcoin</a>
       <a href="/etf/" data-go="etf">ETFs</a>
+      <a href="/aktien/" data-go="aktien">Aktien</a>
     </nav>
   </div>
 </header>
@@ -471,6 +476,8 @@ ul.breaks { margin: 0; padding-left: 1.2em; display: flex; flex-direction: colum
   <!-- BITCOIN -->
   
   <!-- ETFS -->
+  
+
   
 
   <!-- METHODIK -->
@@ -1453,7 +1460,7 @@ function needed(sim, p, mit3a, target) {
     if (ev.target.closest && ev.target.closest('[data-tv-ok]')) {
       TVOK = true;
       try { sessionStorage.setItem('tv-ok', '1'); } catch (e) { /* ignorieren */ }
-      embedEtfChart(); embedEtfQuotes();
+      if (current === 'aktien') embedAkChart(); else { embedEtfChart(); embedEtfQuotes(); }
     }
   });
   function selectEtf(t) {
@@ -1465,6 +1472,92 @@ function needed(sim, p, mit3a, target) {
     $('etf-meta').textContent = e.ex + ' · Kurse in ' + e.cur + ' · ' + ETF_GROUPS[e.g];
     $('etf-link').href = 'https://www.tradingview.com/symbols/' + e.tv.replace(':', '-') + '/';
     embedEtfChart();
+  }
+
+  // ---------- Aktien ----------
+  const STOCKS = [
+    { id: 'palantir', t: 'PLTR', n: 'Palantir Technologies', tv: 'NASDAQ:PLTR', ir: 'https://investors.palantir.com/', data: '/data/palantir.json' }
+  ];
+  const AKSTATE = { sel: 'palantir', built: false, cache: {} };
+  const FORM_DE = { '10-K': 'Geschäftsbericht (10-K)', '10-K/A': 'Geschäftsbericht, Nachtrag (10-K/A)', '10-Q': 'Quartalsbericht (10-Q)', '10-Q/A': 'Quartalsbericht, Nachtrag (10-Q/A)', '8-K': 'Meldung (8-K)' };
+  function akDate(s) { const m = /^(\d{4})-(\d{2})-(\d{2})/.exec(s || ''); return m ? m[3] + '.' + m[2] + '.' + m[1] : '–'; }
+  function akMio(v) { return v == null ? '–' : (v < 0 ? '−' : '') + fmt(Math.abs(v) / 1e6); }
+  function akQ(end) { const m = +end.slice(5, 7); return 'Q' + Math.ceil(m / 3) + ' ' + end.slice(0, 4); }
+  function embedAkChart() {
+    const s = STOCKS.filter(x => x.id === AKSTATE.sel)[0];
+    embedTV('ak-chart', 'advanced-chart', {
+      autosize: true, symbol: s.tv, interval: 'D', range: '12M',
+      timezone: 'Europe/Zurich', theme: tvTheme(), style: '3', locale: 'de_DE', allow_symbol_change: false,
+      withdateranges: false, hide_side_toolbar: true, hide_top_toolbar: true, hide_legend: false, calendar: false,
+      save_image: false, backgroundColor: etfBg(), gridColor: 'rgba(127,127,127,0.12)',
+      overrides: {
+        'mainSeriesProperties.areaStyle.color1': 'rgba(11,93,90,0.35)',
+        'mainSeriesProperties.areaStyle.color2': 'rgba(11,93,90,0.02)',
+        'mainSeriesProperties.areaStyle.linecolor': '#0B5D5A',
+        'mainSeriesProperties.areaStyle.linewidth': 2
+      },
+      support_host: 'https://www.tradingview.com'
+    });
+  }
+  function renderAkBody(s, d) {
+    const body = $('ak-body');
+    if (!d || !d.updated_at) {
+      body.innerHTML = '<section class="chartbox"><p>Die Berichtsdaten werden gerade zum ersten Mal geladen und erscheinen hier in Kürze. Die Originaldokumente findest du direkt bei der SEC:</p><p><a class="more" href="https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;CIK=' + esc(s.t) + '&amp;type=&amp;dateb=&amp;owner=include&amp;count=40" target="_blank" rel="noopener">Alle Einreichungen auf SEC EDGAR</a></p></section>';
+      return;
+    }
+    const q = d.quarters || [], a = d.annual || [], f = d.filings || [];
+    const lastQ = q[q.length - 1], prevY = q.filter(x => lastQ && x.end.slice(5) === lastQ.end.slice(5) && +x.end.slice(0, 4) === +lastQ.end.slice(0, 4) - 1)[0];
+    let html = '';
+    if (lastQ) {
+      const g = prevY && prevY.revenue ? (lastQ.revenue / prevY.revenue - 1) : null;
+      const marge = lastQ.revenue ? lastQ.operating_income / lastQ.revenue : null;
+      html += '<div class="stats">' +
+        stat('Umsatz ' + akQ(lastQ.end), 'USD ' + akMio(lastQ.revenue) + ' Mio.', g == null ? 'Vorjahr nicht verfügbar' : (g >= 0 ? '+' : '−') + pct1(Math.abs(g)) + ' gegenüber Vorjahresquartal') +
+        stat('Betriebsergebnis', 'USD ' + akMio(lastQ.operating_income) + ' Mio.', marge == null ? '' : 'Marge ' + pct1(marge)) +
+        stat('Reingewinn', 'USD ' + akMio(lastQ.net_income) + ' Mio.', akQ(lastQ.end)) +
+        stat('Operativer Cashflow', 'USD ' + akMio(lastQ.op_cash_flow) + ' Mio.', akQ(lastQ.end)) + '</div>';
+    }
+    const row = (lab, x) => '<tr><th scope="row">' + lab + '</th><td>' + akMio(x.revenue) + '</td><td>' + akMio(x.operating_income) + '</td><td>' + akMio(x.net_income) + '</td><td>' + akMio(x.op_cash_flow) + '</td></tr>';
+    const thead = '<thead><tr><th scope="col">Periode</th><th scope="col">Umsatz</th><th scope="col">Betriebsergebnis</th><th scope="col">Reingewinn</th><th scope="col">Op. Cashflow</th></tr></thead>';
+    if (q.length) html += '<section class="chartbox"><h2>Quartale</h2><div class="tablewrap"><table>' + thead + '<tbody>' + q.slice().reverse().map(x => row(akQ(x.end), x)).join('') + '</tbody></table></div><p class="cap">In Millionen US-Dollar. Das vierte Quartal ist aus den Jahreswerten abgeleitet.</p></section>';
+    if (a.length) html += '<section class="chartbox"><h2>Geschäftsjahre</h2><div class="tablewrap"><table>' + thead + '<tbody>' + a.slice().reverse().map(x => row('Geschäftsjahr ' + x.end.slice(0, 4), x)).join('') + '</tbody></table></div><p class="cap">In Millionen US-Dollar.</p></section>';
+    html += '<section class="chartbox"><h2>Berichte und Meldungen</h2>';
+    if (f.length) {
+      html += '<ul class="fl">' + f.map(x => {
+        const lbl = FORM_DE[x.form] || x.form;
+        const url = x.doc_url || x.index_url;
+        return '<li><span class="fl-d">' + akDate(x.date) + '</span> <a href="' + esc(url) + '" target="_blank" rel="noopener">' + esc(lbl) + '</a>' + (x.report_date && x.form !== '8-K' ? ' <span class="fl-s">Periode bis ' + akDate(x.report_date) + '</span>' : '') + '</li>';
+      }).join('') + '</ul>';
+    } else html += '<p>Keine Einreichungen gefunden.</p>';
+    html += '<p class="cap">Quelle: SEC EDGAR. Zuletzt geprüft: ' + akDate(d.updated_at) + '. Berichte sind auf Englisch. <a class="more" href="' + esc(s.ir) + '" target="_blank" rel="noopener">Investor Relations von ' + esc(s.n) + '</a> · <a class="more" href="https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;CIK=' + esc(d.cik || s.t) + '&amp;type=&amp;dateb=&amp;owner=include&amp;count=40" target="_blank" rel="noopener">Alle Einreichungen</a></p></section>';
+    body.innerHTML = html;
+  }
+  function selectStock(id) {
+    const s = STOCKS.filter(x => x.id === id)[0];
+    if (!s) return;
+    AKSTATE.sel = id;
+    document.querySelectorAll('[data-stock]').forEach(b => b.setAttribute('aria-pressed', b.dataset.stock === id ? 'true' : 'false'));
+    $('ak-title').textContent = s.n + ' (' + s.t + ')';
+    $('ak-meta').textContent = 'NASDAQ · Kurse in USD';
+    $('ak-link').href = 'https://www.tradingview.com/symbols/' + s.tv.replace(':', '-') + '/';
+    embedAkChart();
+    $('ak-body').innerHTML = '<p class="cap">Daten werden geladen …</p>';
+    const done = d => { if (AKSTATE.sel === id) renderAkBody(s, d); };
+    if (AKSTATE.cache[id] !== undefined) { done(AKSTATE.cache[id]); return; }
+    fetch(s.data, { cache: 'no-cache' }).then(r => { if (!r.ok) throw 0; return r.json(); })
+      .then(d => { AKSTATE.cache[id] = d; done(d); })
+      .catch(() => { done(null); });
+  }
+  function renderAktien() {
+    if (!AKSTATE.built) {
+      AKSTATE.built = true;
+      $('ak-tabs').innerHTML = STOCKS.map(x => '<button type="button" class="chip" data-stock="' + x.id + '" aria-pressed="false"><b>' + x.t + '</b><span>' + esc(x.n) + '</span></button>').join('');
+      $('ak-tabs').addEventListener('click', ev => {
+        const b = ev.target.closest ? ev.target.closest('[data-stock]') : null;
+        if (b) selectStock(b.dataset.stock);
+      });
+    }
+    selectStock(AKSTATE.sel);
   }
   function renderEtf() {
     if (!ETFSTATE.built) {
@@ -1709,9 +1802,9 @@ function needed(sim, p, mit3a, target) {
   })();
 
   // ---------- Seiten und Menü ----------
-  const PAGES = ['start', 'zins', 'sparplan', 'drei', 'btc', 'etf', 'methodik', 'datenschutz', 'impressum'];
-  const PATHS = { start: '/', zins: '/zinseszins/', sparplan: '/sparplan/', drei: '/saeule-3a/', btc: '/bitcoin/', etf: '/etf/', methodik: '/methodik/', datenschutz: '/datenschutz/', impressum: '/impressum/' };
-  const META = {"start": {"title": "Vermögensrechner: Zinseszins, Sparplan, Säule 3a, Bitcoin und ETFs", "description": "Gratis-Rechner für die Schweiz: Zinseszins, Sparplan-Simulation, Säule 3a mit Steuern und Anbieter-Vergleich, Bitcoin-Kurs und ETF-Tracker."}, "zins": {"title": "Zinseszins-Rechner mit Teuerung und Kaufkraft | Vermögensrechner", "description": "Zinseszins rechnen: Endkapital, Zinsanteil und Kaufkraft nach Teuerung, mit Jahrestabelle. Gratis für die Schweiz."}, "sparplan": {"title": "Sparplan-Simulation mit Monte-Carlo | Vermögensrechner", "description": "Wie wahrscheinlich erreichst du dein Sparziel? 10'000 simulierte Börsenverläufe, nach Gebühren und Teuerung, in heutigen Franken."}, "drei": {"title": "Säule 3a: Steuern, Break-even und Anbieter-Vergleich | Vermögensrechner", "description": "Lohnt sich die Säule 3a? Vergleich mit dem freien Depot nach Steuern, Szenarien, Break-even sowie Gebühren und Konditionen der 3a-Anbieter in der Schweiz."}, "btc": {"title": "Bitcoin-Kurs in CHF mit Kurshistorie bis 10 Jahre | Vermögensrechner", "description": "Aktueller Bitcoin-Kurs in Schweizer Franken und Kursverlauf von einem Tag bis zehn Jahre."}, "etf": {"title": "ETF-Tracker: 26 beliebte ETFs mit Kursverlauf | Vermögensrechner", "description": "Kurse und Kursverlauf von 26 beliebten ETFs, darunter VTI, VOO, QQQ, GLD sowie Schweizer und europäische Fonds."}, "methodik": {"title": "Methodik und Annahmen | Vermögensrechner", "description": "Wie die Rechner arbeiten: Annahmen, Steuerlogik der Säule 3a, Datenquellen und Grenzen des Anbieter-Vergleichs."}, "datenschutz": {"title": "Datenschutz | Vermögensrechner", "description": "Welche Daten bei der Nutzung anfallen und wohin sie gehen."}, "impressum": {"title": "Impressum | Vermögensrechner", "description": "Angaben zum Betreiber der Seite."}};
+  const PAGES = ['start', 'zins', 'sparplan', 'drei', 'btc', 'etf', 'aktien', 'methodik', 'datenschutz', 'impressum'];
+  const PATHS = { start: '/', zins: '/zinseszins/', sparplan: '/sparplan/', drei: '/saeule-3a/', btc: '/bitcoin/', etf: '/etf/', aktien: '/aktien/', methodik: '/methodik/', datenschutz: '/datenschutz/', impressum: '/impressum/' };
+  const META = {"start": {"title": "Vermögensrechner: Zinseszins, Sparplan, Säule 3a, Bitcoin und ETFs", "description": "Gratis-Rechner für die Schweiz: Zinseszins, Sparplan-Simulation, Säule 3a mit Steuern und Anbieter-Vergleich, Bitcoin-Kurs und ETF-Tracker."}, "zins": {"title": "Zinseszins-Rechner mit Teuerung und Kaufkraft | Vermögensrechner", "description": "Zinseszins rechnen: Endkapital, Zinsanteil und Kaufkraft nach Teuerung, mit Jahrestabelle. Gratis für die Schweiz."}, "sparplan": {"title": "Sparplan-Simulation mit Monte-Carlo | Vermögensrechner", "description": "Wie wahrscheinlich erreichst du dein Sparziel? 10'000 simulierte Börsenverläufe, nach Gebühren und Teuerung, in heutigen Franken."}, "drei": {"title": "Säule 3a: Steuern, Break-even und Anbieter-Vergleich | Vermögensrechner", "description": "Lohnt sich die Säule 3a? Vergleich mit dem freien Depot nach Steuern, Szenarien, Break-even sowie Gebühren und Konditionen der 3a-Anbieter in der Schweiz."}, "btc": {"title": "Bitcoin-Kurs in CHF mit Kurshistorie bis 10 Jahre | Vermögensrechner", "description": "Aktueller Bitcoin-Kurs in Schweizer Franken und Kursverlauf von einem Tag bis zehn Jahre."}, "etf": {"title": "ETF-Tracker: 26 beliebte ETFs mit Kursverlauf | Vermögensrechner", "description": "Kurse und Kursverlauf von 26 beliebten ETFs, darunter VTI, VOO, QQQ, GLD sowie Schweizer und europäische Fonds."}, "aktien": {"title": "Aktien: Geschäftsberichte, Quartalsberichte und Kennzahlen | Vermögensrechner", "description": "Aktuelle Geschäfts- und Quartalsberichte sowie Kennzahlen börsenkotierter Unternehmen aus SEC EDGAR, zum Start Palantir."}, "methodik": {"title": "Methodik und Annahmen | Vermögensrechner", "description": "Wie die Rechner arbeiten: Annahmen, Steuerlogik der Säule 3a, Datenquellen und Grenzen des Anbieter-Vergleichs."}, "datenschutz": {"title": "Datenschutz | Vermögensrechner", "description": "Welche Daten bei der Nutzung anfallen und wohin sie gehen."}, "impressum": {"title": "Impressum | Vermögensrechner", "description": "Angaben zum Betreiber der Seite."}};
   function pageFromPath(path) {
     path = String(path || '/').replace(/index\.html$/, '');
     if (path.slice(-1) !== '/') path += '/';
@@ -1728,6 +1821,7 @@ function needed(sim, p, mit3a, target) {
     else if (current === 'drei') { renderMC('dr', true); window.__vg.load(); }
     else if (current === 'btc') renderBtc();
     else if (current === 'etf') renderEtf();
+    else if (current === 'aktien') renderAktien();
     save();
   }
   function go(page, hist) {

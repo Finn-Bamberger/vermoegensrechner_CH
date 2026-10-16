@@ -8,7 +8,7 @@ assert '// MODEL-PLACEHOLDER' in tpl and '/*META-JSON*/{}' in tpl
 
 SITE = 'https://vermoegensrechner-five.vercel.app'  # bei eigener Domain hier anpassen
 PATHS = {'start': '/', 'zins': '/zinseszins/', 'sparplan': '/sparplan/', 'drei': '/saeule-3a/', 'btc': '/bitcoin/',
-         'etf': '/etf/', 'methodik': '/methodik/', 'datenschutz': '/datenschutz/', 'impressum': '/impressum/'}
+         'etf': '/etf/', 'aktien': '/aktien/', 'methodik': '/methodik/', 'datenschutz': '/datenschutz/', 'impressum': '/impressum/'}
 META = {
  'start': ('Vermögensrechner: Zinseszins, Sparplan, Säule 3a, Bitcoin und ETFs',
            'Gratis-Rechner für die Schweiz: Zinseszins, Sparplan-Simulation, Säule 3a mit Steuern und Anbieter-Vergleich, Bitcoin-Kurs und ETF-Tracker.'),
@@ -22,6 +22,8 @@ META = {
          'Aktueller Bitcoin-Kurs in Schweizer Franken und Kursverlauf von einem Tag bis zehn Jahre.'),
  'etf': ('ETF-Tracker: 26 beliebte ETFs mit Kursverlauf | Vermögensrechner',
          'Kurse und Kursverlauf von 26 beliebten ETFs, darunter VTI, VOO, QQQ, GLD sowie Schweizer und europäische Fonds.'),
+ 'aktien': ('Aktien: Geschäftsberichte, Quartalsberichte und Kennzahlen | Vermögensrechner',
+           'Aktuelle Geschäfts- und Quartalsberichte sowie Kennzahlen börsenkotierter Unternehmen aus SEC EDGAR, zum Start Palantir.'),
  'methodik': ('Methodik und Annahmen | Vermögensrechner',
               'Wie die Rechner arbeiten: Annahmen, Steuerlogik der Säule 3a, Datenquellen und Grenzen des Anbieter-Vergleichs.'),
  'datenschutz': ('Datenschutz | Vermögensrechner', 'Welche Daten bei der Nutzung anfallen und wohin sie gehen.'),
