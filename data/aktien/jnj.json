@@ -6,7 +6,7 @@
  "rank": 18,
  "source": "SEC EDGAR",
  "fiscal_year_end": "0103",
- "updated_at": "2026-10-16T16:00:16Z",
+ "updated_at": "2026-10-16T19:25:47Z",
  "periodic_accs": [
   "0000200406-18-000041",
   "0000200406-18-000055",
@@ -2508,6 +2508,18 @@
    "url": "https://www.sec.gov/Archives/edgar/data/200406/000020040626000004/"
   },
   {
+   "acc": "0001193125-25-303876",
+   "date": "2025-11-26",
+   "name": "JOHNSON & JOHNSON",
+   "role": "10%-Aktionär",
+   "code": "S",
+   "shares": 6337.0,
+   "price": 10.03,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/200406/000119312525303876/"
+  },
+  {
    "acc": "0000200406-25-000211",
    "date": "2025-11-26",
    "name": "MORIKIS JOHN G",
@@ -2518,6 +2530,90 @@
    "ad": "A",
    "plan_10b5_1": false,
    "url": "https://www.sec.gov/Archives/edgar/data/200406/000020040625000211/"
+  },
+  {
+   "acc": "0001193125-25-296047",
+   "date": "2025-11-24",
+   "name": "JOHNSON & JOHNSON",
+   "role": "10%-Aktionär",
+   "code": "S",
+   "shares": 2200.0,
+   "price": 10.06,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/200406/000119312525296047/"
+  },
+  {
+   "acc": "0001193125-25-296047",
+   "date": "2025-11-21",
+   "name": "JOHNSON & JOHNSON",
+   "role": "10%-Aktionär",
+   "code": "S",
+   "shares": 500.0,
+   "price": 10.0,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/200406/000119312525296047/"
+  },
+  {
+   "acc": "0001193125-25-282669",
+   "date": "2025-11-12",
+   "name": "JOHNSON & JOHNSON",
+   "role": "10%-Aktionär",
+   "code": "S",
+   "shares": 1000.0,
+   "price": 10.0,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/200406/000119312525282669/"
+  },
+  {
+   "acc": "0001193125-25-274067",
+   "date": "2025-11-07",
+   "name": "JOHNSON & JOHNSON",
+   "role": "10%-Aktionär",
+   "code": "S",
+   "shares": 200.0,
+   "price": 10.0,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/200406/000119312525274067/"
+  },
+  {
+   "acc": "0001193125-25-274067",
+   "date": "2025-11-06",
+   "name": "JOHNSON & JOHNSON",
+   "role": "10%-Aktionär",
+   "code": "S",
+   "shares": 52332.0,
+   "price": 10.21,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/200406/000119312525274067/"
+  },
+  {
+   "acc": "0000200406-25-000204",
+   "date": "2025-10-17",
+   "name": "REED JOHN C",
+   "role": "EVP, Innovative Medicine, R&D",
+   "code": "M",
+   "shares": 21721.0,
+   "price": 157.92,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/200406/000020040625000204/"
+  },
+  {
+   "acc": "0000200406-25-000204",
+   "date": "2025-10-17",
+   "name": "REED JOHN C",
+   "role": "EVP, Innovative Medicine, R&D",
+   "code": "S",
+   "shares": 21721.0,
+   "price": 192.7072,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/200406/000020040625000204/"
   }
  ]
 }

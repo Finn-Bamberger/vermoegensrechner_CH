@@ -6,7 +6,7 @@
  "rank": 61,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1003",
- "updated_at": "2026-10-16T16:09:09Z",
+ "updated_at": "2026-10-16T19:31:02Z",
  "periodic_accs": [
   "0001193125-23-014219",
   "0001744489-20-000046",
@@ -2202,6 +2202,42 @@
    "url": "https://www.sec.gov/Archives/edgar/data/1744489/000162828025057069/"
   },
   {
+   "acc": "0001628280-25-043772",
+   "date": "2025-09-30",
+   "name": "Froman Michael B. G.",
+   "role": "Director",
+   "code": "A",
+   "shares": 869.2,
+   "price": 113.73,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1744489/000162828025043772/"
+  },
+  {
+   "acc": "0001628280-25-043771",
+   "date": "2025-09-30",
+   "name": "Rice Derica W",
+   "role": "Director",
+   "code": "A",
+   "shares": 947.9,
+   "price": 113.73,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1744489/000162828025043771/"
+  },
+  {
+   "acc": "0001628280-25-043770",
+   "date": "2025-09-30",
+   "name": "MCDONALD CALVIN",
+   "role": "Director",
+   "code": "A",
+   "shares": 844.4,
+   "price": 113.73,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1744489/000162828025043770/"
+  },
+  {
    "acc": "0001628280-25-043778",
    "date": "2025-09-30",
    "name": "Chang Amy",
@@ -2272,6 +2308,78 @@
    "ad": "A",
    "plan_10b5_1": false,
    "url": "https://www.sec.gov/Archives/edgar/data/1744489/000162828025043773/"
+  },
+  {
+   "acc": "0001628280-25-043216",
+   "date": "2025-09-28",
+   "name": "Schake Kristina K",
+   "role": "Sr. EVP and Chief Comm Officer",
+   "code": "M",
+   "shares": 249.0,
+   "price": null,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1744489/000162828025043216/"
+  },
+  {
+   "acc": "0001628280-25-043216",
+   "date": "2025-09-28",
+   "name": "Schake Kristina K",
+   "role": "Sr. EVP and Chief Comm Officer",
+   "code": "F",
+   "shares": 90.0,
+   "price": 113.165,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1744489/000162828025043216/"
+  },
+  {
+   "acc": "0001628280-25-043216",
+   "date": "2025-09-28",
+   "name": "Schake Kristina K",
+   "role": "Sr. EVP and Chief Comm Officer",
+   "code": "M",
+   "shares": 45.0,
+   "price": null,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1744489/000162828025043216/"
+  },
+  {
+   "acc": "0001628280-25-043216",
+   "date": "2025-09-28",
+   "name": "Schake Kristina K",
+   "role": "Sr. EVP and Chief Comm Officer",
+   "code": "F",
+   "shares": 17.0,
+   "price": 113.165,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1744489/000162828025043216/"
+  },
+  {
+   "acc": "0001628280-25-042639",
+   "date": "2025-09-23",
+   "name": "WOODFORD BRENT",
+   "role": "EVP, Control, Fin Plan & Tax",
+   "code": "M",
+   "shares": 1085.0,
+   "price": null,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1744489/000162828025042639/"
+  },
+  {
+   "acc": "0001628280-25-042639",
+   "date": "2025-09-23",
+   "name": "WOODFORD BRENT",
+   "role": "EVP, Control, Fin Plan & Tax",
+   "code": "F",
+   "shares": 294.0,
+   "price": 112.61,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1744489/000162828025042639/"
   }
  ]
 }

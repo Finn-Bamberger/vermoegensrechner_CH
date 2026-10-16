@@ -6,7 +6,7 @@
  "rank": 63,
  "source": "SEC EDGAR",
  "fiscal_year_end": "0927",
- "updated_at": "2026-10-16T16:09:37Z",
+ "updated_at": "2026-10-16T19:31:20Z",
  "periodic_accs": [
   "0000804328-22-000021",
   "0000804328-23-000006",
@@ -3588,6 +3588,30 @@
    "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432825000061/"
   },
   {
+   "acc": "0000804328-25-000058",
+   "date": "2025-09-30",
+   "name": "TRICOIRE JEAN-PASCAL",
+   "role": "Director",
+   "code": "A",
+   "shares": 202.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432825000058/"
+  },
+  {
+   "acc": "0000804328-25-000057",
+   "date": "2025-09-30",
+   "name": "Young Christopher David",
+   "role": "Director",
+   "code": "A",
+   "shares": 172.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432825000057/"
+  },
+  {
    "acc": "0000804328-25-000060",
    "date": "2025-09-30",
    "name": "MCLAUGHLIN MARK D",
@@ -3610,6 +3634,30 @@
    "ad": "A",
    "plan_10b5_1": false,
    "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432825000059/"
+  },
+  {
+   "acc": "0000804328-25-000056",
+   "date": "2025-09-22",
+   "name": "Grech Patricia Y",
+   "role": "SVP & CAO",
+   "code": "S",
+   "shares": 201.0,
+   "price": 170.0,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432825000056/"
+  },
+  {
+   "acc": "0000804328-25-000055",
+   "date": "2025-09-12",
+   "name": "Grech Patricia Y",
+   "role": "SVP & CAO",
+   "code": "S",
+   "shares": 273.0,
+   "price": 161.42,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432825000055/"
   }
  ]
 }

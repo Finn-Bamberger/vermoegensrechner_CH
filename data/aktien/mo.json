@@ -6,7 +6,7 @@
  "rank": 94,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-10-16T13:06:38Z",
+ "updated_at": "2026-10-16T19:35:18Z",
  "periodic_accs": [
   "0000764180-14-000059",
   "0000764180-14-000063",
@@ -809,6 +809,18 @@
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0000764180-26-000108",
+   "date": "2026-10-14",
+   "name": "Patterson Katie F",
+   "role": "Vice President and Controller",
+   "code": "F",
+   "shares": 1268.0,
+   "price": 71.56,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/764180/000076418026000108/"
+  },
   {
    "acc": "0000764180-26-000102",
    "date": "2026-09-09",

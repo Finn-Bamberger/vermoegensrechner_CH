@@ -6,7 +6,7 @@
  "rank": 64,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-10-16T16:09:52Z",
+ "updated_at": "2026-10-16T19:31:24Z",
  "periodic_accs": [
   "0001047469-19-000624",
   "0001104659-18-048736",
@@ -1534,6 +1534,18 @@
    "ad": "D",
    "plan_10b5_1": false,
    "url": "https://www.sec.gov/Archives/edgar/data/1800/000162056425000009/"
+  },
+  {
+   "acc": "0002058129-25-000009",
+   "date": "2025-11-25",
+   "name": "Shroff Eric",
+   "role": "Senior Vice President",
+   "code": "S",
+   "shares": 1586.0,
+   "price": 128.0218,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1800/000205812925000009/"
   }
  ]
 }

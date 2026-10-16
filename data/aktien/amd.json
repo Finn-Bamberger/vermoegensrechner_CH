@@ -6,7 +6,7 @@
  "rank": 13,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1226",
- "updated_at": "2026-10-16T15:59:20Z",
+ "updated_at": "2026-10-16T19:25:11Z",
  "periodic_accs": [
   "0000002488-18-000042",
   "0000002488-18-000068",
@@ -4593,6 +4593,66 @@
    "ad": "D",
    "plan_10b5_1": true,
    "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248825000159/"
+  },
+  {
+   "acc": "0000002488-25-000157",
+   "date": "2025-10-06",
+   "name": "Hahn Ava",
+   "role": "SVP, GC & Corporate Secretary",
+   "code": "S",
+   "shares": 2868.0,
+   "price": 226.01,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248825000157/"
+  },
+  {
+   "acc": "0000002488-25-000155",
+   "date": "2025-09-24",
+   "name": "Norrod Forrest Eugene",
+   "role": "EVP & GM DESG",
+   "code": "S",
+   "shares": 2250.0,
+   "price": 165.01,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248825000155/"
+  },
+  {
+   "acc": "0000002488-25-000153",
+   "date": "2025-09-15",
+   "name": "Papermaster Mark D",
+   "role": "Chief Technology Officer & EVP",
+   "code": "M",
+   "shares": 16800.0,
+   "price": 34.19,
+   "ad": "A",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248825000153/"
+  },
+  {
+   "acc": "0000002488-25-000153",
+   "date": "2025-09-15",
+   "name": "Papermaster Mark D",
+   "role": "Chief Technology Officer & EVP",
+   "code": "S",
+   "shares": 13624.0,
+   "price": 159.08,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248825000153/"
+  },
+  {
+   "acc": "0000002488-25-000153",
+   "date": "2025-09-15",
+   "name": "Papermaster Mark D",
+   "role": "Chief Technology Officer & EVP",
+   "code": "S",
+   "shares": 3176.0,
+   "price": 159.7,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248825000153/"
   }
  ]
 }

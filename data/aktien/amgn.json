@@ -6,7 +6,7 @@
  "rank": 51,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-10-16T16:06:20Z",
+ "updated_at": "2026-10-16T19:29:52Z",
  "periodic_accs": [
   "0000318154-18-000015",
   "0000318154-18-000022",
@@ -2185,6 +2185,18 @@
    "url": "https://www.sec.gov/Archives/edgar/data/318154/000031815425000083/"
   },
   {
+   "acc": "0000318154-25-000080",
+   "date": "2025-11-12",
+   "name": "REESE DAVID M",
+   "role": "EVP & Chief Technology Officer",
+   "code": "G",
+   "shares": 309.0,
+   "price": 0.0,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/318154/000031815425000080/"
+  },
+  {
    "acc": "0000318154-25-000082",
    "date": "2025-11-12",
    "name": "Khosla Rachna",
@@ -2207,6 +2219,78 @@
    "ad": "D",
    "plan_10b5_1": false,
    "url": "https://www.sec.gov/Archives/edgar/data/318154/000031815425000081/"
+  },
+  {
+   "acc": "0000318154-25-000080",
+   "date": "2025-11-11",
+   "name": "REESE DAVID M",
+   "role": "EVP & Chief Technology Officer",
+   "code": "G",
+   "shares": 6490.0,
+   "price": 0.0,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/318154/000031815425000080/"
+  },
+  {
+   "acc": "0000318154-25-000079",
+   "date": "2025-11-07",
+   "name": "ISHRAK OMAR",
+   "role": "Director",
+   "code": "A",
+   "shares": 218.6134,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/318154/000031815425000079/"
+  },
+  {
+   "acc": "0000318154-25-000078",
+   "date": "2025-11-07",
+   "name": "HOLLEY CHARLES M",
+   "role": "Director",
+   "code": "A",
+   "shares": 265.4591,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/318154/000031815425000078/"
+  },
+  {
+   "acc": "0000318154-25-000077",
+   "date": "2025-11-07",
+   "name": "Drake Michael V",
+   "role": "Director",
+   "code": "A",
+   "shares": 218.6134,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/318154/000031815425000077/"
+  },
+  {
+   "acc": "0000318154-25-000076",
+   "date": "2025-11-05",
+   "name": "Khosla Rachna",
+   "role": "SVP, Business Development",
+   "code": "F",
+   "shares": 226.0,
+   "price": 296.7,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/318154/000031815425000076/"
+  },
+  {
+   "acc": "0000318154-25-000075",
+   "date": "2025-11-05",
+   "name": "Busch Matthew C.",
+   "role": "VP, Finance & CAO",
+   "code": "F",
+   "shares": 202.0,
+   "price": 296.7,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/318154/000031815425000075/"
   }
  ]
 }

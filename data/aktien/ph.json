@@ -6,7 +6,7 @@
  "rank": 97,
  "source": "SEC EDGAR",
  "fiscal_year_end": "0630",
- "updated_at": "2026-10-16T16:16:11Z",
+ "updated_at": "2026-10-16T19:35:46Z",
  "periodic_accs": [
   "0000076334-17-000132",
   "0000076334-18-000011",
@@ -2468,6 +2468,42 @@
    "ad": "D",
    "plan_10b5_1": false,
    "url": "https://www.sec.gov/Archives/edgar/data/76334/000007633425000073/"
+  },
+  {
+   "acc": "0000076334-25-000054",
+   "date": "2025-10-22",
+   "name": "Thompson Laura K",
+   "role": "Director",
+   "code": "A",
+   "shares": 258.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/76334/000007633425000054/"
+  },
+  {
+   "acc": "0000076334-25-000053",
+   "date": "2025-10-22",
+   "name": "Verrier James",
+   "role": "Director",
+   "code": "A",
+   "shares": 258.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/76334/000007633425000053/"
+  },
+  {
+   "acc": "0000076334-25-000052",
+   "date": "2025-10-22",
+   "name": "WAINSCOTT JAMES L",
+   "role": "Director",
+   "code": "A",
+   "shares": 258.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/76334/000007633425000052/"
   },
   {
    "acc": "0000076334-25-000060",

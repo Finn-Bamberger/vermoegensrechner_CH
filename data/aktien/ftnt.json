@@ -6,7 +6,7 @@
  "rank": 87,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-10-16T16:14:23Z",
+ "updated_at": "2026-10-16T19:34:25Z",
  "periodic_accs": [
   "0001174947-18-000697",
   "0001262039-18-000009",
@@ -2904,6 +2904,42 @@
    "ad": "D",
    "plan_10b5_1": false,
    "url": "https://www.sec.gov/Archives/edgar/data/1262039/000147633625000004/"
+  },
+  {
+   "acc": "0001218470-25-000009",
+   "date": "2025-09-30",
+   "name": "GOLDMAN KENNETH A",
+   "role": "Director",
+   "code": "M",
+   "shares": 649.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1262039/000121847025000009/"
+  },
+  {
+   "acc": "0001661859-25-000004",
+   "date": "2025-09-30",
+   "name": "STAVRIDIS JAMES G.",
+   "role": "Director",
+   "code": "M",
+   "shares": 649.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1262039/000166185925000004/"
+  },
+  {
+   "acc": "0001821008-25-000004",
+   "date": "2025-09-30",
+   "name": "Napolitano Janet",
+   "role": "Director",
+   "code": "M",
+   "shares": 649.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1262039/000182100825000004/"
   },
   {
    "acc": "0001302110-25-000008",

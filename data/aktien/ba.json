@@ -6,7 +6,7 @@
  "rank": 81,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-10-16T16:13:17Z",
+ "updated_at": "2026-10-16T19:33:29Z",
  "periodic_accs": [
   "0000012927-19-000030",
   "0000012927-19-000063",
@@ -1442,6 +1442,90 @@
    "ad": "D",
    "plan_10b5_1": false,
    "url": "https://www.sec.gov/Archives/edgar/data/12927/000122520826001369/"
+  },
+  {
+   "acc": "0001225208-26-000156",
+   "date": "2025-12-31",
+   "name": "DEASY DANA S",
+   "role": "CIDO, SVP IDT&S",
+   "code": "D",
+   "shares": 4246.907,
+   "price": 217.73,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/12927/000122520826000156/"
+  },
+  {
+   "acc": "0001225208-25-009637",
+   "date": "2025-12-01",
+   "name": "DEASY DANA S",
+   "role": "CIDO, SVP IDT&S",
+   "code": "F",
+   "shares": 257.061,
+   "price": 188.18,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/12927/000122520825009637/"
+  },
+  {
+   "acc": "0001225208-25-009636",
+   "date": "2025-12-01",
+   "name": "Cleary Michael J",
+   "role": "Controller",
+   "code": "F",
+   "shares": 176.846,
+   "price": 188.18,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/12927/000122520825009636/"
+  },
+  {
+   "acc": "0001225208-25-009635",
+   "date": "2025-12-01",
+   "name": "Ortberg Robert Kelly",
+   "role": "President & CEO",
+   "code": "F",
+   "shares": 1591.845,
+   "price": 188.18,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/12927/000122520825009635/"
+  },
+  {
+   "acc": "0001225208-25-009634",
+   "date": "2025-12-01",
+   "name": "McKenzie Howard E",
+   "role": "Chief Engineer & EVP, ET&T",
+   "code": "F",
+   "shares": 93.881,
+   "price": 188.18,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/12927/000122520825009634/"
+  },
+  {
+   "acc": "0001225208-25-009633",
+   "date": "2025-12-01",
+   "name": "Raymond David Christopher",
+   "role": "EVP, Pres. & CEO, BGS",
+   "code": "F",
+   "shares": 64.637,
+   "price": 188.18,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/12927/000122520825009633/"
+  },
+  {
+   "acc": "0001225208-25-009632",
+   "date": "2025-12-01",
+   "name": "Pope Stephanie F",
+   "role": "EVP, Pres. & CEO, BCA",
+   "code": "F",
+   "shares": 369.532,
+   "price": 188.18,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/12927/000122520825009632/"
   }
  ]
 }

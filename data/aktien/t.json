@@ -6,7 +6,7 @@
  "rank": 78,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-10-16T16:12:31Z",
+ "updated_at": "2026-10-16T19:33:07Z",
  "periodic_accs": [
   "0000732717-22-000093",
   "0000732717-22-000102",
@@ -1057,6 +1057,18 @@
    "url": "https://www.sec.gov/Archives/edgar/data/732717/000073271726000227/"
   },
   {
+   "acc": "0000732717-26-000192",
+   "date": "2026-03-31",
+   "name": "Desroches Pascal",
+   "role": "Sr. Exec VP and CFO",
+   "code": "A",
+   "shares": 121297.575,
+   "price": 28.99,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/732717/000073271726000192/"
+  },
+  {
    "acc": "0000732717-26-000195",
    "date": "2026-03-31",
    "name": "Sabrina Sanders S",
@@ -1091,6 +1103,114 @@
    "ad": "A",
    "plan_10b5_1": false,
    "url": "https://www.sec.gov/Archives/edgar/data/732717/000073271726000193/"
+  },
+  {
+   "acc": "0000732717-26-000187",
+   "date": "2026-03-10",
+   "name": "Sabrina Sanders S",
+   "role": "SVP-ChiefActngOfcr&Controller",
+   "code": "F",
+   "shares": 1137.096,
+   "price": 28.98,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/732717/000073271726000187/"
+  },
+  {
+   "acc": "0000732717-26-000186",
+   "date": "2026-03-10",
+   "name": "McElfresh Jeffery S.",
+   "role": "Chief Operating Officer",
+   "code": "F",
+   "shares": 3389.769,
+   "price": 28.98,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/732717/000073271726000186/"
+  },
+  {
+   "acc": "0000732717-26-000185",
+   "date": "2026-03-10",
+   "name": "Lee Lori M",
+   "role": "Global Mktg Ofr & SEVP Intl",
+   "code": "F",
+   "shares": 1230.676,
+   "price": 28.98,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/732717/000073271726000185/"
+  },
+  {
+   "acc": "0000732717-26-000185",
+   "date": "2026-03-10",
+   "name": "Lee Lori M",
+   "role": "Global Mktg Ofr & SEVP Intl",
+   "code": "G",
+   "shares": 2094.0,
+   "price": 0.0,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/732717/000073271726000185/"
+  },
+  {
+   "acc": "0000732717-26-000185",
+   "date": "2026-03-10",
+   "name": "Lee Lori M",
+   "role": "Global Mktg Ofr & SEVP Intl",
+   "code": "G",
+   "shares": 2094.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/732717/000073271726000185/"
+  },
+  {
+   "acc": "0000732717-26-000184",
+   "date": "2026-03-10",
+   "name": "Desroches Pascal",
+   "role": "Sr. Exec VP and CFO",
+   "code": "F",
+   "shares": 52252.475,
+   "price": 28.98,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/732717/000073271726000184/"
+  },
+  {
+   "acc": "0000732717-26-000179",
+   "date": "2026-02-28",
+   "name": "Sabrina Sanders S",
+   "role": "SVP-ChiefActngOfcr&Controller",
+   "code": "A",
+   "shares": 111.388,
+   "price": 28.01,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/732717/000073271726000179/"
+  },
+  {
+   "acc": "0000732717-26-000178",
+   "date": "2026-02-28",
+   "name": "McElfresh Jeffery S.",
+   "role": "Chief Operating Officer",
+   "code": "A",
+   "shares": 278.47,
+   "price": 28.01,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/732717/000073271726000178/"
+  },
+  {
+   "acc": "0000732717-26-000177",
+   "date": "2026-02-28",
+   "name": "Lee Lori M",
+   "role": "Global Mktg Ofr & SEVP Intl",
+   "code": "A",
+   "shares": 200.5,
+   "price": 28.01,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/732717/000073271726000177/"
   }
  ]
 }

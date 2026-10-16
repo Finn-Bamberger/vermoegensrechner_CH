@@ -6,7 +6,7 @@
  "rank": 39,
  "source": "SEC EDGAR",
  "fiscal_year_end": "0131",
- "updated_at": "2026-10-16T16:03:40Z",
+ "updated_at": "2026-10-16T19:28:14Z",
  "periodic_accs": [
   "0000354950-18-000019",
   "0000354950-18-000034",
@@ -1661,6 +1661,66 @@
    "url": "https://www.sec.gov/Archives/edgar/data/354950/000035495025000242/"
   },
   {
+   "acc": "0000354950-25-000232",
+   "date": "2025-09-22",
+   "name": "Broggi Jordan",
+   "role": "EVP-Cust. Exp. & Pres.-Online",
+   "code": "F",
+   "shares": 110.0,
+   "price": 412.0,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/354950/000035495025000232/"
+  },
+  {
+   "acc": "0000354950-25-000231",
+   "date": "2025-09-22",
+   "name": "Deaton John A.",
+   "role": "EVP - Supply Chain & Prod. Dev",
+   "code": "F",
+   "shares": 455.0,
+   "price": 412.0,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/354950/000035495025000231/"
+  },
+  {
+   "acc": "0000354950-25-000230",
+   "date": "2025-09-22",
+   "name": "Scardino Kimberly R",
+   "role": "SVP-Finance, CAO & Controller",
+   "code": "F",
+   "shares": 147.0,
+   "price": 412.0,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/354950/000035495025000230/"
+  },
+  {
+   "acc": "0000354950-25-000229",
+   "date": "2025-09-22",
+   "name": "McPhail Richard V",
+   "role": "EVP & CFO",
+   "code": "F",
+   "shares": 692.0,
+   "price": 412.0,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/354950/000035495025000229/"
+  },
+  {
+   "acc": "0000354950-25-000228",
+   "date": "2025-09-22",
+   "name": "Bastek William D",
+   "role": "EVP, Merchandising",
+   "code": "F",
+   "shares": 201.0,
+   "price": 412.0,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/354950/000035495025000228/"
+  },
+  {
    "acc": "0000354950-25-000234",
    "date": "2025-09-22",
    "name": "SMITH STEPHANIE",
@@ -1683,6 +1743,30 @@
    "ad": "D",
    "plan_10b5_1": false,
    "url": "https://www.sec.gov/Archives/edgar/data/354950/000035495025000233/"
+  },
+  {
+   "acc": "0000354950-25-000220",
+   "date": "2025-09-12",
+   "name": "Bastek William D",
+   "role": "EVP, Merchandising",
+   "code": "M",
+   "shares": 2303.0,
+   "price": 147.36,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/354950/000035495025000220/"
+  },
+  {
+   "acc": "0000354950-25-000220",
+   "date": "2025-09-12",
+   "name": "Bastek William D",
+   "role": "EVP, Merchandising",
+   "code": "S",
+   "shares": 2303.0,
+   "price": 423.12,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/354950/000035495025000220/"
   }
  ]
 }

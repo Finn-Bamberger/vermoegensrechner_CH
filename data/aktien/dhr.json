@@ -6,7 +6,7 @@
  "rank": 77,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-10-16T16:12:16Z",
+ "updated_at": "2026-10-16T19:32:53Z",
  "periodic_accs": [
   "0000313616-20-000093",
   "0000313616-20-000120",
@@ -1415,6 +1415,54 @@
    "url": "https://www.sec.gov/Archives/edgar/data/313616/000031361626000060/"
   },
   {
+   "acc": "0000313616-26-000052",
+   "date": "2026-02-04",
+   "name": "Sawyer Montgomery Julie A",
+   "role": "Executive Vice President",
+   "code": "A",
+   "shares": 848.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/313616/000031361626000052/"
+  },
+  {
+   "acc": "0000313616-26-000051",
+   "date": "2026-02-04",
+   "name": "Blair Rainer",
+   "role": "President & CEO",
+   "code": "A",
+   "shares": 8474.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/313616/000031361626000051/"
+  },
+  {
+   "acc": "0000313616-26-000050",
+   "date": "2026-02-04",
+   "name": "McGrew Matthew",
+   "role": "EVP & Chief Financial Officer",
+   "code": "A",
+   "shares": 2684.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/313616/000031361626000050/"
+  },
+  {
+   "acc": "0000313616-26-000049",
+   "date": "2026-02-04",
+   "name": "Milosevich Gregory M",
+   "role": "Executive Vice President",
+   "code": "A",
+   "shares": 679.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/313616/000031361626000049/"
+  },
+  {
    "acc": "0000313616-26-000056",
    "date": "2026-02-04",
    "name": "Riley Christopher Paul",
@@ -1461,6 +1509,66 @@
    "ad": "A",
    "plan_10b5_1": false,
    "url": "https://www.sec.gov/Archives/edgar/data/313616/000031361626000053/"
+  },
+  {
+   "acc": "0000313616-26-000040",
+   "date": "2026-02-02",
+   "name": "Gutierrez-Ramos Jose-Carlos",
+   "role": "SVP, Chief Science Officer",
+   "code": "F",
+   "shares": 852.0,
+   "price": 223.42,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/313616/000031361626000040/"
+  },
+  {
+   "acc": "0000313616-26-000039",
+   "date": "2026-02-02",
+   "name": "Ellis Brian W",
+   "role": "Senior Vice President - GC",
+   "code": "F",
+   "shares": 1254.0,
+   "price": 223.42,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/313616/000031361626000039/"
+  },
+  {
+   "acc": "0000313616-26-000036",
+   "date": "2026-02-02",
+   "name": "McGrew Matthew",
+   "role": "EVP & Chief Financial Officer",
+   "code": "F",
+   "shares": 1856.0,
+   "price": 223.42,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/313616/000031361626000036/"
+  },
+  {
+   "acc": "0000313616-26-000031",
+   "date": "2026-02-02",
+   "name": "Riley Christopher Paul",
+   "role": "Executive Vice President",
+   "code": "F",
+   "shares": 640.0,
+   "price": 223.42,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/313616/000031361626000031/"
+  },
+  {
+   "acc": "0000313616-26-000030",
+   "date": "2026-02-02",
+   "name": "Blair Rainer",
+   "role": "President & CEO",
+   "code": "F",
+   "shares": 7750.0,
+   "price": 223.42,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/313616/000031361626000030/"
   }
  ]
 }

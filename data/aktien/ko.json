@@ -6,7 +6,7 @@
  "rank": 27,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-10-16T16:01:33Z",
+ "updated_at": "2026-10-16T19:26:38Z",
  "periodic_accs": [
   "0000021344-18-000023",
   "0000021344-18-000032",
@@ -1916,6 +1916,126 @@
    "ad": "D",
    "plan_10b5_1": false,
    "url": "https://www.sec.gov/Archives/edgar/data/21344/000002134425000086/"
+  },
+  {
+   "acc": "0000021344-25-000084",
+   "date": "2025-11-11",
+   "name": "Braun Henrique",
+   "role": "EVP & Chief Operating Officer",
+   "code": "M",
+   "shares": 50545.0,
+   "price": 43.515,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000002134425000084/"
+  },
+  {
+   "acc": "0000021344-25-000084",
+   "date": "2025-11-11",
+   "name": "Braun Henrique",
+   "role": "EVP & Chief Operating Officer",
+   "code": "S",
+   "shares": 40390.0,
+   "price": 70.9313,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000002134425000084/"
+  },
+  {
+   "acc": "0001193125-25-274202",
+   "date": "2025-11-07",
+   "name": "COCA COLA CO",
+   "role": "10%-Aktionär",
+   "code": "S",
+   "shares": 18835460.0,
+   "price": 127.0,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000119312525274202/"
+  },
+  {
+   "acc": "0000021344-25-000079",
+   "date": "2025-10-29",
+   "name": "MURPHY JOHN",
+   "role": "President and CFO",
+   "code": "G",
+   "shares": 33000.0,
+   "price": 0.0,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000002134425000079/"
+  },
+  {
+   "acc": "0000021344-25-000077",
+   "date": "2025-10-24",
+   "name": "Douglas Monica Howard",
+   "role": "Executive Vice President",
+   "code": "M",
+   "shares": 5435.0,
+   "price": 43.515,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000002134425000077/"
+  },
+  {
+   "acc": "0000021344-25-000077",
+   "date": "2025-10-24",
+   "name": "Douglas Monica Howard",
+   "role": "Executive Vice President",
+   "code": "M",
+   "shares": 8113.0,
+   "price": 40.89,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000002134425000077/"
+  },
+  {
+   "acc": "0000021344-25-000077",
+   "date": "2025-10-24",
+   "name": "Douglas Monica Howard",
+   "role": "Executive Vice President",
+   "code": "S",
+   "shares": 13548.0,
+   "price": 69.9339,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000002134425000077/"
+  },
+  {
+   "acc": "0000021344-25-000075",
+   "date": "2025-10-24",
+   "name": "Levchin Max R",
+   "role": "Director",
+   "code": "P",
+   "shares": 7206.0,
+   "price": 69.8706,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000002134425000075/"
+  },
+  {
+   "acc": "0000021344-25-000075",
+   "date": "2025-10-23",
+   "name": "Levchin Max R",
+   "role": "Director",
+   "code": "P",
+   "shares": 2864.0,
+   "price": 69.8721,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000002134425000075/"
+  },
+  {
+   "acc": "0000021344-25-000075",
+   "date": "2025-10-23",
+   "name": "Levchin Max R",
+   "role": "Director",
+   "code": "P",
+   "shares": 4197.0,
+   "price": 70.3062,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000002134425000075/"
   }
  ]
 }

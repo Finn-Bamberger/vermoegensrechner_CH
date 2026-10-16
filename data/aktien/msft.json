@@ -6,7 +6,7 @@
  "rank": 4,
  "source": "SEC EDGAR",
  "fiscal_year_end": "0630",
- "updated_at": "2026-10-16T15:58:03Z",
+ "updated_at": "2026-10-16T19:24:16Z",
  "periodic_accs": [
   "0000950170-23-014423",
   "0000950170-23-035122",
@@ -1438,6 +1438,42 @@
    "ad": "D",
    "plan_10b5_1": false,
    "url": "https://www.sec.gov/Archives/edgar/data/789019/000078901926000109/"
+  },
+  {
+   "acc": "0000789019-26-000104",
+   "date": "2026-06-05",
+   "name": "SCHARF CHARLES W",
+   "role": "Director",
+   "code": "A",
+   "shares": 149.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000078901926000104/"
+  },
+  {
+   "acc": "0000789019-26-000102",
+   "date": "2026-06-05",
+   "name": "List Teri",
+   "role": "Director",
+   "code": "A",
+   "shares": 149.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000078901926000102/"
+  },
+  {
+   "acc": "0000789019-26-000100",
+   "date": "2026-06-05",
+   "name": "STANTON JOHN W",
+   "role": "Director",
+   "code": "A",
+   "shares": 149.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000078901926000100/"
   }
  ]
 }

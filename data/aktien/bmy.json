@@ -6,7 +6,7 @@
  "rank": 96,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-10-16T16:15:57Z",
+ "updated_at": "2026-10-16T19:35:34Z",
  "periodic_accs": [
   "0000014272-19-000107",
   "0000014272-19-000160",
@@ -2421,6 +2421,30 @@
    "ad": "D",
    "plan_10b5_1": false,
    "url": "https://www.sec.gov/Archives/edgar/data/14272/000191732525000004/"
+  },
+  {
+   "acc": "0001995058-25-000004",
+   "date": "2025-10-02",
+   "name": "Gallman Cari",
+   "role": "EVP, General Counsel",
+   "code": "M",
+   "shares": 4558.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/14272/000199505825000004/"
+  },
+  {
+   "acc": "0001995058-25-000004",
+   "date": "2025-10-02",
+   "name": "Gallman Cari",
+   "role": "EVP, General Counsel",
+   "code": "F",
+   "shares": 2332.0,
+   "price": 45.73,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/14272/000199505825000004/"
   }
  ]
 }
