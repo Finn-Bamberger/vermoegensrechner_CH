@@ -290,6 +290,8 @@ ul.breaks { margin: 0; padding-left: 1.2em; display: flex; flex-direction: colum
 .chip { display: flex; flex-direction: column; align-items: flex-start; gap: 2px; text-align: left; font: inherit; color: var(--ink); background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 8px 12px; cursor: pointer; max-width: 100%; }
 .chip b { font: 600 0.92rem var(--f-num); }
 .chip span { font-size: 0.75rem; color: var(--muted); }
+ul.qs { margin: 0; padding-left: 1.2em; max-width: 78ch; }
+ul.qs li { margin: 0 0 8px; }
 .fl { list-style: none; margin: 0 0 8px; padding: 0; }
 .fl li { padding: 8px 0; border-bottom: 1px solid var(--line); }
 .fl-d { display: inline-block; min-width: 6.2em; color: var(--muted); font-family: var(--f-num); font-size: 0.88rem; }
@@ -380,8 +382,8 @@ ul.breaks { margin: 0; padding-left: 1.2em; display: flex; flex-direction: colum
     <div class="wrap">
       <div class="pagehead">
         <p class="eyebrow">Unternehmen</p>
-        <h1>Aktien: Berichte und Kennzahlen</h1>
-        <p class="lede">Aktuelle Geschäftsberichte, Quartalsberichte und Meldungen börsenkotierter Unternehmen, direkt aus den offiziellen Einreichungen bei der US-Börsenaufsicht SEC. Wähle ein Unternehmen aus.</p>
+        <h1>Aktien: Zahlen für deine Entscheidung</h1>
+        <p class="lede">Die wichtigsten Zahlen, Berichte und Insider-Meldungen börsenkotierter Unternehmen, direkt aus den offiziellen Einreichungen bei der US-Börsenaufsicht SEC. Du erhältst Fakten und Rechenhilfen, keine Empfehlung. Wähle ein Unternehmen aus.</p>
       </div>
       <div class="results">
         <div class="chips" id="ak-tabs" role="group" aria-label="Unternehmen"></div>
@@ -396,7 +398,7 @@ ul.breaks { margin: 0; padding-left: 1.2em; display: flex; flex-direction: colum
           <summary>Hinweise zu den Daten</summary>
           <ul>
             <li>Berichte und Zahlen stammen von SEC EDGAR (sec.gov) und werden automatisch etwa alle 30 Minuten geprüft. Neue Einreichungen erscheinen hier meist innert Stunden.</li>
-            <li>Beträge sind in US-Dollar und stammen aus den XBRL-Angaben der Unternehmen. Das vierte Quartal wird aus Jahres- und Neunmonatswerten abgeleitet. Alle Angaben ohne Gewähr; massgeblich sind die Originaldokumente bei der SEC.</li>
+            <li>Beträge sind in US-Dollar und stammen aus den XBRL-Angaben der Unternehmen. Der Kurs stammt von Stooq oder Yahoo Finance und wird einmal pro Handelstag gespeichert. Das vierte Quartal wird aus Jahres- und Neunmonatswerten abgeleitet. Alle Angaben ohne Gewähr; massgeblich sind die Originaldokumente bei der SEC.</li>
             <li>Die Berichte sind auf Englisch. Die Seite enthält keine Kaufs- oder Verkaufsempfehlungen und kein Ranking. Dies ist keine Anlageberatung. Kursentwicklung und Kennzahlen der Vergangenheit sagen nichts über die Zukunft.</li>
           </ul>
         </details>
@@ -1423,38 +1425,169 @@ function needed(sim, p, mit3a, target) {
       support_host: 'https://www.tradingview.com'
     });
   }
+  function akNum(x, dec) { return x == null || !isFinite(x) ? '–' : (x < 0 ? '−' : '') + Math.abs(x).toFixed(dec == null ? 1 : dec); }
+  function akPct(x) { return x == null || !isFinite(x) ? '–' : (x < 0 ? '−' : '') + Math.abs(x * 100).toFixed(1) + ' %'; }
+  function akFcf(x) { return x && x.op_cash_flow != null && x.capex != null ? x.op_cash_flow - x.capex : null; }
+  function akDiv(a, b) { return a != null && b != null && b !== 0 ? a / b : null; }
+  function akTtm(q) {
+    const l4 = q.filter(x => x.revenue != null).slice(-4);
+    if (l4.length < 4) return null;
+    for (let i = 1; i < 4; i++) { const gap = (Date.parse(l4[i].end) - Date.parse(l4[i - 1].end)) / 864e5; if (gap < 75 || gap > 105) return null; }
+    const sum = k => l4.every(x => x[k] != null) ? l4.reduce((s, x) => s + x[k], 0) : null;
+    const t = { end: l4[3].end };
+    ['revenue', 'operating_income', 'net_income', 'op_cash_flow', 'capex', 'sbc', 'gross_profit'].forEach(k => { t[k] = sum(k); });
+    t.fcf = akFcf(t);
+    return t;
+  }
+  // Szenario: Welche jährliche Rendite ergibt sich aus Annahmen? (reine Rechenhilfe, keine Prognose)
+  function akScenario(mcap, rev, g, margin, mult, years, dil) {
+    const fcfEnd = rev * Math.pow(1 + g, years) * margin;
+    const val = fcfEnd * mult / (mcap * Math.pow(1 + dil, years));
+    return val > 0 ? Math.pow(val, 1 / years) - 1 : null;
+  }
+  function akNeededGrowth(mcap, rev, target, margin, mult, years, dil) {
+    let lo = -0.5, hi = 2;
+    if (akScenario(mcap, rev, hi, margin, mult, years, dil) < target) return null;
+    for (let i = 0; i < 60; i++) { const mid = (lo + hi) / 2; const r = akScenario(mcap, rev, mid, margin, mult, years, dil); if (r == null || r < target) lo = mid; else hi = mid; }
+    return hi;
+  }
+  const AK_CODES = { S: 'Verkauf am Markt', P: 'Kauf am Markt', A: 'Aktienzuteilung', F: 'Steuerabzug in Aktien', M: 'Optionsausübung', G: 'Schenkung', C: 'Umwandlung', D: 'Rückgabe an Firma' };
   function renderAkBody(s, d) {
     const body = $('ak-body');
     if (!d || !d.updated_at) {
       body.innerHTML = '<section class="chartbox"><p>Die Berichtsdaten werden gerade zum ersten Mal geladen und erscheinen hier in Kürze. Die Originaldokumente findest du direkt bei der SEC:</p><p><a class="more" href="https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;CIK=' + esc(s.t) + '&amp;type=&amp;dateb=&amp;owner=include&amp;count=40" target="_blank" rel="noopener">Alle Einreichungen auf SEC EDGAR</a></p></section>';
       return;
     }
-    const q = d.quarters || [], a = d.annual || [], f = d.filings || [];
-    const lastQ = q[q.length - 1], prevY = q.filter(x => lastQ && x.end.slice(5) === lastQ.end.slice(5) && +x.end.slice(0, 4) === +lastQ.end.slice(0, 4) - 1)[0];
-    let html = '';
+    const q = d.quarters || [], a = d.annual || [], f = d.filings || [], ins = d.insiders || [];
+    const lastQ = q[q.length - 1], ttm = akTtm(q);
+    const sh = d.shares_outstanding, qt = d.quote;
+    const mcap = sh && qt ? sh.shares * qt.price : null;
+    const prevY = lastQ ? q.filter(x => x.end.slice(5) === lastQ.end.slice(5) && +x.end.slice(0, 4) === +lastQ.end.slice(0, 4) - 1)[0] : null;
+    const bsq = q.slice().reverse().filter(x => x.cash != null)[0];
+    const cashTot = bsq ? bsq.cash + (bsq.securities || 0) : null;
+    const debt = bsq && bsq.debt != null ? bsq.debt : null;
+    let h = '';
+    // 1 Kacheln
     if (lastQ) {
       const g = prevY && prevY.revenue ? (lastQ.revenue / prevY.revenue - 1) : null;
-      const marge = lastQ.revenue ? lastQ.operating_income / lastQ.revenue : null;
-      html += '<div class="stats">' +
+      h += '<div class="stats">' +
         stat('Umsatz ' + akQ(lastQ.end), 'USD ' + akMio(lastQ.revenue) + ' Mio.', g == null ? 'Vorjahr nicht verfügbar' : (g >= 0 ? '+' : '−') + pct1(Math.abs(g)) + ' gegenüber Vorjahresquartal') +
-        stat('Betriebsergebnis', 'USD ' + akMio(lastQ.operating_income) + ' Mio.', marge == null ? '' : 'Marge ' + pct1(marge)) +
+        stat('Betriebsergebnis', 'USD ' + akMio(lastQ.operating_income) + ' Mio.', lastQ.revenue ? 'Marge ' + pct1(lastQ.operating_income / lastQ.revenue) : '') +
         stat('Reingewinn', 'USD ' + akMio(lastQ.net_income) + ' Mio.', akQ(lastQ.end)) +
-        stat('Operativer Cashflow', 'USD ' + akMio(lastQ.op_cash_flow) + ' Mio.', akQ(lastQ.end)) + '</div>';
+        stat('Freier Cashflow', akFcf(lastQ) == null ? '–' : 'USD ' + akMio(akFcf(lastQ)) + ' Mio.', 'operativer Cashflow minus Investitionen, ' + akQ(lastQ.end)) + '</div>';
     }
-    const row = (lab, x) => '<tr><th scope="row">' + lab + '</th><td>' + akMio(x.revenue) + '</td><td>' + akMio(x.operating_income) + '</td><td>' + akMio(x.net_income) + '</td><td>' + akMio(x.op_cash_flow) + '</td></tr>';
-    const thead = '<thead><tr><th scope="col">Periode</th><th scope="col">Umsatz</th><th scope="col">Betriebsergebnis</th><th scope="col">Reingewinn</th><th scope="col">Op. Cashflow</th></tr></thead>';
-    if (q.length) html += '<section class="chartbox"><h2>Quartale</h2><div class="tablewrap"><table>' + thead + '<tbody>' + q.slice().reverse().map(x => row(akQ(x.end), x)).join('') + '</tbody></table></div><p class="cap">In Millionen US-Dollar. Das vierte Quartal ist aus den Jahreswerten abgeleitet.</p></section>';
-    if (a.length) html += '<section class="chartbox"><h2>Geschäftsjahre</h2><div class="tablewrap"><table>' + thead + '<tbody>' + a.slice().reverse().map(x => row('Geschäftsjahr ' + x.end.slice(0, 4), x)).join('') + '</tbody></table></div><p class="cap">In Millionen US-Dollar.</p></section>';
-    html += '<section class="chartbox"><h2>Berichte und Meldungen</h2>';
+    // 2 Wachstum und Profitabilität (Geschäftsjahre)
+    if (a.length) {
+      const rows = a.map((x, i) => {
+        const p = a[i - 1];
+        const gr = p && p.revenue ? x.revenue / p.revenue - 1 : null;
+        const fcf = akFcf(x);
+        const dil = p && p.diluted_shares && x.diluted_shares ? x.diluted_shares / p.diluted_shares - 1 : null;
+        return '<tr><th scope="row">' + x.end.slice(0, 4) + '</th><td>' + akMio(x.revenue) + '</td><td>' + akPct(gr) + '</td><td>' + akPct(akDiv(x.gross_profit, x.revenue)) + '</td><td>' + akPct(akDiv(x.operating_income, x.revenue)) + '</td><td>' + akMio(x.net_income) + '</td><td>' + akMio(fcf) + '</td><td>' + akPct(akDiv(fcf, x.revenue)) + '</td><td>' + akPct(akDiv(x.sbc, x.revenue)) + '</td><td>' + (x.diluted_shares ? fmt(x.diluted_shares / 1e6) : '–') + '</td><td>' + akPct(dil) + '</td></tr>';
+      }).reverse().join('');
+      h += '<section class="chartbox"><h2>1. Wie gut läuft das Geschäft?</h2><div class="tablewrap"><table><thead><tr><th scope="col">Jahr</th><th scope="col">Umsatz</th><th scope="col">Wachstum</th><th scope="col">Bruttomarge</th><th scope="col">Betriebsmarge</th><th scope="col">Reingewinn</th><th scope="col">Freier Cashflow</th><th scope="col">FCF-Marge</th><th scope="col">Aktienvergütung / Umsatz</th><th scope="col">Aktien (verwässert, Mio.)</th><th scope="col">Veränderung Aktien</th></tr></thead><tbody>' + rows + '</tbody></table></div>' +
+        '<p class="cap">Beträge in Millionen US-Dollar. Freier Cashflow = operativer Cashflow minus Investitionen in Sachanlagen. Aktienvergütung = Löhne, die in Aktien bezahlt werden: Sie sind kein Bargeld-Aufwand, verwässern aber die bestehenden Aktionäre (siehe «Veränderung Aktien»). Strich = vom Unternehmen nicht ausgewiesen.</p></section>';
+    }
+    // 3 Bilanz
+    if (bsq) {
+      const net = cashTot - (debt || 0);
+      h += '<section class="chartbox"><h2>2. Wie solide ist die Finanzierung?</h2><div class="stats">' +
+        stat('Flüssige Mittel und Wertpapiere', 'USD ' + akMio(cashTot) + ' Mio.', 'Stand ' + akDate(bsq.end)) +
+        stat('Finanzschulden', debt == null ? 'keine gemeldet' : 'USD ' + akMio(debt) + ' Mio.', 'ohne Leasingverpflichtungen') +
+        stat('Netto-Liquidität', 'USD ' + akMio(net) + ' Mio.', 'Mittel minus Schulden') +
+        stat('Verwässerte Aktien', bsq.diluted_shares ? fmt(bsq.diluted_shares / 1e6) + ' Mio.' : '–', 'Durchschnitt im Quartal') + '</div>' +
+        '<p class="cap">Die genaue Schuldensituation (Leasing, Verpflichtungen) steht im Bericht unter «Liquidity and Capital Resources».</p></section>';
+    }
+    // 4 Bewertung
+    let valHtml = '';
+    if (mcap && ttm) {
+      const ps = akDiv(mcap, ttm.revenue), pe = ttm.net_income > 0 ? akDiv(mcap, ttm.net_income) : null, pf = ttm.fcf > 0 ? akDiv(mcap, ttm.fcf) : null, fy = akDiv(ttm.fcf, mcap);
+      valHtml = '<section class="chartbox"><h2>3. Ist die Aktie teuer?</h2><div class="stats">' +
+        stat('Börsenwert', 'USD ' + fmt(mcap / 1e9) + ' Mrd.', 'Kurs USD ' + qt.price.toFixed(2) + ' (' + akDate(qt.date) + ')') +
+        stat('Kurs / Umsatz', akNum(ps) + '×', 'Börsenwert / Umsatz der letzten 4 Quartale') +
+        stat('Kurs / Gewinn', pe == null ? 'n. a.' : akNum(pe) + '×', 'Börsenwert / Reingewinn (4 Quartale)') +
+        stat('Kurs / Freier Cashflow', pf == null ? 'n. a.' : akNum(pf) + '×', 'FCF-Rendite ' + akPct(fy)) + '</div>' +
+        '<p class="cap">Börsenwert = Kurs × alle ausgegebenen Aktien (Stand ' + akDate(sh.as_of) + ', Summe aller Aktienklassen). Kurs: ' + esc(qt.source) + ', Schlusskurs bzw. letzter Kurs, kann verzögert sein. Zahlen der letzten vier Quartale bis ' + akDate(ttm.end) + '. Ob ein Wert «hoch» ist, hängt vom Wachstum ab: Vergleiche mit der eigenen Geschichte und mit ähnlichen Unternehmen. «n. a.» = nicht aussagekräftig, weil Gewinn bzw. Cashflow nicht positiv sind.</p>';
+      // Szenariorechner
+      valHtml += '<h3 style="margin:18px 0 6px">Was müsste passieren, damit sich der Kauf lohnt?</h3><p class="cap" style="margin-bottom:10px">Rechenhilfe mit deinen eigenen Annahmen. Die Voreinstellungen sind <b>Beispielwerte und keine Prognose</b>. Ändere sie auf das, was du für realistisch hältst.</p>' +
+        '<div class="fields stack" id="ak-sc">' +
+        [['g', 'Umsatzwachstum pro Jahr', 20, '%'], ['m', 'FCF-Marge im Endjahr', 30, '%'], ['x', 'Bewertung im Endjahr (Kurs / FCF)', 30, '×'], ['n', 'Jahre bis Verkauf', 5, 'J.'], ['d', 'Verwässerung pro Jahr', 2, '%'], ['t', 'Gewünschte Rendite pro Jahr', 8, '%']].map(r =>
+          '<div class="field"><label for="ak-sc-' + r[0] + '">' + r[1] + '</label><div class="box"><input type="text" inputmode="decimal" id="ak-sc-' + r[0] + '" value="' + r[2] + '"><span class="unit">' + r[3] + '</span></div></div>').join('') +
+        '</div><div class="stats" style="margin-top:14px" id="ak-sc-out" aria-live="polite"></div>' +
+        '<p class="cap">Rechnung: Freier Cashflow im Endjahr = heutiger Umsatz × (1 + Wachstum)^Jahre × FCF-Marge. Wert = FCF × Bewertung, geteilt durch die verwässerte Aktienzahl, verglichen mit dem heutigen Kurs. Steuern, Gebühren, Dividenden und Wechselkurs sind nicht berücksichtigt.</p></section>';
+    } else {
+      valHtml = '<section class="chartbox"><h2>3. Ist die Aktie teuer?</h2><p>Für die Bewertung fehlt gerade der aktuelle Kurs oder die Aktienzahl. Die Kennzahlen erscheinen hier, sobald beides verfügbar ist. Den Kurs siehst du oben im Diagramm.</p></section>';
+    }
+    h += valHtml;
+    // 5 Insider
+    const cut = new Date(Date.now() - 365 * 864e5).toISOString().slice(0, 10);
+    const i12 = ins.filter(t => t.date >= cut);
+    const sum = (code) => i12.filter(t => t.code === code).reduce((o, t) => ({ n: o.n + 1, sh: o.sh + t.shares, usd: o.usd + t.shares * (t.price || 0) }), { n: 0, sh: 0, usd: 0 });
+    const sold = sum('S'), bought = sum('P');
+    h += '<section class="chartbox"><h2>4. Was machen Insider?</h2>';
+    if (ins.length) {
+      h += '<div class="stats">' +
+        stat('Verkäufe am Markt (12 Mt.)', 'USD ' + akNum(sold.usd / 1e6) + ' Mio.', fmt(sold.n) + ' Transaktionen, ' + fmt(sold.sh) + ' Aktien') +
+        stat('Käufe am Markt (12 Mt.)', 'USD ' + akNum(bought.usd / 1e6) + ' Mio.', fmt(bought.n) + ' Transaktionen, ' + fmt(bought.sh) + ' Aktien') + '</div>' +
+        '<div class="tablewrap" style="margin-top:14px"><table><thead><tr><th scope="col">Datum</th><th scope="col">Person</th><th scope="col">Art</th><th scope="col">Aktien</th><th scope="col">Kurs USD</th></tr></thead><tbody>' +
+        ins.slice(0, 25).map(t => '<tr><td>' + akDate(t.date) + '</td><td style="text-align:left">' + esc(t.name) + (t.role ? ' <span class="fl-s">' + esc(t.role) + '</span>' : '') + '</td><td style="text-align:left"><a href="' + esc(t.url) + '" target="_blank" rel="noopener">' + esc(AK_CODES[t.code] || ('Code ' + t.code)) + '</a>' + (t.plan_10b5_1 ? ' <span class="fl-s">Handelsplan</span>' : '') + '</td><td>' + fmt(t.shares) + '</td><td>' + (t.price ? t.price.toFixed(2) : '–') + '</td></tr>').join('') +
+        '</tbody></table></div><p class="cap">Quelle: Meldungen der Führungskräfte und Grossaktionäre (Form 4) bei der SEC. «Handelsplan» heisst: im Voraus festgelegter Verkaufsplan (Regel 10b5-1), der weniger über die aktuelle Einschätzung aussagt. Zuteilungen, Steuerabzüge und Optionsausübungen sind keine Marktkäufe oder -verkäufe. Verkäufe sind häufig Steuer- oder Liquiditätsgründe und allein kein Warnzeichen; viele Verkäufe bei gleichzeitig keinen Käufen sind aber ein Punkt zum Hinschauen.</p>';
+    } else h += '<p>Es liegen noch keine Insider-Meldungen vor.</p>';
+    h += '</section>';
+    // 6 Checkliste
+    const lastA = a[a.length - 1], prevA = a[a.length - 2];
+    const gA = lastA && prevA && prevA.revenue ? lastA.revenue / prevA.revenue - 1 : null;
+    const dilA = lastA && prevA && lastA.diluted_shares && prevA.diluted_shares ? lastA.diluted_shares / prevA.diluted_shares - 1 : null;
+    const ps2 = mcap && ttm ? akDiv(mcap, ttm.revenue) : null;
+    const yn = (c) => c == null ? 'keine Angabe' : (c ? 'Ja' : 'Nein');
+    const crit = [
+      ['Umsatz im letzten Geschäftsjahr um mehr als 15 % gewachsen', gA == null ? '–' : akPct(gA), gA == null ? null : gA > 0.15],
+      ['Betriebsergebnis der letzten 4 Quartale positiv', ttm ? 'USD ' + akMio(ttm.operating_income) + ' Mio.' : '–', ttm && ttm.operating_income != null ? ttm.operating_income > 0 : null],
+      ['Freier Cashflow der letzten 4 Quartale positiv', ttm && ttm.fcf != null ? 'USD ' + akMio(ttm.fcf) + ' Mio.' : '–', ttm && ttm.fcf != null ? ttm.fcf > 0 : null],
+      ['Aktienzahl im letzten Jahr um weniger als 3 % gestiegen', dilA == null ? '–' : akPct(dilA), dilA == null ? null : dilA < 0.03],
+      ['Flüssige Mittel höher als Finanzschulden', cashTot == null ? '–' : 'USD ' + akMio(cashTot - (debt || 0)) + ' Mio. netto', cashTot == null ? null : cashTot > (debt || 0)],
+      ['Insider haben in 12 Monaten netto am Markt gekauft statt verkauft', ins.length ? 'Kauf ' + akNum(bought.usd / 1e6) + ' / Verkauf ' + akNum(sold.usd / 1e6) + ' Mio. USD' : '–', ins.length ? bought.usd > sold.usd : null],
+      ['Börsenwert höher als das 10-Fache des Jahresumsatzes (hohe Bewertung)', ps2 == null ? '–' : akNum(ps2) + '×', ps2 == null ? null : ps2 > 10]
+    ];
+    h += '<section class="chartbox"><h2>5. Checkliste</h2><div class="tablewrap"><table><thead><tr><th scope="col" style="text-align:left">Frage</th><th scope="col">Wert</th><th scope="col">Antwort</th></tr></thead><tbody>' +
+      crit.map(c => '<tr><td style="text-align:left;white-space:normal">' + c[0] + '</td><td>' + c[1] + '</td><td><b>' + yn(c[2]) + '</b></td></tr>').join('') +
+      '</tbody></table></div><p class="cap">Die Schwellen (15 %, 3 %, 10×) sind grobe Faustwerte zur Orientierung, keine Anlageregeln. «Ja» ist nicht immer gut und «Nein» nicht immer schlecht: Bei der Bewertung etwa ist «Ja» ein Risiko. Es gibt bewusst keine Gesamtnote.</p></section>';
+    // 7 Risiken und Fragen
+    const tenK = f.filter(x => x.form === '10-K')[0];
+    h += '<section class="chartbox"><h2>6. Risiken und Fragen an dich selbst</h2><ul class="qs">' +
+      '<li><b>Risiken im Bericht lesen.</b> Jedes US-Unternehmen muss im Geschäftsbericht unter «Item 1A. Risk Factors» seine Risiken selbst aufzählen. ' + (tenK ? '<a href="' + esc(tenK.doc_url || tenK.index_url) + '" target="_blank" rel="noopener">Aktueller Geschäftsbericht (10-K) vom ' + akDate(tenK.date) + '</a>.' : '') + '</li>' +
+      '<li><b>Kundenabhängigkeit.</b> Wie stark hängt das Unternehmen von wenigen Kunden, von Behörden oder von einzelnen Ländern ab? Das steht im Bericht bei «Concentration» und in den Segmentangaben.</li>' +
+      '<li><b>Verwässerung.</b> Wächst die Aktienzahl schneller als dein Anteil an den Gewinnen? Siehe Tabelle 1.</li>' +
+      '<li><b>Bewertung.</b> Was muss in den nächsten Jahren eintreten, damit der heutige Kurs gerechtfertigt ist? Probiere den Rechner unter 3 aus.</li>' +
+      '<li><b>Anteil am Vermögen.</b> Wie viel verlierst du, wenn die Aktie halbiert wird, und kannst du das verkraften? Eine einzelne Aktie sollte nur einen kleinen Teil deines Anlagevermögens ausmachen.</li>' +
+      '<li><b>Alternative.</b> Erreichst du dein Ziel mit einem breit gestreuten ETF einfacher und mit weniger Risiko? Siehe <a href="/etf/" data-go="etf">ETF-Tracker</a>.</li>' +
+      '<li><b>Kosten und Steuern.</b> Bei US-Aktien fallen Handelsgebühren, Währungsumrechnung, Stempelabgabe und je nach Dividende US-Quellensteuer an. Frage deine Bank oder deinen Broker.</li></ul></section>';
+    // 8 Berichte
+    h += '<section class="chartbox"><h2>7. Berichte und Meldungen</h2>';
     if (f.length) {
-      html += '<ul class="fl">' + f.map(x => {
+      h += '<ul class="fl">' + f.map(x => {
         const lbl = FORM_DE[x.form] || x.form;
         const url = x.doc_url || x.index_url;
         return '<li><span class="fl-d">' + akDate(x.date) + '</span> <a href="' + esc(url) + '" target="_blank" rel="noopener">' + esc(lbl) + '</a>' + (x.report_date && x.form !== '8-K' ? ' <span class="fl-s">Periode bis ' + akDate(x.report_date) + '</span>' : '') + '</li>';
       }).join('') + '</ul>';
-    } else html += '<p>Keine Einreichungen gefunden.</p>';
-    html += '<p class="cap">Quelle: SEC EDGAR. Zuletzt geprüft: ' + akDate(d.updated_at) + '. Berichte sind auf Englisch. <a class="more" href="' + esc(s.ir) + '" target="_blank" rel="noopener">Investor Relations von ' + esc(s.n) + '</a> · <a class="more" href="https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;CIK=' + esc(d.cik || s.t) + '&amp;type=&amp;dateb=&amp;owner=include&amp;count=40" target="_blank" rel="noopener">Alle Einreichungen</a></p></section>';
-    body.innerHTML = html;
+    } else h += '<p>Keine Einreichungen gefunden.</p>';
+    h += '<p class="cap">Quelle: SEC EDGAR. Zuletzt geprüft: ' + akDate(d.updated_at) + '. Berichte sind auf Englisch. <a class="more" href="' + esc(s.ir) + '" target="_blank" rel="noopener">Investor Relations von ' + esc(s.n) + '</a> · <a class="more" href="https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;CIK=' + esc(d.cik || s.t) + '&amp;type=&amp;dateb=&amp;owner=include&amp;count=40" target="_blank" rel="noopener">Alle Einreichungen</a></p></section>';
+    h += '<div class="notice">Diese Seite stellt öffentliche Zahlen zusammen und rechnet sie um. Sie ist <b>keine Anlageberatung und keine Empfehlung</b>, eine Aktie zu kaufen oder zu verkaufen, und ersetzt weder die Lektüre der Originalberichte noch eine persönliche Beratung. Berechnungen können Fehler enthalten; prüfe wichtige Zahlen im Originalbericht.</div>';
+    body.innerHTML = h;
+    if (mcap && ttm) {
+      const num = id => { const v = parseFloat(String($('ak-sc-' + id).value).replace(',', '.')); return isFinite(v) ? v : null; };
+      const upd = () => {
+        const g = num('g'), m = num('m'), x = num('x'), n = num('n'), dl = num('d'), t = num('t');
+        const out = $('ak-sc-out');
+        if ([g, m, x, n, dl, t].some(v => v == null) || n < 1 || n > 30 || x <= 0 || m <= 0) { out.innerHTML = '<p class="cap">Bitte gültige Zahlen eingeben (Jahre zwischen 1 und 30).</p>'; return; }
+        const r = akScenario(mcap, ttm.revenue, g / 100, m / 100, x, n, dl / 100);
+        const need = akNeededGrowth(mcap, ttm.revenue, t / 100, m / 100, x, n, dl / 100);
+        out.innerHTML = stat('Rendite pro Jahr mit diesen Annahmen', r == null ? 'n. a.' : akPct(r), 'vor Steuern und Gebühren') +
+          stat('Nötiges Umsatzwachstum für ' + akNum(t, 1) + ' % pro Jahr', need == null ? 'über 200 %' : akPct(need), 'bei den übrigen Annahmen');
+      };
+      $('ak-sc').addEventListener('input', upd);
+      upd();
+    }
   }
   function selectStock(id) {
     const s = STOCKS.filter(x => x.id === id)[0];
