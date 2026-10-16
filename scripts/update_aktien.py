@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
-"""Holt Berichte und Kennzahlen von SEC EDGAR und schreibt data/<aktie>.json.
+"""Holt Berichte und Kennzahlen von SEC EDGAR und schreibt data/aktien/<ticker>.json und data/aktien/index.json.
+Die Firmenliste steht in data/aktien/universe.json (Ticker; CIK und Börse werden bei der SEC nachgeschlagen).
 
 Aufruf:  SEC_USER_AGENT="Vorname Nachname kontakt@beispiel.ch" python3 scripts/update_aktien.py
 Die SEC verlangt einen User-Agent mit Kontaktangabe (https://www.sec.gov/os/accessing-edgar-data).
@@ -8,13 +9,12 @@ Es werden nur öffentliche, kostenlose SEC-Schnittstellen verwendet (maximal wen
 import json, os, sys, time, datetime, re, urllib.request
 import xml.etree.ElementTree as ET
 
-STOCKS = [
-    {'file': 'palantir', 'cik': '0001321655', 'ticker': 'PLTR'},
-]
+DATA = None  # wird in main gesetzt
+MAX_FORM4_PER_RUN = 40
 FORMS = ('10-K', '10-K/A', '10-Q', '10-Q/A', '8-K')
 # Kennzahl -> mögliche XBRL-Tags (erster Tag mit Daten gewinnt)
 TAGS = {
-    'revenue': ['Revenues', 'RevenueFromContractWithCustomerExcludingAssessedTax'],
+    'revenue': ['Revenues', 'RevenueFromContractWithCustomerExcludingAssessedTax', 'RevenueFromContractWithCustomerIncludingAssessedTax', 'SalesRevenueNet', 'SalesRevenueGoodsNet'],
     'operating_income': ['OperatingIncomeLoss'],
     'net_income': ['NetIncomeLoss', 'ProfitLoss'],
     'op_cash_flow': ['NetCashProvidedByUsedInOperatingActivities'],
@@ -33,10 +33,17 @@ INSTANT_TAGS = {
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 
-def get(url, ua):
-    req = urllib.request.Request(url, headers={'User-Agent': ua, 'Accept-Encoding': 'identity'})
-    with urllib.request.urlopen(req, timeout=40) as r:
-        return json.loads(r.read().decode('utf-8'))
+def get(url, ua, tries=3):
+    last = None
+    for k in range(tries):
+        try:
+            req = urllib.request.Request(url, headers={'User-Agent': ua, 'Accept-Encoding': 'identity'})
+            with urllib.request.urlopen(req, timeout=120) as r:
+                return json.loads(r.read().decode('utf-8'))
+        except Exception as ex:
+            last = ex
+            time.sleep(2 * (k + 1))
+    raise last
 
 
 def months(start, end):
@@ -47,7 +54,11 @@ def months(start, end):
 def series(facts, tags, unit='USD', derive=True):
     """Liefert (quartale, jahre) als dict end -> Wert. Q4 und Cashflow werden aus Jahres-/Kumulativwerten abgeleitet."""
     ug = facts.get('facts', {}).get('us-gaap', {})
-    for tag in tags:
+    # Tag mit den jüngsten Daten wählen (alte Tags laufen oft aus)
+    def newest(tag):
+        u = ug.get(tag, {}).get('units', {}).get(unit) or []
+        return max([e['end'] for e in u if e.get('form') in ('10-Q', '10-K', '10-K/A', '10-Q/A')] or [''])
+    for tag in sorted(tags, key=lambda t: (-int(newest(t).replace('-', '') or 0), tags.index(t))):
         units = ug.get(tag, {}).get('units', {}).get(unit)
         if not units:
             continue
@@ -79,7 +90,10 @@ def series(facts, tags, unit='USD', derive=True):
 def instant(facts, tags):
     """Stichtagswerte: end -> Wert (zuletzt gemeldeter Wert pro Stichtag, nur 10-Q/10-K)."""
     ug = facts.get('facts', {}).get('us-gaap', {})
-    for tag in tags:
+    def newest(tag):
+        u = ug.get(tag, {}).get('units', {}).get('USD') or []
+        return max([e['end'] for e in u if e.get('form') in ('10-Q', '10-K', '10-K/A', '10-Q/A') and 'start' not in e] or [''])
+    for tag in sorted(tags, key=lambda t: (-int(newest(t).replace('-', '') or 0), tags.index(t))):
         units = ug.get(tag, {}).get('units', {}).get('USD')
         if not units:
             continue
@@ -138,7 +152,7 @@ def form4(sub, cik, ua, old):
         acc = rec['accessionNumber'][i]
         if acc in known or any(t['acc'] == acc for t in out):
             continue
-        if fetched >= 60:
+        if fetched >= MAX_FORM4_PER_RUN:
             break
         doc = rec['primaryDocument'][i].split('/')[-1]
         url = 'https://www.sec.gov/Archives/edgar/data/%d/%s/%s' % (int(cik), acc.replace('-', ''), doc)
@@ -180,11 +194,21 @@ def form4(sub, cik, ua, old):
     return merged
 
 
+def periodic(sub):
+    rec = sub['filings']['recent']
+    return sorted(rec['accessionNumber'][i] for i, f in enumerate(rec['form']) if f in ('10-K', '10-K/A', '10-Q', '10-Q/A'))
+
+
 def build(stock, ua, old=None):
     cik = stock['cik']
+    old = old or {}
     sub = get('https://data.sec.gov/submissions/CIK%s.json' % cik, ua)
-    time.sleep(0.5)
-    facts = get('https://data.sec.gov/api/xbrl/companyfacts/CIK%s.json' % cik, ua)
+    time.sleep(0.2)
+    acc_list = periodic(sub)
+    reuse = bool(old.get('periodic_accs') == acc_list and old.get('quarters') is not None and old.get('updated_at'))
+    facts = None if reuse else get('https://data.sec.gov/api/xbrl/companyfacts/CIK%s.json' % cik, ua)
+    if not reuse:
+        time.sleep(0.2)
     rec = sub['filings']['recent']
     filings = []
     for i, form in enumerate(rec['form']):
@@ -201,6 +225,29 @@ def build(stock, ua, old=None):
             'index_url': '%s/%s-index.htm' % (base, acc),
         })
     filings = filings[:40]
+    if reuse:
+        quarters, annual, shares = old['quarters'], old['annual'], old.get('shares_outstanding')
+    else:
+        quarters, annual = compute(facts)
+        shares = shares_outstanding(facts)
+    quote = old.get('quote')
+    if need_quote(quote):
+        newq = price(stock['ticker'])
+        if newq:
+            quote = newq
+    return {
+        'company': sub.get('name'), 'cik': cik, 'ticker': stock['ticker'], 'tv': stock.get('tv'), 'rank': stock.get('rank'),
+        'source': 'SEC EDGAR', 'fiscal_year_end': sub.get('fiscalYearEnd'),
+        'updated_at': datetime.datetime.now(datetime.timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ'),
+        'periodic_accs': acc_list,
+        'filings': filings, 'quarters': quarters, 'annual': annual,
+        'shares_outstanding': shares,
+        'quote': quote,
+        'insiders': form4(sub, cik, ua, old),
+    }
+
+
+def compute(facts):
     q, y = {}, {}
     for key, tags in TAGS.items():
         qq, yy = series(facts, tags)
@@ -224,44 +271,78 @@ def build(stock, ua, old=None):
             y[end].update(v)
     quarters = [dict(end=e, **v) for e, v in sorted(q.items())][-24:]
     annual = [dict(end=e, **v) for e, v in sorted(y.items())][-10:]
-    return {
-        'company': sub.get('name'), 'cik': cik, 'ticker': stock['ticker'], 'source': 'SEC EDGAR',
-        'fiscal_year_end': sub.get('fiscalYearEnd'),
-        'updated_at': datetime.datetime.now(datetime.timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ'),
-        'filings': filings, 'quarters': quarters, 'annual': annual,
-        'shares_outstanding': shares_outstanding(facts),
-        'quote': price(stock['ticker']),
-        'insiders': form4(sub, cik, ua, old or {}),
-    }
+    return quarters, annual
+
+
+def need_quote(quote):
+    """Kurs nur holen, wenn der letzte Handelstag noch fehlt (spart Abrufe und unnötige Änderungen)."""
+    now = datetime.datetime.now(datetime.timezone.utc)
+    d = now.date() if (now.hour >= 22 and now.weekday() < 5) else now.date() - datetime.timedelta(days=1)
+    while d.weekday() > 4:
+        d -= datetime.timedelta(days=1)
+    return not quote or quote.get('date', '') < d.isoformat()
+
+
+def load(path, default):
+    try:
+        return json.load(open(path, encoding='utf-8'))
+    except Exception:
+        return default
 
 
 def main():
     ua = os.environ.get('SEC_USER_AGENT', '').strip()
     if '@' not in ua:
         sys.exit('SEC_USER_AGENT fehlt: Bitte "Name kontakt@adresse" setzen (die SEC verlangt eine Kontaktangabe).')
-    changed = False
-    for st in STOCKS:
-        path = os.path.join(ROOT, 'data', st['file'] + '.json')
-        old = {}
+    d = os.path.join(ROOT, 'data', 'aktien')
+    uni = load(os.path.join(d, 'universe.json'), {}).get('companies', [])
+    ex = get('https://www.sec.gov/files/company_tickers_exchange.json', ua)
+    fields = ex['fields']
+    by = {}
+    for row in ex['data']:
+        r = dict(zip(fields, row))
+        by.setdefault(r['ticker'].upper(), r)
+    seen, index, failed = set(), [], []
+    only = [x.upper() for x in sys.argv[1:]]
+    for c in uni:
+        t = c['ticker'].upper()
+        if only and t not in only:
+            continue
+        r = by.get(t)
+        if not r:
+            failed.append((t, 'bei der SEC nicht gefunden'))
+            continue
+        cik = '%010d' % int(r['cik'])
+        if cik in seen:
+            continue  # zweite Aktiengattung derselben Firma
+        seen.add(cik)
+        exch = {'NASDAQ': 'NASDAQ', 'NYSE': 'NYSE', 'CBOE': 'CBOE'}.get((r.get('exchange') or '').upper())
+        tvt = t.replace('-', '.')
+        st = {'ticker': t, 'cik': cik, 'rank': c['rank'], 'tv': (exch + ':' + tvt) if exch else tvt}
+        fname = t.lower() + '.json'
+        path = os.path.join(d, fname)
+        old = load(path, {})
         try:
-            old = json.load(open(path, encoding='utf-8'))
-        except Exception:
-            pass
-        new = build(st, ua, old)
-        oq, nq = old.get('quote'), new.get('quote')
-        if nq is None and oq:
-            new['quote'] = oq
-        elif nq and oq and nq.get('date') == oq.get('date'):
-            new['quote'] = oq  # pro Handelstag nur einmal speichern, damit nicht ständig neu veröffentlicht wird
-        # nur schreiben, wenn sich Inhalt (ausser Zeitstempel) geändert hat
+            new = build(st, ua, old)
+        except Exception as ex_:
+            failed.append((t, str(ex_)))
+            if old:
+                index.append({'rank': c['rank'], 't': t, 'n': old.get('company') or c['name'], 'tv': old.get('tv') or st['tv']})
+            continue
         a = dict(old); a.pop('updated_at', None)
         b = dict(new); b.pop('updated_at', None)
         if a != b or not old.get('updated_at'):
             json.dump(new, open(path, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
-            changed = True
-            print('aktualisiert:', path)
-        else:
-            print('unverändert:', path)
+            print('aktualisiert:', t)
+        index.append({'rank': c['rank'], 't': t, 'n': r['name'].title() if r['name'].isupper() else r['name'], 'tv': new['tv']})
+        time.sleep(0.2)
+    if not only:
+        idx = {'stand': datetime.date.today().isoformat(), 'quelle': 'SEC EDGAR; Firmenliste: companiesmarketcap.com', 'companies': index}
+        old_idx = load(os.path.join(d, 'index.json'), {})
+        if old_idx.get('companies') != index:
+            json.dump(idx, open(os.path.join(d, 'index.json'), 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
+    for t, msg in failed:
+        print('Fehler', t, msg, file=sys.stderr)
     return 0
 
 

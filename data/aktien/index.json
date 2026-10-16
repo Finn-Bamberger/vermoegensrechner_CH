@@ -1,0 +1,506 @@
+{
+ "stand": "2026-10-16",
+ "quelle": "companiesmarketcap.com",
+ "companies": [
+  {
+   "rank": 1,
+   "t": "NVDA",
+   "n": "NVIDIA"
+  },
+  {
+   "rank": 2,
+   "t": "AAPL",
+   "n": "Apple"
+  },
+  {
+   "rank": 3,
+   "t": "GOOG",
+   "n": "Alphabet (Google)"
+  },
+  {
+   "rank": 4,
+   "t": "MSFT",
+   "n": "Microsoft"
+  },
+  {
+   "rank": 5,
+   "t": "AMZN",
+   "n": "Amazon"
+  },
+  {
+   "rank": 6,
+   "t": "SPCX",
+   "n": "SpaceX"
+  },
+  {
+   "rank": 7,
+   "t": "META",
+   "n": "Meta Platforms (Facebook)"
+  },
+  {
+   "rank": 8,
+   "t": "AVGO",
+   "n": "Broadcom"
+  },
+  {
+   "rank": 9,
+   "t": "TSLA",
+   "n": "Tesla"
+  },
+  {
+   "rank": 10,
+   "t": "BRK-B",
+   "n": "Berkshire Hathaway"
+  },
+  {
+   "rank": 11,
+   "t": "LLY",
+   "n": "Eli Lilly"
+  },
+  {
+   "rank": 12,
+   "t": "MU",
+   "n": "Micron Technology"
+  },
+  {
+   "rank": 13,
+   "t": "AMD",
+   "n": "AMD"
+  },
+  {
+   "rank": 14,
+   "t": "WMT",
+   "n": "Walmart"
+  },
+  {
+   "rank": 15,
+   "t": "JPM",
+   "n": "JPMorgan Chase"
+  },
+  {
+   "rank": 16,
+   "t": "V",
+   "n": "Visa"
+  },
+  {
+   "rank": 17,
+   "t": "XOM",
+   "n": "Exxon Mobil"
+  },
+  {
+   "rank": 18,
+   "t": "JNJ",
+   "n": "Johnson & Johnson"
+  },
+  {
+   "rank": 19,
+   "t": "MA",
+   "n": "Mastercard"
+  },
+  {
+   "rank": 20,
+   "t": "INTC",
+   "n": "Intel"
+  },
+  {
+   "rank": 21,
+   "t": "ABBV",
+   "n": "AbbVie"
+  },
+  {
+   "rank": 22,
+   "t": "PLTR",
+   "n": "Palantir"
+  },
+  {
+   "rank": 23,
+   "t": "CSCO",
+   "n": "Cisco"
+  },
+  {
+   "rank": 24,
+   "t": "CVX",
+   "n": "Chevron"
+  },
+  {
+   "rank": 25,
+   "t": "COST",
+   "n": "Costco"
+  },
+  {
+   "rank": 26,
+   "t": "ORCL",
+   "n": "Oracle"
+  },
+  {
+   "rank": 27,
+   "t": "KO",
+   "n": "Coca-Cola"
+  },
+  {
+   "rank": 28,
+   "t": "PG",
+   "n": "Procter & Gamble"
+  },
+  {
+   "rank": 29,
+   "t": "MRK",
+   "n": "Merck"
+  },
+  {
+   "rank": 30,
+   "t": "BAC",
+   "n": "Bank of America"
+  },
+  {
+   "rank": 31,
+   "t": "LRCX",
+   "n": "Lam Research"
+  },
+  {
+   "rank": 32,
+   "t": "UNH",
+   "n": "UnitedHealth"
+  },
+  {
+   "rank": 33,
+   "t": "AMAT",
+   "n": "Applied Materials"
+  },
+  {
+   "rank": 34,
+   "t": "CAT",
+   "n": "Caterpillar"
+  },
+  {
+   "rank": 35,
+   "t": "DELL",
+   "n": "Dell"
+  },
+  {
+   "rank": 36,
+   "t": "PM",
+   "n": "Philip Morris International"
+  },
+  {
+   "rank": 37,
+   "t": "GE",
+   "n": "General Electric"
+  },
+  {
+   "rank": 38,
+   "t": "PANW",
+   "n": "Palo Alto Networks"
+  },
+  {
+   "rank": 39,
+   "t": "HD",
+   "n": "Home Depot"
+  },
+  {
+   "rank": 40,
+   "t": "NFLX",
+   "n": "Netflix"
+  },
+  {
+   "rank": 41,
+   "t": "MS",
+   "n": "Morgan Stanley"
+  },
+  {
+   "rank": 42,
+   "t": "TXN",
+   "n": "Texas Instruments"
+  },
+  {
+   "rank": 43,
+   "t": "GS",
+   "n": "Goldman Sachs"
+  },
+  {
+   "rank": 44,
+   "t": "CRWD",
+   "n": "CrowdStrike"
+  },
+  {
+   "rank": 45,
+   "t": "RTX",
+   "n": "RTX"
+  },
+  {
+   "rank": 46,
+   "t": "GEV",
+   "n": "GE Vernova"
+  },
+  {
+   "rank": 47,
+   "t": "TMO",
+   "n": "Thermo Fisher Scientific"
+  },
+  {
+   "rank": 48,
+   "t": "ANET",
+   "n": "Arista Networks"
+  },
+  {
+   "rank": 49,
+   "t": "WFC",
+   "n": "Wells Fargo"
+  },
+  {
+   "rank": 50,
+   "t": "KLAC",
+   "n": "KLA"
+  },
+  {
+   "rank": 51,
+   "t": "AMGN",
+   "n": "Amgen"
+  },
+  {
+   "rank": 52,
+   "t": "MRVL",
+   "n": "Marvell Technology"
+  },
+  {
+   "rank": 53,
+   "t": "IBM",
+   "n": "IBM"
+  },
+  {
+   "rank": 54,
+   "t": "AXP",
+   "n": "American Express"
+  },
+  {
+   "rank": 55,
+   "t": "C",
+   "n": "Citigroup"
+  },
+  {
+   "rank": 56,
+   "t": "APH",
+   "n": "Amphenol"
+  },
+  {
+   "rank": 57,
+   "t": "SNDK",
+   "n": "Sandisk"
+  },
+  {
+   "rank": 58,
+   "t": "ADI",
+   "n": "Analog Devices"
+  },
+  {
+   "rank": 59,
+   "t": "CRM",
+   "n": "Salesforce"
+  },
+  {
+   "rank": 60,
+   "t": "GILD",
+   "n": "Gilead Sciences"
+  },
+  {
+   "rank": 61,
+   "t": "DIS",
+   "n": "Walt Disney"
+  },
+  {
+   "rank": 62,
+   "t": "VZ",
+   "n": "Verizon"
+  },
+  {
+   "rank": 63,
+   "t": "QCOM",
+   "n": "QUALCOMM"
+  },
+  {
+   "rank": 64,
+   "t": "ABT",
+   "n": "Abbott Laboratories"
+  },
+  {
+   "rank": 65,
+   "t": "PEP",
+   "n": "PepsiCo"
+  },
+  {
+   "rank": 66,
+   "t": "DE",
+   "n": "Deere & Company"
+  },
+  {
+   "rank": 67,
+   "t": "BLK",
+   "n": "BlackRock"
+  },
+  {
+   "rank": 68,
+   "t": "COP",
+   "n": "ConocoPhillips"
+  },
+  {
+   "rank": 69,
+   "t": "UNP",
+   "n": "Union Pacific"
+  },
+  {
+   "rank": 70,
+   "t": "SCCO",
+   "n": "Southern Copper"
+  },
+  {
+   "rank": 71,
+   "t": "TMUS",
+   "n": "T-Mobile US"
+  },
+  {
+   "rank": 72,
+   "t": "MCD",
+   "n": "McDonald's"
+  },
+  {
+   "rank": 73,
+   "t": "SCHW",
+   "n": "Charles Schwab"
+  },
+  {
+   "rank": 74,
+   "t": "WELL",
+   "n": "Welltower"
+  },
+  {
+   "rank": 75,
+   "t": "PFE",
+   "n": "Pfizer"
+  },
+  {
+   "rank": 76,
+   "t": "NEE",
+   "n": "NextEra Energy"
+  },
+  {
+   "rank": 77,
+   "t": "DHR",
+   "n": "Danaher"
+  },
+  {
+   "rank": 78,
+   "t": "T",
+   "n": "AT&T"
+  },
+  {
+   "rank": 79,
+   "t": "TJX",
+   "n": "TJX Companies"
+  },
+  {
+   "rank": 80,
+   "t": "ISRG",
+   "n": "Intuitive Surgical"
+  },
+  {
+   "rank": 81,
+   "t": "BA",
+   "n": "Boeing"
+  },
+  {
+   "rank": 82,
+   "t": "NOW",
+   "n": "ServiceNow"
+  },
+  {
+   "rank": 83,
+   "t": "IBKR",
+   "n": "Interactive Brokers"
+  },
+  {
+   "rank": 84,
+   "t": "MPC",
+   "n": "Marathon Petroleum"
+  },
+  {
+   "rank": 85,
+   "t": "UBER",
+   "n": "Uber"
+  },
+  {
+   "rank": 86,
+   "t": "WDC",
+   "n": "Western Digital"
+  },
+  {
+   "rank": 87,
+   "t": "FTNT",
+   "n": "Fortinet"
+  },
+  {
+   "rank": 88,
+   "t": "VLO",
+   "n": "Valero Energy"
+  },
+  {
+   "rank": 89,
+   "t": "BX",
+   "n": "Blackstone"
+  },
+  {
+   "rank": 90,
+   "t": "PLD",
+   "n": "Prologis"
+  },
+  {
+   "rank": 91,
+   "t": "VRTX",
+   "n": "Vertex Pharmaceuticals"
+  },
+  {
+   "rank": 92,
+   "t": "BKNG",
+   "n": "Booking Holdings"
+  },
+  {
+   "rank": 93,
+   "t": "PGR",
+   "n": "Progressive"
+  },
+  {
+   "rank": 94,
+   "t": "MO",
+   "n": "Altria Group"
+  },
+  {
+   "rank": 95,
+   "t": "GLW",
+   "n": "Corning"
+  },
+  {
+   "rank": 96,
+   "t": "BMY",
+   "n": "Bristol-Myers Squibb"
+  },
+  {
+   "rank": 97,
+   "t": "PH",
+   "n": "Parker-Hannifin"
+  },
+  {
+   "rank": 98,
+   "t": "LMT",
+   "n": "Lockheed Martin"
+  },
+  {
+   "rank": 99,
+   "t": "SPGI",
+   "n": "S&P Global"
+  },
+  {
+   "rank": 100,
+   "t": "COF",
+   "n": "Capital One"
+  }
+ ]
+}

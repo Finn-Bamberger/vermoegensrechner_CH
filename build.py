@@ -1,31 +1,25 @@
 import json, os, re, shutil, sys, html as _html
 BASE = os.path.dirname(os.path.abspath(__file__))
 OUT = BASE  # Ausgabe direkt im Repo-Root
-old = open(os.path.join(BASE, 'src', 'model.js'), encoding='utf-8').read()
-model = old.strip('\n')
 tpl = open(os.path.join(BASE, 'src', 'vermoegensrechner.template.html'), encoding='utf-8').read()
-assert '// MODEL-PLACEHOLDER' in tpl and '/*META-JSON*/{}' in tpl
+assert '/*META-JSON*/{}' in tpl
 
 SITE = 'https://vermoegensrechner-five.vercel.app'  # bei eigener Domain hier anpassen
-PATHS = {'start': '/', 'zins': '/zinseszins/', 'sparplan': '/sparplan/', 'drei': '/saeule-3a/', 'btc': '/bitcoin/',
+PATHS = {'start': '/', 'zins': '/zinseszins/', 'btc': '/bitcoin/',
          'etf': '/etf/', 'aktien': '/aktien/', 'methodik': '/methodik/', 'datenschutz': '/datenschutz/', 'impressum': '/impressum/'}
 META = {
- 'start': ('Vermögensrechner: Zinseszins, Sparplan, Säule 3a, Bitcoin und ETFs',
-           'Gratis-Rechner für die Schweiz: Zinseszins, Sparplan-Simulation, Säule 3a mit Steuern und Anbieter-Vergleich, Bitcoin-Kurs und ETF-Tracker.'),
+ 'start': ('Vermögensrechner: Zinseszins, Bitcoin, ETFs und Aktien',
+           'Gratis für die Schweiz: Zinseszins-Rechner, Bitcoin-Kurs, ETF-Tracker sowie Zahlen und Berichte der 100 grössten US-Unternehmen.'),
  'zins': ('Zinseszins-Rechner mit Teuerung und Kaufkraft | Vermögensrechner',
           'Zinseszins rechnen: Endkapital, Zinsanteil und Kaufkraft nach Teuerung, mit Jahrestabelle. Gratis für die Schweiz.'),
- 'sparplan': ('Sparplan-Simulation mit Monte-Carlo | Vermögensrechner',
-              'Wie wahrscheinlich erreichst du dein Sparziel? 10\'000 simulierte Börsenverläufe, nach Gebühren und Teuerung, in heutigen Franken.'),
- 'drei': ('Säule 3a: Steuern, Break-even und Anbieter-Vergleich | Vermögensrechner',
-          'Lohnt sich die Säule 3a? Vergleich mit dem freien Depot nach Steuern, Szenarien, Break-even sowie Gebühren und Konditionen der 3a-Anbieter in der Schweiz.'),
  'btc': ('Bitcoin-Kurs in CHF mit Kurshistorie bis 10 Jahre | Vermögensrechner',
          'Aktueller Bitcoin-Kurs in Schweizer Franken und Kursverlauf von einem Tag bis zehn Jahre.'),
  'etf': ('ETF-Tracker: 26 beliebte ETFs mit Kursverlauf | Vermögensrechner',
          'Kurse und Kursverlauf von 26 beliebten ETFs, darunter VTI, VOO, QQQ, GLD sowie Schweizer und europäische Fonds.'),
- 'aktien': ('Aktien: Geschäftsberichte, Quartalsberichte und Kennzahlen | Vermögensrechner',
-           'Aktuelle Geschäfts- und Quartalsberichte sowie Kennzahlen börsenkotierter Unternehmen aus SEC EDGAR, zum Start Palantir.'),
+ 'aktien': ('Aktien: Zahlen und Berichte der 100 grössten US-Unternehmen | Vermögensrechner',
+           'Quartals- und Jahreszahlen, Geschäftsberichte und Insider-Meldungen der 100 grössten US-Unternehmen, automatisch aus SEC EDGAR.'),
  'methodik': ('Methodik und Annahmen | Vermögensrechner',
-              'Wie die Rechner arbeiten: Annahmen, Steuerlogik der Säule 3a, Datenquellen und Grenzen des Anbieter-Vergleichs.'),
+              'Wie die Zahlen entstehen: Annahmen, Datenquellen und Grenzen.'),
  'datenschutz': ('Datenschutz | Vermögensrechner', 'Welche Daten bei der Nutzung anfallen und wohin sie gehen.'),
  'impressum': ('Impressum | Vermögensrechner', 'Angaben zum Betreiber der Seite.'),
 }
@@ -41,7 +35,7 @@ def cfg_sub(m):
         return '<span class="todo">[%s eintragen]</span>' % CFG_LABELS.get(k, k)
     return _html.escape(v)
 tpl = re.sub(r'\{\{(\w+)\}\}', cfg_sub, tpl)
-full = tpl.replace('// MODEL-PLACEHOLDER', model)
+full = tpl
 full = full.replace('/*META-JSON*/{}', json.dumps({k: {'title': v[0], 'description': v[1]} for k, v in META.items()}, ensure_ascii=False))
 cut = full.index('<header class="site">')
 head, body = full[:cut], full[cut:]
@@ -123,6 +117,7 @@ for key, path in PATHS.items():
 
 open(os.path.join(OUT, 'vercel.json'), 'w').write(json.dumps({
     'trailingSlash': True,
+    'redirects': [{'source': '/sparplan/', 'destination': '/', 'permanent': True}, {'source': '/saeule-3a/', 'destination': '/', 'permanent': True}],
     'headers': [{'source': '/(.*)', 'headers': [
         {'key': 'X-Content-Type-Options', 'value': 'nosniff'},
         {'key': 'Referrer-Policy', 'value': 'strict-origin-when-cross-origin'}]},

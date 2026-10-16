@@ -1,0 +1,507 @@
+{
+ "stand": "2026-10-16",
+ "quelle": "companiesmarketcap.com, Rangliste der grössten US-Unternehmen nach Börsenwert (Abruf 2026-10-16)",
+ "hinweis": "Die Liste ist eine Momentaufnahme und wird nicht automatisch angepasst.",
+ "companies": [
+  {
+   "rank": 1,
+   "name": "NVIDIA",
+   "ticker": "NVDA"
+  },
+  {
+   "rank": 2,
+   "name": "Apple",
+   "ticker": "AAPL"
+  },
+  {
+   "rank": 3,
+   "name": "Alphabet (Google)",
+   "ticker": "GOOG"
+  },
+  {
+   "rank": 4,
+   "name": "Microsoft",
+   "ticker": "MSFT"
+  },
+  {
+   "rank": 5,
+   "name": "Amazon",
+   "ticker": "AMZN"
+  },
+  {
+   "rank": 6,
+   "name": "SpaceX",
+   "ticker": "SPCX"
+  },
+  {
+   "rank": 7,
+   "name": "Meta Platforms (Facebook)",
+   "ticker": "META"
+  },
+  {
+   "rank": 8,
+   "name": "Broadcom",
+   "ticker": "AVGO"
+  },
+  {
+   "rank": 9,
+   "name": "Tesla",
+   "ticker": "TSLA"
+  },
+  {
+   "rank": 10,
+   "name": "Berkshire Hathaway",
+   "ticker": "BRK-B"
+  },
+  {
+   "rank": 11,
+   "name": "Eli Lilly",
+   "ticker": "LLY"
+  },
+  {
+   "rank": 12,
+   "name": "Micron Technology",
+   "ticker": "MU"
+  },
+  {
+   "rank": 13,
+   "name": "AMD",
+   "ticker": "AMD"
+  },
+  {
+   "rank": 14,
+   "name": "Walmart",
+   "ticker": "WMT"
+  },
+  {
+   "rank": 15,
+   "name": "JPMorgan Chase",
+   "ticker": "JPM"
+  },
+  {
+   "rank": 16,
+   "name": "Visa",
+   "ticker": "V"
+  },
+  {
+   "rank": 17,
+   "name": "Exxon Mobil",
+   "ticker": "XOM"
+  },
+  {
+   "rank": 18,
+   "name": "Johnson & Johnson",
+   "ticker": "JNJ"
+  },
+  {
+   "rank": 19,
+   "name": "Mastercard",
+   "ticker": "MA"
+  },
+  {
+   "rank": 20,
+   "name": "Intel",
+   "ticker": "INTC"
+  },
+  {
+   "rank": 21,
+   "name": "AbbVie",
+   "ticker": "ABBV"
+  },
+  {
+   "rank": 22,
+   "name": "Palantir",
+   "ticker": "PLTR"
+  },
+  {
+   "rank": 23,
+   "name": "Cisco",
+   "ticker": "CSCO"
+  },
+  {
+   "rank": 24,
+   "name": "Chevron",
+   "ticker": "CVX"
+  },
+  {
+   "rank": 25,
+   "name": "Costco",
+   "ticker": "COST"
+  },
+  {
+   "rank": 26,
+   "name": "Oracle",
+   "ticker": "ORCL"
+  },
+  {
+   "rank": 27,
+   "name": "Coca-Cola",
+   "ticker": "KO"
+  },
+  {
+   "rank": 28,
+   "name": "Procter & Gamble",
+   "ticker": "PG"
+  },
+  {
+   "rank": 29,
+   "name": "Merck",
+   "ticker": "MRK"
+  },
+  {
+   "rank": 30,
+   "name": "Bank of America",
+   "ticker": "BAC"
+  },
+  {
+   "rank": 31,
+   "name": "Lam Research",
+   "ticker": "LRCX"
+  },
+  {
+   "rank": 32,
+   "name": "UnitedHealth",
+   "ticker": "UNH"
+  },
+  {
+   "rank": 33,
+   "name": "Applied Materials",
+   "ticker": "AMAT"
+  },
+  {
+   "rank": 34,
+   "name": "Caterpillar",
+   "ticker": "CAT"
+  },
+  {
+   "rank": 35,
+   "name": "Dell",
+   "ticker": "DELL"
+  },
+  {
+   "rank": 36,
+   "name": "Philip Morris International",
+   "ticker": "PM"
+  },
+  {
+   "rank": 37,
+   "name": "General Electric",
+   "ticker": "GE"
+  },
+  {
+   "rank": 38,
+   "name": "Palo Alto Networks",
+   "ticker": "PANW"
+  },
+  {
+   "rank": 39,
+   "name": "Home Depot",
+   "ticker": "HD"
+  },
+  {
+   "rank": 40,
+   "name": "Netflix",
+   "ticker": "NFLX"
+  },
+  {
+   "rank": 41,
+   "name": "Morgan Stanley",
+   "ticker": "MS"
+  },
+  {
+   "rank": 42,
+   "name": "Texas Instruments",
+   "ticker": "TXN"
+  },
+  {
+   "rank": 43,
+   "name": "Goldman Sachs",
+   "ticker": "GS"
+  },
+  {
+   "rank": 44,
+   "name": "CrowdStrike",
+   "ticker": "CRWD"
+  },
+  {
+   "rank": 45,
+   "name": "RTX",
+   "ticker": "RTX"
+  },
+  {
+   "rank": 46,
+   "name": "GE Vernova",
+   "ticker": "GEV"
+  },
+  {
+   "rank": 47,
+   "name": "Thermo Fisher Scientific",
+   "ticker": "TMO"
+  },
+  {
+   "rank": 48,
+   "name": "Arista Networks",
+   "ticker": "ANET"
+  },
+  {
+   "rank": 49,
+   "name": "Wells Fargo",
+   "ticker": "WFC"
+  },
+  {
+   "rank": 50,
+   "name": "KLA",
+   "ticker": "KLAC"
+  },
+  {
+   "rank": 51,
+   "name": "Amgen",
+   "ticker": "AMGN"
+  },
+  {
+   "rank": 52,
+   "name": "Marvell Technology",
+   "ticker": "MRVL"
+  },
+  {
+   "rank": 53,
+   "name": "IBM",
+   "ticker": "IBM"
+  },
+  {
+   "rank": 54,
+   "name": "American Express",
+   "ticker": "AXP"
+  },
+  {
+   "rank": 55,
+   "name": "Citigroup",
+   "ticker": "C"
+  },
+  {
+   "rank": 56,
+   "name": "Amphenol",
+   "ticker": "APH"
+  },
+  {
+   "rank": 57,
+   "name": "Sandisk",
+   "ticker": "SNDK"
+  },
+  {
+   "rank": 58,
+   "name": "Analog Devices",
+   "ticker": "ADI"
+  },
+  {
+   "rank": 59,
+   "name": "Salesforce",
+   "ticker": "CRM"
+  },
+  {
+   "rank": 60,
+   "name": "Gilead Sciences",
+   "ticker": "GILD"
+  },
+  {
+   "rank": 61,
+   "name": "Walt Disney",
+   "ticker": "DIS"
+  },
+  {
+   "rank": 62,
+   "name": "Verizon",
+   "ticker": "VZ"
+  },
+  {
+   "rank": 63,
+   "name": "QUALCOMM",
+   "ticker": "QCOM"
+  },
+  {
+   "rank": 64,
+   "name": "Abbott Laboratories",
+   "ticker": "ABT"
+  },
+  {
+   "rank": 65,
+   "name": "PepsiCo",
+   "ticker": "PEP"
+  },
+  {
+   "rank": 66,
+   "name": "Deere & Company",
+   "ticker": "DE"
+  },
+  {
+   "rank": 67,
+   "name": "BlackRock",
+   "ticker": "BLK"
+  },
+  {
+   "rank": 68,
+   "name": "ConocoPhillips",
+   "ticker": "COP"
+  },
+  {
+   "rank": 69,
+   "name": "Union Pacific",
+   "ticker": "UNP"
+  },
+  {
+   "rank": 70,
+   "name": "Southern Copper",
+   "ticker": "SCCO"
+  },
+  {
+   "rank": 71,
+   "name": "T-Mobile US",
+   "ticker": "TMUS"
+  },
+  {
+   "rank": 72,
+   "name": "McDonald's",
+   "ticker": "MCD"
+  },
+  {
+   "rank": 73,
+   "name": "Charles Schwab",
+   "ticker": "SCHW"
+  },
+  {
+   "rank": 74,
+   "name": "Welltower",
+   "ticker": "WELL"
+  },
+  {
+   "rank": 75,
+   "name": "Pfizer",
+   "ticker": "PFE"
+  },
+  {
+   "rank": 76,
+   "name": "NextEra Energy",
+   "ticker": "NEE"
+  },
+  {
+   "rank": 77,
+   "name": "Danaher",
+   "ticker": "DHR"
+  },
+  {
+   "rank": 78,
+   "name": "AT&T",
+   "ticker": "T"
+  },
+  {
+   "rank": 79,
+   "name": "TJX Companies",
+   "ticker": "TJX"
+  },
+  {
+   "rank": 80,
+   "name": "Intuitive Surgical",
+   "ticker": "ISRG"
+  },
+  {
+   "rank": 81,
+   "name": "Boeing",
+   "ticker": "BA"
+  },
+  {
+   "rank": 82,
+   "name": "ServiceNow",
+   "ticker": "NOW"
+  },
+  {
+   "rank": 83,
+   "name": "Interactive Brokers",
+   "ticker": "IBKR"
+  },
+  {
+   "rank": 84,
+   "name": "Marathon Petroleum",
+   "ticker": "MPC"
+  },
+  {
+   "rank": 85,
+   "name": "Uber",
+   "ticker": "UBER"
+  },
+  {
+   "rank": 86,
+   "name": "Western Digital",
+   "ticker": "WDC"
+  },
+  {
+   "rank": 87,
+   "name": "Fortinet",
+   "ticker": "FTNT"
+  },
+  {
+   "rank": 88,
+   "name": "Valero Energy",
+   "ticker": "VLO"
+  },
+  {
+   "rank": 89,
+   "name": "Blackstone",
+   "ticker": "BX"
+  },
+  {
+   "rank": 90,
+   "name": "Prologis",
+   "ticker": "PLD"
+  },
+  {
+   "rank": 91,
+   "name": "Vertex Pharmaceuticals",
+   "ticker": "VRTX"
+  },
+  {
+   "rank": 92,
+   "name": "Booking Holdings",
+   "ticker": "BKNG"
+  },
+  {
+   "rank": 93,
+   "name": "Progressive",
+   "ticker": "PGR"
+  },
+  {
+   "rank": 94,
+   "name": "Altria Group",
+   "ticker": "MO"
+  },
+  {
+   "rank": 95,
+   "name": "Corning",
+   "ticker": "GLW"
+  },
+  {
+   "rank": 96,
+   "name": "Bristol-Myers Squibb",
+   "ticker": "BMY"
+  },
+  {
+   "rank": 97,
+   "name": "Parker-Hannifin",
+   "ticker": "PH"
+  },
+  {
+   "rank": 98,
+   "name": "Lockheed Martin",
+   "ticker": "LMT"
+  },
+  {
+   "rank": 99,
+   "name": "S&P Global",
+   "ticker": "SPGI"
+  },
+  {
+   "rank": 100,
+   "name": "Capital One",
+   "ticker": "COF"
+  }
+ ]
+}

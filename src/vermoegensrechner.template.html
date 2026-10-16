@@ -5,7 +5,7 @@
 @font-face { font-family: "IBM Plex Mono"; font-style: normal; font-weight: 400; font-display: swap; src: url(/fonts/ibm-plex-mono-latin-400-normal-v2.woff2) format("woff2"); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
 @font-face { font-family: "IBM Plex Mono"; font-style: normal; font-weight: 500; font-display: swap; src: url(/fonts/ibm-plex-mono-latin-500-normal-v2.woff2) format("woff2"); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
 /* Konzept: Schweizer Finanzseite. Kräftiges Blau als Markenfarbe, Himmelblau als Akzent,
-   Blau und Bernstein nur als Datenfarben (frei / 3a). Dunkles Hero-Band, helle Arbeitsflächen.
+   Blau und Bernstein nur als Datenfarben (Einzahlungen / Zinsen). Dunkles Hero-Band, helle Arbeitsflächen.
    Schrift: Bricolage Grotesque für Titel und grosse Zahlen, Instrument Sans für Text, IBM Plex Mono für Tabellen. */
 :root {
   --paper: #F4F7FC;
@@ -217,48 +217,6 @@ tr.cur td { background: var(--wash); }
 .empty { padding: 48px 16px; text-align: center; color: var(--muted); font-size: 0.9rem; }
 .notice .btn { margin-left: 8px; }
 
-/* Anbieter-Vergleich */
-.vg { padding-bottom: 64px; }
-.vg-card { background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 18px; display: flex; flex-direction: column; gap: 12px; min-width: 0; }
-.vg-card h2 { font-size: 1.15rem; }
-.vg-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 12px; align-items: end; }
-.vg-grid label { display: flex; flex-direction: column; gap: 4px; font-size: 0.82rem; color: var(--muted); font-weight: 600; }
-.vg-grid input, .vg-grid select { font: inherit; font-size: 0.95rem; color: var(--ink); background: var(--paper); border: 1px solid var(--line); border-radius: 8px; padding: 8px 10px; min-height: 40px; }
-.vg-grid input:focus-visible, .vg-grid select:focus-visible { outline: 2px solid var(--brand); outline-offset: 2px; }
-.vg-grid label.vg-chk { flex-direction: row; align-items: center; gap: 8px; min-height: 40px; color: var(--ink); font-weight: 500; }
-.vg-grid label.vg-chk input { min-height: 0; width: 18px; height: 18px; accent-color: var(--brand); }
-.vg table { min-width: 880px; }
-.vg td, .vg th { text-align: left; white-space: normal; vertical-align: top; }
-.vg td.num, .vg th.num { white-space: nowrap; }
-.vg th button { all: unset; cursor: pointer; font: inherit; letter-spacing: inherit; text-transform: inherit; display: inline-flex; gap: 4px; align-items: center; }
-.vg th button:focus-visible { outline: 2px solid var(--brand); }
-.vg th[aria-sort="ascending"] button::after { content: "▲"; font-size: 0.7em; }
-.vg th[aria-sort="descending"] button::after { content: "▼"; font-size: 0.7em; }
-.vg td { font-family: var(--f-body); }
-.vg td.num { font-family: var(--f-num); }
-.vg .name { font-weight: 700; display: block; font-family: var(--f-body); }
-.vg .sub, .vg .tag, .vg td .nv { font-family: var(--f-body); }
-.vg details { margin-top: 4px; }
-.vg details summary { cursor: pointer; font-size: 0.78rem; color: var(--brand); font-weight: 600; }
-.vg td.pname { min-width: 190px; }
-.vg td:nth-child(3) { min-width: 220px; }
-.vg td .sub { max-width: 260px; white-space: normal; }
-.vg .vg-nv { margin-top: 14px; }
-.vg .vg-nv > summary { font-size: 0.9rem; }
-.vg .vg-ind { margin: 20px 0 4px; font-size: 1rem; }
-.vg .sub { display: block; overflow-wrap: anywhere; font-size: 0.78rem; font-weight: 400; margin-top: 2px; }
-.vg .tag { display: inline-block; font-size: 0.7rem; font-weight: 700; border-radius: 6px; padding: 2px 7px; margin-top: 4px; }
-.vg .tag.v { background: var(--wash); color: var(--up); }
-.vg .tag.t, .vg .tag.n { background: var(--warn-bg); color: var(--warn-ink); }
-.vg .nv { color: var(--muted); font-style: italic; }
-.vg .vbtn { display: inline-block; background: var(--brand); color: var(--on-brand); text-decoration: none; font-weight: 700; border-radius: 8px; padding: 6px 12px; font-size: 0.85rem; margin-top: 4px; }
-.vg .ad { display: block; font-size: 0.7rem; color: var(--muted); margin-top: 2px; }
-.vg .slot { display: inline-block; border: 1.5px dashed var(--line); color: var(--muted); border-radius: 8px; padding: 5px 9px; font-size: 0.78rem; margin-top: 4px; }
-.vg a { color: var(--brand); }
-.vg tr.best td { background: var(--wash); }
-.vg .small { font-size: 0.82rem; color: var(--muted); }
-.vg .disc { border-left: 4px solid var(--warn-line); background: var(--warn-bg); color: var(--warn-ink); border-radius: 8px; padding: 12px 14px; font-size: 0.88rem; max-width: 80ch; }
-
 ul.breaks { margin: 0; padding-left: 1.2em; display: flex; flex-direction: column; gap: 6px; max-width: 70ch; }
 /* ETFs */
 .etf { padding-bottom: 64px; }
@@ -272,6 +230,9 @@ ul.breaks { margin: 0; padding-left: 1.2em; display: flex; flex-direction: colum
 .fl li { padding: 8px 0; border-bottom: 1px solid var(--line); }
 .fl-d { display: inline-block; min-width: 6.2em; color: var(--muted); font-family: var(--f-num); font-size: 0.88rem; }
 .fl-s { color: var(--muted); font-size: 0.82rem; margin-left: 6px; }
+.ak-pick { display: flex; flex-direction: column; gap: 10px; }
+.ak-pick input[type="search"] { width: 100%; font: 1rem var(--f-body); color: var(--ink); background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 12px 14px; }
+.ak-list { max-height: 214px; overflow: auto; padding: 2px; align-content: flex-start; }
 .chip:hover { background: var(--wash); }
 .chip[aria-pressed="true"] { border-color: var(--brand); box-shadow: inset 0 0 0 1px var(--brand); background: var(--wash); }
 .etf-head { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 6px 20px; }
@@ -349,8 +310,6 @@ tbody tr:nth-child(even) td { background: color-mix(in srgb, var(--wash) 35%, tr
     <nav class="menu" aria-label="Hauptmenü">
       <a href="/" data-go="start">Start</a>
       <a href="/zinseszins/" data-go="zins">Zinseszins</a>
-      <a href="/sparplan/" data-go="sparplan">Sparplan</a>
-      <a href="/saeule-3a/" data-go="drei">Säule 3a</a>
       <a href="/bitcoin/" data-go="btc">Bitcoin</a>
       <a href="/etf/" data-go="etf">ETFs</a>
       <a href="/aktien/" data-go="aktien">Aktien</a>
@@ -372,12 +331,12 @@ tbody tr:nth-child(even) td { background: color-mix(in srgb, var(--wash) 35%, tr
         <path d="M0 318 C150 306 310 250 600 22" fill="none" style="stroke:var(--sun)" stroke-width="3" stroke-linecap="round"/>
       </svg>
       <div class="wrap hero-in">
-        <p class="eyebrow">Gratis-Rechner für die Schweiz</p>
+        <p class="eyebrow">Gratis für die Schweiz</p>
         <h1>Was wird aus deinem Geld?</h1>
-        <p class="lede">Rechne Zinseszins, Sparplan und Säule 3a durch. Nach Gebühren und Steuern, in heutigen Franken.</p>
+        <p class="lede">Rechne den Zinseszins durch, verfolge Bitcoin und ETFs und lies Zahlen, Berichte und Insider-Meldungen der 100 grössten US-Unternehmen.</p>
         <div class="cta">
-          <a class="btn primary" href="/sparplan/" data-go="sparplan">Sparplan simulieren</a>
-          <a class="btn ghost" href="/saeule-3a/" data-go="drei">Säule 3a vergleichen</a>
+          <a class="btn primary" href="/aktien/" data-go="aktien">Aktien ansehen</a>
+          <a class="btn ghost" href="/zinseszins/" data-go="zins">Zinseszins rechnen</a>
         </div>
       </div>
     </div>
@@ -404,16 +363,6 @@ tbody tr:nth-child(even) td { background: color-mix(in srgb, var(--wash) 35%, tr
         <a class="more" href="/zinseszins/" data-go="zins">Ausführlicher Rechner mit Tabelle</a>
       </section>
 
-      <section id="st-teaser" aria-labelledby="teaser-title">
-        <div class="sec-head">
-          <h2 id="teaser-title">Lohnt sich die Säule 3a?</h2>
-          <p>Ein Beispiel mit Standardwerten, die drei wichtigsten Ergebnisse.</p>
-        </div>
-        <div class="stats" id="st-teaser-grid"></div>
-        <p class="cap" id="st-teaser-cap"></p>
-        <a class="more" href="/saeule-3a/" data-go="drei">Eigene Werte in der Säule-3a-Rechnung eingeben</a>
-      </section>
-
       <section>
         <div class="sec-head">
           <h2>Kennzahlen zu deinem Beispiel</h2>
@@ -425,25 +374,13 @@ tbody tr:nth-child(even) td { background: color-mix(in srgb, var(--wash) 35%, tr
       <section>
         <div class="sec-head">
           <h2>Alle Werkzeuge</h2>
-          <p>Rechner für deine Vermögensplanung, dazu Bitcoin-Kurs und ETF-Tracker.</p>
+          <p>Zinseszins-Rechner, Bitcoin-Kurs, ETF-Tracker und Unternehmenszahlen.</p>
         </div>
         <div class="cards">
           <a class="card" href="/zinseszins/" data-go="zins">
             <svg viewBox="0 0 34 34" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 28h26"/><path d="M6 24c8 0 14-3 22-16"/><path d="M22 8h6v6"/></svg>
             <h3>Zinseszins-Rechner</h3>
             <p>Wie wächst dein Geld bei festem Zins? Mit Jahrestabelle und Kaufkraft.</p>
-            <span class="go">Öffnen</span>
-          </a>
-          <a class="card" href="/sparplan/" data-go="sparplan">
-            <svg viewBox="0 0 34 34" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 28h26"/><path d="M5 22l6-7 5 4 6-9 7 5"/></svg>
-            <h3>Sparplan-Simulation</h3>
-            <p>Mit welcher Wahrscheinlichkeit erreichst du dein Sparziel, wenn die Börse schwankt?</p>
-            <span class="go">Öffnen</span>
-          </a>
-          <a class="card" href="/saeule-3a/" data-go="drei">
-            <svg viewBox="0 0 34 34" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="9" width="24" height="17" rx="3"/><path d="M5 15h24"/><path d="M11 21h5"/></svg>
-            <h3>Säule 3a und Steuern</h3>
-            <p>Lohnt sich die Säule 3a? Vergleich mit dem freien Depot, nach Steuern.</p>
             <span class="go">Öffnen</span>
           </a>
           <a class="card" href="/bitcoin/" data-go="btc">
@@ -458,8 +395,13 @@ tbody tr:nth-child(even) td { background: color-mix(in srgb, var(--wash) 35%, tr
             <p>26 beliebte ETFs mit aktuellen Kursen und Kursverlauf.</p>
             <span class="go">Öffnen</span>
           </a>
+          <a class="card" href="/aktien/" data-go="aktien">
+            <svg viewBox="0 0 34 34" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 28h26"/><rect x="8" y="16" width="4" height="12" rx="1"/><rect x="15" y="10" width="4" height="18" rx="1"/><rect x="22" y="5" width="4" height="23" rx="1"/></svg>
+            <h3>Aktien</h3>
+            <p>Zahlen, Berichte und Insider-Meldungen der 100 grössten US-Unternehmen.</p>
+            <span class="go">Öffnen</span>
+          </a>
         </div>
-        <p class="soon"><b>In Planung:</b> Pensionskassen-Einkauf, Miete oder Eigenheim, Wohneigentumsbezug der Säule 3a.</p>
       </section>
     </div>
   </section>
@@ -497,71 +439,6 @@ tbody tr:nth-child(even) td { background: color-mix(in srgb, var(--wash) 35%, tr
     </div>
   </section>
 
-  <!-- SPARPLAN -->
-  <section id="p-sparplan" hidden>
-    <div class="wrap">
-      <div class="pagehead">
-        <p class="eyebrow">Rechner</p>
-        <h1>Sparplan-Simulation</h1>
-        <p class="lede">Mit welcher Wahrscheinlichkeit erreichst du dein Sparziel? Die Simulation spielt 10'000 mögliche Börsenverläufe durch, nach Gebühren und Steuern, in heutigen Franken.</p>
-      </div>
-      <div class="layout">
-        <form class="inputs" id="sp-form" autocomplete="off"></form>
-        <div class="results" id="sp-results"></div>
-      </div>
-    </div>
-  </section>
-
-  <!-- SÄULE 3A -->
-  <section id="p-drei" hidden>
-    <div class="wrap">
-      <div class="pagehead">
-        <p class="eyebrow">Rechner</p>
-        <h1>Säule 3a und Steuern</h1>
-        <p class="lede">Lohnt sich die Säule 3a für dich? Vergleich zwischen freiem Depot und 3a bei gleichem Sparbetrag, nach Steuern und in heutigen Franken.</p>
-      </div>
-      <div class="layout">
-        <form class="inputs" id="dr-form" autocomplete="off"></form>
-        <div class="results" id="dr-results"></div>
-      </div>
-      <div class="vg" id="anbieter" style="margin-top:56px">
-        <div class="pagehead" style="padding-block:0 20px">
-          <p class="eyebrow">Vergleich</p>
-          <h2 style="font-size:clamp(1.5rem,3.4vw,2.2rem);line-height:1.1">Säule-3a-Anbieter im Vergleich</h2>
-          <p class="lede">Gebühren, Aktienquoten und Mindesteinlagen der Schweizer Säule-3a-Anbieter nebeneinander. Alle Zahlen stammen von den offiziellen Anbieter-Seiten. Was sich nicht belegen liess, ist als «nicht verifiziert» markiert. <b id="vg-stand">Stand: …</b></p>
-        </div>
-
-      <div class="results">
-        <section class="vg-card" aria-labelledby="vg-h-tab">
-          <h2 id="vg-h-tab">Anbieter-Tabelle</h2>
-          <div class="vg-grid">
-            <label>Typ<select id="vg-f-typ"><option value="">Alle</option><option value="wertschriften">Wertschriften</option><option value="konto">Konto / Bank</option><option value="versicherung">Versicherung</option></select></label>
-            <label>Aktienquote (± 10 Punkte)<select id="vg-f-quote"><option value="">Beliebig</option><option value="0">0 % (Konto)</option><option value="20">20 %</option><option value="40">40 %</option><option value="60">60 %</option><option value="80">80 %</option><option value="100">100 %</option></select></label>
-            <label>Max. Gesamtkosten p. a. (%)<input id="vg-f-fee" type="number" min="0" step="0.01" inputmode="decimal" placeholder="z. B. 0.40"></label>
-            <label>Max. Mindesteinlage (CHF)<input id="vg-f-min" type="number" min="0" step="1" inputmode="numeric" placeholder="z. B. 1000"></label>
-            <label class="vg-chk"><input id="vg-f-ver" type="checkbox"> Nur Anbieter mit belegten Zahlen</label>
-          </div>
-          <div class="tablewrap" id="vg-tw" role="region" aria-label="Anbieter-Tabelle" tabindex="0" style="max-height:none"></div>
-          <p class="small">Gesamtkosten = Verwaltungs- und Produktkosten zusammen, in % des Vermögens pro Jahr. Eine Spanne bedeutet: je nach Strategie. «Keine Daten» heisst: nicht belegt. Solche Anbieter stehen bei der Sortierung immer am Schluss und werden nicht mit 0 % gerechnet. Die Tabelle ist standardmässig nach den tiefsten Gesamtkosten sortiert, der Rechner nach dem höchsten Endkapital. Beides ist umstellbar und hängt nicht von Affiliate-Links ab.</p>
-        </section>
-        <section class="vg-card" aria-labelledby="vg-h-calc">
-          <h2 id="vg-h-calc">Gebührenrechner</h2>
-          <div class="vg-grid">
-            <label>Einzahlung pro Jahr (CHF)<input id="vg-c-dep" type="number" min="0" step="100" value="7258" inputmode="numeric"></label>
-            <label>Laufzeit (Jahre)<input id="vg-c-years" type="number" min="1" max="60" step="1" value="20" inputmode="numeric"></label>
-            <label>Erwartete Rendite brutto (% p. a.)<input id="vg-c-ret" type="number" step="0.1" value="5" inputmode="decimal"></label>
-            <label>Aktienquote<select id="vg-c-quote"><option value="0">0 % (Konto, Zins des Anbieters)</option><option value="20">20 %</option><option value="40">40 %</option><option value="60" selected>60 %</option><option value="80">80 %</option><option value="100">100 %</option></select></label>
-            <label>Sortieren nach<select id="vg-c-sort"><option value="end">Endkapital (höchstes zuerst)</option><option value="kosten">Gesamtkosten (tiefste zuerst)</option><option value="name">Name</option></select></label>
-            <label class="vg-chk"><input id="vg-c-free" type="checkbox"> Freibeträge berücksichtigen</label>
-          </div>
-          <p class="small" id="vg-c-note"></p>
-          <div class="tablewrap" id="vg-c-out" style="max-height:none"></div>
-        </section>
-        <div class="vg-disc disc"><strong>Wichtig:</strong> Der Vergleich dient nur der Information und ist keine Anlageberatung. Angaben ohne Gewähr. Bitte das Stand-Datum beachten und die Konditionen vor einem Entscheid beim Anbieter prüfen. Kursverluste sind möglich; die Rendite der Vergangenheit sagt nichts über die Zukunft. Links mit «Werbung» sind Affiliate-Links: Bei einem Abschluss kann eine Provision an den Betreiber dieser Seite fliessen. Das ändert weder die Daten noch die Sortierung. Zinsen und Gebühren ändern sich laufend; Angaben mit dem Hinweis «älter als 90 Tage» bitte besonders prüfen.</div>
-        </div>
-      </div>
-    </div>
-  </section>
   <!-- BITCOIN -->
   <section id="p-btc" hidden>
     <div class="wrap">
@@ -643,10 +520,15 @@ tbody tr:nth-child(even) td { background: color-mix(in srgb, var(--wash) 35%, tr
       <div class="pagehead">
         <p class="eyebrow">Unternehmen</p>
         <h1>Aktien: Zahlen und Berichte</h1>
-        <p class="lede">Die wichtigsten Zahlen, Berichte und Insider-Meldungen börsenkotierter Unternehmen, direkt aus den offiziellen Einreichungen bei der US-Börsenaufsicht SEC. Wähle ein Unternehmen aus.</p>
+        <p class="lede">Zahlen, Berichte und Insider-Meldungen der 100 grössten US-Unternehmen nach Börsenwert, direkt aus den offiziellen Einreichungen bei der US-Börsenaufsicht SEC. Suche ein Unternehmen oder wähle es aus der Liste.</p>
       </div>
       <div class="results">
-        <div class="chips" id="ak-tabs" role="group" aria-label="Unternehmen"></div>
+        <div class="ak-pick">
+          <label class="sr-only" for="ak-q">Unternehmen suchen</label>
+          <input type="search" id="ak-q" placeholder="Unternehmen oder Ticker suchen, zum Beispiel Apple oder NVDA" autocomplete="off">
+          <div class="chips ak-list" id="ak-tabs" role="group" aria-label="Unternehmen"></div>
+          <p class="cap" id="ak-count"></p>
+        </div>
         <section class="chartbox">
           <div class="etf-head"><h2 id="ak-title"></h2><a class="more" id="ak-link" target="_blank" rel="noopener">Auf TradingView öffnen</a></div>
           <p class="kicker" id="ak-meta"></p>
@@ -672,42 +554,18 @@ tbody tr:nth-child(even) td { background: color-mix(in srgb, var(--wash) 35%, tr
       <div class="pagehead">
         <p class="eyebrow">Transparenz</p>
         <h1>Methodik und Annahmen</h1>
-        <p class="lede">So rechnen die Rechner, welche Annahmen drinstecken und was sie nicht können.</p>
+        <p class="lede">So entstehen die Zahlen, welche Annahmen drinstecken und was die Seite nicht kann.</p>
       </div>
       <div class="doc">
         <h2>Zinseszins</h2>
         <p>Der Zinseszins-Rechner verzinst Startkapital und monatliche Einzahlungen mit dem eingegebenen effektiven Jahreszins, umgerechnet auf einen Monatszins. Die Teuerung dient nur der Umrechnung in heutige Kaufkraft.</p>
-        <h2>Sparplan-Simulation (Monte-Carlo)</h2>
+        <h2>Aktien</h2>
         <ul>
-          <li>Es werden 10'000 zufällige Börsenverläufe simuliert, Schritt für Schritt pro Monat (geometrische Brownsche Bewegung mit konstanter Rendite und Schwankung). Die Zufallszahlen sind fest vorgegeben, damit dieselben Eingaben dieselben Ergebnisse liefern.</li>
-          <li>Die eingegebene Rendite ist ein Durchschnitt vor Gebühren, keine Prognose. Echte Märkte haben mehr Extremereignisse, als diese Annahme abbildet.</li>
-          <li>Alle Ergebnisse gelten in heutigen Franken: Das Endvermögen wird mit der Teuerung abgezinst. Die Sparrate steigt auf Wunsch jährlich mit der Teuerung.</li>
-          <li>«Pessimistisch» heisst 10-%-Quantil (nur 1 von 10 Verläufen ist schlechter), «Optimistisch» 90-%-Quantil, «Mittel» der Median.</li>
-        </ul>
-        <h2>Freies Depot und Steuern</h2>
-        <ul>
-          <li>Kursgewinne sind für Privatanleger in der Schweiz in der Regel steuerfrei. Steuerlast entsteht durch Dividenden (Einkommenssteuer) und die Vermögenssteuer.</li>
-          <li>Die jährliche Steuerlast wird als <i>Dividendenrendite × Grenzsteuersatz + Vermögenssteuersatz</i> von der Rendite abgezogen. Die Verrechnungssteuer wird als zurückgefordert angenommen.</li>
-          <li>Kurs- und Währungsrisiken stecken in der Schwankung; der Rechner arbeitet in Franken.</li>
-        </ul>
-        <h2>Säule 3a</h2>
-        <ul>
-          <li>Die Sparrate fliesst bis zum Höchstbetrag in die Säule 3a, der Rest ins freie Depot. Das Startkapital bleibt im freien Depot.</li>
-          <li>Höchstbeträge: Steuerjahr 2026 CHF 7'258 mit Pensionskasse, ohne Pensionskasse 20 % des Netto-Erwerbseinkommens, höchstens CHF 36'288. Steuerjahr 2027: CHF 7'373 bzw. CHF 36'864. Die Beträge werden jährlich angepasst; die Quellen stehen direkt beim Rechner.</li>
-          <li>Die Steuerersparnis (Einzahlung × Grenzsteuersatz) wird am Jahresende im freien Depot angelegt.</li>
-          <li>Beim Bezug wird die Kapitalleistungssteuer abgezogen. Du gibst zwei Sätze ein: bei Bezug in einem Jahr und bei gestaffeltem Bezug über mehrere Konten und Jahre. Beide Sätze hängen von Kanton, Gemeinde, Zivilstand und Konfession ab und lassen sich im Steuerrechner der Eidgenössischen Steuerverwaltung ermitteln. Die Seite hinterlegt bewusst keine eigenen Steuertabellen, damit keine veralteten Sätze auftauchen.</li>
-          <li>Der Break-even zeigt, ab welchem Grenzsteuersatz beziehungsweise bis zu welcher Bezugssteuer die Säule 3a im Median vorn liegt. Die Steuerlast im Depot bleibt dabei unverändert.</li>
-          <li>Nicht modelliert: Wohneigentumsbezug, Pensionskassen-Einkäufe, Nachzahlungen für Beitragslücken, vorzeitiger Bezug und Steuerprogression über mehrere Jahre.</li>
-        </ul>
-        <h2>Anbieter-Vergleich</h2>
-        <ul>
-          <li>Alle Zahlen stammen von den offiziellen Websites oder Factsheets der Anbieter. Pro Anbieter stehen Quelle und Abrufdatum in der Tabelle. Seiten ohne eigenes Datum gelten mit dem Abrufdatum.</li>
-          <li>«Belegt», «teilweise belegt» und «nicht verifiziert» zeigen, wie vollständig die Angaben sind. Fehlende Werte heissen «keine Daten» und werden nie als 0 % gerechnet.</li>
-          <li>Gesamtkosten sind in einem Feld als Spanne (tiefster und höchster Wert) erfasst. «Indikativ» bedeutet: pauschal genannte Kosten, die Aktienquote ist nicht belegt.</li>
-          <li>Einmalige Kosten (zum Beispiel Ausgabekommission oder Kauf-/Verkaufsgebühr) fliessen in die Rechnung ein, soweit sie erfasst sind.</li>
-          <li>Angaben, die älter als 90 Tage sind, werden markiert. Zinsen und Gebühren ändern sich laufend.</li>
-          <li>Sortierung: Die Tabelle ist standardmässig nach den tiefsten Gesamtkosten sortiert, der Rechner nach dem höchsten Endkapital. Beides ist umstellbar. Affiliate-Links ändern weder Daten noch Sortierung.</li>
-          <li>Der Gebührenrechner vergleicht Strategien mit ähnlicher Aktienquote (± 10 Prozentpunkte) und gleicher Bruttorendite. Er zeigt Kostenunterschiede, keine Prognose der Rendite einzelner Produkte.</li>
+          <li>Die Firmenliste umfasst die 100 grössten US-Unternehmen nach Börsenwert. Sie ist eine Momentaufnahme (Quelle und Datum stehen in der Datei data/aktien/universe.json) und wird nicht automatisch angepasst.</li>
+          <li>Berichte, Quartals- und Jahreszahlen sowie Insider-Meldungen stammen von SEC EDGAR und werden automatisch etwa alle 30 Minuten geprüft. Die Zahlen sind die vom Unternehmen gemeldeten XBRL-Werte in US-Dollar; das vierte Quartal wird aus den Jahreswerten abgeleitet.</li>
+          <li>Freier Cashflow = operativer Cashflow minus Investitionen in Sachanlagen. Je nach Branche (zum Beispiel Banken) sind einzelne Kennzahlen nicht ausgewiesen und werden mit einem Strich angezeigt.</li>
+          <li>Der Börsenwert ist Kurs mal alle ausgegebenen Aktien laut Titelseite des letzten Berichts, der Kurs stammt von Stooq oder Yahoo Finance. Kennzahlen wie Kurs/Umsatz entstehen aus Börsenwert und den letzten vier Quartalen.</li>
+          <li>Die Seite informiert und enthält keine Empfehlungen oder Bewertungen. Massgeblich sind immer die Originalberichte.</li>
         </ul>
         <h2>Bitcoin und ETFs</h2>
         <p>Bitcoin-Kurse kommen von Kraken, lange Zeiträume aus Tagesdurchschnittspreisen von Blockchain.info, umgerechnet mit Devisenkursen der EZB über Frankfurter. Die ETF-Diagramme und -Kurse stammen von TradingView und werden erst nach deinem Klick geladen. Frühere Kursentwicklung sagt nichts über die Zukunft.</p>
@@ -740,8 +598,6 @@ tbody tr:nth-child(even) td { background: color-mix(in srgb, var(--wash) 35%, tr
         <p>Wenn du die Seite «Bitcoin» öffnest, ruft dein Browser Kurse direkt bei folgenden Diensten ab (Blockchain.info und Frankfurter nur für die Zeiträume 5 Jahre, 10 Jahre und Max), wodurch diese deine IP-Adresse sehen: Kraken (api.kraken.com), Blockchain.info (api.blockchain.info) und Frankfurter (api.frankfurter.dev). Es werden keine persönlichen Daten von dir übermittelt ausser denen, die dein Browser technisch bei jedem Abruf mitsendet.</p>
         <h2>ETF- und Aktien-Seite (TradingView)</h2>
         <p>Die Diagramme und Kurstabellen stammen von TradingView Inc. Sie werden erst geladen, nachdem du auf der ETF- oder Aktien-Seite ausdrücklich zugestimmt hast. Danach verbindet sich dein Browser mit TradingView; TradingView sieht deine IP-Adresse und kann Cookies setzen. Es gelten die Datenschutzbestimmungen von TradingView.</p>
-        <h2>Links zu Anbietern und Affiliate-Links</h2>
-        <p>Der Anbieter-Vergleich verlinkt auf die Websites der Anbieter. Links mit dem Hinweis «Werbung» sind Affiliate-Links: Wenn du darüber einen Vertrag abschliesst, kann eine Provision an den Betreiber dieser Seite fliessen. Auf den Seiten der Anbieter gelten deren Datenschutzbestimmungen.</p>
         <h2>Deine Rechte</h2>
         <p>Du kannst Auskunft über die zu deiner Person bearbeiteten Daten verlangen sowie deren Berichtigung oder Löschung. Wende dich dazu an die oben genannte Stelle. Du kannst dich ausserdem an den Eidgenössischen Datenschutz- und Öffentlichkeitsbeauftragten (EDÖB) wenden.</p>
         <p class="small">Diese Erklärung ist eine Vorlage auf Basis der tatsächlich eingebundenen Dienste. Sie ersetzt keine Rechtsberatung; bitte vor Veröffentlichung prüfen und die markierten Felder ausfüllen.</p>
@@ -765,7 +621,6 @@ tbody tr:nth-child(even) td { background: color-mix(in srgb, var(--wash) 35%, tr
         <h2>Haftungsausschluss</h2>
         <p>Die Inhalte dieser Seite dienen nur der Information und stellen keine Anlage-, Steuer- oder Rechtsberatung dar. Trotz sorgfältiger Prüfung übernehmen wir keine Gewähr für Richtigkeit, Vollständigkeit und Aktualität, insbesondere nicht für die Angaben der Anbieter im Vergleich. Für Entscheide, die auf diesen Angaben beruhen, wird keine Haftung übernommen. Für Inhalte verlinkter Seiten sind allein deren Betreiber verantwortlich.</p>
         <h2>Werbung</h2>
-        <p>Einzelne Links im Anbieter-Vergleich sind Affiliate-Links und als «Werbung» gekennzeichnet.</p>
         <p class="small">Die markierten Felder müssen vor der Veröffentlichung ausgefüllt werden. Wer in der Schweiz ein Online-Angebot betreibt, muss seine Identität und Kontaktangaben deutlich angeben. Bitte bei Unsicherheit rechtlich prüfen lassen.</p>
       </div>
     </div>
@@ -779,72 +634,44 @@ tbody tr:nth-child(even) td { background: color-mix(in srgb, var(--wash) 35%, tr
       <a href="/datenschutz/" data-go="datenschutz">Datenschutz</a>
       <a href="/impressum/" data-go="impressum">Impressum</a>
     </nav>
-    <p>Die Rechner arbeiten mit Annahmen und ersetzen keine Anlage-, Steuer- oder Rechtsberatung. Renditen sind nicht garantiert. Der Anbieter-Vergleich dient nur der Information, Angaben ohne Gewähr.</p>
+    <p>Die Rechner arbeiten mit Annahmen und ersetzen keine Anlage-, Steuer- oder Rechtsberatung. Renditen sind nicht garantiert.</p>
     <p>Deine Eingaben bleiben in deinem Browser und werden nicht an uns übertragen. Mehr dazu in der <a href="/datenschutz/" data-go="datenschutz">Datenschutzerklärung</a>.</p>
   </div>
 </footer>
 
 <script>
-// MODEL-START
-// MODEL-PLACEHOLDER
-// MODEL-END
-
 (function () {
-  const N = 10000;
   const KEY = 'vermoegensrechner-v2';
   // Jede Seite enthält nur ihren eigenen Inhalt; fehlende Elemente anderer Seiten werden durch ein unsichtbares Ersatzelement abgefangen.
   const $ = id => document.getElementById(id) || document.createElement('div');
 
   // ---------- Felder und Zustand ----------
   const DEFS = {
-    start:    { label: 'Startkapital', unit: 'CHF', def: 40000, min: 0, max: 1e8 },
-    sparrate: { label: 'Sparrate pro Monat', hint: 'in heutigen Franken', unit: 'CHF', def: 2000, min: 0, max: 1e6 },
-    jahre:    { label: 'Anlagehorizont', unit: 'Jahre', def: 20, min: 1, max: 50, int: true },
-    ziel:     { label: 'Ziel nach Steuern', hint: 'in heutiger Kaufkraft', unit: 'CHF', def: 500000, min: 1, max: 1e9 },
-    rendite:  { label: 'Rendite pro Jahr', hint: 'Durchschnitt, vor Gebühren', unit: '%', def: 6, min: -5, max: 20, pct: true },
-    vola:     { label: 'Schwankung pro Jahr', hint: 'Aktienmarkt etwa 15 bis 18 %', unit: '%', def: 15, min: 1, max: 60, pct: true },
     infl:     { label: 'Teuerung pro Jahr', unit: '%', def: 2, min: -2, max: 15, pct: true },
-    gebFrei:  { label: 'Gebühren pro Jahr', hint: 'z. B. ETF-Kostenquote', unit: '%', def: 0.2, min: 0, max: 5, pct: true },
-    drag:     { label: 'Steuerlast pro Jahr', hint: 'Dividenden und Vermögenssteuer, grob', unit: '%', def: 0.4, min: 0, max: 5, pct: true },
-    max3a:    { label: 'Einzahlung pro Jahr', hint: 'Höchstbetrag 2026, Angestellte mit PK', unit: 'CHF', def: 7258, min: 0, max: 100000 },
-    geb3:     { label: 'Gebühren 3a pro Jahr', unit: '%', def: 0.4, min: 0, max: 5, pct: true },
-    tg:       { label: 'Grenzsteuersatz', hint: 'Satz auf dem letzten Franken (Bund, Kanton, Gemeinde)', unit: '%', def: 25, min: 0, max: 60, pct: true },
-    bezug:    { label: 'Steuer bei Bezug in einem Jahr', hint: 'Kapitalleistungssteuer, grob 5 bis 7 %', unit: '%', def: 6, min: 0, max: 40, pct: true },
-    staffel:  { label: 'Art des Bezugs', def: 0, min: 0, max: 1, int: true, opts: [[0, 'Alles in einem Jahr'], [1, 'Gestaffelt auf mehrere Konten und Jahre']] },
-    bezug2:   { label: 'Steuer bei gestaffeltem Bezug', hint: 'Satz bei Aufteilung, aus dem ESTV-Steuerrechner', unit: '%', def: 4.5, min: 0, max: 40, pct: true },
-    jahr3a:   { label: 'Steuerjahr', def: 2026, min: 2026, max: 2027, int: true, opts: [[2026, '2026'], [2027, '2027']] },
-    pk:       { label: 'Pensionskasse', def: 0, min: 0, max: 1, int: true, opts: [[0, 'Ja, bei einer Pensionskasse versichert'], [1, 'Nein (selbständig, ohne Pensionskasse)']] },
-    einkommen:{ label: 'Netto-Erwerbseinkommen', hint: 'Nur ohne Pensionskasse: bis 20 % davon sind abzugsfähig', unit: 'CHF', def: 120000, min: 0, max: 1e8 },
-    divRend:  { label: 'Dividendenrendite', hint: 'Teil der Rendite, der als Dividende ausgeschüttet wird', unit: '%', def: 2, min: 0, max: 10, pct: true },
-    vst:      { label: 'Vermögenssteuer auf das Depot', hint: 'in % des Vermögens pro Jahr', unit: '%', def: 0.05, min: 0, max: 2, pct: true },
-    bis3a:    { label: 'Jahre bis zum Bezug', hint: 'frühestens 5 Jahre vor dem AHV-Alter', unit: 'Jahre', def: 35, min: 0, max: 60, int: true },
     z_start:  { label: 'Startkapital', unit: 'CHF', def: 10000, min: 0, max: 1e8 },
     z_monat:  { label: 'Einzahlung pro Monat', unit: 'CHF', def: 500, min: 0, max: 1e6 },
     z_zins:   { label: 'Zins pro Jahr', hint: 'effektiv, nach Gebühren', unit: '%', def: 5, min: 0, max: 25, pct: true },
     z_jahre:  { label: 'Laufzeit', unit: 'Jahre', def: 30, min: 1, max: 60, int: true }
   };
-  const MCKEYS = ['start', 'sparrate', 'jahre', 'ziel', 'rendite', 'vola', 'infl', 'gebFrei', 'drag', 'max3a', 'geb3', 'tg', 'bezug', 'bis3a'];
 
   function fmt(n) { return Math.round(n).toString().replace(/\B(?=(\d{3})+(?!\d))/g, "'"); }
   function pct1(x) { return (x * 100).toFixed(1) + ' %'; }
   function showVal(d, v) { return d.pct || d.int ? String(v) : fmt(v); }
   function clamp(d, v) { v = Math.min(d.max, Math.max(d.min, v)); return d.int ? Math.round(v) : v; }
 
-  const S = { indexiert: true };
+  const S = {};
   Object.keys(DEFS).forEach(k => { S[k] = DEFS[k].def; });
-  const DERIVED = { max3a: 1, drag: 1 };
+  const DERIVED = {};
   try {
     const sv = JSON.parse(localStorage.getItem(KEY) || 'null');
     if (sv) {
       Object.keys(DEFS).forEach(k => { if (typeof sv[k] === 'number' && isFinite(sv[k])) S[k] = clamp(DEFS[k], sv[k]); });
-      if (typeof sv.indexiert === 'boolean') S.indexiert = sv.indexiert;
     }
   } catch (e) { /* ignorieren */ }
   // Eingaben aus der Adresse (geteilter Link) übernehmen
   try {
     const qs = new URLSearchParams(location.search);
     qs.forEach((val, k) => {
-      if (k === 'idx') { S.indexiert = val !== '0'; return; }
       if (!DEFS[k] || DERIVED[k]) return;
       const v = parseFloat(val);
       if (isFinite(v)) S[k] = clamp(DEFS[k], v);
@@ -853,7 +680,6 @@ tbody tr:nth-child(even) td { background: color-mix(in srgb, var(--wash) 35%, tr
   function shareURL(page) {
     const qs = new URLSearchParams();
     Object.keys(DEFS).forEach(k => { if (!DERIVED[k] && S[k] !== DEFS[k].def) qs.set(k, String(S[k])); });
-    if (S.indexiert === false) qs.set('idx', '0');
     const s = qs.toString();
     return location.origin + PATHS[page] + (s ? '?' + s : '');
   }
@@ -869,24 +695,14 @@ tbody tr:nth-child(even) td { background: color-mix(in srgb, var(--wash) 35%, tr
       '<div class="box"><input type="text" id="' + id + '" data-key="' + key + '" inputmode="decimal" value="' + showVal(d, S[key]) + '">' +
       '<span class="unit">' + d.unit + '</span></div></div>';
   }
-  function checkHTML(pid) {
-    return '<label class="check"><input type="checkbox" id="' + pid + '-indexiert" data-chk="indexiert"' + (S.indexiert ? ' checked' : '') +
-      '><span>Sparrate steigt mit der Teuerung<span class="hint">Kaufkraft der Sparrate bleibt gleich</span></span></label>';
-  }
   function groupsHTML(pid, groups) {
     return groups.map(g => '<fieldset class="group"><legend>' + g.title + '</legend>' +
-      g.keys.map(k => fieldHTML(pid, k)).join('') + (g.check ? checkHTML(pid) : '') + '</fieldset>').join('') +
+      g.keys.map(k => fieldHTML(pid, k)).join('') + '</fieldset>').join('') +
       '<div class="share-row"><button type="button" class="btn soft" data-reset>Startwerte zurücksetzen</button>' +
       '<button type="button" class="btn soft" data-share>Link zur Berechnung kopieren</button>' +
       '<button type="button" class="btn soft" data-print>Drucken / als PDF speichern</button></div>' +
       '<p class="share-msg" role="status" aria-live="polite"></p>';
   }
-  const G_PLAN = { title: 'Sparplan', keys: ['start', 'sparrate', 'jahre', 'ziel'], check: true };
-  const G_MARKT = { title: 'Markt', keys: ['rendite', 'vola', 'infl'] };
-  const G_FREI = { title: 'Freies Depot', keys: ['gebFrei', 'divRend', 'vst'] };
-  const G_FREI_SP = { title: 'Freies Depot', keys: ['gebFrei', 'tg', 'divRend', 'vst'] };
-  const G_3A = { title: 'Säule 3a', keys: ['jahr3a', 'pk', 'einkommen', 'geb3', 'tg', 'staffel', 'bezug', 'bezug2', 'bis3a'] };
-
   function syncInputs(root) {
     root.querySelectorAll('select[data-key]').forEach(el => { el.value = String(S[el.dataset.key]); });
     root.querySelectorAll('input[data-key]').forEach(el => {
@@ -965,32 +781,7 @@ tbody tr:nth-child(even) td { background: color-mix(in srgb, var(--wash) 35%, tr
     return '<article class="stat"><p class="stat-l">' + label + '</p><p class="stat-v">' + value + '</p><p class="stat-s">' + sub + '</p></article>';
   }
 
-  // Teaser: 3a-Kennzahlen mit den Standardwerten (nicht mit den Eingaben der Seite), einmal berechnet
-  let teaserDone = false;
-  function renderTeaser() {
-    if (teaserDone || !document.getElementById('st-teaser')) return;
-    teaserDone = true;
-    setTimeout(() => {
-      const D = {};
-      Object.keys(DEFS).forEach(k => { D[k] = DEFS[k].def; });
-      D.indexiert = true;
-      const p = mcParams(D);
-      const zz = makeNormals(p.jahre * 12 * N, 42);
-      const sim = simulate(p, zz), s0 = p.sparrate;
-      const sf = stats(sim, p, s0, false), s3 = stats(sim, p, s0, true);
-      const tgB = breakEven(sim, p, s0, sf.med, 'tg', 0, 0.6, true);
-      const tax = Math.min(s0 * 12, p.max3a) * p.tg;
-      const be = tgB.edge === 'low' ? '0 %' : tgB.edge === 'high' ? 'über 60 %' : (tgB.v * 100).toFixed(1) + ' %';
-      $('st-teaser-grid').innerHTML =
-        stat('Steuerersparnis pro Jahr', 'CHF ' + fmt(tax), 'Bei ' + (p.tg * 100).toFixed(0) + ' % Grenzsteuersatz und CHF ' + fmt(Math.min(s0 * 12, p.max3a)) + ' Einzahlung in die Säule 3a.') +
-        stat('Break-even Grenzsteuersatz', be, 'Ab diesem Grenzsteuersatz liegt die Säule 3a im Median vor dem freien Depot.') +
-        stat('Chance auf das Ziel', pct1(s3.p) + ' statt ' + pct1(sf.p), 'Mit Säule 3a statt nur im freien Depot, Ziel CHF ' + fmt(p.ziel) + ' in ' + p.jahre + ' Jahren.');
-      $('st-teaser-cap').textContent = 'Berechnet mit den Standardwerten der Säule-3a-Seite (' + fmt(s0) + ' CHF pro Monat, ' + (p.rendite * 100).toFixed(0) + ' % Rendite, ' + p.jahre + ' Jahre), nicht mit deinen Eingaben oben. Modellrechnung, keine Beratung.';
-    }, 50);
-  }
-
   function renderStart() {
-    renderTeaser();
     const r = compound(S.z_start, S.z_monat, S.z_zins, S.z_jahre);
     $('st-years').textContent = S.z_jahre;
     $('st-end').textContent = 'CHF ' + fmt(r.end);
@@ -1026,250 +817,6 @@ tbody tr:nth-child(even) td { background: color-mix(in srgb, var(--wash) 35%, tr
         '</td><td>' + fmt(r.bal[k] / Math.pow(1 + S.infl / 100, k)) + '</td></tr>';
     }
     $('zi-tbl').innerHTML = '<thead><tr><th>Jahr</th><th>Eingezahlt</th><th>Zinsen</th><th>Kapital</th><th>Kaufkraft heute</th></tr></thead><tbody>' + rows + '</tbody>';
-  }
-
-  // ---------- Monte-Carlo-Seiten ----------
-  const LAST = {};
-  let zKey = '', zArr = null;
-  const out = new Float64Array(N);
-
-  const STEUER = {
-    2026: { pk: 7258, ohne: 36288, quote: 0.2 },
-    2027: { pk: 7373, ohne: 36864, quote: 0.2 }
-  };
-  // abgeleitete Werte: 3a-Höchstbetrag aus Steuerjahr, Pensionskasse und Einkommen; Steuerlast im freien Depot
-  function derive(X) {
-    X = X || S;
-    const st = STEUER[X.jahr3a] || STEUER[2026];
-    X.max3a = X.pk === 1 ? Math.min(st.ohne, Math.floor(X.einkommen * st.quote)) : st.pk;
-    X.drag = X.divRend * X.tg / 100 + X.vst;
-  }
-  function mcParams(X) {
-    X = X || S;
-    derive(X);
-    const p = { nSim: N, indexiert: X.indexiert };
-    MCKEYS.forEach(k => { p[k] = DEFS[k].pct ? X[k] / 100 : X[k]; });
-    p.bezug = (X.staffel === 1 ? X.bezug2 : X.bezug) / 100;
-    return p;
-  }
-  function medianOf(sim, p, s, mit) {
-    wealthAt(sim, p.jahre, s, mit, p, out);
-    return q(Float64Array.from(out).sort(), 0.5);
-  }
-  // Schwelle suchen: kleinster/grösster Wert x in [lo, hi], bei dem das 3a-Medianvermögen dem Depot entspricht
-  function breakEven(sim, p, s, target, field, lo, hi, increasing) {
-    const f = x => { const p2 = Object.assign({}, p); p2[field] = x; return medianOf(sim, p2, s, true) - target; };
-    const flo = f(lo), fhi = f(hi);
-    if (increasing) { if (flo >= 0) return { v: lo, edge: 'low' }; if (fhi < 0) return { v: hi, edge: 'high' }; }
-    else { if (fhi >= 0) return { v: hi, edge: 'high' }; if (flo < 0) return { v: lo, edge: 'low' }; }
-    let a = lo, b = hi;
-    for (let i = 0; i < 28; i++) {
-      const m = (a + b) / 2, fm = f(m);
-      if ((fm >= 0) === increasing) b = m; else a = m;
-    }
-    return { v: (a + b) / 2, edge: null };
-  }
-  function stats(sim, p, s, mit) {
-    wealthAt(sim, p.jahre, s, mit, p, out);
-    const sorted = Float64Array.from(out).sort();
-    return { p: pZiel(sim, s, mit, p), med: q(sorted, 0.5), lo: q(sorted, 0.1), hi: q(sorted, 0.9) };
-  }
-  function series(sim, p, mit) {
-    const lo = [], med = [], hi = [];
-    for (let k = 0; k <= p.jahre; k++) {
-      wealthAt(sim, k, p.sparrate, mit, p, out);
-      const sorted = Float64Array.from(out).sort();
-      lo.push(q(sorted, 0.1)); med.push(q(sorted, 0.5)); hi.push(q(sorted, 0.9));
-    }
-    return { lo: lo, med: med, hi: hi };
-  }
-
-  function legendHTML(with3a, extra) {
-    return '<div class="legend"><span><i class="sw frei"></i>' + (with3a ? 'Nur freies Depot' : 'Freies Depot') + '</span>' +
-      (with3a ? '<span><i class="sw drei"></i>Mit Säule 3a</span>' : '') + (extra ? '<span>' + extra + '</span>' : '') + '</div>';
-  }
-  function mcSkeleton(pid, with3a) {
-    return (with3a ? '<div class="notice" id="' + pid + '-notice" hidden></div>' : '') +
-      '<p class="delta" id="' + pid + '-delta"></p>' +
-      '<div class="tiles" id="' + pid + '-tiles"></div>' +
-      '<section class="chartbox"><div class="charthead"><h2>Vermögen über die Zeit</h2>' + legendHTML(with3a, 'Linie: Median, Fläche: 10 bis 90 %') + '</div>' +
-      '<div class="chart" id="' + pid + '-fan" role="img" aria-label="Vermögensverlauf nach Steuern in heutigen Franken"></div></section>' +
-      '<section class="chartbox"><div class="charthead"><h2>Chance auf das Ziel je Sparrate</h2>' + legendHTML(with3a, '') + '</div>' +
-      '<div class="chart" id="' + pid + '-curve" role="img" aria-label="Wahrscheinlichkeit, das Ziel zu erreichen, je monatlicher Sparrate"></div>' +
-      '<p class="cap">Waagrecht: Sparrate pro Monat in CHF. Senkrecht: Wahrscheinlichkeit in Prozent. Die gepunktete senkrechte Linie zeigt deine aktuelle Sparrate.</p></section>' +
-      (with3a ? '<section class="chartbox"><h2>Szenarien nach Steuern</h2><div class="tablewrap" style="max-height:none"><table id="' + pid + '-scen"></table></div><p class="cap">Vermögen nach Ablauf des Horizonts, nach Steuern und in heutigen Franken. Pessimistisch: nur 1 von 10 Verläufen ist schlechter. Optimistisch: nur 1 von 10 ist besser.</p></section>' +
-      '<section class="chartbox"><h2>Ab wann schlägt das Depot die Säule 3a?</h2><ul class="breaks" id="' + pid + '-break"></ul><p class="cap">Vergleich anhand des Medians, bei sonst gleichen Annahmen. Die Steuerlast im Depot bleibt dabei unverändert. Die Säule 3a ist bis zum Bezug gesperrt, das Depot nicht.</p></section>' : '') +
-      '<section class="chartbox"><h2>Vergleich verschiedener Sparraten</h2><div class="tablewrap"><table id="' + pid + '-tbl"></table></div></section>' +
-      '<details class="notes" open><summary>Annahmen und Grenzen</summary><ul>' +
-      '<li>10\'000 simulierte Börsenverläufe, monatlich, mit konstanter Rendite und Schwankung (normalverteilte Monatsrenditen, die Kurse sind damit log-normalverteilt). Die Zufallszahlen sind fest vorgegeben. Echte Märkte haben mehr Extremereignisse.</li>' +
-      '<li>Die Rendite ist ein Durchschnitt, keine Prognose. Das tatsächliche Zinseszins-Wachstum liegt wegen der Schwankung etwa um die halbe Varianz tiefer (bei 15 % rund 1.1 Prozentpunkte).</li>' +
-      '<li>Kursgewinne sind für Privatanleger in der Schweiz steuerfrei. Die Steuerlast im freien Depot ergibt sich aus Dividendenrendite mal Grenzsteuersatz plus Vermögenssteuer; die Verrechnungssteuer wird als zurückgefordert angenommen. Kurs- und Währungsrisiken stecken in der Schwankung, der Rechner arbeitet in Franken.</li>' +
-      (with3a ? '<li>Das Startkapital liegt im freien Depot. In die Säule 3a fliesst die Sparrate bis zum Höchstbetrag des gewählten Steuerjahres, der Rest ins freie Depot. Die Steuerersparnis wird jeweils am Jahresende im freien Depot angelegt. Die Sätze für Grenzsteuer und Bezugssteuer gibst du selbst ein; sie hängen von Kanton, Gemeinde, Einkommen, Zivilstand und Konfession ab. Nicht modelliert sind Wohneigentumsbezug, Pensionskassen-Einkäufe und die Rückforderung der Verrechnungssteuer.</li>' : '') +
-      '<li>Sparrate' + (with3a ? ' und 3a-Höchstbetrag steigen' : ' steigt') + ' jährlich mit der Teuerung, wenn die Option links aktiv ist.</li></ul></details>';
-  }
-  function tileHTML(cls, title, st, need) {
-    return '<article class="tile"><h3><i class="sw ' + cls + '"></i>' + title + '</h3>' +
-      '<p class="big">' + pct1(st.p) + '</p><p class="sub">Chance, das Ziel zu erreichen</p>' +
-      '<dl><dt>Median</dt><dd>CHF ' + fmt(st.med) + '</dd>' +
-      '<dt>Pessimistisch (10 %)</dt><dd>CHF ' + fmt(st.lo) + '</dd>' +
-      '<dt>Optimistisch (90 %)</dt><dd>CHF ' + fmt(st.hi) + '</dd>' +
-      '<dt>Sparrate für 80 % Chance</dt><dd>CHF ' + fmt(need) + '</dd></dl></article>';
-  }
-
-  function renderMC(pid, with3a) {
-    const p = mcParams();
-    const key = p.jahre + 'x' + N;
-    if (zKey !== key) { zArr = makeNormals(p.jahre * 12 * N, 42); zKey = key; }
-    const sim = simulate(p, zArr);
-    const s0 = p.sparrate;
-    const sf = stats(sim, p, s0, false), s3 = with3a ? stats(sim, p, s0, true) : null;
-    const nf = needed(sim, p, false, 0.8), n3 = with3a ? needed(sim, p, true, 0.8) : null;
-    const serF = series(sim, p, false), serD = with3a ? series(sim, p, true) : null;
-
-    if (with3a) {
-      const x = Math.min(s0, p.max3a / 12), tax = x * 12 * p.tg, diff = s3.med - sf.med;
-      $(pid + '-delta').textContent = 'Die Säule 3a ' + (diff >= 0 ? 'erhöht' : 'senkt') + ' das mittlere Endvermögen um CHF ' + fmt(Math.abs(diff)) +
-        ' und spart dir bei diesem Grenzsteuersatz etwa CHF ' + fmt(tax) + ' Steuern pro Jahr' + (s0 * 12 > p.max3a ? ' (Höchstbetrag CHF ' + fmt(p.max3a) + ' erreicht, der Rest geht ins freie Depot)' : '') + '. Das Geld bleibt bis zum Bezug gesperrt.';
-      const notice = $(pid + '-notice');
-      if (p.jahre < p.bis3a) {
-        notice.hidden = false;
-        notice.textContent = 'Dein Horizont (' + p.jahre + ' Jahre) ist kürzer als die Zeit bis zum 3a-Bezug (' + p.bis3a +
-          ' Jahre). 3a-Guthaben ist frühestens 5 Jahre vor dem AHV-Alter frei verfügbar. Ausnahmen sind Wohneigentum zum Eigengebrauch, der Start einer Selbständigkeit und die Auswanderung. Für ein Ziel, das früher gebraucht wird, ist der Vergleich eine theoretische Steuerrechnung.';
-      } else { notice.hidden = true; }
-      $(pid + '-tiles').innerHTML = tileHTML('frei', 'Nur freies Depot', sf, nf) + tileHTML('drei', 'Mit Säule 3a', s3, n3);
-      const row = (name, a, b) => '<tr><td>' + name + '</td><td>' + fmt(a) + '</td><td>' + fmt(b) + '</td><td>' + (b - a >= 0 ? '+' : '-') + fmt(Math.abs(b - a)) + '</td></tr>';
-      $(pid + '-scen').innerHTML = '<thead><tr><th>Szenario (CHF)</th><th>Nur frei</th><th>Mit 3a</th><th>Unterschied</th></tr></thead><tbody>' +
-        row('Pessimistisch (10 %)', sf.lo, s3.lo) + row('Mittel (Median)', sf.med, s3.med) + row('Optimistisch (90 %)', sf.hi, s3.hi) + '</tbody>';
-      const tgB = breakEven(sim, p, s0, sf.med, 'tg', 0, 0.6, true);
-      const bzB = breakEven(sim, p, s0, sf.med, 'bezug', 0, 0.6, false);
-      let yr = null;
-      for (let k = 1; k <= p.jahre; k++) { if (serD.med[k] >= serF.med[k]) { yr = k; break; } }
-      const pc = v => (v * 100).toFixed(1) + ' %';
-      const li = [];
-      li.push(tgB.edge === 'low' ? 'Die Säule 3a liegt schon ohne Steuerersparnis vorn (Grenzsteuersatz 0 %).'
-        : tgB.edge === 'high' ? 'Auch bei einem Grenzsteuersatz von 60 % schlägt die Säule 3a das Depot nicht.'
-        : 'Ab einem <b>Grenzsteuersatz von etwa ' + pc(tgB.v) + '</b> liegt die Säule 3a vorn (bei dir: ' + pc(p.tg) + ').');
-      li.push(bzB.edge === 'high' ? 'Auch bei einer Bezugssteuer von 60 % liegt die Säule 3a vorn.'
-        : bzB.edge === 'low' ? 'Die Säule 3a liegt auch ohne Bezugssteuer hinten.'
-        : 'Bis zu einer <b>Bezugssteuer von etwa ' + pc(bzB.v) + '</b> liegt die Säule 3a vorn (bei dir: ' + pc(p.bezug) + ').');
-      li.push(yr === null ? 'Innerhalb von ' + p.jahre + ' Jahren liegt das Depot im Median vorn.'
-        : 'Mit der Säule 3a liegst du <b>ab Jahr ' + yr + '</b> im Median vorn.');
-      $(pid + '-break').innerHTML = li.map(x => '<li>' + x + '</li>').join('');
-      const st = STEUER[S.jahr3a];
-      $('dr-limit').innerHTML = 'Steuerjahr ' + S.jahr3a + ': Höchstbetrag mit Pensionskasse CHF ' + fmt(st.pk) + ', ohne Pensionskasse 20 % des Netto-Erwerbseinkommens, höchstens CHF ' + fmt(st.ohne) +
-        '. <b>Dein Höchstbetrag: CHF ' + fmt(S.max3a) + ' pro Jahr.</b> Quellen: <a href="https://finpension.ch/de/saeule-3a-investieren/" target="_blank" rel="noopener">2026 (finpension)</a>, <a href="https://www.admin.ch/de/newnsb/6ck3kzVxBNQ4" target="_blank" rel="noopener">2027 (Bund, Mitteilung vom 5.10.2026)</a>. Die Beträge ändern sich jährlich.' +
-        ' Grenzsteuersatz und Bezugssteuer für deinen Kanton und deine Gemeinde ermittelst du im <a href="https://swisstaxcalculator.estv.admin.ch/" target="_blank" rel="noopener">Steuerrechner der ESTV</a>.';
-      $('dr-einkommen').closest('.field').hidden = S.pk !== 1;
-      $('dr-bezug2').closest('.field').hidden = S.staffel !== 1;
-      $('dr-bezug').closest('.field').hidden = S.staffel === 1;
-    } else {
-      $(pid + '-delta').textContent = 'Mit CHF ' + fmt(s0) + ' pro Monat erreichst du dein Ziel von CHF ' + fmt(p.ziel) + ' mit ' + pct1(sf.p) +
-        ' Wahrscheinlichkeit. Für 80 % Chance brauchst du etwa CHF ' + fmt(nf) + ' pro Monat.';
-      $(pid + '-tiles').innerHTML = tileHTML('frei', 'Freies Depot', sf, nf);
-    }
-
-    const rates = [];
-    [0.5, 0.75, 1, 1.25, 1.5].forEach(mu => {
-      const r = mu === 1 ? s0 : Math.max(100, Math.round(s0 * mu / 50) * 50);
-      if (rates.indexOf(r) < 0) rates.push(r);
-    });
-    rates.sort((a, b) => a - b);
-    let rows = '';
-    rates.forEach(r => {
-      const a = stats(sim, p, r, false), b = with3a ? stats(sim, p, r, true) : null;
-      rows += '<tr' + (r === s0 ? ' class="cur"' : '') + '><td>CHF ' + fmt(r) + '</td><td>' + pct1(a.p) + '</td>' + (with3a ? '<td>' + pct1(b.p) + '</td>' : '') +
-        '<td>' + fmt(a.med) + '</td>' + (with3a ? '<td>' + fmt(b.med) + '</td>' : '') + '</tr>';
-    });
-    $(pid + '-tbl').innerHTML = with3a
-      ? '<thead><tr><th>Sparrate/Monat</th><th>Chance frei</th><th>Chance 3a</th><th>Median frei</th><th>Median 3a</th></tr></thead><tbody>' + rows + '</tbody>'
-      : '<thead><tr><th>Sparrate/Monat</th><th>Chance</th><th>Median</th></tr></thead><tbody>' + rows + '</tbody>';
-
-    const smax = Math.max(s0 * 2, 1000);
-    const curve = { smax: smax, frei: [], drei: [] };
-    for (let i = 0; i <= 40; i++) {
-      const s = smax * i / 40;
-      curve.frei.push([s, pZiel(sim, s, false, p)]);
-      if (with3a) curve.drei.push([s, pZiel(sim, s, true, p)]);
-    }
-    $(pid + '-fan').dataset.label = ('Vermögen nach ' + p.jahre + ' Jahren in heutigen Franken, Median: ' + (with3a ? 'nur freies Depot CHF ' + fmt(sf.med) + ', mit Säule 3a CHF ' + fmt(s3.med) + '. Bereich 10 bis 90 Prozent: frei CHF ' + fmt(sf.lo) + ' bis ' + fmt(sf.hi) + ', 3a CHF ' + fmt(s3.lo) + ' bis ' + fmt(s3.hi) : 'CHF ' + fmt(sf.med) + '. Bereich 10 bis 90 Prozent: CHF ' + fmt(sf.lo) + ' bis ' + fmt(sf.hi)));
-    $(pid + '-curve').dataset.label = 'Chance auf das Ziel von CHF ' + fmt(p.ziel) + ' in ' + p.jahre + ' Jahren je monatlicher Sparrate; bei CHF ' + fmt(s0) + ' pro Monat: ' + pct1(sf.p) + (with3a ? ' nur im freien Depot, ' + pct1(s3.p) + ' mit Säule 3a.' : '.');
-    LAST[pid] = { p: p, s0: s0, with3a: with3a, curve: curve, ser: { frei: serF, drei: serD } };
-    drawMC(pid);
-  }
-
-  function drawFan(el, L) {
-    const p = L.p, ser = L.ser;
-    const W = Math.max(280, Math.floor(el.clientWidth - 12)), H = W < 480 ? 240 : 300;
-    const m = { l: W < 480 ? 46 : 56, r: 12, t: 12, b: 28 };
-    const iw = W - m.l - m.r, ih = H - m.t - m.b, n = p.jahre;
-    const meds = ser.frei.med.concat(L.with3a ? ser.drei.med : []);
-    const rawMax = Math.max(p.ziel * 1.35, Math.max.apply(null, meds) * 1.3);
-    const st = niceStep(rawMax / 5), yMax = Math.ceil(rawMax / st) * st;
-    const X = k => m.l + iw * k / n, Y = v => m.t + ih * (1 - Math.min(Math.max(v, 0), yMax) / yMax);
-    let s = '<svg viewBox="0 0 ' + W + ' ' + H + '" width="' + W + '" height="' + H + '" xmlns="http://www.w3.org/2000/svg">';
-    for (let v = 0; v <= yMax + 1e-9; v += st) {
-      s += '<line x1="' + m.l + '" x2="' + (W - m.r) + '" y1="' + Y(v) + '" y2="' + Y(v) + '" style="stroke:var(--line)" stroke-width="1"/>';
-      s += '<text x="' + (m.l - 6) + '" y="' + (Y(v) + 4) + '" text-anchor="end" style="' + TXT + '">' + axisChf(v) + '</text>';
-    }
-    const xs = yearStep(n, false);
-    for (let k = 0; k <= n; k += xs) s += '<text x="' + X(k) + '" y="' + (H - 8) + '" text-anchor="' + (k === 0 ? 'start' : 'middle') + '" style="' + TXT + '">' + (k === 0 ? '0 Jahre' : k) + '</text>';
-    function band(d, color) {
-      let pts = '';
-      for (let k = 0; k <= n; k++) pts += (k ? 'L' : 'M') + X(k).toFixed(1) + ' ' + Y(d.hi[k]).toFixed(1);
-      for (let k = n; k >= 0; k--) pts += 'L' + X(k).toFixed(1) + ' ' + Y(d.lo[k]).toFixed(1);
-      return '<path d="' + pts + 'Z" style="fill:var(' + color + ')" fill-opacity="0.14"/>';
-    }
-    function line(arr, color) {
-      let pts = '';
-      for (let k = 0; k <= n; k++) pts += (k ? 'L' : 'M') + X(k).toFixed(1) + ' ' + Y(arr[k]).toFixed(1);
-      return '<path d="' + pts + '" fill="none" style="stroke:var(' + color + ')" stroke-width="2.2" stroke-linejoin="round"/>';
-    }
-    s += band(ser.frei, '--frei') + (L.with3a ? band(ser.drei, '--drei') : '');
-    s += line(ser.frei.med, '--frei') + (L.with3a ? line(ser.drei.med, '--drei') : '');
-    s += '<line x1="' + m.l + '" x2="' + (W - m.r) + '" y1="' + Y(p.ziel) + '" y2="' + Y(p.ziel) + '" style="stroke:var(--ink)" stroke-width="1.2" stroke-dasharray="5 4"/>';
-    s += '<text x="' + (m.l + 6) + '" y="' + (Y(p.ziel) - 6) + '" style="' + TXTI + '">Ziel CHF ' + fmt(p.ziel) + '</text>';
-    el.innerHTML = s + '</svg>';
-    a11yChart(el, 'Liniendiagramm: ' + (el.dataset.label || 'Vermögensverlauf nach Steuern in heutigen Franken') + ' Die wichtigsten Werte stehen als Text in den Kacheln und in den Tabellen darunter.');
-  }
-
-  function drawCurve(el, L) {
-    const curve = L.curve, s0 = L.s0;
-    const W = Math.max(280, Math.floor(el.clientWidth - 12)), H = W < 480 ? 210 : 250;
-    const m = { l: 42, r: 12, t: 12, b: 28 };
-    const iw = W - m.l - m.r, ih = H - m.t - m.b;
-    const X = v => m.l + iw * v / curve.smax, Y = pr => m.t + ih * (1 - pr);
-    let s = '<svg viewBox="0 0 ' + W + ' ' + H + '" width="' + W + '" height="' + H + '" xmlns="http://www.w3.org/2000/svg">';
-    for (let v = 0; v <= 100; v += 20) {
-      s += '<line x1="' + m.l + '" x2="' + (W - m.r) + '" y1="' + Y(v / 100) + '" y2="' + Y(v / 100) + '" style="stroke:var(--line)" stroke-width="1"/>';
-      s += '<text x="' + (m.l - 6) + '" y="' + (Y(v / 100) + 4) + '" text-anchor="end" style="' + TXT + '">' + v + ' %</text>';
-    }
-    const st = niceStep(curve.smax / 5);
-    for (let v = 0; v <= curve.smax + 1e-9; v += st) s += '<text x="' + X(v) + '" y="' + (H - 8) + '" text-anchor="middle" style="' + TXT + '">' + fmt(v) + '</text>';
-    s += '<line x1="' + m.l + '" x2="' + (W - m.r) + '" y1="' + Y(0.8) + '" y2="' + Y(0.8) + '" style="stroke:var(--ink)" stroke-width="1.2" stroke-dasharray="5 4"/>';
-    s += '<text x="' + (W - m.r - 4) + '" y="' + (Y(0.8) - 6) + '" text-anchor="end" style="' + TXTI + '">80 %</text>';
-    function path(a, color) {
-      let d = '';
-      a.forEach((pt, i) => { d += (i ? 'L' : 'M') + X(pt[0]).toFixed(1) + ' ' + Y(pt[1]).toFixed(1); });
-      return '<path d="' + d + '" fill="none" style="stroke:var(' + color + ')" stroke-width="2.2" stroke-linejoin="round"/>';
-    }
-    s += path(curve.frei, '--frei') + (L.with3a ? path(curve.drei, '--drei') : '');
-    s += '<line x1="' + X(s0) + '" x2="' + X(s0) + '" y1="' + m.t + '" y2="' + (m.t + ih) + '" style="stroke:var(--muted)" stroke-width="1" stroke-dasharray="2 3"/>';
-    function nearest(a) { return a.reduce((b, pt) => Math.abs(pt[0] - s0) < Math.abs(b[0] - s0) ? pt : b, a[0]); }
-    const pf = nearest(curve.frei);
-    s += '<circle cx="' + X(pf[0]) + '" cy="' + Y(pf[1]) + '" r="4.5" style="fill:var(--frei);stroke:var(--surface)" stroke-width="1.5"/>';
-    if (L.with3a) {
-      const p3 = nearest(curve.drei);
-      s += '<circle cx="' + X(p3[0]) + '" cy="' + Y(p3[1]) + '" r="4.5" style="fill:var(--drei);stroke:var(--surface)" stroke-width="1.5"/>';
-    }
-    el.innerHTML = s + '</svg>';
-    a11yChart(el, 'Liniendiagramm: ' + (el.dataset.label || 'Chance, das Ziel zu erreichen, je monatlicher Sparrate') + ' Die Werte stehen auch in der Tabelle «Vergleich verschiedener Sparraten».');
-  }
-
-  function drawMC(pid) {
-    const L = LAST[pid];
-    if (!L) return;
-    drawFan($(pid + '-fan'), L);
-    drawCurve($(pid + '-curve'), L);
   }
 
   // ---------- Bitcoin (Kurse direkt von der Kraken-Schnittstelle) ----------
@@ -1668,18 +1215,16 @@ tbody tr:nth-child(even) td { background: color-mix(in srgb, var(--wash) 35%, tr
   }
 
   // ---------- Aktien ----------
-  const STOCKS = [
-    { id: 'palantir', t: 'PLTR', n: 'Palantir Technologies', tv: 'NASDAQ:PLTR', ir: 'https://investors.palantir.com/', data: '/data/palantir.json' }
-  ];
-  const AKSTATE = { sel: 'palantir', built: false, cache: {}, mode: 'q', dev: null };
+  const AKSTATE = { list: [], sel: null, cur: null, built: false, cache: {}, mode: 'q', dev: null, q: '' };
   const FORM_DE = { '10-K': 'Geschäftsbericht (10-K)', '10-K/A': 'Geschäftsbericht, Nachtrag (10-K/A)', '10-Q': 'Quartalsbericht (10-Q)', '10-Q/A': 'Quartalsbericht, Nachtrag (10-Q/A)', '8-K': 'Meldung (8-K)' };
   function akDate(s) { const m = /^(\d{4})-(\d{2})-(\d{2})/.exec(s || ''); return m ? m[3] + '.' + m[2] + '.' + m[1] : '–'; }
   function akMio(v) { return v == null ? '–' : (v < 0 ? '−' : '') + fmt(Math.abs(v) / 1e6); }
   function akQ(end) { const m = +end.slice(5, 7); return 'Q' + Math.ceil(m / 3) + ' ' + end.slice(0, 4); }
   function embedAkChart() {
-    const s = STOCKS.filter(x => x.id === AKSTATE.sel)[0];
+    const s = AKSTATE.cur;
+    if (!s) return;
     embedTV('ak-chart', 'advanced-chart', {
-      autosize: true, symbol: s.tv, interval: 'D', range: '12M',
+      autosize: true, symbol: s.tv || s.t, interval: 'D', range: '12M',
       timezone: 'Europe/Zurich', theme: tvTheme(), style: '3', locale: 'de_DE', allow_symbol_change: false,
       withdateranges: false, hide_side_toolbar: true, hide_top_toolbar: true, hide_legend: false, calendar: false,
       save_image: false, backgroundColor: etfBg(), gridColor: 'rgba(127,127,127,0.12)',
@@ -1800,7 +1345,7 @@ tbody tr:nth-child(even) td { background: color-mix(in srgb, var(--wash) 35%, tr
       };
       h += '<ul class="fl">' + f.slice(0, 12).map(li).join('') + '</ul>' + (f.length > 12 ? '<details class="notes"><summary>Ältere Berichte anzeigen (' + (f.length - 12) + ')</summary><ul class="fl">' + f.slice(12).map(li).join('') + '</ul></details>' : '');
     } else h += '<p>Keine Einreichungen gefunden.</p>';
-    h += '<p class="cap">Quelle: SEC EDGAR. Zuletzt geprüft: ' + akDate(d.updated_at) + '. Berichte sind auf Englisch. <a class="more" href="' + esc(s.ir) + '" target="_blank" rel="noopener">Investor Relations von ' + esc(s.n) + '</a> · <a class="more" href="https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;CIK=' + esc(d.cik || s.t) + '&amp;type=&amp;dateb=&amp;owner=include&amp;count=40" target="_blank" rel="noopener">Alle Einreichungen</a></p></section>';
+    h += '<p class="cap">Quelle: SEC EDGAR. Zuletzt geprüft: ' + akDate(d.updated_at) + '. Berichte sind auf Englisch. <a class="more" href="https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;CIK=' + esc(d.cik || s.t) + '&amp;type=&amp;dateb=&amp;owner=include&amp;count=40" target="_blank" rel="noopener">Alle Einreichungen</a></p></section>';
     h += '<div class="notice">Reine Information aus öffentlichen Quellen, <b>keine Anlageberatung und keine Empfehlung</b>. Berechnungen können Fehler enthalten; massgeblich sind die Originalberichte.</div>';
     body.innerHTML = h;
     const mb = $('ak-mode');
@@ -1812,32 +1357,53 @@ tbody tr:nth-child(even) td { background: color-mix(in srgb, var(--wash) 35%, tr
       mb.querySelectorAll('[data-akmode]').forEach(x => x.setAttribute('aria-pressed', x.dataset.akmode === AKSTATE.mode ? 'true' : 'false'));
     });
   }
+  function akInit() {
+    return fetch('/data/aktien/index.json', { cache: 'no-cache' }).then(r => { if (!r.ok) throw 0; return r.json(); })
+      .then(d => { AKSTATE.list = (d.companies || []).slice().sort((a, b) => a.rank - b.rank); })
+      .catch(() => { AKSTATE.list = []; });
+  }
+  function akList() {
+    const q = AKSTATE.q.trim().toLowerCase();
+    const l = AKSTATE.list.filter(x => !q || x.t.toLowerCase().indexOf(q) >= 0 || x.n.toLowerCase().indexOf(q) >= 0);
+    $('ak-tabs').innerHTML = l.map(x => '<button type="button" class="chip" data-stock="' + esc(x.t) + '" aria-pressed="' + (x.t === AKSTATE.sel) + '"><b>' + esc(x.t) + '</b><span>' + esc(x.n) + '</span></button>').join('') || '<p class="cap">Kein Unternehmen gefunden.</p>';
+    $('ak-count').textContent = l.length + ' von ' + AKSTATE.list.length + ' Unternehmen, sortiert nach Börsenwert (Rang 1 = grösstes).';
+  }
   function selectStock(id) {
-    const s = STOCKS.filter(x => x.id === id)[0];
+    const s = AKSTATE.list.filter(x => x.t === id)[0];
     if (!s) return;
-    AKSTATE.sel = id;
+    AKSTATE.sel = id; AKSTATE.cur = s;
+    try { history.replaceState(history.state, '', '/aktien/?aktie=' + encodeURIComponent(id)); } catch (e) { /* ignorieren */ }
     document.querySelectorAll('[data-stock]').forEach(b => b.setAttribute('aria-pressed', b.dataset.stock === id ? 'true' : 'false'));
     $('ak-title').textContent = s.n + ' (' + s.t + ')';
-    $('ak-meta').textContent = 'NASDAQ · Kurse in USD';
-    $('ak-link').href = 'https://www.tradingview.com/symbols/' + s.tv.replace(':', '-') + '/';
+    $('ak-meta').textContent = (s.tv && s.tv.indexOf(':') > 0 ? s.tv.split(':')[0] + ' · ' : '') + 'Rang ' + s.rank + ' nach Börsenwert · Kurse in USD';
+    $('ak-link').href = 'https://www.tradingview.com/symbols/' + (s.tv || s.t).replace(':', '-') + '/';
     embedAkChart();
     $('ak-body').innerHTML = '<p class="cap">Daten werden geladen …</p>';
     const done = d => { if (AKSTATE.sel === id) renderAkBody(s, d); };
     if (AKSTATE.cache[id] !== undefined) { done(AKSTATE.cache[id]); return; }
-    fetch(s.data, { cache: 'no-cache' }).then(r => { if (!r.ok) throw 0; return r.json(); })
+    fetch('/data/aktien/' + encodeURIComponent(id.toLowerCase()) + '.json', { cache: 'no-cache' }).then(r => { if (!r.ok) throw 0; return r.json(); })
       .then(d => { AKSTATE.cache[id] = d; done(d); })
       .catch(() => { done(null); });
   }
   function renderAktien() {
-    if (!AKSTATE.built) {
-      AKSTATE.built = true;
-      $('ak-tabs').innerHTML = STOCKS.map(x => '<button type="button" class="chip" data-stock="' + x.id + '" aria-pressed="false"><b>' + x.t + '</b><span>' + esc(x.n) + '</span></button>').join('');
-      $('ak-tabs').addEventListener('click', ev => {
-        const b = ev.target.closest ? ev.target.closest('[data-stock]') : null;
-        if (b) selectStock(b.dataset.stock);
-      });
-    }
-    selectStock(AKSTATE.sel);
+    if (AKSTATE.built) { if (AKSTATE.cur) embedAkChart(); return; }
+    AKSTATE.built = true;
+    $('ak-tabs').addEventListener('click', ev => {
+      const b = ev.target.closest ? ev.target.closest('[data-stock]') : null;
+      if (b) selectStock(b.dataset.stock);
+    });
+    $('ak-q').addEventListener('input', ev => { AKSTATE.q = ev.target.value; akList(); });
+    akInit().then(() => {
+      if (!AKSTATE.list.length) { $('ak-body').innerHTML = '<p>Die Firmenliste konnte nicht geladen werden. Bitte später erneut versuchen.</p>'; return; }
+      let want = null;
+      try { want = new URLSearchParams(location.search).get('aktie'); } catch (e) { /* ignorieren */ }
+      const ok = x => AKSTATE.list.some(l => l.t === x);
+      AKSTATE.sel = want && ok(want.toUpperCase()) ? want.toUpperCase() : (ok('PLTR') ? 'PLTR' : AKSTATE.list[0].t);
+      akList();
+      selectStock(AKSTATE.sel);
+      const a = document.querySelector('#ak-tabs [aria-pressed="true"]');
+      if (a && a.scrollIntoView) { try { $('ak-tabs').scrollTop = a.offsetTop - 8; } catch (e) { /* ignorieren */ } }
+    });
   }
   function renderEtf() {
     if (!ETFSTATE.built) {
@@ -1874,216 +1440,9 @@ tbody tr:nth-child(even) td { background: color-mix(in srgb, var(--wash) 35%, tr
     try { window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', again); } catch (e) { /* ignorieren */ }
   })();
 
-  // ---------- Anbieter-Vergleich Säule 3a ----------
-  (function () {
-    var DATA = null, sortKey = 'kosten', sortDir = 1;
-    function g(id) { return document.getElementById('vg-' + id); }
-    function esc(s) { return String(s == null ? '' : s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;'); }
-    function chf(x) { return Math.round(x).toString().replace(/\B(?=(\d{3})+(?!\d))/g, "'"); }
-    function pct(x) { return x.toFixed(2) + ' %'; }
-    function datum(s) { var m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(s || ''); return m ? m[3] + '.' + m[2] + '.' + m[1] : (s || 'keine Daten'); }
-    function ageDays(s) { var t = Date.parse(s); return isFinite(t) ? (Date.now() - t) / 864e5 : null; }
-    var NV = '<span class="nv">keine Daten</span>';
-
-    // Kernrechnung. Einzahlung am Jahresanfang, Gebühr auf dem Vermögen nach der Einzahlung (abzüglich Freibetrag).
-    // ein = einmalige Kosten: Ausgabekommission auf Einzahlungen (optional gestaffelt) und Kauf-/Verkaufsgebühr.
-    function calc(dep, years, ret, fee, freib, ein) {
-      ein = ein || {};
-      var p1 = (ein.einzahlung_pct || 0) / 100, p2 = ein.einzahlung_pct_darueber == null ? p1 : ein.einzahlung_pct_darueber / 100;
-      var grenze = ein.einzahlung_grenze_chf == null ? Infinity : ein.einzahlung_grenze_chf, kv = (ein.kauf_verkauf_pct || 0) / 100;
-      var b = 0, tot = 0, once = 0, cum = 0, i, first, c, base, f;
-      for (i = 0; i < years; i++) {
-        first = Math.min(dep, Math.max(0, grenze - cum));
-        c = first * p1 + (dep - first) * p2 + dep * kv;
-        cum += dep; once += c;
-        b += dep - c;
-        base = Math.max(0, b - (freib || 0));
-        f = base * fee;
-        b = b * (1 + ret) - f;
-        tot += f;
-      }
-      var sale = b * kv; b -= sale; once += sale;
-      return { end: b, fees: tot, once: once };
-    }
-    window.__calc = calc;
-
-    function quotes(a) { var q = {}; (a.strategien || []).forEach(function (s) { if (s.aktienquote != null) q[s.aktienquote] = 1; }); return Object.keys(q).map(Number).sort(function (x, y) { return x - y; }); }
-    function istWert(a) { return /wertschrift/i.test(a.typ); }
-    function istKonto(a) { return /konto/i.test(a.typ); }
-    function istVers(a) { return /versicherung/i.test(a.typ); }
-    function verif(a) { return a.status !== 'nicht verifiziert'; }
-    function kmin(a) { var k = a.kosten; return k && k.min != null ? k.min : null; }
-    function pick(a, q) {
-      var best = null, bd = 99;
-      (a.strategien || []).forEach(function (x) {
-        if (x.aktienquote == null || x.kosten_pa == null) return;
-        if (q === 0 && x.aktienquote !== 0) return;
-        if (q > 0 && x.aktienquote === 0) return;
-        var dd = Math.abs(x.aktienquote - q);
-        if (dd <= 10 && dd < bd) { bd = dd; best = x; }
-      });
-      return best;
-    }
-    function filtered() {
-      var t = g('f-typ').value, q = g('f-quote').value, fee = parseFloat(g('f-fee').value), mn = parseFloat(g('f-min').value), v = g('f-ver').checked;
-      return DATA.anbieter.filter(function (a) {
-        if (t === 'wertschriften' && !istWert(a)) return false;
-        if (t === 'konto' && !istKonto(a)) return false;
-        if (t === 'versicherung' && !istVers(a)) return false;
-        if (q !== '' && !quotes(a).some(function (x) { return Math.abs(x - Number(q)) <= 10; })) return false;
-        if (!isNaN(fee) && (kmin(a) == null || kmin(a) > fee)) return false;
-        if (!isNaN(mn) && (a.mindesteinlage_chf == null || a.mindesteinlage_chf > mn)) return false;
-        if (v && !verif(a)) return false;
-        return true;
-      });
-    }
-    function sortVal(a, k) {
-      if (k === 'name') return a.name.toLowerCase();
-      if (k === 'typ') return a.typ.toLowerCase();
-      if (k === 'kosten') return kmin(a);
-      if (k === 'min') return a.mindesteinlage_chf == null ? null : a.mindesteinlage_chf;
-      if (k === 'quote') { var q = quotes(a); return q.length ? q[q.length - 1] : null; }
-      if (k === 'zins') { var z = (a.strategien || []).filter(function (s) { return s.zins_pa != null; }); return z.length ? z[0].zins_pa : null; }
-      return null;
-    }
-    function cmp(a, b) {
-      var x = sortVal(a, sortKey), y = sortVal(b, sortKey);
-      if (x == null && y == null) return 0; if (x == null) return 1; if (y == null) return -1; // fehlende Daten immer zuletzt
-      return (x < y ? -1 : x > y ? 1 : 0) * sortDir;
-    }
-    function kostenHTML(a) {
-      var k = a.kosten;
-      if (!k) return NV;
-      var main;
-      if (k.min != null) main = k.min === k.max ? pct(k.min) : pct(k.min) + ' – ' + pct(k.max);
-      else if (k.mindestens != null) main = 'ab ' + pct(k.mindestens);
-      else return NV;
-      var tag = k.art === 'indikativ' ? '<span class="sub">indikativ</span>' : (k.art === 'teilweise' ? '<span class="sub">unvollständig, ohne Fondskosten</span>' : '');
-      return main + tag + (k.hinweis ? '<span class="sub">' + esc(k.hinweis) + '</span>' : '');
-    }
-    function alterHTML(a) {
-      var ref = a.zins_stand || a.stand, d = ageDays(ref);
-      if (d != null && d > 90) return '<span class="tag n">' + (a.zins_stand ? 'Zins älter als 90 Tage' : 'Angaben älter als 90 Tage') + '</span>';
-      return '';
-    }
-    function aff(a) {
-      var q = a.quelle ? '<a href="' + esc(a.quelle) + '" target="_blank" rel="noopener">Quelle</a>' : NV;
-      var b = '';
-      if (a.affiliate_url) b = '<a class="vbtn" href="' + esc(a.affiliate_url) + '" target="_blank" rel="sponsored nofollow noopener">Zum Anbieter</a><span class="ad">Werbung (Affiliate-Link)</span>';
-      else if (DATA.meta.zeige_affiliate_platzhalter) b = '<span class="slot">Platz für Affiliate-Link</span>';
-      return q + (b ? '<br>' + b : '');
-    }
-    function renderTable() {
-      var rows = filtered().sort(cmp);
-      var cols = [['name', 'Anbieter'], ['typ', 'Typ'], ['kosten', 'Gesamtkosten p. a.'], ['min', 'Mindest&shy;einlage'], ['quote', 'Aktienquoten'], ['zins', 'Kontozins'], [null, 'Einmalige Kosten']];
-      var h = '<table><thead><tr>' + cols.map(function (c) {
-        if (!c[0]) return '<th scope="col">' + c[1] + '</th>';
-        var s = sortKey === c[0] ? (sortDir === 1 ? 'ascending' : 'descending') : 'none';
-        return '<th scope="col" aria-sort="' + s + '"><button type="button" data-sort="' + c[0] + '">' + c[1] + '</button></th>';
-      }).join('') + '<th scope="col">Stand / Quelle</th></tr></thead><tbody>';
-      if (!rows.length) h += '<tr><td colspan="8" class="empty">Kein Anbieter passt zu diesen Filtern.</td></tr>';
-      function rowHTML(a) {
-        var h = '';
-        var qs = quotes(a), z = (a.strategien || []).filter(function (s) { return s.zins_pa != null; });
-        var tag = a.status === 'verifiziert' ? '<span class="tag v">belegt</span>' : a.status === 'teilweise verifiziert' ? '<span class="tag t">teilweise belegt</span>' : '<span class="tag n">nicht verifiziert</span>';
-        var nv = (a.nicht_verifiziert && a.nicht_verifiziert.length && a.status !== 'nicht verifiziert') ? '<span class="sub">Nicht belegt: ' + esc(a.nicht_verifiziert.join(', ')) + '</span>' : '';
-        h += '<tr><td class="pname"><span class="name">' + esc(a.name) + '</span>' + tag + ' ' + alterHTML(a) + (a.hinweise || nv ? '<details><summary>Details</summary><span class="sub">' + esc(a.hinweise || '') + '</span>' + nv + '</details>' : '') + '</td>' +
-          '<td>' + esc(a.typ) + '</td>' +
-          '<td class="num">' + kostenHTML(a) + (a.freibetrag_chf ? '<span class="sub">Freibetrag CHF ' + chf(a.freibetrag_chf) + ' (nicht für alle Strategien verifiziert)</span>' : '') + '</td>' +
-          '<td class="num">' + (a.mindesteinlage_chf == null ? NV : (a.mindesteinlage_chf === 0 ? 'keine' : 'CHF ' + chf(a.mindesteinlage_chf))) + '</td>' +
-          '<td>' + (qs.length ? qs.map(function (x) { return x + ' %'; }).join(', ') : NV) + '</td>' +
-          '<td class="num">' + (z.length ? pct(z[0].zins_pa) + (a.zins_stand ? '<span class="sub">Stand ' + datum(a.zins_stand) + '</span>' : '') : NV) + '</td>' +
-          '<td>' + (a.einmalig && a.einmalig.text ? esc(a.einmalig.text) : NV) + '</td>' +
-          '<td>' + datum(a.stand) + '<br>' + aff(a) + '</td></tr>';
-      return h;
-      }
-      var okRows = rows.filter(verif), nvRows = rows.filter(function (a) { return !verif(a); });
-      okRows.forEach(function (a) { h += rowHTML(a); });
-      var head = h.slice(0, h.indexOf('<tbody>') + 7);
-      h += '</tbody></table>';
-      if (nvRows.length) {
-        h += '<details class="vg-nv"><summary>Nicht verifizierte Anbieter (' + nvRows.length + ')</summary>' +
-          '<p class="small">Zu diesen Anbietern liegen keine belegten Zahlen vor. Sie stehen nicht im Vergleich.</p>' +
-          head + nvRows.map(rowHTML).join('') + '</tbody></table></details>';
-      }
-      g('tw').innerHTML = h;
-
-    }
-
-    function renderCalc() {
-      var dep = parseFloat(g('c-dep').value) || 0, yrs = Math.max(1, Math.min(60, parseInt(g('c-years').value, 10) || 1)), ret = (parseFloat(g('c-ret').value) || 0) / 100;
-      var q = Number(g('c-quote').value), useF = g('c-free').checked, order = g('c-sort').value;
-      var res = [], skip = [];
-      DATA.anbieter.forEach(function (a) {
-        var s = pick(a, q), ind = false, k;
-        if (!s && q > 0 && a.kosten && a.kosten.max != null && (a.kosten.art === 'belegt' || a.kosten.art === 'indikativ')) { s = { name: 'Strategie (Quote nicht verifiziert)', kosten_pa: a.kosten.max }; ind = true; }
-        if (!s) { skip.push(a); return; }
-        var r = s.zins_pa != null ? s.zins_pa / 100 : ret, f = useF ? (a.freibetrag_chf || 0) : 0;
-        k = s.kosten_pa;
-        res.push({ a: a, s: s, k: k, c: calc(dep, yrs, r, k / 100, f, a.einmalig), ind: ind, konto: s.zins_pa != null });
-      });
-      if (order === 'kosten') res.sort(function (x, y) { return (x.c.fees + x.c.once) - (y.c.fees + y.c.once); });
-      else if (order === 'name') res.sort(function (x, y) { return x.a.name.localeCompare(y.a.name, 'de'); });
-      else res.sort(function (x, y) { return y.c.end - x.c.end; });
-      var ref = calc(dep, yrs, q === 0 ? 0 : ret, 0, 0);
-      g('c-note').textContent = 'Eingezahlt: CHF ' + chf(dep * yrs) + '. ' + (q === 0 ? 'Konten: Zins laut Anbieter, ' : 'Alle Wertschriften-Strategien mit derselben Bruttorendite von ' + (ret * 100).toFixed(1) + ' %, ') +
-        'Einzahlung jeweils am Jahresanfang, Gebühr auf dem Vermögen, einmalige Kosten (Ausgabekommission, Kauf/Verkauf) soweit erfasst eingerechnet. Ohne Gebühren: CHF ' + chf(q === 0 ? dep * yrs : ref.end) + '.';
-      var head = '<table style="min-width:720px"><thead><tr><th>Anbieter</th><th>Strategie</th><th>Kosten p. a.</th><th>Gesamtkosten (laufend + einmalig)</th><th>Endkapital</th></tr></thead><tbody>';
-      function rowsHTML(list, best) {
-        var o = '';
-        list.forEach(function (r, i) {
-          var near = r.s.aktienquote > 0 && r.s.aktienquote !== q ? '<span class="sub">' + r.s.aktienquote + ' % Aktien (nächste Quote)</span>' : '';
-          o += '<tr' + (best && i === 0 && order === 'end' ? ' class="best"' : '') + '><td class="name">' + esc(r.a.name) + (r.ind ? '<span class="sub">indikativ mit den pauschal genannten Kosten</span>' : '') + alterHTML(r.a) + '</td><td>' + esc(r.s.name) + near + '</td><td class="num">' + pct(r.k) +
-            (r.konto ? '<span class="sub">Zins ' + pct(r.s.zins_pa) + '</span>' : '') + '</td><td class="num">CHF ' + chf(r.c.fees + r.c.once) +
-            (r.c.once > 0.5 ? '<span class="sub">davon einmalig CHF ' + chf(r.c.once) + '</span>' : '') + '</td><td class="num"><strong>CHF ' + chf(r.c.end) + '</strong></td></tr>';
-        });
-        return o;
-      }
-      var ver = res.filter(function (r) { return !r.ind; }), indik = res.filter(function (r) { return r.ind; });
-      var h = head;
-      if (!ver.length) h += '<tr><td colspan="5" class="empty">Für diese Aktienquote liegen keine belegten Strategien vor.</td></tr>';
-      h += rowsHTML(ver, true) + '</tbody></table>';
-      if (indik.length) {
-        h += '<h4 class="vg-ind">Nur indikativ, nicht direkt vergleichbar</h4><p class="small">Für diese Anbieter ist keine Strategie mit der gewählten Aktienquote belegt. Gerechnet wird mit den pauschal genannten Kosten; sie stehen deshalb nicht im Ranking oben.</p>' + head + rowsHTML(indik, false) + '</tbody></table>';
-      }
-      var hints = res.filter(function (r) { return r.a.rechenhinweis; }).map(function (r) { return '<li><b>' + esc(r.a.name) + ':</b> ' + esc(r.a.rechenhinweis) + '</li>'; });
-      if (hints.length) h += '<ul class="small">' + hints.join('') + '</ul>';
-      if (skip.length) h += '<p class="small">Ohne Ergebnis (keine belegten Daten für diese Quote): ' + skip.map(function (a) { return esc(a.name); }).join(', ') + '.</p>';
-      g('c-out').innerHTML = h;
-    }
-
-    function init(d) {
-      DATA = d;
-      try {
-        if (typeof S === 'object' && S) {
-          if (S.max3a > 0) g('c-dep').value = Math.round(S.max3a);
-          if (S.bis3a >= 1) g('c-years').value = Math.round(S.bis3a);
-          if (typeof S.rendite === 'number') g('c-ret').value = +(S.rendite > 1 ? S.rendite : S.rendite * 100).toFixed(2);
-        }
-      } catch (e) {}
-      g('stand').textContent = 'Stand: ' + datum(d.meta.datenstand);
-      renderTable(); renderCalc();
-      ['vg-f-typ', 'vg-f-quote', 'vg-f-fee', 'vg-f-min', 'vg-f-ver'].forEach(function (id) { var el = document.getElementById(id); el.addEventListener('input', renderTable); el.addEventListener('change', renderTable); });
-      ['vg-c-dep', 'vg-c-years', 'vg-c-ret', 'vg-c-quote', 'vg-c-free', 'vg-c-sort'].forEach(function (id) { var el = document.getElementById(id); el.addEventListener('input', renderCalc); el.addEventListener('change', renderCalc); });
-      g('tw').addEventListener('click', function (e) {
-        var b = e.target.closest ? e.target.closest('[data-sort]') : null; if (!b) return;
-        var k = b.getAttribute('data-sort');
-        if (sortKey === k) sortDir = -sortDir; else { sortKey = k; sortDir = (k === 'quote') ? -1 : 1; }
-        renderTable();
-      });
-    }
-    window.__vg = { loaded: false, load: function () {
-      if (window.__vg.loaded) return; window.__vg.loaded = true;
-      fetch('/anbieter.json', { cache: 'no-cache' }).then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); }).then(init).catch(function (e) {
-        window.__vg.loaded = false;
-        g('tw').innerHTML = '<p class="empty">Die Datei anbieter.json konnte nicht geladen werden (' + esc(e.message) + '). Sie muss im Hauptordner neben index.html liegen.</p>';
-      });
-    } };
-  })();
-
   // ---------- Seiten und Menü ----------
-  const PAGES = ['start', 'zins', 'sparplan', 'drei', 'btc', 'etf', 'aktien', 'methodik', 'datenschutz', 'impressum'];
-  const PATHS = { start: '/', zins: '/zinseszins/', sparplan: '/sparplan/', drei: '/saeule-3a/', btc: '/bitcoin/', etf: '/etf/', aktien: '/aktien/', methodik: '/methodik/', datenschutz: '/datenschutz/', impressum: '/impressum/' };
+  const PAGES = ['start', 'zins', 'btc', 'etf', 'aktien', 'methodik', 'datenschutz', 'impressum'];
+  const PATHS = { start: '/', zins: '/zinseszins/', btc: '/bitcoin/', etf: '/etf/', aktien: '/aktien/', methodik: '/methodik/', datenschutz: '/datenschutz/', impressum: '/impressum/' };
   const META = /*META-JSON*/{};
   function pageFromPath(path) {
     path = String(path || '/').replace(/index\.html$/, '');
@@ -2091,14 +1450,11 @@ tbody tr:nth-child(even) td { background: color-mix(in srgb, var(--wash) 35%, tr
     const k = PAGES.filter(pg => PATHS[pg] === path)[0];
     return k || 'start';
   }
-  const PREFIX = { start: 'st', zins: 'zi', sparplan: 'sp', drei: 'dr' };
   let current = 'start';
 
   function render() {
     if (current === 'start') renderStart();
     else if (current === 'zins') renderZins();
-    else if (current === 'sparplan') renderMC('sp', false);
-    else if (current === 'drei') { renderMC('dr', true); window.__vg.load(); }
     else if (current === 'btc') renderBtc();
     else if (current === 'etf') renderEtf();
     else if (current === 'aktien') renderAktien();
@@ -2131,10 +1487,6 @@ tbody tr:nth-child(even) td { background: color-mix(in srgb, var(--wash) 35%, tr
   // Aufbau
   $('st-fields').innerHTML = ['z_start', 'z_monat', 'z_zins', 'z_jahre'].map(k => fieldHTML('st', k)).join('');
   $('zi-form').innerHTML = groupsHTML('zi', [{ title: 'Eingaben', keys: ['z_start', 'z_monat', 'z_zins', 'z_jahre'] }, { title: 'Kaufkraft', keys: ['infl'] }]);
-  $('sp-form').innerHTML = groupsHTML('sp', [G_PLAN, G_MARKT, G_FREI_SP]);
-  $('sp-results').innerHTML = mcSkeleton('sp', false);
-  $('dr-form').innerHTML = groupsHTML('dr', [G_PLAN, G_MARKT, G_FREI, G_3A]) + '<p class="cap" id="dr-limit"></p>';
-  $('dr-results').innerHTML = mcSkeleton('dr', true);
 
   // Ereignisse
   document.addEventListener('submit', e => e.preventDefault());
@@ -2173,7 +1525,7 @@ tbody tr:nth-child(even) td { background: color-mix(in srgb, var(--wash) 35%, tr
       return;
     }
     if (e.target.closest && e.target.closest('[data-print]')) {
-      const keys = current === 'zins' ? ['z_start', 'z_monat', 'z_zins', 'z_jahre', 'infl'] : MCKEYS.filter(k => !DERIVED[k]);
+      const keys = ['z_start', 'z_monat', 'z_zins', 'z_jahre', 'infl'];
       $('printhead').innerHTML = '<h2>Meine Eingaben (' + new Date().toLocaleDateString('de-CH') + ')</h2><p>' +
         keys.map(k => DEFS[k].label + ': ' + (DEFS[k].opts ? (DEFS[k].opts.filter(o => o[0] === S[k])[0] || [0, ''])[1] : showVal(DEFS[k], S[k]) + ' ' + (DEFS[k].unit || ''))).join(' · ') + '</p><p>Quelle: ' + location.origin + PATHS[current] + '. Modellrechnung ohne Gewähr, keine Anlage-, Steuer- oder Rechtsberatung.</p>';
       try { window.print(); } catch (err) { /* ignorieren */ }
@@ -2181,7 +1533,6 @@ tbody tr:nth-child(even) td { background: color-mix(in srgb, var(--wash) 35%, tr
     }
     if (e.target.closest && e.target.closest('[data-reset]')) {
       Object.keys(DEFS).forEach(k => { S[k] = DEFS[k].def; });
-      S.indexiert = true;
       syncInputs($('p-' + current));
       render();
     }
@@ -2190,9 +1541,7 @@ tbody tr:nth-child(even) td { background: color-mix(in srgb, var(--wash) 35%, tr
   window.addEventListener('resize', () => {
     clearTimeout(rt);
     rt = setTimeout(() => {
-      if (current === 'sparplan') drawMC('sp');
-      else if (current === 'drei') drawMC('dr');
-      else if (current === 'btc') drawBtc();
+      if (current === 'btc') drawBtc();
       else render();
     }, 150);
   });
@@ -2200,7 +1549,7 @@ tbody tr:nth-child(even) td { background: color-mix(in srgb, var(--wash) 35%, tr
   const bodyPage = document.body.getAttribute('data-page');
   let startPage = bodyPage && PAGES.indexOf(bodyPage) >= 0 ? bodyPage : pageFromPath(location.pathname);
   let startHist = null;
-  const legacy = { zins: 'zins', sparplan: 'sparplan', drei: 'drei', btc: 'btc', etf: 'etf', anbieter: 'drei' };
+  const legacy = { zins: 'zins', btc: 'btc', etf: 'etf', aktien: 'aktien' };
   const lh = location.hash.slice(1);
   if (startPage === 'start' && legacy[lh]) { location.replace(PATHS[legacy[lh]] + location.search); }
   go(startPage, startHist);

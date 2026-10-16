@@ -1,5 +1,17 @@
 {
   "trailingSlash": true,
+  "redirects": [
+    {
+      "source": "/sparplan/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/saeule-3a/",
+      "destination": "/",
+      "permanent": true
+    }
+  ],
   "headers": [
     {
       "source": "/(.*)",
