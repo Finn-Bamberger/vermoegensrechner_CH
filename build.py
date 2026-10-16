@@ -109,7 +109,7 @@ def page(key):
         '<meta property="og:image" content="%(s)s/og.png">\n<meta property="og:locale" content="de_CH">\n'
         '<meta name="twitter:card" content="summary_large_image">\n<meta name="twitter:title" content="%(t)s">\n'
         '<meta name="twitter:description" content="%(d)s">\n<meta name="twitter:image" content="%(s)s/og.png">\n'
-        '<link rel="icon" href="/favicon.svg" type="image/svg+xml">\n<meta name="theme-color" content="#0B5D5A">\n'
+        '<link rel="icon" href="/favicon.svg" type="image/svg+xml">\n<meta name="theme-color" content="#1F5BD6">\n'
     ) % {'t': title, 'd': desc, 'u': url, 's': SITE}
     return ('<!doctype html>\n<html lang="de-CH">\n<head>\n' + head_tags + jsonld(key) + pre +
             '<style>html{color-scheme:light}body{margin:0}img{max-width:100%}[hidden]{display:none!important}</style>\n'
