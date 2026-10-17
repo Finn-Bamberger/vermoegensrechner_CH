@@ -6,7 +6,7 @@
  "rank": 95,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-10-17T19:07:35Z",
+ "updated_at": "2026-10-17T21:31:35Z",
  "periodic_accs": [
   "0000024741-25-000121",
   "0000024741-26-000124",
@@ -2514,6 +2514,78 @@
    "ad": "D",
    "plan_10b5_1": false,
    "url": "https://www.sec.gov/Archives/edgar/data/24741/000002474126000026/"
+  },
+  {
+   "acc": "0000024741-26-000020",
+   "date": "2026-01-02",
+   "name": "Gullo Michelle L",
+   "role": "Senior Vice President & CHRO",
+   "code": "M",
+   "shares": 283.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/24741/000002474126000020/"
+  },
+  {
+   "acc": "0000024741-26-000020",
+   "date": "2026-01-02",
+   "name": "Gullo Michelle L",
+   "role": "Senior Vice President & CHRO",
+   "code": "F",
+   "shares": 283.0,
+   "price": 90.67,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/24741/000002474126000020/"
+  },
+  {
+   "acc": "0000024741-26-000019",
+   "date": "2026-01-02",
+   "name": "WEEKS WENDELL P",
+   "role": "Chairman, CEO and President",
+   "code": "M",
+   "shares": 3287.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/24741/000002474126000019/"
+  },
+  {
+   "acc": "0000024741-26-000019",
+   "date": "2026-01-02",
+   "name": "WEEKS WENDELL P",
+   "role": "Chairman, CEO and President",
+   "code": "F",
+   "shares": 3287.0,
+   "price": 90.67,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/24741/000002474126000019/"
+  },
+  {
+   "acc": "0000024741-26-000018",
+   "date": "2026-01-02",
+   "name": "Verkleeren Ronald L",
+   "role": "SVP Emerging Innovations Group",
+   "code": "M",
+   "shares": 575.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/24741/000002474126000018/"
+  },
+  {
+   "acc": "0000024741-26-000018",
+   "date": "2026-01-02",
+   "name": "Verkleeren Ronald L",
+   "role": "SVP Emerging Innovations Group",
+   "code": "F",
+   "shares": 575.0,
+   "price": 90.67,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/24741/000002474126000018/"
   },
   {
    "acc": "0000024741-26-000023",
