@@ -6,7 +6,7 @@
  "rank": 30,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-10-17T00:43:04Z",
+ "updated_at": "2026-10-17T05:18:01Z",
  "periodic_accs": [
   "0000070858-25-000405",
   "0000070858-26-000157",
@@ -117,14 +117,6 @@
    "items": "",
    "doc_url": "https://www.sec.gov/Archives/edgar/data/70858/000007085825000405/bac-20250930.htm",
    "index_url": "https://www.sec.gov/Archives/edgar/data/70858/000007085825000405/0000070858-25-000405-index.htm"
-  },
-  {
-   "form": "8-K",
-   "date": "2025-10-16",
-   "report_date": "2025-10-16",
-   "items": "9.01",
-   "doc_url": "https://www.sec.gov/Archives/edgar/data/70858/000007085825000395/bac-20251016.htm",
-   "index_url": "https://www.sec.gov/Archives/edgar/data/70858/000007085825000395/0000070858-25-000395-index.htm"
   }
  ],
  "quarters": [

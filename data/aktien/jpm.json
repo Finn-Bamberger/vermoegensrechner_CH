@@ -6,7 +6,7 @@
  "rank": 15,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-10-17T00:41:36Z",
+ "updated_at": "2026-10-17T05:16:41Z",
  "periodic_accs": [
   "0001628280-25-048859",
   "0001628280-26-008131",
@@ -2282,6 +2282,78 @@
    "ad": "D",
    "plan_10b5_1": false,
    "url": "https://www.sec.gov/Archives/edgar/data/19617/000122520825009048/"
+  },
+  {
+   "acc": "0001225208-25-008995",
+   "date": "2025-11-05",
+   "name": "Erdoes Mary E.",
+   "role": "CEO Asset & Wealth Management",
+   "code": "G",
+   "shares": 6468.0,
+   "price": 0.0,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/19617/000122520825008995/"
+  },
+  {
+   "acc": "0001225208-25-008952",
+   "date": "2025-11-04",
+   "name": "Petno Douglas B",
+   "role": "Co-CEO CIB",
+   "code": "G",
+   "shares": 809.0,
+   "price": 0.0,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/19617/000122520825008952/"
+  },
+  {
+   "acc": "0001225208-25-008740",
+   "date": "2025-10-25",
+   "name": "Korablina Elena A",
+   "role": "Corporate Controller",
+   "code": "M",
+   "shares": 881.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/19617/000122520825008740/"
+  },
+  {
+   "acc": "0001225208-25-008740",
+   "date": "2025-10-25",
+   "name": "Korablina Elena A",
+   "role": "Corporate Controller",
+   "code": "M",
+   "shares": 826.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/19617/000122520825008740/"
+  },
+  {
+   "acc": "0001225208-25-008740",
+   "date": "2025-10-25",
+   "name": "Korablina Elena A",
+   "role": "Corporate Controller",
+   "code": "F",
+   "shares": 477.0,
+   "price": 299.025,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/19617/000122520825008740/"
+  },
+  {
+   "acc": "0001225208-25-008740",
+   "date": "2025-10-25",
+   "name": "Korablina Elena A",
+   "role": "Corporate Controller",
+   "code": "F",
+   "shares": 486.0,
+   "price": 299.025,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/19617/000122520825008740/"
   }
  ]
 }

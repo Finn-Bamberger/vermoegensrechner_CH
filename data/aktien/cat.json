@@ -6,7 +6,7 @@
  "rank": 34,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-10-17T00:43:16Z",
+ "updated_at": "2026-10-17T05:18:09Z",
  "periodic_accs": [
   "0000018230-19-000153",
   "0000018230-19-000224",
@@ -3133,6 +3133,30 @@
    "url": "https://www.sec.gov/Archives/edgar/data/18230/000110465925110257/"
   },
   {
+   "acc": "0001104659-25-107671",
+   "date": "2025-11-06",
+   "name": "MacLennan David",
+   "role": "Director",
+   "code": "P",
+   "shares": 300.0,
+   "price": 568.86,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/18230/000110465925107671/"
+  },
+  {
+   "acc": "0001104659-25-107670",
+   "date": "2025-11-05",
+   "name": "Schaupp William E",
+   "role": "Chief Accounting Officer",
+   "code": "S",
+   "shares": 1200.0,
+   "price": 572.22,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/18230/000110465925107670/"
+  },
+  {
    "acc": "0001104659-25-108358",
    "date": "2025-11-05",
    "name": "De Lange Bob",
@@ -3167,6 +3191,18 @@
    "ad": "D",
    "plan_10b5_1": false,
    "url": "https://www.sec.gov/Archives/edgar/data/18230/000110465925108358/"
+  },
+  {
+   "acc": "0001104659-25-099169",
+   "date": "2025-10-10",
+   "name": "Umpleby III Donald J",
+   "role": "Executive Chairman",
+   "code": "S",
+   "shares": 17166.0,
+   "price": 505.29,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/18230/000110465925099169/"
   }
  ]
 }
