@@ -6,7 +6,7 @@
  "rank": 95,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-10-17T13:33:29Z",
+ "updated_at": "2026-10-17T16:42:00Z",
  "periodic_accs": [
   "0000024741-25-000121",
   "0000024741-26-000124",
@@ -2456,6 +2456,30 @@
    "url": "https://www.sec.gov/Archives/edgar/data/24741/000002474126000041/"
   },
   {
+   "acc": "0000024741-26-000036",
+   "date": "2026-01-29",
+   "name": "Schlesinger Edward A",
+   "role": "Exec. Vice President and CFO",
+   "code": "M",
+   "shares": 8925.0,
+   "price": 19.65,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/24741/000002474126000036/"
+  },
+  {
+   "acc": "0000024741-26-000036",
+   "date": "2026-01-29",
+   "name": "Schlesinger Edward A",
+   "role": "Exec. Vice President and CFO",
+   "code": "S",
+   "shares": 21104.0,
+   "price": 104.5454,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/24741/000002474126000036/"
+  },
+  {
    "acc": "0000024741-26-000038",
    "date": "2026-01-29",
    "name": "Gullo Michelle L",
@@ -2466,6 +2490,54 @@
    "ad": "D",
    "plan_10b5_1": false,
    "url": "https://www.sec.gov/Archives/edgar/data/24741/000002474126000038/"
+  },
+  {
+   "acc": "0000024741-26-000026",
+   "date": "2026-01-15",
+   "name": "Kammerud Jordana Daryl",
+   "role": "SVP",
+   "code": "D",
+   "shares": 12136.0,
+   "price": 0.0,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/24741/000002474126000026/"
+  },
+  {
+   "acc": "0000024741-26-000026",
+   "date": "2026-01-15",
+   "name": "Kammerud Jordana Daryl",
+   "role": "SVP",
+   "code": "F",
+   "shares": 4666.0,
+   "price": 93.49,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/24741/000002474126000026/"
+  },
+  {
+   "acc": "0000024741-26-000024",
+   "date": "2026-01-02",
+   "name": "O'Day Michael Paul",
+   "role": "SVP and GM, Optical Comm.",
+   "code": "M",
+   "shares": 612.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/24741/000002474126000024/"
+  },
+  {
+   "acc": "0000024741-26-000024",
+   "date": "2026-01-02",
+   "name": "O'Day Michael Paul",
+   "role": "SVP and GM, Optical Comm.",
+   "code": "F",
+   "shares": 612.0,
+   "price": 90.67,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/24741/000002474126000024/"
   }
  ]
 }
