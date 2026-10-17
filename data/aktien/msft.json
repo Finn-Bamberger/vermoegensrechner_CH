@@ -6,7 +6,7 @@
  "rank": 4,
  "source": "SEC EDGAR",
  "fiscal_year_end": "0630",
- "updated_at": "2026-10-16T22:09:56Z",
+ "updated_at": "2026-10-17T00:40:38Z",
  "periodic_accs": [
   "0000950170-23-014423",
   "0000950170-23-035122",
@@ -1486,6 +1486,30 @@
    "ad": "A",
    "plan_10b5_1": false,
    "url": "https://www.sec.gov/Archives/edgar/data/789019/000078901926000100/"
+  },
+  {
+   "acc": "0000789019-26-000081",
+   "date": "2026-06-01",
+   "name": "Jolla Alice L.",
+   "role": "Chief Accounting Officer",
+   "code": "F",
+   "shares": 412.578,
+   "price": 450.24,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000078901926000081/"
+  },
+  {
+   "acc": "0000789019-26-000080",
+   "date": "2026-06-01",
+   "name": "Coleman Amy",
+   "role": "EVP, Chief Human Resources Off",
+   "code": "F",
+   "shares": 433.827,
+   "price": 450.24,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000078901926000080/"
   },
   {
    "acc": "0000789019-26-000083",

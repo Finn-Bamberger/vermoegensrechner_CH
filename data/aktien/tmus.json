@@ -6,7 +6,7 @@
  "rank": 71,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-10-16T22:29:20Z",
+ "updated_at": "2026-10-17T00:47:06Z",
  "periodic_accs": [
   "0001193125-20-214220",
   "0001283699-20-000106",
@@ -3492,42 +3492,6 @@
    "code": "S",
    "shares": 7829.0,
    "price": 242.27,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/1283699/000114036125035004/"
-  },
-  {
-   "acc": "0001283699-25-000135",
-   "date": "2025-09-11",
-   "name": "Nelson Mark Wolfe",
-   "role": "EVP and General Counsel",
-   "code": "A",
-   "shares": 47.803,
-   "price": 240.34,
-   "ad": "A",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/1283699/000128369925000135/"
-  },
-  {
-   "acc": "0001140361-25-035004",
-   "date": "2025-09-11",
-   "name": "DEUTSCHE TELEKOM AG",
-   "role": "Director",
-   "code": "S",
-   "shares": 28862.0,
-   "price": 240.4357,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/1283699/000114036125035004/"
-  },
-  {
-   "acc": "0001140361-25-035004",
-   "date": "2025-09-11",
-   "name": "DEUTSCHE TELEKOM AG",
-   "role": "Director",
-   "code": "S",
-   "shares": 35564.0,
-   "price": 241.1685,
    "ad": "D",
    "plan_10b5_1": true,
    "url": "https://www.sec.gov/Archives/edgar/data/1283699/000114036125035004/"

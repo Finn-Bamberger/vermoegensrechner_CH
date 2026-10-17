@@ -6,7 +6,7 @@
  "rank": 12,
  "source": "SEC EDGAR",
  "fiscal_year_end": "0903",
- "updated_at": "2026-10-16T22:10:38Z",
+ "updated_at": "2026-10-17T00:41:12Z",
  "periodic_accs": [
   "0000723125-17-000131",
   "0000723125-17-000166",
@@ -8007,66 +8007,6 @@
    "ad": "D",
    "plan_10b5_1": true,
    "url": "https://www.sec.gov/Archives/edgar/data/723125/000124265425000008/"
-  },
-  {
-   "acc": "0001242654-25-000006",
-   "date": "2025-09-11",
-   "name": "MEHROTRA SANJAY",
-   "role": "President and CEO",
-   "code": "S",
-   "shares": 2119.0,
-   "price": 150.76,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/723125/000124265425000006/"
-  },
-  {
-   "acc": "0001242654-25-000006",
-   "date": "2025-09-11",
-   "name": "MEHROTRA SANJAY",
-   "role": "President and CEO",
-   "code": "S",
-   "shares": 1511.0,
-   "price": 151.66,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/723125/000124265425000006/"
-  },
-  {
-   "acc": "0001242654-25-000006",
-   "date": "2025-09-11",
-   "name": "MEHROTRA SANJAY",
-   "role": "President and CEO",
-   "code": "S",
-   "shares": 2461.0,
-   "price": 152.88,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/723125/000124265425000006/"
-  },
-  {
-   "acc": "0001242654-25-000006",
-   "date": "2025-09-11",
-   "name": "MEHROTRA SANJAY",
-   "role": "President and CEO",
-   "code": "S",
-   "shares": 1075.0,
-   "price": 153.85,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/723125/000124265425000006/"
-  },
-  {
-   "acc": "0001242654-25-000006",
-   "date": "2025-09-11",
-   "name": "MEHROTRA SANJAY",
-   "role": "President and CEO",
-   "code": "S",
-   "shares": 334.0,
-   "price": 155.08,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/723125/000124265425000006/"
   }
  ]
 }

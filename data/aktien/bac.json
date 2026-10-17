@@ -6,7 +6,7 @@
  "rank": 30,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-10-16T22:12:32Z",
+ "updated_at": "2026-10-17T00:43:04Z",
  "periodic_accs": [
   "0000070858-25-000405",
   "0000070858-26-000157",
@@ -5366,6 +5366,54 @@
    "ad": "D",
    "plan_10b5_1": false,
    "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085825000412/"
+  },
+  {
+   "acc": "0000070858-25-000409",
+   "date": "2025-11-06",
+   "name": "BANK OF AMERICA CORP /DE/",
+   "role": "10%-Aktionär",
+   "code": "S",
+   "shares": 1.0,
+   "price": 12.54,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085825000409/"
+  },
+  {
+   "acc": "0000070858-25-000399",
+   "date": "2025-10-22",
+   "name": "Bronstein Sheri B.",
+   "role": "Chief People Officer",
+   "code": "G",
+   "shares": 6000.0,
+   "price": 0.0,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085825000399/"
+  },
+  {
+   "acc": "0000070858-25-000397",
+   "date": "2025-10-15",
+   "name": "MOYNIHAN BRIAN T",
+   "role": "Chair and CEO",
+   "code": "M",
+   "shares": 17892.0,
+   "price": null,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085825000397/"
+  },
+  {
+   "acc": "0000070858-25-000397",
+   "date": "2025-10-15",
+   "name": "MOYNIHAN BRIAN T",
+   "role": "Chair and CEO",
+   "code": "D",
+   "shares": 17892.0,
+   "price": 52.28,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085825000397/"
   }
  ]
 }

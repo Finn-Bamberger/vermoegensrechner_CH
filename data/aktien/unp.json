@@ -6,7 +6,7 @@
  "rank": 69,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-10-16T22:27:05Z",
+ "updated_at": "2026-10-17T00:46:52Z",
  "periodic_accs": [
   "0000100885-21-000068",
   "0000100885-21-000162",
@@ -1701,6 +1701,66 @@
    "url": "https://www.sec.gov/Archives/edgar/data/100885/000010088526000058/"
   },
   {
+   "acc": "0000100885-26-000050",
+   "date": "2026-02-05",
+   "name": "Powers Carrie J",
+   "role": "VP & CONTROLLER",
+   "code": "A",
+   "shares": 1672.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/100885/000010088526000050/"
+  },
+  {
+   "acc": "0000100885-26-000049",
+   "date": "2026-02-05",
+   "name": "Jalali Rahul",
+   "role": "EVP & CHIEF INFORMATION OFFICE",
+   "code": "A",
+   "shares": 9546.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/100885/000010088526000049/"
+  },
+  {
+   "acc": "0000100885-26-000048",
+   "date": "2026-02-05",
+   "name": "Hamann Jennifer L",
+   "role": "EVP & CHIEF FINANCIAL OFFICER",
+   "code": "A",
+   "shares": 17898.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/100885/000010088526000048/"
+  },
+  {
+   "acc": "0000100885-26-000047",
+   "date": "2026-02-05",
+   "name": "Gehringer Eric J",
+   "role": "EVP OPERATIONS",
+   "code": "A",
+   "shares": 15512.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/100885/000010088526000047/"
+  },
+  {
+   "acc": "0000100885-26-000046",
+   "date": "2026-02-05",
+   "name": "Conlin Christina B",
+   "role": "EVP CHIEF LEGAL OFFICER & CORP",
+   "code": "A",
+   "shares": 10738.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/100885/000010088526000046/"
+  },
+  {
    "acc": "0000100885-26-000052",
    "date": "2026-02-05",
    "name": "Vena Vincenzo J",
@@ -1735,6 +1795,54 @@
    "ad": "A",
    "plan_10b5_1": false,
    "url": "https://www.sec.gov/Archives/edgar/data/100885/000010088526000051/"
+  },
+  {
+   "acc": "0000100885-26-000035",
+   "date": "2026-02-03",
+   "name": "Rocker Kenyatta G",
+   "role": "EVP MARKETING & SALES",
+   "code": "F",
+   "shares": 15.0,
+   "price": 241.49,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/100885/000010088526000035/"
+  },
+  {
+   "acc": "0000100885-26-000028",
+   "date": "2026-01-10",
+   "name": "Conlin Christina B",
+   "role": "EVP CHIEF LEGAL OFFICER & CORP",
+   "code": "A",
+   "shares": 0.211,
+   "price": 228.44,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/100885/000010088526000028/"
+  },
+  {
+   "acc": "0000100885-26-000027",
+   "date": "2026-01-10",
+   "name": "Rocker Kenyatta G",
+   "role": "EVP MARKETING & SALES",
+   "code": "A",
+   "shares": 3.138,
+   "price": 228.44,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/100885/000010088526000027/"
+  },
+  {
+   "acc": "0000100885-26-000026",
+   "date": "2026-01-10",
+   "name": "Powers Carrie J",
+   "role": "VP & CONTROLLER",
+   "code": "A",
+   "shares": 6.676,
+   "price": 228.44,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/100885/000010088526000026/"
   }
  ]
 }

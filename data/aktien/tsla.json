@@ -6,7 +6,7 @@
  "rank": 9,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-10-16T22:10:29Z",
+ "updated_at": "2026-10-17T00:41:10Z",
  "periodic_accs": [
   "0000950170-21-000046",
   "0000950170-21-000524",
@@ -2148,18 +2148,6 @@
    "ad": "A",
    "plan_10b5_1": false,
    "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465925089693/"
-  },
-  {
-   "acc": "0001972928-25-000004",
-   "date": "2025-09-11",
-   "name": "Zhu Xiaotong",
-   "role": "SVP, APAC and",
-   "code": "S",
-   "shares": 20000.0,
-   "price": 363.755,
-   "ad": "D",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/1318605/000197292825000004/"
   }
  ]
 }

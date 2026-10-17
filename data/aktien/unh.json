@@ -6,7 +6,7 @@
  "rank": 32,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-10-16T22:12:47Z",
+ "updated_at": "2026-10-17T00:43:15Z",
  "periodic_accs": [
   "0000731766-21-000013",
   "0000731766-21-000021",
@@ -2700,18 +2700,6 @@
    "ad": "A",
    "plan_10b5_1": false,
    "url": "https://www.sec.gov/Archives/edgar/data/731766/000073176625000267/"
-  },
-  {
-   "acc": "0000731766-25-000249",
-   "date": "2025-09-11",
-   "name": "Baker Charles D.",
-   "role": "Director",
-   "code": "S",
-   "shares": 27.0,
-   "price": 356.05,
-   "ad": "D",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/731766/000073176625000249/"
   }
  ]
 }

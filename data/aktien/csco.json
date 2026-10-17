@@ -6,7 +6,7 @@
  "rank": 23,
  "source": "SEC EDGAR",
  "fiscal_year_end": "0731",
- "updated_at": "2026-10-16T22:11:44Z",
+ "updated_at": "2026-10-17T00:42:15Z",
  "periodic_accs": [
   "0000858877-20-000010",
   "0000858877-20-000015",
@@ -3155,42 +3155,6 @@
    "ad": "D",
    "plan_10b5_1": true,
    "url": "https://www.sec.gov/Archives/edgar/data/858877/000085887725000119/"
-  },
-  {
-   "acc": "0000858877-25-000116",
-   "date": "2025-09-11",
-   "name": "Wong Maria Victoria",
-   "role": "SVP & Chief Acctg Officer",
-   "code": "S",
-   "shares": 428.0,
-   "price": 68.25,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/858877/000085887725000116/"
-  },
-  {
-   "acc": "0000858877-25-000115",
-   "date": "2025-09-11",
-   "name": "Stahlkopf Deborah L",
-   "role": "EVP and Chief Legal Officer",
-   "code": "S",
-   "shares": 2618.0,
-   "price": 68.0672,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/858877/000085887725000115/"
-  },
-  {
-   "acc": "0000858877-25-000115",
-   "date": "2025-09-11",
-   "name": "Stahlkopf Deborah L",
-   "role": "EVP and Chief Legal Officer",
-   "code": "S",
-   "shares": 100.0,
-   "price": 68.54,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/858877/000085887725000115/"
   }
  ]
 }

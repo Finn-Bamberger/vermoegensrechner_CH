@@ -6,7 +6,7 @@
  "rank": 1,
  "source": "SEC EDGAR",
  "fiscal_year_end": "0131",
- "updated_at": "2026-10-16T22:09:33Z",
+ "updated_at": "2026-10-17T00:40:17Z",
  "periodic_accs": [
   "0001045810-20-000189",
   "0001045810-21-000010",
@@ -6405,66 +6405,6 @@
    "ad": "D",
    "plan_10b5_1": false,
    "url": "https://www.sec.gov/Archives/edgar/data/1045810/000119903925000007/"
-  },
-  {
-   "acc": "0001199039-25-000007",
-   "date": "2025-09-11",
-   "name": "STEVENS MARK A",
-   "role": "Director",
-   "code": "S",
-   "shares": 200000.0,
-   "price": 177.4701,
-   "ad": "D",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000119903925000007/"
-  },
-  {
-   "acc": "0001197649-25-000031",
-   "date": "2025-09-11",
-   "name": "HUANG JEN HSUN",
-   "role": "President and CEO",
-   "code": "S",
-   "shares": 32834.0,
-   "price": 177.2235,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000119764925000031/"
-  },
-  {
-   "acc": "0001197649-25-000031",
-   "date": "2025-09-11",
-   "name": "HUANG JEN HSUN",
-   "role": "President and CEO",
-   "code": "S",
-   "shares": 37975.0,
-   "price": 177.8881,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000119764925000031/"
-  },
-  {
-   "acc": "0001197649-25-000031",
-   "date": "2025-09-11",
-   "name": "HUANG JEN HSUN",
-   "role": "President and CEO",
-   "code": "S",
-   "shares": 1919.0,
-   "price": 179.1302,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000119764925000031/"
-  },
-  {
-   "acc": "0001197649-25-000031",
-   "date": "2025-09-11",
-   "name": "HUANG JEN HSUN",
-   "role": "President and CEO",
-   "code": "S",
-   "shares": 2272.0,
-   "price": 179.7707,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000119764925000031/"
   }
  ]
 }

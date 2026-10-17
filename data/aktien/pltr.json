@@ -6,7 +6,7 @@
  "rank": 22,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-10-16T22:11:42Z",
+ "updated_at": "2026-10-17T00:42:14Z",
  "periodic_accs": [
   "0000950123-21-010430",
   "0001193125-20-292177",
@@ -4999,54 +4999,6 @@
    "ad": "D",
    "plan_10b5_1": true,
    "url": "https://www.sec.gov/Archives/edgar/data/1321655/000184024425000004/"
-  },
-  {
-   "acc": "0001840244-25-000003",
-   "date": "2025-09-11",
-   "name": "Stat Lauren Elaina Friedman",
-   "role": "Director",
-   "code": "S",
-   "shares": 1673.0,
-   "price": 164.2626,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/1321655/000184024425000003/"
-  },
-  {
-   "acc": "0001840244-25-000003",
-   "date": "2025-09-11",
-   "name": "Stat Lauren Elaina Friedman",
-   "role": "Director",
-   "code": "S",
-   "shares": 7936.0,
-   "price": 164.9899,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/1321655/000184024425000003/"
-  },
-  {
-   "acc": "0001840244-25-000003",
-   "date": "2025-09-11",
-   "name": "Stat Lauren Elaina Friedman",
-   "role": "Director",
-   "code": "S",
-   "shares": 3391.0,
-   "price": 165.9378,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/1321655/000184024425000003/"
-  },
-  {
-   "acc": "0001840244-25-000003",
-   "date": "2025-09-11",
-   "name": "Stat Lauren Elaina Friedman",
-   "role": "Director",
-   "code": "S",
-   "shares": 8000.0,
-   "price": 167.25,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/1321655/000184024425000003/"
   }
  ]
 }
