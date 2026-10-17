@@ -6,7 +6,7 @@
  "rank": 34,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-10-17T05:18:09Z",
+ "updated_at": "2026-10-17T09:35:47Z",
  "periodic_accs": [
   "0000018230-19-000153",
   "0000018230-19-000224",
@@ -3203,6 +3203,18 @@
    "ad": "D",
    "plan_10b5_1": false,
    "url": "https://www.sec.gov/Archives/edgar/data/18230/000110465925099169/"
+  },
+  {
+   "acc": "0001104659-25-092496",
+   "date": "2025-09-22",
+   "name": "Umpleby III Donald J",
+   "role": "Executive Chairman",
+   "code": "S",
+   "shares": 17166.0,
+   "price": 462.65,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/18230/000110465925092496/"
   }
  ]
 }

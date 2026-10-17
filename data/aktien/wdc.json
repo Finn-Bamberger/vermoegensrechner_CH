@@ -6,7 +6,7 @@
  "rank": 86,
  "source": "SEC EDGAR",
  "fiscal_year_end": "0703",
- "updated_at": "2026-10-17T05:23:33Z",
+ "updated_at": "2026-10-17T09:40:21Z",
  "periodic_accs": [
   "0000106040-19-000009",
   "0000106040-19-000028",
@@ -4019,6 +4019,54 @@
    "url": "https://www.sec.gov/Archives/edgar/data/106040/000126682426000029/"
   },
   {
+   "acc": "0001266824-26-000027",
+   "date": "2026-02-25",
+   "name": "Gubbi Vidyadhara K",
+   "role": "Chief of Global Operations",
+   "code": "M",
+   "shares": 7.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/106040/000126682426000027/"
+  },
+  {
+   "acc": "0001266824-26-000027",
+   "date": "2026-02-25",
+   "name": "Gubbi Vidyadhara K",
+   "role": "Chief of Global Operations",
+   "code": "F",
+   "shares": 1010.0,
+   "price": 290.95,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/106040/000126682426000027/"
+  },
+  {
+   "acc": "0001266824-26-000026",
+   "date": "2026-02-25",
+   "name": "Davis Brian Scott",
+   "role": "Chief Sales & Mrktng Officer",
+   "code": "M",
+   "shares": 6.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/106040/000126682426000026/"
+  },
+  {
+   "acc": "0001266824-26-000026",
+   "date": "2026-02-25",
+   "name": "Davis Brian Scott",
+   "role": "Chief Sales & Mrktng Officer",
+   "code": "F",
+   "shares": 849.0,
+   "price": 290.95,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/106040/000126682426000026/"
+  },
+  {
    "acc": "0001266824-26-000029",
    "date": "2026-02-25",
    "name": "Tregillis Cynthia L",
@@ -4065,6 +4113,78 @@
    "ad": "D",
    "plan_10b5_1": false,
    "url": "https://www.sec.gov/Archives/edgar/data/106040/000126682426000028/"
+  },
+  {
+   "acc": "0001266824-26-000021",
+   "date": "2026-02-24",
+   "name": "Tregillis Cynthia L",
+   "role": "Chief Legal Officer & Corp Sec",
+   "code": "S",
+   "shares": 308.0,
+   "price": 281.7,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/106040/000126682426000021/"
+  },
+  {
+   "acc": "0001266824-26-000021",
+   "date": "2026-02-23",
+   "name": "Tregillis Cynthia L",
+   "role": "Chief Legal Officer & Corp Sec",
+   "code": "S",
+   "shares": 130.0,
+   "price": 283.83,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/106040/000126682426000021/"
+  },
+  {
+   "acc": "0001266824-26-000021",
+   "date": "2026-02-21",
+   "name": "Tregillis Cynthia L",
+   "role": "Chief Legal Officer & Corp Sec",
+   "code": "M",
+   "shares": 9.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/106040/000126682426000021/"
+  },
+  {
+   "acc": "0001266824-26-000021",
+   "date": "2026-02-21",
+   "name": "Tregillis Cynthia L",
+   "role": "Chief Legal Officer & Corp Sec",
+   "code": "F",
+   "shares": 1109.0,
+   "price": 285.52,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/106040/000126682426000021/"
+  },
+  {
+   "acc": "0001266824-26-000021",
+   "date": "2026-02-20",
+   "name": "Tregillis Cynthia L",
+   "role": "Chief Legal Officer & Corp Sec",
+   "code": "M",
+   "shares": 3.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/106040/000126682426000021/"
+  },
+  {
+   "acc": "0001266824-26-000021",
+   "date": "2026-02-20",
+   "name": "Tregillis Cynthia L",
+   "role": "Chief Legal Officer & Corp Sec",
+   "code": "F",
+   "shares": 244.0,
+   "price": 285.52,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/106040/000126682426000021/"
   }
  ]
 }

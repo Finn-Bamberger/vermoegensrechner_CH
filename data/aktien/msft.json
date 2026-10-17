@@ -6,7 +6,7 @@
  "rank": 4,
  "source": "SEC EDGAR",
  "fiscal_year_end": "0630",
- "updated_at": "2026-10-17T05:15:55Z",
+ "updated_at": "2026-10-17T09:33:49Z",
  "periodic_accs": [
   "0000950170-23-014423",
   "0000950170-23-035122",
@@ -1558,6 +1558,18 @@
    "ad": "D",
    "plan_10b5_1": false,
    "url": "https://www.sec.gov/Archives/edgar/data/789019/000078901926000070/"
+  },
+  {
+   "acc": "0000789019-26-000066",
+   "date": "2026-03-16",
+   "name": "Coleman Amy",
+   "role": "EVP, Chief Human Resources Off",
+   "code": "F",
+   "shares": 31.095,
+   "price": 395.55,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000078901926000066/"
   }
  ]
 }

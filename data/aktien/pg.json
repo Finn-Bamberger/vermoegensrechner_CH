@@ -6,7 +6,7 @@
  "rank": 28,
  "source": "SEC EDGAR",
  "fiscal_year_end": "0630",
- "updated_at": "2026-10-17T05:17:36Z",
+ "updated_at": "2026-10-17T09:35:16Z",
  "periodic_accs": [
   "0000080424-22-000064",
   "0000080424-22-000102",
@@ -2497,6 +2497,42 @@
    "ad": "D",
    "plan_10b5_1": false,
    "url": "https://www.sec.gov/Archives/edgar/data/80424/000008042425000202/"
+  },
+  {
+   "acc": "0000080424-25-000197",
+   "date": "2025-10-01",
+   "name": "Moeller Jon R",
+   "role": "Chairman, President and CEO",
+   "code": "A",
+   "shares": 12241.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/80424/000008042425000197/"
+  },
+  {
+   "acc": "0000080424-25-000196",
+   "date": "2025-10-01",
+   "name": "Coombe Gary A",
+   "role": "CEO - Grooming",
+   "code": "A",
+   "shares": 3373.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/80424/000008042425000196/"
+  },
+  {
+   "acc": "0000080424-25-000192",
+   "date": "2025-10-01",
+   "name": "Jejurikar Shailesh",
+   "role": "Chief Operating Officer",
+   "code": "A",
+   "shares": 22849.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/80424/000008042425000192/"
   },
   {
    "acc": "0000080424-25-000201",
