@@ -6,7 +6,7 @@
  "rank": 95,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-10-17T16:42:00Z",
+ "updated_at": "2026-10-17T19:07:35Z",
  "periodic_accs": [
   "0000024741-25-000121",
   "0000024741-26-000124",
@@ -2514,6 +2514,78 @@
    "ad": "D",
    "plan_10b5_1": false,
    "url": "https://www.sec.gov/Archives/edgar/data/24741/000002474126000026/"
+  },
+  {
+   "acc": "0000024741-26-000023",
+   "date": "2026-01-02",
+   "name": "Schlesinger Edward A",
+   "role": "Exec. Vice President and CFO",
+   "code": "M",
+   "shares": 1035.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/24741/000002474126000023/"
+  },
+  {
+   "acc": "0000024741-26-000023",
+   "date": "2026-01-02",
+   "name": "Schlesinger Edward A",
+   "role": "Exec. Vice President and CFO",
+   "code": "F",
+   "shares": 1035.0,
+   "price": 90.67,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/24741/000002474126000023/"
+  },
+  {
+   "acc": "0000024741-26-000022",
+   "date": "2026-01-02",
+   "name": "STEVERSON LEWIS A",
+   "role": "Vice Chairman, EVP and CLAO",
+   "code": "M",
+   "shares": 1097.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/24741/000002474126000022/"
+  },
+  {
+   "acc": "0000024741-26-000022",
+   "date": "2026-01-02",
+   "name": "STEVERSON LEWIS A",
+   "role": "Vice Chairman, EVP and CLAO",
+   "code": "F",
+   "shares": 1097.0,
+   "price": 90.67,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/24741/000002474126000022/"
+  },
+  {
+   "acc": "0000024741-26-000021",
+   "date": "2026-01-02",
+   "name": "Amin Jaymin",
+   "role": "SVP and Chief Tech. Officer",
+   "code": "M",
+   "shares": 685.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/24741/000002474126000021/"
+  },
+  {
+   "acc": "0000024741-26-000021",
+   "date": "2026-01-02",
+   "name": "Amin Jaymin",
+   "role": "SVP and Chief Tech. Officer",
+   "code": "F",
+   "shares": 685.0,
+   "price": 90.67,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/24741/000002474126000021/"
   },
   {
    "acc": "0000024741-26-000024",
