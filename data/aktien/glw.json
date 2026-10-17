@@ -6,7 +6,7 @@
  "rank": 95,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-10-17T21:31:35Z",
+ "updated_at": "2026-10-17T23:25:37Z",
  "periodic_accs": [
   "0000024741-25-000121",
   "0000024741-26-000124",
@@ -2514,6 +2514,30 @@
    "ad": "D",
    "plan_10b5_1": false,
    "url": "https://www.sec.gov/Archives/edgar/data/24741/000002474126000026/"
+  },
+  {
+   "acc": "0000024741-26-000017",
+   "date": "2026-01-02",
+   "name": "Nelson Avery H III",
+   "role": "Executive Vice President & COO",
+   "code": "M",
+   "shares": 1005.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/24741/000002474126000017/"
+  },
+  {
+   "acc": "0000024741-26-000017",
+   "date": "2026-01-02",
+   "name": "Nelson Avery H III",
+   "role": "Executive Vice President & COO",
+   "code": "F",
+   "shares": 1005.0,
+   "price": 90.67,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/24741/000002474126000017/"
   },
   {
    "acc": "0000024741-26-000020",
