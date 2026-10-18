@@ -6,7 +6,7 @@
  "rank": 39,
  "source": "SEC EDGAR",
  "fiscal_year_end": "0131",
- "updated_at": "2026-10-16T22:13:37Z",
+ "updated_at": "2026-10-18T01:22:26Z",
  "periodic_accs": [
   "0000354950-18-000019",
   "0000354950-18-000034",
@@ -1743,30 +1743,6 @@
    "ad": "D",
    "plan_10b5_1": false,
    "url": "https://www.sec.gov/Archives/edgar/data/354950/000035495025000233/"
-  },
-  {
-   "acc": "0000354950-25-000220",
-   "date": "2025-09-12",
-   "name": "Bastek William D",
-   "role": "EVP, Merchandising",
-   "code": "M",
-   "shares": 2303.0,
-   "price": 147.36,
-   "ad": "A",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/354950/000035495025000220/"
-  },
-  {
-   "acc": "0000354950-25-000220",
-   "date": "2025-09-12",
-   "name": "Bastek William D",
-   "role": "EVP, Merchandising",
-   "code": "S",
-   "shares": 2303.0,
-   "price": 423.12,
-   "ad": "D",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/354950/000035495025000220/"
   }
  ]
 }

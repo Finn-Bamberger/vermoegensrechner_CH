@@ -6,7 +6,7 @@
  "rank": 26,
  "source": "SEC EDGAR",
  "fiscal_year_end": "0531",
- "updated_at": "2026-10-16T22:11:53Z",
+ "updated_at": "2026-10-18T01:21:21Z",
  "periodic_accs": [
   "0000950170-23-028914",
   "0000950170-23-047713",
@@ -2165,30 +2165,6 @@
    "code": "F",
    "shares": 24182.0,
    "price": 292.18,
-   "ad": "D",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000134143925000004/"
-  },
-  {
-   "acc": "0001341439-25-000006",
-   "date": "2025-09-12",
-   "name": "Parrett William G",
-   "role": "Director",
-   "code": "S",
-   "shares": 11500.0,
-   "price": 306.0,
-   "ad": "D",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000134143925000006/"
-  },
-  {
-   "acc": "0001341439-25-000004",
-   "date": "2025-09-12",
-   "name": "Magouyrk Clayton M.",
-   "role": "President, OCI",
-   "code": "S",
-   "shares": 21241.0,
-   "price": 297.1077,
    "ad": "D",
    "plan_10b5_1": false,
    "url": "https://www.sec.gov/Archives/edgar/data/1341439/000134143925000004/"

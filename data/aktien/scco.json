@@ -6,7 +6,7 @@
  "rank": 70,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-10-16T22:28:19Z",
+ "updated_at": "2026-10-18T01:25:24Z",
  "periodic_accs": [
   "0001047469-17-001143",
   "0001047469-18-001211",
@@ -1583,18 +1583,6 @@
    "ad": "D",
    "plan_10b5_1": false,
    "url": "https://www.sec.gov/Archives/edgar/data/1001838/000128448925000004/"
-  },
-  {
-   "acc": "0001415889-25-024455",
-   "date": "2025-09-12",
-   "name": "PALOMINO BONILLA LUIS MIGUEL",
-   "role": "Director",
-   "code": "S",
-   "shares": 200.0,
-   "price": 105.44,
-   "ad": "D",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/1001838/000141588925024455/"
   }
  ]
 }

@@ -6,7 +6,7 @@
  "rank": 14,
  "source": "SEC EDGAR",
  "fiscal_year_end": "0131",
- "updated_at": "2026-10-17T05:16:35Z",
+ "updated_at": "2026-10-18T01:20:44Z",
  "periodic_accs": [
   "0000104169-23-000052",
   "0000104169-23-000097",
@@ -4303,18 +4303,6 @@
    "ad": "D",
    "plan_10b5_1": true,
    "url": "https://www.sec.gov/Archives/edgar/data/104169/000157929925000010/"
-  },
-  {
-   "acc": "0001781198-25-000006",
-   "date": "2025-09-12",
-   "name": "Kumar Suresh",
-   "role": "Chief Technology Officer",
-   "code": "S",
-   "shares": 30000.0,
-   "price": 103.4656,
-   "ad": "D",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/104169/000178119825000006/"
   }
  ]
 }

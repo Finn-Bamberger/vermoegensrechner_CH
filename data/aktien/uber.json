@@ -6,7 +6,7 @@
  "rank": 85,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-10-17T09:40:12Z",
+ "updated_at": "2026-10-18T01:26:56Z",
  "periodic_accs": [
   "0001543151-21-000014",
   "0001543151-21-000029",
@@ -9025,42 +9025,6 @@
    "ad": "D",
    "plan_10b5_1": false,
    "url": "https://www.sec.gov/Archives/edgar/data/1543151/000177529725000004/"
-  },
-  {
-   "acc": "0001552781-25-000290",
-   "date": "2025-09-12",
-   "name": "KHOSROWSHAHI DARA",
-   "role": "Chief Executive Officer",
-   "code": "S",
-   "shares": 22376.0,
-   "price": 94.342,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000155278125000290/"
-  },
-  {
-   "acc": "0001552781-25-000290",
-   "date": "2025-09-12",
-   "name": "KHOSROWSHAHI DARA",
-   "role": "Chief Executive Officer",
-   "code": "S",
-   "shares": 171729.0,
-   "price": 95.1655,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000155278125000290/"
-  },
-  {
-   "acc": "0001552781-25-000290",
-   "date": "2025-09-12",
-   "name": "KHOSROWSHAHI DARA",
-   "role": "Chief Executive Officer",
-   "code": "S",
-   "shares": 105895.0,
-   "price": 95.9158,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000155278125000290/"
   }
  ]
 }

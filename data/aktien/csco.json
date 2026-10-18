@@ -6,7 +6,7 @@
  "rank": 23,
  "source": "SEC EDGAR",
  "fiscal_year_end": "0731",
- "updated_at": "2026-10-17T00:42:15Z",
+ "updated_at": "2026-10-18T01:21:17Z",
  "periodic_accs": [
   "0000858877-20-000010",
   "0000858877-20-000015",
@@ -3143,18 +3143,6 @@
    "ad": "A",
    "plan_10b5_1": false,
    "url": "https://www.sec.gov/Archives/edgar/data/858877/000085887725000122/"
-  },
-  {
-   "acc": "0000858877-25-000119",
-   "date": "2025-09-12",
-   "name": "Subaiya Thimaya K.",
-   "role": "EVP, Operations",
-   "code": "S",
-   "shares": 1744.0,
-   "price": 66.78,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/858877/000085887725000119/"
   }
  ]
 }

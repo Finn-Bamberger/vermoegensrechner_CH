@@ -6,7 +6,7 @@
  "rank": 63,
  "source": "SEC EDGAR",
  "fiscal_year_end": "0927",
- "updated_at": "2026-10-16T22:20:37Z",
+ "updated_at": "2026-10-18T01:24:50Z",
  "periodic_accs": [
   "0000804328-22-000021",
   "0000804328-23-000006",
@@ -3814,18 +3814,6 @@
    "ad": "D",
    "plan_10b5_1": true,
    "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432825000056/"
-  },
-  {
-   "acc": "0000804328-25-000055",
-   "date": "2025-09-12",
-   "name": "Grech Patricia Y",
-   "role": "SVP & CAO",
-   "code": "S",
-   "shares": 273.0,
-   "price": 161.42,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432825000055/"
   }
  ]
 }
