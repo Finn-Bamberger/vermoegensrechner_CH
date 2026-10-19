@@ -6,7 +6,7 @@
  "rank": 2,
  "source": "SEC EDGAR",
  "fiscal_year_end": "0926",
- "updated_at": "2026-10-16T22:09:35Z",
+ "updated_at": "2026-10-19T22:32:29Z",
  "periodic_accs": [
   "0000320193-17-000009",
   "0000320193-17-000070",
@@ -843,11 +843,95 @@
   "filed": "2026-07-31"
  },
  "quote": {
-  "price": 343.46,
-  "date": "2026-10-16",
+  "price": 342.94,
+  "date": "2026-10-19",
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0001140361-26-040126",
+   "date": "2026-10-16",
+   "name": "Parekh Kevan",
+   "role": "Senior Vice President,  CFO",
+   "code": "S",
+   "shares": 200.0,
+   "price": 342.66,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/320193/000114036126040126/"
+  },
+  {
+   "acc": "0001140361-26-040126",
+   "date": "2026-10-16",
+   "name": "Parekh Kevan",
+   "role": "Senior Vice President,  CFO",
+   "code": "S",
+   "shares": 192.0,
+   "price": 343.68,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/320193/000114036126040126/"
+  },
+  {
+   "acc": "0001140361-26-040126",
+   "date": "2026-10-16",
+   "name": "Parekh Kevan",
+   "role": "Senior Vice President,  CFO",
+   "code": "S",
+   "shares": 880.0,
+   "price": 345.66,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/320193/000114036126040126/"
+  },
+  {
+   "acc": "0001140361-26-040126",
+   "date": "2026-10-16",
+   "name": "Parekh Kevan",
+   "role": "Senior Vice President,  CFO",
+   "code": "S",
+   "shares": 80.0,
+   "price": 346.47,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/320193/000114036126040126/"
+  },
+  {
+   "acc": "0001140361-26-040126",
+   "date": "2026-10-16",
+   "name": "Parekh Kevan",
+   "role": "Senior Vice President,  CFO",
+   "code": "S",
+   "shares": 40.0,
+   "price": 347.46,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/320193/000114036126040126/"
+  },
+  {
+   "acc": "0001140361-26-040126",
+   "date": "2026-10-15",
+   "name": "Parekh Kevan",
+   "role": "Senior Vice President,  CFO",
+   "code": "M",
+   "shares": 10926.0,
+   "price": null,
+   "ad": "A",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/320193/000114036126040126/"
+  },
+  {
+   "acc": "0001140361-26-040126",
+   "date": "2026-10-15",
+   "name": "Parekh Kevan",
+   "role": "Senior Vice President,  CFO",
+   "code": "F",
+   "shares": 5361.0,
+   "price": 342.0,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/320193/000114036126040126/"
+  },
   {
    "acc": "0001140361-26-039785",
    "date": "2026-10-13",

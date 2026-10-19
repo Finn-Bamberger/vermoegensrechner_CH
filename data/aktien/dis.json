@@ -6,7 +6,7 @@
  "rank": 61,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1003",
- "updated_at": "2026-10-16T22:18:20Z",
+ "updated_at": "2026-10-19T22:44:18Z",
  "periodic_accs": [
   "0001193125-23-014219",
   "0001744489-20-000046",
@@ -744,11 +744,35 @@
   "filed": "2026-08-05"
  },
  "quote": {
-  "price": 110.59,
-  "date": "2026-10-16",
+  "price": 109.59,
+  "date": "2026-10-19",
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0001628280-26-066355",
+   "date": "2026-10-16",
+   "name": "WOODFORD BRENT",
+   "role": "EVP, Control, Fin Plan & Tax",
+   "code": "M",
+   "shares": 2856.0,
+   "price": 111.58,
+   "ad": "A",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1744489/000162828026066355/"
+  },
+  {
+   "acc": "0001628280-26-066355",
+   "date": "2026-10-16",
+   "name": "WOODFORD BRENT",
+   "role": "EVP, Control, Fin Plan & Tax",
+   "code": "S",
+   "shares": 2856.0,
+   "price": 111.68,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1744489/000162828026066355/"
+  },
   {
    "acc": "0001628280-26-065544",
    "date": "2026-10-08",

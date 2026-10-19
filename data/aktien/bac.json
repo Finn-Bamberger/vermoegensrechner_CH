@@ -6,7 +6,7 @@
  "rank": 30,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-10-17T05:18:01Z",
+ "updated_at": "2026-10-19T22:35:12Z",
  "periodic_accs": [
   "0000070858-25-000405",
   "0000070858-26-000157",
@@ -434,11 +434,35 @@
   "filed": "2026-07-31"
  },
  "quote": {
-  "price": 51.23,
-  "date": "2026-10-16",
+  "price": 50.39,
+  "date": "2026-10-19",
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0000070858-26-000488",
+   "date": "2026-10-15",
+   "name": "MOYNIHAN BRIAN T",
+   "role": "Chair and CEO",
+   "code": "M",
+   "shares": 18083.0,
+   "price": null,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085826000488/"
+  },
+  {
+   "acc": "0000070858-26-000488",
+   "date": "2026-10-15",
+   "name": "MOYNIHAN BRIAN T",
+   "role": "Chair and CEO",
+   "code": "D",
+   "shares": 18083.0,
+   "price": 51.7,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085826000488/"
+  },
   {
    "acc": "0000070858-26-000486",
    "date": "2026-10-14",

@@ -6,7 +6,7 @@
  "rank": 67,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-10-16T22:24:53Z",
+ "updated_at": "2026-10-19T22:50:53Z",
  "periodic_accs": [
   "0001193125-25-267043",
   "0001193125-26-071966",
@@ -315,11 +315,23 @@
   "filed": "2025-05-07"
  },
  "quote": {
-  "price": 1134.38,
-  "date": "2026-10-16",
+  "price": 1124.6,
+  "date": "2026-10-19",
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0002012383-26-003341",
+   "date": "2026-10-19",
+   "name": "Comerchero Marc D.",
+   "role": "Principal Accounting Officer",
+   "code": "J",
+   "shares": 1192.0,
+   "price": 0.0,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/2012383/000201238326003341/"
+  },
   {
    "acc": "0002012383-26-003310",
    "date": "2026-09-30",

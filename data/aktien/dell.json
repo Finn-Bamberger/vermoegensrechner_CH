@@ -6,7 +6,7 @@
  "rank": 35,
  "source": "SEC EDGAR",
  "fiscal_year_end": "0129",
- "updated_at": "2026-10-17T09:35:58Z",
+ "updated_at": "2026-10-19T22:35:40Z",
  "periodic_accs": [
   "0001571996-24-000036",
   "0001571996-24-000062",
@@ -783,11 +783,59 @@
  ],
  "shares_outstanding": null,
  "quote": {
-  "price": 451.71,
-  "date": "2026-10-16",
+  "price": 455.44,
+  "date": "2026-10-19",
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0001193125-26-425368",
+   "date": "2026-10-15",
+   "name": "SL SPV-2, L.P.",
+   "role": "Director",
+   "code": "J",
+   "shares": 21486.0,
+   "price": null,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1571996/000119312526425368/"
+  },
+  {
+   "acc": "0001193125-26-425363",
+   "date": "2026-10-15",
+   "name": "Silver Lake Partners IV, L.P.",
+   "role": "Director",
+   "code": "J",
+   "shares": 18986.0,
+   "price": null,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1571996/000119312526425363/"
+  },
+  {
+   "acc": "0001193125-26-425359",
+   "date": "2026-10-15",
+   "name": "Silver Lake Partners V DE (AIV), L.P.",
+   "role": "Director",
+   "code": "J",
+   "shares": 11119.0,
+   "price": null,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1571996/000119312526425359/"
+  },
+  {
+   "acc": "0002081802-26-000012",
+   "date": "2026-10-15",
+   "name": "Sharp Richard Troy",
+   "role": "Chief Accounting Officer",
+   "code": "F",
+   "shares": 146.0,
+   "price": 507.93,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1571996/000208180226000012/"
+  },
   {
    "acc": "0001193125-26-421763",
    "date": "2026-10-09",

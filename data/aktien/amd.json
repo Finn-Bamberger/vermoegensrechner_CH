@@ -6,7 +6,7 @@
  "rank": 13,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1226",
- "updated_at": "2026-10-16T22:10:43Z",
+ "updated_at": "2026-10-19T22:33:21Z",
  "periodic_accs": [
   "0000002488-18-000042",
   "0000002488-18-000068",
@@ -845,11 +845,131 @@
   "filed": "2026-08-05"
  },
  "quote": {
-  "price": 528.75,
-  "date": "2026-10-16",
+  "price": 538.05,
+  "date": "2026-10-19",
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0000002488-26-000184",
+   "date": "2026-10-15",
+   "name": "Norrod Forrest Eugene",
+   "role": "EVP & GM DSG",
+   "code": "M",
+   "shares": 7262.0,
+   "price": 84.85,
+   "ad": "A",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000184/"
+  },
+  {
+   "acc": "0000002488-26-000184",
+   "date": "2026-10-15",
+   "name": "Norrod Forrest Eugene",
+   "role": "EVP & GM DSG",
+   "code": "S",
+   "shares": 816.0,
+   "price": 535.15,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000184/"
+  },
+  {
+   "acc": "0000002488-26-000184",
+   "date": "2026-10-15",
+   "name": "Norrod Forrest Eugene",
+   "role": "EVP & GM DSG",
+   "code": "S",
+   "shares": 823.0,
+   "price": 536.11,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000184/"
+  },
+  {
+   "acc": "0000002488-26-000184",
+   "date": "2026-10-15",
+   "name": "Norrod Forrest Eugene",
+   "role": "EVP & GM DSG",
+   "code": "S",
+   "shares": 476.0,
+   "price": 537.39,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000184/"
+  },
+  {
+   "acc": "0000002488-26-000184",
+   "date": "2026-10-15",
+   "name": "Norrod Forrest Eugene",
+   "role": "EVP & GM DSG",
+   "code": "S",
+   "shares": 1208.0,
+   "price": 538.24,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000184/"
+  },
+  {
+   "acc": "0000002488-26-000184",
+   "date": "2026-10-15",
+   "name": "Norrod Forrest Eugene",
+   "role": "EVP & GM DSG",
+   "code": "S",
+   "shares": 917.0,
+   "price": 539.35,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000184/"
+  },
+  {
+   "acc": "0000002488-26-000184",
+   "date": "2026-10-15",
+   "name": "Norrod Forrest Eugene",
+   "role": "EVP & GM DSG",
+   "code": "S",
+   "shares": 1969.0,
+   "price": 540.31,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000184/"
+  },
+  {
+   "acc": "0000002488-26-000184",
+   "date": "2026-10-15",
+   "name": "Norrod Forrest Eugene",
+   "role": "EVP & GM DSG",
+   "code": "S",
+   "shares": 4699.0,
+   "price": 541.16,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000184/"
+  },
+  {
+   "acc": "0000002488-26-000184",
+   "date": "2026-10-15",
+   "name": "Norrod Forrest Eugene",
+   "role": "EVP & GM DSG",
+   "code": "S",
+   "shares": 2218.0,
+   "price": 542.09,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000184/"
+  },
+  {
+   "acc": "0000002488-26-000184",
+   "date": "2026-10-15",
+   "name": "Norrod Forrest Eugene",
+   "role": "EVP & GM DSG",
+   "code": "S",
+   "shares": 4136.0,
+   "price": 543.03,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000184/"
+  },
   {
    "acc": "0000002488-26-000180",
    "date": "2026-09-15",
