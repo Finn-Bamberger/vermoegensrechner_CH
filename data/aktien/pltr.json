@@ -6,7 +6,7 @@
  "rank": 22,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-10-19T22:34:11Z",
+ "updated_at": "2026-10-20T01:30:07Z",
  "periodic_accs": [
   "0000950123-21-010430",
   "0001193125-20-292177",
@@ -776,6 +776,102 @@
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0001823952-26-000024",
+   "date": "2026-10-15",
+   "name": "Moore Alexander D.",
+   "role": "Director",
+   "code": "S",
+   "shares": 600.0,
+   "price": 193.4133,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1321655/000182395226000024/"
+  },
+  {
+   "acc": "0001823952-26-000024",
+   "date": "2026-10-15",
+   "name": "Moore Alexander D.",
+   "role": "Director",
+   "code": "S",
+   "shares": 1600.0,
+   "price": 195.1327,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1321655/000182395226000024/"
+  },
+  {
+   "acc": "0001823952-26-000024",
+   "date": "2026-10-15",
+   "name": "Moore Alexander D.",
+   "role": "Director",
+   "code": "S",
+   "shares": 2400.0,
+   "price": 195.8857,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1321655/000182395226000024/"
+  },
+  {
+   "acc": "0001823952-26-000024",
+   "date": "2026-10-15",
+   "name": "Moore Alexander D.",
+   "role": "Director",
+   "code": "S",
+   "shares": 900.0,
+   "price": 196.7972,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1321655/000182395226000024/"
+  },
+  {
+   "acc": "0001823952-26-000024",
+   "date": "2026-10-15",
+   "name": "Moore Alexander D.",
+   "role": "Director",
+   "code": "S",
+   "shares": 2700.0,
+   "price": 198.1277,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1321655/000182395226000024/"
+  },
+  {
+   "acc": "0001823952-26-000024",
+   "date": "2026-10-15",
+   "name": "Moore Alexander D.",
+   "role": "Director",
+   "code": "S",
+   "shares": 3500.0,
+   "price": 199.068,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1321655/000182395226000024/"
+  },
+  {
+   "acc": "0001823952-26-000024",
+   "date": "2026-10-15",
+   "name": "Moore Alexander D.",
+   "role": "Director",
+   "code": "S",
+   "shares": 4200.0,
+   "price": 200.1463,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1321655/000182395226000024/"
+  },
+  {
+   "acc": "0001823952-26-000024",
+   "date": "2026-10-15",
+   "name": "Moore Alexander D.",
+   "role": "Director",
+   "code": "S",
+   "shares": 100.0,
+   "price": 200.66,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1321655/000182395226000024/"
+  },
   {
    "acc": "0001930526-26-000013",
    "date": "2026-10-09",

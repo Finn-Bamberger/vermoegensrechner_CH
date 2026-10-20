@@ -6,7 +6,7 @@
  "rank": 2,
  "source": "SEC EDGAR",
  "fiscal_year_end": "0926",
- "updated_at": "2026-10-19T22:32:29Z",
+ "updated_at": "2026-10-20T01:28:40Z",
  "periodic_accs": [
   "0000320193-17-000009",
   "0000320193-17-000070",
@@ -849,6 +849,66 @@
  },
  "insiders": [
   {
+   "acc": "0001140361-26-040127",
+   "date": "2026-10-16",
+   "name": "Borders Ben",
+   "role": "Principal Accounting Officer",
+   "code": "S",
+   "shares": 151.0,
+   "price": 343.08,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/320193/000114036126040127/"
+  },
+  {
+   "acc": "0001140361-26-040127",
+   "date": "2026-10-16",
+   "name": "Borders Ben",
+   "role": "Principal Accounting Officer",
+   "code": "S",
+   "shares": 80.0,
+   "price": 344.18,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/320193/000114036126040127/"
+  },
+  {
+   "acc": "0001140361-26-040127",
+   "date": "2026-10-16",
+   "name": "Borders Ben",
+   "role": "Principal Accounting Officer",
+   "code": "S",
+   "shares": 969.0,
+   "price": 345.74,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/320193/000114036126040127/"
+  },
+  {
+   "acc": "0001140361-26-040127",
+   "date": "2026-10-16",
+   "name": "Borders Ben",
+   "role": "Principal Accounting Officer",
+   "code": "S",
+   "shares": 40.0,
+   "price": 346.22,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/320193/000114036126040127/"
+  },
+  {
+   "acc": "0001140361-26-040127",
+   "date": "2026-10-16",
+   "name": "Borders Ben",
+   "role": "Principal Accounting Officer",
+   "code": "S",
+   "shares": 40.0,
+   "price": 347.43,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/320193/000114036126040127/"
+  },
+  {
    "acc": "0001140361-26-040126",
    "date": "2026-10-16",
    "name": "Parekh Kevan",
@@ -907,6 +967,30 @@
    "ad": "D",
    "plan_10b5_1": true,
    "url": "https://www.sec.gov/Archives/edgar/data/320193/000114036126040126/"
+  },
+  {
+   "acc": "0001140361-26-040127",
+   "date": "2026-10-15",
+   "name": "Borders Ben",
+   "role": "Principal Accounting Officer",
+   "code": "M",
+   "shares": 1714.0,
+   "price": null,
+   "ad": "A",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/320193/000114036126040127/"
+  },
+  {
+   "acc": "0001140361-26-040127",
+   "date": "2026-10-15",
+   "name": "Borders Ben",
+   "role": "Principal Accounting Officer",
+   "code": "F",
+   "shares": 883.0,
+   "price": 342.0,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/320193/000114036126040127/"
   },
   {
    "acc": "0001140361-26-040126",
