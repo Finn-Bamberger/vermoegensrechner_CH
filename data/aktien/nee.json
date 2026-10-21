@@ -6,7 +6,7 @@
  "rank": 76,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-10-20T23:47:30Z",
+ "updated_at": "2026-10-21T12:47:28Z",
  "periodic_accs": [
   "0000753308-19-000118",
   "0000753308-19-000165",
@@ -40,6 +40,14 @@
   "0000753308-26-000060"
  ],
  "filings": [
+  {
+   "form": "8-K",
+   "date": "2026-10-21",
+   "report_date": "2026-10-21",
+   "items": "2.02,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/753308/000075330826000077/nee-20261021.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/753308/000075330826000077/0000753308-26-000077-index.htm"
+  },
   {
    "form": "8-K",
    "date": "2026-10-06",
@@ -351,14 +359,6 @@
    "items": "5.07",
    "doc_url": "https://www.sec.gov/Archives/edgar/data/753308/000075330825000028/nee-20250522.htm",
    "index_url": "https://www.sec.gov/Archives/edgar/data/753308/000075330825000028/0000753308-25-000028-index.htm"
-  },
-  {
-   "form": "8-K",
-   "date": "2025-05-15",
-   "report_date": "2025-05-15",
-   "items": "8.01,9.01",
-   "doc_url": "https://www.sec.gov/Archives/edgar/data/753308/000075330825000026/nee-20250515.htm",
-   "index_url": "https://www.sec.gov/Archives/edgar/data/753308/000075330825000026/0000753308-25-000026-index.htm"
   }
  ],
  "quarters": [
