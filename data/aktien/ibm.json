@@ -6,7 +6,7 @@
  "rank": 53,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-10-20T23:22:11Z",
+ "updated_at": "2026-10-21T21:12:26Z",
  "periodic_accs": [
   "0000051143-23-000021",
   "0000051143-23-000032",
@@ -37,6 +37,14 @@
   "0001558370-23-006656"
  ],
  "filings": [
+  {
+   "form": "8-K",
+   "date": "2026-10-21",
+   "report_date": "2026-10-21",
+   "items": "2.02,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/51143/000005114326000093/ibm-20261021.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/51143/000005114326000093/0000051143-26-000093-index.htm"
+  },
   {
    "form": "8-K",
    "date": "2026-10-01",
@@ -348,14 +356,6 @@
    "items": "",
    "doc_url": "https://www.sec.gov/Archives/edgar/data/51143/000005114324000039/ibm-20240630.htm",
    "index_url": "https://www.sec.gov/Archives/edgar/data/51143/000005114324000039/0000051143-24-000039-index.htm"
-  },
-  {
-   "form": "8-K",
-   "date": "2024-07-25",
-   "report_date": "2024-07-24",
-   "items": "7.01,9.01",
-   "doc_url": "https://www.sec.gov/Archives/edgar/data/51143/000005114324000035/ibm-20240724.htm",
-   "index_url": "https://www.sec.gov/Archives/edgar/data/51143/000005114324000035/0000051143-24-000035-index.htm"
   }
  ],
  "quarters": [

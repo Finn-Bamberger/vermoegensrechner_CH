@@ -6,7 +6,7 @@
  "rank": 78,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-10-21T12:47:47Z",
+ "updated_at": "2026-10-21T21:14:50Z",
  "periodic_accs": [
   "0000732717-22-000093",
   "0000732717-22-000102",
@@ -24,9 +24,18 @@
   "0000732717-25-000171",
   "0000732717-26-000120",
   "0000732717-26-000206",
-  "0000732717-26-000297"
+  "0000732717-26-000297",
+  "0000732717-26-000372"
  ],
  "filings": [
+  {
+   "form": "10-Q",
+   "date": "2026-10-21",
+   "report_date": "2026-09-30",
+   "items": "",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/732717/000073271726000372/t-20260930.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/732717/000073271726000372/0000732717-26-000372-index.htm"
+  },
   {
    "form": "8-K",
    "date": "2026-10-21",
@@ -338,28 +347,9 @@
    "items": "7.01,9.01",
    "doc_url": "https://www.sec.gov/Archives/edgar/data/732717/000073271724000062/t-20241203.htm",
    "index_url": "https://www.sec.gov/Archives/edgar/data/732717/000073271724000062/0000732717-24-000062-index.htm"
-  },
-  {
-   "form": "10-Q",
-   "date": "2024-10-29",
-   "report_date": "2024-09-30",
-   "items": "",
-   "doc_url": "https://www.sec.gov/Archives/edgar/data/732717/000073271724000059/t-20240930.htm",
-   "index_url": "https://www.sec.gov/Archives/edgar/data/732717/000073271724000059/0000732717-24-000059-index.htm"
   }
  ],
  "quarters": [
-  {
-   "end": "2020-09-30",
-   "revenue": 42340000000,
-   "operating_income": 6132000000,
-   "net_income": 2816000000,
-   "op_cash_flow": 12123000000,
-   "capex": 3851000000,
-   "diluted_shares": 7173000000,
-   "cash": 9758000000,
-   "debt": 158878000000
-  },
   {
    "end": "2020-12-31",
    "revenue": 16981000000,
@@ -587,6 +577,15 @@
    "capex": 5700000000,
    "diluted_shares": 6946000000,
    "cash": 17570000000
+  },
+  {
+   "end": "2026-09-30",
+   "revenue": 32322000000,
+   "operating_income": 4095000000,
+   "net_income": 891000000,
+   "capex": 5061000000,
+   "diluted_shares": 6844000000,
+   "cash": 10767000000
   }
  ],
  "annual": [
@@ -698,9 +697,9 @@
   }
  ],
  "shares_outstanding": {
-  "shares": 6852385650,
-  "as_of": "2026-07-16",
-  "filed": "2026-07-22"
+  "shares": 6736473433,
+  "as_of": "2026-10-15",
+  "filed": "2026-10-21"
  },
  "quote": {
   "price": 23.42,

@@ -6,7 +6,7 @@
  "rank": 58,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1031",
- "updated_at": "2026-10-20T23:27:47Z",
+ "updated_at": "2026-10-21T21:12:59Z",
  "periodic_accs": [
   "0000006281-19-000013",
   "0000006281-19-000089",
@@ -808,6 +808,18 @@
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0000006281-26-000081",
+   "date": "2026-10-20",
+   "name": "Puccio Richard C Jr",
+   "role": "Chief Financial Officer",
+   "code": "S",
+   "shares": 1500.0,
+   "price": 389.46,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/6281/000000628126000081/"
+  },
   {
    "acc": "0000006281-26-000079",
    "date": "2026-10-12",

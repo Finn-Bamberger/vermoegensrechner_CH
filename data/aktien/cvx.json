@@ -6,7 +6,7 @@
  "rank": 24,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-10-20T23:18:26Z",
+ "updated_at": "2026-10-21T21:09:53Z",
  "periodic_accs": [
   "0000093410-19-000014",
   "0000093410-19-000029",
@@ -707,6 +707,54 @@
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0000093410-26-000194",
+   "date": "2026-10-20",
+   "name": "Pate R. Hewitt",
+   "role": "Chief Legal Officer",
+   "code": "M",
+   "shares": 40700.0,
+   "price": 132.69,
+   "ad": "A",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/93410/000009341026000194/"
+  },
+  {
+   "acc": "0000093410-26-000194",
+   "date": "2026-10-20",
+   "name": "Pate R. Hewitt",
+   "role": "Chief Legal Officer",
+   "code": "S",
+   "shares": 40700.0,
+   "price": 226.653,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/93410/000009341026000194/"
+  },
+  {
+   "acc": "0000093410-26-000194",
+   "date": "2026-10-19",
+   "name": "Pate R. Hewitt",
+   "role": "Chief Legal Officer",
+   "code": "M",
+   "shares": 2400.0,
+   "price": 132.69,
+   "ad": "A",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/93410/000009341026000194/"
+  },
+  {
+   "acc": "0000093410-26-000194",
+   "date": "2026-10-19",
+   "name": "Pate R. Hewitt",
+   "role": "Chief Legal Officer",
+   "code": "S",
+   "shares": 2400.0,
+   "price": 225.6108,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/93410/000009341026000194/"
+  },
   {
    "acc": "0000093410-26-000179",
    "date": "2026-08-18",

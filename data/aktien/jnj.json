@@ -6,7 +6,7 @@
  "rank": 18,
  "source": "SEC EDGAR",
  "fiscal_year_end": "0103",
- "updated_at": "2026-10-20T23:17:59Z",
+ "updated_at": "2026-10-21T21:09:29Z",
  "periodic_accs": [
   "0000200406-18-000041",
   "0000200406-18-000055",
@@ -40,9 +40,18 @@
   "0000200406-25-000209",
   "0000200406-26-000016",
   "0000200406-26-000087",
-  "0000200406-26-000153"
+  "0000200406-26-000153",
+  "0000200406-26-000197"
  ],
  "filings": [
+  {
+   "form": "10-Q",
+   "date": "2026-10-21",
+   "report_date": "2026-09-27",
+   "items": "",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/200406/000020040626000197/jnj-20260927.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/200406/000020040626000197/0000200406-26-000197-index.htm"
+  },
   {
    "form": "8-K",
    "date": "2026-10-13",
@@ -354,30 +363,9 @@
    "items": "",
    "doc_url": "https://www.sec.gov/Archives/edgar/data/200406/000020040624000013/jnj-20231231.htm",
    "index_url": "https://www.sec.gov/Archives/edgar/data/200406/000020040624000013/0000200406-24-000013-index.htm"
-  },
-  {
-   "form": "8-K",
-   "date": "2024-01-23",
-   "report_date": "2024-01-23",
-   "items": "2.02,9.01",
-   "doc_url": "https://www.sec.gov/Archives/edgar/data/200406/000020040624000004/jnj-20240123.htm",
-   "index_url": "https://www.sec.gov/Archives/edgar/data/200406/000020040624000004/0000200406-24-000004-index.htm"
   }
  ],
  "quarters": [
-  {
-   "end": "2020-09-27",
-   "revenue": 21082000000,
-   "net_income": 3554000000,
-   "op_cash_flow": 8383000000,
-   "gross_profit": 14110000000,
-   "capex": 737000000,
-   "sbc": 256000000,
-   "diluted_shares": 2669300000,
-   "cash": 18965000000,
-   "securities": 11816000000,
-   "debt": 32680000000
-  },
   {
    "end": "2021-01-03",
    "revenue": 22475000000,
@@ -670,6 +658,19 @@
    "cash": 20422000000,
    "securities": 336000000,
    "debt": 37344000000
+  },
+  {
+   "end": "2026-09-27",
+   "revenue": 25399000000,
+   "net_income": 210000000,
+   "op_cash_flow": 7720000000,
+   "gross_profit": 17302000000,
+   "capex": 1362000000,
+   "sbc": 357000000,
+   "diluted_shares": 2448600000,
+   "cash": 16910000000,
+   "securities": 318000000,
+   "debt": 35799000000
   }
  ],
  "annual": [
@@ -805,9 +806,9 @@
   }
  ],
  "shares_outstanding": {
-  "shares": 2409898597,
-  "as_of": "2026-07-17",
-  "filed": "2026-07-23"
+  "shares": 2407310266,
+  "as_of": "2026-10-15",
+  "filed": "2026-10-21"
  },
  "quote": {
   "price": 259.36,
