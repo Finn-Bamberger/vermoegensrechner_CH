@@ -6,7 +6,7 @@
  "rank": 12,
  "source": "SEC EDGAR",
  "fiscal_year_end": "0902",
- "updated_at": "2026-10-20T23:17:35Z",
+ "updated_at": "2026-10-21T01:49:23Z",
  "periodic_accs": [
   "0000723125-17-000131",
   "0000723125-17-000166",
@@ -8028,18 +8028,6 @@
    "code": "S",
    "shares": 3070.0,
    "price": 158.74,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/723125/000124265425000008/"
-  },
-  {
-   "acc": "0001242654-25-000008",
-   "date": "2025-09-15",
-   "name": "MEHROTRA SANJAY",
-   "role": "President and CEO",
-   "code": "S",
-   "shares": 181.0,
-   "price": 160.04,
    "ad": "D",
    "plan_10b5_1": true,
    "url": "https://www.sec.gov/Archives/edgar/data/723125/000124265425000008/"

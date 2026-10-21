@@ -6,7 +6,7 @@
  "rank": 63,
  "source": "SEC EDGAR",
  "fiscal_year_end": "0927",
- "updated_at": "2026-10-20T23:33:12Z",
+ "updated_at": "2026-10-21T01:53:26Z",
  "periodic_accs": [
   "0000804328-22-000021",
   "0000804328-23-000006",
@@ -815,6 +815,78 @@
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0000804328-26-000106",
+   "date": "2026-10-20",
+   "name": "Palkhiwala Akash J.",
+   "role": "EVP, CFO & COO",
+   "code": "S",
+   "shares": 176.0,
+   "price": 171.8844,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432826000106/"
+  },
+  {
+   "acc": "0000804328-26-000106",
+   "date": "2026-10-20",
+   "name": "Palkhiwala Akash J.",
+   "role": "EVP, CFO & COO",
+   "code": "S",
+   "shares": 196.0,
+   "price": 172.8412,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432826000106/"
+  },
+  {
+   "acc": "0000804328-26-000106",
+   "date": "2026-10-20",
+   "name": "Palkhiwala Akash J.",
+   "role": "EVP, CFO & COO",
+   "code": "S",
+   "shares": 144.0,
+   "price": 174.1337,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432826000106/"
+  },
+  {
+   "acc": "0000804328-26-000106",
+   "date": "2026-10-20",
+   "name": "Palkhiwala Akash J.",
+   "role": "EVP, CFO & COO",
+   "code": "S",
+   "shares": 738.0,
+   "price": 174.8976,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432826000106/"
+  },
+  {
+   "acc": "0000804328-26-000106",
+   "date": "2026-10-20",
+   "name": "Palkhiwala Akash J.",
+   "role": "EVP, CFO & COO",
+   "code": "S",
+   "shares": 940.0,
+   "price": 175.8889,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432826000106/"
+  },
+  {
+   "acc": "0000804328-26-000106",
+   "date": "2026-10-20",
+   "name": "Palkhiwala Akash J.",
+   "role": "EVP, CFO & COO",
+   "code": "S",
+   "shares": 306.0,
+   "price": 176.5777,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432826000106/"
+  },
   {
    "acc": "0000804328-26-000103",
    "date": "2026-10-16",

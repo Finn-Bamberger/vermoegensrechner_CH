@@ -6,7 +6,7 @@
  "rank": 7,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-10-20T23:17:20Z",
+ "updated_at": "2026-10-21T01:49:13Z",
  "periodic_accs": [
   "0001326801-24-000069",
   "0001326801-24-000081",
@@ -6732,30 +6732,6 @@
    "ad": "D",
    "plan_10b5_1": true,
    "url": "https://www.sec.gov/Archives/edgar/data/1326801/000095010325011843/"
-  },
-  {
-   "acc": "0000950103-25-011787",
-   "date": "2025-09-15",
-   "name": "Olivan Javier",
-   "role": "Chief Operating Officer",
-   "code": "S",
-   "shares": 517.0,
-   "price": 757.47,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000095010325011787/"
-  },
-  {
-   "acc": "0000950103-25-011785",
-   "date": "2025-09-15",
-   "name": "KIMMITT ROBERT M",
-   "role": "Director",
-   "code": "S",
-   "shares": 465.0,
-   "price": 757.47,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000095010325011785/"
   }
  ]
 }

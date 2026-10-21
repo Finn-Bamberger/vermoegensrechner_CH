@@ -6,7 +6,7 @@
  "rank": 14,
  "source": "SEC EDGAR",
  "fiscal_year_end": "0131",
- "updated_at": "2026-10-20T23:17:44Z",
+ "updated_at": "2026-10-21T01:49:31Z",
  "periodic_accs": [
   "0000104169-23-000052",
   "0000104169-23-000097",
@@ -4279,30 +4279,6 @@
    "ad": "D",
    "plan_10b5_1": false,
    "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416925000147/"
-  },
-  {
-   "acc": "0000104169-25-000147",
-   "date": "2025-09-15",
-   "name": "Walton Family Holdings Trust",
-   "role": "10%-Aktionär",
-   "code": "J",
-   "shares": 2550000.0,
-   "price": 0.0,
-   "ad": "D",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416925000147/"
-  },
-  {
-   "acc": "0001579299-25-000010",
-   "date": "2025-09-15",
-   "name": "Bartlett Daniel J",
-   "role": "Executive Vice President",
-   "code": "S",
-   "shares": 1610.0,
-   "price": 103.71,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/104169/000157929925000010/"
   }
  ]
 }

@@ -6,7 +6,7 @@
  "rank": 11,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-10-20T23:17:33Z",
+ "updated_at": "2026-10-21T01:49:23Z",
  "periodic_accs": [
   "0000059478-22-000068",
   "0000059478-22-000133",
@@ -6591,66 +6591,6 @@
    "ad": "D",
    "plan_10b5_1": false,
    "url": "https://www.sec.gov/Archives/edgar/data/59478/000031601125000007/"
-  },
-  {
-   "acc": "0001262388-25-000004",
-   "date": "2025-09-15",
-   "name": "Sulzberger Gabrielle",
-   "role": "Director",
-   "code": "A",
-   "shares": 6.627,
-   "price": 748.19,
-   "ad": "A",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/59478/000126238825000004/"
-  },
-  {
-   "acc": "0000059478-25-000242",
-   "date": "2025-09-15",
-   "name": "LUCIANO JUAN R",
-   "role": "Director",
-   "code": "A",
-   "shares": 19.826,
-   "price": 748.19,
-   "ad": "A",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/59478/000005947825000242/"
-  },
-  {
-   "acc": "0001340823-25-000006",
-   "date": "2025-09-15",
-   "name": "Hedley Mary Lynne",
-   "role": "Director",
-   "code": "A",
-   "shares": 13.254,
-   "price": 748.19,
-   "ad": "A",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/59478/000134082325000006/"
-  },
-  {
-   "acc": "0000059478-25-000240",
-   "date": "2025-09-15",
-   "name": "Fyrwald J Erik",
-   "role": "Director",
-   "code": "A",
-   "shares": 13.254,
-   "price": 748.19,
-   "ad": "A",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/59478/000005947825000240/"
-  },
-  {
-   "acc": "0001310215-25-000005",
-   "date": "2025-09-15",
-   "name": "Alvarez Ralph",
-   "role": "Director",
-   "code": "A",
-   "shares": 15.705,
-   "price": 748.19,
-   "ad": "A",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/59478/000131021525000005/"
   }
  ]
 }

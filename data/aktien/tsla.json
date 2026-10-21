@@ -6,7 +6,7 @@
  "rank": 9,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-10-20T23:17:29Z",
+ "updated_at": "2026-10-21T01:49:20Z",
  "periodic_accs": [
   "0000950170-21-000046",
   "0000950170-21-000524",
@@ -1836,18 +1836,6 @@
    "ad": "A",
    "plan_10b5_1": false,
    "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465925109263/"
-  },
-  {
-   "acc": "0001104659-25-090923",
-   "date": "2025-09-15",
-   "name": "MURDOCH JAMES R",
-   "role": "Director",
-   "code": "S",
-   "shares": 60000.0,
-   "price": 422.68,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465925090923/"
   }
  ]
 }

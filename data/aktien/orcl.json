@@ -6,7 +6,7 @@
  "rank": 26,
  "source": "SEC EDGAR",
  "fiscal_year_end": "0531",
- "updated_at": "2026-10-20T23:18:32Z",
+ "updated_at": "2026-10-21T01:50:10Z",
  "periodic_accs": [
   "0000950170-23-028914",
   "0000950170-23-047713",
@@ -2048,126 +2048,6 @@
    "ad": "D",
    "plan_10b5_1": false,
    "url": "https://www.sec.gov/Archives/edgar/data/1341439/000134143925000018/"
-  },
-  {
-   "acc": "0001341439-25-000020",
-   "date": "2025-09-15",
-   "name": "Smith Maria",
-   "role": "EVP, Chief  Accounting Officer",
-   "code": "M",
-   "shares": 13169.0,
-   "price": 0.0,
-   "ad": "A",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000134143925000020/"
-  },
-  {
-   "acc": "0001341439-25-000020",
-   "date": "2025-09-15",
-   "name": "Smith Maria",
-   "role": "EVP, Chief  Accounting Officer",
-   "code": "F",
-   "shares": 6862.0,
-   "price": 292.18,
-   "ad": "D",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000134143925000020/"
-  },
-  {
-   "acc": "0001341439-25-000018",
-   "date": "2025-09-15",
-   "name": "Sicilia Michael D.",
-   "role": "President, Industries",
-   "code": "M",
-   "shares": 52673.0,
-   "price": 0.0,
-   "ad": "A",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000134143925000018/"
-  },
-  {
-   "acc": "0001341439-25-000018",
-   "date": "2025-09-15",
-   "name": "Sicilia Michael D.",
-   "role": "President, Industries",
-   "code": "F",
-   "shares": 25468.0,
-   "price": 292.18,
-   "ad": "D",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000134143925000018/"
-  },
-  {
-   "acc": "0001341439-25-000016",
-   "date": "2025-09-15",
-   "name": "Levey Stuart",
-   "role": "EVP, Chief Legal Officer",
-   "code": "M",
-   "shares": 26337.0,
-   "price": 0.0,
-   "ad": "A",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000134143925000016/"
-  },
-  {
-   "acc": "0001341439-25-000016",
-   "date": "2025-09-15",
-   "name": "Levey Stuart",
-   "role": "EVP, Chief Legal Officer",
-   "code": "F",
-   "shares": 12405.0,
-   "price": 292.18,
-   "ad": "D",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000134143925000016/"
-  },
-  {
-   "acc": "0001341439-25-000014",
-   "date": "2025-09-15",
-   "name": "HENLEY JEFFREY",
-   "role": "Vice Chairman",
-   "code": "M",
-   "shares": 19753.0,
-   "price": 0.0,
-   "ad": "A",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000134143925000014/"
-  },
-  {
-   "acc": "0001341439-25-000014",
-   "date": "2025-09-15",
-   "name": "HENLEY JEFFREY",
-   "role": "Vice Chairman",
-   "code": "F",
-   "shares": 8629.0,
-   "price": 292.18,
-   "ad": "D",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000134143925000014/"
-  },
-  {
-   "acc": "0001341439-25-000004",
-   "date": "2025-09-15",
-   "name": "Magouyrk Clayton M.",
-   "role": "President, OCI",
-   "code": "M",
-   "shares": 61452.0,
-   "price": null,
-   "ad": "A",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000134143925000004/"
-  },
-  {
-   "acc": "0001341439-25-000004",
-   "date": "2025-09-15",
-   "name": "Magouyrk Clayton M.",
-   "role": "President, OCI",
-   "code": "F",
-   "shares": 24182.0,
-   "price": 292.18,
-   "ad": "D",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000134143925000004/"
   }
  ]
 }

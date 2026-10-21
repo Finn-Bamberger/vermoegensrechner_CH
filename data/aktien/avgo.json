@@ -6,7 +6,7 @@
  "rank": 8,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1101",
- "updated_at": "2026-10-20T23:17:28Z",
+ "updated_at": "2026-10-21T01:49:20Z",
  "periodic_accs": [
   "0001730168-18-000019",
   "0001730168-18-000039",
@@ -5404,18 +5404,6 @@
    "ad": "D",
    "plan_10b5_1": false,
    "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000106/"
-  },
-  {
-   "acc": "0001359561-25-000005",
-   "date": "2025-09-15",
-   "name": "PAGE JUSTINE",
-   "role": "Director",
-   "code": "S",
-   "shares": 800.0,
-   "price": 360.0,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/1730168/000135956125000005/"
   }
  ]
 }
