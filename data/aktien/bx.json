@@ -6,7 +6,7 @@
  "rank": 89,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-10-19T23:16:06Z",
+ "updated_at": "2026-10-21T00:02:07Z",
  "periodic_accs": [
   "0001193125-17-164159",
   "0001193125-17-251308",
@@ -747,8 +747,8 @@
   "filed": "2026-08-07"
  },
  "quote": {
-  "price": 107.09,
-  "date": "2026-10-19",
+  "price": 110.34,
+  "date": "2026-10-20",
   "source": "Yahoo Finance"
  },
  "insiders": [
@@ -2767,18 +2767,6 @@
    "ad": "A",
    "plan_10b5_1": false,
    "url": "https://www.sec.gov/Archives/edgar/data/1393818/000121390025090224/"
-  },
-  {
-   "acc": "0001193125-25-206314",
-   "date": "2025-09-15",
-   "name": "Brown Reginald J",
-   "role": "Director",
-   "code": "A",
-   "shares": 1150.0,
-   "price": 0.0,
-   "ad": "A",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/1393818/000119312525206314/"
   }
  ]
 }

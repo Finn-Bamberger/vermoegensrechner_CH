@@ -6,7 +6,7 @@
  "rank": 11,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-10-19T22:33:14Z",
+ "updated_at": "2026-10-20T23:17:33Z",
  "periodic_accs": [
   "0000059478-22-000068",
   "0000059478-22-000133",
@@ -731,11 +731,59 @@
   "filed": "2026-08-05"
  },
  "quote": {
-  "price": 1240.34,
-  "date": "2026-10-19",
+  "price": 1283.66,
+  "date": "2026-10-20",
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0001262388-26-000020",
+   "date": "2026-10-19",
+   "name": "Sulzberger Gabrielle",
+   "role": "Director",
+   "code": "A",
+   "shares": 3.9976,
+   "price": 1240.34,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/59478/000126238826000020/"
+  },
+  {
+   "acc": "0000059478-26-000099",
+   "date": "2026-10-19",
+   "name": "LUCIANO JUAN R",
+   "role": "Director",
+   "code": "A",
+   "shares": 12.8325,
+   "price": 1240.34,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/59478/000005947826000099/"
+  },
+  {
+   "acc": "0000059478-26-000097",
+   "date": "2026-10-19",
+   "name": "Fyrwald J Erik",
+   "role": "Director",
+   "code": "A",
+   "shares": 7.9951,
+   "price": 1240.34,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/59478/000005947826000097/"
+  },
+  {
+   "acc": "0001310215-26-000019",
+   "date": "2026-10-19",
+   "name": "Alvarez Ralph",
+   "role": "Director",
+   "code": "A",
+   "shares": 10.0107,
+   "price": 1240.34,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/59478/000131021526000019/"
+  },
   {
    "acc": "0001262388-26-000018",
    "date": "2026-09-21",
