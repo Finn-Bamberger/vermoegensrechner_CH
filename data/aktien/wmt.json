@@ -6,7 +6,7 @@
  "rank": 14,
  "source": "SEC EDGAR",
  "fiscal_year_end": "0131",
- "updated_at": "2026-10-21T06:56:35Z",
+ "updated_at": "2026-10-22T00:06:15Z",
  "periodic_accs": [
   "0000104169-23-000097",
   "0000104169-23-000132",
@@ -722,8 +722,8 @@
   "filed": "2026-08-28"
  },
  "quote": {
-  "price": 117.85,
-  "date": "2026-10-20",
+  "price": 117.8,
+  "date": "2026-10-21",
   "source": "Yahoo Finance"
  },
  "insiders": [
@@ -4266,18 +4266,6 @@
    "ad": "D",
    "plan_10b5_1": true,
    "url": "https://www.sec.gov/Archives/edgar/data/104169/000169673725000007/"
-  },
-  {
-   "acc": "0000104169-25-000147",
-   "date": "2025-09-16",
-   "name": "Walton Family Holdings Trust",
-   "role": "10%-Aktionär",
-   "code": "S",
-   "shares": 2389000.0,
-   "price": 103.4528,
-   "ad": "D",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416925000147/"
   }
  ]
 }
