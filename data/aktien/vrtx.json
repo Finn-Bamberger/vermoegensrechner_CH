@@ -6,7 +6,7 @@
  "rank": 91,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-10-22T00:47:49Z",
+ "updated_at": "2026-10-22T23:22:15Z",
  "periodic_accs": [
   "0000875320-20-000030",
   "0000875320-20-000043",
@@ -768,11 +768,23 @@
   "filed": "2026-08-04"
  },
  "quote": {
-  "price": 524.52,
-  "date": "2026-10-21",
+  "price": 535.17,
+  "date": "2026-10-22",
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0000875320-26-000283",
+   "date": "2026-10-20",
+   "name": "Brennan Daniel J.",
+   "role": "Director",
+   "code": "A",
+   "shares": 795.0,
+   "price": 503.47,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/875320/000087532026000283/"
+  },
   {
    "acc": "0000875320-26-000272",
    "date": "2026-09-08",

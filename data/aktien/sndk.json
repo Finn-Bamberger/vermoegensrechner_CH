@@ -6,7 +6,7 @@
  "rank": 57,
  "source": "SEC EDGAR",
  "fiscal_year_end": "0628",
- "updated_at": "2026-10-22T00:11:12Z",
+ "updated_at": "2026-10-22T22:43:38Z",
  "periodic_accs": [
   "0001628280-25-050698",
   "0001628280-26-004407",
@@ -404,11 +404,23 @@
   "filed": "2026-08-17"
  },
  "quote": {
-  "price": 1378.22,
-  "date": "2026-10-21",
+  "price": 1260.93,
+  "date": "2026-10-22",
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0001242648-26-000047",
+   "date": "2026-10-20",
+   "name": "Shek Bernard",
+   "role": "Chief Legal Officer and Secty",
+   "code": "F",
+   "shares": 322.0,
+   "price": 1365.38,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/2023554/000124264826000047/"
+  },
   {
    "acc": "0001242648-26-000045",
    "date": "2026-10-01",
