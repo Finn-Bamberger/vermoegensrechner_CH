@@ -6,7 +6,7 @@
  "rank": 65,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1226",
- "updated_at": "2026-10-22T22:52:28Z",
+ "updated_at": "2026-10-23T20:06:27Z",
  "periodic_accs": [
   "0000077476-15-000021",
   "0000077476-15-000036",
@@ -801,6 +801,18 @@
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0001630253-26-000007",
+   "date": "2026-10-21",
+   "name": "Laguarta Ramon",
+   "role": "Chairman and CEO",
+   "code": "S",
+   "shares": 30000.0,
+   "price": 135.1297,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/77476/000163025326000007/"
+  },
   {
    "acc": "0001061272-26-000004",
    "date": "2026-10-14",
