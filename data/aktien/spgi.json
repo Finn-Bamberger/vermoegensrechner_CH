@@ -6,7 +6,7 @@
  "rank": 99,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-10-22T23:31:31Z",
+ "updated_at": "2026-10-23T12:03:50Z",
  "periodic_accs": [
   "0000064040-18-000061",
   "0000064040-18-000125",
@@ -45,6 +45,14 @@
   "0001628280-21-020543"
  ],
  "filings": [
+  {
+   "form": "8-K",
+   "date": "2026-10-23",
+   "report_date": "2026-10-23",
+   "items": "8.01,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/64040/000006404026000049/spgi-20261023.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/64040/000006404026000049/0000064040-26-000049-index.htm"
+  },
   {
    "form": "10-Q",
    "date": "2026-07-28",
@@ -356,14 +364,6 @@
    "items": "",
    "doc_url": "https://www.sec.gov/Archives/edgar/data/64040/000006404024000125/spgi-20240331.htm",
    "index_url": "https://www.sec.gov/Archives/edgar/data/64040/000006404024000125/0000064040-24-000125-index.htm"
-  },
-  {
-   "form": "8-K",
-   "date": "2024-04-25",
-   "report_date": "2024-04-25",
-   "items": "2.02,7.01,9.01",
-   "doc_url": "https://www.sec.gov/Archives/edgar/data/64040/000006404024000121/spgi-20240425.htm",
-   "index_url": "https://www.sec.gov/Archives/edgar/data/64040/000006404024000121/0000064040-24-000121-index.htm"
   }
  ],
  "quarters": [
