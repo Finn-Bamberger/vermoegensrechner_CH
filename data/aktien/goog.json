@@ -6,7 +6,7 @@
  "rank": 3,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-10-22T22:34:43Z",
+ "updated_at": "2026-10-23T01:08:53Z",
  "periodic_accs": [
   "0001652044-23-000070",
   "0001652044-23-000094",
@@ -11098,66 +11098,6 @@
    "ad": "A",
    "plan_10b5_1": false,
    "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312525223731/"
-  },
-  {
-   "acc": "0001193125-25-206631",
-   "date": "2025-09-17",
-   "name": "Pichai Sundar",
-   "role": "Chief Executive Officer",
-   "code": "S",
-   "shares": 1165.0,
-   "price": 247.59,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312525206631/"
-  },
-  {
-   "acc": "0001193125-25-206631",
-   "date": "2025-09-17",
-   "name": "Pichai Sundar",
-   "role": "Chief Executive Officer",
-   "code": "S",
-   "shares": 11390.0,
-   "price": 248.44,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312525206631/"
-  },
-  {
-   "acc": "0001193125-25-206631",
-   "date": "2025-09-17",
-   "name": "Pichai Sundar",
-   "role": "Chief Executive Officer",
-   "code": "S",
-   "shares": 9062.0,
-   "price": 249.57,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312525206631/"
-  },
-  {
-   "acc": "0001193125-25-206631",
-   "date": "2025-09-17",
-   "name": "Pichai Sundar",
-   "role": "Chief Executive Officer",
-   "code": "S",
-   "shares": 6957.0,
-   "price": 250.4,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312525206631/"
-  },
-  {
-   "acc": "0001193125-25-206631",
-   "date": "2025-09-17",
-   "name": "Pichai Sundar",
-   "role": "Chief Executive Officer",
-   "code": "S",
-   "shares": 3926.0,
-   "price": 251.41,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312525206631/"
   }
  ]
 }

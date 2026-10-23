@@ -6,7 +6,7 @@
  "rank": 19,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-10-22T22:36:12Z",
+ "updated_at": "2026-10-23T01:09:49Z",
  "periodic_accs": [
   "0001141391-19-000076",
   "0001141391-19-000128",
@@ -2721,18 +2721,6 @@
    "ad": "D",
    "plan_10b5_1": false,
    "url": "https://www.sec.gov/Archives/edgar/data/1141391/000177273825000004/"
-  },
-  {
-   "acc": "0001141391-25-000186",
-   "date": "2025-09-17",
-   "name": "Bracher Candido",
-   "role": "Director",
-   "code": "F",
-   "shares": 76.0,
-   "price": 593.165,
-   "ad": "D",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139125000186/"
   }
  ]
 }

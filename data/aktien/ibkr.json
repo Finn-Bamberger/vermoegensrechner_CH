@@ -6,7 +6,7 @@
  "rank": 83,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-10-22T23:13:09Z",
+ "updated_at": "2026-10-23T01:15:41Z",
  "periodic_accs": [
   "0001047469-18-001166",
   "0001140361-19-004097",
@@ -1602,30 +1602,6 @@
    "code": "S",
    "shares": 71019.0,
    "price": 65.05,
-   "ad": "D",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/1381197/000138119725000129/"
-  },
-  {
-   "acc": "0001381197-25-000129",
-   "date": "2025-09-17",
-   "name": "Brody Paul Jonathan",
-   "role": "Chief Financial Officer",
-   "code": "S",
-   "shares": 61794.0,
-   "price": 62.06,
-   "ad": "D",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/1381197/000138119725000129/"
-  },
-  {
-   "acc": "0001381197-25-000129",
-   "date": "2025-09-17",
-   "name": "Brody Paul Jonathan",
-   "role": "Chief Financial Officer",
-   "code": "S",
-   "shares": 44727.0,
-   "price": 62.48,
    "ad": "D",
    "plan_10b5_1": false,
    "url": "https://www.sec.gov/Archives/edgar/data/1381197/000138119725000129/"
