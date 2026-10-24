@@ -6,7 +6,7 @@
  "rank": 76,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-10-22T23:04:53Z",
+ "updated_at": "2026-10-23T23:46:41Z",
  "periodic_accs": [
   "0000753308-19-000118",
   "0000753308-19-000165",
@@ -704,11 +704,23 @@
   "filed": "2026-04-23"
  },
  "quote": {
-  "price": 81.9,
-  "date": "2026-10-22",
+  "price": 82.1,
+  "date": "2026-10-23",
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0001959910-26-000008",
+   "date": "2026-10-22",
+   "name": "Lemasney Mark",
+   "role": "EVP Power Generation Division",
+   "code": "A",
+   "shares": 1416.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/753308/000195991026000008/"
+  },
   {
    "acc": "0001769378-26-000009",
    "date": "2026-10-12",
