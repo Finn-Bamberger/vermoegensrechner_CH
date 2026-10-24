@@ -6,7 +6,7 @@
  "rank": 14,
  "source": "SEC EDGAR",
  "fiscal_year_end": "0131",
- "updated_at": "2026-10-23T23:18:57Z",
+ "updated_at": "2026-10-24T01:47:36Z",
  "periodic_accs": [
   "0000104169-23-000097",
   "0000104169-23-000132",
@@ -4254,18 +4254,6 @@
    "ad": "D",
    "plan_10b5_1": true,
    "url": "https://www.sec.gov/Archives/edgar/data/104169/000179457325000010/"
-  },
-  {
-   "acc": "0001696737-25-000007",
-   "date": "2025-09-18",
-   "name": "Furner John R.",
-   "role": "Executive Vice President",
-   "code": "S",
-   "shares": 13125.0,
-   "price": 103.7428,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/104169/000169673725000007/"
   }
  ]
 }

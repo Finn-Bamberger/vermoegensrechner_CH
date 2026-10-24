@@ -6,7 +6,7 @@
  "rank": 85,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-10-23T23:57:06Z",
+ "updated_at": "2026-10-24T01:54:38Z",
  "periodic_accs": [
   "0001543151-21-000014",
   "0001543151-21-000029",
@@ -9037,18 +9037,6 @@
    "ad": "D",
    "plan_10b5_1": true,
    "url": "https://www.sec.gov/Archives/edgar/data/1543151/000118423725000004/"
-  },
-  {
-   "acc": "0001626201-25-000004",
-   "date": "2025-09-18",
-   "name": "West Tony",
-   "role": "See Remarks",
-   "code": "S",
-   "shares": 3125.0,
-   "price": 93.94,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000162620125000004/"
   }
  ]
 }

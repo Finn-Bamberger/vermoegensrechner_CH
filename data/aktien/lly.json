@@ -6,7 +6,7 @@
  "rank": 11,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-10-23T23:18:43Z",
+ "updated_at": "2026-10-24T01:47:10Z",
  "periodic_accs": [
   "0000059478-22-000068",
   "0000059478-22-000133",
@@ -6531,66 +6531,6 @@
    "ad": "D",
    "plan_10b5_1": false,
    "url": "https://www.sec.gov/Archives/edgar/data/59478/000031601125000009/"
-  },
-  {
-   "acc": "0000316011-25-000007",
-   "date": "2025-09-18",
-   "name": "LILLY ENDOWMENT INC",
-   "role": "10%-Aktionär",
-   "code": "S",
-   "shares": 39863.0,
-   "price": 763.292,
-   "ad": "D",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/59478/000031601125000007/"
-  },
-  {
-   "acc": "0000316011-25-000007",
-   "date": "2025-09-18",
-   "name": "LILLY ENDOWMENT INC",
-   "role": "10%-Aktionär",
-   "code": "S",
-   "shares": 23067.0,
-   "price": 764.519,
-   "ad": "D",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/59478/000031601125000007/"
-  },
-  {
-   "acc": "0000316011-25-000007",
-   "date": "2025-09-18",
-   "name": "LILLY ENDOWMENT INC",
-   "role": "10%-Aktionär",
-   "code": "S",
-   "shares": 26647.0,
-   "price": 765.567,
-   "ad": "D",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/59478/000031601125000007/"
-  },
-  {
-   "acc": "0000316011-25-000007",
-   "date": "2025-09-18",
-   "name": "LILLY ENDOWMENT INC",
-   "role": "10%-Aktionär",
-   "code": "S",
-   "shares": 13135.0,
-   "price": 766.451,
-   "ad": "D",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/59478/000031601125000007/"
-  },
-  {
-   "acc": "0000316011-25-000007",
-   "date": "2025-09-18",
-   "name": "LILLY ENDOWMENT INC",
-   "role": "10%-Aktionär",
-   "code": "S",
-   "shares": 3914.0,
-   "price": 767.065,
-   "ad": "D",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/59478/000031601125000007/"
   }
  ]
 }

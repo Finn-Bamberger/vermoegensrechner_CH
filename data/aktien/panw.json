@@ -6,7 +6,7 @@
  "rank": 38,
  "source": "SEC EDGAR",
  "fiscal_year_end": "0731",
- "updated_at": "2026-10-23T23:21:42Z",
+ "updated_at": "2026-10-24T01:49:39Z",
  "periodic_accs": [
   "0001327567-19-000038",
   "0001327567-20-000007",
@@ -2779,18 +2779,6 @@
    "ad": "D",
    "plan_10b5_1": false,
    "url": "https://www.sec.gov/Archives/edgar/data/1327567/000119312525213426/"
-  },
-  {
-   "acc": "0001193125-25-209308",
-   "date": "2025-09-18",
-   "name": "Klarich Lee",
-   "role": "EVP Chief Product & Tech Ofcr",
-   "code": "G",
-   "shares": 50000.0,
-   "price": 0.0,
-   "ad": "D",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/1327567/000119312525209308/"
   }
  ]
 }
