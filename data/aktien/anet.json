@@ -6,7 +6,7 @@
  "rank": 48,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-10-23T23:22:52Z",
+ "updated_at": "2026-10-25T01:34:36Z",
  "periodic_accs": [
   "0001596532-22-000112",
   "0001596532-22-000220",
@@ -9823,102 +9823,6 @@
    "ad": "D",
    "plan_10b5_1": true,
    "url": "https://www.sec.gov/Archives/edgar/data/1596532/000159653225000277/"
-  },
-  {
-   "acc": "0001596532-25-000275",
-   "date": "2025-09-19",
-   "name": "Giancarlo Charles H",
-   "role": "Director",
-   "code": "S",
-   "shares": 10737.0,
-   "price": 147.3363,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/1596532/000159653225000275/"
-  },
-  {
-   "acc": "0001596532-25-000275",
-   "date": "2025-09-19",
-   "name": "Giancarlo Charles H",
-   "role": "Director",
-   "code": "S",
-   "shares": 20633.0,
-   "price": 148.1802,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/1596532/000159653225000275/"
-  },
-  {
-   "acc": "0001596532-25-000275",
-   "date": "2025-09-19",
-   "name": "Giancarlo Charles H",
-   "role": "Director",
-   "code": "S",
-   "shares": 18458.0,
-   "price": 149.3054,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/1596532/000159653225000275/"
-  },
-  {
-   "acc": "0001596532-25-000275",
-   "date": "2025-09-19",
-   "name": "Giancarlo Charles H",
-   "role": "Director",
-   "code": "S",
-   "shares": 172.0,
-   "price": 149.845,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/1596532/000159653225000275/"
-  },
-  {
-   "acc": "0001596532-25-000275",
-   "date": "2025-09-19",
-   "name": "Giancarlo Charles H",
-   "role": "Director",
-   "code": "S",
-   "shares": 1718.0,
-   "price": 147.3363,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/1596532/000159653225000275/"
-  },
-  {
-   "acc": "0001596532-25-000275",
-   "date": "2025-09-19",
-   "name": "Giancarlo Charles H",
-   "role": "Director",
-   "code": "S",
-   "shares": 3301.0,
-   "price": 148.1802,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/1596532/000159653225000275/"
-  },
-  {
-   "acc": "0001596532-25-000275",
-   "date": "2025-09-19",
-   "name": "Giancarlo Charles H",
-   "role": "Director",
-   "code": "S",
-   "shares": 2953.0,
-   "price": 149.3054,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/1596532/000159653225000275/"
-  },
-  {
-   "acc": "0001596532-25-000275",
-   "date": "2025-09-19",
-   "name": "Giancarlo Charles H",
-   "role": "Director",
-   "code": "S",
-   "shares": 28.0,
-   "price": 149.845,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/1596532/000159653225000275/"
   }
  ]
 }

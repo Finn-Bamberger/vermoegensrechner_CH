@@ -6,7 +6,7 @@
  "rank": 44,
  "source": "SEC EDGAR",
  "fiscal_year_end": "0131",
- "updated_at": "2026-10-24T01:50:20Z",
+ "updated_at": "2026-10-25T01:34:17Z",
  "periodic_accs": [
   "0001535527-21-000007",
   "0001535527-21-000013",
@@ -28315,78 +28315,6 @@
    "ad": "D",
    "plan_10b5_1": false,
    "url": "https://www.sec.gov/Archives/edgar/data/1535527/000177856425000004/"
-  },
-  {
-   "acc": "0001201326-25-000003",
-   "date": "2025-09-19",
-   "name": "GANDHI SAMEER K",
-   "role": "Director",
-   "code": "A",
-   "shares": 26.0,
-   "price": 0.0,
-   "ad": "A",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/1535527/000120132625000003/"
-  },
-  {
-   "acc": "0001319245-25-000006",
-   "date": "2025-09-19",
-   "name": "Schumacher Laura J",
-   "role": "Director",
-   "code": "A",
-   "shares": 27.0,
-   "price": 0.0,
-   "ad": "A",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/1535527/000131924525000006/"
-  },
-  {
-   "acc": "0001872303-25-000005",
-   "date": "2025-09-19",
-   "name": "Flower Johanna",
-   "role": "Director",
-   "code": "A",
-   "shares": 21.0,
-   "price": 0.0,
-   "ad": "A",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/1535527/000187230325000005/"
-  },
-  {
-   "acc": "0001253512-25-000006",
-   "date": "2025-09-19",
-   "name": "OLEARY DENIS",
-   "role": "Director",
-   "code": "A",
-   "shares": 24.0,
-   "price": 0.0,
-   "ad": "A",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/1535527/000125351225000006/"
-  },
-  {
-   "acc": "0001220632-25-000005",
-   "date": "2025-09-19",
-   "name": "DAVIS CARY",
-   "role": "Director",
-   "code": "A",
-   "shares": 31.0,
-   "price": 0.0,
-   "ad": "A",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/1535527/000122063225000005/"
-  },
-  {
-   "acc": "0001445832-25-000007",
-   "date": "2025-09-19",
-   "name": "Watzinger Gerhard",
-   "role": "Director",
-   "code": "A",
-   "shares": 55.0,
-   "price": 0.0,
-   "ad": "A",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/1535527/000144583225000007/"
   }
  ]
 }

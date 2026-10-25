@@ -6,7 +6,7 @@
  "rank": 14,
  "source": "SEC EDGAR",
  "fiscal_year_end": "0131",
- "updated_at": "2026-10-24T01:47:36Z",
+ "updated_at": "2026-10-25T01:31:35Z",
  "periodic_accs": [
   "0000104169-23-000097",
   "0000104169-23-000132",
@@ -4242,18 +4242,6 @@
    "ad": "D",
    "plan_10b5_1": false,
    "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416925000155/"
-  },
-  {
-   "acc": "0001794573-25-000010",
-   "date": "2025-09-19",
-   "name": "McLay Kathryn J.",
-   "role": "Executive Vice President",
-   "code": "S",
-   "shares": 4000.0,
-   "price": 103.83,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/104169/000179457325000010/"
   }
  ]
 }
