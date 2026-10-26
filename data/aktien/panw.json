@@ -6,7 +6,7 @@
  "rank": 38,
  "source": "SEC EDGAR",
  "fiscal_year_end": "0731",
- "updated_at": "2026-10-24T01:49:39Z",
+ "updated_at": "2026-10-26T00:02:13Z",
  "periodic_accs": [
   "0001327567-19-000038",
   "0001327567-20-000007",
@@ -2767,18 +2767,6 @@
    "ad": "D",
    "plan_10b5_1": true,
    "url": "https://www.sec.gov/Archives/edgar/data/1327567/000119312525215477/"
-  },
-  {
-   "acc": "0001193125-25-213426",
-   "date": "2025-09-20",
-   "name": "Paul Josh D.",
-   "role": "Chief Accounting Officer",
-   "code": "F",
-   "shares": 1964.0,
-   "price": 208.19,
-   "ad": "D",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/1327567/000119312525213426/"
   }
  ]
 }

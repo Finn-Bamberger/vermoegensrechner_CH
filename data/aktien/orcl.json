@@ -6,7 +6,7 @@
  "rank": 26,
  "source": "SEC EDGAR",
  "fiscal_year_end": "0531",
- "updated_at": "2026-10-25T01:32:21Z",
+ "updated_at": "2026-10-26T00:00:54Z",
  "periodic_accs": [
   "0000950170-23-028914",
   "0000950170-23-047713",
@@ -1866,54 +1866,6 @@
    "shares": 34665.0,
    "price": 308.66,
    "ad": "D",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000134143925000029/"
-  },
-  {
-   "acc": "0001341439-25-000032",
-   "date": "2025-09-20",
-   "name": "Sicilia Michael D.",
-   "role": "President, Industries",
-   "code": "M",
-   "shares": 73411.0,
-   "price": 0.0,
-   "ad": "A",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000134143925000032/"
-  },
-  {
-   "acc": "0001341439-25-000031",
-   "date": "2025-09-20",
-   "name": "HENLEY JEFFREY",
-   "role": "Vice Chairman",
-   "code": "M",
-   "shares": 33035.0,
-   "price": 0.0,
-   "ad": "A",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000134143925000031/"
-  },
-  {
-   "acc": "0001341439-25-000030",
-   "date": "2025-09-20",
-   "name": "Smith Maria",
-   "role": "EVP, Chief  Accounting Officer",
-   "code": "M",
-   "shares": 5506.0,
-   "price": 0.0,
-   "ad": "A",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000134143925000030/"
-  },
-  {
-   "acc": "0001341439-25-000029",
-   "date": "2025-09-20",
-   "name": "Magouyrk Clayton M.",
-   "role": "President, OCI",
-   "code": "M",
-   "shares": 88093.0,
-   "price": 0.0,
-   "ad": "A",
    "plan_10b5_1": false,
    "url": "https://www.sec.gov/Archives/edgar/data/1341439/000134143925000029/"
   }
