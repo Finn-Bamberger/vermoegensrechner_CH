@@ -6,7 +6,7 @@
  "rank": 93,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-10-24T00:06:28Z",
+ "updated_at": "2026-10-26T21:27:31Z",
  "periodic_accs": [
   "0000080661-22-000071",
   "0000080661-22-000080",
@@ -679,6 +679,18 @@
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0000080661-26-000369",
+   "date": "2026-10-22",
+   "name": "Broz Steven",
+   "role": "Chief Information Officer",
+   "code": "S",
+   "shares": 1225.0,
+   "price": 223.32,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/80661/000008066126000369/"
+  },
   {
    "acc": "0000080661-26-000324",
    "date": "2026-09-24",

@@ -6,7 +6,7 @@
  "rank": 78,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-10-23T23:49:06Z",
+ "updated_at": "2026-10-26T21:25:34Z",
  "periodic_accs": [
   "0000732717-22-000093",
   "0000732717-22-000102",
@@ -707,6 +707,18 @@
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0000732717-26-000376",
+   "date": "2026-10-23",
+   "name": "STANKEY JOHN T",
+   "role": "CEO & President",
+   "code": "G",
+   "shares": 13000.0,
+   "price": 0.0,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/732717/000073271726000376/"
+  },
   {
    "acc": "0000732717-26-000366",
    "date": "2026-10-06",

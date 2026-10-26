@@ -6,7 +6,7 @@
  "rank": 28,
  "source": "SEC EDGAR",
  "fiscal_year_end": "0630",
- "updated_at": "2026-10-26T16:53:31Z",
+ "updated_at": "2026-10-26T21:19:56Z",
  "periodic_accs": [
   "0000080424-22-000064",
   "0000080424-22-000102",
@@ -735,6 +735,30 @@
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0000080424-26-000263",
+   "date": "2026-10-23",
+   "name": "Jejurikar Shailesh",
+   "role": "Chairman, President and CEO",
+   "code": "M",
+   "shares": 35000.0,
+   "price": 78.52,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/80424/000008042426000263/"
+  },
+  {
+   "acc": "0000080424-26-000263",
+   "date": "2026-10-23",
+   "name": "Jejurikar Shailesh",
+   "role": "Chairman, President and CEO",
+   "code": "S",
+   "shares": 35000.0,
+   "price": 163.0871,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/80424/000008042426000263/"
+  },
   {
    "acc": "0000080424-26-000261",
    "date": "2026-10-23",

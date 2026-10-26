@@ -6,7 +6,7 @@
  "rank": 31,
  "source": "SEC EDGAR",
  "fiscal_year_end": "0627",
- "updated_at": "2026-10-23T23:21:12Z",
+ "updated_at": "2026-10-26T21:20:30Z",
  "periodic_accs": [
   "0000707549-16-000014",
   "0000707549-16-000050",
@@ -816,6 +816,30 @@
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0001343600-26-000015",
+   "date": "2026-10-23",
+   "name": "ARCHER TIMOTHY",
+   "role": "President and CEO",
+   "code": "M",
+   "shares": 31400.0,
+   "price": 30.033,
+   "ad": "A",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/707549/000134360026000015/"
+  },
+  {
+   "acc": "0001343600-26-000015",
+   "date": "2026-10-23",
+   "name": "ARCHER TIMOTHY",
+   "role": "President and CEO",
+   "code": "S",
+   "shares": 31400.0,
+   "price": 227.02,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/707549/000134360026000015/"
+  },
   {
    "acc": "0001343600-26-000013",
    "date": "2026-09-09",

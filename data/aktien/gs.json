@@ -6,7 +6,7 @@
  "rank": 43,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-10-23T23:22:16Z",
+ "updated_at": "2026-10-26T21:21:32Z",
  "periodic_accs": [
   "0000886982-25-001411",
   "0000886982-26-000091",
@@ -525,6 +525,30 @@
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0001910388-26-000012",
+   "date": "2026-10-22",
+   "name": "LESLIE ERICKA T",
+   "role": "Chief Administrative Officer",
+   "code": "S",
+   "shares": 183.0,
+   "price": 890.03,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/886982/000191038826000012/"
+  },
+  {
+   "acc": "0001910388-26-000012",
+   "date": "2026-10-22",
+   "name": "LESLIE ERICKA T",
+   "role": "Chief Administrative Officer",
+   "code": "S",
+   "shares": 67.0,
+   "price": 890.85,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/886982/000191038826000012/"
+  },
   {
    "acc": "0001910388-26-000010",
    "date": "2026-08-28",
