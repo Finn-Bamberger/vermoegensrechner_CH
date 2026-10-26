@@ -6,7 +6,7 @@
  "rank": 28,
  "source": "SEC EDGAR",
  "fiscal_year_end": "0630",
- "updated_at": "2026-10-23T23:20:26Z",
+ "updated_at": "2026-10-26T16:53:31Z",
  "periodic_accs": [
   "0000080424-22-000064",
   "0000080424-22-000102",
@@ -735,6 +735,30 @@
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0000080424-26-000261",
+   "date": "2026-10-23",
+   "name": "Purushothaman Balaji",
+   "role": "Chief Human Resources Officer",
+   "code": "S",
+   "shares": 4181.0,
+   "price": 160.71,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/80424/000008042426000261/"
+  },
+  {
+   "acc": "0000080424-26-000260",
+   "date": "2026-10-23",
+   "name": "Gama Paul",
+   "role": "CEO- Health Care",
+   "code": "S",
+   "shares": 4331.0,
+   "price": 161.27,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/80424/000008042426000260/"
+  },
   {
    "acc": "0000080424-26-000225",
    "date": "2026-10-13",
