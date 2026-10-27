@@ -6,7 +6,7 @@
  "rank": 40,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-10-27T00:43:00Z",
+ "updated_at": "2026-10-27T21:08:25Z",
  "periodic_accs": [
   "0001065280-23-000198",
   "0001065280-23-000273",
@@ -785,6 +785,90 @@
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0001193119-26-000003",
+   "date": "2026-10-26",
+   "name": "SMITH BRADFORD L",
+   "role": "Director",
+   "code": "M",
+   "shares": 4900.0,
+   "price": 12.749,
+   "ad": "A",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000119311926000003/"
+  },
+  {
+   "acc": "0001193119-26-000003",
+   "date": "2026-10-26",
+   "name": "SMITH BRADFORD L",
+   "role": "Director",
+   "code": "M",
+   "shares": 4440.0,
+   "price": 14.078,
+   "ad": "A",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000119311926000003/"
+  },
+  {
+   "acc": "0001193119-26-000003",
+   "date": "2026-10-26",
+   "name": "SMITH BRADFORD L",
+   "role": "Director",
+   "code": "M",
+   "shares": 4380.0,
+   "price": 14.265,
+   "ad": "A",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000119311926000003/"
+  },
+  {
+   "acc": "0001193119-26-000003",
+   "date": "2026-10-26",
+   "name": "SMITH BRADFORD L",
+   "role": "Director",
+   "code": "M",
+   "shares": 4260.0,
+   "price": 14.692,
+   "ad": "A",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000119311926000003/"
+  },
+  {
+   "acc": "0001193119-26-000003",
+   "date": "2026-10-26",
+   "name": "SMITH BRADFORD L",
+   "role": "Director",
+   "code": "S",
+   "shares": 11980.0,
+   "price": 63.549,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000119311926000003/"
+  },
+  {
+   "acc": "0001193119-26-000003",
+   "date": "2026-10-26",
+   "name": "SMITH BRADFORD L",
+   "role": "Director",
+   "code": "S",
+   "shares": 1800.0,
+   "price": 64.61,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000119311926000003/"
+  },
+  {
+   "acc": "0001193119-26-000003",
+   "date": "2026-10-26",
+   "name": "SMITH BRADFORD L",
+   "role": "Director",
+   "code": "S",
+   "shares": 4200.0,
+   "price": 65.1376,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000119311926000003/"
+  },
   {
    "acc": "0001065280-26-000271",
    "date": "2026-09-10",

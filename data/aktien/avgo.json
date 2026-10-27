@@ -6,7 +6,7 @@
  "rank": 8,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1101",
- "updated_at": "2026-10-27T00:40:17Z",
+ "updated_at": "2026-10-27T21:05:59Z",
  "periodic_accs": [
   "0001730168-18-000019",
   "0001730168-18-000039",
@@ -44,6 +44,14 @@
   "0001730168-26-000080"
  ],
  "filings": [
+  {
+   "form": "8-K",
+   "date": "2026-10-27",
+   "report_date": "2026-10-26",
+   "items": "2.03",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1730168/000119312526434271/d148323d8k.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1730168/000119312526434271/0001193125-26-434271-index.htm"
+  },
   {
    "form": "10-Q",
    "date": "2026-09-10",
@@ -355,14 +363,6 @@
    "items": "5.07",
    "doc_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016824000055/avgo-20240422.htm",
    "index_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016824000055/0001730168-24-000055-index.htm"
-  },
-  {
-   "form": "10-Q",
-   "date": "2024-03-14",
-   "report_date": "2024-02-04",
-   "items": "",
-   "doc_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016824000023/avgo-20240204.htm",
-   "index_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016824000023/0001730168-24-000023-index.htm"
   }
  ],
  "quarters": [
