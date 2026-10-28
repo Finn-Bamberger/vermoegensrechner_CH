@@ -6,7 +6,7 @@
  "rank": 27,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-10-27T11:29:53Z",
+ "updated_at": "2026-10-28T00:39:41Z",
  "periodic_accs": [
   "0000021344-18-000023",
   "0000021344-18-000032",
@@ -808,8 +808,8 @@
   "filed": "2026-04-30"
  },
  "quote": {
-  "price": 92.7,
-  "date": "2026-10-26",
+  "price": 91.18,
+  "date": "2026-10-27",
   "source": "Yahoo Finance"
  },
  "insiders": [

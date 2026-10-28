@@ -6,7 +6,7 @@
  "rank": 11,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-10-27T00:40:23Z",
+ "updated_at": "2026-10-28T00:38:37Z",
  "periodic_accs": [
   "0000059478-22-000068",
   "0000059478-22-000133",
@@ -731,8 +731,8 @@
   "filed": "2026-08-05"
  },
  "quote": {
-  "price": 1279.14,
-  "date": "2026-10-26",
+  "price": 1281.91,
+  "date": "2026-10-27",
   "source": "Yahoo Finance"
  },
  "insiders": [
@@ -6495,18 +6495,6 @@
    "ad": "D",
    "plan_10b5_1": false,
    "url": "https://www.sec.gov/Archives/edgar/data/59478/000031601125000011/"
-  },
-  {
-   "acc": "0002032089-26-000004",
-   "date": "2025-09-22",
-   "name": "Seymour Melissa",
-   "role": "EVP, Global Quality",
-   "code": "G",
-   "shares": 17.0,
-   "price": 0.0,
-   "ad": "D",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/59478/000203208926000004/"
   }
  ]
 }

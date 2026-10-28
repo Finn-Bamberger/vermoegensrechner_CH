@@ -6,7 +6,7 @@
  "rank": 63,
  "source": "SEC EDGAR",
  "fiscal_year_end": "0927",
- "updated_at": "2026-10-27T00:56:30Z",
+ "updated_at": "2026-10-28T00:53:12Z",
  "periodic_accs": [
   "0000804328-22-000021",
   "0000804328-23-000006",
@@ -809,8 +809,8 @@
   "filed": "2026-07-29"
  },
  "quote": {
-  "price": 179.6,
-  "date": "2026-10-26",
+  "price": 184.17,
+  "date": "2026-10-27",
   "source": "Yahoo Finance"
  },
  "insiders": [
@@ -3873,18 +3873,6 @@
    "ad": "A",
    "plan_10b5_1": false,
    "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432825000059/"
-  },
-  {
-   "acc": "0000804328-25-000056",
-   "date": "2025-09-22",
-   "name": "Grech Patricia Y",
-   "role": "SVP & CAO",
-   "code": "S",
-   "shares": 201.0,
-   "price": 170.0,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432825000056/"
   }
  ]
 }

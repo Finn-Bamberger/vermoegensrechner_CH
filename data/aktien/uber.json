@@ -6,7 +6,7 @@
  "rank": 85,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-10-27T01:21:08Z",
+ "updated_at": "2026-10-28T01:17:39Z",
  "periodic_accs": [
   "0001543151-21-000014",
   "0001543151-21-000029",
@@ -765,8 +765,8 @@
   "filed": "2026-08-05"
  },
  "quote": {
-  "price": 66.13,
-  "date": "2026-10-26",
+  "price": 65.78,
+  "date": "2026-10-27",
   "source": "Yahoo Finance"
  },
  "insiders": [
@@ -8977,66 +8977,6 @@
    "ad": "A",
    "plan_10b5_1": false,
    "url": "https://www.sec.gov/Archives/edgar/data/1543151/000160998325000009/"
-  },
-  {
-   "acc": "0001626201-25-000005",
-   "date": "2025-09-22",
-   "name": "West Tony",
-   "role": "See Remarks",
-   "code": "M",
-   "shares": 100000.0,
-   "price": 33.65,
-   "ad": "A",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000162620125000005/"
-  },
-  {
-   "acc": "0001626201-25-000005",
-   "date": "2025-09-22",
-   "name": "West Tony",
-   "role": "See Remarks",
-   "code": "S",
-   "shares": 89000.0,
-   "price": 100.3078,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000162620125000005/"
-  },
-  {
-   "acc": "0001626201-25-000005",
-   "date": "2025-09-22",
-   "name": "West Tony",
-   "role": "See Remarks",
-   "code": "S",
-   "shares": 11000.0,
-   "price": 101.0094,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000162620125000005/"
-  },
-  {
-   "acc": "0001184237-25-000004",
-   "date": "2025-09-22",
-   "name": "KHOSROWSHAHI DARA",
-   "role": "Chief Executive Officer",
-   "code": "S",
-   "shares": 135043.0,
-   "price": 100.4179,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000118423725000004/"
-  },
-  {
-   "acc": "0001184237-25-000004",
-   "date": "2025-09-22",
-   "name": "KHOSROWSHAHI DARA",
-   "role": "Chief Executive Officer",
-   "code": "S",
-   "shares": 14957.0,
-   "price": 101.0325,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000118423725000004/"
   }
  ]
 }

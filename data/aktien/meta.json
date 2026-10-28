@@ -6,7 +6,7 @@
  "rank": 7,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-10-27T00:40:09Z",
+ "updated_at": "2026-10-28T00:38:25Z",
  "periodic_accs": [
   "0001326801-24-000069",
   "0001326801-24-000081",
@@ -708,8 +708,8 @@
  ],
  "shares_outstanding": null,
  "quote": {
-  "price": 630.56,
-  "date": "2026-10-26",
+  "price": 620.19,
+  "date": "2026-10-27",
   "source": "Yahoo Finance"
  },
  "insiders": [
@@ -6796,18 +6796,6 @@
    "ad": "D",
    "plan_10b5_1": true,
    "url": "https://www.sec.gov/Archives/edgar/data/1326801/000095010325012242/"
-  },
-  {
-   "acc": "0000950103-25-012157",
-   "date": "2025-09-22",
-   "name": "Olivan Javier",
-   "role": "Chief Operating Officer",
-   "code": "S",
-   "shares": 517.0,
-   "price": 781.33,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000095010325012157/"
   }
  ]
 }
