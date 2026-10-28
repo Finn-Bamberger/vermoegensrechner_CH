@@ -6,7 +6,7 @@
  "rank": 27,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-10-28T00:39:41Z",
+ "updated_at": "2026-10-28T19:17:55Z",
  "periodic_accs": [
   "0000021344-18-000023",
   "0000021344-18-000032",
@@ -42,9 +42,18 @@
   "0001628280-25-046054",
   "0001628280-26-010047",
   "0001628280-26-028802",
-  "0001628280-26-050503"
+  "0001628280-26-050503",
+  "0001628280-26-067844"
  ],
  "filings": [
+  {
+   "form": "10-Q",
+   "date": "2026-10-28",
+   "report_date": "2026-10-02",
+   "items": "",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/21344/000162828026067844/ko-20261002.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/21344/000162828026067844/0001628280-26-067844-index.htm"
+  },
   {
    "form": "8-K",
    "date": "2026-10-27",
@@ -356,43 +365,9 @@
    "items": "8.01,9.01",
    "doc_url": "https://www.sec.gov/Archives/edgar/data/21344/000155278124000325/e24243_koeuro-8k.htm",
    "index_url": "https://www.sec.gov/Archives/edgar/data/21344/000155278124000325/0001552781-24-000325-index.htm"
-  },
-  {
-   "form": "8-K",
-   "date": "2024-05-13",
-   "report_date": "2024-05-13",
-   "items": "8.01,9.01",
-   "doc_url": "https://www.sec.gov/Archives/edgar/data/21344/000155278124000313/e24242_ko-8k.htm",
-   "index_url": "https://www.sec.gov/Archives/edgar/data/21344/000155278124000313/0001552781-24-000313-index.htm"
   }
  ],
  "quarters": [
-  {
-   "end": "2020-06-26",
-   "revenue": 7150000000,
-   "operating_income": 1981000000,
-   "net_income": 1779000000,
-   "op_cash_flow": 2230000000,
-   "gross_profit": 4137000000,
-   "capex": 209000000,
-   "sbc": 41000000,
-   "diluted_shares": 4316000000,
-   "cash": 10037000000,
-   "debt": 42910000000
-  },
-  {
-   "end": "2020-09-25",
-   "revenue": 8652000000,
-   "operating_income": 2298000000,
-   "net_income": 1737000000,
-   "op_cash_flow": 3434000000,
-   "gross_profit": 5181000000,
-   "capex": 223000000,
-   "sbc": 52000000,
-   "diluted_shares": 4321000000,
-   "cash": 11385000000,
-   "debt": 47010000000
-  },
   {
    "end": "2020-12-31",
    "revenue": 8611000000,
@@ -665,6 +640,30 @@
    "sbc": 56000000,
    "diluted_shares": 4314000000,
    "cash": 10574000000
+  },
+  {
+   "end": "2026-07-03",
+   "revenue": 13380000000,
+   "operating_income": 4672000000,
+   "net_income": 4425000000,
+   "op_cash_flow": 5522000000,
+   "gross_profit": 8415000000,
+   "capex": 418000000,
+   "sbc": 61000000,
+   "diluted_shares": 4313000000,
+   "cash": 12907000000
+  },
+  {
+   "end": "2026-10-02",
+   "revenue": 13380000000,
+   "operating_income": 4465000000,
+   "net_income": 4009000000,
+   "op_cash_flow": 4928000000,
+   "gross_profit": 8450000000,
+   "capex": 379000000,
+   "sbc": 77000000,
+   "diluted_shares": 4314000000,
+   "cash": 13454000000
   }
  ],
  "annual": [
@@ -803,9 +802,9 @@
   }
  ],
  "shares_outstanding": {
-  "shares": 4302482418,
-  "as_of": "2026-04-28",
-  "filed": "2026-04-30"
+  "shares": 4301902335,
+  "as_of": "2026-10-26",
+  "filed": "2026-10-28"
  },
  "quote": {
   "price": 91.18,
