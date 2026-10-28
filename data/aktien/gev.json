@@ -6,7 +6,7 @@
  "rank": 46,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-10-28T00:41:34Z",
+ "updated_at": "2026-10-28T13:49:03Z",
  "periodic_accs": [
   "0001996810-24-000008",
   "0001996810-24-000067",
@@ -17,9 +17,26 @@
   "0001996810-25-000160",
   "0001996810-26-000015",
   "0001996810-26-000064",
-  "0001996810-26-000148"
+  "0001996810-26-000148",
+  "0001996810-26-000163"
  ],
  "filings": [
+  {
+   "form": "10-Q",
+   "date": "2026-10-28",
+   "report_date": "2026-09-30",
+   "items": "",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1996810/000199681026000163/gev-20260930.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1996810/000199681026000163/0001996810-26-000163-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2026-10-28",
+   "report_date": "2026-10-28",
+   "items": "2.02,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1996810/000199681026000162/gev-20261028.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1996810/000199681026000162/0001996810-26-000162-index.htm"
+  },
   {
    "form": "8-K",
    "date": "2026-08-27",
@@ -389,6 +406,16 @@
    "gross_profit": 2360000000,
    "capex": 386000000,
    "diluted_shares": 270000000
+  },
+  {
+   "end": "2026-09-30",
+   "revenue": 12642000000,
+   "operating_income": 1394000000,
+   "net_income": 1291000000,
+   "op_cash_flow": 6057000000,
+   "gross_profit": 3107000000,
+   "capex": 647000000,
+   "diluted_shares": 268000000
   }
  ],
  "annual": [
@@ -434,9 +461,9 @@
   }
  ],
  "shares_outstanding": {
-  "shares": 266333581,
-  "as_of": "2026-06-30",
-  "filed": "2026-07-22"
+  "shares": 264677066,
+  "as_of": "2026-09-30",
+  "filed": "2026-10-28"
  },
  "quote": {
   "price": 895.08,
