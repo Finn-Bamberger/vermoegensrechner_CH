@@ -6,7 +6,7 @@
  "rank": 26,
  "source": "SEC EDGAR",
  "fiscal_year_end": "0531",
- "updated_at": "2026-10-28T23:25:00Z",
+ "updated_at": "2026-10-29T02:38:09Z",
  "periodic_accs": [
   "0000950170-23-028914",
   "0000950170-23-047713",
@@ -1904,18 +1904,6 @@
    "ad": "D",
    "plan_10b5_1": false,
    "url": "https://www.sec.gov/Archives/edgar/data/1341439/000134143925000040/"
-  },
-  {
-   "acc": "0001341439-25-000032",
-   "date": "2025-09-23",
-   "name": "Sicilia Michael D.",
-   "role": "President, Industries",
-   "code": "S",
-   "shares": 33845.0,
-   "price": 321.16,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000134143925000032/"
   }
  ]
 }

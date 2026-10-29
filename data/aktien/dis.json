@@ -6,7 +6,7 @@
  "rank": 61,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1003",
- "updated_at": "2026-10-28T23:46:34Z",
+ "updated_at": "2026-10-29T02:41:07Z",
  "periodic_accs": [
   "0001193125-23-014219",
   "0001744489-20-000046",
@@ -2380,30 +2380,6 @@
    "ad": "D",
    "plan_10b5_1": false,
    "url": "https://www.sec.gov/Archives/edgar/data/1744489/000162828025043216/"
-  },
-  {
-   "acc": "0001628280-25-042639",
-   "date": "2025-09-23",
-   "name": "WOODFORD BRENT",
-   "role": "EVP, Control, Fin Plan & Tax",
-   "code": "M",
-   "shares": 1085.0,
-   "price": null,
-   "ad": "A",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/1744489/000162828025042639/"
-  },
-  {
-   "acc": "0001628280-25-042639",
-   "date": "2025-09-23",
-   "name": "WOODFORD BRENT",
-   "role": "EVP, Control, Fin Plan & Tax",
-   "code": "F",
-   "shares": 294.0,
-   "price": 112.61,
-   "ad": "D",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/1744489/000162828025042639/"
   }
  ]
 }
