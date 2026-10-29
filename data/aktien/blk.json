@@ -6,7 +6,7 @@
  "rank": 67,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-10-28T00:57:28Z",
+ "updated_at": "2026-10-28T23:53:05Z",
  "periodic_accs": [
   "0001193125-25-267043",
   "0001193125-26-071966",
@@ -307,11 +307,23 @@
   "filed": "2025-05-07"
  },
  "quote": {
-  "price": 1136.05,
-  "date": "2026-10-27",
+  "price": 1157.88,
+  "date": "2026-10-28",
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0002012383-26-003952",
+   "date": "2026-10-27",
+   "name": "Kushel J. Richard",
+   "role": "Senior Managing Director",
+   "code": "G",
+   "shares": 900.0,
+   "price": 0.0,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/2012383/000201238326003952/"
+  },
   {
    "acc": "0002012383-26-003341",
    "date": "2026-10-19",

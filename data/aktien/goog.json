@@ -6,7 +6,7 @@
  "rank": 3,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-10-28T06:33:47Z",
+ "updated_at": "2026-10-28T23:23:29Z",
  "periodic_accs": [
   "0001652044-23-000070",
   "0001652044-23-000094",
@@ -23,6 +23,14 @@
   "0001652044-26-000071"
  ],
  "filings": [
+  {
+   "form": "8-K",
+   "date": "2026-10-28",
+   "report_date": "2026-10-28",
+   "items": "2.02,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000080/goog-20261028.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000080/0001652044-26-000080-index.htm"
+  },
   {
    "form": "8-K",
    "date": "2026-08-10",
@@ -334,14 +342,6 @@
    "items": "8.01",
    "doc_url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204424000085/goog-20240805.htm",
    "index_url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204424000085/0001652044-24-000085-index.htm"
-  },
-  {
-   "form": "10-Q",
-   "date": "2024-07-24",
-   "report_date": "2024-06-30",
-   "items": "",
-   "doc_url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204424000079/goog-20240630.htm",
-   "index_url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204424000079/0001652044-24-000079-index.htm"
   }
  ],
  "quarters": [
@@ -738,8 +738,8 @@
  ],
  "shares_outstanding": null,
  "quote": {
-  "price": 316.83,
-  "date": "2026-10-27",
+  "price": 321.89,
+  "date": "2026-10-28",
   "source": "Yahoo Finance"
  },
  "insiders": [

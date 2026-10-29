@@ -6,7 +6,7 @@
  "rank": 7,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-10-28T00:38:25Z",
+ "updated_at": "2026-10-28T23:23:49Z",
  "periodic_accs": [
   "0001326801-24-000069",
   "0001326801-24-000081",
@@ -708,11 +708,83 @@
  ],
  "shares_outstanding": null,
  "quote": {
-  "price": 620.19,
-  "date": "2026-10-27",
+  "price": 612.49,
+  "date": "2026-10-28",
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0000950103-26-016314",
+   "date": "2026-10-26",
+   "name": "Alford Peggy",
+   "role": "Director",
+   "code": "S",
+   "shares": 390.0,
+   "price": 640.0,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326016314/"
+  },
+  {
+   "acc": "0000950103-26-016313",
+   "date": "2026-10-26",
+   "name": "Olivan Javier",
+   "role": "Chief Operating Officer",
+   "code": "S",
+   "shares": 946.0,
+   "price": 640.0,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326016313/"
+  },
+  {
+   "acc": "0000950103-26-016313",
+   "date": "2026-10-26",
+   "name": "Olivan Javier",
+   "role": "Chief Operating Officer",
+   "code": "S",
+   "shares": 82.0,
+   "price": 640.0,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326016313/"
+  },
+  {
+   "acc": "0000950103-26-016313",
+   "date": "2026-10-26",
+   "name": "Olivan Javier",
+   "role": "Chief Operating Officer",
+   "code": "S",
+   "shares": 57.0,
+   "price": 640.0,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326016313/"
+  },
+  {
+   "acc": "0000950103-26-016313",
+   "date": "2026-10-26",
+   "name": "Olivan Javier",
+   "role": "Chief Operating Officer",
+   "code": "S",
+   "shares": 82.0,
+   "price": 640.0,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326016313/"
+  },
+  {
+   "acc": "0000950103-26-016313",
+   "date": "2026-10-26",
+   "name": "Olivan Javier",
+   "role": "Chief Operating Officer",
+   "code": "S",
+   "shares": 408.0,
+   "price": 640.0,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326016313/"
+  },
   {
    "acc": "0000950103-26-015980",
    "date": "2026-10-19",

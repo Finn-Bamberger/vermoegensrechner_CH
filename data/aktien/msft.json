@@ -6,7 +6,7 @@
  "rank": 4,
  "source": "SEC EDGAR",
  "fiscal_year_end": "0630",
- "updated_at": "2026-10-28T00:38:07Z",
+ "updated_at": "2026-10-28T23:23:31Z",
  "periodic_accs": [
   "0000950170-23-014423",
   "0000950170-23-035122",
@@ -22,6 +22,7 @@
   "0001193125-26-027207",
   "0001193125-26-191507",
   "0001193125-26-323660",
+  "0001193125-26-436133",
   "0001564590-20-047996",
   "0001564590-21-002316",
   "0001564590-21-020891",
@@ -34,6 +35,30 @@
   "0001564590-23-000733"
  ],
  "filings": [
+  {
+   "form": "8-K",
+   "date": "2026-10-28",
+   "report_date": "2026-10-28",
+   "items": "8.01,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526436149/msft-20261028.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526436149/0001193125-26-436149-index.htm"
+  },
+  {
+   "form": "10-Q",
+   "date": "2026-10-28",
+   "report_date": "2026-09-30",
+   "items": "",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526436133/msft-20260930.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526436133/0001193125-26-436133-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2026-10-28",
+   "report_date": "2026-10-28",
+   "items": "2.02,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526436122/msft-20261028.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526436122/0001193125-26-436122-index.htm"
+  },
   {
    "form": "8-K",
    "date": "2026-09-02",
@@ -329,47 +354,9 @@
    "items": "",
    "doc_url": "https://www.sec.gov/Archives/edgar/data/789019/000095017023054855/msft-20230930.htm",
    "index_url": "https://www.sec.gov/Archives/edgar/data/789019/000095017023054855/0000950170-23-054855-index.htm"
-  },
-  {
-   "form": "8-K",
-   "date": "2023-10-24",
-   "report_date": "2023-10-24",
-   "items": "2.02,9.01",
-   "doc_url": "https://www.sec.gov/Archives/edgar/data/789019/000095017023054848/msft-20231024.htm",
-   "index_url": "https://www.sec.gov/Archives/edgar/data/789019/000095017023054848/0000950170-23-054848-index.htm"
-  },
-  {
-   "form": "8-K",
-   "date": "2023-10-16",
-   "report_date": "2023-10-16",
-   "items": "8.01,9.01",
-   "doc_url": "https://www.sec.gov/Archives/edgar/data/789019/000110465923109428/tm2328507d1_8k.htm",
-   "index_url": "https://www.sec.gov/Archives/edgar/data/789019/000110465923109428/0001104659-23-109428-index.htm"
-  },
-  {
-   "form": "8-K",
-   "date": "2023-10-13",
-   "report_date": "2023-10-13",
-   "items": "2.01",
-   "doc_url": "https://www.sec.gov/Archives/edgar/data/789019/000119312523255762/d537928d8k.htm",
-   "index_url": "https://www.sec.gov/Archives/edgar/data/789019/000119312523255762/0001193125-23-255762-index.htm"
   }
  ],
  "quarters": [
-  {
-   "end": "2020-09-30",
-   "revenue": 37154000000,
-   "operating_income": 15876000000,
-   "net_income": 13893000000,
-   "op_cash_flow": 19335000000,
-   "gross_profit": 26152000000,
-   "capex": 4907000000,
-   "sbc": 1456000000,
-   "diluted_shares": 7637000000,
-   "cash": 17205000000,
-   "securities": 120772000000,
-   "debt": 63552000000
-  },
   {
    "end": "2020-12-31",
    "revenue": 43076000000,
@@ -685,6 +672,20 @@
    "cash": 20935000000,
    "securities": 55908000000,
    "debt": 40294000000
+  },
+  {
+   "end": "2026-09-30",
+   "revenue": 92279000000,
+   "operating_income": 45915000000,
+   "net_income": 36629000000,
+   "op_cash_flow": 58000000000,
+   "gross_profit": 62559000000,
+   "capex": 39367000000,
+   "sbc": 3134000000,
+   "diluted_shares": 7446000000,
+   "cash": 20281000000,
+   "securities": 44228000000,
+   "debt": 35481000000
   }
  ],
  "annual": [
@@ -829,13 +830,13 @@
   }
  ],
  "shares_outstanding": {
-  "shares": 7425545491,
-  "as_of": "2026-07-23",
-  "filed": "2026-07-29"
+  "shares": 7426194552,
+  "as_of": "2026-10-22",
+  "filed": "2026-10-28"
  },
  "quote": {
-  "price": 531.33,
-  "date": "2026-10-27",
+  "price": 531.01,
+  "date": "2026-10-28",
   "source": "Yahoo Finance"
  },
  "insiders": [
