@@ -6,7 +6,7 @@
  "rank": 3,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-10-29T09:14:28Z",
+ "updated_at": "2026-10-29T16:18:48Z",
  "periodic_accs": [
   "0001652044-23-000094",
   "0001652044-24-000022",
@@ -19,9 +19,18 @@
   "0001652044-25-000091",
   "0001652044-26-000018",
   "0001652044-26-000048",
-  "0001652044-26-000071"
+  "0001652044-26-000071",
+  "0001652044-26-000084"
  ],
  "filings": [
+  {
+   "form": "10-Q",
+   "date": "2026-10-29",
+   "report_date": "2026-09-30",
+   "items": "",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/goog-20260930.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/0001652044-26-000084-index.htm"
+  },
   {
    "form": "8-K",
    "date": "2026-10-28",
@@ -333,27 +342,9 @@
    "items": "8.01,9.01",
    "doc_url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204424000097/goog-20240924.htm",
    "index_url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204424000097/0001652044-24-000097-index.htm"
-  },
-  {
-   "form": "8-K",
-   "date": "2024-08-06",
-   "report_date": "2024-08-05",
-   "items": "8.01",
-   "doc_url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204424000085/goog-20240805.htm",
-   "index_url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204424000085/0001652044-24-000085-index.htm"
   }
  ],
  "quarters": [
-  {
-   "end": "2020-09-30",
-   "operating_income": 11213000000,
-   "net_income": 11247000000,
-   "op_cash_flow": 17003000000,
-   "capex": 5406000000,
-   "sbc": 3195000000,
-   "cash": 20129000000,
-   "securities": 112467000000
-  },
   {
    "end": "2020-12-31",
    "operating_income": 15651000000,
@@ -612,6 +603,19 @@
    "cash": 55911000000,
    "securities": 186563000000,
    "debt": 98165000000
+  },
+  {
+   "end": "2026-09-30",
+   "revenue": 127577000000,
+   "operating_income": 40576000000,
+   "net_income": 26468000000,
+   "op_cash_flow": 42290000000,
+   "capex": 51355000000,
+   "sbc": 8630000000,
+   "diluted_shares": 12368000000,
+   "cash": 56334000000,
+   "securities": 208764000000,
+   "debt": 125102000000
   }
  ],
  "annual": [

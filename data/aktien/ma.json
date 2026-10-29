@@ -6,7 +6,7 @@
  "rank": 19,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-10-28T23:24:40Z",
+ "updated_at": "2026-10-29T16:19:49Z",
  "periodic_accs": [
   "0001141391-19-000076",
   "0001141391-19-000128",
@@ -37,9 +37,26 @@
   "0001141391-25-000193",
   "0001141391-26-000013",
   "0001141391-26-000031",
-  "0001141391-26-000083"
+  "0001141391-26-000083",
+  "0001141391-26-000124"
  ],
  "filings": [
+  {
+   "form": "10-Q",
+   "date": "2026-10-29",
+   "report_date": "2026-09-30",
+   "items": "",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000124/ma-20260930.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000124/0001141391-26-000124-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2026-10-29",
+   "report_date": "2026-10-29",
+   "items": "2.02,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000122/ma-20261029.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000122/0001141391-26-000122-index.htm"
+  },
   {
    "form": "10-Q",
    "date": "2026-07-30",
@@ -343,37 +360,9 @@
    "items": "2.02,9.01",
    "doc_url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139124000011/ma-20240131.htm",
    "index_url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139124000011/0001141391-24-000011-index.htm"
-  },
-  {
-   "form": "8-K",
-   "date": "2023-12-11",
-   "report_date": "2023-12-05",
-   "items": "5.03,9.01",
-   "doc_url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139123000167/ma-20231205.htm",
-   "index_url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139123000167/0001141391-23-000167-index.htm"
-  },
-  {
-   "form": "10-Q",
-   "date": "2023-10-26",
-   "report_date": "2023-09-30",
-   "items": "",
-   "doc_url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139123000157/ma-20230930.htm",
-   "index_url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139123000157/0001141391-23-000157-index.htm"
   }
  ],
  "quarters": [
-  {
-   "end": "2020-09-30",
-   "revenue": 3837000000,
-   "operating_income": 2105000000,
-   "net_income": 1513000000,
-   "op_cash_flow": 1654000000,
-   "capex": 79000000,
-   "sbc": 75000000,
-   "diluted_shares": 1005000000,
-   "cash": 10225000000,
-   "debt": 12574000000
-  },
   {
    "end": "2020-12-31",
    "revenue": 4120000000,
@@ -643,6 +632,18 @@
    "diluted_shares": 883000000,
    "cash": 11291000000,
    "debt": 22184000000
+  },
+  {
+   "end": "2026-09-30",
+   "revenue": 9807000000,
+   "operating_income": 5862000000,
+   "net_income": 4628000000,
+   "op_cash_flow": 5087000000,
+   "capex": 222000000,
+   "sbc": 199000000,
+   "diluted_shares": 876000000,
+   "cash": 10147000000,
+   "debt": 22189000000
   }
  ],
  "annual": [
