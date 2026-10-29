@@ -6,7 +6,7 @@
  "rank": 100,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-10-29T00:30:28Z",
+ "updated_at": "2026-10-29T21:26:57Z",
  "periodic_accs": [
   "0000927628-21-000175",
   "0000927628-21-000256",
@@ -668,6 +668,54 @@
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0001238032-26-000010",
+   "date": "2026-10-27",
+   "name": "FAIRBANK RICHARD D",
+   "role": "Chairman and CEO",
+   "code": "M",
+   "shares": 40743.0,
+   "price": 86.34,
+   "ad": "A",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/927628/000123803226000010/"
+  },
+  {
+   "acc": "0001238032-26-000010",
+   "date": "2026-10-27",
+   "name": "FAIRBANK RICHARD D",
+   "role": "Chairman and CEO",
+   "code": "S",
+   "shares": 46845.0,
+   "price": 202.32,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/927628/000123803226000010/"
+  },
+  {
+   "acc": "0001238032-26-000010",
+   "date": "2026-10-27",
+   "name": "FAIRBANK RICHARD D",
+   "role": "Chairman and CEO",
+   "code": "S",
+   "shares": 37025.0,
+   "price": 203.29,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/927628/000123803226000010/"
+  },
+  {
+   "acc": "0001238032-26-000010",
+   "date": "2026-10-27",
+   "name": "FAIRBANK RICHARD D",
+   "role": "Chairman and CEO",
+   "code": "S",
+   "shares": 6873.0,
+   "price": 204.19,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/927628/000123803226000010/"
+  },
   {
    "acc": "0001741344-26-000026",
    "date": "2026-10-15",

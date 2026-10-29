@@ -6,7 +6,7 @@
  "rank": 42,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-10-28T23:26:50Z",
+ "updated_at": "2026-10-29T21:20:30Z",
  "periodic_accs": [
   "0000097476-19-000009",
   "0000097476-20-000009",
@@ -856,6 +856,102 @@
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0000097476-26-000176",
+   "date": "2026-10-27",
+   "name": "CLARK JANET F",
+   "role": "Director",
+   "code": "M",
+   "shares": 4306.0,
+   "price": 110.15,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/97476/000009747626000176/"
+  },
+  {
+   "acc": "0000097476-26-000176",
+   "date": "2026-10-27",
+   "name": "CLARK JANET F",
+   "role": "Director",
+   "code": "S",
+   "shares": 3956.0,
+   "price": 302.4,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/97476/000009747626000176/"
+  },
+  {
+   "acc": "0000097476-26-000176",
+   "date": "2026-10-27",
+   "name": "CLARK JANET F",
+   "role": "Director",
+   "code": "S",
+   "shares": 350.0,
+   "price": 303.17,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/97476/000009747626000176/"
+  },
+  {
+   "acc": "0000097476-26-000174",
+   "date": "2026-10-27",
+   "name": "PATSLEY PAMELA H",
+   "role": "Director",
+   "code": "M",
+   "shares": 4532.0,
+   "price": 104.41,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/97476/000009747626000174/"
+  },
+  {
+   "acc": "0000097476-26-000174",
+   "date": "2026-10-27",
+   "name": "PATSLEY PAMELA H",
+   "role": "Director",
+   "code": "S",
+   "shares": 4532.0,
+   "price": 301.56,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/97476/000009747626000174/"
+  },
+  {
+   "acc": "0000097476-26-000172",
+   "date": "2026-10-27",
+   "name": "SANCHEZ ROBERT E",
+   "role": "Director",
+   "code": "M",
+   "shares": 6065.0,
+   "price": 79.26,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/97476/000009747626000172/"
+  },
+  {
+   "acc": "0000097476-26-000172",
+   "date": "2026-10-27",
+   "name": "SANCHEZ ROBERT E",
+   "role": "Director",
+   "code": "S",
+   "shares": 5588.0,
+   "price": 302.14,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/97476/000009747626000172/"
+  },
+  {
+   "acc": "0000097476-26-000172",
+   "date": "2026-10-27",
+   "name": "SANCHEZ ROBERT E",
+   "role": "Director",
+   "code": "S",
+   "shares": 477.0,
+   "price": 303.07,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/97476/000009747626000172/"
+  },
   {
    "acc": "0000097476-26-000156",
    "date": "2026-08-27",

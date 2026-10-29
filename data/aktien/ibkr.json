@@ -6,7 +6,7 @@
  "rank": 83,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-10-29T00:11:16Z",
+ "updated_at": "2026-10-29T21:24:52Z",
  "periodic_accs": [
   "0001047469-18-001166",
   "0001140361-19-004097",
@@ -682,6 +682,18 @@
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0001381197-26-000156",
+   "date": "2026-10-28",
+   "name": "Harris Lawrence E",
+   "role": "Director",
+   "code": "S",
+   "shares": 25000.0,
+   "price": 82.61,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1381197/000138119726000156/"
+  },
   {
    "acc": "0001381197-26-000151",
    "date": "2026-10-01",

@@ -6,7 +6,7 @@
  "rank": 77,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-10-29T00:04:22Z",
+ "updated_at": "2026-10-29T21:23:53Z",
  "periodic_accs": [
   "0000313616-20-000093",
   "0000313616-20-000120",
@@ -778,6 +778,90 @@
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0000313616-26-000205",
+   "date": "2026-10-28",
+   "name": "Bouda Christopher",
+   "role": "VP, Chief Accounting Officer",
+   "code": "M",
+   "shares": 4345.0,
+   "price": 70.74,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/313616/000031361626000205/"
+  },
+  {
+   "acc": "0000313616-26-000205",
+   "date": "2026-10-28",
+   "name": "Bouda Christopher",
+   "role": "VP, Chief Accounting Officer",
+   "code": "S",
+   "shares": 4345.0,
+   "price": 234.537,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/313616/000031361626000205/"
+  },
+  {
+   "acc": "0000313616-26-000205",
+   "date": "2026-10-28",
+   "name": "Bouda Christopher",
+   "role": "VP, Chief Accounting Officer",
+   "code": "M",
+   "shares": 3253.0,
+   "price": 70.74,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/313616/000031361626000205/"
+  },
+  {
+   "acc": "0000313616-26-000205",
+   "date": "2026-10-28",
+   "name": "Bouda Christopher",
+   "role": "VP, Chief Accounting Officer",
+   "code": "S",
+   "shares": 3253.0,
+   "price": 234.5816,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/313616/000031361626000205/"
+  },
+  {
+   "acc": "0000313616-26-000204",
+   "date": "2026-10-28",
+   "name": "McGrew Matthew",
+   "role": "Executive Vice President",
+   "code": "S",
+   "shares": 14151.0,
+   "price": 235.3523,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/313616/000031361626000204/"
+  },
+  {
+   "acc": "0000313616-26-000204",
+   "date": "2026-10-28",
+   "name": "McGrew Matthew",
+   "role": "Executive Vice President",
+   "code": "M",
+   "shares": 15603.0,
+   "price": 76.47,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/313616/000031361626000204/"
+  },
+  {
+   "acc": "0000313616-26-000204",
+   "date": "2026-10-28",
+   "name": "McGrew Matthew",
+   "role": "Executive Vice President",
+   "code": "S",
+   "shares": 15603.0,
+   "price": 236.0939,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/313616/000031361626000204/"
+  },
   {
    "acc": "0001193125-26-421728",
    "date": "2026-10-09",
