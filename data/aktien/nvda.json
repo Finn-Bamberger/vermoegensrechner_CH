@@ -6,7 +6,7 @@
  "rank": 1,
  "source": "SEC EDGAR",
  "fiscal_year_end": "0131",
- "updated_at": "2026-10-29T02:36:49Z",
+ "updated_at": "2026-10-30T01:12:52Z",
  "periodic_accs": [
   "0001045810-20-000189",
   "0001045810-21-000010",
@@ -821,8 +821,8 @@
   "filed": "2026-08-26"
  },
  "quote": {
-  "price": 215.38,
-  "date": "2026-10-28",
+  "price": 213.66,
+  "date": "2026-10-29",
   "source": "Yahoo Finance"
  },
  "insiders": [
@@ -5613,66 +5613,6 @@
    "ad": "D",
    "plan_10b5_1": true,
    "url": "https://www.sec.gov/Archives/edgar/data/1045810/000119764925000040/"
-  },
-  {
-   "acc": "0001197649-25-000038",
-   "date": "2025-09-24",
-   "name": "HUANG JEN HSUN",
-   "role": "President and CEO",
-   "code": "S",
-   "shares": 9548.0,
-   "price": 176.1223,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000119764925000038/"
-  },
-  {
-   "acc": "0001197649-25-000038",
-   "date": "2025-09-24",
-   "name": "HUANG JEN HSUN",
-   "role": "President and CEO",
-   "code": "S",
-   "shares": 29827.0,
-   "price": 176.963,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000119764925000038/"
-  },
-  {
-   "acc": "0001197649-25-000038",
-   "date": "2025-09-24",
-   "name": "HUANG JEN HSUN",
-   "role": "President and CEO",
-   "code": "S",
-   "shares": 20588.0,
-   "price": 178.2274,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000119764925000038/"
-  },
-  {
-   "acc": "0001197649-25-000038",
-   "date": "2025-09-24",
-   "name": "HUANG JEN HSUN",
-   "role": "President and CEO",
-   "code": "S",
-   "shares": 14767.0,
-   "price": 178.9312,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000119764925000038/"
-  },
-  {
-   "acc": "0001197649-25-000038",
-   "date": "2025-09-24",
-   "name": "HUANG JEN HSUN",
-   "role": "President and CEO",
-   "code": "S",
-   "shares": 270.0,
-   "price": 179.61,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000119764925000038/"
   }
  ]
 }

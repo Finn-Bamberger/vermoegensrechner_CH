@@ -6,7 +6,7 @@
  "rank": 8,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1101",
- "updated_at": "2026-10-29T02:37:20Z",
+ "updated_at": "2026-10-30T01:13:35Z",
  "periodic_accs": [
   "0001730168-18-000019",
   "0001730168-18-000039",
@@ -792,8 +792,8 @@
   "filed": "2026-09-10"
  },
  "quote": {
-  "price": 351.81,
-  "date": "2026-10-28",
+  "price": 345.0,
+  "date": "2026-10-29",
   "source": "Yahoo Finance"
  },
  "insiders": [
@@ -4552,90 +4552,6 @@
    "ad": "D",
    "plan_10b5_1": true,
    "url": "https://www.sec.gov/Archives/edgar/data/1730168/000135956125000007/"
-  },
-  {
-   "acc": "0001104659-25-093914",
-   "date": "2025-09-24",
-   "name": "SAMUELI HENRY",
-   "role": "Director",
-   "code": "S",
-   "shares": 15532.0,
-   "price": 334.59,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/1730168/000110465925093914/"
-  },
-  {
-   "acc": "0001104659-25-093914",
-   "date": "2025-09-24",
-   "name": "SAMUELI HENRY",
-   "role": "Director",
-   "code": "S",
-   "shares": 33702.0,
-   "price": 335.5,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/1730168/000110465925093914/"
-  },
-  {
-   "acc": "0001104659-25-093914",
-   "date": "2025-09-24",
-   "name": "SAMUELI HENRY",
-   "role": "Director",
-   "code": "S",
-   "shares": 49859.0,
-   "price": 336.56,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/1730168/000110465925093914/"
-  },
-  {
-   "acc": "0001104659-25-093914",
-   "date": "2025-09-24",
-   "name": "SAMUELI HENRY",
-   "role": "Director",
-   "code": "S",
-   "shares": 73344.0,
-   "price": 337.57,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/1730168/000110465925093914/"
-  },
-  {
-   "acc": "0001104659-25-093914",
-   "date": "2025-09-24",
-   "name": "SAMUELI HENRY",
-   "role": "Director",
-   "code": "S",
-   "shares": 72258.0,
-   "price": 338.5,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/1730168/000110465925093914/"
-  },
-  {
-   "acc": "0001104659-25-093914",
-   "date": "2025-09-24",
-   "name": "SAMUELI HENRY",
-   "role": "Director",
-   "code": "S",
-   "shares": 124102.0,
-   "price": 339.38,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/1730168/000110465925093914/"
-  },
-  {
-   "acc": "0001104659-25-093914",
-   "date": "2025-09-24",
-   "name": "SAMUELI HENRY",
-   "role": "Director",
-   "code": "G",
-   "shares": 75678.0,
-   "price": 0.0,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/1730168/000110465925093914/"
   }
  ]
 }

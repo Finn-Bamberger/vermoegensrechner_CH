@@ -6,7 +6,7 @@
  "rank": 10,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-10-28T23:23:59Z",
+ "updated_at": "2026-10-30T01:13:38Z",
  "periodic_accs": [
   "0000950123-19-009995",
   "0000950170-22-022287",
@@ -620,11 +620,23 @@
   "filed": "2011-05-06"
  },
  "quote": {
-  "price": 540.34,
-  "date": "2026-10-28",
+  "price": 541.96,
+  "date": "2026-10-29",
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0001193125-26-438090",
+   "date": "2026-10-27",
+   "name": "BERKSHIRE HATHAWAY INC",
+   "role": "10%-Aktionär",
+   "code": "S",
+   "shares": 382563.0,
+   "price": 180.4305,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526438090/"
+  },
   {
    "acc": "0001728451-26-000005",
    "date": "2026-10-21",
@@ -1668,18 +1680,6 @@
    "ad": "D",
    "plan_10b5_1": false,
    "url": "https://www.sec.gov/Archives/edgar/data/1067983/000172845125000008/"
-  },
-  {
-   "acc": "0001728451-25-000007",
-   "date": "2025-09-24",
-   "name": "Jain Ajit",
-   "role": "Vice Chairman",
-   "code": "G",
-   "shares": 32.0,
-   "price": null,
-   "ad": "D",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/1067983/000172845125000007/"
   }
  ]
 }

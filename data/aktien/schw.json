@@ -6,7 +6,7 @@
  "rank": 73,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-10-29T02:42:08Z",
+ "updated_at": "2026-10-30T01:34:02Z",
  "periodic_accs": [
   "0000316709-21-000062",
   "0000316709-21-000081",
@@ -731,11 +731,35 @@
   "filed": "2026-08-07"
  },
  "quote": {
-  "price": 88.76,
-  "date": "2026-10-28",
+  "price": 89.47,
+  "date": "2026-10-29",
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0000923738-26-000048",
+   "date": "2026-10-29",
+   "name": "Schwab Charles R.",
+   "role": "Co-Chairman",
+   "code": "S",
+   "shares": 136400.0,
+   "price": 89.5005,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/316709/000092373826000048/"
+  },
+  {
+   "acc": "0000923738-26-000048",
+   "date": "2026-10-28",
+   "name": "Schwab Charles R.",
+   "role": "Co-Chairman",
+   "code": "S",
+   "shares": 66750.0,
+   "price": 88.3559,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/316709/000092373826000048/"
+  },
   {
    "acc": "0001879974-26-000015",
    "date": "2026-10-01",
