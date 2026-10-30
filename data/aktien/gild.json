@@ -6,7 +6,7 @@
  "rank": 60,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-10-30T01:19:42Z",
+ "updated_at": "2026-10-30T14:32:31Z",
  "periodic_accs": [
   "0000882095-18-000015",
   "0000882095-18-000022",
@@ -42,9 +42,18 @@
   "0000882095-25-000047",
   "0000882095-26-000006",
   "0000882095-26-000024",
-  "0000882095-26-000031"
+  "0000882095-26-000031",
+  "0000882095-26-000039"
  ],
  "filings": [
+  {
+   "form": "10-Q",
+   "date": "2026-10-30",
+   "report_date": "2026-09-30",
+   "items": "",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/882095/000088209526000039/gild-20260930.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/882095/000088209526000039/0000882095-26-000039-index.htm"
+  },
   {
    "form": "8-K",
    "date": "2026-10-29",
@@ -356,29 +365,9 @@
    "items": "2.02,9.01",
    "doc_url": "https://www.sec.gov/Archives/edgar/data/882095/000088209524000003/gild-20240206.htm",
    "index_url": "https://www.sec.gov/Archives/edgar/data/882095/000088209524000003/0000882095-24-000003-index.htm"
-  },
-  {
-   "form": "8-K",
-   "date": "2024-02-02",
-   "report_date": "2024-02-01",
-   "items": "5.02,9.01",
-   "doc_url": "https://www.sec.gov/Archives/edgar/data/882095/000110465924010051/tm244922d1_8k.htm",
-   "index_url": "https://www.sec.gov/Archives/edgar/data/882095/000110465924010051/0001104659-24-010051-index.htm"
   }
  ],
  "quarters": [
-  {
-   "end": "2020-09-30",
-   "revenue": 6577000000,
-   "operating_income": 2001000000,
-   "net_income": 360000000,
-   "op_cash_flow": 2250000000,
-   "gross_profit": 5352000000,
-   "capex": 155000000,
-   "sbc": 173000000,
-   "diluted_shares": 1261000000,
-   "securities": 11089000000
-  },
   {
    "end": "2020-12-31",
    "revenue": 7421000000,
@@ -651,6 +640,18 @@
    "diluted_shares": 1243000000,
    "securities": 0,
    "debt": 26246000000
+  },
+  {
+   "end": "2026-09-30",
+   "revenue": 8300000000,
+   "operating_income": 3462000000,
+   "net_income": 2429000000,
+   "op_cash_flow": 5035000000,
+   "capex": 237000000,
+   "sbc": 234000000,
+   "diluted_shares": 1251000000,
+   "securities": 0,
+   "debt": 26231000000
   }
  ],
  "annual": [
@@ -778,9 +779,9 @@
   }
  ],
  "shares_outstanding": {
-  "shares": 1239955155,
-  "as_of": "2026-07-31",
-  "filed": "2026-08-06"
+  "shares": 1240338614,
+  "as_of": "2026-10-23",
+  "filed": "2026-10-30"
  },
  "quote": {
   "price": 165.61,
