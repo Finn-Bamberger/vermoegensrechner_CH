@@ -6,7 +6,7 @@
  "rank": 42,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-10-30T01:16:40Z",
+ "updated_at": "2026-10-30T23:29:10Z",
  "periodic_accs": [
   "0000097476-19-000009",
   "0000097476-20-000009",
@@ -851,11 +851,35 @@
   "filed": "2026-10-23"
  },
  "quote": {
-  "price": 312.94,
-  "date": "2026-10-29",
+  "price": 300.84,
+  "date": "2026-10-30",
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0000097476-26-000178",
+   "date": "2026-10-29",
+   "name": "KIRK RONALD",
+   "role": "Director",
+   "code": "M",
+   "shares": 6065.0,
+   "price": 79.26,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/97476/000009747626000178/"
+  },
+  {
+   "acc": "0000097476-26-000178",
+   "date": "2026-10-29",
+   "name": "KIRK RONALD",
+   "role": "Director",
+   "code": "S",
+   "shares": 6065.0,
+   "price": 310.39,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/97476/000009747626000178/"
+  },
   {
    "acc": "0000097476-26-000176",
    "date": "2026-10-27",

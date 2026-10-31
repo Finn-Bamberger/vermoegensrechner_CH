@@ -6,7 +6,7 @@
  "rank": 47,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-10-30T19:40:32Z",
+ "updated_at": "2026-10-30T23:29:34Z",
  "periodic_accs": [
   "0000097745-19-000049",
   "0000097745-20-000009",
@@ -39,6 +39,14 @@
   "0000097745-26-000179"
  ],
  "filings": [
+  {
+   "form": "8-K",
+   "date": "2026-10-30",
+   "report_date": "2026-10-27",
+   "items": "5.02",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/97745/000009774526000181/tmo-20261027.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/97745/000009774526000181/0000097745-26-000181-index.htm"
+  },
   {
    "form": "10-Q",
    "date": "2026-10-30",
@@ -350,14 +358,6 @@
    "items": "2.02,9.01",
    "doc_url": "https://www.sec.gov/Archives/edgar/data/97745/000009774524000003/tmo-20240131.htm",
    "index_url": "https://www.sec.gov/Archives/edgar/data/97745/000009774524000003/0000097745-24-000003-index.htm"
-  },
-  {
-   "form": "8-K",
-   "date": "2023-12-05",
-   "report_date": "2023-12-05",
-   "items": "1.01,8.01,9.01",
-   "doc_url": "https://www.sec.gov/Archives/edgar/data/97745/000114036123056365/ny20015413x4_8k.htm",
-   "index_url": "https://www.sec.gov/Archives/edgar/data/97745/000114036123056365/0001140361-23-056365-index.htm"
   }
  ],
  "quarters": [
@@ -764,11 +764,35 @@
   "filed": "2026-10-30"
  },
  "quote": {
-  "price": 709.18,
-  "date": "2026-10-29",
+  "price": 697.0,
+  "date": "2026-10-30",
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0000097745-26-000183",
+   "date": "2026-10-28",
+   "name": "SPERLING SCOTT M",
+   "role": "Director",
+   "code": "G",
+   "shares": 3490.0,
+   "price": 0.0,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/97745/000009774526000183/"
+  },
+  {
+   "acc": "0000097745-26-000182",
+   "date": "2026-10-28",
+   "name": "Britt Lisa P.",
+   "role": "Sr. VP and Chief HR Officer",
+   "code": "S",
+   "shares": 2831.0,
+   "price": 706.45,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/97745/000009774526000182/"
+  },
   {
    "acc": "0000097745-26-000162",
    "date": "2026-08-31",

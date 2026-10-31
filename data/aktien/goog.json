@@ -6,7 +6,7 @@
  "rank": 3,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-10-30T01:13:02Z",
+ "updated_at": "2026-10-30T23:26:08Z",
  "periodic_accs": [
   "0001652044-23-000094",
   "0001652044-24-000022",
@@ -741,8 +741,8 @@
  ],
  "shares_outstanding": null,
  "quote": {
-  "price": 282.32,
-  "date": "2026-10-29",
+  "price": 278.22,
+  "date": "2026-10-30",
   "source": "Yahoo Finance"
  },
  "insiders": [
@@ -757,6 +757,18 @@
    "ad": "D",
    "plan_10b5_1": false,
    "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526025268/"
+  },
+  {
+   "acc": "0001193125-26-442116",
+   "date": "2026-10-29",
+   "name": "ARNOLD FRANCES",
+   "role": "Director",
+   "code": "S",
+   "shares": 82.0,
+   "price": 284.0,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526442116/"
   },
   {
    "acc": "0001193125-26-434846",

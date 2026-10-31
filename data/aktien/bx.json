@@ -6,7 +6,7 @@
  "rank": 89,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-10-30T01:52:26Z",
+ "updated_at": "2026-10-31T00:11:02Z",
  "periodic_accs": [
   "0001193125-17-251308",
   "0001193125-17-335723",
@@ -746,11 +746,35 @@
   "filed": "2026-08-07"
  },
  "quote": {
-  "price": 120.6,
-  "date": "2026-10-29",
+  "price": 118.51,
+  "date": "2026-10-30",
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0001193125-26-441717",
+   "date": "2026-10-30",
+   "name": "Finley John G",
+   "role": "Chief Legal Officer",
+   "code": "G",
+   "shares": 2000.0,
+   "price": 0.0,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1393818/000119312526441717/"
+  },
+  {
+   "acc": "0001193125-26-441717",
+   "date": "2026-10-30",
+   "name": "Finley John G",
+   "role": "Chief Legal Officer",
+   "code": "G",
+   "shares": 2000.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1393818/000119312526441717/"
+  },
   {
    "acc": "0001213900-26-112119",
    "date": "2026-10-21",
@@ -2742,30 +2766,6 @@
    "ad": "A",
    "plan_10b5_1": false,
    "url": "https://www.sec.gov/Archives/edgar/data/1393818/000121390025100922/"
-  },
-  {
-   "acc": "0001193125-25-220808",
-   "date": "2025-09-25",
-   "name": "Baratta Joseph",
-   "role": "Director",
-   "code": "S",
-   "shares": 109202.0,
-   "price": 175.67,
-   "ad": "D",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/1393818/000119312525220808/"
-  },
-  {
-   "acc": "0001193125-25-220808",
-   "date": "2025-09-25",
-   "name": "Baratta Joseph",
-   "role": "Director",
-   "code": "S",
-   "shares": 3798.0,
-   "price": 176.4,
-   "ad": "D",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/1393818/000119312525220808/"
   }
  ]
 }

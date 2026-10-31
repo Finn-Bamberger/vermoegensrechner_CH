@@ -6,7 +6,7 @@
  "rank": 28,
  "source": "SEC EDGAR",
  "fiscal_year_end": "0630",
- "updated_at": "2026-10-30T01:15:00Z",
+ "updated_at": "2026-10-30T23:27:46Z",
  "periodic_accs": [
   "0000080424-22-000102",
   "0000080424-23-000014",
@@ -27,6 +27,14 @@
   "0000080424-26-000256"
  ],
  "filings": [
+  {
+   "form": "8-K",
+   "date": "2026-10-30",
+   "report_date": "2026-10-30",
+   "items": "8.01,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/80424/000162828026068591/pg-20261030.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/80424/000162828026068591/0001628280-26-068591-index.htm"
+  },
   {
    "form": "10-Q",
    "date": "2026-10-22",
@@ -338,14 +346,6 @@
    "items": "7.01,9.01",
    "doc_url": "https://www.sec.gov/Archives/edgar/data/80424/000008042425000025/april2025dividend.htm",
    "index_url": "https://www.sec.gov/Archives/edgar/data/80424/000008042425000025/0000080424-25-000025-index.htm"
-  },
-  {
-   "form": "10-Q",
-   "date": "2025-01-22",
-   "report_date": "2024-12-31",
-   "items": "",
-   "doc_url": "https://www.sec.gov/Archives/edgar/data/80424/000008042425000013/pg-20241231.htm",
-   "index_url": "https://www.sec.gov/Archives/edgar/data/80424/000008042425000013/0000080424-25-000013-index.htm"
   }
  ],
  "quarters": [
@@ -729,8 +729,8 @@
   "filed": "2026-10-22"
  },
  "quote": {
-  "price": 160.59,
-  "date": "2026-10-29",
+  "price": 161.57,
+  "date": "2026-10-30",
   "source": "Yahoo Finance"
  },
  "insiders": [

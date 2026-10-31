@@ -6,7 +6,7 @@
  "rank": 97,
  "source": "SEC EDGAR",
  "fiscal_year_end": "0630",
- "updated_at": "2026-10-30T02:01:41Z",
+ "updated_at": "2026-10-31T00:20:12Z",
  "periodic_accs": [
   "0000076334-17-000132",
   "0000076334-18-000011",
@@ -784,11 +784,107 @@
   "filed": "2026-08-21"
  },
  "quote": {
-  "price": 928.45,
-  "date": "2026-10-29",
+  "price": 899.82,
+  "date": "2026-10-30",
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0000076334-26-000158",
+   "date": "2026-10-28",
+   "name": "Wozniak Beth",
+   "role": "Director",
+   "code": "A",
+   "shares": 205.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/76334/000007633426000158/"
+  },
+  {
+   "acc": "0000076334-26-000156",
+   "date": "2026-10-28",
+   "name": "Fleming Denise R.",
+   "role": "Director",
+   "code": "A",
+   "shares": 205.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/76334/000007633426000156/"
+  },
+  {
+   "acc": "0000076334-26-000154",
+   "date": "2026-10-28",
+   "name": "FRITZ LANCE M",
+   "role": "Director",
+   "code": "A",
+   "shares": 205.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/76334/000007633426000154/"
+  },
+  {
+   "acc": "0000076334-26-000152",
+   "date": "2026-10-28",
+   "name": "Harty Linda S",
+   "role": "Director",
+   "code": "A",
+   "shares": 205.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/76334/000007633426000152/"
+  },
+  {
+   "acc": "0000076334-26-000150",
+   "date": "2026-10-28",
+   "name": "Savage Jean",
+   "role": "Director",
+   "code": "A",
+   "shares": 205.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/76334/000007633426000150/"
+  },
+  {
+   "acc": "0000076334-26-000148",
+   "date": "2026-10-28",
+   "name": "Thompson Laura K",
+   "role": "Director",
+   "code": "A",
+   "shares": 205.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/76334/000007633426000148/"
+  },
+  {
+   "acc": "0000076334-26-000147",
+   "date": "2026-10-28",
+   "name": "WAINSCOTT JAMES L",
+   "role": "Director",
+   "code": "A",
+   "shares": 205.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/76334/000007633426000147/"
+  },
+  {
+   "acc": "0000076334-26-000145",
+   "date": "2026-10-28",
+   "name": "Verrier James",
+   "role": "Director",
+   "code": "A",
+   "shares": 205.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/76334/000007633426000145/"
+  },
   {
    "acc": "0000076334-26-000139",
    "date": "2026-09-09",
