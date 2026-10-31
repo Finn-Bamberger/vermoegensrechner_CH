@@ -6,7 +6,7 @@
  "rank": 22,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-10-30T23:27:24Z",
+ "updated_at": "2026-10-31T02:39:27Z",
  "periodic_accs": [
   "0000950123-21-010430",
   "0001193125-20-292177",
@@ -776,6 +776,42 @@
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0001823923-26-000015",
+   "date": "2026-10-28",
+   "name": "Taylor Ryan D.",
+   "role": "See Remarks",
+   "code": "A",
+   "shares": 211208.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1321655/000182392326000015/"
+  },
+  {
+   "acc": "0001824159-26-000015",
+   "date": "2026-10-28",
+   "name": "Sankar Shyam",
+   "role": "See Remarks",
+   "code": "A",
+   "shares": 564830.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1321655/000182415926000015/"
+  },
+  {
+   "acc": "0001823940-26-000012",
+   "date": "2026-10-28",
+   "name": "Glazer David A.",
+   "role": "See Remarks",
+   "code": "A",
+   "shares": 211208.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1321655/000182394026000012/"
+  },
   {
    "acc": "0001823952-26-000024",
    "date": "2026-10-15",

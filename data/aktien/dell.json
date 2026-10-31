@@ -6,7 +6,7 @@
  "rank": 35,
  "source": "SEC EDGAR",
  "fiscal_year_end": "0129",
- "updated_at": "2026-10-30T23:28:38Z",
+ "updated_at": "2026-10-31T02:40:43Z",
  "periodic_accs": [
   "0001571996-24-000036",
   "0001571996-24-000062",
@@ -40531,126 +40531,6 @@
    "ad": "A",
    "plan_10b5_1": false,
    "url": "https://www.sec.gov/Archives/edgar/data/1571996/000208680025000006/"
-  },
-  {
-   "acc": "0001193125-25-223271",
-   "date": "2025-09-25",
-   "name": "SLTA V (GP), L.L.C.",
-   "role": "Director",
-   "code": "J",
-   "shares": 135692.0,
-   "price": null,
-   "ad": "D",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/1571996/000119312525223271/"
-  },
-  {
-   "acc": "0001193125-25-223271",
-   "date": "2025-09-25",
-   "name": "SLTA V (GP), L.L.C.",
-   "role": "Director",
-   "code": "J",
-   "shares": 100400.0,
-   "price": null,
-   "ad": "D",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/1571996/000119312525223271/"
-  },
-  {
-   "acc": "0001193125-25-223271",
-   "date": "2025-09-25",
-   "name": "SLTA V (GP), L.L.C.",
-   "role": "Director",
-   "code": "J",
-   "shares": 63813.0,
-   "price": null,
-   "ad": "D",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/1571996/000119312525223271/"
-  },
-  {
-   "acc": "0001193125-25-223271",
-   "date": "2025-09-25",
-   "name": "SLTA V (GP), L.L.C.",
-   "role": "Director",
-   "code": "S",
-   "shares": 6701.0,
-   "price": 130.62,
-   "ad": "D",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/1571996/000119312525223271/"
-  },
-  {
-   "acc": "0001193125-25-223271",
-   "date": "2025-09-25",
-   "name": "SLTA V (GP), L.L.C.",
-   "role": "Director",
-   "code": "S",
-   "shares": 5780.0,
-   "price": 130.62,
-   "ad": "D",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/1571996/000119312525223271/"
-  },
-  {
-   "acc": "0001193125-25-223269",
-   "date": "2025-09-25",
-   "name": "SLTA IV (GP), L.L.C.",
-   "role": "Director",
-   "code": "J",
-   "shares": 135692.0,
-   "price": null,
-   "ad": "D",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/1571996/000119312525223269/"
-  },
-  {
-   "acc": "0001193125-25-223269",
-   "date": "2025-09-25",
-   "name": "SLTA IV (GP), L.L.C.",
-   "role": "Director",
-   "code": "J",
-   "shares": 100400.0,
-   "price": null,
-   "ad": "D",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/1571996/000119312525223269/"
-  },
-  {
-   "acc": "0001193125-25-223269",
-   "date": "2025-09-25",
-   "name": "SLTA IV (GP), L.L.C.",
-   "role": "Director",
-   "code": "J",
-   "shares": 63813.0,
-   "price": null,
-   "ad": "D",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/1571996/000119312525223269/"
-  },
-  {
-   "acc": "0001193125-25-223269",
-   "date": "2025-09-25",
-   "name": "SLTA IV (GP), L.L.C.",
-   "role": "Director",
-   "code": "S",
-   "shares": 6701.0,
-   "price": 130.62,
-   "ad": "D",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/1571996/000119312525223269/"
-  },
-  {
-   "acc": "0001193125-25-223269",
-   "date": "2025-09-25",
-   "name": "SLTA IV (GP), L.L.C.",
-   "role": "Director",
-   "code": "S",
-   "shares": 5780.0,
-   "price": 130.62,
-   "ad": "D",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/1571996/000119312525223269/"
   }
  ]
 }

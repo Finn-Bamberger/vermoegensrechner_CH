@@ -6,7 +6,7 @@
  "rank": 52,
  "source": "SEC EDGAR",
  "fiscal_year_end": "0130",
- "updated_at": "2026-10-30T23:30:01Z",
+ "updated_at": "2026-10-31T02:42:04Z",
  "periodic_accs": [
   "0001835632-21-000010",
   "0001835632-21-000022",
@@ -3676,54 +3676,6 @@
    "ad": "D",
    "plan_10b5_1": false,
    "url": "https://www.sec.gov/Archives/edgar/data/1835632/000162828025045262/"
-  },
-  {
-   "acc": "0001628280-25-042725",
-   "date": "2025-09-25",
-   "name": "Meintjes Willem A",
-   "role": "Chief Financial Officer",
-   "code": "P",
-   "shares": 3400.0,
-   "price": 78.03,
-   "ad": "A",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/1835632/000162828025042725/"
-  },
-  {
-   "acc": "0001628280-25-042723",
-   "date": "2025-09-25",
-   "name": "Bharathi Sandeep",
-   "role": "President, Data Center Group",
-   "code": "P",
-   "shares": 3400.0,
-   "price": 78.03,
-   "ad": "A",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/1835632/000162828025042723/"
-  },
-  {
-   "acc": "0001628280-25-042721",
-   "date": "2025-09-25",
-   "name": "Koopmans Chris",
-   "role": "President and COO",
-   "code": "P",
-   "shares": 6800.0,
-   "price": 78.03,
-   "ad": "A",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/1835632/000162828025042721/"
-  },
-  {
-   "acc": "0001628280-25-042718",
-   "date": "2025-09-25",
-   "name": "MURPHY MATTHEW J",
-   "role": "Chairman of the Board and CEO",
-   "code": "P",
-   "shares": 13600.0,
-   "price": 77.09,
-   "ad": "A",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/1835632/000162828025042718/"
   }
  ]
 }

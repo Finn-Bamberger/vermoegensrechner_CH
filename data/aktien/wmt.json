@@ -6,7 +6,7 @@
  "rank": 14,
  "source": "SEC EDGAR",
  "fiscal_year_end": "0131",
- "updated_at": "2026-10-30T23:26:48Z",
+ "updated_at": "2026-10-31T02:38:52Z",
  "periodic_accs": [
   "0000104169-23-000097",
   "0000104169-23-000132",
@@ -4206,18 +4206,6 @@
    "ad": "A",
    "plan_10b5_1": false,
    "url": "https://www.sec.gov/Archives/edgar/data/104169/000161617225000007/"
-  },
-  {
-   "acc": "0001335782-25-000010",
-   "date": "2025-09-25",
-   "name": "McMillon C Douglas",
-   "role": "President and CEO",
-   "code": "S",
-   "shares": 19416.0,
-   "price": 103.2132,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/104169/000133578225000010/"
   }
  ]
 }

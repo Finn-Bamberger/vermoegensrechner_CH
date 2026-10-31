@@ -6,7 +6,7 @@
  "rank": 12,
  "source": "SEC EDGAR",
  "fiscal_year_end": "0902",
- "updated_at": "2026-10-30T23:26:39Z",
+ "updated_at": "2026-10-31T02:38:43Z",
  "periodic_accs": [
   "0000723125-17-000131",
   "0000723125-17-000166",
@@ -7935,18 +7935,6 @@
    "ad": "D",
    "plan_10b5_1": true,
    "url": "https://www.sec.gov/Archives/edgar/data/723125/000163206325000006/"
-  },
-  {
-   "acc": "0001224905-25-000004",
-   "date": "2025-09-25",
-   "name": "BEYER RICHARD M",
-   "role": "Director",
-   "code": "S",
-   "shares": 5552.0,
-   "price": 155.68,
-   "ad": "D",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/723125/000122490525000004/"
   }
  ]
 }
