@@ -6,7 +6,7 @@
  "rank": 10,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-10-30T23:26:36Z",
+ "updated_at": "2026-11-01T01:48:14Z",
  "periodic_accs": [
   "0000950123-19-009995",
   "0000950170-22-022287",
@@ -1668,18 +1668,6 @@
    "ad": "D",
    "plan_10b5_1": false,
    "url": "https://www.sec.gov/Archives/edgar/data/1067983/000172845125000009/"
-  },
-  {
-   "acc": "0001728451-25-000008",
-   "date": "2025-09-26",
-   "name": "Jain Ajit",
-   "role": "Vice Chairman",
-   "code": "S",
-   "shares": 15000.0,
-   "price": null,
-   "ad": "D",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/1067983/000172845125000008/"
   }
  ]
 }

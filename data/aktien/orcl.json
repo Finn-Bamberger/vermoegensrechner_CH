@@ -6,7 +6,7 @@
  "rank": 26,
  "source": "SEC EDGAR",
  "fiscal_year_end": "0531",
- "updated_at": "2026-10-30T23:27:31Z",
+ "updated_at": "2026-11-01T01:49:03Z",
  "periodic_accs": [
   "0000950170-23-028914",
   "0000950170-23-047713",
@@ -1880,30 +1880,6 @@
    "ad": "D",
    "plan_10b5_1": true,
    "url": "https://www.sec.gov/Archives/edgar/data/1341439/000134143925000049/"
-  },
-  {
-   "acc": "0001341439-25-000040",
-   "date": "2025-09-26",
-   "name": "SELIGMAN NAOMI O",
-   "role": "Director",
-   "code": "S",
-   "shares": 2222.0,
-   "price": 288.91,
-   "ad": "D",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000134143925000040/"
-  },
-  {
-   "acc": "0001341439-25-000040",
-   "date": "2025-09-26",
-   "name": "SELIGMAN NAOMI O",
-   "role": "Director",
-   "code": "G",
-   "shares": 1406.0,
-   "price": 0.0,
-   "ad": "D",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000134143925000040/"
   }
  ]
 }
