@@ -6,7 +6,7 @@
  "rank": 31,
  "source": "SEC EDGAR",
  "fiscal_year_end": "0627",
- "updated_at": "2026-10-30T23:28:17Z",
+ "updated_at": "2026-11-02T21:54:07Z",
  "periodic_accs": [
   "0000707549-16-000014",
   "0000707549-16-000050",
@@ -816,6 +816,18 @@
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0001965462-26-000002",
+   "date": "2026-10-30",
+   "name": "Kang Ho Kyu",
+   "role": "Director",
+   "code": "F",
+   "shares": 491.0,
+   "price": 239.11,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/707549/000196546226000002/"
+  },
   {
    "acc": "0001343600-26-000015",
    "date": "2026-10-23",

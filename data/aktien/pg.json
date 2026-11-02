@@ -6,7 +6,7 @@
  "rank": 28,
  "source": "SEC EDGAR",
  "fiscal_year_end": "0630",
- "updated_at": "2026-10-30T23:27:46Z",
+ "updated_at": "2026-11-02T21:53:31Z",
  "periodic_accs": [
   "0000080424-22-000102",
   "0000080424-23-000014",
@@ -27,6 +27,14 @@
   "0000080424-26-000256"
  ],
  "filings": [
+  {
+   "form": "8-K",
+   "date": "2026-11-02",
+   "report_date": "2026-11-02",
+   "items": "8.01,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/80424/000162828026068909/pg-20261102.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/80424/000162828026068909/0001628280-26-068909-index.htm"
+  },
   {
    "form": "8-K",
    "date": "2026-10-30",
@@ -338,14 +346,6 @@
    "items": "2.02,9.01",
    "doc_url": "https://www.sec.gov/Archives/edgar/data/80424/000008042425000032/pg-20250424.htm",
    "index_url": "https://www.sec.gov/Archives/edgar/data/80424/000008042425000032/0000080424-25-000032-index.htm"
-  },
-  {
-   "form": "8-K",
-   "date": "2025-04-08",
-   "report_date": "2025-04-08",
-   "items": "7.01,9.01",
-   "doc_url": "https://www.sec.gov/Archives/edgar/data/80424/000008042425000025/april2025dividend.htm",
-   "index_url": "https://www.sec.gov/Archives/edgar/data/80424/000008042425000025/0000080424-25-000025-index.htm"
   }
  ],
  "quarters": [

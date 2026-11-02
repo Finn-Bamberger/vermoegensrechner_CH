@@ -6,7 +6,7 @@
  "rank": 80,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-10-31T00:01:02Z",
+ "updated_at": "2026-11-02T21:59:00Z",
  "periodic_accs": [
   "0001035267-19-000038",
   "0001035267-19-000088",
@@ -41,6 +41,14 @@
   "0001035267-26-000071"
  ],
  "filings": [
+  {
+   "form": "8-K",
+   "date": "2026-11-02",
+   "report_date": "2026-10-29",
+   "items": "5.02,7.01,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1035267/000103526726000074/isrg-20261029.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1035267/000103526726000074/0001035267-26-000074-index.htm"
+  },
   {
    "form": "10-Q",
    "date": "2026-10-21",
@@ -352,14 +360,6 @@
    "items": "5.02,7.01,9.01",
    "doc_url": "https://www.sec.gov/Archives/edgar/data/1035267/000103526723000203/isrg-20231026.htm",
    "index_url": "https://www.sec.gov/Archives/edgar/data/1035267/000103526723000203/0001035267-23-000203-index.htm"
-  },
-  {
-   "form": "10-Q",
-   "date": "2023-10-20",
-   "report_date": "2023-09-30",
-   "items": "",
-   "doc_url": "https://www.sec.gov/Archives/edgar/data/1035267/000103526723000196/isrg-20230930.htm",
-   "index_url": "https://www.sec.gov/Archives/edgar/data/1035267/000103526723000196/0001035267-23-000196-index.htm"
   }
  ],
  "quarters": [
@@ -813,6 +813,210 @@
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0002010300-26-000037",
+   "date": "2026-10-30",
+   "name": "Brosius Mark",
+   "role": "EVP & Chief Mfg and Supply Cha",
+   "code": "S",
+   "shares": 63.0,
+   "price": 453.6,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1035267/000201030026000037/"
+  },
+  {
+   "acc": "0001897970-26-000012",
+   "date": "2026-10-30",
+   "name": "Widman Fredrik",
+   "role": "VP Corporate Controller",
+   "code": "M",
+   "shares": 546.0,
+   "price": 79.6378,
+   "ad": "A",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1035267/000189797026000012/"
+  },
+  {
+   "acc": "0001897970-26-000012",
+   "date": "2026-10-30",
+   "name": "Widman Fredrik",
+   "role": "VP Corporate Controller",
+   "code": "M",
+   "shares": 312.0,
+   "price": 208.9,
+   "ad": "A",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1035267/000189797026000012/"
+  },
+  {
+   "acc": "0001897970-26-000012",
+   "date": "2026-10-30",
+   "name": "Widman Fredrik",
+   "role": "VP Corporate Controller",
+   "code": "M",
+   "shares": 325.0,
+   "price": 139.52,
+   "ad": "A",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1035267/000189797026000012/"
+  },
+  {
+   "acc": "0001897970-26-000012",
+   "date": "2026-10-30",
+   "name": "Widman Fredrik",
+   "role": "VP Corporate Controller",
+   "code": "M",
+   "shares": 307.0,
+   "price": 304.67,
+   "ad": "A",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1035267/000189797026000012/"
+  },
+  {
+   "acc": "0001897970-26-000012",
+   "date": "2026-10-30",
+   "name": "Widman Fredrik",
+   "role": "VP Corporate Controller",
+   "code": "M",
+   "shares": 307.0,
+   "price": 229.39,
+   "ad": "A",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1035267/000189797026000012/"
+  },
+  {
+   "acc": "0001897970-26-000012",
+   "date": "2026-10-30",
+   "name": "Widman Fredrik",
+   "role": "VP Corporate Controller",
+   "code": "M",
+   "shares": 312.0,
+   "price": 290.33,
+   "ad": "A",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1035267/000189797026000012/"
+  },
+  {
+   "acc": "0001897970-26-000012",
+   "date": "2026-10-30",
+   "name": "Widman Fredrik",
+   "role": "VP Corporate Controller",
+   "code": "M",
+   "shares": 406.0,
+   "price": 347.4167,
+   "ad": "A",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1035267/000189797026000012/"
+  },
+  {
+   "acc": "0001897970-26-000012",
+   "date": "2026-10-30",
+   "name": "Widman Fredrik",
+   "role": "VP Corporate Controller",
+   "code": "M",
+   "shares": 406.0,
+   "price": 245.6,
+   "ad": "A",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1035267/000189797026000012/"
+  },
+  {
+   "acc": "0001897970-26-000012",
+   "date": "2026-10-30",
+   "name": "Widman Fredrik",
+   "role": "VP Corporate Controller",
+   "code": "M",
+   "shares": 567.0,
+   "price": 242.3367,
+   "ad": "A",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1035267/000189797026000012/"
+  },
+  {
+   "acc": "0001897970-26-000012",
+   "date": "2026-10-30",
+   "name": "Widman Fredrik",
+   "role": "VP Corporate Controller",
+   "code": "M",
+   "shares": 567.0,
+   "price": 177.9867,
+   "ad": "A",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1035267/000189797026000012/"
+  },
+  {
+   "acc": "0001897970-26-000012",
+   "date": "2026-10-30",
+   "name": "Widman Fredrik",
+   "role": "VP Corporate Controller",
+   "code": "M",
+   "shares": 262.0,
+   "price": 166.6233,
+   "ad": "A",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1035267/000189797026000012/"
+  },
+  {
+   "acc": "0001897970-26-000012",
+   "date": "2026-10-30",
+   "name": "Widman Fredrik",
+   "role": "VP Corporate Controller",
+   "code": "M",
+   "shares": 263.0,
+   "price": 182.8333,
+   "ad": "A",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1035267/000189797026000012/"
+  },
+  {
+   "acc": "0001897970-26-000012",
+   "date": "2026-10-30",
+   "name": "Widman Fredrik",
+   "role": "VP Corporate Controller",
+   "code": "M",
+   "shares": 325.0,
+   "price": 174.2567,
+   "ad": "A",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1035267/000189797026000012/"
+  },
+  {
+   "acc": "0001897970-26-000012",
+   "date": "2026-10-30",
+   "name": "Widman Fredrik",
+   "role": "VP Corporate Controller",
+   "code": "M",
+   "shares": 543.0,
+   "price": 109.4856,
+   "ad": "A",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1035267/000189797026000012/"
+  },
+  {
+   "acc": "0001897970-26-000012",
+   "date": "2026-10-30",
+   "name": "Widman Fredrik",
+   "role": "VP Corporate Controller",
+   "code": "S",
+   "shares": 5448.0,
+   "price": 436.0551,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1035267/000189797026000012/"
+  },
+  {
+   "acc": "0002010300-26-000037",
+   "date": "2026-10-29",
+   "name": "Brosius Mark",
+   "role": "EVP & Chief Mfg and Supply Cha",
+   "code": "S",
+   "shares": 61.0,
+   "price": 447.85,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1035267/000201030026000037/"
+  },
   {
    "acc": "0002010300-26-000035",
    "date": "2026-10-28",

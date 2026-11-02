@@ -6,7 +6,7 @@
  "rank": 91,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-10-31T00:13:27Z",
+ "updated_at": "2026-11-02T22:03:21Z",
  "periodic_accs": [
   "0000875320-20-000030",
   "0000875320-20-000043",
@@ -35,6 +35,14 @@
   "0000875320-26-000259"
  ],
  "filings": [
+  {
+   "form": "8-K",
+   "date": "2026-11-02",
+   "report_date": "2026-11-02",
+   "items": "2.02,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/875320/000087532026000287/vrtx-20261102.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/875320/000087532026000287/0000875320-26-000287-index.htm"
+  },
   {
    "form": "8-K",
    "date": "2026-10-20",
@@ -346,14 +354,6 @@
    "items": "5.02",
    "doc_url": "https://www.sec.gov/Archives/edgar/data/875320/000087532023000047/vrtx-20231205.htm",
    "index_url": "https://www.sec.gov/Archives/edgar/data/875320/000087532023000047/0000875320-23-000047-index.htm"
-  },
-  {
-   "form": "10-Q",
-   "date": "2023-11-07",
-   "report_date": "2023-09-30",
-   "items": "",
-   "doc_url": "https://www.sec.gov/Archives/edgar/data/875320/000087532023000031/vrtx-20230930.htm",
-   "index_url": "https://www.sec.gov/Archives/edgar/data/875320/000087532023000031/0000875320-23-000031-index.htm"
   }
  ],
  "quarters": [
@@ -768,8 +768,8 @@
   "filed": "2026-08-04"
  },
  "quote": {
-  "price": 558.88,
-  "date": "2026-10-30",
+  "price": 553.15,
+  "date": "2026-11-02",
   "source": "Yahoo Finance"
  },
  "insiders": [

@@ -6,11 +6,20 @@
  "rank": 17,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-10-30T23:27:00Z",
+ "updated_at": "2026-11-02T21:52:28Z",
  "periodic_accs": [
-  "0000034088-26-000093"
+  "0000034088-26-000093",
+  "0002115436-26-000020"
  ],
  "filings": [
+  {
+   "form": "10-Q",
+   "date": "2026-11-02",
+   "report_date": "2026-09-30",
+   "items": "",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/2115436/000211543626000020/xom-20260930.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/2115436/000211543626000020/0002115436-26-000020-index.htm"
+  },
   {
    "form": "8-K",
    "date": "2026-10-30",
@@ -75,17 +84,32 @@
    "net_income": 7082000000
   },
   {
+   "end": "2025-09-30",
+   "revenue": 85294000000,
+   "net_income": 7548000000,
+   "op_cash_flow": 14788000000,
+   "capex": 8727000000
+  },
+  {
    "end": "2026-06-30",
    "revenue": 116017000000,
    "net_income": 14525000000,
    "cash": 10588000000
+  },
+  {
+   "end": "2026-09-30",
+   "revenue": 113164000000,
+   "net_income": 15413000000,
+   "op_cash_flow": 25650000000,
+   "capex": 7178000000,
+   "cash": 12153000000
   }
  ],
  "annual": [],
  "shares_outstanding": {
-  "shares": 4111911960,
-  "as_of": "2026-06-30",
-  "filed": "2026-08-03"
+  "shares": 4079222444,
+  "as_of": "2026-09-30",
+  "filed": "2026-11-02"
  },
  "quote": {
   "price": 187.25,
