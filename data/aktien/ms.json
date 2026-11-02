@@ -6,7 +6,7 @@
  "rank": 41,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-10-30T23:29:09Z",
+ "updated_at": "2026-11-02T12:11:18Z",
  "periodic_accs": [
   "0000895421-25-000539",
   "0000895421-26-000086",
@@ -418,6 +418,18 @@
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0001193125-26-442575",
+   "date": "2026-10-29",
+   "name": "MITSUBISHI UFJ FINANCIAL GROUP INC",
+   "role": "10%-Aktionär",
+   "code": "D",
+   "shares": 604396.0,
+   "price": 183.838,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/895421/000119312526442575/"
+  },
   {
    "acc": "0001193125-26-400093",
    "date": "2026-09-22",
