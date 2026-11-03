@@ -6,7 +6,7 @@
  "rank": 22,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-11-03T03:17:24Z",
+ "updated_at": "2026-11-03T11:12:21Z",
  "periodic_accs": [
   "0000950123-21-010430",
   "0001193125-20-292177",
@@ -31,9 +31,18 @@
   "0001321655-25-000131",
   "0001321655-26-000011",
   "0001321655-26-000028",
-  "0001321655-26-000041"
+  "0001321655-26-000041",
+  "0001321655-26-000048"
  ],
  "filings": [
+  {
+   "form": "10-Q",
+   "date": "2026-11-03",
+   "report_date": "2026-09-30",
+   "items": "",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000048/pltr-20260930.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000048/0001321655-26-000048-index.htm"
+  },
   {
    "form": "8-K",
    "date": "2026-11-02",
@@ -345,30 +354,9 @@
    "items": "3.03,5.03,5.07,9.01",
    "doc_url": "https://www.sec.gov/Archives/edgar/data/1321655/000119312522313008/d398605d8k.htm",
    "index_url": "https://www.sec.gov/Archives/edgar/data/1321655/000119312522313008/0001193125-22-313008-index.htm"
-  },
-  {
-   "form": "10-Q",
-   "date": "2022-11-07",
-   "report_date": "2022-09-30",
-   "items": "",
-   "doc_url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165522000032/pltr-20220930.htm",
-   "index_url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165522000032/0001321655-22-000032-index.htm"
   }
  ],
  "quarters": [
-  {
-   "end": "2020-09-30",
-   "revenue": 289366000,
-   "operating_income": -847777000,
-   "net_income": -853319000,
-   "op_cash_flow": -51990000,
-   "gross_profit": 140026000,
-   "capex": 1530000,
-   "sbc": 8400000,
-   "diluted_shares": 905462000,
-   "cash": 1800190000,
-   "debt": 197753000
-  },
   {
    "end": "2020-12-31",
    "revenue": 322091000,
@@ -661,6 +649,19 @@
    "diluted_shares": 2568694000,
    "cash": 2030047000,
    "securities": 7379052000
+  },
+  {
+   "end": "2026-09-30",
+   "revenue": 2313411000,
+   "operating_income": 1084845000,
+   "net_income": 1128012000,
+   "op_cash_flow": 1204570000,
+   "gross_profit": 1930125000,
+   "capex": 8014000,
+   "sbc": 318889000,
+   "diluted_shares": 2573926000,
+   "cash": 3619414000,
+   "securities": 6942117000
   }
  ],
  "annual": [
