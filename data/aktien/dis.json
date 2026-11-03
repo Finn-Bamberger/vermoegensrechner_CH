@@ -6,7 +6,7 @@
  "rank": 61,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1003",
- "updated_at": "2026-10-30T23:39:51Z",
+ "updated_at": "2026-11-03T03:27:47Z",
  "periodic_accs": [
   "0001193125-23-014219",
   "0001744489-20-000046",
@@ -744,8 +744,8 @@
   "filed": "2026-08-05"
  },
  "quote": {
-  "price": 110.94,
-  "date": "2026-10-30",
+  "price": 113.11,
+  "date": "2026-11-02",
   "source": "Yahoo Finance"
  },
  "insiders": [
@@ -2332,54 +2332,6 @@
    "ad": "A",
    "plan_10b5_1": false,
    "url": "https://www.sec.gov/Archives/edgar/data/1744489/000162828025043773/"
-  },
-  {
-   "acc": "0001628280-25-043216",
-   "date": "2025-09-28",
-   "name": "Schake Kristina K",
-   "role": "Sr. EVP and Chief Comm Officer",
-   "code": "M",
-   "shares": 249.0,
-   "price": null,
-   "ad": "A",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/1744489/000162828025043216/"
-  },
-  {
-   "acc": "0001628280-25-043216",
-   "date": "2025-09-28",
-   "name": "Schake Kristina K",
-   "role": "Sr. EVP and Chief Comm Officer",
-   "code": "F",
-   "shares": 90.0,
-   "price": 113.165,
-   "ad": "D",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/1744489/000162828025043216/"
-  },
-  {
-   "acc": "0001628280-25-043216",
-   "date": "2025-09-28",
-   "name": "Schake Kristina K",
-   "role": "Sr. EVP and Chief Comm Officer",
-   "code": "M",
-   "shares": 45.0,
-   "price": null,
-   "ad": "A",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/1744489/000162828025043216/"
-  },
-  {
-   "acc": "0001628280-25-043216",
-   "date": "2025-09-28",
-   "name": "Schake Kristina K",
-   "role": "Sr. EVP and Chief Comm Officer",
-   "code": "F",
-   "shares": 17.0,
-   "price": 113.165,
-   "ad": "D",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/1744489/000162828025043216/"
   }
  ]
 }

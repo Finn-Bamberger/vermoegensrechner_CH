@@ -6,7 +6,7 @@
  "rank": 20,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1226",
- "updated_at": "2026-10-30T23:27:13Z",
+ "updated_at": "2026-11-03T03:17:14Z",
  "periodic_accs": [
   "0000050863-19-000013",
   "0000050863-19-000023",
@@ -825,11 +825,83 @@
   "filed": "2026-10-30"
  },
  "quote": {
-  "price": 65.76,
-  "date": "2026-10-30",
+  "price": 59.97,
+  "date": "2026-11-02",
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0000050863-26-000194",
+   "date": "2026-10-30",
+   "name": "Chandrasekaran Nagasubramaniyan",
+   "role": "EVP, CT & Ops Off, GM Foundry",
+   "code": "M",
+   "shares": 33008.0,
+   "price": null,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000194/"
+  },
+  {
+   "acc": "0000050863-26-000194",
+   "date": "2026-10-30",
+   "name": "Chandrasekaran Nagasubramaniyan",
+   "role": "EVP, CT & Ops Off, GM Foundry",
+   "code": "F",
+   "shares": 14739.0,
+   "price": 65.99,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000194/"
+  },
+  {
+   "acc": "0000050863-26-000194",
+   "date": "2026-10-30",
+   "name": "Chandrasekaran Nagasubramaniyan",
+   "role": "EVP, CT & Ops Off, GM Foundry",
+   "code": "M",
+   "shares": 44010.0,
+   "price": null,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000194/"
+  },
+  {
+   "acc": "0000050863-26-000194",
+   "date": "2026-10-30",
+   "name": "Chandrasekaran Nagasubramaniyan",
+   "role": "EVP, CT & Ops Off, GM Foundry",
+   "code": "F",
+   "shares": 19651.0,
+   "price": 65.99,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000194/"
+  },
+  {
+   "acc": "0000050863-26-000194",
+   "date": "2026-10-30",
+   "name": "Chandrasekaran Nagasubramaniyan",
+   "role": "EVP, CT & Ops Off, GM Foundry",
+   "code": "M",
+   "shares": 102680.0,
+   "price": null,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000194/"
+  },
+  {
+   "acc": "0000050863-26-000194",
+   "date": "2026-10-30",
+   "name": "Chandrasekaran Nagasubramaniyan",
+   "role": "EVP, CT & Ops Off, GM Foundry",
+   "code": "F",
+   "shares": 45847.0,
+   "price": 65.99,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000194/"
+  },
   {
    "acc": "0000050863-26-000177",
    "date": "2026-08-11",

@@ -6,7 +6,7 @@
  "rank": 60,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-10-30T23:38:48Z",
+ "updated_at": "2026-11-03T03:26:44Z",
  "periodic_accs": [
   "0000882095-18-000015",
   "0000882095-18-000022",
@@ -784,11 +784,95 @@
   "filed": "2026-10-30"
  },
  "quote": {
-  "price": 170.68,
-  "date": "2026-10-30",
+  "price": 170.33,
+  "date": "2026-11-02",
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0001638643-26-000038",
+   "date": "2026-11-02",
+   "name": "O'Day Daniel Patrick",
+   "role": "Chairman & CEO",
+   "code": "S",
+   "shares": 1600.0,
+   "price": 167.3999,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/882095/000163864326000038/"
+  },
+  {
+   "acc": "0001638643-26-000038",
+   "date": "2026-11-02",
+   "name": "O'Day Daniel Patrick",
+   "role": "Chairman & CEO",
+   "code": "S",
+   "shares": 1700.0,
+   "price": 168.1006,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/882095/000163864326000038/"
+  },
+  {
+   "acc": "0001638643-26-000038",
+   "date": "2026-11-02",
+   "name": "O'Day Daniel Patrick",
+   "role": "Chairman & CEO",
+   "code": "S",
+   "shares": 1904.0,
+   "price": 169.2733,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/882095/000163864326000038/"
+  },
+  {
+   "acc": "0001638643-26-000038",
+   "date": "2026-11-02",
+   "name": "O'Day Daniel Patrick",
+   "role": "Chairman & CEO",
+   "code": "S",
+   "shares": 7796.0,
+   "price": 170.3527,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/882095/000163864326000038/"
+  },
+  {
+   "acc": "0001638643-26-000038",
+   "date": "2026-11-02",
+   "name": "O'Day Daniel Patrick",
+   "role": "Chairman & CEO",
+   "code": "S",
+   "shares": 2000.0,
+   "price": 171.0627,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/882095/000163864326000038/"
+  },
+  {
+   "acc": "0001638643-26-000038",
+   "date": "2026-10-30",
+   "name": "O'Day Daniel Patrick",
+   "role": "Chairman & CEO",
+   "code": "M",
+   "shares": 15881.0,
+   "price": 72.34,
+   "ad": "A",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/882095/000163864326000038/"
+  },
+  {
+   "acc": "0001638643-26-000038",
+   "date": "2026-10-30",
+   "name": "O'Day Daniel Patrick",
+   "role": "Chairman & CEO",
+   "code": "S",
+   "shares": 15881.0,
+   "price": 175.2456,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/882095/000163864326000038/"
+  },
   {
    "acc": "0001782135-26-000035",
    "date": "2026-10-15",
