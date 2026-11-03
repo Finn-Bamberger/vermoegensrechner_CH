@@ -6,7 +6,7 @@
  "rank": 75,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-11-03T03:43:03Z",
+ "updated_at": "2026-11-03T18:40:10Z",
  "periodic_accs": [
   "0000078003-21-000038",
   "0000078003-21-000065",
@@ -30,9 +30,26 @@
   "0000078003-26-000026",
   "0000078003-26-000054",
   "0000078003-26-000095",
+  "0000078003-26-000127",
   "0001628280-23-017196"
  ],
  "filings": [
+  {
+   "form": "10-Q",
+   "date": "2026-11-03",
+   "report_date": "2026-09-27",
+   "items": "",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/78003/000007800326000127/pfe-20260927.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/78003/000007800326000127/0000078003-26-000127-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2026-11-03",
+   "report_date": "2026-11-03",
+   "items": "2.02,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/78003/000007800326000125/pfe-20261103.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/78003/000007800326000125/0000078003-26-000125-index.htm"
+  },
   {
    "form": "10-Q",
    "date": "2026-08-04",
@@ -336,36 +353,9 @@
    "items": "8.01,9.01",
    "doc_url": "https://www.sec.gov/Archives/edgar/data/78003/000007800324000006/pfe-20240110.htm",
    "index_url": "https://www.sec.gov/Archives/edgar/data/78003/000007800324000006/0000078003-24-000006-index.htm"
-  },
-  {
-   "form": "8-K",
-   "date": "2023-12-14",
-   "report_date": "2023-12-14",
-   "items": "2.02,7.01,9.01",
-   "doc_url": "https://www.sec.gov/Archives/edgar/data/78003/000119312523294930/d553734d8k.htm",
-   "index_url": "https://www.sec.gov/Archives/edgar/data/78003/000119312523294930/0001193125-23-294930-index.htm"
-  },
-  {
-   "form": "8-K",
-   "date": "2023-12-13",
-   "report_date": "2023-12-13",
-   "items": "7.01,9.01",
-   "doc_url": "https://www.sec.gov/Archives/edgar/data/78003/000007800323000120/pfe-20231213.htm",
-   "index_url": "https://www.sec.gov/Archives/edgar/data/78003/000007800323000120/0000078003-23-000120-index.htm"
   }
  ],
  "quarters": [
-  {
-   "end": "2020-09-27",
-   "net_income": 1469000000,
-   "op_cash_flow": 2090000000,
-   "capex": 507000000,
-   "sbc": 224000000,
-   "diluted_shares": 5633000000,
-   "cash": 1587000000,
-   "securities": 7859000000,
-   "debt": 49785000000
-  },
   {
    "end": "2020-12-31",
    "net_income": 846000000,
@@ -630,6 +620,18 @@
    "cash": 976000000,
    "securities": 7281000000,
    "debt": 60495000000
+  },
+  {
+   "end": "2026-09-27",
+   "revenue": 16583000000,
+   "net_income": 3242000000,
+   "op_cash_flow": 5375000000,
+   "capex": 573000000,
+   "sbc": 362000000,
+   "diluted_shares": 5751000000,
+   "cash": 1824000000,
+   "securities": 9118000000,
+   "debt": 59997000000
   }
  ],
  "annual": [
@@ -750,9 +752,9 @@
   }
  ],
  "shares_outstanding": {
-  "shares": 5699673589,
-  "as_of": "2026-07-29",
-  "filed": "2026-08-04"
+  "shares": 5699853733,
+  "as_of": "2026-10-28",
+  "filed": "2026-11-03"
  },
  "quote": {
   "price": 30.67,
