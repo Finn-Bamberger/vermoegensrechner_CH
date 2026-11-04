@@ -6,7 +6,7 @@
  "rank": 97,
  "source": "SEC EDGAR",
  "fiscal_year_end": "0630",
- "updated_at": "2026-11-02T22:10:19Z",
+ "updated_at": "2026-11-04T00:51:06Z",
  "periodic_accs": [
   "0000076334-18-000011",
   "0000076334-18-000046",
@@ -45,6 +45,14 @@
   "0000076334-26-000105"
  ],
  "filings": [
+  {
+   "form": "8-K",
+   "date": "2026-11-03",
+   "report_date": "2026-10-28",
+   "items": "5.07",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/76334/000007633426000166/ph-20261028.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/76334/000007633426000166/0000076334-26-000166-index.htm"
+  },
   {
    "form": "8-K",
    "date": "2026-09-14",
@@ -356,14 +364,6 @@
    "items": "5.02",
    "doc_url": "https://www.sec.gov/Archives/edgar/data/76334/000007633423000045/ph-20230901.htm",
    "index_url": "https://www.sec.gov/Archives/edgar/data/76334/000007633423000045/0000076334-23-000045-index.htm"
-  },
-  {
-   "form": "10-K",
-   "date": "2023-08-24",
-   "report_date": "2023-06-30",
-   "items": "",
-   "doc_url": "https://www.sec.gov/Archives/edgar/data/76334/000007633423000042/ph-20230630.htm",
-   "index_url": "https://www.sec.gov/Archives/edgar/data/76334/000007633423000042/0000076334-23-000042-index.htm"
   }
  ],
  "quarters": [
@@ -783,11 +783,23 @@
   "filed": "2026-08-21"
  },
  "quote": {
-  "price": 928.29,
-  "date": "2026-11-02",
+  "price": 944.99,
+  "date": "2026-11-03",
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0000076334-26-000165",
+   "date": "2026-11-01",
+   "name": "Jacobson Matthew A.",
+   "role": "VP & Pres.-Filtration Grp.",
+   "code": "F",
+   "shares": 436.0,
+   "price": 911.92,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/76334/000007633426000165/"
+  },
   {
    "acc": "0000076334-26-000158",
    "date": "2026-10-28",

@@ -6,7 +6,7 @@
  "rank": 88,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-11-03T03:57:50Z",
+ "updated_at": "2026-11-04T00:40:30Z",
  "periodic_accs": [
   "0001035002-13-000008",
   "0001035002-13-000037",
@@ -741,11 +741,23 @@
   "filed": "2026-10-28"
  },
  "quote": {
-  "price": 381.46,
-  "date": "2026-11-02",
+  "price": 387.65,
+  "date": "2026-11-03",
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0001628280-26-069539",
+   "date": "2026-11-03",
+   "name": "Riggs R. Lane",
+   "role": "CEO & President",
+   "code": "G",
+   "shares": 2500.0,
+   "price": 0.0,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1035002/000162828026069539/"
+  },
   {
    "acc": "0001628280-26-062897",
    "date": "2026-09-18",

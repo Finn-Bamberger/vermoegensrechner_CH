@@ -6,7 +6,7 @@
  "rank": 19,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-11-03T03:17:13Z",
+ "updated_at": "2026-11-03T23:52:01Z",
  "periodic_accs": [
   "0001141391-19-000076",
   "0001141391-19-000128",
@@ -774,11 +774,59 @@
   "filed": "2010-11-02"
  },
  "quote": {
-  "price": 658.1,
-  "date": "2026-11-02",
+  "price": 647.18,
+  "date": "2026-11-03",
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0001141391-26-000126",
+   "date": "2026-11-02",
+   "name": "Ling Hai",
+   "role": "Chief Financial Officer",
+   "code": "M",
+   "shares": 4317.0,
+   "price": 112.31,
+   "ad": "A",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000126/"
+  },
+  {
+   "acc": "0001141391-26-000126",
+   "date": "2026-11-02",
+   "name": "Ling Hai",
+   "role": "Chief Financial Officer",
+   "code": "S",
+   "shares": 4317.0,
+   "price": 641.0,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000126/"
+  },
+  {
+   "acc": "0001141391-26-000126",
+   "date": "2026-10-30",
+   "name": "Ling Hai",
+   "role": "Chief Financial Officer",
+   "code": "M",
+   "shares": 4318.0,
+   "price": 112.31,
+   "ad": "A",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000126/"
+  },
+  {
+   "acc": "0001141391-26-000126",
+   "date": "2026-10-30",
+   "name": "Ling Hai",
+   "role": "Chief Financial Officer",
+   "code": "S",
+   "shares": 4318.0,
+   "price": 642.43,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000126/"
+  },
   {
    "acc": "0001141391-26-000118",
    "date": "2026-10-16",

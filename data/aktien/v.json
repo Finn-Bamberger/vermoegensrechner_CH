@@ -6,7 +6,7 @@
  "rank": 16,
  "source": "SEC EDGAR",
  "fiscal_year_end": "0930",
- "updated_at": "2026-11-03T03:16:57Z",
+ "updated_at": "2026-11-03T23:51:44Z",
  "periodic_accs": [
   "0001403161-15-000007",
   "0001403161-15-000010",
@@ -762,11 +762,59 @@
   "filed": "2010-02-03"
  },
  "quote": {
-  "price": 425.51,
-  "date": "2026-11-02",
+  "price": 420.42,
+  "date": "2026-11-03",
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0001403161-26-000130",
+   "date": "2026-11-02",
+   "name": "Taneja Rajat",
+   "role": "PRESIDENT, TECHNOLOGY",
+   "code": "M",
+   "shares": 34418.0,
+   "price": 109.82,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000130/"
+  },
+  {
+   "acc": "0001403161-26-000130",
+   "date": "2026-11-02",
+   "name": "Taneja Rajat",
+   "role": "PRESIDENT, TECHNOLOGY",
+   "code": "S",
+   "shares": 34418.0,
+   "price": 425.4286,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000130/"
+  },
+  {
+   "acc": "0001403161-26-000129",
+   "date": "2026-11-02",
+   "name": "MCINERNEY RYAN",
+   "role": "Chief Executive Officer",
+   "code": "M",
+   "shares": 5875.0,
+   "price": 134.76,
+   "ad": "A",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000129/"
+  },
+  {
+   "acc": "0001403161-26-000129",
+   "date": "2026-11-02",
+   "name": "MCINERNEY RYAN",
+   "role": "Chief Executive Officer",
+   "code": "S",
+   "shares": 5875.0,
+   "price": 416.22,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000129/"
+  },
   {
    "acc": "0001403161-26-000128",
    "date": "2026-10-30",

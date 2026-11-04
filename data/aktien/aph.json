@@ -6,7 +6,7 @@
  "rank": 56,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-11-03T03:22:34Z",
+ "updated_at": "2026-11-04T00:04:11Z",
  "periodic_accs": [
   "0001104659-14-057288",
   "0001104659-14-076813",
@@ -829,11 +829,47 @@
   "filed": "2026-10-30"
  },
  "quote": {
-  "price": 79.84,
-  "date": "2026-11-02",
+  "price": 84.19,
+  "date": "2026-11-03",
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0001104659-26-121973",
+   "date": "2026-11-02",
+   "name": "NORWITT RICHARD ADAM",
+   "role": "President & CEO",
+   "code": "M",
+   "shares": 799576.0,
+   "price": 11.1863,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/820313/000110465926121973/"
+  },
+  {
+   "acc": "0001104659-26-121973",
+   "date": "2026-11-02",
+   "name": "NORWITT RICHARD ADAM",
+   "role": "President & CEO",
+   "code": "S",
+   "shares": 799576.0,
+   "price": 82.4762,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/820313/000110465926121973/"
+  },
+  {
+   "acc": "0001104659-26-121973",
+   "date": "2026-11-02",
+   "name": "NORWITT RICHARD ADAM",
+   "role": "President & CEO",
+   "code": "G",
+   "shares": 200000.0,
+   "price": null,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/820313/000110465926121973/"
+  },
   {
    "acc": "0001104659-26-092146",
    "date": "2026-08-06",

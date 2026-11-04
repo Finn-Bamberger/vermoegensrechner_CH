@@ -6,7 +6,7 @@
  "rank": 45,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-11-03T03:19:24Z",
+ "updated_at": "2026-11-03T23:54:38Z",
  "periodic_accs": [
   "0000101829-17-000044",
   "0000101829-18-000005",
@@ -775,11 +775,47 @@
   "filed": "2026-10-20"
  },
  "quote": {
-  "price": 202.79,
-  "date": "2026-11-02",
+  "price": 203.82,
+  "date": "2026-11-03",
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0001225208-26-008630",
+   "date": "2026-10-30",
+   "name": "Williams Dantaya M",
+   "role": "EVP & Chief HR Officer",
+   "code": "M",
+   "shares": 17000.0,
+   "price": 94.04,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/101829/000122520826008630/"
+  },
+  {
+   "acc": "0001225208-26-008630",
+   "date": "2026-10-30",
+   "name": "Williams Dantaya M",
+   "role": "EVP & Chief HR Officer",
+   "code": "D",
+   "shares": 7929.0,
+   "price": 201.62,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/101829/000122520826008630/"
+  },
+  {
+   "acc": "0001225208-26-008630",
+   "date": "2026-10-30",
+   "name": "Williams Dantaya M",
+   "role": "EVP & Chief HR Officer",
+   "code": "S",
+   "shares": 9071.0,
+   "price": 201.6951,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/101829/000122520826008630/"
+  },
   {
    "acc": "0001225208-26-008208",
    "date": "2026-10-01",

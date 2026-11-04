@@ -6,14 +6,23 @@
  "rank": 15,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-11-03T03:16:48Z",
+ "updated_at": "2026-11-03T23:51:34Z",
  "periodic_accs": [
   "0001628280-25-048859",
   "0001628280-26-008131",
   "0001628280-26-029344",
-  "0001628280-26-054343"
+  "0001628280-26-054343",
+  "0001628280-26-069523"
  ],
  "filings": [
+  {
+   "form": "10-Q",
+   "date": "2026-11-03",
+   "report_date": "2026-09-30",
+   "items": "",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/19617/000162828026069523/jpm-20260930.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/19617/000162828026069523/0001628280-26-069523-index.htm"
+  },
   {
    "form": "8-K",
    "date": "2026-10-20",
@@ -249,13 +258,6 @@
  ],
  "quarters": [
   {
-   "end": "2020-09-30",
-   "net_income": 9443000000,
-   "op_cash_flow": -14688000000,
-   "sbc": 521000000,
-   "diluted_shares": 3082800000
-  },
-  {
    "end": "2020-12-31",
    "net_income": 12136000000,
    "op_cash_flow": -28052000000,
@@ -409,6 +411,13 @@
    "op_cash_flow": -25283000000,
    "sbc": 1167000000,
    "diluted_shares": 2694200000
+  },
+  {
+   "end": "2026-09-30",
+   "net_income": 15305000000,
+   "op_cash_flow": 33161000000,
+   "sbc": 1106000000,
+   "diluted_shares": 2683000000
   }
  ],
  "annual": [
@@ -497,13 +506,13 @@
   }
  ],
  "shares_outstanding": {
-  "shares": 2658186195,
-  "as_of": "2026-06-30",
-  "filed": "2026-08-06"
+  "shares": 2655609509,
+  "as_of": "2026-09-30",
+  "filed": "2026-11-03"
  },
  "quote": {
-  "price": 340.58,
-  "date": "2026-11-02",
+  "price": 337.98,
+  "date": "2026-11-03",
   "source": "Yahoo Finance"
  },
  "insiders": [

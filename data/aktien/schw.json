@@ -6,7 +6,7 @@
  "rank": 73,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-11-03T03:40:49Z",
+ "updated_at": "2026-11-04T00:22:53Z",
  "periodic_accs": [
   "0000316709-21-000081",
   "0000316709-22-000009",
@@ -730,11 +730,35 @@
   "filed": "2026-08-07"
  },
  "quote": {
-  "price": 88.71,
-  "date": "2026-11-02",
+  "price": 89.28,
+  "date": "2026-11-03",
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0001879974-26-000017",
+   "date": "2026-11-02",
+   "name": "Hathi Neesha",
+   "role": "MD, Head Wealth Adv, Bnk, Tst",
+   "code": "M",
+   "shares": 5000.0,
+   "price": 64.1,
+   "ad": "A",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/316709/000187997426000017/"
+  },
+  {
+   "acc": "0001879974-26-000017",
+   "date": "2026-11-02",
+   "name": "Hathi Neesha",
+   "role": "MD, Head Wealth Adv, Bnk, Tst",
+   "code": "S",
+   "shares": 5000.0,
+   "price": 88.9236,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/316709/000187997426000017/"
+  },
   {
    "acc": "0000923738-26-000048",
    "date": "2026-10-29",

@@ -6,7 +6,7 @@
  "rank": 14,
  "source": "SEC EDGAR",
  "fiscal_year_end": "0131",
- "updated_at": "2026-11-03T03:16:47Z",
+ "updated_at": "2026-11-03T23:51:30Z",
  "periodic_accs": [
   "0000104169-23-000097",
   "0000104169-23-000132",
@@ -722,11 +722,35 @@
   "filed": "2026-08-28"
  },
  "quote": {
-  "price": 127.69,
-  "date": "2026-11-02",
+  "price": 124.86,
+  "date": "2026-11-03",
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0001579299-26-000028",
+   "date": "2026-11-02",
+   "name": "Bartlett Daniel J",
+   "role": "Executive Vice President",
+   "code": "S",
+   "shares": 3346.0,
+   "price": 124.509,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000157929926000028/"
+  },
+  {
+   "acc": "0001781198-26-000008",
+   "date": "2026-10-30",
+   "name": "Kumar Suresh",
+   "role": "Chief Technology Officer",
+   "code": "S",
+   "shares": 166342.0,
+   "price": 123.21,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000178119826000008/"
+  },
   {
    "acc": "0001992808-26-000029",
    "date": "2026-10-15",

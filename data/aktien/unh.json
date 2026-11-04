@@ -6,7 +6,7 @@
  "rank": 32,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-11-03T03:18:20Z",
+ "updated_at": "2026-11-03T23:53:23Z",
  "periodic_accs": [
   "0000731766-21-000013",
   "0000731766-21-000021",
@@ -30,9 +30,18 @@
   "0000731766-25-000305",
   "0000731766-26-000062",
   "0000731766-26-000127",
-  "0000731766-26-000197"
+  "0000731766-26-000197",
+  "0000731766-26-000266"
  ],
  "filings": [
+  {
+   "form": "10-Q",
+   "date": "2026-11-03",
+   "report_date": "2026-09-30",
+   "items": "",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/731766/000073176626000266/unh-20260930.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/731766/000073176626000266/0000731766-26-000266-index.htm"
+  },
   {
    "form": "8-K",
    "date": "2026-10-13",
@@ -344,30 +353,9 @@
    "items": "2.02,9.01",
    "doc_url": "https://www.sec.gov/Archives/edgar/data/731766/000073176624000320/unh-20241015.htm",
    "index_url": "https://www.sec.gov/Archives/edgar/data/731766/000073176624000320/0000731766-24-000320-index.htm"
-  },
-  {
-   "form": "10-Q",
-   "date": "2024-08-09",
-   "report_date": "2024-06-30",
-   "items": "",
-   "doc_url": "https://www.sec.gov/Archives/edgar/data/731766/000073176624000262/unh-20240630.htm",
-   "index_url": "https://www.sec.gov/Archives/edgar/data/731766/000073176624000262/0000731766-24-000262-index.htm"
   }
  ],
  "quarters": [
-  {
-   "end": "2020-09-30",
-   "revenue": 65115000000,
-   "operating_income": 4651000000,
-   "net_income": 3172000000,
-   "op_cash_flow": 3127000000,
-   "capex": 557000000,
-   "sbc": 139000000,
-   "diluted_shares": 962000000,
-   "cash": 17550000000,
-   "securities": 3259000000,
-   "debt": 39895000000
-  },
   {
    "end": "2020-12-31",
    "revenue": 65467000000,
@@ -660,6 +648,19 @@
    "cash": 28585000000,
    "securities": 2883000000,
    "debt": 69501000000
+  },
+  {
+   "end": "2026-09-30",
+   "revenue": 112694000000,
+   "operating_income": 6563000000,
+   "net_income": 4110000000,
+   "op_cash_flow": 5123000000,
+   "capex": 859000000,
+   "sbc": 219000000,
+   "diluted_shares": 902000000,
+   "cash": 25845000000,
+   "securities": 2704000000,
+   "debt": 68714000000
   }
  ],
  "annual": [
@@ -795,13 +796,13 @@
   }
  ],
  "shares_outstanding": {
-  "shares": 897594847,
-  "as_of": "2026-07-31",
-  "filed": "2026-08-10"
+  "shares": 896022611,
+  "as_of": "2026-10-30",
+  "filed": "2026-11-03"
  },
  "quote": {
-  "price": 400.44,
-  "date": "2026-11-02",
+  "price": 404.44,
+  "date": "2026-11-03",
   "source": "Yahoo Finance"
  },
  "insiders": [

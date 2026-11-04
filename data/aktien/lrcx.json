@@ -6,7 +6,7 @@
  "rank": 31,
  "source": "SEC EDGAR",
  "fiscal_year_end": "0627",
- "updated_at": "2026-11-03T03:18:19Z",
+ "updated_at": "2026-11-03T23:53:21Z",
  "periodic_accs": [
   "0000707549-16-000014",
   "0000707549-16-000050",
@@ -811,11 +811,23 @@
   "filed": "2026-10-22"
  },
  "quote": {
-  "price": 227.56,
-  "date": "2026-11-02",
+  "price": 230.72,
+  "date": "2026-11-03",
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0001405693-26-000013",
+   "date": "2026-11-02",
+   "name": "Mayer Bethany",
+   "role": "Director",
+   "code": "S",
+   "shares": 719.0,
+   "price": 242.59,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/707549/000140569326000013/"
+  },
   {
    "acc": "0001965462-26-000002",
    "date": "2026-10-30",

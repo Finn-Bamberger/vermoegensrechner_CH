@@ -6,7 +6,7 @@
  "rank": 71,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-11-03T03:38:40Z",
+ "updated_at": "2026-11-04T00:20:42Z",
  "periodic_accs": [
   "0001193125-20-214220",
   "0001283699-20-000106",
@@ -756,11 +756,35 @@
   "filed": "2026-10-28"
  },
  "quote": {
-  "price": 160.15,
-  "date": "2026-11-02",
+  "price": 154.41,
+  "date": "2026-11-03",
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0001283699-26-000132",
+   "date": "2026-11-02",
+   "name": "Drobac Daniel James",
+   "role": "VP & Chief Accounting Officer",
+   "code": "S",
+   "shares": 113.0,
+   "price": 154.18,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1283699/000128369926000132/"
+  },
+  {
+   "acc": "0001283699-26-000132",
+   "date": "2026-11-01",
+   "name": "Drobac Daniel James",
+   "role": "VP & Chief Accounting Officer",
+   "code": "F",
+   "shares": 36.525,
+   "price": 156.44,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1283699/000128369926000132/"
+  },
   {
    "acc": "0001283699-26-000118",
    "date": "2026-09-24",
@@ -2848,42 +2872,6 @@
    "ad": "D",
    "plan_10b5_1": true,
    "url": "https://www.sec.gov/Archives/edgar/data/1283699/000114036125037104/"
-  },
-  {
-   "acc": "0001140361-25-036782",
-   "date": "2025-09-29",
-   "name": "DEUTSCHE TELEKOM AG",
-   "role": "Director",
-   "code": "S",
-   "shares": 53822.0,
-   "price": 237.9867,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/1283699/000114036125036782/"
-  },
-  {
-   "acc": "0001140361-25-036782",
-   "date": "2025-09-29",
-   "name": "DEUTSCHE TELEKOM AG",
-   "role": "Director",
-   "code": "S",
-   "shares": 10179.0,
-   "price": 238.7194,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/1283699/000114036125036782/"
-  },
-  {
-   "acc": "0001140361-25-036782",
-   "date": "2025-09-29",
-   "name": "DEUTSCHE TELEKOM AG",
-   "role": "Director",
-   "code": "S",
-   "shares": 414.0,
-   "price": 239.5902,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/1283699/000114036125036782/"
   }
  ]
 }

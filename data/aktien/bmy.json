@@ -6,7 +6,7 @@
  "rank": 96,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-11-02T22:09:02Z",
+ "updated_at": "2026-11-04T00:49:47Z",
  "periodic_accs": [
   "0000014272-19-000107",
   "0000014272-19-000160",
@@ -762,11 +762,95 @@
   "filed": "2026-10-29"
  },
  "quote": {
-  "price": 63.02,
-  "date": "2026-11-02",
+  "price": 61.71,
+  "date": "2026-11-03",
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0001543747-26-000004",
+   "date": "2026-11-01",
+   "name": "BOERNER CHRISTOPHER S.",
+   "role": "Chief Executive Officer",
+   "code": "M",
+   "shares": 2964.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/14272/000154374726000004/"
+  },
+  {
+   "acc": "0001543747-26-000004",
+   "date": "2026-11-01",
+   "name": "BOERNER CHRISTOPHER S.",
+   "role": "Chief Executive Officer",
+   "code": "J",
+   "shares": 406.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/14272/000154374726000004/"
+  },
+  {
+   "acc": "0001543747-26-000004",
+   "date": "2026-11-01",
+   "name": "BOERNER CHRISTOPHER S.",
+   "role": "Chief Executive Officer",
+   "code": "F",
+   "shares": 1724.0,
+   "price": 62.48,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/14272/000154374726000004/"
+  },
+  {
+   "acc": "0001917325-26-000006",
+   "date": "2026-11-01",
+   "name": "Shanahan Karin",
+   "role": "EVP, Chief Supply Chain & Ops",
+   "code": "M",
+   "shares": 6281.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/14272/000191732526000006/"
+  },
+  {
+   "acc": "0001917325-26-000006",
+   "date": "2026-11-01",
+   "name": "Shanahan Karin",
+   "role": "EVP, Chief Supply Chain & Ops",
+   "code": "F",
+   "shares": 3213.0,
+   "price": 62.48,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/14272/000191732526000006/"
+  },
+  {
+   "acc": "0001908769-26-000006",
+   "date": "2026-11-01",
+   "name": "Meyers Gregory Scott",
+   "role": "EVP, Chief Digital & Tech Off.",
+   "code": "M",
+   "shares": 6281.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/14272/000190876926000006/"
+  },
+  {
+   "acc": "0001908769-26-000006",
+   "date": "2026-11-01",
+   "name": "Meyers Gregory Scott",
+   "role": "EVP, Chief Digital & Tech Off.",
+   "code": "F",
+   "shares": 2665.0,
+   "price": 62.48,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/14272/000190876926000006/"
+  },
   {
    "acc": "0001995058-26-000007",
    "date": "2026-10-02",

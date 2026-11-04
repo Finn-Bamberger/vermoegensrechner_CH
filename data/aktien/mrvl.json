@@ -6,7 +6,7 @@
  "rank": 52,
  "source": "SEC EDGAR",
  "fiscal_year_end": "0130",
- "updated_at": "2026-11-03T03:20:02Z",
+ "updated_at": "2026-11-03T23:59:31Z",
  "periodic_accs": [
   "0001835632-21-000010",
   "0001835632-21-000022",
@@ -756,11 +756,23 @@
   "filed": "2026-08-28"
  },
  "quote": {
-  "price": 171.41,
-  "date": "2026-11-02",
+  "price": 171.97,
+  "date": "2026-11-03",
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0001628280-26-069600",
+   "date": "2026-11-02",
+   "name": "Koopmans Chris",
+   "role": "President and COO",
+   "code": "S",
+   "shares": 10000.0,
+   "price": 186.97,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1835632/000162828026069600/"
+  },
   {
    "acc": "0001628280-26-066137",
    "date": "2026-10-16",

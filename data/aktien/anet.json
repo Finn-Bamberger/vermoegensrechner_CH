@@ -6,7 +6,7 @@
  "rank": 48,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-11-03T03:19:43Z",
+ "updated_at": "2026-11-03T23:55:07Z",
  "periodic_accs": [
   "0001596532-22-000112",
   "0001596532-22-000220",
@@ -28,6 +28,14 @@
   "0001596532-26-000175"
  ],
  "filings": [
+  {
+   "form": "8-K",
+   "date": "2026-11-03",
+   "report_date": "2026-11-03",
+   "items": "2.02,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1596532/000159653226000252/anet-20261103.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1596532/000159653226000252/0001596532-26-000252-index.htm"
+  },
   {
    "form": "10-Q",
    "date": "2026-08-05",
@@ -339,14 +347,6 @@
    "items": "2.02,5.02,9.01",
    "doc_url": "https://www.sec.gov/Archives/edgar/data/1596532/000159653223000196/anet-20230727.htm",
    "index_url": "https://www.sec.gov/Archives/edgar/data/1596532/000159653223000196/0001596532-23-000196-index.htm"
-  },
-  {
-   "form": "8-K",
-   "date": "2023-06-16",
-   "report_date": "2023-06-14",
-   "items": "5.07",
-   "doc_url": "https://www.sec.gov/Archives/edgar/data/1596532/000159653223000168/anet-20230614.htm",
-   "index_url": "https://www.sec.gov/Archives/edgar/data/1596532/000159653223000168/0001596532-23-000168-index.htm"
   }
  ],
  "quarters": [
@@ -783,8 +783,8 @@
   "filed": "2026-08-05"
  },
  "quote": {
-  "price": 164.14,
-  "date": "2026-11-02",
+  "price": 169.91,
+  "date": "2026-11-03",
   "source": "Yahoo Finance"
  },
  "insiders": [
