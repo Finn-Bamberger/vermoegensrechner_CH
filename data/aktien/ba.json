@@ -6,7 +6,7 @@
  "rank": 81,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-11-04T00:32:20Z",
+ "updated_at": "2026-11-04T04:39:37Z",
  "periodic_accs": [
   "0000012927-19-000030",
   "0000012927-19-000063",
@@ -844,6 +844,30 @@
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0001225208-26-008642",
+   "date": "2026-10-30",
+   "name": "Buckley Mortimer J",
+   "role": "Director",
+   "code": "P",
+   "shares": 5820.0,
+   "price": 171.55,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/12927/000122520826008642/"
+  },
+  {
+   "acc": "0001225208-26-008641",
+   "date": "2026-10-30",
+   "name": "MOLLENKOPF STEVEN M",
+   "role": "Director",
+   "code": "P",
+   "shares": 2950.0,
+   "price": 173.026,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/12927/000122520826008641/"
+  },
   {
    "acc": "0001225208-26-007500",
    "date": "2026-08-28",

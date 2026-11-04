@@ -6,7 +6,7 @@
  "rank": 3,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-11-03T23:50:37Z",
+ "updated_at": "2026-11-04T04:32:05Z",
  "periodic_accs": [
   "0001652044-23-000094",
   "0001652044-24-000022",
@@ -10885,114 +10885,6 @@
    "ad": "D",
    "plan_10b5_1": true,
    "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312525225449/"
-  },
-  {
-   "acc": "0001193125-25-227254",
-   "date": "2025-09-29",
-   "name": "WALKER JOHN KENT",
-   "role": "President, Global Affairs, CLO",
-   "code": "S",
-   "shares": 2900.0,
-   "price": 243.9,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312525227254/"
-  },
-  {
-   "acc": "0001193125-25-227254",
-   "date": "2025-09-29",
-   "name": "WALKER JOHN KENT",
-   "role": "President, Global Affairs, CLO",
-   "code": "S",
-   "shares": 1385.0,
-   "price": 244.67,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312525227254/"
-  },
-  {
-   "acc": "0001193125-25-227254",
-   "date": "2025-09-29",
-   "name": "WALKER JOHN KENT",
-   "role": "President, Global Affairs, CLO",
-   "code": "S",
-   "shares": 2500.0,
-   "price": 245.7,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312525227254/"
-  },
-  {
-   "acc": "0001193125-25-227254",
-   "date": "2025-09-29",
-   "name": "WALKER JOHN KENT",
-   "role": "President, Global Affairs, CLO",
-   "code": "S",
-   "shares": 400.0,
-   "price": 246.56,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312525227254/"
-  },
-  {
-   "acc": "0001193125-25-227254",
-   "date": "2025-09-29",
-   "name": "WALKER JOHN KENT",
-   "role": "President, Global Affairs, CLO",
-   "code": "S",
-   "shares": 2000.0,
-   "price": 248.09,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312525227254/"
-  },
-  {
-   "acc": "0001193125-25-227254",
-   "date": "2025-09-29",
-   "name": "WALKER JOHN KENT",
-   "role": "President, Global Affairs, CLO",
-   "code": "S",
-   "shares": 4731.0,
-   "price": 248.63,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312525227254/"
-  },
-  {
-   "acc": "0001193125-25-227254",
-   "date": "2025-09-29",
-   "name": "WALKER JOHN KENT",
-   "role": "President, Global Affairs, CLO",
-   "code": "S",
-   "shares": 1900.0,
-   "price": 249.86,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312525227254/"
-  },
-  {
-   "acc": "0001193125-25-227254",
-   "date": "2025-09-29",
-   "name": "WALKER JOHN KENT",
-   "role": "President, Global Affairs, CLO",
-   "code": "S",
-   "shares": 1800.0,
-   "price": 250.89,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312525227254/"
-  },
-  {
-   "acc": "0001193125-25-227254",
-   "date": "2025-09-29",
-   "name": "WALKER JOHN KENT",
-   "role": "President, Global Affairs, CLO",
-   "code": "S",
-   "shares": 200.0,
-   "price": 251.43,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312525227254/"
   }
  ]
 }

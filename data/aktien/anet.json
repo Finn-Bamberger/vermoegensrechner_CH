@@ -6,7 +6,7 @@
  "rank": 48,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-11-03T23:55:07Z",
+ "updated_at": "2026-11-04T04:35:56Z",
  "periodic_accs": [
   "0001596532-22-000112",
   "0001596532-22-000220",
@@ -788,6 +788,102 @@
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0001596532-26-000256",
+   "date": "2026-10-30",
+   "name": "BECHTOLSHEIM ANDREAS",
+   "role": "10%-Aktionär",
+   "code": "S",
+   "shares": 13617.0,
+   "price": 167.506,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1596532/000159653226000256/"
+  },
+  {
+   "acc": "0001596532-26-000256",
+   "date": "2026-10-30",
+   "name": "BECHTOLSHEIM ANDREAS",
+   "role": "10%-Aktionär",
+   "code": "S",
+   "shares": 27061.0,
+   "price": 168.4776,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1596532/000159653226000256/"
+  },
+  {
+   "acc": "0001596532-26-000256",
+   "date": "2026-10-30",
+   "name": "BECHTOLSHEIM ANDREAS",
+   "role": "10%-Aktionär",
+   "code": "S",
+   "shares": 11845.0,
+   "price": 169.3737,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1596532/000159653226000256/"
+  },
+  {
+   "acc": "0001596532-26-000256",
+   "date": "2026-10-30",
+   "name": "BECHTOLSHEIM ANDREAS",
+   "role": "10%-Aktionär",
+   "code": "S",
+   "shares": 53787.0,
+   "price": 170.3498,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1596532/000159653226000256/"
+  },
+  {
+   "acc": "0001596532-26-000256",
+   "date": "2026-10-30",
+   "name": "BECHTOLSHEIM ANDREAS",
+   "role": "10%-Aktionär",
+   "code": "S",
+   "shares": 38272.0,
+   "price": 171.3707,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1596532/000159653226000256/"
+  },
+  {
+   "acc": "0001596532-26-000256",
+   "date": "2026-10-30",
+   "name": "BECHTOLSHEIM ANDREAS",
+   "role": "10%-Aktionär",
+   "code": "S",
+   "shares": 91746.0,
+   "price": 172.4579,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1596532/000159653226000256/"
+  },
+  {
+   "acc": "0001596532-26-000256",
+   "date": "2026-10-30",
+   "name": "BECHTOLSHEIM ANDREAS",
+   "role": "10%-Aktionär",
+   "code": "S",
+   "shares": 29129.0,
+   "price": 173.2074,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1596532/000159653226000256/"
+  },
+  {
+   "acc": "0001596532-26-000256",
+   "date": "2026-10-30",
+   "name": "BECHTOLSHEIM ANDREAS",
+   "role": "10%-Aktionär",
+   "code": "S",
+   "shares": 2435.0,
+   "price": 174.1378,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1596532/000159653226000256/"
+  },
   {
    "acc": "0001596532-26-000248",
    "date": "2026-10-20",
