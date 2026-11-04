@@ -6,7 +6,7 @@
  "rank": 66,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1101",
- "updated_at": "2026-11-04T00:15:08Z",
+ "updated_at": "2026-11-04T20:18:47Z",
  "periodic_accs": [
   "0001047469-15-009300",
   "0001047469-16-009947",
@@ -763,6 +763,18 @@
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0001203503-26-000006",
+   "date": "2026-11-02",
+   "name": "BOLAND JULIE A",
+   "role": "Director",
+   "code": "A",
+   "shares": 92.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/315189/000120350326000006/"
+  },
   {
    "acc": "0001772144-26-000006",
    "date": "2026-08-31",
