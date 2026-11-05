@@ -6,7 +6,7 @@
  "rank": 48,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-11-04T12:47:18Z",
+ "updated_at": "2026-11-05T01:02:10Z",
  "periodic_accs": [
   "0001596532-22-000112",
   "0001596532-22-000220",
@@ -784,11 +784,71 @@
   "filed": "2026-11-04"
  },
  "quote": {
-  "price": 169.91,
-  "date": "2026-11-03",
+  "price": 178.48,
+  "date": "2026-11-04",
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0001596532-26-000258",
+   "date": "2026-11-02",
+   "name": "TEMPLETON MARK B",
+   "role": "Director",
+   "code": "S",
+   "shares": 1400.0,
+   "price": 164.0672,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1596532/000159653226000258/"
+  },
+  {
+   "acc": "0001596532-26-000258",
+   "date": "2026-11-02",
+   "name": "TEMPLETON MARK B",
+   "role": "Director",
+   "code": "S",
+   "shares": 1200.0,
+   "price": 165.0033,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1596532/000159653226000258/"
+  },
+  {
+   "acc": "0001596532-26-000258",
+   "date": "2026-11-02",
+   "name": "TEMPLETON MARK B",
+   "role": "Director",
+   "code": "S",
+   "shares": 900.0,
+   "price": 166.3643,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1596532/000159653226000258/"
+  },
+  {
+   "acc": "0001596532-26-000258",
+   "date": "2026-11-02",
+   "name": "TEMPLETON MARK B",
+   "role": "Director",
+   "code": "S",
+   "shares": 1000.0,
+   "price": 167.4054,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1596532/000159653226000258/"
+  },
+  {
+   "acc": "0001596532-26-000258",
+   "date": "2026-11-02",
+   "name": "TEMPLETON MARK B",
+   "role": "Director",
+   "code": "S",
+   "shares": 500.0,
+   "price": 168.848,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1596532/000159653226000258/"
+  },
   {
    "acc": "0001596532-26-000256",
    "date": "2026-10-30",

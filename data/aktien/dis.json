@@ -6,7 +6,7 @@
  "rank": 61,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1003",
- "updated_at": "2026-11-04T00:09:30Z",
+ "updated_at": "2026-11-05T01:11:20Z",
  "periodic_accs": [
   "0001193125-23-014219",
   "0001744489-20-000046",
@@ -744,8 +744,8 @@
   "filed": "2026-08-05"
  },
  "quote": {
-  "price": 114.18,
-  "date": "2026-11-03",
+  "price": 118.95,
+  "date": "2026-11-04",
   "source": "Yahoo Finance"
  },
  "insiders": [
@@ -2272,114 +2272,6 @@
    "ad": "A",
    "plan_10b5_1": false,
    "url": "https://www.sec.gov/Archives/edgar/data/1744489/000162828025057069/"
-  },
-  {
-   "acc": "0001628280-25-043772",
-   "date": "2025-09-30",
-   "name": "Froman Michael B. G.",
-   "role": "Director",
-   "code": "A",
-   "shares": 869.2,
-   "price": 113.73,
-   "ad": "A",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/1744489/000162828025043772/"
-  },
-  {
-   "acc": "0001628280-25-043771",
-   "date": "2025-09-30",
-   "name": "Rice Derica W",
-   "role": "Director",
-   "code": "A",
-   "shares": 947.9,
-   "price": 113.73,
-   "ad": "A",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/1744489/000162828025043771/"
-  },
-  {
-   "acc": "0001628280-25-043770",
-   "date": "2025-09-30",
-   "name": "MCDONALD CALVIN",
-   "role": "Director",
-   "code": "A",
-   "shares": 844.4,
-   "price": 113.73,
-   "ad": "A",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/1744489/000162828025043770/"
-  },
-  {
-   "acc": "0001628280-25-043778",
-   "date": "2025-09-30",
-   "name": "Chang Amy",
-   "role": "Director",
-   "code": "A",
-   "shares": 844.4,
-   "price": 113.73,
-   "ad": "A",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/1744489/000162828025043778/"
-  },
-  {
-   "acc": "0001628280-25-043777",
-   "date": "2025-09-30",
-   "name": "Barra Mary T",
-   "role": "Director",
-   "code": "A",
-   "shares": 960.4,
-   "price": 113.73,
-   "ad": "A",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/1744489/000162828025043777/"
-  },
-  {
-   "acc": "0001628280-25-043776",
-   "date": "2025-09-30",
-   "name": "Darroch Jeremy",
-   "role": "Director",
-   "code": "A",
-   "shares": 818.4,
-   "price": 113.73,
-   "ad": "A",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/1744489/000162828025043776/"
-  },
-  {
-   "acc": "0001628280-25-043775",
-   "date": "2025-09-30",
-   "name": "Everson Carolyn",
-   "role": "Director",
-   "code": "A",
-   "shares": 766.6,
-   "price": 113.73,
-   "ad": "A",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/1744489/000162828025043775/"
-  },
-  {
-   "acc": "0001628280-25-043774",
-   "date": "2025-09-30",
-   "name": "GORMAN JAMES P",
-   "role": "Director",
-   "code": "A",
-   "shares": 1122.2,
-   "price": 113.73,
-   "ad": "A",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/1744489/000162828025043774/"
-  },
-  {
-   "acc": "0001628280-25-043773",
-   "date": "2025-09-30",
-   "name": "LAGOMASINO MARIA ELENA",
-   "role": "Director",
-   "code": "A",
-   "shares": 959.4,
-   "price": 113.73,
-   "ad": "A",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/1744489/000162828025043773/"
   }
  ]
 }

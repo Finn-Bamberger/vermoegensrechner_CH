@@ -6,7 +6,7 @@
  "rank": 11,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-11-03T23:51:15Z",
+ "updated_at": "2026-11-05T00:58:49Z",
  "periodic_accs": [
   "0000059478-22-000068",
   "0000059478-22-000133",
@@ -730,11 +730,23 @@
   "filed": "2026-10-29"
  },
  "quote": {
-  "price": 1409.38,
-  "date": "2026-11-03",
+  "price": 1417.99,
+  "date": "2026-11-04",
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0001538604-26-000006",
+   "date": "2026-11-03",
+   "name": "Ricks David A",
+   "role": "President, Chair, and CEO",
+   "code": "G",
+   "shares": 23538.0,
+   "price": 0.0,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/59478/000153860426000006/"
+  },
   {
    "acc": "0001741474-26-000006",
    "date": "2026-11-02",
@@ -6590,54 +6602,6 @@
    "ad": "D",
    "plan_10b5_1": false,
    "url": "https://www.sec.gov/Archives/edgar/data/59478/000031601125000018/"
-  },
-  {
-   "acc": "0000316011-25-000011",
-   "date": "2025-09-30",
-   "name": "LILLY ENDOWMENT INC",
-   "role": "10%-Aktionär",
-   "code": "S",
-   "shares": 90501.0,
-   "price": 763.095,
-   "ad": "D",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/59478/000031601125000011/"
-  },
-  {
-   "acc": "0000316011-25-000011",
-   "date": "2025-09-30",
-   "name": "LILLY ENDOWMENT INC",
-   "role": "10%-Aktionär",
-   "code": "S",
-   "shares": 19492.0,
-   "price": 764.355,
-   "ad": "D",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/59478/000031601125000011/"
-  },
-  {
-   "acc": "0000316011-25-000011",
-   "date": "2025-09-30",
-   "name": "LILLY ENDOWMENT INC",
-   "role": "10%-Aktionär",
-   "code": "S",
-   "shares": 2649.0,
-   "price": 765.44,
-   "ad": "D",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/59478/000031601125000011/"
-  },
-  {
-   "acc": "0000316011-25-000011",
-   "date": "2025-09-30",
-   "name": "LILLY ENDOWMENT INC",
-   "role": "10%-Aktionär",
-   "code": "S",
-   "shares": 1052.0,
-   "price": 766.117,
-   "ad": "D",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/59478/000031601125000011/"
   }
  ]
 }

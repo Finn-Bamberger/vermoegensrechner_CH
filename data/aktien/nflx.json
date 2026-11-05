@@ -6,7 +6,7 @@
  "rank": 40,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-11-03T23:54:04Z",
+ "updated_at": "2026-11-05T01:01:23Z",
  "periodic_accs": [
   "0001065280-23-000198",
   "0001065280-23-000273",
@@ -780,11 +780,95 @@
   "filed": "2026-10-21"
  },
  "quote": {
-  "price": 63.42,
-  "date": "2026-11-03",
+  "price": 66.39,
+  "date": "2026-11-04",
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0001065280-26-000312",
+   "date": "2026-11-04",
+   "name": "HYMAN DAVID A",
+   "role": "Chief Legal Officer",
+   "code": "S",
+   "shares": 5727.0,
+   "price": 64.55,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528026000312/"
+  },
+  {
+   "acc": "0001065280-26-000312",
+   "date": "2026-11-03",
+   "name": "HYMAN DAVID A",
+   "role": "Chief Legal Officer",
+   "code": "M",
+   "shares": 5440.0,
+   "price": null,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528026000312/"
+  },
+  {
+   "acc": "0001065280-26-000312",
+   "date": "2026-11-03",
+   "name": "HYMAN DAVID A",
+   "role": "Chief Legal Officer",
+   "code": "M",
+   "shares": 3030.0,
+   "price": null,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528026000312/"
+  },
+  {
+   "acc": "0001065280-26-000312",
+   "date": "2026-11-03",
+   "name": "HYMAN DAVID A",
+   "role": "Chief Legal Officer",
+   "code": "M",
+   "shares": 2939.0,
+   "price": null,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528026000312/"
+  },
+  {
+   "acc": "0001065280-26-000312",
+   "date": "2026-11-03",
+   "name": "HYMAN DAVID A",
+   "role": "Chief Legal Officer",
+   "code": "F",
+   "shares": 2709.0,
+   "price": 62.34,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528026000312/"
+  },
+  {
+   "acc": "0001065280-26-000312",
+   "date": "2026-11-03",
+   "name": "HYMAN DAVID A",
+   "role": "Chief Legal Officer",
+   "code": "F",
+   "shares": 1509.0,
+   "price": 62.34,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528026000312/"
+  },
+  {
+   "acc": "0001065280-26-000312",
+   "date": "2026-11-03",
+   "name": "HYMAN DAVID A",
+   "role": "Chief Legal Officer",
+   "code": "F",
+   "shares": 1464.0,
+   "price": 62.34,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528026000312/"
+  },
   {
    "acc": "0001583109-26-000004",
    "date": "2026-10-28",

@@ -6,7 +6,7 @@
  "rank": 63,
  "source": "SEC EDGAR",
  "fiscal_year_end": "0927",
- "updated_at": "2026-11-04T00:11:49Z",
+ "updated_at": "2026-11-05T01:13:36Z",
  "periodic_accs": [
   "0000804328-22-000021",
   "0000804328-23-000006",
@@ -24,6 +24,7 @@
   "0000804328-26-000017",
   "0000804328-26-000061",
   "0000804328-26-000086",
+  "0000804328-26-000128",
   "0001728949-18-000095",
   "0001728949-19-000012",
   "0001728949-19-000036",
@@ -42,6 +43,22 @@
   "0001728949-22-000040"
  ],
  "filings": [
+  {
+   "form": "10-K",
+   "date": "2026-11-04",
+   "report_date": "2026-09-27",
+   "items": "",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/804328/000080432826000128/qcom-20260927.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/804328/000080432826000128/0000804328-26-000128-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2026-11-04",
+   "report_date": "2026-11-04",
+   "items": "2.02,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/804328/000080432826000127/qcom-20261104.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/804328/000080432826000127/0000804328-26-000127-index.htm"
+  },
   {
    "form": "8-K",
    "date": "2026-09-08",
@@ -345,37 +362,9 @@
    "items": "5.07,9.01",
    "doc_url": "https://www.sec.gov/Archives/edgar/data/804328/000080432824000020/qcom-20240305.htm",
    "index_url": "https://www.sec.gov/Archives/edgar/data/804328/000080432824000020/0000804328-24-000020-index.htm"
-  },
-  {
-   "form": "10-Q",
-   "date": "2024-01-31",
-   "report_date": "2023-12-24",
-   "items": "",
-   "doc_url": "https://www.sec.gov/Archives/edgar/data/804328/000080432824000017/qcom-20231224.htm",
-   "index_url": "https://www.sec.gov/Archives/edgar/data/804328/000080432824000017/0000804328-24-000017-index.htm"
-  },
-  {
-   "form": "8-K",
-   "date": "2024-01-31",
-   "report_date": "2024-01-31",
-   "items": "2.02,9.01",
-   "doc_url": "https://www.sec.gov/Archives/edgar/data/804328/000080432824000015/qcom-20240131.htm",
-   "index_url": "https://www.sec.gov/Archives/edgar/data/804328/000080432824000015/0000804328-24-000015-index.htm"
   }
  ],
  "quarters": [
-  {
-   "end": "2020-09-27",
-   "revenue": 8346000000,
-   "operating_income": 3452000000,
-   "net_income": 2960000000,
-   "op_cash_flow": 1741000000,
-   "capex": 348000000,
-   "sbc": 313000000,
-   "cash": 6707000000,
-   "securities": 4507000000,
-   "debt": 15226000000
-  },
   {
    "end": "2020-12-27",
    "revenue": 8235000000,
@@ -669,22 +658,21 @@
    "cash": 4533000000,
    "securities": 3771000000,
    "debt": 12781000000
+  },
+  {
+   "end": "2026-09-27",
+   "revenue": 10322000000,
+   "operating_income": 1356000000,
+   "net_income": 1251000000,
+   "op_cash_flow": 2740000000,
+   "capex": 916000000,
+   "sbc": 873000000,
+   "cash": 4636000000,
+   "securities": 3045000000,
+   "debt": 12620000000
   }
  ],
  "annual": [
-  {
-   "end": "2016-09-25",
-   "revenue": 23554000000,
-   "operating_income": 6495000000,
-   "net_income": 5705000000,
-   "op_cash_flow": 7632000000,
-   "capex": 539000000,
-   "sbc": 943000000,
-   "diluted_shares": 1498000000,
-   "cash": 5946000000,
-   "securities": 12702000000,
-   "debt": 10008000000
-  },
   {
    "end": "2017-09-24",
    "revenue": 22258000000,
@@ -801,16 +789,29 @@
    "cash": 5520000000,
    "securities": 4635000000,
    "debt": 14811000000
+  },
+  {
+   "end": "2026-09-27",
+   "revenue": 43120000000,
+   "operating_income": 8658000000,
+   "net_income": 13628000000,
+   "op_cash_flow": 11145000000,
+   "capex": 2494000000,
+   "sbc": 3452000000,
+   "diluted_shares": 1073000000,
+   "cash": 4636000000,
+   "securities": 3045000000,
+   "debt": 12620000000
   }
  ],
  "shares_outstanding": {
-  "shares": 1050000000,
-  "as_of": "2026-07-27",
-  "filed": "2026-07-29"
+  "shares": 1070000000,
+  "as_of": "2026-11-02",
+  "filed": "2026-11-04"
  },
  "quote": {
-  "price": 164.43,
-  "date": "2026-11-03",
+  "price": 173.19,
+  "date": "2026-11-04",
   "source": "Yahoo Finance"
  },
  "insiders": [
@@ -4065,54 +4066,6 @@
    "ad": "D",
    "plan_10b5_1": true,
    "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432825000061/"
-  },
-  {
-   "acc": "0000804328-25-000058",
-   "date": "2025-09-30",
-   "name": "TRICOIRE JEAN-PASCAL",
-   "role": "Director",
-   "code": "A",
-   "shares": 202.0,
-   "price": 0.0,
-   "ad": "A",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432825000058/"
-  },
-  {
-   "acc": "0000804328-25-000057",
-   "date": "2025-09-30",
-   "name": "Young Christopher David",
-   "role": "Director",
-   "code": "A",
-   "shares": 172.0,
-   "price": 0.0,
-   "ad": "A",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432825000057/"
-  },
-  {
-   "acc": "0000804328-25-000060",
-   "date": "2025-09-30",
-   "name": "MCLAUGHLIN MARK D",
-   "role": "Director",
-   "code": "A",
-   "shares": 428.0,
-   "price": 0.0,
-   "ad": "A",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432825000060/"
-  },
-  {
-   "acc": "0000804328-25-000059",
-   "date": "2025-09-30",
-   "name": "Smit Neil",
-   "role": "Director",
-   "code": "A",
-   "shares": 172.0,
-   "price": 0.0,
-   "ad": "A",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432825000059/"
   }
  ]
 }

@@ -6,7 +6,7 @@
  "rank": 35,
  "source": "SEC EDGAR",
  "fiscal_year_end": "0129",
- "updated_at": "2026-11-03T23:53:42Z",
+ "updated_at": "2026-11-05T01:01:04Z",
  "periodic_accs": [
   "0001571996-24-000036",
   "0001571996-24-000062",
@@ -783,8 +783,8 @@
  ],
  "shares_outstanding": null,
  "quote": {
-  "price": 408.4,
-  "date": "2026-11-03",
+  "price": 372.36,
+  "date": "2026-11-04",
   "source": "Yahoo Finance"
  },
  "insiders": [
@@ -40447,90 +40447,6 @@
    "ad": "D",
    "plan_10b5_1": true,
    "url": "https://www.sec.gov/Archives/edgar/data/1571996/000123290625000010/"
-  },
-  {
-   "acc": "0001662205-25-000012",
-   "date": "2025-09-30",
-   "name": "Radakovich Lynn Vojvodich",
-   "role": "Director",
-   "code": "A",
-   "shares": 1587.0,
-   "price": 0.0,
-   "ad": "A",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/1571996/000166220525000012/"
-  },
-  {
-   "acc": "0001434806-25-000005",
-   "date": "2025-09-30",
-   "name": "MOLLENKOPF STEVEN M",
-   "role": "Director",
-   "code": "A",
-   "shares": 2398.0,
-   "price": 0.0,
-   "ad": "A",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/1571996/000143480625000005/"
-  },
-  {
-   "acc": "0001303141-25-000007",
-   "date": "2025-09-30",
-   "name": "Kullman Ellen Jamison",
-   "role": "Director",
-   "code": "A",
-   "shares": 1587.0,
-   "price": 0.0,
-   "ad": "A",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/1571996/000130314125000007/"
-  },
-  {
-   "acc": "0001232906-25-000008",
-   "date": "2025-09-30",
-   "name": "GREEN WILLIAM D",
-   "role": "Director",
-   "code": "A",
-   "shares": 2574.0,
-   "price": 0.0,
-   "ad": "A",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/1571996/000123290625000008/"
-  },
-  {
-   "acc": "0001249303-25-000005",
-   "date": "2025-09-30",
-   "name": "GRAIN DAVID J",
-   "role": "Director",
-   "code": "A",
-   "shares": 2398.0,
-   "price": 0.0,
-   "ad": "A",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/1571996/000124930325000005/"
-  },
-  {
-   "acc": "0001082870-25-000005",
-   "date": "2025-09-30",
-   "name": "DORMAN DAVID W",
-   "role": "Director",
-   "code": "A",
-   "shares": 2398.0,
-   "price": 0.0,
-   "ad": "A",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/1571996/000108287025000005/"
-  },
-  {
-   "acc": "0002086800-25-000006",
-   "date": "2025-09-30",
-   "name": "Kennedy David Alan",
-   "role": "Chief Financial Officer",
-   "code": "A",
-   "shares": 10580.0,
-   "price": 0.0,
-   "ad": "A",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/1571996/000208680025000006/"
   }
  ]
 }

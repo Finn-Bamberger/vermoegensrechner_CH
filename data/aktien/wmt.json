@@ -6,7 +6,7 @@
  "rank": 14,
  "source": "SEC EDGAR",
  "fiscal_year_end": "0131",
- "updated_at": "2026-11-03T23:51:30Z",
+ "updated_at": "2026-11-05T00:59:01Z",
  "periodic_accs": [
   "0000104169-23-000097",
   "0000104169-23-000132",
@@ -722,8 +722,8 @@
   "filed": "2026-08-28"
  },
  "quote": {
-  "price": 124.86,
-  "date": "2026-11-03",
+  "price": 129.17,
+  "date": "2026-11-04",
   "source": "Yahoo Finance"
  },
  "insiders": [
@@ -4110,126 +4110,6 @@
    "ad": "D",
    "plan_10b5_1": true,
    "url": "https://www.sec.gov/Archives/edgar/data/104169/000154743325000007/"
-  },
-  {
-   "acc": "0000104169-25-000164",
-   "date": "2025-09-30",
-   "name": "Walton Steuart L",
-   "role": "Director",
-   "code": "A",
-   "shares": 340.0,
-   "price": 103.06,
-   "ad": "A",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416925000164/"
-  },
-  {
-   "acc": "0000104169-25-000162",
-   "date": "2025-09-30",
-   "name": "Penner Gregory Boyd",
-   "role": "Director",
-   "code": "A",
-   "shares": 552.0,
-   "price": 103.06,
-   "ad": "A",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416925000162/"
-  },
-  {
-   "acc": "0001183428-25-000006",
-   "date": "2025-09-30",
-   "name": "STEPHENSON RANDALL L",
-   "role": "Director",
-   "code": "A",
-   "shares": 461.0,
-   "price": 103.06,
-   "ad": "A",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/104169/000118342825000006/"
-  },
-  {
-   "acc": "0001628588-25-000007",
-   "date": "2025-09-30",
-   "name": "Niccol Brian R",
-   "role": "Director",
-   "code": "A",
-   "shares": 279.0,
-   "price": 103.06,
-   "ad": "A",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/104169/000162858825000007/"
-  },
-  {
-   "acc": "0002033834-25-000007",
-   "date": "2025-09-30",
-   "name": "Moritz Robert Edward Jr.",
-   "role": "Director",
-   "code": "A",
-   "shares": 279.0,
-   "price": 103.06,
-   "ad": "A",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/104169/000203383425000007/"
-  },
-  {
-   "acc": "0001550608-25-000007",
-   "date": "2025-09-30",
-   "name": "MAYER MARISSA A",
-   "role": "Director",
-   "code": "A",
-   "shares": 279.0,
-   "price": 103.06,
-   "ad": "A",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/104169/000155060825000007/"
-  },
-  {
-   "acc": "0001707351-25-000004",
-   "date": "2025-09-30",
-   "name": "Harris Carla A",
-   "role": "Director",
-   "code": "A",
-   "shares": 170.0,
-   "price": 103.06,
-   "ad": "A",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/104169/000170735125000004/"
-  },
-  {
-   "acc": "0001570658-25-000005",
-   "date": "2025-09-30",
-   "name": "Friar Sarah",
-   "role": "Director",
-   "code": "A",
-   "shares": 340.0,
-   "price": 103.06,
-   "ad": "A",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/104169/000157065825000005/"
-  },
-  {
-   "acc": "0001550322-25-000006",
-   "date": "2025-09-30",
-   "name": "FLYNN TIMOTHY PATRICK",
-   "role": "Director",
-   "code": "A",
-   "shares": 364.0,
-   "price": 103.06,
-   "ad": "A",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/104169/000155032225000006/"
-  },
-  {
-   "acc": "0001616172-25-000007",
-   "date": "2025-09-30",
-   "name": "Conde Cesar",
-   "role": "Director",
-   "code": "A",
-   "shares": 279.0,
-   "price": 103.06,
-   "ad": "A",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/104169/000161617225000007/"
   }
  ]
 }
