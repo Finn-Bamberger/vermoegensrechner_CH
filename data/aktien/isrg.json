@@ -6,7 +6,7 @@
  "rank": 80,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-11-05T01:32:35Z",
+ "updated_at": "2026-11-05T22:52:31Z",
  "periodic_accs": [
   "0001035267-19-000038",
   "0001035267-19-000088",
@@ -808,11 +808,47 @@
   "filed": "2026-10-21"
  },
  "quote": {
-  "price": 482.1,
-  "date": "2026-11-04",
+  "price": 468.52,
+  "date": "2026-11-05",
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0001280628-26-000018",
+   "date": "2026-11-04",
+   "name": "GUTHART GARY S",
+   "role": "Director",
+   "code": "S",
+   "shares": 10000.0,
+   "price": 457.337,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1035267/000128062826000018/"
+  },
+  {
+   "acc": "0001277620-26-000011",
+   "date": "2026-11-04",
+   "name": "BARRATT CRAIG H",
+   "role": "Director",
+   "code": "M",
+   "shares": 1150.0,
+   "price": 90.4944,
+   "ad": "A",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1035267/000127762026000011/"
+  },
+  {
+   "acc": "0001277620-26-000011",
+   "date": "2026-11-04",
+   "name": "BARRATT CRAIG H",
+   "role": "Director",
+   "code": "S",
+   "shares": 1150.0,
+   "price": 460.0026,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1035267/000127762026000011/"
+  },
   {
    "acc": "0002010300-26-000037",
    "date": "2026-10-30",

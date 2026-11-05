@@ -6,7 +6,7 @@
  "rank": 50,
  "source": "SEC EDGAR",
  "fiscal_year_end": "0630",
- "updated_at": "2026-11-05T01:02:30Z",
+ "updated_at": "2026-11-05T22:18:51Z",
  "periodic_accs": [
   "0000319201-17-000034",
   "0000319201-17-000045",
@@ -755,11 +755,107 @@
   "filed": "2026-10-29"
  },
  "quote": {
-  "price": 149.79,
-  "date": "2026-11-04",
+  "price": 129.8,
+  "date": "2026-11-05",
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0001193125-26-449761",
+   "date": "2026-11-04",
+   "name": "Embree Tracy A",
+   "role": "Director",
+   "code": "A",
+   "shares": 1669.003,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/319201/000119312526449761/"
+  },
+  {
+   "acc": "0001193125-26-449762",
+   "date": "2026-11-04",
+   "name": "McMullen Michael R.",
+   "role": "Director",
+   "code": "A",
+   "shares": 1669.003,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/319201/000119312526449762/"
+  },
+  {
+   "acc": "0001193125-26-449760",
+   "date": "2026-11-04",
+   "name": "KENNEDY KEVIN",
+   "role": "Director",
+   "code": "A",
+   "shares": 1669.003,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/319201/000119312526449760/"
+  },
+  {
+   "acc": "0001193125-26-449759",
+   "date": "2026-11-04",
+   "name": "Taylor Susan J.S.",
+   "role": "Director",
+   "code": "A",
+   "shares": 1669.003,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/319201/000119312526449759/"
+  },
+  {
+   "acc": "0001193125-26-449758",
+   "date": "2026-11-04",
+   "name": "Samath Jamie",
+   "role": "Director",
+   "code": "A",
+   "shares": 1669.003,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/319201/000119312526449758/"
+  },
+  {
+   "acc": "0001193125-26-449756",
+   "date": "2026-11-04",
+   "name": "Hanley Jeneanne Michelle",
+   "role": "Director",
+   "code": "A",
+   "shares": 1669.003,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/319201/000119312526449756/"
+  },
+  {
+   "acc": "0001193125-26-449753",
+   "date": "2026-11-04",
+   "name": "CALDERONI ROBERT",
+   "role": "Director",
+   "code": "A",
+   "shares": 2203.084,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/319201/000119312526449753/"
+  },
+  {
+   "acc": "0001193125-26-449752",
+   "date": "2026-11-04",
+   "name": "PENG VICTOR",
+   "role": "Director",
+   "code": "A",
+   "shares": 1669.003,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/319201/000119312526449752/"
+  },
   {
    "acc": "0001193125-26-393053",
    "date": "2026-09-15",

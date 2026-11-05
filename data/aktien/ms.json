@@ -6,13 +6,22 @@
  "rank": 41,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-11-05T01:01:36Z",
+ "updated_at": "2026-11-05T22:13:50Z",
  "periodic_accs": [
   "0000895421-26-000086",
   "0000895421-26-000121",
-  "0000895421-26-000212"
+  "0000895421-26-000212",
+  "0000895421-26-000293"
  ],
  "filings": [
+  {
+   "form": "10-Q",
+   "date": "2026-11-05",
+   "report_date": "2026-09-30",
+   "items": "",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/895421/000089542126000293/ms-20260930.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/895421/000089542126000293/0000895421-26-000293-index.htm"
+  },
   {
    "form": "8-K",
    "date": "2026-10-14",
@@ -95,15 +104,6 @@
   }
  ],
  "quarters": [
-  {
-   "end": "2020-09-30",
-   "net_income": 2717000000,
-   "op_cash_flow": -6867000000,
-   "sbc": 254000000,
-   "diluted_shares": 1566000000,
-   "cash": 94772000000,
-   "debt": 198891000000
-  },
   {
    "end": "2020-12-31",
    "net_income": 3385000000,
@@ -304,6 +304,15 @@
    "diluted_shares": 1569000000,
    "cash": 160135000000,
    "debt": 383156000000
+  },
+  {
+   "end": "2026-09-30",
+   "net_income": 4909000000,
+   "op_cash_flow": -46024000000,
+   "sbc": 542000000,
+   "diluted_shares": 1566000000,
+   "cash": 138669000000,
+   "debt": 378090000000
   }
  ],
  "annual": [
@@ -399,13 +408,13 @@
   }
  ],
  "shares_outstanding": {
-  "shares": 1570566292,
-  "as_of": "2026-07-31",
-  "filed": "2026-08-04"
+  "shares": 1563043865,
+  "as_of": "2026-10-30",
+  "filed": "2026-11-05"
  },
  "quote": {
-  "price": 193.97,
-  "date": "2026-11-04",
+  "price": 182.44,
+  "date": "2026-11-05",
   "source": "Yahoo Finance"
  },
  "insiders": [

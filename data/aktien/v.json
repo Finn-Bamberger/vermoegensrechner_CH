@@ -6,7 +6,7 @@
  "rank": 16,
  "source": "SEC EDGAR",
  "fiscal_year_end": "0930",
- "updated_at": "2026-11-05T00:59:14Z",
+ "updated_at": "2026-11-05T22:11:11Z",
  "periodic_accs": [
   "0001403161-15-000007",
   "0001403161-15-000010",
@@ -53,9 +53,18 @@
   "0001403161-25-000089",
   "0001403161-26-000045",
   "0001403161-26-000079",
-  "0001403161-26-000104"
+  "0001403161-26-000104",
+  "0001403161-26-000134"
  ],
  "filings": [
+  {
+   "form": "10-K",
+   "date": "2026-11-05",
+   "report_date": "2026-09-30",
+   "items": "",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000134/v-20260930.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000134/0001403161-26-000134-index.htm"
+  },
   {
    "form": "8-K",
    "date": "2026-10-27",
@@ -367,40 +376,9 @@
    "items": "8.01",
    "doc_url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316124000047/v-20240924.htm",
    "index_url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316124000047/0001403161-24-000047-index.htm"
-  },
-  {
-   "form": "10-Q",
-   "date": "2024-07-24",
-   "report_date": "2024-06-30",
-   "items": "",
-   "doc_url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316124000041/v-20240630.htm",
-   "index_url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316124000041/0001403161-24-000041-index.htm"
   }
  ],
  "quarters": [
-  {
-   "end": "2020-06-30",
-   "revenue": 4837000000,
-   "operating_income": 2999000000,
-   "net_income": 2373000000,
-   "op_cash_flow": 3002000000,
-   "capex": 161000000,
-   "sbc": 107000000,
-   "cash": 13898000000,
-   "debt": 17880000000
-  },
-  {
-   "end": "2020-09-30",
-   "revenue": 5101000000,
-   "operating_income": 3142000000,
-   "net_income": 2137000000,
-   "op_cash_flow": 2096000000,
-   "capex": 168000000,
-   "sbc": 94000000,
-   "cash": 16289000000,
-   "securities": 3604000000,
-   "debt": 21071000000
-  },
   {
    "end": "2020-12-31",
    "revenue": 5687000000,
@@ -642,19 +620,31 @@
    "sbc": 275000000,
    "cash": 12404000000,
    "debt": 22417000000
+  },
+  {
+   "end": "2026-06-30",
+   "revenue": 11633000000,
+   "operating_income": 6877000000,
+   "net_income": 5628000000,
+   "op_cash_flow": 6554000000,
+   "capex": 417000000,
+   "sbc": 222000000,
+   "cash": 12359000000,
+   "debt": 20862000000
+  },
+  {
+   "end": "2026-09-30",
+   "revenue": 12139000000,
+   "operating_income": 7262000000,
+   "net_income": 6002000000,
+   "op_cash_flow": 7386000000,
+   "capex": 493000000,
+   "sbc": 200000000,
+   "cash": 12938000000,
+   "debt": 19355000000
   }
  ],
  "annual": [
-  {
-   "end": "2016-09-30",
-   "operating_income": 7883000000,
-   "net_income": 5991000000,
-   "op_cash_flow": 5574000000,
-   "capex": 523000000,
-   "sbc": 221000000,
-   "cash": 5619000000,
-   "debt": 15882000000
-  },
   {
    "end": "2017-09-30",
    "operating_income": 12144000000,
@@ -754,6 +744,17 @@
    "sbc": 897000000,
    "cash": 17164000000,
    "debt": 19602000000
+  },
+  {
+   "end": "2026-09-30",
+   "revenue": 45903000000,
+   "operating_income": 28110000000,
+   "net_income": 23504000000,
+   "op_cash_flow": 23728000000,
+   "capex": 1671000000,
+   "sbc": 928000000,
+   "cash": 12938000000,
+   "debt": 19355000000
   }
  ],
  "shares_outstanding": {
@@ -762,11 +763,59 @@
   "filed": "2010-02-03"
  },
  "quote": {
-  "price": 436.57,
-  "date": "2026-11-04",
+  "price": 422.59,
+  "date": "2026-11-05",
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0001403161-26-000136",
+   "date": "2026-11-04",
+   "name": "Taneja Rajat",
+   "role": "PRESIDENT, TECHNOLOGY",
+   "code": "M",
+   "shares": 34417.0,
+   "price": 109.82,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000136/"
+  },
+  {
+   "acc": "0001403161-26-000136",
+   "date": "2026-11-04",
+   "name": "Taneja Rajat",
+   "role": "PRESIDENT, TECHNOLOGY",
+   "code": "S",
+   "shares": 7620.0,
+   "price": 425.3885,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000136/"
+  },
+  {
+   "acc": "0001403161-26-000136",
+   "date": "2026-11-04",
+   "name": "Taneja Rajat",
+   "role": "PRESIDENT, TECHNOLOGY",
+   "code": "S",
+   "shares": 7014.0,
+   "price": 426.7186,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000136/"
+  },
+  {
+   "acc": "0001403161-26-000136",
+   "date": "2026-11-04",
+   "name": "Taneja Rajat",
+   "role": "PRESIDENT, TECHNOLOGY",
+   "code": "S",
+   "shares": 19783.0,
+   "price": 427.3636,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000136/"
+  },
   {
    "acc": "0001403161-26-000130",
    "date": "2026-11-02",
