@@ -6,7 +6,7 @@
  "rank": 68,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-11-05T01:18:55Z",
+ "updated_at": "2026-11-05T16:06:07Z",
  "periodic_accs": [
   "0001163165-22-000006",
   "0001163165-22-000013",
@@ -26,6 +26,7 @@
   "0001163165-26-000009",
   "0001163165-26-000018",
   "0001163165-26-000032",
+  "0001163165-26-000045",
   "0001193125-18-311600",
   "0001193125-19-043841",
   "0001193125-19-134334",
@@ -42,6 +43,22 @@
   "0001562762-22-000031"
  ],
  "filings": [
+  {
+   "form": "10-Q",
+   "date": "2026-11-05",
+   "report_date": "2026-09-30",
+   "items": "",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1163165/000116316526000045/cop-20260930.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1163165/000116316526000045/0001163165-26-000045-index.htm"
+  },
+  {
+   "form": "8-K",
+   "date": "2026-11-05",
+   "report_date": "2026-11-05",
+   "items": "2.02,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1163165/000116316526000043/cop-20261105.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1163165/000116316526000043/0001163165-26-000043-index.htm"
+  },
   {
    "form": "8-K",
    "date": "2026-08-11",
@@ -345,35 +362,9 @@
    "items": "5.02,9.01",
    "doc_url": "https://www.sec.gov/Archives/edgar/data/1163165/000110465924024352/tm246130d1_8k.htm",
    "index_url": "https://www.sec.gov/Archives/edgar/data/1163165/000110465924024352/0001104659-24-024352-index.htm"
-  },
-  {
-   "form": "8-K",
-   "date": "2024-02-08",
-   "report_date": "2024-02-08",
-   "items": "2.02,9.01",
-   "doc_url": "https://www.sec.gov/Archives/edgar/data/1163165/000116316524000004/cop-20240208.htm",
-   "index_url": "https://www.sec.gov/Archives/edgar/data/1163165/000116316524000004/0001163165-24-000004-index.htm"
-  },
-  {
-   "form": "10-Q",
-   "date": "2023-11-02",
-   "report_date": "2023-09-30",
-   "items": "",
-   "doc_url": "https://www.sec.gov/Archives/edgar/data/1163165/000116316523000031/cop-20230930.htm",
-   "index_url": "https://www.sec.gov/Archives/edgar/data/1163165/000116316523000031/0001163165-23-000031-index.htm"
   }
  ],
  "quarters": [
-  {
-   "end": "2020-09-30",
-   "revenue": 4380000000,
-   "net_income": -450000000,
-   "op_cash_flow": 868000000,
-   "capex": 1132000000,
-   "diluted_shares": 1077377000,
-   "cash": 2490000000,
-   "debt": 18827000000
-  },
   {
    "end": "2020-12-31",
    "revenue": 5577000000,
@@ -574,6 +565,15 @@
    "diluted_shares": 1214255000,
    "cash": 6574000000,
    "securities": 1118000000
+  },
+  {
+   "end": "2026-09-30",
+   "revenue": 19435000000,
+   "net_income": 4001000000,
+   "op_cash_flow": 7195000000,
+   "diluted_shares": 1195864000,
+   "cash": 7765000000,
+   "securities": 2164000000
   }
  ],
  "annual": [
@@ -679,9 +679,9 @@
   }
  ],
  "shares_outstanding": {
-  "shares": 1201337479,
-  "as_of": "2026-06-30",
-  "filed": "2026-08-06"
+  "shares": 1182335057,
+  "as_of": "2026-09-30",
+  "filed": "2026-11-05"
  },
  "quote": {
   "price": 136.94,

@@ -6,7 +6,7 @@
  "rank": 28,
  "source": "SEC EDGAR",
  "fiscal_year_end": "0630",
- "updated_at": "2026-11-05T01:00:08Z",
+ "updated_at": "2026-11-05T16:02:07Z",
  "periodic_accs": [
   "0000080424-22-000102",
   "0000080424-23-000014",
@@ -734,6 +734,30 @@
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0000080424-26-000271",
+   "date": "2026-11-04",
+   "name": "Schulten Andre",
+   "role": "Chief Financial Officer",
+   "code": "M",
+   "shares": 33624.0,
+   "price": 91.07,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/80424/000008042426000271/"
+  },
+  {
+   "acc": "0000080424-26-000271",
+   "date": "2026-11-04",
+   "name": "Schulten Andre",
+   "role": "Chief Financial Officer",
+   "code": "S",
+   "shares": 33624.0,
+   "price": 165.0,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/80424/000008042426000271/"
+  },
   {
    "acc": "0000080424-26-000270",
    "date": "2026-11-03",
