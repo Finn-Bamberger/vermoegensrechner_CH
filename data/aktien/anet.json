@@ -6,7 +6,7 @@
  "rank": 48,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-11-05T22:16:31Z",
+ "updated_at": "2026-11-06T02:44:27Z",
  "periodic_accs": [
   "0001596532-22-000112",
   "0001596532-22-000220",
@@ -9908,78 +9908,6 @@
    "ad": "D",
    "plan_10b5_1": true,
    "url": "https://www.sec.gov/Archives/edgar/data/1596532/000159653225000279/"
-  },
-  {
-   "acc": "0001596532-25-000277",
-   "date": "2025-10-01",
-   "name": "Giancarlo Charles H",
-   "role": "Director",
-   "code": "S",
-   "shares": 1200.0,
-   "price": 144.3372,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/1596532/000159653225000277/"
-  },
-  {
-   "acc": "0001596532-25-000277",
-   "date": "2025-10-01",
-   "name": "Giancarlo Charles H",
-   "role": "Director",
-   "code": "S",
-   "shares": 800.0,
-   "price": 145.3216,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/1596532/000159653225000277/"
-  },
-  {
-   "acc": "0001596532-25-000277",
-   "date": "2025-10-01",
-   "name": "Giancarlo Charles H",
-   "role": "Director",
-   "code": "S",
-   "shares": 800.0,
-   "price": 146.1913,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/1596532/000159653225000277/"
-  },
-  {
-   "acc": "0001596532-25-000277",
-   "date": "2025-10-01",
-   "name": "Giancarlo Charles H",
-   "role": "Director",
-   "code": "S",
-   "shares": 700.0,
-   "price": 147.2257,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/1596532/000159653225000277/"
-  },
-  {
-   "acc": "0001596532-25-000277",
-   "date": "2025-10-01",
-   "name": "Giancarlo Charles H",
-   "role": "Director",
-   "code": "S",
-   "shares": 2350.0,
-   "price": 148.6826,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/1596532/000159653225000277/"
-  },
-  {
-   "acc": "0001596532-25-000277",
-   "date": "2025-10-01",
-   "name": "Giancarlo Charles H",
-   "role": "Director",
-   "code": "S",
-   "shares": 2150.0,
-   "price": 149.3084,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/1596532/000159653225000277/"
   }
  ]
 }

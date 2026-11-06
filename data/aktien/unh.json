@@ -6,7 +6,7 @@
  "rank": 32,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-11-05T22:12:49Z",
+ "updated_at": "2026-11-06T02:42:58Z",
  "periodic_accs": [
   "0000731766-21-000013",
   "0000731766-21-000021",
@@ -2413,114 +2413,6 @@
    "ad": "A",
    "plan_10b5_1": false,
    "url": "https://www.sec.gov/Archives/edgar/data/731766/000073176625000340/"
-  },
-  {
-   "acc": "0000731766-25-000297",
-   "date": "2025-10-01",
-   "name": "GARCIA PAUL R",
-   "role": "Director",
-   "code": "A",
-   "shares": 162.0,
-   "price": 0.0,
-   "ad": "A",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/731766/000073176625000297/"
-  },
-  {
-   "acc": "0000731766-25-000297",
-   "date": "2025-10-01",
-   "name": "GARCIA PAUL R",
-   "role": "Director",
-   "code": "A",
-   "shares": 98.0,
-   "price": 0.0,
-   "ad": "A",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/731766/000073176625000297/"
-  },
-  {
-   "acc": "0000731766-25-000296",
-   "date": "2025-10-01",
-   "name": "MCNABB FREDERICK WILLIAM III",
-   "role": "Director",
-   "code": "A",
-   "shares": 289.0,
-   "price": 0.0,
-   "ad": "A",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/731766/000073176625000296/"
-  },
-  {
-   "acc": "0000731766-25-000295",
-   "date": "2025-10-01",
-   "name": "FLYNN TIMOTHY PATRICK",
-   "role": "Director",
-   "code": "A",
-   "shares": 272.0,
-   "price": 0.0,
-   "ad": "A",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/731766/000073176625000295/"
-  },
-  {
-   "acc": "0000731766-25-000294",
-   "date": "2025-10-01",
-   "name": "Gil Kristen",
-   "role": "Director",
-   "code": "A",
-   "shares": 162.0,
-   "price": 0.0,
-   "ad": "A",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/731766/000073176625000294/"
-  },
-  {
-   "acc": "0000731766-25-000293",
-   "date": "2025-10-01",
-   "name": "MONTGOMERY RICE VALERIE MD",
-   "role": "Director",
-   "code": "A",
-   "shares": 270.0,
-   "price": 0.0,
-   "ad": "A",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/731766/000073176625000293/"
-  },
-  {
-   "acc": "0000731766-25-000292",
-   "date": "2025-10-01",
-   "name": "Baker Charles D.",
-   "role": "Director",
-   "code": "A",
-   "shares": 260.0,
-   "price": 0.0,
-   "ad": "A",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/731766/000073176625000292/"
-  },
-  {
-   "acc": "0000731766-25-000291",
-   "date": "2025-10-01",
-   "name": "HOOPER MICHELE J",
-   "role": "Director",
-   "code": "A",
-   "shares": 162.0,
-   "price": 0.0,
-   "ad": "A",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/731766/000073176625000291/"
-  },
-  {
-   "acc": "0000731766-25-000290",
-   "date": "2025-10-01",
-   "name": "Noseworthy John H",
-   "role": "Director",
-   "code": "A",
-   "shares": 261.0,
-   "price": 0.0,
-   "ad": "A",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/731766/000073176625000290/"
   }
  ]
 }

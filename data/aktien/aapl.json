@@ -6,7 +6,7 @@
  "rank": 2,
  "source": "SEC EDGAR",
  "fiscal_year_end": "0926",
- "updated_at": "2026-11-05T22:09:57Z",
+ "updated_at": "2026-11-06T02:40:31Z",
  "periodic_accs": [
   "0000320193-17-000009",
   "0000320193-17-000070",
@@ -853,6 +853,18 @@
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0001140361-26-042149",
+   "date": "2026-11-03",
+   "name": "Newstead Jennifer",
+   "role": "SVP, GC and Government Affairs",
+   "code": "S",
+   "shares": 2399.0,
+   "price": 325.75,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/320193/000114036126042149/"
+  },
   {
    "acc": "0001140361-26-041201",
    "date": "2026-10-27",
@@ -2133,102 +2145,6 @@
    "code": "S",
    "shares": 21551.0,
    "price": 257.54,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/320193/000146235625000010/"
-  },
-  {
-   "acc": "0001214156-25-000011",
-   "date": "2025-10-01",
-   "name": "COOK TIMOTHY D",
-   "role": "Chief Executive Officer",
-   "code": "M",
-   "shares": 277206.0,
-   "price": null,
-   "ad": "A",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/320193/000121415625000011/"
-  },
-  {
-   "acc": "0001214156-25-000011",
-   "date": "2025-10-01",
-   "name": "COOK TIMOTHY D",
-   "role": "Chief Executive Officer",
-   "code": "F",
-   "shares": 147243.0,
-   "price": 255.45,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/320193/000121415625000011/"
-  },
-  {
-   "acc": "0001767094-25-000009",
-   "date": "2025-10-01",
-   "name": "O'BRIEN DEIRDRE",
-   "role": "Senior Vice President",
-   "code": "M",
-   "shares": 92403.0,
-   "price": null,
-   "ad": "A",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/320193/000176709425000009/"
-  },
-  {
-   "acc": "0001767094-25-000009",
-   "date": "2025-10-01",
-   "name": "O'BRIEN DEIRDRE",
-   "role": "Senior Vice President",
-   "code": "F",
-   "shares": 49390.0,
-   "price": 255.45,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/320193/000176709425000009/"
-  },
-  {
-   "acc": "0002078476-25-000005",
-   "date": "2025-10-01",
-   "name": "Khan Sabih",
-   "role": "COO",
-   "code": "M",
-   "shares": 92403.0,
-   "price": null,
-   "ad": "A",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/320193/000207847625000005/"
-  },
-  {
-   "acc": "0002078476-25-000005",
-   "date": "2025-10-01",
-   "name": "Khan Sabih",
-   "role": "COO",
-   "code": "F",
-   "shares": 49390.0,
-   "price": 255.45,
-   "ad": "D",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/320193/000207847625000005/"
-  },
-  {
-   "acc": "0001462356-25-000010",
-   "date": "2025-10-01",
-   "name": "Adams Katherine L.",
-   "role": "SVP, GC and Secretary",
-   "code": "M",
-   "shares": 92403.0,
-   "price": null,
-   "ad": "A",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/320193/000146235625000010/"
-  },
-  {
-   "acc": "0001462356-25-000010",
-   "date": "2025-10-01",
-   "name": "Adams Katherine L.",
-   "role": "SVP, GC and Secretary",
-   "code": "F",
-   "shares": 45278.0,
-   "price": 255.45,
    "ad": "D",
    "plan_10b5_1": true,
    "url": "https://www.sec.gov/Archives/edgar/data/320193/000146235625000010/"

@@ -6,7 +6,7 @@
  "rank": 5,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-11-05T22:10:20Z",
+ "updated_at": "2026-11-06T02:40:51Z",
  "periodic_accs": [
   "0001018724-21-000004",
   "0001018724-21-000010",
@@ -3374,18 +3374,6 @@
    "ad": "D",
    "plan_10b5_1": true,
    "url": "https://www.sec.gov/Archives/edgar/data/1018724/000193600625000005/"
-  },
-  {
-   "acc": "0001936006-25-000003",
-   "date": "2025-10-01",
-   "name": "Herrington Douglas J",
-   "role": "CEO Worldwide Amazon Stores",
-   "code": "S",
-   "shares": 2500.0,
-   "price": 217.1,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000193600625000003/"
   }
  ]
 }

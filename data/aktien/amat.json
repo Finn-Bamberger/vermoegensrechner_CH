@@ -6,7 +6,7 @@
  "rank": 33,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1026",
- "updated_at": "2026-11-05T22:12:50Z",
+ "updated_at": "2026-11-06T02:42:58Z",
  "periodic_accs": [
   "0000006951-13-000017",
   "0000006951-13-000034",
@@ -2055,30 +2055,6 @@
    "ad": "D",
    "plan_10b5_1": false,
    "url": "https://www.sec.gov/Archives/edgar/data/6951/000162828025046876/"
-  },
-  {
-   "acc": "0001628280-25-044176",
-   "date": "2025-10-01",
-   "name": "Deane Timothy M",
-   "role": "SVP, Applied Global Services",
-   "code": "F",
-   "shares": 1587.0,
-   "price": 217.74,
-   "ad": "D",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/6951/000162828025044176/"
-  },
-  {
-   "acc": "0001628280-25-044175",
-   "date": "2025-10-01",
-   "name": "Sanders Adam",
-   "role": "Corp. Controller & CAO",
-   "code": "F",
-   "shares": 236.0,
-   "price": 217.74,
-   "ad": "D",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/6951/000162828025044175/"
   }
  ]
 }

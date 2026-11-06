@@ -6,7 +6,7 @@
  "rank": 44,
  "source": "SEC EDGAR",
  "fiscal_year_end": "0131",
- "updated_at": "2026-11-05T22:14:08Z",
+ "updated_at": "2026-11-06T02:44:07Z",
  "periodic_accs": [
   "0001535527-21-000007",
   "0001535527-21-000013",
@@ -29467,18 +29467,6 @@
    "ad": "D",
    "plan_10b5_1": true,
    "url": "https://www.sec.gov/Archives/edgar/data/1535527/000196827025000009/"
-  },
-  {
-   "acc": "0001968270-25-000006",
-   "date": "2025-10-01",
-   "name": "Sentonas Michael",
-   "role": "PRESIDENT",
-   "code": "S",
-   "shares": 20000.0,
-   "price": 500.0,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/1535527/000196827025000006/"
   }
  ]
 }

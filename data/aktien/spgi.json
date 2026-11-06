@@ -6,7 +6,7 @@
  "rank": 99,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-11-05T23:14:29Z",
+ "updated_at": "2026-11-06T02:50:30Z",
  "periodic_accs": [
   "0000064040-18-000125",
   "0000064040-18-000162",
@@ -2115,30 +2115,6 @@
    "ad": "D",
    "plan_10b5_1": false,
    "url": "https://www.sec.gov/Archives/edgar/data/64040/000204326825000003/"
-  },
-  {
-   "acc": "0002043271-25-000003",
-   "date": "2025-10-01",
-   "name": "Ganesan Girish",
-   "role": "EVP, Chief People Officer",
-   "code": "M",
-   "shares": 181.0,
-   "price": 481.67,
-   "ad": "A",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/64040/000204327125000003/"
-  },
-  {
-   "acc": "0002043271-25-000003",
-   "date": "2025-10-01",
-   "name": "Ganesan Girish",
-   "role": "EVP, Chief People Officer",
-   "code": "F",
-   "shares": 73.0,
-   "price": 481.67,
-   "ad": "D",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/64040/000204327125000003/"
   }
  ]
 }

@@ -6,7 +6,7 @@
  "rank": 19,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-11-05T22:11:28Z",
+ "updated_at": "2026-11-06T02:41:42Z",
  "periodic_accs": [
   "0001141391-19-000076",
   "0001141391-19-000128",
@@ -2686,90 +2686,6 @@
    "ad": "A",
    "plan_10b5_1": false,
    "url": "https://www.sec.gov/Archives/edgar/data/1141391/000118423125000006/"
-  },
-  {
-   "acc": "0001704831-25-000004",
-   "date": "2025-10-01",
-   "name": "McLaughlin Edward Grunde",
-   "role": "President & CTO, MA Tech",
-   "code": "F",
-   "shares": 85.0,
-   "price": 570.24,
-   "ad": "D",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/1141391/000170483125000004/"
-  },
-  {
-   "acc": "0001663082-25-000004",
-   "date": "2025-10-01",
-   "name": "Vosburg Craig",
-   "role": "Chief Services Officer",
-   "code": "F",
-   "shares": 162.0,
-   "price": 570.24,
-   "ad": "D",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/1141391/000166308225000004/"
-  },
-  {
-   "acc": "0001771933-25-000005",
-   "date": "2025-10-01",
-   "name": "Miebach Michael",
-   "role": "President & CEO",
-   "code": "F",
-   "shares": 398.0,
-   "price": 570.24,
-   "ad": "D",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/1141391/000177193325000005/"
-  },
-  {
-   "acc": "0001462769-25-000004",
-   "date": "2025-10-01",
-   "name": "Madabhushi Venkata R",
-   "role": "Chief Mktg & Comms Officer",
-   "code": "F",
-   "shares": 66.0,
-   "price": 570.24,
-   "ad": "D",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/1141391/000146276925000004/"
-  },
-  {
-   "acc": "0001427531-25-000005",
-   "date": "2025-10-01",
-   "name": "SACHIN J. MEHRA",
-   "role": "Chief Financial Officer",
-   "code": "F",
-   "shares": 362.0,
-   "price": 570.24,
-   "ad": "D",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/1141391/000142753125000005/"
-  },
-  {
-   "acc": "0001923565-25-000004",
-   "date": "2025-10-01",
-   "name": "Ling Hai",
-   "role": "President, AP, Europe, MEA",
-   "code": "F",
-   "shares": 178.0,
-   "price": 570.24,
-   "ad": "D",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/1141391/000192356525000004/"
-  },
-  {
-   "acc": "0001772738-25-000004",
-   "date": "2025-10-01",
-   "name": "Seshadri Raj",
-   "role": "Chief Commercial Pmts Officer",
-   "code": "F",
-   "shares": 222.0,
-   "price": 570.24,
-   "ad": "D",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/1141391/000177273825000004/"
   }
  ]
 }

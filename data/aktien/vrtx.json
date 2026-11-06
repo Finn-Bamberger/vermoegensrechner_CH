@@ -6,7 +6,7 @@
  "rank": 91,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-11-05T23:05:06Z",
+ "updated_at": "2026-11-06T02:49:24Z",
  "periodic_accs": [
   "0000875320-20-000030",
   "0000875320-20-000043",
@@ -3077,18 +3077,6 @@
    "code": "S",
    "shares": 694.0,
    "price": 404.21,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/875320/000087532025000224/"
-  },
-  {
-   "acc": "0000875320-25-000224",
-   "date": "2025-10-01",
-   "name": "Biller Jonathan",
-   "role": "EVP and Chief Legal Officer",
-   "code": "F",
-   "shares": 1259.0,
-   "price": 400.0,
    "ad": "D",
    "plan_10b5_1": true,
    "url": "https://www.sec.gov/Archives/edgar/data/875320/000087532025000224/"

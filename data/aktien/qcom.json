@@ -6,7 +6,7 @@
  "rank": 63,
  "source": "SEC EDGAR",
  "fiscal_year_end": "0927",
- "updated_at": "2026-11-05T22:33:14Z",
+ "updated_at": "2026-11-06T02:46:00Z",
  "periodic_accs": [
   "0000804328-22-000021",
   "0000804328-23-000006",
@@ -4030,42 +4030,6 @@
    "ad": "D",
    "plan_10b5_1": false,
    "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432825000062/"
-  },
-  {
-   "acc": "0000804328-25-000061",
-   "date": "2025-10-01",
-   "name": "AMON CRISTIANO R",
-   "role": "President & CEO",
-   "code": "S",
-   "shares": 82429.0,
-   "price": 165.1613,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432825000061/"
-  },
-  {
-   "acc": "0000804328-25-000061",
-   "date": "2025-10-01",
-   "name": "AMON CRISTIANO R",
-   "role": "President & CEO",
-   "code": "S",
-   "shares": 57684.0,
-   "price": 165.9587,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432825000061/"
-  },
-  {
-   "acc": "0000804328-25-000061",
-   "date": "2025-10-01",
-   "name": "AMON CRISTIANO R",
-   "role": "President & CEO",
-   "code": "S",
-   "shares": 9887.0,
-   "price": 166.5561,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432825000061/"
   }
  ]
 }

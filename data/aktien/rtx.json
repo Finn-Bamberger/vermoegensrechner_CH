@@ -6,7 +6,7 @@
  "rank": 45,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-11-05T22:14:09Z",
+ "updated_at": "2026-11-06T02:44:08Z",
  "periodic_accs": [
   "0000101829-17-000044",
   "0000101829-18-000005",
@@ -1655,102 +1655,6 @@
    "ad": "D",
    "plan_10b5_1": false,
    "url": "https://www.sec.gov/Archives/edgar/data/101829/000122520825008757/"
-  },
-  {
-   "acc": "0001225208-25-008477",
-   "date": "2025-10-01",
-   "name": "Johnson Amy L",
-   "role": "Corporate VP and Controller",
-   "code": "M",
-   "shares": 172.0,
-   "price": 0.0,
-   "ad": "A",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/101829/000122520825008477/"
-  },
-  {
-   "acc": "0001225208-25-008477",
-   "date": "2025-10-01",
-   "name": "Johnson Amy L",
-   "role": "Corporate VP and Controller",
-   "code": "M",
-   "shares": 96.0,
-   "price": 0.0,
-   "ad": "A",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/101829/000122520825008477/"
-  },
-  {
-   "acc": "0001225208-25-008477",
-   "date": "2025-10-01",
-   "name": "Johnson Amy L",
-   "role": "Corporate VP and Controller",
-   "code": "F",
-   "shares": 268.0,
-   "price": 167.2,
-   "ad": "D",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/101829/000122520825008477/"
-  },
-  {
-   "acc": "0001225208-25-008476",
-   "date": "2025-10-01",
-   "name": "DaSilva Kevin G",
-   "role": "Corporate VP and Treasurer",
-   "code": "M",
-   "shares": 185.0,
-   "price": 0.0,
-   "ad": "A",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/101829/000122520825008476/"
-  },
-  {
-   "acc": "0001225208-25-008476",
-   "date": "2025-10-01",
-   "name": "DaSilva Kevin G",
-   "role": "Corporate VP and Treasurer",
-   "code": "M",
-   "shares": 166.0,
-   "price": 0.0,
-   "ad": "A",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/101829/000122520825008476/"
-  },
-  {
-   "acc": "0001225208-25-008476",
-   "date": "2025-10-01",
-   "name": "DaSilva Kevin G",
-   "role": "Corporate VP and Treasurer",
-   "code": "F",
-   "shares": 351.0,
-   "price": 167.2,
-   "ad": "D",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/101829/000122520825008476/"
-  },
-  {
-   "acc": "0001225208-25-008475",
-   "date": "2025-10-01",
-   "name": "Brunk Troy D",
-   "role": "President, Collins Aerospace",
-   "code": "M",
-   "shares": 91.0,
-   "price": 0.0,
-   "ad": "A",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/101829/000122520825008475/"
-  },
-  {
-   "acc": "0001225208-25-008475",
-   "date": "2025-10-01",
-   "name": "Brunk Troy D",
-   "role": "President, Collins Aerospace",
-   "code": "F",
-   "shares": 91.0,
-   "price": 167.2,
-   "ad": "D",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/101829/000122520825008475/"
   }
  ]
 }
