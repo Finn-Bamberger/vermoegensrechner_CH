@@ -6,7 +6,7 @@
  "rank": 96,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-11-05T23:10:52Z",
+ "updated_at": "2026-11-06T23:29:59Z",
  "periodic_accs": [
   "0000014272-19-000107",
   "0000014272-19-000160",
@@ -762,11 +762,23 @@
   "filed": "2026-10-29"
  },
  "quote": {
-  "price": 63.13,
-  "date": "2026-11-05",
+  "price": 62.14,
+  "date": "2026-11-06",
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0001656082-26-000006",
+   "date": "2026-11-05",
+   "name": "Haller Julia A",
+   "role": "Director",
+   "code": "S",
+   "shares": 3800.0,
+   "price": 63.31,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/14272/000165608226000006/"
+  },
   {
    "acc": "0001975719-26-000006",
    "date": "2026-11-03",

@@ -6,7 +6,7 @@
  "rank": 54,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-11-05T22:23:15Z",
+ "updated_at": "2026-11-06T22:43:59Z",
  "periodic_accs": [
   "0000004962-20-000030",
   "0000004962-20-000054",
@@ -742,11 +742,71 @@
   "filed": "2026-10-23"
  },
  "quote": {
-  "price": 324.97,
-  "date": "2026-11-05",
+  "price": 320.99,
+  "date": "2026-11-06",
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0000004962-26-000429",
+   "date": "2026-11-04",
+   "name": "Squeri Stephen J",
+   "role": "Chairman and CEO",
+   "code": "M",
+   "shares": 299401.0,
+   "price": 148.45,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/4962/000000496226000429/"
+  },
+  {
+   "acc": "0000004962-26-000429",
+   "date": "2026-11-04",
+   "name": "Squeri Stephen J",
+   "role": "Chairman and CEO",
+   "code": "S",
+   "shares": 7851.0,
+   "price": 330.52,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/4962/000000496226000429/"
+  },
+  {
+   "acc": "0000004962-26-000429",
+   "date": "2026-11-04",
+   "name": "Squeri Stephen J",
+   "role": "Chairman and CEO",
+   "code": "S",
+   "shares": 85245.0,
+   "price": 331.64,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/4962/000000496226000429/"
+  },
+  {
+   "acc": "0000004962-26-000429",
+   "date": "2026-11-04",
+   "name": "Squeri Stephen J",
+   "role": "Chairman and CEO",
+   "code": "S",
+   "shares": 200791.0,
+   "price": 332.42,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/4962/000000496226000429/"
+  },
+  {
+   "acc": "0000004962-26-000429",
+   "date": "2026-11-04",
+   "name": "Squeri Stephen J",
+   "role": "Chairman and CEO",
+   "code": "S",
+   "shares": 5514.0,
+   "price": 332.98,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/4962/000000496226000429/"
+  },
   {
    "acc": "0000004962-26-000424",
    "date": "2026-11-02",

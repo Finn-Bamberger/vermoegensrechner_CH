@@ -6,7 +6,7 @@
  "rank": 63,
  "source": "SEC EDGAR",
  "fiscal_year_end": "0927",
- "updated_at": "2026-11-06T02:46:00Z",
+ "updated_at": "2026-11-06T22:52:06Z",
  "periodic_accs": [
   "0000804328-22-000021",
   "0000804328-23-000006",
@@ -810,11 +810,23 @@
   "filed": "2026-11-04"
  },
  "quote": {
-  "price": 156.75,
-  "date": "2026-11-05",
+  "price": 165.41,
+  "date": "2026-11-06",
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0000804328-26-000130",
+   "date": "2026-11-06",
+   "name": "CHAPLIN ANN C",
+   "role": "EVP, GenCounsel&CorpSecretary",
+   "code": "S",
+   "shares": 1501.0,
+   "price": 161.54,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432826000130/"
+  },
   {
    "acc": "0000804328-26-000120",
    "date": "2026-10-31",

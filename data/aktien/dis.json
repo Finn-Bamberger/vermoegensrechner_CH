@@ -6,7 +6,7 @@
  "rank": 61,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1003",
- "updated_at": "2026-11-06T02:45:40Z",
+ "updated_at": "2026-11-06T22:49:41Z",
  "periodic_accs": [
   "0001193125-23-014219",
   "0001744489-20-000046",
@@ -744,11 +744,23 @@
   "filed": "2026-08-05"
  },
  "quote": {
-  "price": 117.22,
-  "date": "2026-11-05",
+  "price": 116.75,
+  "date": "2026-11-06",
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0001628280-26-071797",
+   "date": "2026-11-05",
+   "name": "Gutierrez Horacio E",
+   "role": "SEVP, CL&GAO",
+   "code": "S",
+   "shares": 20552.0,
+   "price": 120.0,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1744489/000162828026071797/"
+  },
   {
    "acc": "0001628280-26-071215",
    "date": "2026-11-04",

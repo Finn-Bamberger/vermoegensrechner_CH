@@ -6,7 +6,7 @@
  "rank": 64,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-11-05T22:34:22Z",
+ "updated_at": "2026-11-06T22:53:13Z",
  "periodic_accs": [
   "0001047469-19-000624",
   "0001104659-18-048736",
@@ -811,11 +811,23 @@
   "filed": "2026-11-04"
  },
  "quote": {
-  "price": 113.6,
-  "date": "2026-11-05",
+  "price": 109.93,
+  "date": "2026-11-06",
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0001783147-26-000013",
+   "date": "2026-11-05",
+   "name": "Moreland Mary K",
+   "role": "EXECUTIVE VICE PRESIDENT",
+   "code": "S",
+   "shares": 3500.0,
+   "price": 116.0,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1800/000178314726000013/"
+  },
   {
    "acc": "0001306119-26-000009",
    "date": "2026-09-23",

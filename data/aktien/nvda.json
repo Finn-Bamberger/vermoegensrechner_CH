@@ -6,7 +6,7 @@
  "rank": 1,
  "source": "SEC EDGAR",
  "fiscal_year_end": "0131",
- "updated_at": "2026-11-06T02:40:30Z",
+ "updated_at": "2026-11-06T22:38:22Z",
  "periodic_accs": [
   "0001045810-20-000189",
   "0001045810-21-000010",
@@ -821,11 +821,23 @@
   "filed": "2026-08-26"
  },
  "quote": {
-  "price": 181.6,
-  "date": "2026-11-05",
+  "price": 186.64,
+  "date": "2026-11-06",
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0001197647-26-000013",
+   "date": "2026-11-04",
+   "name": "COXE TENCH",
+   "role": "Director",
+   "code": "G",
+   "shares": 500000.0,
+   "price": 0.0,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1045810/000119764726000013/"
+  },
   {
    "acc": "0001197647-26-000011",
    "date": "2026-10-07",
