@@ -6,7 +6,7 @@
  "rank": 73,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-11-06T23:03:13Z",
+ "updated_at": "2026-11-07T02:35:55Z",
  "periodic_accs": [
   "0000316709-21-000081",
   "0000316709-22-000009",
@@ -3015,30 +3015,6 @@
    "ad": "D",
    "plan_10b5_1": false,
    "url": "https://www.sec.gov/Archives/edgar/data/316709/000092373825000035/"
-  },
-  {
-   "acc": "0001950787-25-000032",
-   "date": "2025-10-02",
-   "name": "Schwab-Pomerantz Carolyn",
-   "role": "Director",
-   "code": "S",
-   "shares": 14400.0,
-   "price": 92.5465,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/316709/000195078725000032/"
-  },
-  {
-   "acc": "0001950787-25-000032",
-   "date": "2025-10-02",
-   "name": "Schwab-Pomerantz Carolyn",
-   "role": "Director",
-   "code": "S",
-   "shares": 9600.0,
-   "price": 92.5545,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/316709/000195078725000032/"
   }
  ]
 }

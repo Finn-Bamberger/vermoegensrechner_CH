@@ -6,7 +6,7 @@
  "rank": 58,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1031",
- "updated_at": "2026-11-06T22:46:29Z",
+ "updated_at": "2026-11-07T02:34:26Z",
  "periodic_accs": [
   "0000006281-19-000013",
   "0000006281-19-000089",
@@ -4371,42 +4371,6 @@
    "ad": "D",
    "plan_10b5_1": false,
    "url": "https://www.sec.gov/Archives/edgar/data/6281/000158982725000004/"
-  },
-  {
-   "acc": "0000900729-25-000008",
-   "date": "2025-10-02",
-   "name": "STATA RAY",
-   "role": "Director",
-   "code": "S",
-   "shares": 731.0,
-   "price": 241.2818,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/6281/000090072925000008/"
-  },
-  {
-   "acc": "0000900729-25-000008",
-   "date": "2025-10-02",
-   "name": "STATA RAY",
-   "role": "Director",
-   "code": "S",
-   "shares": 1310.0,
-   "price": 242.3406,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/6281/000090072925000008/"
-  },
-  {
-   "acc": "0000900729-25-000008",
-   "date": "2025-10-02",
-   "name": "STATA RAY",
-   "role": "Director",
-   "code": "S",
-   "shares": 1084.0,
-   "price": 243.0316,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/6281/000090072925000008/"
   }
  ]
 }

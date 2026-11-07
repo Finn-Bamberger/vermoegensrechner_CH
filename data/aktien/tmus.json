@@ -6,7 +6,7 @@
  "rank": 71,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-11-06T23:01:03Z",
+ "updated_at": "2026-11-07T02:35:48Z",
  "periodic_accs": [
   "0001193125-20-214220",
   "0001283699-20-000106",
@@ -2677,54 +2677,6 @@
    "code": "S",
    "shares": 12899.0,
    "price": 230.2857,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/1283699/000114036125037365/"
-  },
-  {
-   "acc": "0001140361-25-037365",
-   "date": "2025-10-02",
-   "name": "DEUTSCHE TELEKOM AG",
-   "role": "Director",
-   "code": "S",
-   "shares": 54832.0,
-   "price": 230.2136,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/1283699/000114036125037365/"
-  },
-  {
-   "acc": "0001140361-25-037365",
-   "date": "2025-10-02",
-   "name": "DEUTSCHE TELEKOM AG",
-   "role": "Director",
-   "code": "S",
-   "shares": 6784.0,
-   "price": 231.0402,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/1283699/000114036125037365/"
-  },
-  {
-   "acc": "0001140361-25-037365",
-   "date": "2025-10-02",
-   "name": "DEUTSCHE TELEKOM AG",
-   "role": "Director",
-   "code": "S",
-   "shares": 710.0,
-   "price": 232.4006,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/1283699/000114036125037365/"
-  },
-  {
-   "acc": "0001140361-25-037365",
-   "date": "2025-10-02",
-   "name": "DEUTSCHE TELEKOM AG",
-   "role": "Director",
-   "code": "S",
-   "shares": 2100.0,
-   "price": 232.8612,
    "ad": "D",
    "plan_10b5_1": true,
    "url": "https://www.sec.gov/Archives/edgar/data/1283699/000114036125037365/"

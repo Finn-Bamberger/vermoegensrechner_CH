@@ -6,7 +6,7 @@
  "rank": 63,
  "source": "SEC EDGAR",
  "fiscal_year_end": "0927",
- "updated_at": "2026-11-06T22:52:06Z",
+ "updated_at": "2026-11-07T02:34:54Z",
  "periodic_accs": [
   "0000804328-22-000021",
   "0000804328-23-000006",
@@ -815,6 +815,18 @@
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0000804328-26-000131",
+   "date": "2026-11-06",
+   "name": "ACEVEDO SYLVIA",
+   "role": "Director",
+   "code": "S",
+   "shares": 60.6691,
+   "price": 166.05,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432826000131/"
+  },
   {
    "acc": "0000804328-26-000130",
    "date": "2026-11-06",

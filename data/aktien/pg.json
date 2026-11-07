@@ -6,7 +6,7 @@
  "rank": 28,
  "source": "SEC EDGAR",
  "fiscal_year_end": "0630",
- "updated_at": "2026-11-06T22:40:43Z",
+ "updated_at": "2026-11-07T02:31:45Z",
  "periodic_accs": [
   "0000080424-22-000102",
   "0000080424-23-000014",
@@ -2545,114 +2545,6 @@
    "ad": "A",
    "plan_10b5_1": false,
    "url": "https://www.sec.gov/Archives/edgar/data/80424/000008042425000223/"
-  },
-  {
-   "acc": "0000080424-25-000209",
-   "date": "2025-10-02",
-   "name": "Schulten Andre",
-   "role": "Chief Financial Officer",
-   "code": "S",
-   "shares": 4252.0,
-   "price": 152.2317,
-   "ad": "D",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/80424/000008042425000209/"
-  },
-  {
-   "acc": "0000080424-25-000208",
-   "date": "2025-10-02",
-   "name": "Moeller Jon R",
-   "role": "Chairman, President and CEO",
-   "code": "S",
-   "shares": 11684.0,
-   "price": 152.2317,
-   "ad": "D",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/80424/000008042425000208/"
-  },
-  {
-   "acc": "0000080424-25-000207",
-   "date": "2025-10-02",
-   "name": "Purushothaman Balaji",
-   "role": "Chief Human Resources Officer",
-   "code": "S",
-   "shares": 490.0,
-   "price": 152.2317,
-   "ad": "D",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/80424/000008042425000207/"
-  },
-  {
-   "acc": "0000080424-25-000206",
-   "date": "2025-10-02",
-   "name": "Keith R. Alexandra",
-   "role": "CEO - Beauty",
-   "code": "S",
-   "shares": 1855.0,
-   "price": 152.2317,
-   "ad": "D",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/80424/000008042425000206/"
-  },
-  {
-   "acc": "0000080424-25-000206",
-   "date": "2025-10-02",
-   "name": "Keith R. Alexandra",
-   "role": "CEO - Beauty",
-   "code": "S",
-   "shares": 399.0,
-   "price": 152.2317,
-   "ad": "D",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/80424/000008042425000206/"
-  },
-  {
-   "acc": "0000080424-25-000205",
-   "date": "2025-10-02",
-   "name": "Jejurikar Shailesh",
-   "role": "Chief Operating Officer",
-   "code": "S",
-   "shares": 3986.0,
-   "price": 152.2317,
-   "ad": "D",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/80424/000008042425000205/"
-  },
-  {
-   "acc": "0000080424-25-000204",
-   "date": "2025-10-02",
-   "name": "Davis Jennifer L.",
-   "role": "CEO - Health Care",
-   "code": "S",
-   "shares": 3227.0,
-   "price": 152.2317,
-   "ad": "D",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/80424/000008042425000204/"
-  },
-  {
-   "acc": "0000080424-25-000203",
-   "date": "2025-10-02",
-   "name": "Coombe Gary A",
-   "role": "CEO - Grooming",
-   "code": "S",
-   "shares": 3535.0,
-   "price": 152.2317,
-   "ad": "D",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/80424/000008042425000203/"
-  },
-  {
-   "acc": "0000080424-25-000202",
-   "date": "2025-10-02",
-   "name": "Whaley Susan Street",
-   "role": "Chief Legal Officer & Secy",
-   "code": "S",
-   "shares": 2408.0,
-   "price": 152.2317,
-   "ad": "D",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/80424/000008042425000202/"
   }
  ]
 }

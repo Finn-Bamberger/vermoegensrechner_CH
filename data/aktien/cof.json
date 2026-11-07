@@ -6,7 +6,7 @@
  "rank": 100,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-11-06T23:34:43Z",
+ "updated_at": "2026-11-07T02:39:03Z",
  "periodic_accs": [
   "0000927628-21-000175",
   "0000927628-21-000256",
@@ -3236,18 +3236,6 @@
    "ad": "D",
    "plan_10b5_1": true,
    "url": "https://www.sec.gov/Archives/edgar/data/927628/000123803225000006/"
-  },
-  {
-   "acc": "0001727277-25-000008",
-   "date": "2025-10-02",
-   "name": "Cooper Matthew W",
-   "role": "General Counsel & Corp Secy",
-   "code": "S",
-   "shares": 2000.0,
-   "price": 211.99,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/927628/000172727725000008/"
   }
  ]
 }

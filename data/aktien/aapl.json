@@ -6,7 +6,7 @@
  "rank": 2,
  "source": "SEC EDGAR",
  "fiscal_year_end": "0926",
- "updated_at": "2026-11-06T22:38:25Z",
+ "updated_at": "2026-11-07T02:30:10Z",
  "periodic_accs": [
   "0000320193-17-000009",
   "0000320193-17-000070",
@@ -2028,126 +2028,6 @@
    "ad": "D",
    "plan_10b5_1": false,
    "url": "https://www.sec.gov/Archives/edgar/data/320193/000163198225000009/"
-  },
-  {
-   "acc": "0001214156-25-000011",
-   "date": "2025-10-02",
-   "name": "COOK TIMOTHY D",
-   "role": "Chief Executive Officer",
-   "code": "S",
-   "shares": 8395.0,
-   "price": 254.83,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/320193/000121415625000011/"
-  },
-  {
-   "acc": "0001214156-25-000011",
-   "date": "2025-10-02",
-   "name": "COOK TIMOTHY D",
-   "role": "Chief Executive Officer",
-   "code": "S",
-   "shares": 22524.0,
-   "price": 255.86,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/320193/000121415625000011/"
-  },
-  {
-   "acc": "0001214156-25-000011",
-   "date": "2025-10-02",
-   "name": "COOK TIMOTHY D",
-   "role": "Chief Executive Officer",
-   "code": "S",
-   "shares": 39293.0,
-   "price": 256.62,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/320193/000121415625000011/"
-  },
-  {
-   "acc": "0001214156-25-000011",
-   "date": "2025-10-02",
-   "name": "COOK TIMOTHY D",
-   "role": "Chief Executive Officer",
-   "code": "S",
-   "shares": 59751.0,
-   "price": 257.57,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/320193/000121415625000011/"
-  },
-  {
-   "acc": "0001767094-25-000009",
-   "date": "2025-10-02",
-   "name": "O'BRIEN DEIRDRE",
-   "role": "Senior Vice President",
-   "code": "S",
-   "shares": 41273.0,
-   "price": 257.36,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/320193/000176709425000009/"
-  },
-  {
-   "acc": "0001767094-25-000009",
-   "date": "2025-10-02",
-   "name": "O'BRIEN DEIRDRE",
-   "role": "Senior Vice President",
-   "code": "S",
-   "shares": 1740.0,
-   "price": 258.08,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/320193/000176709425000009/"
-  },
-  {
-   "acc": "0001462356-25-000010",
-   "date": "2025-10-02",
-   "name": "Adams Katherine L.",
-   "role": "SVP, GC and Secretary",
-   "code": "S",
-   "shares": 3500.0,
-   "price": 254.83,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/320193/000146235625000010/"
-  },
-  {
-   "acc": "0001462356-25-000010",
-   "date": "2025-10-02",
-   "name": "Adams Katherine L.",
-   "role": "SVP, GC and Secretary",
-   "code": "S",
-   "shares": 8100.0,
-   "price": 255.96,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/320193/000146235625000010/"
-  },
-  {
-   "acc": "0001462356-25-000010",
-   "date": "2025-10-02",
-   "name": "Adams Katherine L.",
-   "role": "SVP, GC and Secretary",
-   "code": "S",
-   "shares": 13974.0,
-   "price": 256.6,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/320193/000146235625000010/"
-  },
-  {
-   "acc": "0001462356-25-000010",
-   "date": "2025-10-02",
-   "name": "Adams Katherine L.",
-   "role": "SVP, GC and Secretary",
-   "code": "S",
-   "shares": 21551.0,
-   "price": 257.54,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/320193/000146235625000010/"
   }
  ]
 }
