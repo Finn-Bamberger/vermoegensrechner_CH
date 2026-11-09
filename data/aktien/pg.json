@@ -6,7 +6,7 @@
  "rank": 28,
  "source": "SEC EDGAR",
  "fiscal_year_end": "0630",
- "updated_at": "2026-11-07T02:31:45Z",
+ "updated_at": "2026-11-09T19:00:56Z",
  "periodic_accs": [
   "0000080424-22-000102",
   "0000080424-23-000014",
@@ -734,6 +734,42 @@
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0000080424-26-000273",
+   "date": "2026-11-05",
+   "name": "Schulten Andre",
+   "role": "Chief Financial Officer",
+   "code": "M",
+   "shares": 30677.0,
+   "price": 78.52,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/80424/000008042426000273/"
+  },
+  {
+   "acc": "0000080424-26-000273",
+   "date": "2026-11-05",
+   "name": "Schulten Andre",
+   "role": "Chief Financial Officer",
+   "code": "S",
+   "shares": 30677.0,
+   "price": 169.0,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/80424/000008042426000273/"
+  },
+  {
+   "acc": "0000080424-26-000272",
+   "date": "2026-11-05",
+   "name": "Santos de Azevedo Juliana Monteiro",
+   "role": "CEO - Grooming",
+   "code": "S",
+   "shares": 5370.0,
+   "price": 169.0,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/80424/000008042426000272/"
+  },
   {
    "acc": "0000080424-26-000271",
    "date": "2026-11-04",
