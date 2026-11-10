@@ -6,7 +6,7 @@
  "rank": 31,
  "source": "SEC EDGAR",
  "fiscal_year_end": "0627",
- "updated_at": "2026-11-06T22:41:24Z",
+ "updated_at": "2026-11-10T01:59:02Z",
  "periodic_accs": [
   "0000707549-16-000014",
   "0000707549-16-000050",
@@ -811,11 +811,131 @@
   "filed": "2026-10-22"
  },
  "quote": {
-  "price": 200.44,
-  "date": "2026-11-06",
+  "price": 221.31,
+  "date": "2026-11-09",
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0001494211-26-000003",
+   "date": "2026-11-06",
+   "name": "Brennan Ita M",
+   "role": "Director",
+   "code": "A",
+   "shares": 856.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/707549/000149421126000003/"
+  },
+  {
+   "acc": "0001190639-26-000009",
+   "date": "2026-11-06",
+   "name": "BRANDT ERIC",
+   "role": "Director",
+   "code": "A",
+   "shares": 856.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/707549/000119063926000009/"
+  },
+  {
+   "acc": "0001591933-26-000009",
+   "date": "2026-11-06",
+   "name": "DEVGAN ANIRUDH",
+   "role": "Director",
+   "code": "A",
+   "shares": 856.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/707549/000159193326000009/"
+  },
+  {
+   "acc": "0001645270-26-000010",
+   "date": "2026-11-06",
+   "name": "Dineen John M.",
+   "role": "Director",
+   "code": "A",
+   "shares": 856.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/707549/000164527026000010/"
+  },
+  {
+   "acc": "0001191534-26-000002",
+   "date": "2026-11-06",
+   "name": "FIELDS MARK",
+   "role": "Director",
+   "code": "A",
+   "shares": 856.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/707549/000119153426000002/"
+  },
+  {
+   "acc": "0001965462-26-000004",
+   "date": "2026-11-06",
+   "name": "Kang Ho Kyu",
+   "role": "Director",
+   "code": "A",
+   "shares": 856.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/707549/000196546226000004/"
+  },
+  {
+   "acc": "0001892841-26-000002",
+   "date": "2026-11-06",
+   "name": "Mehra Jyoti",
+   "role": "Director",
+   "code": "A",
+   "shares": 856.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/707549/000189284126000002/"
+  },
+  {
+   "acc": "0001316065-26-000014",
+   "date": "2026-11-06",
+   "name": "TALWALKAR ABHIJIT Y",
+   "role": "Director",
+   "code": "A",
+   "shares": 856.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/707549/000131606526000014/"
+  },
+  {
+   "acc": "0000707549-26-000059",
+   "date": "2026-11-06",
+   "name": "Mayer Bethany",
+   "role": "Director",
+   "code": "A",
+   "shares": 856.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/707549/000070754926000059/"
+  },
+  {
+   "acc": "0000707549-26-000059",
+   "date": "2026-11-06",
+   "name": "Mayer Bethany",
+   "role": "Director",
+   "code": "S",
+   "shares": 16.0,
+   "price": 208.5,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/707549/000070754926000059/"
+  },
   {
    "acc": "0001405693-26-000013",
    "date": "2026-11-02",

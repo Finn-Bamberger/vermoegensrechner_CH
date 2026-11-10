@@ -6,7 +6,7 @@
  "rank": 60,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-11-06T22:48:38Z",
+ "updated_at": "2026-11-10T02:12:53Z",
  "periodic_accs": [
   "0000882095-18-000015",
   "0000882095-18-000022",
@@ -784,11 +784,23 @@
   "filed": "2026-10-30"
  },
  "quote": {
-  "price": 166.89,
-  "date": "2026-11-06",
+  "price": 169.32,
+  "date": "2026-11-09",
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0002110603-26-000015",
+   "date": "2026-11-06",
+   "name": "Cain Wettan Keeley M",
+   "role": "EVP Gen Counsel,  Legal & Comp",
+   "code": "S",
+   "shares": 3399.0,
+   "price": 164.11,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/882095/000211060326000015/"
+  },
   {
    "acc": "0001638643-26-000040",
    "date": "2026-11-05",

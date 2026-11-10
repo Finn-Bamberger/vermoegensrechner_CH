@@ -6,7 +6,7 @@
  "rank": 63,
  "source": "SEC EDGAR",
  "fiscal_year_end": "0927",
- "updated_at": "2026-11-07T02:34:54Z",
+ "updated_at": "2026-11-10T02:16:16Z",
  "periodic_accs": [
   "0000804328-22-000021",
   "0000804328-23-000006",
@@ -810,11 +810,23 @@
   "filed": "2026-11-04"
  },
  "quote": {
-  "price": 165.41,
-  "date": "2026-11-06",
+  "price": 171.47,
+  "date": "2026-11-09",
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0000804328-26-000132",
+   "date": "2026-11-09",
+   "name": "ACE HEATHER S",
+   "role": "EVP, Chief HR Officer",
+   "code": "S",
+   "shares": 3200.0,
+   "price": 165.42,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432826000132/"
+  },
   {
    "acc": "0000804328-26-000131",
    "date": "2026-11-06",

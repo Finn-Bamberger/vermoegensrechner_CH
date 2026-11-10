@@ -6,7 +6,7 @@
  "rank": 51,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-11-06T22:43:36Z",
+ "updated_at": "2026-11-10T02:03:00Z",
  "periodic_accs": [
   "0000318154-18-000015",
   "0000318154-18-000022",
@@ -787,11 +787,59 @@
   "filed": "2026-11-04"
  },
  "quote": {
-  "price": 460.42,
-  "date": "2026-11-06",
+  "price": 465.23,
+  "date": "2026-11-09",
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0000318154-26-000163",
+   "date": "2026-11-06",
+   "name": "ISHRAK OMAR",
+   "role": "Director",
+   "code": "A",
+   "shares": 152.0351,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/318154/000031815426000163/"
+  },
+  {
+   "acc": "0000318154-26-000162",
+   "date": "2026-11-06",
+   "name": "HOLLEY CHARLES M",
+   "role": "Director",
+   "code": "A",
+   "shares": 184.614,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/318154/000031815426000162/"
+  },
+  {
+   "acc": "0000318154-26-000161",
+   "date": "2026-11-06",
+   "name": "Gibbs David W",
+   "role": "Director",
+   "code": "A",
+   "shares": 278.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/318154/000031815426000161/"
+  },
+  {
+   "acc": "0000318154-26-000160",
+   "date": "2026-11-06",
+   "name": "Drake Michael V",
+   "role": "Director",
+   "code": "A",
+   "shares": 114.0263,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/318154/000031815426000160/"
+  },
   {
    "acc": "0000318154-26-000137",
    "date": "2026-08-13",

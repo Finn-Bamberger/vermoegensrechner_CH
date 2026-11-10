@@ -6,7 +6,7 @@
  "rank": 100,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-11-07T02:39:03Z",
+ "updated_at": "2026-11-10T02:57:50Z",
  "periodic_accs": [
   "0000927628-21-000175",
   "0000927628-21-000256",
@@ -664,11 +664,23 @@
   "filed": "2026-11-03"
  },
  "quote": {
-  "price": 201.87,
-  "date": "2026-11-06",
+  "price": 198.58,
+  "date": "2026-11-09",
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0001181669-26-000005",
+   "date": "2026-11-06",
+   "name": "RASKIND PETER E",
+   "role": "Director",
+   "code": "S",
+   "shares": 1681.0,
+   "price": 201.79,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/927628/000118166926000005/"
+  },
   {
    "acc": "0001238032-26-000013",
    "date": "2026-11-04",

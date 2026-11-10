@@ -6,7 +6,7 @@
  "rank": 30,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-11-06T22:41:14Z",
+ "updated_at": "2026-11-10T01:58:53Z",
  "periodic_accs": [
   "0000070858-26-000157",
   "0000070858-26-000249",
@@ -449,11 +449,59 @@
   "filed": "2026-10-30"
  },
  "quote": {
-  "price": 49.42,
-  "date": "2026-11-06",
+  "price": 50.55,
+  "date": "2026-11-09",
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0000070858-26-000572",
+   "date": "2026-11-05",
+   "name": "BANK OF AMERICA CORP /DE/",
+   "role": "10%-Aktionär",
+   "code": "J",
+   "shares": 2748.0,
+   "price": null,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085826000572/"
+  },
+  {
+   "acc": "0000070858-26-000572",
+   "date": "2026-11-05",
+   "name": "BANK OF AMERICA CORP /DE/",
+   "role": "10%-Aktionär",
+   "code": "J",
+   "shares": 2474.0,
+   "price": null,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085826000572/"
+  },
+  {
+   "acc": "0000070858-26-000571",
+   "date": "2026-11-05",
+   "name": "BANK OF AMERICA CORP /DE/",
+   "role": "10%-Aktionär",
+   "code": "J",
+   "shares": 227.0,
+   "price": null,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085826000571/"
+  },
+  {
+   "acc": "0000070858-26-000571",
+   "date": "2026-11-05",
+   "name": "BANK OF AMERICA CORP /DE/",
+   "role": "10%-Aktionär",
+   "code": "J",
+   "shares": 1380.0,
+   "price": null,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085826000571/"
+  },
   {
    "acc": "0000070858-26-000563",
    "date": "2026-11-03",

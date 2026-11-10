@@ -6,7 +6,7 @@
  "rank": 4,
  "source": "SEC EDGAR",
  "fiscal_year_end": "0630",
- "updated_at": "2026-11-06T22:38:33Z",
+ "updated_at": "2026-11-10T01:56:30Z",
  "periodic_accs": [
   "0000950170-23-014423",
   "0000950170-23-035122",
@@ -835,11 +835,23 @@
   "filed": "2026-10-28"
  },
  "quote": {
-  "price": 530.61,
-  "date": "2026-11-06",
+  "price": 545.18,
+  "date": "2026-11-09",
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0000789019-26-000230",
+   "date": "2026-11-06",
+   "name": "Nadella Satya",
+   "role": "Chief Executive Officer",
+   "code": "G",
+   "shares": 4704.0,
+   "price": 0.0,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000078901926000230/"
+  },
   {
    "acc": "0000789019-26-000228",
    "date": "2026-10-15",
