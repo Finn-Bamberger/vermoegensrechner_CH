@@ -6,7 +6,7 @@
  "rank": 77,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-11-10T02:31:42Z",
+ "updated_at": "2026-11-10T22:52:01Z",
  "periodic_accs": [
   "0000313616-20-000093",
   "0000313616-20-000120",
@@ -773,11 +773,47 @@
   "filed": "2026-10-21"
  },
  "quote": {
-  "price": 235.12,
-  "date": "2026-11-09",
+  "price": 236.11,
+  "date": "2026-11-10",
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0000313616-26-000223",
+   "date": "2026-11-09",
+   "name": "McGrew Matthew",
+   "role": "Executive Vice President",
+   "code": "M",
+   "shares": 17385.0,
+   "price": 88.24,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/313616/000031361626000223/"
+  },
+  {
+   "acc": "0000313616-26-000223",
+   "date": "2026-11-09",
+   "name": "McGrew Matthew",
+   "role": "Executive Vice President",
+   "code": "S",
+   "shares": 17385.0,
+   "price": 235.6889,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/313616/000031361626000223/"
+  },
+  {
+   "acc": "0000313616-26-000222",
+   "date": "2026-11-09",
+   "name": "Milosevich Gregory M",
+   "role": "Executive Vice President",
+   "code": "S",
+   "shares": 2100.0,
+   "price": 230.62,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/313616/000031361626000222/"
+  },
   {
    "acc": "0000313616-26-000205",
    "date": "2026-10-28",

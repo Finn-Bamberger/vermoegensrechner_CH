@@ -6,7 +6,7 @@
  "rank": 41,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-11-10T01:59:55Z",
+ "updated_at": "2026-11-10T22:30:51Z",
  "periodic_accs": [
   "0000895421-26-000086",
   "0000895421-26-000121",
@@ -413,11 +413,23 @@
   "filed": "2026-11-05"
  },
  "quote": {
-  "price": 187.1,
-  "date": "2026-11-09",
+  "price": 187.56,
+  "date": "2026-11-10",
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0001628280-26-072728",
+   "date": "2026-11-06",
+   "name": "Miscik Judith A",
+   "role": "Director",
+   "code": "S",
+   "shares": 2480.0,
+   "price": 183.205,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/895421/000162828026072728/"
+  },
   {
    "acc": "0001193125-26-442575",
    "date": "2026-10-29",

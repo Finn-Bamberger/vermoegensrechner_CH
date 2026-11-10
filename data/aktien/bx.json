@@ -6,7 +6,7 @@
  "rank": 89,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-11-10T02:45:18Z",
+ "updated_at": "2026-11-10T23:05:12Z",
  "periodic_accs": [
   "0001193125-17-251308",
   "0001193125-17-335723",
@@ -747,11 +747,23 @@
   "filed": "2026-11-06"
  },
  "quote": {
-  "price": 124.05,
-  "date": "2026-11-09",
+  "price": 122.53,
+  "date": "2026-11-10",
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0001193125-26-455577",
+   "date": "2026-11-06",
+   "name": "Argon Holdco LLC",
+   "role": "10%-Aktionär",
+   "code": "S",
+   "shares": 3227700.0,
+   "price": 34.09,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1393818/000119312526455577/"
+  },
   {
    "acc": "0001193125-26-441717",
    "date": "2026-10-30",

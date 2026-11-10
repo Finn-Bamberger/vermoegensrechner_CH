@@ -6,7 +6,7 @@
  "rank": 16,
  "source": "SEC EDGAR",
  "fiscal_year_end": "0930",
- "updated_at": "2026-11-10T01:57:33Z",
+ "updated_at": "2026-11-10T22:28:44Z",
  "periodic_accs": [
   "0001403161-15-000007",
   "0001403161-15-000010",
@@ -763,11 +763,35 @@
   "filed": "2010-02-03"
  },
  "quote": {
-  "price": 422.16,
-  "date": "2026-11-09",
+  "price": 423.0,
+  "date": "2026-11-10",
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0001403161-26-000138",
+   "date": "2026-11-09",
+   "name": "ROTTENBERG JULIE B",
+   "role": "GENERAL COUNSEL",
+   "code": "M",
+   "shares": 1867.0,
+   "price": 134.76,
+   "ad": "A",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000138/"
+  },
+  {
+   "acc": "0001403161-26-000138",
+   "date": "2026-11-09",
+   "name": "ROTTENBERG JULIE B",
+   "role": "GENERAL COUNSEL",
+   "code": "S",
+   "shares": 1867.0,
+   "price": 423.0,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000138/"
+  },
   {
    "acc": "0001403161-26-000136",
    "date": "2026-11-04",

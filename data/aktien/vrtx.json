@@ -6,7 +6,7 @@
  "rank": 91,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-11-10T02:47:34Z",
+ "updated_at": "2026-11-10T23:07:27Z",
  "periodic_accs": [
   "0000875320-20-000030",
   "0000875320-20-000043",
@@ -772,11 +772,23 @@
   "filed": "2026-11-03"
  },
  "quote": {
-  "price": 550.87,
-  "date": "2026-11-09",
+  "price": 547.89,
+  "date": "2026-11-10",
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0000875320-26-000293",
+   "date": "2026-11-06",
+   "name": "Kewalramani Reshma",
+   "role": "CEO & President",
+   "code": "S",
+   "shares": 11866.0,
+   "price": 531.53,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/875320/000087532026000293/"
+  },
   {
    "acc": "0000875320-26-000283",
    "date": "2026-10-20",

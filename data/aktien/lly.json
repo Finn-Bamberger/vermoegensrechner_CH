@@ -6,7 +6,7 @@
  "rank": 11,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-11-10T01:57:06Z",
+ "updated_at": "2026-11-10T22:28:22Z",
  "periodic_accs": [
   "0000059478-22-000068",
   "0000059478-22-000133",
@@ -730,11 +730,23 @@
   "filed": "2026-10-29"
  },
  "quote": {
-  "price": 1411.95,
-  "date": "2026-11-09",
+  "price": 1432.29,
+  "date": "2026-11-10",
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0001786054-26-000008",
+   "date": "2026-11-10",
+   "name": "Jonsson Patrik",
+   "role": "EVP & President, LLY Int'l",
+   "code": "G",
+   "shares": 704.0,
+   "price": 0.0,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/59478/000178605426000008/"
+  },
   {
    "acc": "0001538604-26-000006",
    "date": "2026-11-03",
