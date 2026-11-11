@@ -6,7 +6,7 @@
  "rank": 58,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1031",
- "updated_at": "2026-11-10T22:32:21Z",
+ "updated_at": "2026-11-11T02:10:46Z",
  "periodic_accs": [
   "0000006281-19-000013",
   "0000006281-19-000089",
@@ -4647,18 +4647,6 @@
    "ad": "D",
    "plan_10b5_1": false,
    "url": "https://www.sec.gov/Archives/edgar/data/6281/000000628125000146/"
-  },
-  {
-   "acc": "0001589827-25-000004",
-   "date": "2025-10-06",
-   "name": "Frank Edward H.",
-   "role": "Director",
-   "code": "S",
-   "shares": 1000.0,
-   "price": 242.7401,
-   "ad": "D",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/6281/000158982725000004/"
   }
  ]
 }

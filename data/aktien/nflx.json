@@ -6,7 +6,7 @@
  "rank": 40,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-11-10T22:30:38Z",
+ "updated_at": "2026-11-11T02:08:52Z",
  "periodic_accs": [
   "0001065280-23-000273",
   "0001065280-24-000030",
@@ -784,6 +784,18 @@
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0001583109-26-000006",
+   "date": "2026-11-09",
+   "name": "Peters Gregory K",
+   "role": "Co-CEO",
+   "code": "S",
+   "shares": 27312.0,
+   "price": 63.6186,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1065280/000158310926000006/"
+  },
   {
    "acc": "0001065280-26-000322",
    "date": "2026-11-04",

@@ -6,7 +6,7 @@
  "rank": 48,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-11-10T22:31:23Z",
+ "updated_at": "2026-11-11T02:09:42Z",
  "periodic_accs": [
   "0001596532-22-000112",
   "0001596532-22-000220",
@@ -789,6 +789,78 @@
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0001596532-26-000262",
+   "date": "2026-11-06",
+   "name": "BECHTOLSHEIM ANDREAS",
+   "role": "10%-Aktionär",
+   "code": "S",
+   "shares": 88958.0,
+   "price": 167.7389,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1596532/000159653226000262/"
+  },
+  {
+   "acc": "0001596532-26-000262",
+   "date": "2026-11-06",
+   "name": "BECHTOLSHEIM ANDREAS",
+   "role": "10%-Aktionär",
+   "code": "S",
+   "shares": 69244.0,
+   "price": 168.5572,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1596532/000159653226000262/"
+  },
+  {
+   "acc": "0001596532-26-000262",
+   "date": "2026-11-06",
+   "name": "BECHTOLSHEIM ANDREAS",
+   "role": "10%-Aktionär",
+   "code": "S",
+   "shares": 39733.0,
+   "price": 169.7598,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1596532/000159653226000262/"
+  },
+  {
+   "acc": "0001596532-26-000262",
+   "date": "2026-11-06",
+   "name": "BECHTOLSHEIM ANDREAS",
+   "role": "10%-Aktionär",
+   "code": "S",
+   "shares": 55452.0,
+   "price": 170.4868,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1596532/000159653226000262/"
+  },
+  {
+   "acc": "0001596532-26-000262",
+   "date": "2026-11-06",
+   "name": "BECHTOLSHEIM ANDREAS",
+   "role": "10%-Aktionär",
+   "code": "S",
+   "shares": 4962.0,
+   "price": 171.5874,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1596532/000159653226000262/"
+  },
+  {
+   "acc": "0001596532-26-000262",
+   "date": "2026-11-06",
+   "name": "BECHTOLSHEIM ANDREAS",
+   "role": "10%-Aktionär",
+   "code": "S",
+   "shares": 1651.0,
+   "price": 172.4382,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1596532/000159653226000262/"
+  },
   {
    "acc": "0001596532-26-000260",
    "date": "2026-11-05",

@@ -6,7 +6,7 @@
  "rank": 4,
  "source": "SEC EDGAR",
  "fiscal_year_end": "0630",
- "updated_at": "2026-11-10T22:27:51Z",
+ "updated_at": "2026-11-11T02:06:00Z",
  "periodic_accs": [
   "0000950170-23-014423",
   "0000950170-23-035122",
@@ -840,6 +840,30 @@
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0000789019-26-000232",
+   "date": "2026-11-09",
+   "name": "Hood Amy",
+   "role": "EVP, Chief Financial Officer",
+   "code": "S",
+   "shares": 5912.0,
+   "price": 544.2359,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000078901926000232/"
+  },
+  {
+   "acc": "0000789019-26-000232",
+   "date": "2026-11-09",
+   "name": "Hood Amy",
+   "role": "EVP, Chief Financial Officer",
+   "code": "S",
+   "shares": 1393.0,
+   "price": 544.9467,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000078901926000232/"
+  },
   {
    "acc": "0000789019-26-000230",
    "date": "2026-11-06",
