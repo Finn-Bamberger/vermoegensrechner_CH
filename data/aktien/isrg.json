@@ -6,7 +6,7 @@
  "rank": 80,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-11-12T00:30:58Z",
+ "updated_at": "2026-11-12T15:37:27Z",
  "periodic_accs": [
   "0001035267-19-000038",
   "0001035267-19-000088",
@@ -813,6 +813,18 @@
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0001561733-26-000018",
+   "date": "2026-11-10",
+   "name": "LOEB GARY",
+   "role": "EVP & Chief Legal and Complian",
+   "code": "S",
+   "shares": 400.0,
+   "price": 458.15,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1035267/000156173326000018/"
+  },
   {
    "acc": "0001280628-26-000018",
    "date": "2026-11-04",
