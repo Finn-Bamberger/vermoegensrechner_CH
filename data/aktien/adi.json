@@ -6,7 +6,7 @@
  "rank": 58,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1031",
- "updated_at": "2026-11-11T09:45:19Z",
+ "updated_at": "2026-11-12T00:06:18Z",
  "periodic_accs": [
   "0000006281-19-000089",
   "0000006281-19-000115",
@@ -802,8 +802,8 @@
   "filed": "2026-08-19"
  },
  "quote": {
-  "price": 393.3,
-  "date": "2026-11-10",
+  "price": 409.08,
+  "date": "2026-11-11",
   "source": "Yahoo Finance"
  },
  "insiders": [
@@ -4634,18 +4634,6 @@
    "ad": "D",
    "plan_10b5_1": true,
    "url": "https://www.sec.gov/Archives/edgar/data/6281/000120187225000011/"
-  },
-  {
-   "acc": "0000006281-25-000146",
-   "date": "2025-10-07",
-   "name": "ROCHE VINCENT",
-   "role": "Chair & CEO",
-   "code": "G",
-   "shares": 11306.0,
-   "price": 0.0,
-   "ad": "D",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/6281/000000628125000146/"
   }
  ]
 }
