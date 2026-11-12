@@ -6,7 +6,7 @@
  "rank": 65,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1226",
- "updated_at": "2026-11-12T00:14:02Z",
+ "updated_at": "2026-11-12T21:59:59Z",
  "periodic_accs": [
   "0000077476-15-000021",
   "0000077476-15-000036",
@@ -801,6 +801,18 @@
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0002091921-26-000004",
+   "date": "2026-11-10",
+   "name": "Schmitt Stephen T.",
+   "role": "EVP & Chief Financial Officer",
+   "code": "F",
+   "shares": 12561.0,
+   "price": 142.255,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/77476/000209192126000004/"
+  },
   {
    "acc": "0001630253-26-000007",
    "date": "2026-10-21",

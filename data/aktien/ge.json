@@ -6,7 +6,7 @@
  "rank": 37,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-11-12T00:00:56Z",
+ "updated_at": "2026-11-12T21:56:41Z",
  "periodic_accs": [
   "0000040545-19-000014",
   "0000040545-19-000024",
@@ -640,6 +640,30 @@
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0001205247-26-000010",
+   "date": "2026-11-11",
+   "name": "CULP H LAWRENCE JR",
+   "role": "Chairman and CEO",
+   "code": "S",
+   "shares": 679.0,
+   "price": 338.29,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/40545/000120524726000010/"
+  },
+  {
+   "acc": "0001205247-26-000010",
+   "date": "2026-11-11",
+   "name": "CULP H LAWRENCE JR",
+   "role": "Chairman and CEO",
+   "code": "S",
+   "shares": 7321.0,
+   "price": 337.25,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/40545/000120524726000010/"
+  },
   {
    "acc": "0001953063-26-000011",
    "date": "2026-11-04",

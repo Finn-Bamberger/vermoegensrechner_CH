@@ -6,7 +6,7 @@
  "rank": 50,
  "source": "SEC EDGAR",
  "fiscal_year_end": "0630",
- "updated_at": "2026-11-12T00:02:31Z",
+ "updated_at": "2026-11-12T21:58:36Z",
  "periodic_accs": [
   "0000319201-17-000034",
   "0000319201-17-000045",
@@ -760,6 +760,18 @@
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0001193125-26-458307",
+   "date": "2026-11-10",
+   "name": "WALLACE RICHARD P",
+   "role": "President and CEO",
+   "code": "S",
+   "shares": 72014.0,
+   "price": 149.02,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/319201/000119312526458307/"
+  },
   {
    "acc": "0001193125-26-449761",
    "date": "2026-11-04",

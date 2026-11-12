@@ -6,7 +6,7 @@
  "rank": 24,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-11-11T23:59:32Z",
+ "updated_at": "2026-11-12T21:55:20Z",
  "periodic_accs": [
   "0000093410-19-000014",
   "0000093410-19-000029",
@@ -707,6 +707,54 @@
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0000093410-26-000202",
+   "date": "2026-11-10",
+   "name": "NELSON MARK A",
+   "role": "Vice Chairman",
+   "code": "M",
+   "shares": 81900.0,
+   "price": 88.2,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/93410/000009341026000202/"
+  },
+  {
+   "acc": "0000093410-26-000202",
+   "date": "2026-11-10",
+   "name": "NELSON MARK A",
+   "role": "Vice Chairman",
+   "code": "S",
+   "shares": 81900.0,
+   "price": 210.4734,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/93410/000009341026000202/"
+  },
+  {
+   "acc": "0000093410-26-000202",
+   "date": "2026-11-10",
+   "name": "NELSON MARK A",
+   "role": "Vice Chairman",
+   "code": "M",
+   "shares": 30100.0,
+   "price": 179.08,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/93410/000009341026000202/"
+  },
+  {
+   "acc": "0000093410-26-000202",
+   "date": "2026-11-10",
+   "name": "NELSON MARK A",
+   "role": "Vice Chairman",
+   "code": "S",
+   "shares": 30100.0,
+   "price": 210.4828,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/93410/000009341026000202/"
+  },
   {
    "acc": "0000093410-26-000198",
    "date": "2026-11-02",

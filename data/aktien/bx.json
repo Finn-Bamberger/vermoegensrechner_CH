@@ -6,7 +6,7 @@
  "rank": 89,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-11-12T00:41:08Z",
+ "updated_at": "2026-11-12T22:03:31Z",
  "periodic_accs": [
   "0001193125-17-251308",
   "0001193125-17-335723",
@@ -747,11 +747,47 @@
   "filed": "2026-11-06"
  },
  "quote": {
-  "price": 122.01,
-  "date": "2026-11-11",
+  "price": 118.54,
+  "date": "2026-11-12",
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0001193125-26-458686",
+   "date": "2026-11-09",
+   "name": "Porat Ruth",
+   "role": "Director",
+   "code": "P",
+   "shares": 126.507,
+   "price": 119.9245,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1393818/000119312526458686/"
+  },
+  {
+   "acc": "0001193125-26-458686",
+   "date": "2026-11-09",
+   "name": "Porat Ruth",
+   "role": "Director",
+   "code": "P",
+   "shares": 242.5149,
+   "price": 121.3769,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1393818/000119312526458686/"
+  },
+  {
+   "acc": "0001193125-26-458686",
+   "date": "2026-11-09",
+   "name": "Porat Ruth",
+   "role": "Director",
+   "code": "P",
+   "shares": 84.338,
+   "price": 119.9245,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1393818/000119312526458686/"
+  },
   {
    "acc": "0001193125-26-455577",
    "date": "2026-11-06",

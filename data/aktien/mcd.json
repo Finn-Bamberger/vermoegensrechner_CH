@@ -6,7 +6,7 @@
  "rank": 72,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-11-12T00:21:37Z",
+ "updated_at": "2026-11-12T22:00:37Z",
  "periodic_accs": [
   "0000063908-17-000017",
   "0000063908-17-000025",
@@ -783,11 +783,23 @@
   "filed": "2026-11-06"
  },
  "quote": {
-  "price": 274.8,
-  "date": "2026-11-11",
+  "price": 273.63,
+  "date": "2026-11-12",
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0001943551-26-000005",
+   "date": "2026-11-11",
+   "name": "Banner Jonathan",
+   "role": "EVP - Chief Impact Officer",
+   "code": "S",
+   "shares": 750.0,
+   "price": 279.0,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/63908/000194355126000005/"
+  },
   {
    "acc": "0001739473-26-000003",
    "date": "2026-08-07",
