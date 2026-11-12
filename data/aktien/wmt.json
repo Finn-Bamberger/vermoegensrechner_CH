@@ -6,7 +6,7 @@
  "rank": 14,
  "source": "SEC EDGAR",
  "fiscal_year_end": "0131",
- "updated_at": "2026-11-11T23:58:47Z",
+ "updated_at": "2026-11-12T06:17:47Z",
  "periodic_accs": [
   "0000104169-23-000097",
   "0000104169-23-000132",
@@ -4110,30 +4110,6 @@
    "ad": "D",
    "plan_10b5_1": true,
    "url": "https://www.sec.gov/Archives/edgar/data/104169/000157929925000012/"
-  },
-  {
-   "acc": "0001992808-25-000007",
-   "date": "2025-10-07",
-   "name": "Nicholas Christopher James",
-   "role": "Executive Vice President",
-   "code": "F",
-   "shares": 120.929,
-   "price": 102.7,
-   "ad": "D",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/104169/000199280825000007/"
-  },
-  {
-   "acc": "0001502438-25-000009",
-   "date": "2025-10-07",
-   "name": "Chojnowski David",
-   "role": "Senior Vice President",
-   "code": "F",
-   "shares": 250.419,
-   "price": 102.7,
-   "ad": "D",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/104169/000150243825000009/"
   }
  ]
 }
