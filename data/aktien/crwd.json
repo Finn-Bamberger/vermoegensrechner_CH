@@ -6,7 +6,7 @@
  "rank": 44,
  "source": "SEC EDGAR",
  "fiscal_year_end": "0131",
- "updated_at": "2026-11-12T00:01:49Z",
+ "updated_at": "2026-11-13T03:08:41Z",
  "periodic_accs": [
   "0001535527-21-000007",
   "0001535527-21-000013",
@@ -795,8 +795,8 @@
   "filed": "2026-08-27"
  },
  "quote": {
-  "price": 229.06,
-  "date": "2026-11-11",
+  "price": 229.87,
+  "date": "2026-11-12",
   "source": "Yahoo Finance"
  },
  "insiders": [
@@ -29980,18 +29980,6 @@
    "code": "S",
    "shares": 10000.0,
    "price": 515.0,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/1535527/000196827025000009/"
-  },
-  {
-   "acc": "0001968270-25-000009",
-   "date": "2025-10-08",
-   "name": "Sentonas Michael",
-   "role": "PRESIDENT",
-   "code": "S",
-   "shares": 15000.0,
-   "price": 505.0,
    "ad": "D",
    "plan_10b5_1": true,
    "url": "https://www.sec.gov/Archives/edgar/data/1535527/000196827025000009/"

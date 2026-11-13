@@ -6,7 +6,7 @@
  "rank": 25,
  "source": "SEC EDGAR",
  "fiscal_year_end": "0830",
- "updated_at": "2026-11-11T23:59:37Z",
+ "updated_at": "2026-11-13T02:47:09Z",
  "periodic_accs": [
   "0000909832-16-000040",
   "0000909832-17-000004",
@@ -797,11 +797,35 @@
   "filed": "2026-10-07"
  },
  "quote": {
-  "price": 1087.61,
-  "date": "2026-11-11",
+  "price": 1092.21,
+  "date": "2026-11-12",
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0000909832-26-000136",
+   "date": "2026-11-11",
+   "name": "Jones Teresa A.",
+   "role": "Executive Vice President",
+   "code": "S",
+   "shares": 900.0,
+   "price": 1083.953,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000136/"
+  },
+  {
+   "acc": "0000909832-26-000136",
+   "date": "2026-11-11",
+   "name": "Jones Teresa A.",
+   "role": "Executive Vice President",
+   "code": "G",
+   "shares": 200.0,
+   "price": 0.0,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000136/"
+  },
   {
    "acc": "0000909832-26-000131",
    "date": "2026-10-22",

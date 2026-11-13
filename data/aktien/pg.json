@@ -6,7 +6,7 @@
  "rank": 28,
  "source": "SEC EDGAR",
  "fiscal_year_end": "0630",
- "updated_at": "2026-11-11T23:59:57Z",
+ "updated_at": "2026-11-13T02:50:26Z",
  "periodic_accs": [
   "0000080424-22-000102",
   "0000080424-23-000014",
@@ -729,11 +729,23 @@
   "filed": "2026-10-22"
  },
  "quote": {
-  "price": 167.67,
-  "date": "2026-11-11",
+  "price": 168.03,
+  "date": "2026-11-12",
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0000080424-26-000275",
+   "date": "2026-11-12",
+   "name": "Abd El Hak Hesham",
+   "role": "CEO-Baby and Feminine Care",
+   "code": "S",
+   "shares": 2250.0,
+   "price": 168.47,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/80424/000008042426000275/"
+  },
   {
    "acc": "0000080424-26-000273",
    "date": "2026-11-05",

@@ -6,7 +6,7 @@
  "rank": 16,
  "source": "SEC EDGAR",
  "fiscal_year_end": "0930",
- "updated_at": "2026-11-11T23:58:59Z",
+ "updated_at": "2026-11-13T02:37:34Z",
  "periodic_accs": [
   "0001403161-15-000007",
   "0001403161-15-000010",
@@ -763,11 +763,23 @@
   "filed": "2010-02-03"
  },
  "quote": {
-  "price": 425.55,
-  "date": "2026-11-11",
+  "price": 420.31,
+  "date": "2026-11-12",
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0001403161-26-000140",
+   "date": "2026-11-10",
+   "name": "Fabara Paul D",
+   "role": "CHIEF RISK & CLIENT SVCS OFC",
+   "code": "S",
+   "shares": 3401.0,
+   "price": 423.09,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000140/"
+  },
   {
    "acc": "0001403161-26-000138",
    "date": "2026-11-09",

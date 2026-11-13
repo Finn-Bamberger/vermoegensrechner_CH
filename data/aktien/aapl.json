@@ -6,7 +6,7 @@
  "rank": 2,
  "source": "SEC EDGAR",
  "fiscal_year_end": "0926",
- "updated_at": "2026-11-11T23:57:52Z",
+ "updated_at": "2026-11-13T02:22:33Z",
  "periodic_accs": [
   "0000320193-17-000009",
   "0000320193-17-000070",
@@ -848,11 +848,23 @@
   "filed": "2026-11-03"
  },
  "quote": {
-  "price": 355.63,
-  "date": "2026-11-11",
+  "price": 354.88,
+  "date": "2026-11-12",
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0001140361-26-043484",
+   "date": "2026-11-10",
+   "name": "Newstead Jennifer",
+   "role": "SVP, GC and Government Affairs",
+   "code": "S",
+   "shares": 2399.0,
+   "price": 351.36,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/320193/000114036126043484/"
+  },
   {
    "acc": "0001140361-26-042149",
    "date": "2026-11-03",

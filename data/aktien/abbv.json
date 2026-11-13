@@ -6,7 +6,7 @@
  "rank": 21,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-11-11T23:59:24Z",
+ "updated_at": "2026-11-13T02:42:56Z",
  "periodic_accs": [
   "0001551152-17-000025",
   "0001551152-17-000035",
@@ -796,11 +796,59 @@
   "filed": "2026-11-03"
  },
  "quote": {
-  "price": 294.98,
-  "date": "2026-11-11",
+  "price": 294.45,
+  "date": "2026-11-12",
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0001761675-26-000007",
+   "date": "2026-11-12",
+   "name": "Stewart Jeffrey Ryan",
+   "role": "EVP, CHIEF COMMERCIAL OFFICER",
+   "code": "G",
+   "shares": 3450.0,
+   "price": 0.0,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1551152/000176167526000007/"
+  },
+  {
+   "acc": "0001761675-26-000007",
+   "date": "2026-11-09",
+   "name": "Stewart Jeffrey Ryan",
+   "role": "EVP, CHIEF COMMERCIAL OFFICER",
+   "code": "M",
+   "shares": 16070.0,
+   "price": 114.36,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1551152/000176167526000007/"
+  },
+  {
+   "acc": "0001761675-26-000007",
+   "date": "2026-11-09",
+   "name": "Stewart Jeffrey Ryan",
+   "role": "EVP, CHIEF COMMERCIAL OFFICER",
+   "code": "M",
+   "shares": 24549.0,
+   "price": 93.5,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1551152/000176167526000007/"
+  },
+  {
+   "acc": "0001761675-26-000007",
+   "date": "2026-11-09",
+   "name": "Stewart Jeffrey Ryan",
+   "role": "EVP, CHIEF COMMERCIAL OFFICER",
+   "code": "S",
+   "shares": 40619.0,
+   "price": 293.6,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1551152/000176167526000007/"
+  },
   {
    "acc": "0001762951-26-000006",
    "date": "2026-08-14",

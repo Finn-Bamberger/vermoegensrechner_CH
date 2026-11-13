@@ -6,7 +6,7 @@
  "rank": 67,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-11-12T22:00:02Z",
+ "updated_at": "2026-11-13T03:32:01Z",
  "periodic_accs": [
   "0001193125-26-071966",
   "0001193125-26-208766",
@@ -324,6 +324,42 @@
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0002012383-26-003982",
+   "date": "2026-11-09",
+   "name": "Lord Rachel",
+   "role": "Senior Managing Director",
+   "code": "S",
+   "shares": 1871.0,
+   "price": 1218.7386,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/2012383/000201238326003982/"
+  },
+  {
+   "acc": "0002012383-26-003982",
+   "date": "2026-11-09",
+   "name": "Lord Rachel",
+   "role": "Senior Managing Director",
+   "code": "S",
+   "shares": 4921.0,
+   "price": 1219.8128,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/2012383/000201238326003982/"
+  },
+  {
+   "acc": "0002012383-26-003982",
+   "date": "2026-11-09",
+   "name": "Lord Rachel",
+   "role": "Senior Managing Director",
+   "code": "S",
+   "shares": 208.0,
+   "price": 1220.7433,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/2012383/000201238326003982/"
+  },
   {
    "acc": "0002012383-26-003952",
    "date": "2026-10-27",

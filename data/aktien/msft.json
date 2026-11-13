@@ -6,7 +6,7 @@
  "rank": 4,
  "source": "SEC EDGAR",
  "fiscal_year_end": "0630",
- "updated_at": "2026-11-11T23:58:00Z",
+ "updated_at": "2026-11-13T02:24:39Z",
  "periodic_accs": [
   "0000950170-23-014423",
   "0000950170-23-035122",
@@ -835,11 +835,23 @@
   "filed": "2026-10-28"
  },
  "quote": {
-  "price": 521.125,
-  "date": "2026-11-11",
+  "price": 523.0,
+  "date": "2026-11-12",
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0000789019-26-000234",
+   "date": "2026-11-10",
+   "name": "Numoto Takeshi",
+   "role": "EVP, Chief Marketing Officer",
+   "code": "S",
+   "shares": 5000.0,
+   "price": 531.0,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000078901926000234/"
+  },
   {
    "acc": "0000789019-26-000232",
    "date": "2026-11-09",

@@ -6,7 +6,7 @@
  "rank": 41,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-11-12T00:01:32Z",
+ "updated_at": "2026-11-13T03:05:24Z",
  "periodic_accs": [
   "0000895421-26-000086",
   "0000895421-26-000121",
@@ -413,8 +413,8 @@
   "filed": "2026-11-05"
  },
  "quote": {
-  "price": 190.61,
-  "date": "2026-11-11",
+  "price": 189.17,
+  "date": "2026-11-12",
   "source": "Yahoo Finance"
  },
  "insiders": [
@@ -1866,18 +1866,6 @@
    "code": "L",
    "shares": 1.0,
    "price": 154.98,
-   "ad": "A",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/895421/000162828025054800/"
-  },
-  {
-   "acc": "0001628280-25-054800",
-   "date": "2025-10-08",
-   "name": "Peterson Douglas L.",
-   "role": "Director",
-   "code": "L",
-   "shares": 31.0,
-   "price": 155.99,
    "ad": "A",
    "plan_10b5_1": false,
    "url": "https://www.sec.gov/Archives/edgar/data/895421/000162828025054800/"
