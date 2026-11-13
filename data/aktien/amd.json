@@ -6,7 +6,7 @@
  "rank": 13,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1226",
- "updated_at": "2026-11-13T02:34:19Z",
+ "updated_at": "2026-11-13T22:48:04Z",
  "periodic_accs": [
   "0000002488-18-000042",
   "0000002488-18-000068",
@@ -846,11 +846,35 @@
   "filed": "2026-11-04"
  },
  "quote": {
-  "price": 585.3,
-  "date": "2026-11-12",
+  "price": 534.06,
+  "date": "2026-11-13",
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0000002488-26-000193",
+   "date": "2026-11-11",
+   "name": "Denzel Nora",
+   "role": "Director",
+   "code": "S",
+   "shares": 9000.0,
+   "price": 564.88,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000193/"
+  },
+  {
+   "acc": "0000002488-26-000195",
+   "date": "2026-11-10",
+   "name": "Papermaster Mark D",
+   "role": "Chief Technology Officer & EVP",
+   "code": "G",
+   "shares": 29666.0,
+   "price": 0.0,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000195/"
+  },
   {
    "acc": "0000002488-26-000184",
    "date": "2026-10-15",

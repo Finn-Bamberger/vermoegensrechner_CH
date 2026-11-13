@@ -6,7 +6,7 @@
  "rank": 24,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-11-13T17:30:20Z",
+ "updated_at": "2026-11-13T22:49:08Z",
  "periodic_accs": [
   "0000093410-19-000029",
   "0000093410-19-000038",
@@ -701,11 +701,35 @@
   "filed": "2026-11-05"
  },
  "quote": {
-  "price": 216.35,
-  "date": "2026-11-12",
+  "price": 219.89,
+  "date": "2026-11-13",
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0000093410-26-000204",
+   "date": "2026-11-11",
+   "name": "Booth Thomas Ryder",
+   "role": "Chief Technology & Eng Ofr",
+   "code": "M",
+   "shares": 6000.0,
+   "price": 132.69,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/93410/000009341026000204/"
+  },
+  {
+   "acc": "0000093410-26-000204",
+   "date": "2026-11-11",
+   "name": "Booth Thomas Ryder",
+   "role": "Chief Technology & Eng Ofr",
+   "code": "S",
+   "shares": 6000.0,
+   "price": 212.137,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/93410/000009341026000204/"
+  },
   {
    "acc": "0000093410-26-000202",
    "date": "2026-11-10",

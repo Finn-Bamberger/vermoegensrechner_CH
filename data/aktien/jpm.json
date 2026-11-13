@@ -6,7 +6,7 @@
  "rank": 15,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-11-13T02:36:24Z",
+ "updated_at": "2026-11-13T22:48:16Z",
  "periodic_accs": [
   "0001628280-26-008131",
   "0001628280-26-029344",
@@ -502,11 +502,47 @@
   "filed": "2026-11-03"
  },
  "quote": {
-  "price": 342.82,
-  "date": "2026-11-12",
+  "price": 346.19,
+  "date": "2026-11-13",
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0001225208-26-008974",
+   "date": "2026-11-12",
+   "name": "Petno Douglas B",
+   "role": "Co-President; CEO CIB",
+   "code": "G",
+   "shares": 872.0,
+   "price": 0.0,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/19617/000122520826008974/"
+  },
+  {
+   "acc": "0001225208-26-008974",
+   "date": "2026-11-12",
+   "name": "Petno Douglas B",
+   "role": "Co-President; CEO CIB",
+   "code": "G",
+   "shares": 8702.0,
+   "price": 0.0,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/19617/000122520826008974/"
+  },
+  {
+   "acc": "0001225208-26-008974",
+   "date": "2026-11-12",
+   "name": "Petno Douglas B",
+   "role": "Co-President; CEO CIB",
+   "code": "G",
+   "shares": 8702.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/19617/000122520826008974/"
+  },
   {
    "acc": "0001225208-26-008428",
    "date": "2026-10-14",

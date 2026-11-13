@@ -6,7 +6,7 @@
  "rank": 32,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-11-13T02:55:03Z",
+ "updated_at": "2026-11-13T22:50:17Z",
  "periodic_accs": [
   "0000731766-21-000013",
   "0000731766-21-000021",
@@ -801,11 +801,23 @@
   "filed": "2026-11-03"
  },
  "quote": {
-  "price": 405.13,
-  "date": "2026-11-12",
+  "price": 407.46,
+  "date": "2026-11-13",
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0000731766-26-000280",
+   "date": "2026-11-11",
+   "name": "Noel Timothy John",
+   "role": "Chief Executive Officer,  UHC",
+   "code": "F",
+   "shares": 586.536,
+   "price": 402.94,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/731766/000073176626000280/"
+  },
   {
    "acc": "0000731766-26-000253",
    "date": "2026-10-01",

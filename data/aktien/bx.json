@@ -6,7 +6,7 @@
  "rank": 89,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-11-12T22:03:31Z",
+ "updated_at": "2026-11-13T23:38:41Z",
  "periodic_accs": [
   "0001193125-17-251308",
   "0001193125-17-335723",
@@ -747,11 +747,35 @@
   "filed": "2026-11-06"
  },
  "quote": {
-  "price": 118.54,
-  "date": "2026-11-12",
+  "price": 120.19,
+  "date": "2026-11-13",
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0001193125-26-460700",
+   "date": "2026-11-13",
+   "name": "Finley John G",
+   "role": "Chief Legal Officer",
+   "code": "G",
+   "shares": 35000.0,
+   "price": 0.0,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1393818/000119312526460700/"
+  },
+  {
+   "acc": "0001193125-26-460700",
+   "date": "2026-11-13",
+   "name": "Finley John G",
+   "role": "Chief Legal Officer",
+   "code": "G",
+   "shares": 35000.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1393818/000119312526460700/"
+  },
   {
    "acc": "0001193125-26-458686",
    "date": "2026-11-09",

@@ -6,7 +6,7 @@
  "rank": 42,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-11-13T03:06:25Z",
+ "updated_at": "2026-11-13T22:51:13Z",
  "periodic_accs": [
   "0000097476-19-000009",
   "0000097476-20-000009",
@@ -851,11 +851,83 @@
   "filed": "2026-10-23"
  },
  "quote": {
-  "price": 312.48,
-  "date": "2026-11-12",
+  "price": 303.6,
+  "date": "2026-11-13",
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0001646850-26-000006",
+   "date": "2026-11-12",
+   "name": "Hobby Jean M.",
+   "role": "Director",
+   "code": "M",
+   "shares": 2457.0,
+   "price": 169.23,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/97476/000164685026000006/"
+  },
+  {
+   "acc": "0001646850-26-000006",
+   "date": "2026-11-12",
+   "name": "Hobby Jean M.",
+   "role": "Director",
+   "code": "M",
+   "shares": 2512.0,
+   "price": 174.81,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/97476/000164685026000006/"
+  },
+  {
+   "acc": "0001646850-26-000006",
+   "date": "2026-11-12",
+   "name": "Hobby Jean M.",
+   "role": "Director",
+   "code": "M",
+   "shares": 1619.0,
+   "price": 174.1,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/97476/000164685026000006/"
+  },
+  {
+   "acc": "0001646850-26-000006",
+   "date": "2026-11-12",
+   "name": "Hobby Jean M.",
+   "role": "Director",
+   "code": "M",
+   "shares": 1533.0,
+   "price": 167.42,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/97476/000164685026000006/"
+  },
+  {
+   "acc": "0001646850-26-000006",
+   "date": "2026-11-12",
+   "name": "Hobby Jean M.",
+   "role": "Director",
+   "code": "M",
+   "shares": 637.0,
+   "price": 187.03,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/97476/000164685026000006/"
+  },
+  {
+   "acc": "0001646850-26-000006",
+   "date": "2026-11-12",
+   "name": "Hobby Jean M.",
+   "role": "Director",
+   "code": "S",
+   "shares": 8758.0,
+   "price": 308.92,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/97476/000164685026000006/"
+  },
   {
    "acc": "0000097476-26-000178",
    "date": "2026-10-29",

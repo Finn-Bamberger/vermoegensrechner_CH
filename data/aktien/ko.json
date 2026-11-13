@@ -6,7 +6,7 @@
  "rank": 27,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-11-13T02:49:19Z",
+ "updated_at": "2026-11-13T22:49:23Z",
  "periodic_accs": [
   "0000021344-18-000032",
   "0000021344-18-000042",
@@ -806,11 +806,35 @@
   "filed": "2026-10-28"
  },
  "quote": {
-  "price": 97.44,
-  "date": "2026-11-12",
+  "price": 99.25,
+  "date": "2026-11-13",
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0000021344-26-000173",
+   "date": "2026-11-12",
+   "name": "QUAN NANCY",
+   "role": "Executive Vice President",
+   "code": "M",
+   "shares": 15000.0,
+   "price": 59.485,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000002134426000173/"
+  },
+  {
+   "acc": "0000021344-26-000173",
+   "date": "2026-11-12",
+   "name": "QUAN NANCY",
+   "role": "Executive Vice President",
+   "code": "S",
+   "shares": 15000.0,
+   "price": 98.0,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000002134426000173/"
+  },
   {
    "acc": "0000021344-26-000171",
    "date": "2026-11-05",

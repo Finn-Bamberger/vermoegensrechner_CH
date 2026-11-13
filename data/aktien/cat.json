@@ -6,7 +6,7 @@
  "rank": 34,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-11-13T02:57:05Z",
+ "updated_at": "2026-11-13T22:50:19Z",
  "periodic_accs": [
   "0000018230-19-000153",
   "0000018230-19-000224",
@@ -716,11 +716,23 @@
   "filed": "2026-11-04"
  },
  "quote": {
-  "price": 605.28,
-  "date": "2026-11-12",
+  "price": 600.2,
+  "date": "2026-11-13",
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0001104659-26-127088",
+   "date": "2026-11-12",
+   "name": "MacLennan David",
+   "role": "Director",
+   "code": "P",
+   "shares": 350.0,
+   "price": 596.1,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/18230/000110465926127088/"
+  },
   {
    "acc": "0001104659-26-121809",
    "date": "2026-11-02",

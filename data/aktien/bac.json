@@ -6,7 +6,7 @@
  "rank": 30,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-11-13T02:52:52Z",
+ "updated_at": "2026-11-13T22:50:03Z",
  "periodic_accs": [
   "0000070858-26-000157",
   "0000070858-26-000249",
@@ -449,11 +449,23 @@
   "filed": "2026-10-30"
  },
  "quote": {
-  "price": 50.51,
-  "date": "2026-11-12",
+  "price": 51.02,
+  "date": "2026-11-13",
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0000070858-26-000584",
+   "date": "2026-11-12",
+   "name": "Thompson Bruce R.",
+   "role": "Vice Chair, Head Ent Credit",
+   "code": "G",
+   "shares": 20000.0,
+   "price": 0.0,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085826000584/"
+  },
   {
    "acc": "0000070858-26-000572",
    "date": "2026-11-05",

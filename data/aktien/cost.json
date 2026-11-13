@@ -6,7 +6,7 @@
  "rank": 25,
  "source": "SEC EDGAR",
  "fiscal_year_end": "0830",
- "updated_at": "2026-11-13T02:47:09Z",
+ "updated_at": "2026-11-13T22:49:13Z",
  "periodic_accs": [
   "0000909832-16-000040",
   "0000909832-17-000004",
@@ -797,11 +797,23 @@
   "filed": "2026-10-07"
  },
  "quote": {
-  "price": 1092.21,
-  "date": "2026-11-12",
+  "price": 1106.21,
+  "date": "2026-11-13",
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0000909832-26-000138",
+   "date": "2026-11-12",
+   "name": "George Sarah Catherine",
+   "role": "Executive Vice President",
+   "code": "S",
+   "shares": 756.439,
+   "price": 1096.01,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000138/"
+  },
   {
    "acc": "0000909832-26-000136",
    "date": "2026-11-11",

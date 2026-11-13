@@ -6,7 +6,7 @@
  "rank": 18,
  "source": "SEC EDGAR",
  "fiscal_year_end": "0103",
- "updated_at": "2026-11-13T17:29:42Z",
+ "updated_at": "2026-11-13T22:48:37Z",
  "periodic_accs": [
   "0000200406-18-000055",
   "0000200406-19-000009",
@@ -810,11 +810,35 @@
   "filed": "2026-10-21"
  },
  "quote": {
-  "price": 283.52,
-  "date": "2026-11-12",
+  "price": 285.75,
+  "date": "2026-11-13",
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0000200406-26-000199",
+   "date": "2026-11-12",
+   "name": "Forminard Elizabeth",
+   "role": "EVP, Chief Legal Officer",
+   "code": "M",
+   "shares": 13072.0,
+   "price": 151.41,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/200406/000020040626000199/"
+  },
+  {
+   "acc": "0000200406-26-000199",
+   "date": "2026-11-12",
+   "name": "Forminard Elizabeth",
+   "role": "EVP, Chief Legal Officer",
+   "code": "S",
+   "shares": 13072.0,
+   "price": 284.39,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/200406/000020040626000199/"
+  },
   {
    "acc": "0000200406-26-000179",
    "date": "2026-09-02",
