@@ -6,7 +6,7 @@
  "rank": 22,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-11-13T22:49:06Z",
+ "updated_at": "2026-11-14T02:53:46Z",
  "periodic_accs": [
   "0000950123-21-010430",
   "0001193125-20-292177",
@@ -777,6 +777,114 @@
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0001824159-26-000017",
+   "date": "2026-11-11",
+   "name": "Sankar Shyam",
+   "role": "See Remarks",
+   "code": "C",
+   "shares": 84680.0,
+   "price": null,
+   "ad": "A",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1321655/000182415926000017/"
+  },
+  {
+   "acc": "0001824159-26-000017",
+   "date": "2026-11-11",
+   "name": "Sankar Shyam",
+   "role": "See Remarks",
+   "code": "S",
+   "shares": 84680.0,
+   "price": 175.0701,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1321655/000182415926000017/"
+  },
+  {
+   "acc": "0001824159-26-000017",
+   "date": "2026-11-10",
+   "name": "Sankar Shyam",
+   "role": "See Remarks",
+   "code": "C",
+   "shares": 300000.0,
+   "price": null,
+   "ad": "A",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1321655/000182415926000017/"
+  },
+  {
+   "acc": "0001824159-26-000017",
+   "date": "2026-11-10",
+   "name": "Sankar Shyam",
+   "role": "See Remarks",
+   "code": "S",
+   "shares": 19200.0,
+   "price": 164.8119,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1321655/000182415926000017/"
+  },
+  {
+   "acc": "0001824159-26-000017",
+   "date": "2026-11-10",
+   "name": "Sankar Shyam",
+   "role": "See Remarks",
+   "code": "S",
+   "shares": 58790.0,
+   "price": 165.7614,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1321655/000182415926000017/"
+  },
+  {
+   "acc": "0001824159-26-000017",
+   "date": "2026-11-10",
+   "name": "Sankar Shyam",
+   "role": "See Remarks",
+   "code": "S",
+   "shares": 64178.0,
+   "price": 166.566,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1321655/000182415926000017/"
+  },
+  {
+   "acc": "0001824159-26-000017",
+   "date": "2026-11-10",
+   "name": "Sankar Shyam",
+   "role": "See Remarks",
+   "code": "S",
+   "shares": 92847.0,
+   "price": 167.5265,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1321655/000182415926000017/"
+  },
+  {
+   "acc": "0001824159-26-000017",
+   "date": "2026-11-10",
+   "name": "Sankar Shyam",
+   "role": "See Remarks",
+   "code": "S",
+   "shares": 64685.0,
+   "price": 168.5672,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1321655/000182415926000017/"
+  },
+  {
+   "acc": "0001824159-26-000017",
+   "date": "2026-11-10",
+   "name": "Sankar Shyam",
+   "role": "See Remarks",
+   "code": "S",
+   "shares": 300.0,
+   "price": 169.29,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1321655/000182415926000017/"
+  },
   {
    "acc": "0001840244-26-000023",
    "date": "2026-11-02",

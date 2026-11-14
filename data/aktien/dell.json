@@ -6,7 +6,7 @@
  "rank": 35,
  "source": "SEC EDGAR",
  "fiscal_year_end": "0129",
- "updated_at": "2026-11-13T22:50:32Z",
+ "updated_at": "2026-11-14T02:54:57Z",
  "periodic_accs": [
   "0001571996-24-000036",
   "0001571996-24-000062",
@@ -37195,18 +37195,6 @@
    "ad": "D",
    "plan_10b5_1": false,
    "url": "https://www.sec.gov/Archives/edgar/data/1571996/000119312525237136/"
-  },
-  {
-   "acc": "0001123292-25-000539",
-   "date": "2025-10-09",
-   "name": "DELL MICHAEL S",
-   "role": "Chief Executive Officer",
-   "code": "S",
-   "shares": 6253968.0,
-   "price": 159.907,
-   "ad": "D",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/1571996/000112329225000539/"
   }
  ]
 }
