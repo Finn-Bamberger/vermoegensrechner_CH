@@ -6,7 +6,7 @@
  "rank": 23,
  "source": "SEC EDGAR",
  "fiscal_year_end": "0731",
- "updated_at": "2026-11-13T22:49:07Z",
+ "updated_at": "2026-11-15T00:40:53Z",
  "periodic_accs": [
   "0000858877-20-000010",
   "0000858877-20-000015",
@@ -3155,18 +3155,6 @@
    "ad": "D",
    "plan_10b5_1": false,
    "url": "https://www.sec.gov/Archives/edgar/data/858877/000085887725000154/"
-  },
-  {
-   "acc": "0000858877-25-000142",
-   "date": "2025-10-10",
-   "name": "Tuszik Oliver",
-   "role": "EVP, Global Sales",
-   "code": "F",
-   "shares": 2108.747,
-   "price": 69.96,
-   "ad": "D",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/858877/000085887725000142/"
   }
  ]
 }

@@ -6,7 +6,7 @@
  "rank": 80,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-11-13T23:28:29Z",
+ "updated_at": "2026-11-15T00:46:01Z",
  "periodic_accs": [
   "0001035267-19-000038",
   "0001035267-19-000088",
@@ -3968,30 +3968,6 @@
    "ad": "D",
    "plan_10b5_1": true,
    "url": "https://www.sec.gov/Archives/edgar/data/1035267/000151959325000004/"
-  },
-  {
-   "acc": "0001561733-25-000004",
-   "date": "2025-10-10",
-   "name": "LOEB GARY",
-   "role": "EVP & Chief Legal and Complian",
-   "code": "M",
-   "shares": 2612.0,
-   "price": 0.0,
-   "ad": "A",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/1035267/000156173325000004/"
-  },
-  {
-   "acc": "0001561733-25-000004",
-   "date": "2025-10-10",
-   "name": "LOEB GARY",
-   "role": "EVP & Chief Legal and Complian",
-   "code": "F",
-   "shares": 1296.0,
-   "price": 443.76,
-   "ad": "D",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/1035267/000156173325000004/"
   }
  ]
 }

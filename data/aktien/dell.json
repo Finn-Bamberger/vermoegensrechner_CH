@@ -6,7 +6,7 @@
  "rank": 35,
  "source": "SEC EDGAR",
  "fiscal_year_end": "0129",
- "updated_at": "2026-11-14T02:54:57Z",
+ "updated_at": "2026-11-15T00:41:56Z",
  "periodic_accs": [
   "0001571996-24-000036",
   "0001571996-24-000062",
@@ -37123,78 +37123,6 @@
    "ad": "D",
    "plan_10b5_1": false,
    "url": "https://www.sec.gov/Archives/edgar/data/1571996/000119312525241474/"
-  },
-  {
-   "acc": "0001193125-25-237155",
-   "date": "2025-10-10",
-   "name": "SLTA V (GP), L.L.C.",
-   "role": "Director",
-   "code": "J",
-   "shares": 83188.0,
-   "price": null,
-   "ad": "D",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/1571996/000119312525237155/"
-  },
-  {
-   "acc": "0001193125-25-237155",
-   "date": "2025-10-10",
-   "name": "SLTA V (GP), L.L.C.",
-   "role": "Director",
-   "code": "J",
-   "shares": 61993.0,
-   "price": null,
-   "ad": "D",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/1571996/000119312525237155/"
-  },
-  {
-   "acc": "0001193125-25-237155",
-   "date": "2025-10-10",
-   "name": "SLTA V (GP), L.L.C.",
-   "role": "Director",
-   "code": "J",
-   "shares": 39768.0,
-   "price": null,
-   "ad": "D",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/1571996/000119312525237155/"
-  },
-  {
-   "acc": "0001193125-25-237136",
-   "date": "2025-10-10",
-   "name": "SLTA IV (GP), L.L.C.",
-   "role": "Director",
-   "code": "J",
-   "shares": 83188.0,
-   "price": null,
-   "ad": "D",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/1571996/000119312525237136/"
-  },
-  {
-   "acc": "0001193125-25-237136",
-   "date": "2025-10-10",
-   "name": "SLTA IV (GP), L.L.C.",
-   "role": "Director",
-   "code": "J",
-   "shares": 61993.0,
-   "price": null,
-   "ad": "D",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/1571996/000119312525237136/"
-  },
-  {
-   "acc": "0001193125-25-237136",
-   "date": "2025-10-10",
-   "name": "SLTA IV (GP), L.L.C.",
-   "role": "Director",
-   "code": "J",
-   "shares": 39768.0,
-   "price": null,
-   "ad": "D",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/1571996/000119312525237136/"
   }
  ]
 }

@@ -6,7 +6,7 @@
  "rank": 26,
  "source": "SEC EDGAR",
  "fiscal_year_end": "0531",
- "updated_at": "2026-11-13T22:49:14Z",
+ "updated_at": "2026-11-15T00:40:58Z",
  "periodic_accs": [
   "0000950170-23-028914",
   "0000950170-23-047713",
@@ -1868,18 +1868,6 @@
    "ad": "D",
    "plan_10b5_1": false,
    "url": "https://www.sec.gov/Archives/edgar/data/1341439/000134143925000052/"
-  },
-  {
-   "acc": "0001341439-25-000049",
-   "date": "2025-10-10",
-   "name": "Levey Stuart",
-   "role": "EVP, Chief Legal Officer",
-   "code": "S",
-   "shares": 19758.0,
-   "price": 300.0,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000134143925000049/"
   }
  ]
 }
