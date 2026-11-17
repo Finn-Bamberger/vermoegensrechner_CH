@@ -6,7 +6,7 @@
  "rank": 86,
  "source": "SEC EDGAR",
  "fiscal_year_end": "0703",
- "updated_at": "2026-11-13T23:35:14Z",
+ "updated_at": "2026-11-17T01:39:15Z",
  "periodic_accs": [
   "0000106040-19-000009",
   "0000106040-19-000028",
@@ -42,6 +42,14 @@
   "0001628280-26-066933"
  ],
  "filings": [
+  {
+   "form": "8-K",
+   "date": "2026-11-16",
+   "report_date": "2026-11-13",
+   "items": "1.01,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/106040/000119312526463554/d162653d8k.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/106040/000119312526463554/0001193125-26-463554-index.htm"
+  },
   {
    "form": "10-Q",
    "date": "2026-10-23",
@@ -353,14 +361,6 @@
    "items": "8.01,9.01",
    "doc_url": "https://www.sec.gov/Archives/edgar/data/106040/000119312524207265/d883293d8k.htm",
    "index_url": "https://www.sec.gov/Archives/edgar/data/106040/000119312524207265/0001193125-24-207265-index.htm"
-  },
-  {
-   "form": "10-K",
-   "date": "2024-08-20",
-   "report_date": "2024-06-28",
-   "items": "",
-   "doc_url": "https://www.sec.gov/Archives/edgar/data/106040/000010604024000031/wdc-20240628.htm",
-   "index_url": "https://www.sec.gov/Archives/edgar/data/106040/000010604024000031/0000106040-24-000031-index.htm"
   }
  ],
  "quarters": [
@@ -810,11 +810,95 @@
   "filed": "2026-10-23"
  },
  "quote": {
-  "price": 295.65,
-  "date": "2026-11-13",
+  "price": 280.93,
+  "date": "2026-11-16",
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0001266824-26-000221",
+   "date": "2026-11-13",
+   "name": "Tan Irving",
+   "role": "Chief Executive Officer",
+   "code": "S",
+   "shares": 4120.0,
+   "price": 305.1417,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/106040/000126682426000221/"
+  },
+  {
+   "acc": "0001266824-26-000221",
+   "date": "2026-11-13",
+   "name": "Tan Irving",
+   "role": "Chief Executive Officer",
+   "code": "S",
+   "shares": 680.0,
+   "price": 306.5797,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/106040/000126682426000221/"
+  },
+  {
+   "acc": "0001266824-26-000221",
+   "date": "2026-11-13",
+   "name": "Tan Irving",
+   "role": "Chief Executive Officer",
+   "code": "S",
+   "shares": 1280.0,
+   "price": 307.8692,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/106040/000126682426000221/"
+  },
+  {
+   "acc": "0001266824-26-000221",
+   "date": "2026-11-13",
+   "name": "Tan Irving",
+   "role": "Chief Executive Officer",
+   "code": "S",
+   "shares": 6962.0,
+   "price": 308.5533,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/106040/000126682426000221/"
+  },
+  {
+   "acc": "0001266824-26-000221",
+   "date": "2026-11-13",
+   "name": "Tan Irving",
+   "role": "Chief Executive Officer",
+   "code": "S",
+   "shares": 3576.0,
+   "price": 310.0861,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/106040/000126682426000221/"
+  },
+  {
+   "acc": "0001266824-26-000221",
+   "date": "2026-11-13",
+   "name": "Tan Irving",
+   "role": "Chief Executive Officer",
+   "code": "S",
+   "shares": 258.0,
+   "price": 310.6073,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/106040/000126682426000221/"
+  },
+  {
+   "acc": "0001266824-26-000221",
+   "date": "2026-11-13",
+   "name": "Tan Irving",
+   "role": "Chief Executive Officer",
+   "code": "S",
+   "shares": 3124.0,
+   "price": 311.535,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/106040/000126682426000221/"
+  },
   {
    "acc": "0001266824-26-000219",
    "date": "2026-10-29",

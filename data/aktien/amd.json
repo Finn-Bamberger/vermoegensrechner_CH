@@ -6,7 +6,7 @@
  "rank": 13,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1226",
- "updated_at": "2026-11-13T22:48:04Z",
+ "updated_at": "2026-11-17T00:56:24Z",
  "periodic_accs": [
   "0000002488-18-000042",
   "0000002488-18-000068",
@@ -846,8 +846,8 @@
   "filed": "2026-11-04"
  },
  "quote": {
-  "price": 534.06,
-  "date": "2026-11-13",
+  "price": 504.28,
+  "date": "2026-11-16",
   "source": "Yahoo Finance"
  },
  "insiders": [
@@ -862,6 +862,30 @@
    "ad": "D",
    "plan_10b5_1": false,
    "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000193/"
+  },
+  {
+   "acc": "0000002488-26-000197",
+   "date": "2026-11-10",
+   "name": "Su Lisa T",
+   "role": "Chair, President & CEO",
+   "code": "G",
+   "shares": 7288.0,
+   "price": 0.0,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000197/"
+  },
+  {
+   "acc": "0000002488-26-000197",
+   "date": "2026-11-10",
+   "name": "Su Lisa T",
+   "role": "Chair, President & CEO",
+   "code": "G",
+   "shares": 7288.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000197/"
   },
   {
    "acc": "0000002488-26-000195",

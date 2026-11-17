@@ -6,7 +6,7 @@
  "rank": 5,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-11-13T22:47:40Z",
+ "updated_at": "2026-11-17T00:55:55Z",
  "periodic_accs": [
   "0001018724-21-000004",
   "0001018724-21-000010",
@@ -778,11 +778,35 @@
   "filed": "2026-10-30"
  },
  "quote": {
-  "price": 266.66,
-  "date": "2026-11-13",
+  "price": 257.75,
+  "date": "2026-11-16",
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0001018724-26-000044",
+   "date": "2026-11-13",
+   "name": "BEZOS JEFFREY P",
+   "role": "Executive Chair",
+   "code": "G",
+   "shares": 97404.0,
+   "price": 0.0,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000044/"
+  },
+  {
+   "acc": "0001018724-26-000044",
+   "date": "2026-11-12",
+   "name": "BEZOS JEFFREY P",
+   "role": "Executive Chair",
+   "code": "G",
+   "shares": 674088.0,
+   "price": 0.0,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000044/"
+  },
   {
    "acc": "0001936006-26-000028",
    "date": "2026-11-02",

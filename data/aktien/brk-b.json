@@ -6,7 +6,7 @@
  "rank": 10,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-11-13T22:47:56Z",
+ "updated_at": "2026-11-17T00:56:14Z",
  "periodic_accs": [
   "0000950123-19-009995",
   "0000950170-22-022287",
@@ -621,11 +621,35 @@
   "filed": "2011-05-06"
  },
  "quote": {
-  "price": 592.94,
-  "date": "2026-11-13",
+  "price": 592.85,
+  "date": "2026-11-16",
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0001193125-26-463989",
+   "date": "2026-11-12",
+   "name": "O'Sullivan Michael J.",
+   "role": "See Remarks",
+   "code": "P",
+   "shares": 54.0,
+   "price": 593.75,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526463989/"
+  },
+  {
+   "acc": "0001193125-26-463989",
+   "date": "2026-11-12",
+   "name": "O'Sullivan Michael J.",
+   "role": "See Remarks",
+   "code": "P",
+   "shares": 367.0,
+   "price": 594.4,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526463989/"
+  },
   {
    "acc": "0001193125-26-445930",
    "date": "2026-11-03",

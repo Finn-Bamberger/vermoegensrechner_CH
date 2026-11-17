@@ -6,7 +6,7 @@
  "rank": 29,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-11-13T22:49:43Z",
+ "updated_at": "2026-11-17T00:58:12Z",
  "periodic_accs": [
   "0000310158-18-000034",
   "0000310158-18-000039",
@@ -751,11 +751,35 @@
   "filed": "2026-11-04"
  },
  "quote": {
-  "price": 147.76,
-  "date": "2026-11-13",
+  "price": 144.46,
+  "date": "2026-11-16",
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0000310158-26-000252",
+   "date": "2026-11-12",
+   "name": "DeLuca Richard R.",
+   "role": "EVP&Pres, Merck Animal Heallth",
+   "code": "M",
+   "shares": 58185.0,
+   "price": 77.62,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/310158/000031015826000252/"
+  },
+  {
+   "acc": "0000310158-26-000252",
+   "date": "2026-11-12",
+   "name": "DeLuca Richard R.",
+   "role": "EVP&Pres, Merck Animal Heallth",
+   "code": "S",
+   "shares": 58185.0,
+   "price": 148.0085,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/310158/000031015826000252/"
+  },
   {
    "acc": "0000310158-26-000223",
    "date": "2026-08-13",

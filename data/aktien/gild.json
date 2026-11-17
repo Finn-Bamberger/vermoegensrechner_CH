@@ -6,7 +6,7 @@
  "rank": 60,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-11-13T23:06:05Z",
+ "updated_at": "2026-11-17T01:09:44Z",
  "periodic_accs": [
   "0000882095-18-000015",
   "0000882095-18-000022",
@@ -784,11 +784,71 @@
   "filed": "2026-10-30"
  },
  "quote": {
-  "price": 168.08,
-  "date": "2026-11-13",
+  "price": 167.58,
+  "date": "2026-11-16",
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0001629885-26-000008",
+   "date": "2026-11-12",
+   "name": "Kramer Kelly A.",
+   "role": "Director",
+   "code": "M",
+   "shares": 10376.0,
+   "price": 66.92,
+   "ad": "A",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/882095/000162988526000008/"
+  },
+  {
+   "acc": "0001629885-26-000008",
+   "date": "2026-11-12",
+   "name": "Kramer Kelly A.",
+   "role": "Director",
+   "code": "S",
+   "shares": 1676.0,
+   "price": 168.2255,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/882095/000162988526000008/"
+  },
+  {
+   "acc": "0001629885-26-000008",
+   "date": "2026-11-12",
+   "name": "Kramer Kelly A.",
+   "role": "Director",
+   "code": "S",
+   "shares": 3800.0,
+   "price": 169.4423,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/882095/000162988526000008/"
+  },
+  {
+   "acc": "0001629885-26-000008",
+   "date": "2026-11-12",
+   "name": "Kramer Kelly A.",
+   "role": "Director",
+   "code": "S",
+   "shares": 4700.0,
+   "price": 170.4941,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/882095/000162988526000008/"
+  },
+  {
+   "acc": "0001629885-26-000008",
+   "date": "2026-11-12",
+   "name": "Kramer Kelly A.",
+   "role": "Director",
+   "code": "S",
+   "shares": 200.0,
+   "price": 171.44,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/882095/000162988526000008/"
+  },
   {
    "acc": "0002110603-26-000015",
    "date": "2026-11-06",

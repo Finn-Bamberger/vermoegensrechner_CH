@@ -5,8 +5,8 @@
  "tv": "NASDAQ:AAPL",
  "rank": 2,
  "source": "SEC EDGAR",
- "fiscal_year_end": "0926",
- "updated_at": "2026-11-13T22:47:17Z",
+ "fiscal_year_end": "0925",
+ "updated_at": "2026-11-17T00:55:30Z",
  "periodic_accs": [
   "0000320193-17-000009",
   "0000320193-17-000070",
@@ -848,8 +848,8 @@
   "filed": "2026-11-03"
  },
  "quote": {
-  "price": 356.27,
-  "date": "2026-11-13",
+  "price": 352.78,
+  "date": "2026-11-16",
   "source": "Yahoo Finance"
  },
  "insiders": [

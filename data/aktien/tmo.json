@@ -6,7 +6,7 @@
  "rank": 47,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-11-13T22:51:42Z",
+ "updated_at": "2026-11-17T01:00:12Z",
  "periodic_accs": [
   "0000097745-19-000049",
   "0000097745-20-000009",
@@ -764,11 +764,47 @@
   "filed": "2026-10-30"
  },
  "quote": {
-  "price": 700.22,
-  "date": "2026-11-13",
+  "price": 691.33,
+  "date": "2026-11-16",
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0000097745-26-000184",
+   "date": "2026-11-13",
+   "name": "Pettiti Gianluca",
+   "role": "President & COO",
+   "code": "S",
+   "shares": 400.0,
+   "price": 701.42,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/97745/000009774526000184/"
+  },
+  {
+   "acc": "0000097745-26-000184",
+   "date": "2026-11-13",
+   "name": "Pettiti Gianluca",
+   "role": "President & COO",
+   "code": "M",
+   "shares": 3733.0,
+   "price": 309.63,
+   "ad": "A",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/97745/000009774526000184/"
+  },
+  {
+   "acc": "0000097745-26-000184",
+   "date": "2026-11-13",
+   "name": "Pettiti Gianluca",
+   "role": "President & COO",
+   "code": "S",
+   "shares": 3733.0,
+   "price": 701.42,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/97745/000009774526000184/"
+  },
   {
    "acc": "0000097745-26-000183",
    "date": "2026-10-28",

@@ -6,7 +6,7 @@
  "rank": 4,
  "source": "SEC EDGAR",
  "fiscal_year_end": "0630",
- "updated_at": "2026-11-13T22:47:24Z",
+ "updated_at": "2026-11-17T00:55:38Z",
  "periodic_accs": [
   "0000950170-23-014423",
   "0000950170-23-035122",
@@ -835,11 +835,23 @@
   "filed": "2026-10-28"
  },
  "quote": {
-  "price": 523.88,
-  "date": "2026-11-13",
+  "price": 517.99,
+  "date": "2026-11-16",
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0000789019-26-000236",
+   "date": "2026-11-16",
+   "name": "Coleman Amy",
+   "role": "EVP, Chief Human Resources Off",
+   "code": "F",
+   "shares": 89.044,
+   "price": 523.88,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/789019/000078901926000236/"
+  },
   {
    "acc": "0000789019-26-000234",
    "date": "2026-11-10",
