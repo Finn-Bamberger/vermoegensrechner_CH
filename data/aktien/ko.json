@@ -6,7 +6,7 @@
  "rank": 27,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-11-18T01:08:53Z",
+ "updated_at": "2026-11-18T17:46:10Z",
  "periodic_accs": [
   "0000021344-18-000042",
   "0000021344-19-000014",
@@ -810,6 +810,78 @@
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0000021344-26-000177",
+   "date": "2026-11-17",
+   "name": "ARROYO MANUEL",
+   "role": "Executive Vice President",
+   "code": "M",
+   "shares": 57581.0,
+   "price": 44.475,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000002134426000177/"
+  },
+  {
+   "acc": "0000021344-26-000177",
+   "date": "2026-11-17",
+   "name": "ARROYO MANUEL",
+   "role": "Executive Vice President",
+   "code": "S",
+   "shares": 57581.0,
+   "price": 99.4049,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000002134426000177/"
+  },
+  {
+   "acc": "0000021344-26-000175",
+   "date": "2026-11-16",
+   "name": "Douglas Monica Howard",
+   "role": "Executive Vice President",
+   "code": "M",
+   "shares": 5450.0,
+   "price": 44.475,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000002134426000175/"
+  },
+  {
+   "acc": "0000021344-26-000175",
+   "date": "2026-11-16",
+   "name": "Douglas Monica Howard",
+   "role": "Executive Vice President",
+   "code": "S",
+   "shares": 3782.0,
+   "price": 100.14,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000002134426000175/"
+  },
+  {
+   "acc": "0000021344-26-000175",
+   "date": "2026-11-16",
+   "name": "Douglas Monica Howard",
+   "role": "Executive Vice President",
+   "code": "M",
+   "shares": 7555.0,
+   "price": 45.435,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000002134426000175/"
+  },
+  {
+   "acc": "0000021344-26-000175",
+   "date": "2026-11-16",
+   "name": "Douglas Monica Howard",
+   "role": "Executive Vice President",
+   "code": "S",
+   "shares": 5282.0,
+   "price": 100.14,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/21344/000002134426000175/"
+  },
   {
    "acc": "0000021344-26-000173",
    "date": "2026-11-12",
