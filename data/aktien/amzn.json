@@ -6,7 +6,7 @@
  "rank": 5,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-11-17T00:55:55Z",
+ "updated_at": "2026-11-18T01:07:06Z",
  "periodic_accs": [
   "0001018724-21-000004",
   "0001018724-21-000010",
@@ -778,11 +778,131 @@
   "filed": "2026-10-30"
  },
  "quote": {
-  "price": 257.75,
-  "date": "2026-11-16",
+  "price": 257.89,
+  "date": "2026-11-17",
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0001936006-26-000030",
+   "date": "2026-11-16",
+   "name": "Herrington Douglas J",
+   "role": "CEO Worldwide Amazon Stores",
+   "code": "S",
+   "shares": 981.0,
+   "price": 259.6232,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000193600626000030/"
+  },
+  {
+   "acc": "0001936006-26-000030",
+   "date": "2026-11-16",
+   "name": "Herrington Douglas J",
+   "role": "CEO Worldwide Amazon Stores",
+   "code": "S",
+   "shares": 680.0,
+   "price": 260.7859,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000193600626000030/"
+  },
+  {
+   "acc": "0001936006-26-000030",
+   "date": "2026-11-16",
+   "name": "Herrington Douglas J",
+   "role": "CEO Worldwide Amazon Stores",
+   "code": "S",
+   "shares": 1720.0,
+   "price": 261.7333,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000193600626000030/"
+  },
+  {
+   "acc": "0001936006-26-000030",
+   "date": "2026-11-16",
+   "name": "Herrington Douglas J",
+   "role": "CEO Worldwide Amazon Stores",
+   "code": "S",
+   "shares": 360.0,
+   "price": 262.5144,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000193600626000030/"
+  },
+  {
+   "acc": "0001936006-26-000030",
+   "date": "2026-11-15",
+   "name": "Herrington Douglas J",
+   "role": "CEO Worldwide Amazon Stores",
+   "code": "M",
+   "shares": 9352.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000193600626000030/"
+  },
+  {
+   "acc": "0001018724-26-000054",
+   "date": "2026-11-15",
+   "name": "SMITH BRAD D",
+   "role": "Director",
+   "code": "M",
+   "shares": 2605.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000054/"
+  },
+  {
+   "acc": "0001018724-26-000052",
+   "date": "2026-11-15",
+   "name": "COOPER EDITH W",
+   "role": "Director",
+   "code": "M",
+   "shares": 2042.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000052/"
+  },
+  {
+   "acc": "0001018724-26-000050",
+   "date": "2026-11-15",
+   "name": "STONESIFER PATRICIA Q",
+   "role": "Director",
+   "code": "M",
+   "shares": 1565.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000050/"
+  },
+  {
+   "acc": "0001018724-26-000048",
+   "date": "2026-11-15",
+   "name": "RUBINSTEIN JONATHAN",
+   "role": "Director",
+   "code": "M",
+   "shares": 1565.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000048/"
+  },
+  {
+   "acc": "0001018724-26-000046",
+   "date": "2026-11-15",
+   "name": "Huttenlocher Daniel P",
+   "role": "Director",
+   "code": "M",
+   "shares": 1565.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000046/"
+  },
   {
    "acc": "0001018724-26-000044",
    "date": "2026-11-13",

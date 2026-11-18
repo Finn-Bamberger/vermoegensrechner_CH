@@ -6,7 +6,7 @@
  "rank": 92,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-11-17T01:46:12Z",
+ "updated_at": "2026-11-18T01:52:30Z",
  "periodic_accs": [
   "0001075531-15-000007",
   "0001075531-15-000055",
@@ -752,11 +752,119 @@
   "filed": "2026-11-03"
  },
  "quote": {
-  "price": 157.53,
-  "date": "2026-11-16",
+  "price": 154.46,
+  "date": "2026-11-17",
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0001214612-26-000009",
+   "date": "2026-11-16",
+   "name": "MILLONES PETER J",
+   "role": "EXECUTIVE VP, GENERAL COUNSEL",
+   "code": "S",
+   "shares": 7626.0,
+   "price": 156.6697,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1075531/000121461226000009/"
+  },
+  {
+   "acc": "0001214612-26-000009",
+   "date": "2026-11-16",
+   "name": "MILLONES PETER J",
+   "role": "EXECUTIVE VP, GENERAL COUNSEL",
+   "code": "S",
+   "shares": 30233.0,
+   "price": 157.4741,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1075531/000121461226000009/"
+  },
+  {
+   "acc": "0001214612-26-000009",
+   "date": "2026-11-16",
+   "name": "MILLONES PETER J",
+   "role": "EXECUTIVE VP, GENERAL COUNSEL",
+   "code": "S",
+   "shares": 7536.0,
+   "price": 158.5361,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1075531/000121461226000009/"
+  },
+  {
+   "acc": "0001214612-26-000009",
+   "date": "2026-11-16",
+   "name": "MILLONES PETER J",
+   "role": "EXECUTIVE VP, GENERAL COUNSEL",
+   "code": "S",
+   "shares": 4105.0,
+   "price": 159.525,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1075531/000121461226000009/"
+  },
+  {
+   "acc": "0001214612-26-000009",
+   "date": "2026-11-16",
+   "name": "MILLONES PETER J",
+   "role": "EXECUTIVE VP, GENERAL COUNSEL",
+   "code": "S",
+   "shares": 500.0,
+   "price": 160.26,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1075531/000121461226000009/"
+  },
+  {
+   "acc": "0001875741-26-000012",
+   "date": "2026-11-16",
+   "name": "Pisano Paulo",
+   "role": "CHIEF HUMAN RESOURCES OFFICER",
+   "code": "S",
+   "shares": 600.0,
+   "price": 157.0699,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1075531/000187574126000012/"
+  },
+  {
+   "acc": "0001875741-26-000012",
+   "date": "2026-11-16",
+   "name": "Pisano Paulo",
+   "role": "CHIEF HUMAN RESOURCES OFFICER",
+   "code": "S",
+   "shares": 600.0,
+   "price": 157.9055,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1075531/000187574126000012/"
+  },
+  {
+   "acc": "0001875741-26-000012",
+   "date": "2026-11-16",
+   "name": "Pisano Paulo",
+   "role": "CHIEF HUMAN RESOURCES OFFICER",
+   "code": "S",
+   "shares": 200.0,
+   "price": 158.915,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1075531/000187574126000012/"
+  },
+  {
+   "acc": "0001875741-26-000012",
+   "date": "2026-11-16",
+   "name": "Pisano Paulo",
+   "role": "CHIEF HUMAN RESOURCES OFFICER",
+   "code": "S",
+   "shares": 100.0,
+   "price": 160.08,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1075531/000187574126000012/"
+  },
   {
    "acc": "0001875741-26-000010",
    "date": "2026-10-15",

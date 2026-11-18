@@ -6,7 +6,7 @@
  "rank": 87,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-11-17T01:40:33Z",
+ "updated_at": "2026-11-18T01:46:55Z",
  "periodic_accs": [
   "0001174947-18-000697",
   "0001262039-18-000009",
@@ -801,11 +801,23 @@
   "filed": "2026-10-30"
  },
  "quote": {
-  "price": 123.27,
-  "date": "2026-11-16",
+  "price": 124.5,
+  "date": "2026-11-17",
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0002016813-26-000024",
+   "date": "2026-11-16",
+   "name": "Ohlgart Christiane",
+   "role": "Chief Financial Officer",
+   "code": "S",
+   "shares": 215.0,
+   "price": 126.62,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1262039/000201681326000024/"
+  },
   {
    "acc": "0001475587-26-000016",
    "date": "2026-11-02",

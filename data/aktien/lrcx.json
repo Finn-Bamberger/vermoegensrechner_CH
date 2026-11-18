@@ -6,7 +6,7 @@
  "rank": 31,
  "source": "SEC EDGAR",
  "fiscal_year_end": "0627",
- "updated_at": "2026-11-17T00:58:39Z",
+ "updated_at": "2026-11-18T01:09:40Z",
  "periodic_accs": [
   "0000707549-16-000014",
   "0000707549-16-000050",
@@ -809,8 +809,8 @@
   "filed": "2026-10-22"
  },
  "quote": {
-  "price": 210.83,
-  "date": "2026-11-16",
+  "price": 210.69,
+  "date": "2026-11-17",
   "source": "Yahoo Finance"
  },
  "insiders": [
@@ -2757,18 +2757,6 @@
    "ad": "D",
    "plan_10b5_1": false,
    "url": "https://www.sec.gov/Archives/edgar/data/707549/000164241525000005/"
-  },
-  {
-   "acc": "0001707826-25-000004",
-   "date": "2025-10-13",
-   "name": "Vahedi Vahid",
-   "role": "Senior Vice President",
-   "code": "S",
-   "shares": 52190.0,
-   "price": 138.9,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/707549/000170782625000004/"
   }
  ]
 }

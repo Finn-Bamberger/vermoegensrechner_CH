@@ -6,7 +6,7 @@
  "rank": 48,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-11-17T01:00:22Z",
+ "updated_at": "2026-11-18T01:11:11Z",
  "periodic_accs": [
   "0001596532-22-000112",
   "0001596532-22-000220",
@@ -784,11 +784,23 @@
   "filed": "2026-11-04"
  },
  "quote": {
-  "price": 187.02,
-  "date": "2026-11-16",
+  "price": 186.42,
+  "date": "2026-11-17",
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0001596532-26-000265",
+   "date": "2026-11-13",
+   "name": "CHEW LEWIS",
+   "role": "Director",
+   "code": "S",
+   "shares": 2500.0,
+   "price": 196.8851,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1596532/000159653226000265/"
+  },
   {
    "acc": "0001596532-26-000262",
    "date": "2026-11-06",

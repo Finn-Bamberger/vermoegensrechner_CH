@@ -6,7 +6,7 @@
  "rank": 77,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-11-17T01:28:52Z",
+ "updated_at": "2026-11-18T01:35:17Z",
  "periodic_accs": [
   "0000313616-20-000093",
   "0000313616-20-000120",
@@ -773,11 +773,107 @@
   "filed": "2026-10-21"
  },
  "quote": {
-  "price": 229.91,
-  "date": "2026-11-16",
+  "price": 225.77,
+  "date": "2026-11-17",
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0000313616-26-000239",
+   "date": "2026-11-15",
+   "name": "Milosevich Gregory M",
+   "role": "Executive Vice President",
+   "code": "F",
+   "shares": 58.0,
+   "price": 233.02,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/313616/000031361626000239/"
+  },
+  {
+   "acc": "0000313616-26-000238",
+   "date": "2026-11-15",
+   "name": "Muppaneni Shashanka",
+   "role": "SVP, Chief Strategy Officer",
+   "code": "F",
+   "shares": 122.0,
+   "price": 233.02,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/313616/000031361626000238/"
+  },
+  {
+   "acc": "0000313616-26-000237",
+   "date": "2026-11-15",
+   "name": "Leiken Jonathan",
+   "role": "SVP-Chief Legal Officer",
+   "code": "F",
+   "shares": 1122.0,
+   "price": 233.02,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/313616/000031361626000237/"
+  },
+  {
+   "acc": "0000313616-26-000236",
+   "date": "2026-11-15",
+   "name": "Sawyer Montgomery Julie A",
+   "role": "President & CEO",
+   "code": "F",
+   "shares": 261.0,
+   "price": 233.02,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/313616/000031361626000236/"
+  },
+  {
+   "acc": "0000313616-26-000235",
+   "date": "2026-11-15",
+   "name": "Gugino Matthew E",
+   "role": "EVP & Chief Financial Officer",
+   "code": "F",
+   "shares": 1018.0,
+   "price": 233.02,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/313616/000031361626000235/"
+  },
+  {
+   "acc": "0000313616-26-000234",
+   "date": "2026-11-15",
+   "name": "HERSHBERG ROBERT",
+   "role": "Director",
+   "code": "A",
+   "shares": 282.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/313616/000031361626000234/"
+  },
+  {
+   "acc": "0000313616-26-000233",
+   "date": "2026-11-15",
+   "name": "COMAS DANIEL L",
+   "role": "Director",
+   "code": "A",
+   "shares": 282.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/313616/000031361626000233/"
+  },
+  {
+   "acc": "0000313616-26-000232",
+   "date": "2026-11-15",
+   "name": "Moler Heathre T",
+   "role": "SVP, Chief HR Officer",
+   "code": "F",
+   "shares": 37.0,
+   "price": 233.02,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/313616/000031361626000232/"
+  },
   {
    "acc": "0000313616-26-000223",
    "date": "2026-11-09",

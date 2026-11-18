@@ -6,7 +6,7 @@
  "rank": 57,
  "source": "SEC EDGAR",
  "fiscal_year_end": "0628",
- "updated_at": "2026-11-17T01:06:36Z",
+ "updated_at": "2026-11-18T01:13:16Z",
  "periodic_accs": [
   "0001628280-25-050698",
   "0001628280-26-004407",
@@ -433,11 +433,23 @@
   "filed": "2026-10-30"
  },
  "quote": {
-  "price": 809.11,
-  "date": "2026-11-16",
+  "price": 797.24,
+  "date": "2026-11-17",
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0001363249-26-000080",
+   "date": "2026-11-16",
+   "name": "Suzuki Miyuki",
+   "role": "Director",
+   "code": "F",
+   "shares": 221.0,
+   "price": 809.11,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/2023554/000136324926000080/"
+  },
   {
    "acc": "0001242648-26-000049",
    "date": "2026-11-02",

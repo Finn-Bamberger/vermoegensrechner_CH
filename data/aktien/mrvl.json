@@ -6,7 +6,7 @@
  "rank": 52,
  "source": "SEC EDGAR",
  "fiscal_year_end": "0130",
- "updated_at": "2026-11-17T01:00:49Z",
+ "updated_at": "2026-11-18T01:11:33Z",
  "periodic_accs": [
   "0001835632-21-000010",
   "0001835632-21-000022",
@@ -756,11 +756,47 @@
   "filed": "2026-08-28"
  },
  "quote": {
-  "price": 145.36,
-  "date": "2026-11-16",
+  "price": 148.74,
+  "date": "2026-11-17",
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0001628280-26-074618",
+   "date": "2026-11-16",
+   "name": "MURPHY MATTHEW J",
+   "role": "Chairman of the Board and CEO",
+   "code": "S",
+   "shares": 7500.0,
+   "price": 146.54,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1835632/000162828026074618/"
+  },
+  {
+   "acc": "0001628280-26-074462",
+   "date": "2026-11-15",
+   "name": "Scarpulla Justin",
+   "role": "SVP, Chief Accounting Officer",
+   "code": "M",
+   "shares": 791.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1835632/000162828026074462/"
+  },
+  {
+   "acc": "0001628280-26-074462",
+   "date": "2026-11-15",
+   "name": "Scarpulla Justin",
+   "role": "SVP, Chief Accounting Officer",
+   "code": "F",
+   "shares": 393.0,
+   "price": 156.76,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1835632/000162828026074462/"
+  },
   {
    "acc": "0001628280-26-069600",
    "date": "2026-11-02",

@@ -6,7 +6,7 @@
  "rank": 76,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-11-17T01:27:41Z",
+ "updated_at": "2026-11-18T01:34:09Z",
  "periodic_accs": [
   "0000753308-19-000118",
   "0000753308-19-000165",
@@ -704,11 +704,35 @@
   "filed": "2026-04-23"
  },
  "quote": {
-  "price": 85.34,
-  "date": "2026-11-16",
+  "price": 84.42,
+  "date": "2026-11-17",
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0002070993-26-000006",
+   "date": "2026-11-13",
+   "name": "Gough William John",
+   "role": "VP, Controller & CAO",
+   "code": "F",
+   "shares": 79.0,
+   "price": 85.12,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/753308/000207099326000006/"
+  },
+  {
+   "acc": "0002135579-26-000005",
+   "date": "2026-11-13",
+   "name": "Bores Scott Robert",
+   "role": "Pres. and CEO of Sub",
+   "code": "F",
+   "shares": 171.0,
+   "price": 85.12,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/753308/000213557926000005/"
+  },
   {
    "acc": "0001960457-26-000008",
    "date": "2026-11-02",

@@ -6,7 +6,7 @@
  "rank": 84,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-11-17T01:37:00Z",
+ "updated_at": "2026-11-18T01:43:24Z",
  "periodic_accs": [
   "0001510295-18-000024",
   "0001510295-18-000056",
@@ -736,11 +736,35 @@
   "filed": "2026-11-03"
  },
  "quote": {
-  "price": 402.19,
-  "date": "2026-11-16",
+  "price": 395.61,
+  "date": "2026-11-17",
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0001193125-26-465560",
+   "date": "2026-11-13",
+   "name": "Henschen Michael A II",
+   "role": "Ex VP, Refining",
+   "code": "S",
+   "shares": 2285.0,
+   "price": 410.635,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1510295/000119312526465560/"
+  },
+  {
+   "acc": "0001193125-26-465560",
+   "date": "2026-11-13",
+   "name": "Henschen Michael A II",
+   "role": "Ex VP, Refining",
+   "code": "G",
+   "shares": 300.0,
+   "price": 0.0,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1510295/000119312526465560/"
+  },
   {
    "acc": "0001193125-26-378519",
    "date": "2026-08-31",

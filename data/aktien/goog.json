@@ -6,7 +6,7 @@
  "rank": 3,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-11-17T00:55:37Z",
+ "updated_at": "2026-11-18T01:06:51Z",
  "periodic_accs": [
   "0001652044-23-000094",
   "0001652044-24-000022",
@@ -741,8 +741,8 @@
  ],
  "shares_outstanding": null,
  "quote": {
-  "price": 281.26,
-  "date": "2026-11-16",
+  "price": 277.6,
+  "date": "2026-11-17",
   "source": "Yahoo Finance"
  },
  "insiders": [
@@ -10741,66 +10741,6 @@
    "ad": "D",
    "plan_10b5_1": true,
    "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312525242766/"
-  },
-  {
-   "acc": "0001193125-25-240596",
-   "date": "2025-10-13",
-   "name": "Hennessy John L.",
-   "role": "Director",
-   "code": "S",
-   "shares": 80.0,
-   "price": 241.52,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312525240596/"
-  },
-  {
-   "acc": "0001193125-25-240596",
-   "date": "2025-10-13",
-   "name": "Hennessy John L.",
-   "role": "Director",
-   "code": "S",
-   "shares": 260.0,
-   "price": 243.16,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312525240596/"
-  },
-  {
-   "acc": "0001193125-25-240596",
-   "date": "2025-10-13",
-   "name": "Hennessy John L.",
-   "role": "Director",
-   "code": "S",
-   "shares": 130.0,
-   "price": 243.17,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312525240596/"
-  },
-  {
-   "acc": "0001193125-25-240596",
-   "date": "2025-10-13",
-   "name": "Hennessy John L.",
-   "role": "Director",
-   "code": "S",
-   "shares": 90.0,
-   "price": 243.76,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312525240596/"
-  },
-  {
-   "acc": "0001193125-25-240596",
-   "date": "2025-10-13",
-   "name": "Hennessy John L.",
-   "role": "Director",
-   "code": "S",
-   "shares": 40.0,
-   "price": 241.51,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312525240596/"
   }
  ]
 }
