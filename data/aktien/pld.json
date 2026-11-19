@@ -6,7 +6,7 @@
  "rank": 90,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-11-19T00:29:51Z",
+ "updated_at": "2026-11-19T23:23:05Z",
  "periodic_accs": [
   "0000950170-23-015979",
   "0000950170-23-034768",
@@ -740,11 +740,23 @@
   "filed": "2026-04-30"
  },
  "quote": {
-  "price": 125.22,
-  "date": "2026-11-18",
+  "price": 123.36,
+  "date": "2026-11-19",
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0001193125-26-468660",
+   "date": "2026-11-18",
+   "name": "KELLY ALFRED F JR",
+   "role": "Director",
+   "code": "P",
+   "shares": 4700.0,
+   "price": 124.968,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1045609/000119312526468660/"
+  },
   {
    "acc": "0001193125-26-396712",
    "date": "2026-09-17",

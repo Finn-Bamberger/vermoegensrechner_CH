@@ -6,7 +6,7 @@
  "rank": 53,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-11-18T23:53:49Z",
+ "updated_at": "2026-11-19T22:47:22Z",
  "periodic_accs": [
   "0000051143-23-000021",
   "0000051143-23-000032",
@@ -38,6 +38,14 @@
   "0001558370-23-006656"
  ],
  "filings": [
+  {
+   "form": "8-K",
+   "date": "2026-11-19",
+   "report_date": "2026-11-13",
+   "items": "9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/51143/000110465926130189/tm2630132d1_8k.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/51143/000110465926130189/0001104659-26-130189-index.htm"
+  },
   {
    "form": "10-Q",
    "date": "2026-10-22",
@@ -349,14 +357,6 @@
    "items": "2.02,9.01",
    "doc_url": "https://www.sec.gov/Archives/edgar/data/51143/000005114324000043/ibm-20241023.htm",
    "index_url": "https://www.sec.gov/Archives/edgar/data/51143/000005114324000043/0000051143-24-000043-index.htm"
-  },
-  {
-   "form": "8-K",
-   "date": "2024-09-11",
-   "report_date": "2024-09-11",
-   "items": "8.01,9.01",
-   "doc_url": "https://www.sec.gov/Archives/edgar/data/51143/000110465924098942/tm2423753d1_8k.htm",
-   "index_url": "https://www.sec.gov/Archives/edgar/data/51143/000110465924098942/0001104659-24-098942-index.htm"
   }
  ],
  "quarters": [
@@ -777,8 +777,8 @@
   "filed": "2026-10-22"
  },
  "quote": {
-  "price": 228.53,
-  "date": "2026-11-18",
+  "price": 223.88,
+  "date": "2026-11-19",
   "source": "Yahoo Finance"
  },
  "insiders": [

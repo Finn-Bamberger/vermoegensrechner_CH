@@ -6,7 +6,7 @@
  "rank": 63,
  "source": "SEC EDGAR",
  "fiscal_year_end": "0927",
- "updated_at": "2026-11-18T23:59:00Z",
+ "updated_at": "2026-11-19T22:52:45Z",
  "periodic_accs": [
   "0000804328-22-000021",
   "0000804328-23-000006",
@@ -810,11 +810,119 @@
   "filed": "2026-11-04"
  },
  "quote": {
-  "price": 159.81,
-  "date": "2026-11-18",
+  "price": 162.01,
+  "date": "2026-11-19",
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0000804328-26-000133",
+   "date": "2026-11-18",
+   "name": "Palkhiwala Akash J.",
+   "role": "EVP, CFO & COO",
+   "code": "S",
+   "shares": 628.0,
+   "price": 159.2013,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432826000133/"
+  },
+  {
+   "acc": "0000804328-26-000133",
+   "date": "2026-11-18",
+   "name": "Palkhiwala Akash J.",
+   "role": "EVP, CFO & COO",
+   "code": "S",
+   "shares": 228.0,
+   "price": 159.8093,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432826000133/"
+  },
+  {
+   "acc": "0000804328-26-000133",
+   "date": "2026-11-18",
+   "name": "Palkhiwala Akash J.",
+   "role": "EVP, CFO & COO",
+   "code": "S",
+   "shares": 323.0,
+   "price": 161.3073,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432826000133/"
+  },
+  {
+   "acc": "0000804328-26-000133",
+   "date": "2026-11-18",
+   "name": "Palkhiwala Akash J.",
+   "role": "EVP, CFO & COO",
+   "code": "S",
+   "shares": 457.0,
+   "price": 162.1868,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432826000133/"
+  },
+  {
+   "acc": "0000804328-26-000133",
+   "date": "2026-11-18",
+   "name": "Palkhiwala Akash J.",
+   "role": "EVP, CFO & COO",
+   "code": "S",
+   "shares": 401.0,
+   "price": 163.114,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432826000133/"
+  },
+  {
+   "acc": "0000804328-26-000133",
+   "date": "2026-11-18",
+   "name": "Palkhiwala Akash J.",
+   "role": "EVP, CFO & COO",
+   "code": "S",
+   "shares": 303.0,
+   "price": 164.0268,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432826000133/"
+  },
+  {
+   "acc": "0000804328-26-000133",
+   "date": "2026-11-18",
+   "name": "Palkhiwala Akash J.",
+   "role": "EVP, CFO & COO",
+   "code": "S",
+   "shares": 104.0,
+   "price": 165.2029,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432826000133/"
+  },
+  {
+   "acc": "0000804328-26-000133",
+   "date": "2026-11-18",
+   "name": "Palkhiwala Akash J.",
+   "role": "EVP, CFO & COO",
+   "code": "S",
+   "shares": 44.0,
+   "price": 166.182,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432826000133/"
+  },
+  {
+   "acc": "0000804328-26-000133",
+   "date": "2026-11-18",
+   "name": "Palkhiwala Akash J.",
+   "role": "EVP, CFO & COO",
+   "code": "S",
+   "shares": 12.0,
+   "price": 166.61,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432826000133/"
+  },
   {
    "acc": "0000804328-26-000132",
    "date": "2026-11-09",

@@ -5,8 +5,8 @@
  "tv": "NASDAQ:SNDK",
  "rank": 57,
  "source": "SEC EDGAR",
- "fiscal_year_end": "0628",
- "updated_at": "2026-11-18T23:54:31Z",
+ "fiscal_year_end": "0702",
+ "updated_at": "2026-11-19T22:48:12Z",
  "periodic_accs": [
   "0001628280-25-050698",
   "0001628280-26-004407",
@@ -19,6 +19,14 @@
   "0002023554-25-000034"
  ],
  "filings": [
+  {
+   "form": "8-K",
+   "date": "2026-11-19",
+   "report_date": "2026-11-19",
+   "items": "5.03,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/2023554/000162828026075127/sndk-20261119.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/2023554/000162828026075127/0001628280-26-075127-index.htm"
+  },
   {
    "form": "8-K",
    "date": "2026-11-18",
@@ -441,8 +449,8 @@
   "filed": "2026-10-30"
  },
  "quote": {
-  "price": 776.22,
-  "date": "2026-11-18",
+  "price": 755.16,
+  "date": "2026-11-19",
   "source": "Yahoo Finance"
  },
  "insiders": [
