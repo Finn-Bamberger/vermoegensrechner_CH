@@ -6,7 +6,7 @@
  "rank": 21,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-11-18T01:08:25Z",
+ "updated_at": "2026-11-18T23:50:32Z",
  "periodic_accs": [
   "0001551152-17-000025",
   "0001551152-17-000035",
@@ -796,11 +796,35 @@
   "filed": "2026-11-03"
  },
  "quote": {
-  "price": 292.82,
-  "date": "2026-11-17",
+  "price": 286.01,
+  "date": "2026-11-18",
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0001563545-26-000006",
+   "date": "2026-11-16",
+   "name": "SALEKI AZITA",
+   "role": "EVP, CHIEF OPERATIONS OFFICER",
+   "code": "M",
+   "shares": 23935.0,
+   "price": 61.36,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1551152/000156354526000006/"
+  },
+  {
+   "acc": "0001563545-26-000006",
+   "date": "2026-11-16",
+   "name": "SALEKI AZITA",
+   "role": "EVP, CHIEF OPERATIONS OFFICER",
+   "code": "F",
+   "shares": 13481.0,
+   "price": 298.55,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1551152/000156354526000006/"
+  },
   {
    "acc": "0001761675-26-000007",
    "date": "2026-11-12",

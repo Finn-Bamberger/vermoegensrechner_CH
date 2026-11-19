@@ -6,7 +6,7 @@
  "rank": 37,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-11-18T01:10:01Z",
+ "updated_at": "2026-11-18T23:52:03Z",
  "periodic_accs": [
   "0000040545-19-000014",
   "0000040545-19-000024",
@@ -635,11 +635,35 @@
   "filed": "2026-10-20"
  },
  "quote": {
-  "price": 326.4,
-  "date": "2026-11-17",
+  "price": 328.1,
+  "date": "2026-11-18",
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0002015929-26-000009",
+   "date": "2026-11-17",
+   "name": "Procacci Riccardo",
+   "role": "Senior Vice President",
+   "code": "M",
+   "shares": 2023.0,
+   "price": 90.01,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/40545/000201592926000009/"
+  },
+  {
+   "acc": "0002015929-26-000009",
+   "date": "2026-11-17",
+   "name": "Procacci Riccardo",
+   "role": "Senior Vice President",
+   "code": "S",
+   "shares": 2023.0,
+   "price": 324.84,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/40545/000201592926000009/"
+  },
   {
    "acc": "0001205247-26-000010",
    "date": "2026-11-11",

@@ -6,7 +6,7 @@
  "rank": 80,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-11-18T01:38:53Z",
+ "updated_at": "2026-11-19T00:18:33Z",
  "periodic_accs": [
   "0001035267-19-000038",
   "0001035267-19-000088",
@@ -808,11 +808,47 @@
   "filed": "2026-10-21"
  },
  "quote": {
-  "price": 430.53,
-  "date": "2026-11-17",
+  "price": 420.95,
+  "date": "2026-11-18",
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0002010300-26-000039",
+   "date": "2026-11-18",
+   "name": "Brosius Mark",
+   "role": "EVP & Chief Mfg and Supply Cha",
+   "code": "S",
+   "shares": 46.0,
+   "price": 430.63,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1035267/000201030026000039/"
+  },
+  {
+   "acc": "0002010300-26-000039",
+   "date": "2026-11-17",
+   "name": "Brosius Mark",
+   "role": "EVP & Chief Mfg and Supply Cha",
+   "code": "S",
+   "shares": 46.0,
+   "price": 437.33,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1035267/000201030026000039/"
+  },
+  {
+   "acc": "0002010300-26-000039",
+   "date": "2026-11-16",
+   "name": "Brosius Mark",
+   "role": "EVP & Chief Mfg and Supply Cha",
+   "code": "S",
+   "shares": 46.0,
+   "price": 444.38,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1035267/000201030026000039/"
+  },
   {
    "acc": "0001561733-26-000018",
    "date": "2026-11-10",

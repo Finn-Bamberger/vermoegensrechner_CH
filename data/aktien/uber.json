@@ -6,7 +6,7 @@
  "rank": 85,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-11-18T01:44:25Z",
+ "updated_at": "2026-11-19T00:24:05Z",
  "periodic_accs": [
   "0001543151-21-000014",
   "0001543151-21-000029",
@@ -767,8 +767,8 @@
   "filed": "2026-11-04"
  },
  "quote": {
-  "price": 68.81,
-  "date": "2026-11-17",
+  "price": 68.76,
+  "date": "2026-11-18",
   "source": "Yahoo Finance"
  },
  "insiders": [
@@ -8991,18 +8991,6 @@
    "ad": "D",
    "plan_10b5_1": false,
    "url": "https://www.sec.gov/Archives/edgar/data/1543151/000207176125000003/"
-  },
-  {
-   "acc": "0001609983-25-000009",
-   "date": "2025-10-14",
-   "name": "Mahendra-Rajah Prashanth",
-   "role": "CFO",
-   "code": "P",
-   "shares": 5.0,
-   "price": 93.0,
-   "ad": "A",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000160998325000009/"
   }
  ]
 }

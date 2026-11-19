@@ -6,7 +6,7 @@
  "rank": 100,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-11-18T02:01:42Z",
+ "updated_at": "2026-11-19T00:41:35Z",
  "periodic_accs": [
   "0000927628-21-000175",
   "0000927628-21-000256",
@@ -664,11 +664,35 @@
   "filed": "2026-11-03"
  },
  "quote": {
-  "price": 186.78,
-  "date": "2026-11-17",
+  "price": 184.3,
+  "date": "2026-11-18",
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0001741344-26-000028",
+   "date": "2026-11-16",
+   "name": "Karam Celia",
+   "role": "Pres, Retail Bank",
+   "code": "S",
+   "shares": 1888.0,
+   "price": 194.54,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/927628/000174134426000028/"
+  },
+  {
+   "acc": "0001741273-26-000024",
+   "date": "2026-11-16",
+   "name": "Dean Lia",
+   "role": "Pres, Banking & Prem. Products",
+   "code": "S",
+   "shares": 1866.0,
+   "price": 194.54,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/927628/000174127326000024/"
+  },
   {
    "acc": "0001181669-26-000009",
    "date": "2026-11-09",
