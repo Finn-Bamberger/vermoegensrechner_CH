@@ -6,7 +6,7 @@
  "rank": 7,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-11-18T23:49:23Z",
+ "updated_at": "2026-11-19T05:37:38Z",
  "periodic_accs": [
   "0001326801-24-000069",
   "0001326801-24-000081",
@@ -7612,18 +7612,6 @@
    "ad": "D",
    "plan_10b5_1": true,
    "url": "https://www.sec.gov/Archives/edgar/data/1326801/000095010325013359/"
-  },
-  {
-   "acc": "0000950103-25-013288",
-   "date": "2025-10-14",
-   "name": "Newstead Jennifer",
-   "role": "Chief Legal Officer",
-   "code": "S",
-   "shares": 519.0,
-   "price": 707.85,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000095010325013288/"
   }
  ]
 }

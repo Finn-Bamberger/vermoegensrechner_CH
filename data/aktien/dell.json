@@ -6,7 +6,7 @@
  "rank": 35,
  "source": "SEC EDGAR",
  "fiscal_year_end": "0129",
- "updated_at": "2026-11-18T23:52:00Z",
+ "updated_at": "2026-11-19T05:39:40Z",
  "periodic_accs": [
   "0001571996-24-000036",
   "0001571996-24-000062",
@@ -37099,30 +37099,6 @@
    "ad": "A",
    "plan_10b5_1": false,
    "url": "https://www.sec.gov/Archives/edgar/data/1571996/000208180225000005/"
-  },
-  {
-   "acc": "0001193125-25-241474",
-   "date": "2025-10-14",
-   "name": "Silver Lake Group, L.L.C.",
-   "role": "Director",
-   "code": "S",
-   "shares": 3538.0,
-   "price": 151.63,
-   "ad": "D",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/1571996/000119312525241474/"
-  },
-  {
-   "acc": "0001193125-25-241474",
-   "date": "2025-10-14",
-   "name": "Silver Lake Group, L.L.C.",
-   "role": "Director",
-   "code": "S",
-   "shares": 3079.0,
-   "price": 151.63,
-   "ad": "D",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/1571996/000119312525241474/"
   }
  ]
 }
