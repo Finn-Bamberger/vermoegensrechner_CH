@@ -6,7 +6,7 @@
  "rank": 57,
  "source": "SEC EDGAR",
  "fiscal_year_end": "0702",
- "updated_at": "2026-11-19T22:48:12Z",
+ "updated_at": "2026-11-20T03:55:06Z",
  "periodic_accs": [
   "0001628280-25-050698",
   "0001628280-26-004407",
@@ -454,6 +454,90 @@
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0001558880-26-000005",
+   "date": "2026-11-17",
+   "name": "KUMAR DEVINDER",
+   "role": "Director",
+   "code": "A",
+   "shares": 326.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/2023554/000155888026000005/"
+  },
+  {
+   "acc": "0001363249-26-000092",
+   "date": "2026-11-17",
+   "name": "Suzuki Miyuki",
+   "role": "Director",
+   "code": "A",
+   "shares": 326.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/2023554/000136324926000092/"
+  },
+  {
+   "acc": "0001363249-26-000091",
+   "date": "2026-11-17",
+   "name": "Shook Ellyn",
+   "role": "Director",
+   "code": "A",
+   "shares": 326.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/2023554/000136324926000091/"
+  },
+  {
+   "acc": "0001363249-26-000090",
+   "date": "2026-11-17",
+   "name": "Sayiner Necip",
+   "role": "Director",
+   "code": "A",
+   "shares": 326.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/2023554/000136324926000090/"
+  },
+  {
+   "acc": "0001363249-26-000089",
+   "date": "2026-11-17",
+   "name": "Caulfield Thomas",
+   "role": "Director",
+   "code": "A",
+   "shares": 326.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/2023554/000136324926000089/"
+  },
+  {
+   "acc": "0001363249-26-000088",
+   "date": "2026-11-17",
+   "name": "Cassidy Richard B. II",
+   "role": "Director",
+   "code": "A",
+   "shares": 395.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/2023554/000136324926000088/"
+  },
+  {
+   "acc": "0001363249-26-000087",
+   "date": "2026-11-17",
+   "name": "Bradley Alexander R.",
+   "role": "Director",
+   "code": "A",
+   "shares": 326.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/2023554/000136324926000087/"
+  },
   {
    "acc": "0001363249-26-000080",
    "date": "2026-11-16",

@@ -6,7 +6,7 @@
  "rank": 10,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-11-19T22:43:30Z",
+ "updated_at": "2026-11-20T03:51:21Z",
  "periodic_accs": [
   "0000950123-19-009995",
   "0000950170-22-022287",
@@ -626,6 +626,18 @@
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0001193125-26-468887",
+   "date": "2026-11-17",
+   "name": "GUYMAN CHARLOTTE",
+   "role": "Director",
+   "code": "G",
+   "shares": 400.0,
+   "price": 0.0,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526468887/"
+  },
   {
    "acc": "0001193125-26-465872",
    "date": "2026-11-16",

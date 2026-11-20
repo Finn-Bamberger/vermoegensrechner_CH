@@ -6,7 +6,7 @@
  "rank": 7,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-11-19T22:43:19Z",
+ "updated_at": "2026-11-20T03:51:10Z",
  "periodic_accs": [
   "0001326801-24-000069",
   "0001326801-24-000081",
@@ -737,6 +737,114 @@
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0000950103-26-017904",
+   "date": "2026-11-17",
+   "name": "LI SUSAN J",
+   "role": "Chief Financial Officer",
+   "code": "S",
+   "shares": 795.0,
+   "price": 620.2521,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326017904/"
+  },
+  {
+   "acc": "0000950103-26-017904",
+   "date": "2026-11-17",
+   "name": "LI SUSAN J",
+   "role": "Chief Financial Officer",
+   "code": "S",
+   "shares": 2933.0,
+   "price": 621.1674,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326017904/"
+  },
+  {
+   "acc": "0000950103-26-017904",
+   "date": "2026-11-17",
+   "name": "LI SUSAN J",
+   "role": "Chief Financial Officer",
+   "code": "S",
+   "shares": 3269.0,
+   "price": 622.1192,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326017904/"
+  },
+  {
+   "acc": "0000950103-26-017904",
+   "date": "2026-11-17",
+   "name": "LI SUSAN J",
+   "role": "Chief Financial Officer",
+   "code": "S",
+   "shares": 1229.0,
+   "price": 623.1286,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326017904/"
+  },
+  {
+   "acc": "0000950103-26-017904",
+   "date": "2026-11-17",
+   "name": "LI SUSAN J",
+   "role": "Chief Financial Officer",
+   "code": "S",
+   "shares": 610.0,
+   "price": 624.1334,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326017904/"
+  },
+  {
+   "acc": "0000950103-26-017904",
+   "date": "2026-11-17",
+   "name": "LI SUSAN J",
+   "role": "Chief Financial Officer",
+   "code": "S",
+   "shares": 280.0,
+   "price": 625.2964,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326017904/"
+  },
+  {
+   "acc": "0000950103-26-017904",
+   "date": "2026-11-17",
+   "name": "LI SUSAN J",
+   "role": "Chief Financial Officer",
+   "code": "S",
+   "shares": 80.0,
+   "price": 625.96,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326017904/"
+  },
+  {
+   "acc": "0000950103-26-017902",
+   "date": "2026-11-17",
+   "name": "Mahoney Curtis J.",
+   "role": "Chief Legal Officer",
+   "code": "S",
+   "shares": 1559.0,
+   "price": 625.0,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326017902/"
+  },
+  {
+   "acc": "0000950103-26-017900",
+   "date": "2026-11-17",
+   "name": "Bosworth Andrew",
+   "role": "Chief Technology Officer",
+   "code": "S",
+   "shares": 7847.0,
+   "price": 625.0,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326017900/"
+  },
   {
    "acc": "0000950103-26-017696",
    "date": "2026-11-16",
@@ -7600,18 +7708,6 @@
    "ad": "D",
    "plan_10b5_1": true,
    "url": "https://www.sec.gov/Archives/edgar/data/1326801/000095010325013541/"
-  },
-  {
-   "acc": "0000950103-25-013359",
-   "date": "2025-10-15",
-   "name": "KIMMITT ROBERT M",
-   "role": "Director",
-   "code": "S",
-   "shares": 465.0,
-   "price": 716.97,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000095010325013359/"
   }
  ]
 }

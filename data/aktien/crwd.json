@@ -6,7 +6,7 @@
  "rank": 44,
  "source": "SEC EDGAR",
  "fiscal_year_end": "0131",
- "updated_at": "2026-11-19T22:46:35Z",
+ "updated_at": "2026-11-20T03:53:54Z",
  "periodic_accs": [
   "0001535527-21-000007",
   "0001535527-21-000013",
@@ -30775,126 +30775,6 @@
    "ad": "D",
    "plan_10b5_1": true,
    "url": "https://www.sec.gov/Archives/edgar/data/1535527/000120132625000007/"
-  },
-  {
-   "acc": "0001872303-25-000007",
-   "date": "2025-10-15",
-   "name": "Flower Johanna",
-   "role": "Director",
-   "code": "S",
-   "shares": 8.0,
-   "price": 485.33,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/1535527/000187230325000007/"
-  },
-  {
-   "acc": "0001872303-25-000007",
-   "date": "2025-10-15",
-   "name": "Flower Johanna",
-   "role": "Director",
-   "code": "S",
-   "shares": 34.0,
-   "price": 486.62,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/1535527/000187230325000007/"
-  },
-  {
-   "acc": "0001872303-25-000007",
-   "date": "2025-10-15",
-   "name": "Flower Johanna",
-   "role": "Director",
-   "code": "S",
-   "shares": 220.0,
-   "price": 487.45,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/1535527/000187230325000007/"
-  },
-  {
-   "acc": "0001872303-25-000007",
-   "date": "2025-10-15",
-   "name": "Flower Johanna",
-   "role": "Director",
-   "code": "S",
-   "shares": 298.0,
-   "price": 488.54,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/1535527/000187230325000007/"
-  },
-  {
-   "acc": "0001872303-25-000007",
-   "date": "2025-10-15",
-   "name": "Flower Johanna",
-   "role": "Director",
-   "code": "S",
-   "shares": 364.0,
-   "price": 489.51,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/1535527/000187230325000007/"
-  },
-  {
-   "acc": "0001872303-25-000007",
-   "date": "2025-10-15",
-   "name": "Flower Johanna",
-   "role": "Director",
-   "code": "S",
-   "shares": 166.0,
-   "price": 490.54,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/1535527/000187230325000007/"
-  },
-  {
-   "acc": "0001872303-25-000007",
-   "date": "2025-10-15",
-   "name": "Flower Johanna",
-   "role": "Director",
-   "code": "S",
-   "shares": 356.0,
-   "price": 491.62,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/1535527/000187230325000007/"
-  },
-  {
-   "acc": "0001872303-25-000007",
-   "date": "2025-10-15",
-   "name": "Flower Johanna",
-   "role": "Director",
-   "code": "S",
-   "shares": 344.0,
-   "price": 492.49,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/1535527/000187230325000007/"
-  },
-  {
-   "acc": "0001872303-25-000007",
-   "date": "2025-10-15",
-   "name": "Flower Johanna",
-   "role": "Director",
-   "code": "S",
-   "shares": 418.0,
-   "price": 493.64,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/1535527/000187230325000007/"
-  },
-  {
-   "acc": "0001872303-25-000007",
-   "date": "2025-10-15",
-   "name": "Flower Johanna",
-   "role": "Director",
-   "code": "S",
-   "shares": 139.0,
-   "price": 494.27,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/1535527/000187230325000007/"
   }
  ]
 }

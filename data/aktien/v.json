@@ -6,7 +6,7 @@
  "rank": 16,
  "source": "SEC EDGAR",
  "fiscal_year_end": "0930",
- "updated_at": "2026-11-19T22:43:58Z",
+ "updated_at": "2026-11-20T03:51:41Z",
  "periodic_accs": [
   "0001403161-15-000007",
   "0001403161-15-000010",
@@ -2075,18 +2075,6 @@
    "ad": "D",
    "plan_10b5_1": true,
    "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316125000079/"
-  },
-  {
-   "acc": "0001403161-25-000073",
-   "date": "2025-10-15",
-   "name": "Ready William J",
-   "role": "Director",
-   "code": "A",
-   "shares": 251.0,
-   "price": 0.0,
-   "ad": "A",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316125000073/"
   }
  ]
 }

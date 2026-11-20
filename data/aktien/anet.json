@@ -6,7 +6,7 @@
  "rank": 48,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-11-19T22:46:56Z",
+ "updated_at": "2026-11-20T03:54:12Z",
  "periodic_accs": [
   "0001596532-22-000220",
   "0001596532-22-000294",
@@ -788,6 +788,18 @@
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0001596532-26-000267",
+   "date": "2026-11-17",
+   "name": "Ullal Jayshree",
+   "role": "CEO and Chairperson",
+   "code": "G",
+   "shares": 890000.0,
+   "price": 0.0,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1596532/000159653226000267/"
+  },
   {
    "acc": "0001596532-26-000265",
    "date": "2026-11-13",

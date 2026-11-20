@@ -6,7 +6,7 @@
  "rank": 12,
  "source": "SEC EDGAR",
  "fiscal_year_end": "0902",
- "updated_at": "2026-11-19T22:43:33Z",
+ "updated_at": "2026-11-20T03:51:23Z",
  "periodic_accs": [
   "0000723125-17-000131",
   "0000723125-17-000166",
@@ -6099,114 +6099,6 @@
    "ad": "D",
    "plan_10b5_1": true,
    "url": "https://www.sec.gov/Archives/edgar/data/723125/000159319925000006/"
-  },
-  {
-   "acc": "0001689498-25-000004",
-   "date": "2025-10-15",
-   "name": "BHATIA MANISH H",
-   "role": "EVP, Global Operations",
-   "code": "F",
-   "shares": 3310.0,
-   "price": 187.06,
-   "ad": "D",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/723125/000168949825000004/"
-  },
-  {
-   "acc": "0001632063-25-000007",
-   "date": "2025-10-15",
-   "name": "ARNZEN APRIL S",
-   "role": "EVP and Chief People Officer",
-   "code": "F",
-   "shares": 1588.0,
-   "price": 187.06,
-   "ad": "D",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/723125/000163206325000007/"
-  },
-  {
-   "acc": "0001652149-25-000005",
-   "date": "2025-10-15",
-   "name": "ALLEN SCOTT R.",
-   "role": "CVP, Chief Accounting Officer",
-   "code": "F",
-   "shares": 662.0,
-   "price": 187.06,
-   "ad": "D",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/723125/000165214925000005/"
-  },
-  {
-   "acc": "0001652149-25-000005",
-   "date": "2025-10-15",
-   "name": "ALLEN SCOTT R.",
-   "role": "CVP, Chief Accounting Officer",
-   "code": "F",
-   "shares": 248.0,
-   "price": 187.06,
-   "ad": "D",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/723125/000165214925000005/"
-  },
-  {
-   "acc": "0001311079-25-000005",
-   "date": "2025-10-15",
-   "name": "Sadana Sumit",
-   "role": "EVP and Chief Business Officer",
-   "code": "F",
-   "shares": 3410.0,
-   "price": 187.06,
-   "ad": "D",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/723125/000131107925000005/"
-  },
-  {
-   "acc": "0001498287-25-000006",
-   "date": "2025-10-15",
-   "name": "Murphy Mark J.",
-   "role": "EVP & Chief Financial Officer",
-   "code": "F",
-   "shares": 2795.0,
-   "price": 187.06,
-   "ad": "D",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/723125/000149828725000006/"
-  },
-  {
-   "acc": "0001498287-25-000005",
-   "date": "2025-10-15",
-   "name": "Murphy Mark J.",
-   "role": "EVP & Chief Financial Officer",
-   "code": "F",
-   "shares": 2795.0,
-   "price": 187.06,
-   "ad": "D",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/723125/000149828725000005/"
-  },
-  {
-   "acc": "0001242654-25-000015",
-   "date": "2025-10-15",
-   "name": "MEHROTRA SANJAY",
-   "role": "President and CEO",
-   "code": "F",
-   "shares": 9527.0,
-   "price": 187.06,
-   "ad": "D",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/723125/000124265425000015/"
-  },
-  {
-   "acc": "0001568238-25-000004",
-   "date": "2025-10-15",
-   "name": "Deboer Scott J",
-   "role": "EVP, CTO and Products Officer",
-   "code": "F",
-   "shares": 2293.0,
-   "price": 187.06,
-   "ad": "D",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/723125/000156823825000004/"
   }
  ]
 }

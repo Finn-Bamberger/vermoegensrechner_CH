@@ -6,7 +6,7 @@
  "rank": 69,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-11-19T22:59:14Z",
+ "updated_at": "2026-11-20T03:55:57Z",
  "periodic_accs": [
   "0000100885-21-000068",
   "0000100885-21-000162",
@@ -740,6 +740,18 @@
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0000100885-26-000329",
+   "date": "2026-11-18",
+   "name": "Rocker Kenyatta G",
+   "role": "EVP MARKETING & SALES",
+   "code": "G",
+   "shares": 17.0,
+   "price": 0.0,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/100885/000010088526000329/"
+  },
   {
    "acc": "0000100885-26-000327",
    "date": "2026-11-10",

@@ -6,7 +6,7 @@
  "rank": 13,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1226",
- "updated_at": "2026-11-19T22:43:41Z",
+ "updated_at": "2026-11-20T03:51:26Z",
  "periodic_accs": [
   "0000002488-18-000042",
   "0000002488-18-000068",
@@ -5206,90 +5206,6 @@
    "ad": "D",
    "plan_10b5_1": true,
    "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248825000168/"
-  },
-  {
-   "acc": "0000002488-25-000159",
-   "date": "2025-10-15",
-   "name": "Papermaster Mark D",
-   "role": "Chief Technology Officer & EVP",
-   "code": "M",
-   "shares": 16800.0,
-   "price": 34.19,
-   "ad": "A",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248825000159/"
-  },
-  {
-   "acc": "0000002488-25-000159",
-   "date": "2025-10-15",
-   "name": "Papermaster Mark D",
-   "role": "Chief Technology Officer & EVP",
-   "code": "S",
-   "shares": 1024.0,
-   "price": 221.42,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248825000159/"
-  },
-  {
-   "acc": "0000002488-25-000159",
-   "date": "2025-10-15",
-   "name": "Papermaster Mark D",
-   "role": "Chief Technology Officer & EVP",
-   "code": "S",
-   "shares": 2665.0,
-   "price": 222.58,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248825000159/"
-  },
-  {
-   "acc": "0000002488-25-000159",
-   "date": "2025-10-15",
-   "name": "Papermaster Mark D",
-   "role": "Chief Technology Officer & EVP",
-   "code": "S",
-   "shares": 1700.0,
-   "price": 223.4,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248825000159/"
-  },
-  {
-   "acc": "0000002488-25-000159",
-   "date": "2025-10-15",
-   "name": "Papermaster Mark D",
-   "role": "Chief Technology Officer & EVP",
-   "code": "S",
-   "shares": 5695.0,
-   "price": 224.51,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248825000159/"
-  },
-  {
-   "acc": "0000002488-25-000159",
-   "date": "2025-10-15",
-   "name": "Papermaster Mark D",
-   "role": "Chief Technology Officer & EVP",
-   "code": "S",
-   "shares": 5516.0,
-   "price": 225.59,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248825000159/"
-  },
-  {
-   "acc": "0000002488-25-000159",
-   "date": "2025-10-15",
-   "name": "Papermaster Mark D",
-   "role": "Chief Technology Officer & EVP",
-   "code": "S",
-   "shares": 200.0,
-   "price": 226.17,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248825000159/"
   }
  ]
 }

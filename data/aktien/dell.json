@@ -6,7 +6,7 @@
  "rank": 35,
  "source": "SEC EDGAR",
  "fiscal_year_end": "0129",
- "updated_at": "2026-11-19T22:45:43Z",
+ "updated_at": "2026-11-20T03:53:07Z",
  "periodic_accs": [
   "0001571996-24-000036",
   "0001571996-24-000062",
@@ -37063,42 +37063,6 @@
    "ad": "A",
    "plan_10b5_1": false,
    "url": "https://www.sec.gov/Archives/edgar/data/1571996/000208680025000009/"
-  },
-  {
-   "acc": "0001303141-25-000009",
-   "date": "2025-10-15",
-   "name": "Kullman Ellen Jamison",
-   "role": "Director",
-   "code": "M",
-   "shares": 79806.0,
-   "price": 13.98,
-   "ad": "A",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/1571996/000130314125000009/"
-  },
-  {
-   "acc": "0001303141-25-000009",
-   "date": "2025-10-15",
-   "name": "Kullman Ellen Jamison",
-   "role": "Director",
-   "code": "S",
-   "shares": 79806.0,
-   "price": 153.56,
-   "ad": "D",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/1571996/000130314125000009/"
-  },
-  {
-   "acc": "0002081802-25-000005",
-   "date": "2025-10-15",
-   "name": "Sharp Richard Troy",
-   "role": "Chief Accounting Officer",
-   "code": "A",
-   "shares": 1796.0,
-   "price": 0.0,
-   "ad": "A",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/1571996/000208180225000005/"
   }
  ]
 }

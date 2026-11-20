@@ -6,7 +6,7 @@
  "rank": 30,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-11-19T22:45:20Z",
+ "updated_at": "2026-11-20T03:52:45Z",
  "periodic_accs": [
   "0000070858-26-000157",
   "0000070858-26-000249",
@@ -6249,30 +6249,6 @@
    "ad": "D",
    "plan_10b5_1": false,
    "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085825000399/"
-  },
-  {
-   "acc": "0000070858-25-000397",
-   "date": "2025-10-15",
-   "name": "MOYNIHAN BRIAN T",
-   "role": "Chair and CEO",
-   "code": "M",
-   "shares": 17892.0,
-   "price": null,
-   "ad": "A",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085825000397/"
-  },
-  {
-   "acc": "0000070858-25-000397",
-   "date": "2025-10-15",
-   "name": "MOYNIHAN BRIAN T",
-   "role": "Chair and CEO",
-   "code": "D",
-   "shares": 17892.0,
-   "price": 52.28,
-   "ad": "D",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085825000397/"
   }
  ]
 }

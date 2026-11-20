@@ -6,7 +6,7 @@
  "rank": 14,
  "source": "SEC EDGAR",
  "fiscal_year_end": "0131",
- "updated_at": "2026-11-19T22:43:46Z",
+ "updated_at": "2026-11-20T03:51:30Z",
  "periodic_accs": [
   "0000104169-23-000097",
   "0000104169-23-000132",
@@ -4110,18 +4110,6 @@
    "ad": "D",
    "plan_10b5_1": true,
    "url": "https://www.sec.gov/Archives/edgar/data/104169/000169673725000009/"
-  },
-  {
-   "acc": "0001579299-25-000012",
-   "date": "2025-10-15",
-   "name": "Bartlett Daniel J",
-   "role": "Executive Vice President",
-   "code": "S",
-   "shares": 1550.0,
-   "price": 107.46,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/104169/000157929925000012/"
   }
  ]
 }
