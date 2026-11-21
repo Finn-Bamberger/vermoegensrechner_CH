@@ -6,7 +6,7 @@
  "rank": 14,
  "source": "SEC EDGAR",
  "fiscal_year_end": "0131",
- "updated_at": "2026-11-20T03:51:30Z",
+ "updated_at": "2026-11-21T01:57:04Z",
  "periodic_accs": [
   "0000104169-23-000097",
   "0000104169-23-000132",
@@ -722,8 +722,8 @@
   "filed": "2026-08-28"
  },
  "quote": {
-  "price": 126.04,
-  "date": "2026-11-19",
+  "price": 127.95,
+  "date": "2026-11-20",
   "source": "Yahoo Finance"
  },
  "insiders": [
@@ -4062,54 +4062,6 @@
    "ad": "D",
    "plan_10b5_1": true,
    "url": "https://www.sec.gov/Archives/edgar/data/104169/000179457325000012/"
-  },
-  {
-   "acc": "0001696737-25-000009",
-   "date": "2025-10-16",
-   "name": "Furner John R.",
-   "role": "Executive Vice President",
-   "code": "S",
-   "shares": 4317.0,
-   "price": 106.7784,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/104169/000169673725000009/"
-  },
-  {
-   "acc": "0001696737-25-000009",
-   "date": "2025-10-16",
-   "name": "Furner John R.",
-   "role": "Executive Vice President",
-   "code": "S",
-   "shares": 6107.0,
-   "price": 108.0965,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/104169/000169673725000009/"
-  },
-  {
-   "acc": "0001696737-25-000009",
-   "date": "2025-10-16",
-   "name": "Furner John R.",
-   "role": "Executive Vice President",
-   "code": "S",
-   "shares": 2623.0,
-   "price": 108.633,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/104169/000169673725000009/"
-  },
-  {
-   "acc": "0001696737-25-000009",
-   "date": "2025-10-16",
-   "name": "Furner John R.",
-   "role": "Executive Vice President",
-   "code": "S",
-   "shares": 78.0,
-   "price": 109.49,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/104169/000169673725000009/"
   }
  ]
 }

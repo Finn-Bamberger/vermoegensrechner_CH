@@ -6,7 +6,7 @@
  "rank": 61,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1003",
- "updated_at": "2026-11-19T22:50:27Z",
+ "updated_at": "2026-11-21T02:09:17Z",
  "periodic_accs": [
   "0001193125-23-014219",
   "0001744489-20-000102",
@@ -739,11 +739,71 @@
   "filed": "2026-11-17"
  },
  "quote": {
-  "price": 120.25,
-  "date": "2026-11-19",
+  "price": 117.98,
+  "date": "2026-11-20",
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0001628280-26-075329",
+   "date": "2026-11-18",
+   "name": "Gutierrez Horacio E",
+   "role": "SEVP, CL&GAO",
+   "code": "S",
+   "shares": 2568.0,
+   "price": 120.0,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1744489/000162828026075329/"
+  },
+  {
+   "acc": "0001628280-26-075328",
+   "date": "2026-11-18",
+   "name": "IGER ROBERT A",
+   "role": "Director",
+   "code": "M",
+   "shares": 321694.0,
+   "price": 105.21,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1744489/000162828026075328/"
+  },
+  {
+   "acc": "0001628280-26-075328",
+   "date": "2026-11-18",
+   "name": "IGER ROBERT A",
+   "role": "Director",
+   "code": "S",
+   "shares": 321694.0,
+   "price": 122.82,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1744489/000162828026075328/"
+  },
+  {
+   "acc": "0001628280-26-075327",
+   "date": "2026-11-18",
+   "name": "Roeder Paul M",
+   "role": "Sr EVP and Chief Comm Officer",
+   "code": "M",
+   "shares": 4854.0,
+   "price": 105.21,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1744489/000162828026075327/"
+  },
+  {
+   "acc": "0001628280-26-075327",
+   "date": "2026-11-18",
+   "name": "Roeder Paul M",
+   "role": "Sr EVP and Chief Comm Officer",
+   "code": "S",
+   "shares": 4854.0,
+   "price": 123.16,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1744489/000162828026075327/"
+  },
   {
    "acc": "0001628280-26-071797",
    "date": "2026-11-05",

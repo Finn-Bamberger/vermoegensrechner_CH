@@ -6,7 +6,7 @@
  "rank": 39,
  "source": "SEC EDGAR",
  "fiscal_year_end": "0131",
- "updated_at": "2026-11-19T22:45:54Z",
+ "updated_at": "2026-11-21T01:59:11Z",
  "periodic_accs": [
   "0000354950-18-000019",
   "0000354950-18-000034",
@@ -42,9 +42,18 @@
   "0001628280-25-053868",
   "0001628280-26-019436",
   "0001628280-26-038247",
-  "0001628280-26-058715"
+  "0001628280-26-058715",
+  "0001628280-26-075287"
  ],
  "filings": [
+  {
+   "form": "10-Q",
+   "date": "2026-11-20",
+   "report_date": "2026-11-01",
+   "items": "",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/354950/000162828026075287/hd-20261101.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/354950/000162828026075287/0001628280-26-075287-index.htm"
+  },
   {
    "form": "8-K",
    "date": "2026-11-17",
@@ -356,29 +365,9 @@
    "items": "1.01,2.03",
    "doc_url": "https://www.sec.gov/Archives/edgar/data/354950/000035495024000114/hd-20240507.htm",
    "index_url": "https://www.sec.gov/Archives/edgar/data/354950/000035495024000114/0000354950-24-000114-index.htm"
-  },
-  {
-   "form": "8-K",
-   "date": "2024-03-28",
-   "report_date": "2024-03-27",
-   "items": "1.01,7.01,9.01",
-   "doc_url": "https://www.sec.gov/Archives/edgar/data/354950/000110465924040163/tm2410002d1_8k.htm",
-   "index_url": "https://www.sec.gov/Archives/edgar/data/354950/000110465924040163/0001104659-24-040163-index.htm"
   }
  ],
  "quarters": [
-  {
-   "end": "2020-11-01",
-   "revenue": 33536000000,
-   "operating_income": 4852000000,
-   "net_income": 3432000000,
-   "op_cash_flow": 2586000000,
-   "gross_profit": 11456000000,
-   "capex": 471000000,
-   "sbc": 79000000,
-   "diluted_shares": 1078000000,
-   "cash": 14652000000
-  },
   {
    "end": "2021-01-31",
    "revenue": 32261000000,
@@ -654,6 +643,18 @@
    "sbc": 148000000,
    "diluted_shares": 996000000,
    "cash": 2085000000
+  },
+  {
+   "end": "2026-11-01",
+   "revenue": 43398000000,
+   "operating_income": 5479000000,
+   "net_income": 3713000000,
+   "op_cash_flow": 4074000000,
+   "gross_profit": 14220000000,
+   "capex": 955000000,
+   "sbc": 135000000,
+   "diluted_shares": 997000000,
+   "cash": 1968000000
   }
  ],
  "annual": [
@@ -786,16 +787,52 @@
   }
  ],
  "shares_outstanding": {
-  "shares": 997689626,
-  "as_of": "2026-08-18",
-  "filed": "2026-08-25"
+  "shares": 997852247,
+  "as_of": "2026-11-17",
+  "filed": "2026-11-20"
  },
  "quote": {
-  "price": 336.68,
-  "date": "2026-11-19",
+  "price": 339.04,
+  "date": "2026-11-20",
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0000354950-26-000188",
+   "date": "2026-11-18",
+   "name": "Decker Edward P.",
+   "role": "Chair",
+   "code": "M",
+   "shares": 19350.0,
+   "price": 147.36,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/354950/000035495026000188/"
+  },
+  {
+   "acc": "0000354950-26-000188",
+   "date": "2026-11-18",
+   "name": "Decker Edward P.",
+   "role": "Chair",
+   "code": "S",
+   "shares": 19350.0,
+   "price": 338.53,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/354950/000035495026000188/"
+  },
+  {
+   "acc": "0000354950-26-000187",
+   "date": "2026-11-18",
+   "name": "Deaton John A.",
+   "role": "EVP - Supply Chain & Prod. Dev",
+   "code": "F",
+   "shares": 137.0,
+   "price": 337.64,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/354950/000035495026000187/"
+  },
   {
    "acc": "0000354950-26-000177",
    "date": "2026-09-20",

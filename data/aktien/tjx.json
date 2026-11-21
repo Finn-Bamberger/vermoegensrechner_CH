@@ -6,7 +6,7 @@
  "rank": 79,
  "source": "SEC EDGAR",
  "fiscal_year_end": "0201",
- "updated_at": "2026-11-19T23:10:52Z",
+ "updated_at": "2026-11-21T02:29:28Z",
  "periodic_accs": [
   "0000109198-20-000004",
   "0000109198-20-000007",
@@ -772,11 +772,23 @@
   "filed": "2026-08-28"
  },
  "quote": {
-  "price": 139.41,
-  "date": "2026-11-19",
+  "price": 139.62,
+  "date": "2026-11-20",
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0001664921-26-000002",
+   "date": "2026-11-20",
+   "name": "PINTOFF CRAIG ADAM",
+   "role": "Director",
+   "code": "P",
+   "shares": 1427.0,
+   "price": 140.03,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/109198/000166492126000002/"
+  },
   {
    "acc": "0001193125-26-269543",
    "date": "2026-06-11",

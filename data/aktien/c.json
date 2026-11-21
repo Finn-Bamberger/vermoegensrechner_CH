@@ -6,7 +6,7 @@
  "rank": 55,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-11-19T22:47:58Z",
+ "updated_at": "2026-11-21T02:03:00Z",
  "periodic_accs": [
   "0000831001-26-000011",
   "0000831001-26-000019",
@@ -486,11 +486,23 @@
   "filed": "2026-02-20"
  },
  "quote": {
-  "price": 115.28,
-  "date": "2026-11-19",
+  "price": 110.62,
+  "date": "2026-11-20",
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0001193125-26-470214",
+   "date": "2026-11-18",
+   "name": "Henry Peter B.",
+   "role": "Director",
+   "code": "S",
+   "shares": 1700.0,
+   "price": 117.795,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/831001/000119312526470214/"
+  },
   {
    "acc": "0001193125-26-412254",
    "date": "2026-10-01",

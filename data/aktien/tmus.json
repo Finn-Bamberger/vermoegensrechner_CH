@@ -6,7 +6,7 @@
  "rank": 71,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-11-20T03:56:12Z",
+ "updated_at": "2026-11-21T02:20:17Z",
  "periodic_accs": [
   "0001193125-20-214220",
   "0001283699-20-000106",
@@ -756,8 +756,8 @@
   "filed": "2026-10-28"
  },
  "quote": {
-  "price": 162.53,
-  "date": "2026-11-19",
+  "price": 165.6,
+  "date": "2026-11-20",
   "source": "Yahoo Finance"
  },
  "insiders": [
@@ -2116,66 +2116,6 @@
    "ad": "D",
    "plan_10b5_1": true,
    "url": "https://www.sec.gov/Archives/edgar/data/1283699/000114036125038812/"
-  },
-  {
-   "acc": "0001140361-25-038473",
-   "date": "2025-10-16",
-   "name": "DEUTSCHE TELEKOM AG",
-   "role": "Director",
-   "code": "S",
-   "shares": 16349.0,
-   "price": 225.71,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/1283699/000114036125038473/"
-  },
-  {
-   "acc": "0001140361-25-038473",
-   "date": "2025-10-16",
-   "name": "DEUTSCHE TELEKOM AG",
-   "role": "Director",
-   "code": "S",
-   "shares": 23196.0,
-   "price": 226.4775,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/1283699/000114036125038473/"
-  },
-  {
-   "acc": "0001140361-25-038473",
-   "date": "2025-10-16",
-   "name": "DEUTSCHE TELEKOM AG",
-   "role": "Director",
-   "code": "S",
-   "shares": 11877.0,
-   "price": 227.7605,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/1283699/000114036125038473/"
-  },
-  {
-   "acc": "0001140361-25-038473",
-   "date": "2025-10-16",
-   "name": "DEUTSCHE TELEKOM AG",
-   "role": "Director",
-   "code": "S",
-   "shares": 11049.0,
-   "price": 228.8419,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/1283699/000114036125038473/"
-  },
-  {
-   "acc": "0001140361-25-038473",
-   "date": "2025-10-16",
-   "name": "DEUTSCHE TELEKOM AG",
-   "role": "Director",
-   "code": "S",
-   "shares": 1955.0,
-   "price": 229.6972,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/1283699/000114036125038473/"
   }
  ]
 }

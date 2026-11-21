@@ -6,7 +6,7 @@
  "rank": 41,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-11-19T22:46:18Z",
+ "updated_at": "2026-11-21T01:59:33Z",
  "periodic_accs": [
   "0000895421-26-000086",
   "0000895421-26-000121",
@@ -14,6 +14,14 @@
   "0000895421-26-000293"
  ],
  "filings": [
+  {
+   "form": "8-K",
+   "date": "2026-11-20",
+   "report_date": "2026-11-20",
+   "items": "8.01,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/895421/000089542126000358/ms-20261120.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/895421/000089542126000358/0000895421-26-000358-index.htm"
+  },
   {
    "form": "10-Q",
    "date": "2026-11-05",
@@ -413,11 +421,35 @@
   "filed": "2026-11-05"
  },
  "quote": {
-  "price": 174.98,
-  "date": "2026-11-19",
+  "price": 165.67,
+  "date": "2026-11-20",
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0001628280-26-075270",
+   "date": "2026-11-18",
+   "name": "PICK EDWARD",
+   "role": "Chairman and CEO",
+   "code": "G",
+   "shares": 31500.0,
+   "price": 0.0,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/895421/000162828026075270/"
+  },
+  {
+   "acc": "0001628280-26-075270",
+   "date": "2026-11-18",
+   "name": "PICK EDWARD",
+   "role": "Chairman and CEO",
+   "code": "G",
+   "shares": 31500.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/895421/000162828026075270/"
+  },
   {
    "acc": "0001628280-26-072728",
    "date": "2026-11-06",
@@ -1845,18 +1877,6 @@
    "ad": "A",
    "plan_10b5_1": false,
    "url": "https://www.sec.gov/Archives/edgar/data/895421/000162828025054800/"
-  },
-  {
-   "acc": "0001628280-25-045341",
-   "date": "2025-10-16",
-   "name": "Worster Victoria",
-   "role": "Chief Accounting Officer",
-   "code": "F",
-   "shares": 49.0,
-   "price": 162.65,
-   "ad": "D",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/895421/000162828025045341/"
   }
  ]
 }

@@ -6,7 +6,7 @@
  "rank": 5,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-11-19T22:43:15Z",
+ "updated_at": "2026-11-21T01:56:35Z",
  "periodic_accs": [
   "0001018724-21-000004",
   "0001018724-21-000010",
@@ -778,11 +778,23 @@
   "filed": "2026-10-30"
  },
  "quote": {
-  "price": 257.37,
-  "date": "2026-11-19",
+  "price": 246.82,
+  "date": "2026-11-20",
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0001018724-26-000056",
+   "date": "2026-11-18",
+   "name": "Huttenlocher Daniel P",
+   "role": "Director",
+   "code": "S",
+   "shares": 783.0,
+   "price": 259.63,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000056/"
+  },
   {
    "acc": "0001936006-26-000030",
    "date": "2026-11-16",

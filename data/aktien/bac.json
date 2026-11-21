@@ -6,7 +6,7 @@
  "rank": 30,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-11-20T20:40:40Z",
+ "updated_at": "2026-11-21T01:58:33Z",
  "periodic_accs": [
   "0000070858-26-000157",
   "0000070858-26-000249",
@@ -14,6 +14,14 @@
   "0000070858-26-000548"
  ],
  "filings": [
+  {
+   "form": "8-K",
+   "date": "2026-11-20",
+   "report_date": "2026-11-19",
+   "items": "5.03,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/70858/000007085826000608/bac-20261119.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/70858/000007085826000608/0000070858-26-000608-index.htm"
+  },
   {
    "form": "10-Q",
    "date": "2026-10-30",
@@ -449,8 +457,8 @@
   "filed": "2026-10-30"
  },
  "quote": {
-  "price": 48.57,
-  "date": "2026-11-19",
+  "price": 47.04,
+  "date": "2026-11-20",
   "source": "Yahoo Finance"
  },
  "insiders": [

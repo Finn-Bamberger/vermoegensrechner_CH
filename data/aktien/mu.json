@@ -6,7 +6,7 @@
  "rank": 12,
  "source": "SEC EDGAR",
  "fiscal_year_end": "0902",
- "updated_at": "2026-11-20T03:51:23Z",
+ "updated_at": "2026-11-21T01:56:56Z",
  "periodic_accs": [
   "0000723125-17-000131",
   "0000723125-17-000166",
@@ -839,8 +839,8 @@
   "filed": "2026-10-09"
  },
  "quote": {
-  "price": 690.44,
-  "date": "2026-11-19",
+  "price": 594.51,
+  "date": "2026-11-20",
   "source": "Yahoo Finance"
  },
  "insiders": [
@@ -5991,114 +5991,6 @@
    "ad": "D",
    "plan_10b5_1": false,
    "url": "https://www.sec.gov/Archives/edgar/data/723125/000165214925000006/"
-  },
-  {
-   "acc": "0001593199-25-000006",
-   "date": "2025-10-16",
-   "name": "RAY MICHAEL CHARLES",
-   "role": "SVP, Chief Legal Officer",
-   "code": "S",
-   "shares": 200.0,
-   "price": 196.43,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/723125/000159319925000006/"
-  },
-  {
-   "acc": "0001593199-25-000006",
-   "date": "2025-10-16",
-   "name": "RAY MICHAEL CHARLES",
-   "role": "SVP, Chief Legal Officer",
-   "code": "S",
-   "shares": 200.0,
-   "price": 197.5,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/723125/000159319925000006/"
-  },
-  {
-   "acc": "0001593199-25-000006",
-   "date": "2025-10-16",
-   "name": "RAY MICHAEL CHARLES",
-   "role": "SVP, Chief Legal Officer",
-   "code": "S",
-   "shares": 200.0,
-   "price": 198.18,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/723125/000159319925000006/"
-  },
-  {
-   "acc": "0001593199-25-000006",
-   "date": "2025-10-16",
-   "name": "RAY MICHAEL CHARLES",
-   "role": "SVP, Chief Legal Officer",
-   "code": "S",
-   "shares": 200.0,
-   "price": 199.71,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/723125/000159319925000006/"
-  },
-  {
-   "acc": "0001593199-25-000006",
-   "date": "2025-10-16",
-   "name": "RAY MICHAEL CHARLES",
-   "role": "SVP, Chief Legal Officer",
-   "code": "S",
-   "shares": 600.0,
-   "price": 200.8,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/723125/000159319925000006/"
-  },
-  {
-   "acc": "0001593199-25-000006",
-   "date": "2025-10-16",
-   "name": "RAY MICHAEL CHARLES",
-   "role": "SVP, Chief Legal Officer",
-   "code": "S",
-   "shares": 782.0,
-   "price": 202.03,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/723125/000159319925000006/"
-  },
-  {
-   "acc": "0001593199-25-000006",
-   "date": "2025-10-16",
-   "name": "RAY MICHAEL CHARLES",
-   "role": "SVP, Chief Legal Officer",
-   "code": "S",
-   "shares": 900.0,
-   "price": 203.07,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/723125/000159319925000006/"
-  },
-  {
-   "acc": "0001593199-25-000006",
-   "date": "2025-10-16",
-   "name": "RAY MICHAEL CHARLES",
-   "role": "SVP, Chief Legal Officer",
-   "code": "S",
-   "shares": 200.0,
-   "price": 203.87,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/723125/000159319925000006/"
-  },
-  {
-   "acc": "0001593199-25-000006",
-   "date": "2025-10-16",
-   "name": "RAY MICHAEL CHARLES",
-   "role": "SVP, Chief Legal Officer",
-   "code": "S",
-   "shares": 400.0,
-   "price": 205.04,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/723125/000159319925000006/"
   }
  ]
 }

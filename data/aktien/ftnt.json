@@ -6,7 +6,7 @@
  "rank": 87,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-11-19T23:19:52Z",
+ "updated_at": "2026-11-21T02:38:24Z",
  "periodic_accs": [
   "0001174947-18-000697",
   "0001262039-18-000009",
@@ -801,11 +801,23 @@
   "filed": "2026-10-30"
  },
  "quote": {
-  "price": 131.46,
-  "date": "2026-11-19",
+  "price": 124.56,
+  "date": "2026-11-20",
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0001475586-26-000022",
+   "date": "2026-11-19",
+   "name": "Xie Michael",
+   "role": "President & CTO",
+   "code": "G",
+   "shares": 3350.0,
+   "price": 0.0,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1262039/000147558626000022/"
+  },
   {
    "acc": "0002016813-26-000024",
    "date": "2026-11-16",
