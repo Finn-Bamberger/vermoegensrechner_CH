@@ -6,7 +6,7 @@
  "rank": 41,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-11-21T01:59:33Z",
+ "updated_at": "2026-11-22T02:03:23Z",
  "periodic_accs": [
   "0000895421-26-000086",
   "0000895421-26-000121",
@@ -1865,18 +1865,6 @@
    "ad": "D",
    "plan_10b5_1": false,
    "url": "https://www.sec.gov/Archives/edgar/data/895421/000162828025047851/"
-  },
-  {
-   "acc": "0001628280-25-054800",
-   "date": "2025-10-17",
-   "name": "Peterson Douglas L.",
-   "role": "Director",
-   "code": "L",
-   "shares": 4.0,
-   "price": 159.715,
-   "ad": "A",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/895421/000162828025054800/"
   }
  ]
 }

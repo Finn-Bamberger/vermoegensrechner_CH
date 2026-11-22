@@ -6,7 +6,7 @@
  "rank": 52,
  "source": "SEC EDGAR",
  "fiscal_year_end": "0130",
- "updated_at": "2026-11-21T02:00:28Z",
+ "updated_at": "2026-11-22T02:04:21Z",
  "periodic_accs": [
   "0001835632-21-000010",
   "0001835632-21-000022",
@@ -3256,18 +3256,6 @@
    "ad": "D",
    "plan_10b5_1": false,
    "url": "https://www.sec.gov/Archives/edgar/data/1835632/000162828025052721/"
-  },
-  {
-   "acc": "0001628280-25-045413",
-   "date": "2025-10-17",
-   "name": "MURPHY MATTHEW J",
-   "role": "Chairman of the Board and CEO",
-   "code": "G",
-   "shares": 22722.0,
-   "price": 0.0,
-   "ad": "D",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/1835632/000162828025045413/"
   }
  ]
 }

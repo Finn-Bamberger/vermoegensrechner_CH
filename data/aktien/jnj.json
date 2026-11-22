@@ -6,7 +6,7 @@
  "rank": 18,
  "source": "SEC EDGAR",
  "fiscal_year_end": "0103",
- "updated_at": "2026-11-21T01:57:19Z",
+ "updated_at": "2026-11-22T02:01:04Z",
  "periodic_accs": [
   "0000200406-18-000055",
   "0000200406-19-000009",
@@ -2614,30 +2614,6 @@
    "ad": "D",
    "plan_10b5_1": false,
    "url": "https://www.sec.gov/Archives/edgar/data/200406/000119312525274067/"
-  },
-  {
-   "acc": "0000200406-25-000204",
-   "date": "2025-10-17",
-   "name": "REED JOHN C",
-   "role": "EVP, Innovative Medicine, R&D",
-   "code": "M",
-   "shares": 21721.0,
-   "price": 157.92,
-   "ad": "A",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/200406/000020040625000204/"
-  },
-  {
-   "acc": "0000200406-25-000204",
-   "date": "2025-10-17",
-   "name": "REED JOHN C",
-   "role": "EVP, Innovative Medicine, R&D",
-   "code": "S",
-   "shares": 21721.0,
-   "price": 192.7072,
-   "ad": "D",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/200406/000020040625000204/"
   }
  ]
 }
