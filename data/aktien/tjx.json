@@ -6,7 +6,7 @@
  "rank": 79,
  "source": "SEC EDGAR",
  "fiscal_year_end": "0201",
- "updated_at": "2026-11-24T02:09:31Z",
+ "updated_at": "2026-11-24T21:57:06Z",
  "periodic_accs": [
   "0000109198-20-000004",
   "0000109198-20-000007",
@@ -777,6 +777,30 @@
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0001193125-26-475869",
+   "date": "2026-11-23",
+   "name": "Benjamin Peter",
+   "role": "SEVP, Group President",
+   "code": "G",
+   "shares": 43726.0,
+   "price": 0.0,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/109198/000119312526475869/"
+  },
+  {
+   "acc": "0001193125-26-475869",
+   "date": "2026-11-23",
+   "name": "Benjamin Peter",
+   "role": "SEVP, Group President",
+   "code": "G",
+   "shares": 43726.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/109198/000119312526475869/"
+  },
   {
    "acc": "0001664921-26-000002",
    "date": "2026-11-20",

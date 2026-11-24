@@ -6,7 +6,7 @@
  "rank": 87,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-11-24T02:18:33Z",
+ "updated_at": "2026-11-24T21:57:56Z",
  "periodic_accs": [
   "0001174947-18-000697",
   "0001262039-18-000009",
@@ -806,6 +806,18 @@
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0001475587-26-000017",
+   "date": "2026-11-20",
+   "name": "Xie Ken",
+   "role": "President & CEO",
+   "code": "G",
+   "shares": 168000.0,
+   "price": 0.0,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1262039/000147558726000017/"
+  },
   {
    "acc": "0001475586-26-000022",
    "date": "2026-11-19",
