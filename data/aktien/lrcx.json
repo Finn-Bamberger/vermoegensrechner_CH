@@ -6,7 +6,7 @@
  "rank": 31,
  "source": "SEC EDGAR",
  "fiscal_year_end": "0627",
- "updated_at": "2026-11-21T01:58:42Z",
+ "updated_at": "2026-11-24T01:32:07Z",
  "periodic_accs": [
   "0000707549-16-000014",
   "0000707549-16-000050",
@@ -809,11 +809,47 @@
   "filed": "2026-10-22"
  },
  "quote": {
-  "price": 183.27,
-  "date": "2026-11-20",
+  "price": 209.76,
+  "date": "2026-11-23",
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0002113601-26-000006",
+   "date": "2026-11-20",
+   "name": "Rammohan Karthikeyan",
+   "role": "SVP, Global Ops & Ent Solns",
+   "code": "G",
+   "shares": 1524.0,
+   "price": 0.0,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/707549/000211360126000006/"
+  },
+  {
+   "acc": "0002113601-26-000006",
+   "date": "2026-11-20",
+   "name": "Rammohan Karthikeyan",
+   "role": "SVP, Global Ops & Ent Solns",
+   "code": "A",
+   "shares": 1524.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/707549/000211360126000006/"
+  },
+  {
+   "acc": "0002113601-26-000006",
+   "date": "2026-11-20",
+   "name": "Rammohan Karthikeyan",
+   "role": "SVP, Global Ops & Ent Solns",
+   "code": "G",
+   "shares": 1514.0,
+   "price": 0.0,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/707549/000211360126000006/"
+  },
   {
    "acc": "0001405693-26-000015",
    "date": "2026-11-10",

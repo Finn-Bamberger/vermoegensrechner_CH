@@ -6,7 +6,7 @@
  "rank": 89,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-11-21T02:40:35Z",
+ "updated_at": "2026-11-24T02:20:42Z",
  "periodic_accs": [
   "0001193125-17-251308",
   "0001193125-17-335723",
@@ -747,11 +747,35 @@
   "filed": "2026-11-06"
  },
  "quote": {
-  "price": 110.8,
-  "date": "2026-11-20",
+  "price": 115.86,
+  "date": "2026-11-23",
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0001213900-26-123195",
+   "date": "2026-11-20",
+   "name": "Blackstone Holdings IV L.P.",
+   "role": "10%-Aktionär",
+   "code": "P",
+   "shares": 114678.899,
+   "price": 26.16,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1393818/000121390026123195/"
+  },
+  {
+   "acc": "0001213900-26-123195",
+   "date": "2026-11-20",
+   "name": "Blackstone Holdings IV L.P.",
+   "role": "10%-Aktionär",
+   "code": "P",
+   "shares": 273544.661,
+   "price": 26.16,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1393818/000121390026123195/"
+  },
   {
    "acc": "0001193125-26-468658",
    "date": "2026-11-18",

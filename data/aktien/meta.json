@@ -6,7 +6,7 @@
  "rank": 7,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-11-21T01:56:40Z",
+ "updated_at": "2026-11-24T01:29:52Z",
  "periodic_accs": [
   "0001326801-24-000069",
   "0001326801-24-000081",
@@ -20,6 +20,14 @@
   "0001628280-26-066773"
  ],
  "filings": [
+  {
+   "form": "8-K",
+   "date": "2026-11-23",
+   "report_date": "2026-11-18",
+   "items": "8.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026075541/meta-20261118.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026075541/0001628280-26-075541-index.htm"
+  },
   {
    "form": "8-K",
    "date": "2026-11-12",
@@ -732,8 +740,8 @@
  ],
  "shares_outstanding": null,
  "quote": {
-  "price": 560.84,
-  "date": "2026-11-20",
+  "price": 597.6,
+  "date": "2026-11-23",
   "source": "Yahoo Finance"
  },
  "insiders": [

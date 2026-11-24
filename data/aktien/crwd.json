@@ -6,7 +6,7 @@
  "rank": 44,
  "source": "SEC EDGAR",
  "fiscal_year_end": "0131",
- "updated_at": "2026-11-23T13:59:53Z",
+ "updated_at": "2026-11-24T01:33:13Z",
  "periodic_accs": [
   "0001535527-21-000007",
   "0001535527-21-000013",
@@ -30,9 +30,18 @@
   "0001535527-25-000033",
   "0001535527-26-000010",
   "0001535527-26-000025",
-  "0001535527-26-000031"
+  "0001535527-26-000031",
+  "0001535527-26-000038"
  ],
  "filings": [
+  {
+   "form": "10-Q",
+   "date": "2026-11-23",
+   "report_date": "2026-10-31",
+   "items": "",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/1535527/000153552726000038/crwd-20261031.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/1535527/000153552726000038/0001535527-26-000038-index.htm"
+  },
   {
    "form": "8-K",
    "date": "2026-11-23",
@@ -344,29 +353,9 @@
    "items": "",
    "doc_url": "https://www.sec.gov/Archives/edgar/data/1535527/000153552723000020/crwd-20230731.htm",
    "index_url": "https://www.sec.gov/Archives/edgar/data/1535527/000153552723000020/0001535527-23-000020-index.htm"
-  },
-  {
-   "form": "8-K",
-   "date": "2023-08-30",
-   "report_date": "2023-08-30",
-   "items": "2.02,9.01",
-   "doc_url": "https://www.sec.gov/Archives/edgar/data/1535527/000153552723000018/crwd-20230830.htm",
-   "index_url": "https://www.sec.gov/Archives/edgar/data/1535527/000153552723000018/0001535527-23-000018-index.htm"
   }
  ],
  "quarters": [
-  {
-   "end": "2020-10-31",
-   "revenue": 232460000,
-   "operating_income": -24159000,
-   "net_income": -24531000,
-   "op_cash_flow": 88501000,
-   "gross_profit": 170933000,
-   "capex": 9911000,
-   "sbc": 40610000,
-   "diluted_shares": 219401000,
-   "cash": 1059926000
-  },
   {
    "end": "2021-01-31",
    "revenue": 264929000,
@@ -622,25 +611,25 @@
   {
    "end": "2025-10-31",
    "revenue": 1234244000,
-   "operating_income": -69443000,
-   "net_income": -33997000,
+   "operating_income": -62222000,
+   "net_income": -26776000,
    "op_cash_flow": 397541000,
-   "gross_profit": 926439000,
+   "gross_profit": 927654000,
    "capex": 83395000,
-   "sbc": 295436000,
-   "diluted_shares": 251326000,
+   "sbc": 274750000,
+   "diluted_shares": 1005305000,
    "cash": 4801083000,
    "debt": 745099000
   },
   {
    "end": "2026-01-31",
    "revenue": 1305375000,
-   "operating_income": 13786000,
-   "net_income": 59377000,
+   "operating_income": -6900000,
+   "net_income": 38691000,
    "op_cash_flow": 497869000,
-   "gross_profit": 993677000,
+   "gross_profit": 989462000,
    "capex": 102465000,
-   "sbc": 273951000,
+   "sbc": 294637000,
    "cash": 5230125000,
    "debt": 745471000
   },
@@ -669,6 +658,19 @@
    "diluted_shares": 1044469000,
    "cash": 5013847000,
    "debt": 746216000
+  },
+  {
+   "end": "2026-10-31",
+   "revenue": 1583419000,
+   "operating_income": -756000,
+   "net_income": 24856000,
+   "op_cash_flow": 665176000,
+   "gross_profit": 1202154000,
+   "capex": 162756000,
+   "sbc": 350095000,
+   "diluted_shares": 1052189000,
+   "cash": 5366651000,
+   "debt": 746588000
   }
  ],
  "annual": [
@@ -790,16 +792,292 @@
   }
  ],
  "shares_outstanding": {
-  "shares": 1023934842,
-  "as_of": "2026-08-20",
-  "filed": "2026-08-27"
+  "shares": 1030596521,
+  "as_of": "2026-11-19",
+  "filed": "2026-11-23"
  },
  "quote": {
-  "price": 229.44,
-  "date": "2026-11-20",
+  "price": 208.97,
+  "date": "2026-11-23",
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0001778564-26-000213",
+   "date": "2026-11-20",
+   "name": "Kurtz George",
+   "role": "PRESIDENT AND CEO",
+   "code": "S",
+   "shares": 1041.0,
+   "price": 228.2,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1535527/000177856426000213/"
+  },
+  {
+   "acc": "0001778564-26-000213",
+   "date": "2026-11-20",
+   "name": "Kurtz George",
+   "role": "PRESIDENT AND CEO",
+   "code": "S",
+   "shares": 1859.0,
+   "price": 229.0,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1535527/000177856426000213/"
+  },
+  {
+   "acc": "0001778564-26-000213",
+   "date": "2026-11-20",
+   "name": "Kurtz George",
+   "role": "PRESIDENT AND CEO",
+   "code": "S",
+   "shares": 773.0,
+   "price": 230.16,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1535527/000177856426000213/"
+  },
+  {
+   "acc": "0001778564-26-000213",
+   "date": "2026-11-20",
+   "name": "Kurtz George",
+   "role": "PRESIDENT AND CEO",
+   "code": "S",
+   "shares": 1040.0,
+   "price": 231.39,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1535527/000177856426000213/"
+  },
+  {
+   "acc": "0001778564-26-000213",
+   "date": "2026-11-20",
+   "name": "Kurtz George",
+   "role": "PRESIDENT AND CEO",
+   "code": "S",
+   "shares": 2287.0,
+   "price": 232.4,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1535527/000177856426000213/"
+  },
+  {
+   "acc": "0001778564-26-000213",
+   "date": "2026-11-20",
+   "name": "Kurtz George",
+   "role": "PRESIDENT AND CEO",
+   "code": "S",
+   "shares": 1900.0,
+   "price": 233.38,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1535527/000177856426000213/"
+  },
+  {
+   "acc": "0001778564-26-000213",
+   "date": "2026-11-20",
+   "name": "Kurtz George",
+   "role": "PRESIDENT AND CEO",
+   "code": "S",
+   "shares": 400.0,
+   "price": 234.24,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1535527/000177856426000213/"
+  },
+  {
+   "acc": "0001778564-26-000213",
+   "date": "2026-11-20",
+   "name": "Kurtz George",
+   "role": "PRESIDENT AND CEO",
+   "code": "S",
+   "shares": 300.0,
+   "price": 235.63,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1535527/000177856426000213/"
+  },
+  {
+   "acc": "0001778564-26-000213",
+   "date": "2026-11-20",
+   "name": "Kurtz George",
+   "role": "PRESIDENT AND CEO",
+   "code": "S",
+   "shares": 400.0,
+   "price": 238.92,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1535527/000177856426000213/"
+  },
+  {
+   "acc": "0001778564-26-000213",
+   "date": "2026-11-19",
+   "name": "Kurtz George",
+   "role": "PRESIDENT AND CEO",
+   "code": "S",
+   "shares": 636.0,
+   "price": 241.54,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1535527/000177856426000213/"
+  },
+  {
+   "acc": "0001778564-26-000213",
+   "date": "2026-11-19",
+   "name": "Kurtz George",
+   "role": "PRESIDENT AND CEO",
+   "code": "S",
+   "shares": 772.0,
+   "price": 242.35,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1535527/000177856426000213/"
+  },
+  {
+   "acc": "0001778564-26-000213",
+   "date": "2026-11-19",
+   "name": "Kurtz George",
+   "role": "PRESIDENT AND CEO",
+   "code": "S",
+   "shares": 1686.0,
+   "price": 243.32,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1535527/000177856426000213/"
+  },
+  {
+   "acc": "0001778564-26-000213",
+   "date": "2026-11-19",
+   "name": "Kurtz George",
+   "role": "PRESIDENT AND CEO",
+   "code": "S",
+   "shares": 906.0,
+   "price": 244.21,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1535527/000177856426000213/"
+  },
+  {
+   "acc": "0001778564-26-000213",
+   "date": "2026-11-19",
+   "name": "Kurtz George",
+   "role": "PRESIDENT AND CEO",
+   "code": "S",
+   "shares": 399.0,
+   "price": 245.12,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1535527/000177856426000213/"
+  },
+  {
+   "acc": "0001778564-26-000213",
+   "date": "2026-11-19",
+   "name": "Kurtz George",
+   "role": "PRESIDENT AND CEO",
+   "code": "S",
+   "shares": 477.0,
+   "price": 246.6,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1535527/000177856426000213/"
+  },
+  {
+   "acc": "0001778564-26-000213",
+   "date": "2026-11-19",
+   "name": "Kurtz George",
+   "role": "PRESIDENT AND CEO",
+   "code": "S",
+   "shares": 386.0,
+   "price": 248.01,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1535527/000177856426000213/"
+  },
+  {
+   "acc": "0001778564-26-000213",
+   "date": "2026-11-19",
+   "name": "Kurtz George",
+   "role": "PRESIDENT AND CEO",
+   "code": "S",
+   "shares": 203.0,
+   "price": 249.45,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1535527/000177856426000213/"
+  },
+  {
+   "acc": "0001778564-26-000213",
+   "date": "2026-11-19",
+   "name": "Kurtz George",
+   "role": "PRESIDENT AND CEO",
+   "code": "S",
+   "shares": 841.0,
+   "price": 250.63,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1535527/000177856426000213/"
+  },
+  {
+   "acc": "0001778564-26-000213",
+   "date": "2026-11-19",
+   "name": "Kurtz George",
+   "role": "PRESIDENT AND CEO",
+   "code": "S",
+   "shares": 620.0,
+   "price": 251.38,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1535527/000177856426000213/"
+  },
+  {
+   "acc": "0001778564-26-000213",
+   "date": "2026-11-19",
+   "name": "Kurtz George",
+   "role": "PRESIDENT AND CEO",
+   "code": "S",
+   "shares": 1130.0,
+   "price": 252.61,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1535527/000177856426000213/"
+  },
+  {
+   "acc": "0001778564-26-000213",
+   "date": "2026-11-19",
+   "name": "Kurtz George",
+   "role": "PRESIDENT AND CEO",
+   "code": "S",
+   "shares": 1054.0,
+   "price": 253.67,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1535527/000177856426000213/"
+  },
+  {
+   "acc": "0001778564-26-000213",
+   "date": "2026-11-19",
+   "name": "Kurtz George",
+   "role": "PRESIDENT AND CEO",
+   "code": "S",
+   "shares": 583.0,
+   "price": 254.58,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1535527/000177856426000213/"
+  },
+  {
+   "acc": "0001778564-26-000213",
+   "date": "2026-11-19",
+   "name": "Kurtz George",
+   "role": "PRESIDENT AND CEO",
+   "code": "S",
+   "shares": 307.0,
+   "price": 256.01,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1535527/000177856426000213/"
+  },
   {
    "acc": "0000950103-26-017861",
    "date": "2026-11-18",

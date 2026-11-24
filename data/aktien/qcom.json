@@ -6,7 +6,7 @@
  "rank": 63,
  "source": "SEC EDGAR",
  "fiscal_year_end": "0927",
- "updated_at": "2026-11-21T02:11:35Z",
+ "updated_at": "2026-11-24T01:51:18Z",
  "periodic_accs": [
   "0000804328-22-000021",
   "0000804328-23-000006",
@@ -810,11 +810,95 @@
   "filed": "2026-11-04"
  },
  "quote": {
-  "price": 149.94,
-  "date": "2026-11-20",
+  "price": 165.38,
+  "date": "2026-11-23",
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0000804328-26-000135",
+   "date": "2026-11-23",
+   "name": "Grech Patricia Y",
+   "role": "SVP, Chief Accounting Officer",
+   "code": "S",
+   "shares": 628.0,
+   "price": 163.19,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432826000135/"
+  },
+  {
+   "acc": "0000804328-26-000135",
+   "date": "2026-11-20",
+   "name": "Grech Patricia Y",
+   "role": "SVP, Chief Accounting Officer",
+   "code": "M",
+   "shares": 429.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432826000135/"
+  },
+  {
+   "acc": "0000804328-26-000135",
+   "date": "2026-11-20",
+   "name": "Grech Patricia Y",
+   "role": "SVP, Chief Accounting Officer",
+   "code": "M",
+   "shares": 319.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432826000135/"
+  },
+  {
+   "acc": "0000804328-26-000135",
+   "date": "2026-11-20",
+   "name": "Grech Patricia Y",
+   "role": "SVP, Chief Accounting Officer",
+   "code": "M",
+   "shares": 172.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432826000135/"
+  },
+  {
+   "acc": "0000804328-26-000135",
+   "date": "2026-11-20",
+   "name": "Grech Patricia Y",
+   "role": "SVP, Chief Accounting Officer",
+   "code": "M",
+   "shares": 44.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432826000135/"
+  },
+  {
+   "acc": "0000804328-26-000135",
+   "date": "2026-11-20",
+   "name": "Grech Patricia Y",
+   "role": "SVP, Chief Accounting Officer",
+   "code": "M",
+   "shares": 317.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432826000135/"
+  },
+  {
+   "acc": "0000804328-26-000135",
+   "date": "2026-11-20",
+   "name": "Grech Patricia Y",
+   "role": "SVP, Chief Accounting Officer",
+   "code": "F",
+   "shares": 444.0,
+   "price": 149.94,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432826000135/"
+  },
   {
    "acc": "0000804328-26-000133",
    "date": "2026-11-18",

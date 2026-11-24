@@ -6,7 +6,7 @@
  "rank": 14,
  "source": "SEC EDGAR",
  "fiscal_year_end": "0131",
- "updated_at": "2026-11-21T01:57:04Z",
+ "updated_at": "2026-11-24T01:30:18Z",
  "periodic_accs": [
   "0000104169-23-000097",
   "0000104169-23-000132",
@@ -722,11 +722,95 @@
   "filed": "2026-08-28"
  },
  "quote": {
-  "price": 127.95,
-  "date": "2026-11-20",
+  "price": 129.58,
+  "date": "2026-11-23",
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0001696737-26-000023",
+   "date": "2026-11-20",
+   "name": "Furner John R.",
+   "role": "President & CEO",
+   "code": "S",
+   "shares": 400.0,
+   "price": 127.4925,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000169673726000023/"
+  },
+  {
+   "acc": "0001696737-26-000023",
+   "date": "2026-11-20",
+   "name": "Furner John R.",
+   "role": "President & CEO",
+   "code": "S",
+   "shares": 6890.0,
+   "price": 128.6584,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000169673726000023/"
+  },
+  {
+   "acc": "0001696737-26-000023",
+   "date": "2026-11-20",
+   "name": "Furner John R.",
+   "role": "President & CEO",
+   "code": "S",
+   "shares": 5835.0,
+   "price": 129.2701,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000169673726000023/"
+  },
+  {
+   "acc": "0001992808-26-000031",
+   "date": "2026-11-19",
+   "name": "Nicholas Christopher James",
+   "role": "Executive Vice President",
+   "code": "S",
+   "shares": 90.0,
+   "price": 123.45,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000199280826000031/"
+  },
+  {
+   "acc": "0001992808-26-000031",
+   "date": "2026-11-19",
+   "name": "Nicholas Christopher James",
+   "role": "Executive Vice President",
+   "code": "S",
+   "shares": 2110.0,
+   "price": 124.6324,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000199280826000031/"
+  },
+  {
+   "acc": "0001992808-26-000031",
+   "date": "2026-11-19",
+   "name": "Nicholas Christopher James",
+   "role": "Executive Vice President",
+   "code": "S",
+   "shares": 700.0,
+   "price": 125.1932,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000199280826000031/"
+  },
+  {
+   "acc": "0001579299-26-000030",
+   "date": "2026-11-19",
+   "name": "Bartlett Daniel J",
+   "role": "Executive Vice President",
+   "code": "S",
+   "shares": 18900.0,
+   "price": 127.36,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000157929926000030/"
+  },
   {
    "acc": "0001739859-26-000003",
    "date": "2026-11-13",
