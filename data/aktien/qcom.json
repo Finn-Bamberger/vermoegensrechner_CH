@@ -6,7 +6,7 @@
  "rank": 63,
  "source": "SEC EDGAR",
  "fiscal_year_end": "0927",
- "updated_at": "2026-11-24T21:55:16Z",
+ "updated_at": "2026-11-25T05:53:00Z",
  "periodic_accs": [
   "0000804328-22-000021",
   "0000804328-23-000006",
@@ -810,8 +810,8 @@
   "filed": "2026-11-04"
  },
  "quote": {
-  "price": 165.38,
-  "date": "2026-11-23",
+  "price": 164.96,
+  "date": "2026-11-24",
   "source": "Yahoo Finance"
  },
  "insiders": [
@@ -3946,66 +3946,6 @@
    "ad": "D",
    "plan_10b5_1": true,
    "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432825000086/"
-  },
-  {
-   "acc": "0000804328-25-000068",
-   "date": "2025-10-20",
-   "name": "Palkhiwala Akash J.",
-   "role": "CFO & COO",
-   "code": "S",
-   "shares": 282.0,
-   "price": 162.9094,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432825000068/"
-  },
-  {
-   "acc": "0000804328-25-000068",
-   "date": "2025-10-20",
-   "name": "Palkhiwala Akash J.",
-   "role": "CFO & COO",
-   "code": "S",
-   "shares": 1616.0,
-   "price": 164.1189,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432825000068/"
-  },
-  {
-   "acc": "0000804328-25-000068",
-   "date": "2025-10-20",
-   "name": "Palkhiwala Akash J.",
-   "role": "CFO & COO",
-   "code": "S",
-   "shares": 842.0,
-   "price": 165.0333,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432825000068/"
-  },
-  {
-   "acc": "0000804328-25-000068",
-   "date": "2025-10-20",
-   "name": "Palkhiwala Akash J.",
-   "role": "CFO & COO",
-   "code": "S",
-   "shares": 816.0,
-   "price": 166.0246,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432825000068/"
-  },
-  {
-   "acc": "0000804328-25-000068",
-   "date": "2025-10-20",
-   "name": "Palkhiwala Akash J.",
-   "role": "CFO & COO",
-   "code": "S",
-   "shares": 4779.0,
-   "price": 167.096,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432825000068/"
   }
  ]
 }

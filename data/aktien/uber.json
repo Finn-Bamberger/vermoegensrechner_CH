@@ -6,7 +6,7 @@
  "rank": 85,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-11-24T02:16:04Z",
+ "updated_at": "2026-11-25T06:17:22Z",
  "periodic_accs": [
   "0001543151-21-000014",
   "0001543151-21-000029",
@@ -766,8 +766,8 @@
   "filed": "2026-11-04"
  },
  "quote": {
-  "price": 64.07,
-  "date": "2026-11-23",
+  "price": 64.7,
+  "date": "2026-11-24",
   "source": "Yahoo Finance"
  },
  "insiders": [
@@ -9038,18 +9038,6 @@
    "ad": "D",
    "plan_10b5_1": false,
    "url": "https://www.sec.gov/Archives/edgar/data/1543151/000160998325000010/"
-  },
-  {
-   "acc": "0001626201-25-000009",
-   "date": "2025-10-20",
-   "name": "West Tony",
-   "role": "See Remarks",
-   "code": "S",
-   "shares": 3125.0,
-   "price": 93.0,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/1543151/000162620125000009/"
   }
  ]
 }

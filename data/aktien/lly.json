@@ -6,7 +6,7 @@
  "rank": 11,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-11-24T01:30:07Z",
+ "updated_at": "2026-11-25T04:56:30Z",
  "periodic_accs": [
   "0000059478-22-000068",
   "0000059478-22-000133",
@@ -730,8 +730,8 @@
   "filed": "2026-10-29"
  },
  "quote": {
-  "price": 1364.6,
-  "date": "2026-11-23",
+  "price": 1407.59,
+  "date": "2026-11-24",
   "source": "Yahoo Finance"
  },
  "insiders": [
@@ -5342,66 +5342,6 @@
    "ad": "D",
    "plan_10b5_1": false,
    "url": "https://www.sec.gov/Archives/edgar/data/59478/000031601125000045/"
-  },
-  {
-   "acc": "0001262388-25-000006",
-   "date": "2025-10-20",
-   "name": "Sulzberger Gabrielle",
-   "role": "Director",
-   "code": "A",
-   "shares": 6.129,
-   "price": 808.96,
-   "ad": "A",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/59478/000126238825000006/"
-  },
-  {
-   "acc": "0000059478-25-000247",
-   "date": "2025-10-20",
-   "name": "LUCIANO JUAN R",
-   "role": "Director",
-   "code": "A",
-   "shares": 18.336,
-   "price": 808.96,
-   "ad": "A",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/59478/000005947825000247/"
-  },
-  {
-   "acc": "0001340823-25-000008",
-   "date": "2025-10-20",
-   "name": "Hedley Mary Lynne",
-   "role": "Director",
-   "code": "A",
-   "shares": 12.259,
-   "price": 808.96,
-   "ad": "A",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/59478/000134082325000008/"
-  },
-  {
-   "acc": "0000059478-25-000245",
-   "date": "2025-10-20",
-   "name": "Fyrwald J Erik",
-   "role": "Director",
-   "code": "A",
-   "shares": 12.259,
-   "price": 808.96,
-   "ad": "A",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/59478/000005947825000245/"
-  },
-  {
-   "acc": "0001310215-25-000008",
-   "date": "2025-10-20",
-   "name": "Alvarez Ralph",
-   "role": "Director",
-   "code": "A",
-   "shares": 14.525,
-   "price": 808.96,
-   "ad": "A",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/59478/000131021525000008/"
   }
  ]
 }

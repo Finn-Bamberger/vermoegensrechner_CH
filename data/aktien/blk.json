@@ -6,7 +6,7 @@
  "rank": 67,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-11-24T01:55:35Z",
+ "updated_at": "2026-11-25T05:57:15Z",
  "periodic_accs": [
   "0001193125-26-071966",
   "0001193125-26-208766",
@@ -319,8 +319,8 @@
   "filed": "2025-05-07"
  },
  "quote": {
-  "price": 1144.52,
-  "date": "2026-11-23",
+  "price": 1146.03,
+  "date": "2026-11-24",
   "source": "Yahoo Finance"
  },
  "insiders": [
@@ -2015,114 +2015,6 @@
    "ad": "D",
    "plan_10b5_1": false,
    "url": "https://www.sec.gov/Archives/edgar/data/2012383/000201238325002952/"
-  },
-  {
-   "acc": "0002012383-25-002923",
-   "date": "2025-10-20",
-   "name": "Lord Rachel",
-   "role": "Senior Managing Director",
-   "code": "S",
-   "shares": 1700.0,
-   "price": 1160.2205,
-   "ad": "D",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/2012383/000201238325002923/"
-  },
-  {
-   "acc": "0002012383-25-002923",
-   "date": "2025-10-20",
-   "name": "Lord Rachel",
-   "role": "Senior Managing Director",
-   "code": "S",
-   "shares": 600.0,
-   "price": 1161.2424,
-   "ad": "D",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/2012383/000201238325002923/"
-  },
-  {
-   "acc": "0002012383-25-002923",
-   "date": "2025-10-20",
-   "name": "Lord Rachel",
-   "role": "Senior Managing Director",
-   "code": "S",
-   "shares": 1522.0,
-   "price": 1163.0921,
-   "ad": "D",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/2012383/000201238325002923/"
-  },
-  {
-   "acc": "0002012383-25-002923",
-   "date": "2025-10-20",
-   "name": "Lord Rachel",
-   "role": "Senior Managing Director",
-   "code": "S",
-   "shares": 1865.0,
-   "price": 1163.9252,
-   "ad": "D",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/2012383/000201238325002923/"
-  },
-  {
-   "acc": "0002012383-25-002923",
-   "date": "2025-10-20",
-   "name": "Lord Rachel",
-   "role": "Senior Managing Director",
-   "code": "S",
-   "shares": 1278.0,
-   "price": 1164.98,
-   "ad": "D",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/2012383/000201238325002923/"
-  },
-  {
-   "acc": "0002012383-25-002923",
-   "date": "2025-10-20",
-   "name": "Lord Rachel",
-   "role": "Senior Managing Director",
-   "code": "S",
-   "shares": 1028.0,
-   "price": 1166.2669,
-   "ad": "D",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/2012383/000201238325002923/"
-  },
-  {
-   "acc": "0002012383-25-002923",
-   "date": "2025-10-20",
-   "name": "Lord Rachel",
-   "role": "Senior Managing Director",
-   "code": "S",
-   "shares": 924.0,
-   "price": 1166.981,
-   "ad": "D",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/2012383/000201238325002923/"
-  },
-  {
-   "acc": "0002012383-25-002923",
-   "date": "2025-10-20",
-   "name": "Lord Rachel",
-   "role": "Senior Managing Director",
-   "code": "S",
-   "shares": 1987.0,
-   "price": 1168.6782,
-   "ad": "D",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/2012383/000201238325002923/"
-  },
-  {
-   "acc": "0002012383-25-002923",
-   "date": "2025-10-20",
-   "name": "Lord Rachel",
-   "role": "Senior Managing Director",
-   "code": "S",
-   "shares": 1096.0,
-   "price": 1169.907,
-   "ad": "D",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/2012383/000201238325002923/"
   }
  ]
 }

@@ -6,7 +6,7 @@
  "rank": 57,
  "source": "SEC EDGAR",
  "fiscal_year_end": "0702",
- "updated_at": "2026-11-24T01:44:44Z",
+ "updated_at": "2026-11-25T05:46:33Z",
  "periodic_accs": [
   "0001628280-25-050698",
   "0001628280-26-004407",
@@ -449,11 +449,95 @@
   "filed": "2026-10-30"
  },
  "quote": {
-  "price": 87.71,
-  "date": "2026-11-23",
+  "price": 77.95,
+  "date": "2026-11-24",
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0001242648-26-000059",
+   "date": "2026-11-23",
+   "name": "Pokorny Michael",
+   "role": "VP, Chief Accounting Officer",
+   "code": "S",
+   "shares": 26016.0,
+   "price": 90.9904,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/2023554/000124264826000059/"
+  },
+  {
+   "acc": "0001242648-26-000055",
+   "date": "2026-11-23",
+   "name": "Ilkbahar Alper",
+   "role": "EVP, Chief Technology Officer",
+   "code": "S",
+   "shares": 1968.0,
+   "price": 98.01,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/2023554/000124264826000055/"
+  },
+  {
+   "acc": "0001242648-26-000058",
+   "date": "2026-11-21",
+   "name": "Visoso Luis Felipe",
+   "role": "EVP and CFO",
+   "code": "F",
+   "shares": 12705.0,
+   "price": 79.24,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/2023554/000124264826000058/"
+  },
+  {
+   "acc": "0001242648-26-000057",
+   "date": "2026-11-21",
+   "name": "Goeckeler David",
+   "role": "Chairman and CEO",
+   "code": "F",
+   "shares": 8263.0,
+   "price": 79.24,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/2023554/000124264826000057/"
+  },
+  {
+   "acc": "0001242648-26-000056",
+   "date": "2026-11-21",
+   "name": "Shek Bernard",
+   "role": "Chief Legal Officer and Secty.",
+   "code": "F",
+   "shares": 857.0,
+   "price": 79.24,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/2023554/000124264826000056/"
+  },
+  {
+   "acc": "0001242648-26-000055",
+   "date": "2026-11-21",
+   "name": "Ilkbahar Alper",
+   "role": "EVP, Chief Technology Officer",
+   "code": "F",
+   "shares": 2559.0,
+   "price": 79.24,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/2023554/000124264826000055/"
+  },
+  {
+   "acc": "0001242648-26-000059",
+   "date": "2026-11-20",
+   "name": "Pokorny Michael",
+   "role": "VP, Chief Accounting Officer",
+   "code": "F",
+   "shares": 6574.0,
+   "price": 79.24,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/2023554/000124264826000059/"
+  },
   {
    "acc": "0001558880-26-000005",
    "date": "2026-11-17",
@@ -2373,18 +2457,6 @@
    "ad": "D",
    "plan_10b5_1": false,
    "url": "https://www.sec.gov/Archives/edgar/data/2023554/000136324925000117/"
-  },
-  {
-   "acc": "0001363249-25-000106",
-   "date": "2025-10-20",
-   "name": "Shek Bernard",
-   "role": "Chief Legal Officer & Secty",
-   "code": "F",
-   "shares": 362.0,
-   "price": 148.04,
-   "ad": "D",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/2023554/000136324925000106/"
   }
  ]
 }

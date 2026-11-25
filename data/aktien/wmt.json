@@ -6,7 +6,7 @@
  "rank": 14,
  "source": "SEC EDGAR",
  "fiscal_year_end": "0131",
- "updated_at": "2026-11-24T01:30:18Z",
+ "updated_at": "2026-11-25T04:59:39Z",
  "periodic_accs": [
   "0000104169-23-000097",
   "0000104169-23-000132",
@@ -722,8 +722,8 @@
   "filed": "2026-08-28"
  },
  "quote": {
-  "price": 129.58,
-  "date": "2026-11-23",
+  "price": 132.31,
+  "date": "2026-11-24",
   "source": "Yahoo Finance"
  },
  "insiders": [
@@ -4134,18 +4134,6 @@
    "ad": "D",
    "plan_10b5_1": true,
    "url": "https://www.sec.gov/Archives/edgar/data/104169/000133578225000012/"
-  },
-  {
-   "acc": "0001794573-25-000012",
-   "date": "2025-10-20",
-   "name": "McLay Kathryn J.",
-   "role": "Executive Vice President",
-   "code": "S",
-   "shares": 4000.0,
-   "price": 107.75,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/104169/000179457325000012/"
   }
  ]
 }
