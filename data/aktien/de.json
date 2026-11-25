@@ -5,8 +5,8 @@
  "tv": "NYSE:DE",
  "rank": 66,
  "source": "SEC EDGAR",
- "fiscal_year_end": "1101",
- "updated_at": "2026-11-25T05:56:14Z",
+ "fiscal_year_end": "1031",
+ "updated_at": "2026-11-25T15:20:50Z",
  "periodic_accs": [
   "0001047469-15-009300",
   "0001047469-16-009947",
@@ -59,6 +59,14 @@
   "0001558370-25-011789"
  ],
  "filings": [
+  {
+   "form": "8-K",
+   "date": "2026-11-25",
+   "report_date": "2026-11-25",
+   "items": "2.02,7.01,9.01",
+   "doc_url": "https://www.sec.gov/Archives/edgar/data/315189/000110465926131741/de-20261125x8k.htm",
+   "index_url": "https://www.sec.gov/Archives/edgar/data/315189/000110465926131741/0001104659-26-131741-index.htm"
+  },
   {
    "form": "8-K",
    "date": "2026-11-02",
@@ -370,14 +378,6 @@
    "items": "2.02,7.01,9.01",
    "doc_url": "https://www.sec.gov/Archives/edgar/data/315189/000155837024001189/de-20240215x8k.htm",
    "index_url": "https://www.sec.gov/Archives/edgar/data/315189/000155837024001189/0001558370-24-001189-index.htm"
-  },
-  {
-   "form": "10-K",
-   "date": "2023-12-15",
-   "report_date": "2023-10-29",
-   "items": "",
-   "doc_url": "https://www.sec.gov/Archives/edgar/data/315189/000155837023019812/de-20231029x10k.htm",
-   "index_url": "https://www.sec.gov/Archives/edgar/data/315189/000155837023019812/0001558370-23-019812-index.htm"
   }
  ],
  "quarters": [

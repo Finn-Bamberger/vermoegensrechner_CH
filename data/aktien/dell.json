@@ -6,7 +6,7 @@
  "rank": 35,
  "source": "SEC EDGAR",
  "fiscal_year_end": "0129",
- "updated_at": "2026-11-25T05:22:23Z",
+ "updated_at": "2026-11-25T15:17:36Z",
  "periodic_accs": [
   "0001571996-24-000036",
   "0001571996-24-000062",
@@ -788,6 +788,42 @@
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0002086800-26-000012",
+   "date": "2026-11-24",
+   "name": "Kennedy David Alan",
+   "role": "Chief Financial Officer",
+   "code": "F",
+   "shares": 3094.0,
+   "price": 334.91,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1571996/000208680026000012/"
+  },
+  {
+   "acc": "0001662205-26-000025",
+   "date": "2026-11-23",
+   "name": "Radakovich Lynn Vojvodich",
+   "role": "Director",
+   "code": "M",
+   "shares": 2022.0,
+   "price": 31.14,
+   "ad": "A",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1571996/000166220526000025/"
+  },
+  {
+   "acc": "0001662205-26-000025",
+   "date": "2026-11-23",
+   "name": "Radakovich Lynn Vojvodich",
+   "role": "Director",
+   "code": "S",
+   "shares": 2022.0,
+   "price": 379.0,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1571996/000166220526000025/"
+  },
   {
    "acc": "0001662205-26-000021",
    "date": "2026-10-22",
