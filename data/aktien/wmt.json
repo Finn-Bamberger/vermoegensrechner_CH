@@ -6,7 +6,7 @@
  "rank": 14,
  "source": "SEC EDGAR",
  "fiscal_year_end": "0131",
- "updated_at": "2026-11-25T04:59:39Z",
+ "updated_at": "2026-11-25T23:43:22Z",
  "periodic_accs": [
   "0000104169-23-000097",
   "0000104169-23-000132",
@@ -722,11 +722,35 @@
   "filed": "2026-08-28"
  },
  "quote": {
-  "price": 132.31,
-  "date": "2026-11-24",
+  "price": 131.94,
+  "date": "2026-11-25",
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0002110643-26-000023",
+   "date": "2026-11-24",
+   "name": "Milum Dwayne M",
+   "role": "SVP & Controller",
+   "code": "S",
+   "shares": 1886.0,
+   "price": 131.933,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000211064326000023/"
+  },
+  {
+   "acc": "0002110643-26-000023",
+   "date": "2026-11-23",
+   "name": "Milum Dwayne M",
+   "role": "SVP & Controller",
+   "code": "S",
+   "shares": 5808.0,
+   "price": 129.265,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/104169/000211064326000023/"
+  },
   {
    "acc": "0001696737-26-000023",
    "date": "2026-11-20",

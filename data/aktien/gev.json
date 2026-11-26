@@ -6,7 +6,7 @@
  "rank": 46,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-11-25T05:34:19Z",
+ "updated_at": "2026-11-25T23:46:06Z",
  "periodic_accs": [
   "0001996810-24-000008",
   "0001996810-24-000067",
@@ -466,11 +466,23 @@
   "filed": "2026-10-28"
  },
  "quote": {
-  "price": 720.65,
-  "date": "2026-11-24",
+  "price": 715.0,
+  "date": "2026-11-25",
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0001763642-26-000005",
+   "date": "2026-11-23",
+   "name": "Strazik Scott",
+   "role": "CEO & President",
+   "code": "I",
+   "shares": 4275.0,
+   "price": 756.71,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1996810/000176364226000005/"
+  },
   {
    "acc": "0001996810-26-000134",
    "date": "2026-06-01",

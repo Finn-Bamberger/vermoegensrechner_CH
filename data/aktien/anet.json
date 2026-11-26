@@ -6,7 +6,7 @@
  "rank": 48,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-11-25T05:36:31Z",
+ "updated_at": "2026-11-25T23:46:17Z",
  "periodic_accs": [
   "0001596532-22-000220",
   "0001596532-22-000294",
@@ -783,11 +783,35 @@
   "filed": "2026-11-04"
  },
  "quote": {
-  "price": 168.56,
-  "date": "2026-11-24",
+  "price": 163.99,
+  "date": "2026-11-25",
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0001596532-26-000295",
+   "date": "2026-11-23",
+   "name": "Giancarlo Charles H",
+   "role": "Director",
+   "code": "S",
+   "shares": 3200.0,
+   "price": 184.8983,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1596532/000159653226000295/"
+  },
+  {
+   "acc": "0001596532-26-000295",
+   "date": "2026-11-23",
+   "name": "Giancarlo Charles H",
+   "role": "Director",
+   "code": "S",
+   "shares": 1800.0,
+   "price": 185.9465,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1596532/000159653226000295/"
+  },
   {
    "acc": "0001596532-26-000293",
    "date": "2026-11-20",

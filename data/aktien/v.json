@@ -6,7 +6,7 @@
  "rank": 16,
  "source": "SEC EDGAR",
  "fiscal_year_end": "0930",
- "updated_at": "2026-11-25T05:01:50Z",
+ "updated_at": "2026-11-25T23:43:33Z",
  "periodic_accs": [
   "0001403161-15-000010",
   "0001403161-15-000013",
@@ -762,11 +762,35 @@
   "filed": "2010-02-03"
  },
  "quote": {
-  "price": 416.78,
-  "date": "2026-11-24",
+  "price": 424.39,
+  "date": "2026-11-25",
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0001403161-26-000162",
+   "date": "2026-11-24",
+   "name": "Fabara Paul D",
+   "role": "CHIEF RISK & CLIENT SVCS OFC",
+   "code": "S",
+   "shares": 852.0,
+   "price": 409.0,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000162/"
+  },
+  {
+   "acc": "0001403161-26-000160",
+   "date": "2026-11-24",
+   "name": "Taneja Rajat",
+   "role": "PRESIDENT, TECHNOLOGY",
+   "code": "S",
+   "shares": 1712.0,
+   "price": 409.0,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000160/"
+  },
   {
    "acc": "0001403161-26-000156",
    "date": "2026-11-23",

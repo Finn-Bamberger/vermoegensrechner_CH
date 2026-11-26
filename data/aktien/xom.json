@@ -6,7 +6,7 @@
  "rank": 17,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-11-25T05:02:51Z",
+ "updated_at": "2026-11-25T23:43:36Z",
  "periodic_accs": [
   "0000034088-26-000093",
   "0002115436-26-000020"
@@ -112,9 +112,226 @@
   "filed": "2026-11-02"
  },
  "quote": {
-  "price": 158.23,
-  "date": "2026-11-24",
+  "price": 158.08,
+  "date": "2026-11-25",
   "source": "Yahoo Finance"
  },
- "insiders": []
+ "insiders": [
+  {
+   "acc": "0002115436-26-000044",
+   "date": "2026-11-24",
+   "name": "Chapman Neil A",
+   "role": "Senior Vice President",
+   "code": "A",
+   "shares": 124000.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/2115436/000211543626000044/"
+  },
+  {
+   "acc": "0002115436-26-000042",
+   "date": "2026-11-24",
+   "name": "Woods Darren W",
+   "role": "Chairman and CEO",
+   "code": "A",
+   "shares": 225000.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/2115436/000211543626000042/"
+  },
+  {
+   "acc": "0002115436-26-000040",
+   "date": "2026-11-24",
+   "name": "Williams Jack P Jr",
+   "role": "Senior Vice President",
+   "code": "A",
+   "shares": 117800.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/2115436/000211543626000040/"
+  },
+  {
+   "acc": "0002115436-26-000038",
+   "date": "2026-11-24",
+   "name": "Taylor Jeffrey Allen",
+   "role": "VP, Gen. Counsel & Secretary",
+   "code": "A",
+   "shares": 65300.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/2115436/000211543626000038/"
+  },
+  {
+   "acc": "0002115436-26-000036",
+   "date": "2026-11-24",
+   "name": "Talley Darrin L",
+   "role": "VP - Corp Strategic Planning",
+   "code": "A",
+   "shares": 45700.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/2115436/000211543626000036/"
+  },
+  {
+   "acc": "0002115436-26-000034",
+   "date": "2026-11-24",
+   "name": "Gibbs Jon M.",
+   "role": "Executive Officer",
+   "code": "A",
+   "shares": 102800.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/2115436/000211543626000034/"
+  },
+  {
+   "acc": "0002115436-26-000032",
+   "date": "2026-11-24",
+   "name": "Hansen Neil A",
+   "role": "Senior Vice President",
+   "code": "A",
+   "shares": 98100.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/2115436/000211543626000032/"
+  },
+  {
+   "acc": "0002115436-26-000030",
+   "date": "2026-11-24",
+   "name": "Gjervik Staale",
+   "role": "Executive Officer",
+   "code": "A",
+   "shares": 72900.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/2115436/000211543626000030/"
+  },
+  {
+   "acc": "0002115436-26-000028",
+   "date": "2026-11-24",
+   "name": "Crocker Matthew Richard",
+   "role": "Vice President",
+   "code": "A",
+   "shares": 76400.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/2115436/000211543626000028/"
+  },
+  {
+   "acc": "0002115436-26-000026",
+   "date": "2026-11-24",
+   "name": "Buchanan Susan Elaine",
+   "role": "VP - CAO & Controller",
+   "code": "A",
+   "shares": 24100.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/2115436/000211543626000026/"
+  },
+  {
+   "acc": "0002115436-26-000024",
+   "date": "2026-11-24",
+   "name": "Ammann Daniel",
+   "role": "Vice President",
+   "code": "A",
+   "shares": 102800.0,
+   "price": 0.0,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/2115436/000211543626000024/"
+  },
+  {
+   "acc": "0002115436-26-000044",
+   "date": "2026-11-23",
+   "name": "Chapman Neil A",
+   "role": "Senior Vice President",
+   "code": "F",
+   "shares": 20935.0,
+   "price": 158.16,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/2115436/000211543626000044/"
+  },
+  {
+   "acc": "0002115436-26-000042",
+   "date": "2026-11-23",
+   "name": "Woods Darren W",
+   "role": "Chairman and CEO",
+   "code": "F",
+   "shares": 42302.0,
+   "price": 158.16,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/2115436/000211543626000042/"
+  },
+  {
+   "acc": "0002115436-26-000040",
+   "date": "2026-11-23",
+   "name": "Williams Jack P Jr",
+   "role": "Senior Vice President",
+   "code": "F",
+   "shares": 20935.0,
+   "price": 158.16,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/2115436/000211543626000040/"
+  },
+  {
+   "acc": "0002115436-26-000036",
+   "date": "2026-11-23",
+   "name": "Talley Darrin L",
+   "role": "VP - Corp Strategic Planning",
+   "code": "F",
+   "shares": 6731.0,
+   "price": 158.16,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/2115436/000211543626000036/"
+  },
+  {
+   "acc": "0002115436-26-000034",
+   "date": "2026-11-23",
+   "name": "Gibbs Jon M.",
+   "role": "Executive Officer",
+   "code": "F",
+   "shares": 6946.0,
+   "price": 158.16,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/2115436/000211543626000034/"
+  },
+  {
+   "acc": "0002115436-26-000032",
+   "date": "2026-11-23",
+   "name": "Hansen Neil A",
+   "role": "Senior Vice President",
+   "code": "F",
+   "shares": 17650.0,
+   "price": 158.16,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/2115436/000211543626000032/"
+  },
+  {
+   "acc": "0002115436-26-000030",
+   "date": "2026-11-23",
+   "name": "Gjervik Staale",
+   "role": "Executive Officer",
+   "code": "F",
+   "shares": 6859.0,
+   "price": 158.16,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/2115436/000211543626000030/"
+  }
+ ]
 }

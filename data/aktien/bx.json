@@ -6,7 +6,7 @@
  "rank": 89,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-11-25T06:21:58Z",
+ "updated_at": "2026-11-26T00:20:28Z",
  "periodic_accs": [
   "0001193125-17-251308",
   "0001193125-17-335723",
@@ -747,11 +747,95 @@
   "filed": "2026-11-06"
  },
  "quote": {
-  "price": 119.35,
-  "date": "2026-11-24",
+  "price": 118.95,
+  "date": "2026-11-25",
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0001193125-26-478553",
+   "date": "2026-11-23",
+   "name": "BCP 8 Holdings Mozart Manager L.L.C.",
+   "role": "10%-Aktionär",
+   "code": "S",
+   "shares": 14236437.0,
+   "price": 35.0563,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1393818/000119312526478553/"
+  },
+  {
+   "acc": "0001193125-26-478553",
+   "date": "2026-11-23",
+   "name": "BCP 8 Holdings Mozart Manager L.L.C.",
+   "role": "10%-Aktionär",
+   "code": "S",
+   "shares": 6576352.0,
+   "price": 35.0563,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1393818/000119312526478553/"
+  },
+  {
+   "acc": "0001193125-26-478553",
+   "date": "2026-11-23",
+   "name": "BCP 8 Holdings Mozart Manager L.L.C.",
+   "role": "10%-Aktionär",
+   "code": "S",
+   "shares": 1629883.0,
+   "price": 35.0563,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1393818/000119312526478553/"
+  },
+  {
+   "acc": "0001193125-26-478553",
+   "date": "2026-11-23",
+   "name": "BCP 8 Holdings Mozart Manager L.L.C.",
+   "role": "10%-Aktionär",
+   "code": "S",
+   "shares": 993862.0,
+   "price": 35.0563,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1393818/000119312526478553/"
+  },
+  {
+   "acc": "0001193125-26-478553",
+   "date": "2026-11-23",
+   "name": "BCP 8 Holdings Mozart Manager L.L.C.",
+   "role": "10%-Aktionär",
+   "code": "J",
+   "shares": 316482.0,
+   "price": null,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1393818/000119312526478553/"
+  },
+  {
+   "acc": "0001193125-26-478553",
+   "date": "2026-11-23",
+   "name": "BCP 8 Holdings Mozart Manager L.L.C.",
+   "role": "10%-Aktionär",
+   "code": "J",
+   "shares": 543751.0,
+   "price": null,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1393818/000119312526478553/"
+  },
+  {
+   "acc": "0001193125-26-478553",
+   "date": "2026-11-23",
+   "name": "BCP 8 Holdings Mozart Manager L.L.C.",
+   "role": "10%-Aktionär",
+   "code": "J",
+   "shares": 82175.0,
+   "price": null,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/1393818/000119312526478553/"
+  },
   {
    "acc": "0001213900-26-123195",
    "date": "2026-11-20",
@@ -2959,30 +3043,6 @@
    "ad": "A",
    "plan_10b5_1": false,
    "url": "https://www.sec.gov/Archives/edgar/data/1393818/000119312525261005/"
-  },
-  {
-   "acc": "0001213900-25-100922",
-   "date": "2025-10-21",
-   "name": "Blackstone Holdings IV GP Management (Delaware) L.P.",
-   "role": "10%-Aktionär",
-   "code": "P",
-   "shares": 8634070.625,
-   "price": 25.77,
-   "ad": "A",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/1393818/000121390025100922/"
-  },
-  {
-   "acc": "0001213900-25-100922",
-   "date": "2025-10-21",
-   "name": "Blackstone Holdings IV GP Management (Delaware) L.P.",
-   "role": "10%-Aktionär",
-   "code": "P",
-   "shares": 679084.206,
-   "price": 25.77,
-   "ad": "A",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/1393818/000121390025100922/"
   }
  ]
 }

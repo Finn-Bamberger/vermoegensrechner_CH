@@ -6,7 +6,7 @@
  "rank": 62,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-11-25T05:51:45Z",
+ "updated_at": "2026-11-25T23:50:26Z",
  "periodic_accs": [
   "0000732712-24-000010",
   "0000732712-24-000029",
@@ -657,11 +657,23 @@
   "filed": "2026-10-29"
  },
  "quote": {
-  "price": 47.16,
-  "date": "2026-11-24",
+  "price": 47.28,
+  "date": "2026-11-25",
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0001760581-26-000087",
+   "date": "2026-11-24",
+   "name": "Malady Kyle",
+   "role": "EVP and Group CEO-VZ Business",
+   "code": "S",
+   "shares": 1100.0,
+   "price": 46.8,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/732712/000176058126000087/"
+  },
   {
    "acc": "0001760581-26-000083",
    "date": "2026-11-17",

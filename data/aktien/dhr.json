@@ -6,7 +6,7 @@
  "rank": 77,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-11-25T06:08:26Z",
+ "updated_at": "2026-11-26T00:06:59Z",
  "periodic_accs": [
   "0000313616-20-000093",
   "0000313616-20-000120",
@@ -773,11 +773,95 @@
   "filed": "2026-10-21"
  },
  "quote": {
-  "price": 229.09,
-  "date": "2026-11-24",
+  "price": 227.35,
+  "date": "2026-11-25",
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0000313616-26-000243",
+   "date": "2026-11-24",
+   "name": "Bouda Christopher",
+   "role": "VP, Chief Accounting Officer",
+   "code": "M",
+   "shares": 3050.0,
+   "price": 88.24,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/313616/000031361626000243/"
+  },
+  {
+   "acc": "0000313616-26-000243",
+   "date": "2026-11-24",
+   "name": "Bouda Christopher",
+   "role": "VP, Chief Accounting Officer",
+   "code": "S",
+   "shares": 3050.0,
+   "price": 229.32,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/313616/000031361626000243/"
+  },
+  {
+   "acc": "0000313616-26-000243",
+   "date": "2026-11-24",
+   "name": "Bouda Christopher",
+   "role": "VP, Chief Accounting Officer",
+   "code": "M",
+   "shares": 2893.0,
+   "price": 100.81,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/313616/000031361626000243/"
+  },
+  {
+   "acc": "0000313616-26-000243",
+   "date": "2026-11-24",
+   "name": "Bouda Christopher",
+   "role": "VP, Chief Accounting Officer",
+   "code": "S",
+   "shares": 2893.0,
+   "price": 229.35,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/313616/000031361626000243/"
+  },
+  {
+   "acc": "0000313616-26-000242",
+   "date": "2026-11-23",
+   "name": "Gugino Matthew E",
+   "role": "EVP & Chief Financial Officer",
+   "code": "S",
+   "shares": 1012.0,
+   "price": 226.725,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/313616/000031361626000242/"
+  },
+  {
+   "acc": "0000313616-26-000242",
+   "date": "2026-11-23",
+   "name": "Gugino Matthew E",
+   "role": "EVP & Chief Financial Officer",
+   "code": "M",
+   "shares": 4210.0,
+   "price": 76.47,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/313616/000031361626000242/"
+  },
+  {
+   "acc": "0000313616-26-000242",
+   "date": "2026-11-23",
+   "name": "Gugino Matthew E",
+   "role": "EVP & Chief Financial Officer",
+   "code": "S",
+   "shares": 4210.0,
+   "price": 226.6314,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/313616/000031361626000242/"
+  },
   {
    "acc": "0000313616-26-000239",
    "date": "2026-11-15",

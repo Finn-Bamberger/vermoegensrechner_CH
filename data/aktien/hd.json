@@ -6,7 +6,7 @@
  "rank": 39,
  "source": "SEC EDGAR",
  "fiscal_year_end": "0131",
- "updated_at": "2026-11-25T05:26:34Z",
+ "updated_at": "2026-11-25T23:45:21Z",
  "periodic_accs": [
   "0000354950-18-000019",
   "0000354950-18-000034",
@@ -792,11 +792,59 @@
   "filed": "2026-11-20"
  },
  "quote": {
-  "price": 353.69,
-  "date": "2026-11-24",
+  "price": 361.26,
+  "date": "2026-11-25",
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0000354950-26-000192",
+   "date": "2026-11-25",
+   "name": "Campbell Ann Marie",
+   "role": "President & COO",
+   "code": "S",
+   "shares": 98.0,
+   "price": 355.26,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/354950/000035495026000192/"
+  },
+  {
+   "acc": "0000354950-26-000192",
+   "date": "2026-11-23",
+   "name": "Campbell Ann Marie",
+   "role": "President & COO",
+   "code": "M",
+   "shares": 12338.0,
+   "price": 181.76,
+   "ad": "A",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/354950/000035495026000192/"
+  },
+  {
+   "acc": "0000354950-26-000192",
+   "date": "2026-11-23",
+   "name": "Campbell Ann Marie",
+   "role": "President & COO",
+   "code": "S",
+   "shares": 12338.0,
+   "price": 346.7,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/354950/000035495026000192/"
+  },
+  {
+   "acc": "0000354950-26-000191",
+   "date": "2026-11-23",
+   "name": "Roseborough Teresa Wynn",
+   "role": "EVP, Gen. Counsel & Corp. Sec.",
+   "code": "S",
+   "shares": 3000.0,
+   "price": 346.68,
+   "ad": "D",
+   "plan_10b5_1": false,
+   "url": "https://www.sec.gov/Archives/edgar/data/354950/000035495026000191/"
+  },
   {
    "acc": "0000354950-26-000188",
    "date": "2026-11-18",
