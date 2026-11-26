@@ -6,7 +6,7 @@
  "rank": 7,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-11-25T23:43:00Z",
+ "updated_at": "2026-11-26T06:30:40Z",
  "periodic_accs": [
   "0001326801-24-000069",
   "0001326801-24-000081",
@@ -745,6 +745,66 @@
   "source": "Yahoo Finance"
  },
  "insiders": [
+  {
+   "acc": "0000950103-26-018246",
+   "date": "2026-11-23",
+   "name": "Olivan Javier",
+   "role": "Chief Operating Officer",
+   "code": "S",
+   "shares": 837.0,
+   "price": 600.0,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326018246/"
+  },
+  {
+   "acc": "0000950103-26-018246",
+   "date": "2026-11-23",
+   "name": "Olivan Javier",
+   "role": "Chief Operating Officer",
+   "code": "S",
+   "shares": 82.0,
+   "price": 600.0,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326018246/"
+  },
+  {
+   "acc": "0000950103-26-018246",
+   "date": "2026-11-23",
+   "name": "Olivan Javier",
+   "role": "Chief Operating Officer",
+   "code": "S",
+   "shares": 57.0,
+   "price": 600.0,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326018246/"
+  },
+  {
+   "acc": "0000950103-26-018246",
+   "date": "2026-11-23",
+   "name": "Olivan Javier",
+   "role": "Chief Operating Officer",
+   "code": "S",
+   "shares": 82.0,
+   "price": 600.0,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326018246/"
+  },
+  {
+   "acc": "0000950103-26-018246",
+   "date": "2026-11-23",
+   "name": "Olivan Javier",
+   "role": "Chief Operating Officer",
+   "code": "S",
+   "shares": 408.0,
+   "price": 600.0,
+   "ad": "D",
+   "plan_10b5_1": true,
+   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326018246/"
+  },
   {
    "acc": "0000950103-26-017904",
    "date": "2026-11-17",
@@ -7692,18 +7752,6 @@
    "ad": "D",
    "plan_10b5_1": true,
    "url": "https://www.sec.gov/Archives/edgar/data/1326801/000095010325013838/"
-  },
-  {
-   "acc": "0000950103-25-013596",
-   "date": "2025-10-21",
-   "name": "Newstead Jennifer",
-   "role": "Chief Legal Officer",
-   "code": "S",
-   "shares": 519.0,
-   "price": 736.37,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/1326801/000095010325013596/"
   }
  ]
 }

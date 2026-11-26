@@ -6,7 +6,7 @@
  "rank": 59,
  "source": "SEC EDGAR",
  "fiscal_year_end": "0131",
- "updated_at": "2026-11-25T23:47:17Z",
+ "updated_at": "2026-11-26T06:34:21Z",
  "periodic_accs": [
   "0001108524-23-000040",
   "0001108524-23-000048",
@@ -3779,126 +3779,6 @@
    "ad": "D",
    "plan_10b5_1": false,
    "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852425000185/"
-  },
-  {
-   "acc": "0001108524-25-000179",
-   "date": "2025-10-21",
-   "name": "Benioff Marc",
-   "role": "Chair and CEO",
-   "code": "M",
-   "shares": 2250.0,
-   "price": 161.5,
-   "ad": "A",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852425000179/"
-  },
-  {
-   "acc": "0001108524-25-000179",
-   "date": "2025-10-21",
-   "name": "Benioff Marc",
-   "role": "Chair and CEO",
-   "code": "S",
-   "shares": 120.0,
-   "price": 254.9369,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852425000179/"
-  },
-  {
-   "acc": "0001108524-25-000179",
-   "date": "2025-10-21",
-   "name": "Benioff Marc",
-   "role": "Chair and CEO",
-   "code": "S",
-   "shares": 420.0,
-   "price": 257.4837,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852425000179/"
-  },
-  {
-   "acc": "0001108524-25-000179",
-   "date": "2025-10-21",
-   "name": "Benioff Marc",
-   "role": "Chair and CEO",
-   "code": "S",
-   "shares": 26.0,
-   "price": 258.6219,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852425000179/"
-  },
-  {
-   "acc": "0001108524-25-000179",
-   "date": "2025-10-21",
-   "name": "Benioff Marc",
-   "role": "Chair and CEO",
-   "code": "S",
-   "shares": 59.0,
-   "price": 260.202,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852425000179/"
-  },
-  {
-   "acc": "0001108524-25-000179",
-   "date": "2025-10-21",
-   "name": "Benioff Marc",
-   "role": "Chair and CEO",
-   "code": "S",
-   "shares": 85.0,
-   "price": 261.7706,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852425000179/"
-  },
-  {
-   "acc": "0001108524-25-000179",
-   "date": "2025-10-21",
-   "name": "Benioff Marc",
-   "role": "Chair and CEO",
-   "code": "S",
-   "shares": 389.0,
-   "price": 263.4746,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852425000179/"
-  },
-  {
-   "acc": "0001108524-25-000179",
-   "date": "2025-10-21",
-   "name": "Benioff Marc",
-   "role": "Chair and CEO",
-   "code": "S",
-   "shares": 850.0,
-   "price": 264.2621,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852425000179/"
-  },
-  {
-   "acc": "0001108524-25-000179",
-   "date": "2025-10-21",
-   "name": "Benioff Marc",
-   "role": "Chair and CEO",
-   "code": "S",
-   "shares": 204.0,
-   "price": 265.0242,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852425000179/"
-  },
-  {
-   "acc": "0001108524-25-000179",
-   "date": "2025-10-21",
-   "name": "Benioff Marc",
-   "role": "Chair and CEO",
-   "code": "S",
-   "shares": 97.0,
-   "price": 266.6072,
-   "ad": "D",
-   "plan_10b5_1": true,
-   "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852425000179/"
   }
  ]
 }
