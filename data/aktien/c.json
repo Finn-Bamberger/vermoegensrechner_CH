@@ -6,7 +6,7 @@
  "rank": 55,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-11-25T23:47:07Z",
+ "updated_at": "2026-11-27T01:12:14Z",
  "periodic_accs": [
   "0000831001-26-000011",
   "0000831001-26-000019",
@@ -2186,18 +2186,6 @@
    "ad": "A",
    "plan_10b5_1": false,
    "url": "https://www.sec.gov/Archives/edgar/data/831001/000119312525263392/"
-  },
-  {
-   "acc": "0001193125-25-247044",
-   "date": "2025-10-22",
-   "name": "Fraser Jane Nind",
-   "role": "Chair & CEO",
-   "code": "A",
-   "shares": 259605.4,
-   "price": 0.0,
-   "ad": "A",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/831001/000119312525247044/"
   }
  ]
 }
