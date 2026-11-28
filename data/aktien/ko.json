@@ -6,7 +6,7 @@
  "rank": 27,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-11-27T19:20:58Z",
+ "updated_at": "2026-11-28T02:06:39Z",
  "periodic_accs": [
   "0000021344-18-000042",
   "0000021344-19-000014",
@@ -2198,30 +2198,6 @@
    "code": "P",
    "shares": 7206.0,
    "price": 69.8706,
-   "ad": "A",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/21344/000002134425000075/"
-  },
-  {
-   "acc": "0000021344-25-000075",
-   "date": "2025-10-23",
-   "name": "Levchin Max R",
-   "role": "Director",
-   "code": "P",
-   "shares": 2864.0,
-   "price": 69.8721,
-   "ad": "A",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/21344/000002134425000075/"
-  },
-  {
-   "acc": "0000021344-25-000075",
-   "date": "2025-10-23",
-   "name": "Levchin Max R",
-   "role": "Director",
-   "code": "P",
-   "shares": 4197.0,
-   "price": 70.3062,
    "ad": "A",
    "plan_10b5_1": false,
    "url": "https://www.sec.gov/Archives/edgar/data/21344/000002134425000075/"

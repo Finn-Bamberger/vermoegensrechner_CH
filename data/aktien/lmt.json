@@ -6,7 +6,7 @@
  "rank": 98,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-11-27T20:11:54Z",
+ "updated_at": "2026-11-28T02:13:36Z",
  "periodic_accs": [
   "0000936468-17-000014",
   "0000936468-18-000009",
@@ -1916,54 +1916,6 @@
    "ad": "D",
    "plan_10b5_1": false,
    "url": "https://www.sec.gov/Archives/edgar/data/936468/000122520825008753/"
-  },
-  {
-   "acc": "0001225208-25-008746",
-   "date": "2025-10-23",
-   "name": "St John Frank A",
-   "role": "Chief Operating Officer",
-   "code": "S",
-   "shares": 69.0,
-   "price": 492.42,
-   "ad": "D",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/936468/000122520825008746/"
-  },
-  {
-   "acc": "0001225208-25-008746",
-   "date": "2025-10-23",
-   "name": "St John Frank A",
-   "role": "Chief Operating Officer",
-   "code": "S",
-   "shares": 3020.0,
-   "price": 490.5827,
-   "ad": "D",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/936468/000122520825008746/"
-  },
-  {
-   "acc": "0001225208-25-008746",
-   "date": "2025-10-23",
-   "name": "St John Frank A",
-   "role": "Chief Operating Officer",
-   "code": "S",
-   "shares": 4703.0,
-   "price": 491.3097,
-   "ad": "D",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/936468/000122520825008746/"
-  },
-  {
-   "acc": "0001225208-25-008746",
-   "date": "2025-10-23",
-   "name": "St John Frank A",
-   "role": "Chief Operating Officer",
-   "code": "I",
-   "shares": 7.9896,
-   "price": 0.0,
-   "ad": "D",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/936468/000122520825008746/"
   }
  ]
 }

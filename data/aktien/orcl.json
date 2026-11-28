@@ -6,7 +6,7 @@
  "rank": 26,
  "source": "SEC EDGAR",
  "fiscal_year_end": "0531",
- "updated_at": "2026-11-27T19:20:45Z",
+ "updated_at": "2026-11-28T02:06:31Z",
  "periodic_accs": [
   "0000950170-23-028914",
   "0000950170-23-047713",
@@ -1844,18 +1844,6 @@
    "ad": "D",
    "plan_10b5_1": false,
    "url": "https://www.sec.gov/Archives/edgar/data/1341439/000134143925000072/"
-  },
-  {
-   "acc": "0001341439-25-000053",
-   "date": "2025-10-23",
-   "name": "Smith Maria",
-   "role": "EVP, Chief  Accounting Officer",
-   "code": "S",
-   "shares": 5000.0,
-   "price": 280.6245,
-   "ad": "D",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/1341439/000134143925000053/"
   }
  ]
 }

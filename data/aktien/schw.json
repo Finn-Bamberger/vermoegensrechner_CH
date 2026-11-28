@@ -6,7 +6,7 @@
  "rank": 73,
  "source": "SEC EDGAR",
  "fiscal_year_end": "1231",
- "updated_at": "2026-11-27T19:41:44Z",
+ "updated_at": "2026-11-28T02:10:37Z",
  "periodic_accs": [
   "0000316709-21-000081",
   "0000316709-22-000009",
@@ -3059,18 +3059,6 @@
    "role": "Co-Chairman",
    "code": "G",
    "shares": 31750.0,
-   "price": 0.0,
-   "ad": "D",
-   "plan_10b5_1": false,
-   "url": "https://www.sec.gov/Archives/edgar/data/316709/000092373825000035/"
-  },
-  {
-   "acc": "0000923738-25-000035",
-   "date": "2025-10-23",
-   "name": "Schwab Charles R.",
-   "role": "Co-Chairman",
-   "code": "G",
-   "shares": 18595.0,
    "price": 0.0,
    "ad": "D",
    "plan_10b5_1": false,
